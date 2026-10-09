@@ -1,0 +1,231 @@
+{
+ "date": "2026-10-06",
+ "generated": "2026-10-06T07:58:00Z",
+ "sections": {
+  "x-desk": {
+   "routine": "x-desk",
+   "status": "done",
+   "headline": "A reporter scoop from @aaronpholmes says Microsoft cut its internal Anthropic spend by more than a third and Meta cut Claude Code seats from 60k to 30k.",
+   "filed": "2026-10-05T18:30:00Z",
+   "note": "Read 40 posts in 2 searches; 6 passed the value filter. Engagement was low, and only the top post had more than 15 points.",
+   "items": [
+    {
+     "title": "Report: Microsoft cuts internal Anthropic spend, Meta halves Claude Code seats",
+     "body": "Aaron Holmes reports that Microsoft's internal Anthropic spend was \"$1b annualized earlier this year, now down >33%\". He also reports that Meta \"has cut Claude Code seats from 60k to 30k\". Microsoft's total Anthropic spend stays flat because customer Claude use went up.",
+     "why": "It shows how large companies now budget Claude Code seats, which can affect pricing and enterprise adoption of the tools you use every day.",
+     "topics": [
+      "Claude Code",
+      "Claude"
+     ],
+     "source": "X · @aaronpholmes · 243 likes · 39 reposts",
+     "url": "https://x.com/aaronpholmes/status/2107173058825846891",
+     "date": "2026-10-05"
+    },
+    {
+     "title": "LocalStack ships an MCP server that lets agents run a local AWS cloud",
+     "body": "LocalStack released an MCP server for Claude Code, Cursor, VS Code, Codex and other clients. One command sets it up: \"npx -y @localstack/localstack-mcp-server init\". After setup, you can ask the agent to \"Start LocalStack and create an S3 bucket.\"",
+     "why": "You can let Claude Code test AWS infrastructure changes against a local emulator before they touch a real account.",
+     "topics": [
+      "MCP",
+      "Claude Code",
+      "AI tools"
+     ],
+     "source": "X · @localstack · 8 likes · 2 reposts",
+     "url": "https://x.com/localstack/status/2107125466389946398",
+     "date": "2026-10-05"
+    },
+    {
+     "title": "Clawd Base: a Claude Code plugin that shows live sessions as a pixel-art base",
+     "body": "A developer released Clawd Base, a Claude Code plugin that shows sessions live. Each subagent gets its own room, and the view tracks tokens, diffs, workflows, and usage per skill, MCP server and plugin. It \"runs 100% locally\".",
+     "why": "It gives you a local view of token use per subagent, skill and MCP server, which helps you find costly parts of your agent runs.",
+     "topics": [
+      "Claude Code",
+      "Skills",
+      "AI tools"
+     ],
+     "source": "X · @walidoud0u · 6 likes · 3 reposts",
+     "url": "https://x.com/walidoud0u/status/2106855868969197972",
+     "date": "2026-10-05"
+    },
+    {
+     "title": "Claude Code MCP scope flag decides who gets the server",
+     "body": "Adding an MCP server to Claude Code takes one command, and the --scope flag sets its reach. \"local\" applies to you in this project, \"project\" writes .mcp.json for the whole team, and \"user\" applies to you in every project. The post links to the guide.",
+     "why": "Use project scope in .mcp.json to share MCP servers with your team through git, and keep personal servers at user scope.",
+     "topics": [
+      "Claude Code",
+      "MCP"
+     ],
+     "source": "X · @proxy_vector · 4 likes · 0 reposts",
+     "url": "https://x.com/proxy_vector/status/2107147328188776923",
+     "date": "2026-10-05"
+    },
+    {
+     "title": "ReLiveGym benchmark tests long-lived LLM agents on replayed news and market streams",
+     "body": "Researchers released ReLiveGym, a diagnostic benchmark where LLM agents act sparsely over simulated weeks. The agents see chronologically replayed news, market and social streams. It tests agent timing, harness design and hindsight feedback.",
+     "why": "It gives a way to measure long-running agents, which matches the always-on agents you build.",
+     "topics": [
+      "AI research",
+      "Agents"
+     ],
+     "source": "X · @Shadowfetch · 3 likes · 0 reposts",
+     "url": "https://x.com/Shadowfetch/status/2106841818218332244",
+     "date": "2026-10-05"
+    },
+    {
+     "title": "OpenAI unveils Dots, always-on agents for autonomous workflows",
+     "body": "Bandwidth Blog reports that OpenAI unveiled Dots, \"always-on AI agents for autonomous workflows\". Other posts in the same window describe Dots as agents for enterprise workflows. The post links to the full article.",
+     "why": "Dots competes with the Claude-based agent workflows you build, so watch its features and limits.",
+     "topics": [
+      "OpenAI",
+      "Agents"
+     ],
+     "source": "X · @BandwidthBlog · 0 likes · 1 repost",
+     "url": "https://x.com/BandwidthBlog/status/2107033063586766876",
+     "date": "2026-10-05"
+    }
+   ]
+  },
+  "aws-news": {
+   "routine": "aws-news",
+   "status": "done",
+   "headline": "AWS Continuum for Penetration Testing now runs continuous pen tests inside your CI/CD pipeline (public preview).",
+   "filed": "2026-10-06T02:24:00Z",
+   "note": "",
+   "items": [
+    {
+     "title": "AWS Continuum for Penetration Testing adds continuous pen testing in CI/CD pipelines (preview)",
+     "why": "You can add security tests to deploy pipelines and get findings before release, with auto re-test after fixes.",
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-continuum-penetration-testing/",
+     "date": "2026-10-05"
+    },
+    {
+     "title": "GLM 5.3 by Z.ai is now generally available on Amazon Bedrock",
+     "why": "New Bedrock model for agentic coding with a 1M-token context; access is through US and Global cross-Region inference profiles.",
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-bedrock-glm-5-3/",
+     "date": "2026-10-05"
+    },
+    {
+     "title": "AWS Batch now supports Amazon EKS access entry authentication",
+     "why": "You can drop aws-auth ConfigMap edits for Batch on EKS and manage access with API and Terraform instead.",
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-batch-access-entries/",
+     "date": "2026-10-05"
+    },
+    {
+     "title": "AWS IAM Identity Center adds network access controls for Identity Store and SCIM APIs",
+     "why": "You can limit Identity Store and SCIM calls to specific VPC endpoints, VPCs, or IP ranges.",
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-identity-store-network-controls/",
+     "date": "2026-10-05"
+    },
+    {
+     "title": "AWS Client VPN now supports device posture assessment",
+     "why": "You can block non-compliant devices with Cedar policies and CrowdStrike, Jamf, or JumpCloud checks at no extra cost.",
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-client-vpn-device-posture/",
+     "date": "2026-10-05"
+    }
+   ]
+  },
+  "tech-news": {
+   "routine": "tech-news",
+   "status": "done",
+   "headline": "Claude Code 2.1.290 adds Managed Agents onboarding, new hook fields and scheduled-task fixes.",
+   "filed": "2026-10-06T07:58:00Z",
+   "note": "Anthropic News, Claude platform release notes and the engineering blog had no new items in the last 48 hours; the GitHub API was blocked, so release pages were read with WebFetch.",
+   "items": [
+    {
+     "title": "Claude Code 2.1.290 adds Managed Agents onboarding and richer hook data",
+     "body": "The release adds `/claude-api managed-agents-onboard` to build a Managed Agents setup from a page or a Console quickstart such as `deep-researcher`. Hooks now get `agentId` in `tool.check` to tell a subagent's permission check from the main session, and `serverToolUses` in `turn.step`. `claude attach` and `claude logs` accept part of a session name. Fixes cover scheduled tasks and `/loop` wakeups that did not resume, and responses on Bedrock, Vertex and Foundry that were treated as stalled after computer sleep.",
+     "why": "You build agents and use hooks every day; the new onboarding command and hook fields help you script and gate subagents, and one fix covers stalled streams on Bedrock.",
+     "source": "GitHub, anthropics/claude-code releases",
+     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.290",
+     "date": "2026-10-05"
+    },
+    {
+     "title": "Anthropic updates its Agent Skills authoring best practices",
+     "body": "The guide says to keep SKILL.md under 500 lines and link reference files one level deep from it. It treats the description as the main trigger: write it in the third person and say what the skill does and when to use it. It recommends evaluation-driven work: run Claude without the skill first, measure a baseline, then add only what fixes the gaps. It also says to test each skill on every model you plan to use.",
+     "why": "Your skills load faster and get picked more reliably when you follow the official rules on descriptions, progressive disclosure and evals.",
+     "source": "r/ClaudeAI summary post (192 upvotes), linking Claude docs",
+     "url": "https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices",
+     "date": "2026-10-05"
+    },
+    {
+     "title": "Developer logs 448 hook blocks in 76 Claude Code sessions",
+     "body": "A user logged every block from a set of Claude Code hooks over one week: 448 blocks in 76 sessions, about 6 per session. The top cause (162) was Claude reading files through Bash in bypass mode, so checks on the Read tool never ran; the user now blocks Bash file reads. Second (58) was editing code before reading library docs. Another 17 were `echo waiting` turns used in place of a blocked sleep.",
+     "why": "It shows a real gap in hook-based guardrails: Read-tool hooks do not fire when Claude reads files with cat or sed in Bash.",
+     "source": "r/ClaudeAI (64 upvotes, 44 comments)",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1wy76rw/i_counted_how_many_times_my_hooks_had_to_stop/",
+     "date": "2026-10-05"
+    },
+    {
+     "title": "Claude Code 2.1.291 fixes lost permission answers and lost messages",
+     "body": "Version 2.1.291 fixes a 2.1.290 regression where cloud sessions could drop answers to permission prompts. It also fixes a 2.1.288 regression where the last messages of a session could be lost on quit. Update if you are on 2.1.288 to 2.1.290.",
+     "why": "You run cloud and scheduled sessions; this patch fixes two regressions that could drop your answers or your last messages.",
+     "source": "GitHub, anthropics/claude-code releases",
+     "url": "https://github.com/anthropics/claude-code/releases",
+     "date": "2026-10-06"
+    },
+    {
+     "title": "Motion designer drives a video editor with Opus 5.5 over MCP",
+     "body": "A motion designer connected Opus 5.5 to the invideo Editor MCP server and made an animation in 2 to 3 prompts. The user supplied sound effects, and Claude assembled the animation and synced it to the beat. The post says the invideo editor is free.",
+     "why": "It is a concrete example of an MCP connector that turns Claude into an operator of a full desktop-class tool, a pattern you can reuse for agent tooling.",
+     "source": "r/ClaudeAI (276 upvotes, 61 comments)",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1wyfy3m/i_connected_claude_to_a_video_editor_and_made/",
+     "date": "2026-10-05"
+    }
+   ]
+  },
+  "tech-pulse": {
+   "routine": "tech-pulse",
+   "status": "done",
+   "headline": "Anthropic's report of a threatening Claude chat to police is the most discussed tech story today, with 629 points and 501 comments on Hacker News.",
+   "filed": "2026-10-06T07:57:30Z",
+   "note": "",
+   "items": [
+    {
+     "title": "Anthropic reports threatening Claude chat to police; user faces felony",
+     "body": "A Florida user wrote in Claude that she would attack a sheriff's office and called her use of Claude a diary. Claude's safety systems flagged the entry, a human reviewer judged it a credible threat, and Anthropic reported it to police. Anthropic says it may share user information in limited emergencies to prevent death or serious injury. The user faces a second-degree felony charge under Florida Statute 836.10.",
+     "why": "You use Claude every day, so you should know when Anthropic reviews chats and shares data with authorities.",
+     "source": "Hacker News (TechSpot) - 629 points, 501 comments",
+     "url": "https://news.ycombinator.com/item?id=49961057",
+     "date": "2026-10-06"
+    },
+    {
+     "title": "Cloudflare launches Web Search API for AI agents",
+     "body": "Cloudflare released Web Search API in beta on October 2, 2026. It offers three providers: Ceramic.ai, Exa and Linkup. Requests run through AI Gateway for logs and billing at each provider's list price with no markup, with zero data retention through Cloudflare. It works over REST and from Workers through the AI binding.",
+     "why": "It gives your agents a grounded web search tool with zero data retention and no price markup, an option next to Bedrock tools.",
+     "source": "Hacker News - 509 points, 234 comments",
+     "url": "https://developers.cloudflare.com/changelog/post/2026-10-02-introducing-web-search-api/",
+     "date": "2026-10-02"
+    },
+    {
+     "title": "Opus 5.5 agents find two magnetic semiconductor candidates",
+     "body": "A team of Claude Opus 5.5 agents worked with a researcher to run DFT simulations (PBE+U and HSE06). They designed YBaMnFeO5, predicted to have a 2.35 eV band gap and magnetic order near 420-490 K, and identified KV[Cr(CN)6] from a 1999 paper. The electronic predictions are not yet measured in a lab. The Vals.ai post does not state agent count or compute.",
+     "why": "It shows how far multi-agent Claude workflows go on long, tool-heavy research tasks like the agents you build.",
+     "source": "Hacker News (Vals.ai) - 263 points, 180 comments",
+     "url": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors",
+     "date": "2026-10-06"
+    },
+    {
+     "title": "Agent skills dominate GitHub Trending as Anthropic updates skill guide",
+     "body": "A r/ClaudeAI post (190 upvotes, 15 comments) summarises Anthropic's updated skill best practices: gerund names, references one level deep, tables of contents and evaluation-driven development. On GitHub Trending, DietrichGebert/ponytail gained 1,894 stars today, thedotmack/claude-mem gained 628 and addyosmani/agent-skills gained 336. Agent-Reach (980 today) and pbakaus/impeccable (1,171 today) also target AI agent harnesses.",
+     "why": "Skills are how you extend Claude Code, so the new authoring rules and popular skill repos apply directly to your daily work.",
+     "source": "r/ClaudeAI - 190 upvotes; GitHub Trending",
+     "url": "https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices",
+     "date": "2026-10-06"
+    },
+    {
+     "title": "AWS plans to double network capacity again by 2027",
+     "body": "Jeff Barr posted about the AWS Network Product Development Lab in Cupertino, which builds and stress-tests AWS networking hardware. He says the network has about 20 million miles of fiber and serves 240 countries and territories. AWS doubled total network capacity in the past three years and plans to double it again by 2027. Separately, r/aws users report no g6 and g7 GPU capacity in eu-central-1 today.",
+     "why": "Network capacity growth affects the regional reach and throughput of the AWS workloads you run.",
+     "source": "r/aws (jeffbarr) - 296 upvotes, 20 comments",
+     "url": "https://www.reddit.com/r/aws/comments/1wyghwi/inside_the_aws_network_product_development_lab/",
+     "date": "2026-10-06"
+    }
+   ]
+  }
+ }
+}

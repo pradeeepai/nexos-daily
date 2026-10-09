@@ -1,0 +1,287 @@
+{
+ "date": "2026-10-08",
+ "generated": "2026-10-08T02:23:30Z",
+ "sections": {
+  "aws-news": {
+   "routine": "aws-news",
+   "status": "done",
+   "headline": "Claude Haiku 5.5 is now on Amazon Bedrock with effort controls, at about 75% lower cost than Haiku 4.5.",
+   "filed": "2026-10-08T02:23:30Z",
+   "note": "The AWS News Blog and Machine Learning blog had no important launches in the last 48 hours.",
+   "items": [
+    {
+     "title": "Claude Haiku 5.5 arrives on Amazon Bedrock and Claude Platform on AWS",
+     "body": "AWS made Claude Haiku 5.5 available on Amazon Bedrock and on Claude Platform on AWS on October 7. AWS says it is a large step up from Haiku 4.5 in coding, tool use, computer use and agent tasks. It is the first Haiku model with effort controls. Anthropic says it costs about 75% less than Haiku 4.5 for most tasks; it is also available in AWS GovCloud (US).",
+     "why": "You can run cheap, fast Haiku 5.5 subagents under Opus 5.5 in your AWS agents and cut token cost.",
+     "topics": [
+      "Bedrock",
+      "Claude",
+      "Agents"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/claude-haiku-5-5-aws/",
+     "date": "2026-10-07"
+    },
+    {
+     "title": "ACM ACME certificate issuance now works over AWS PrivateLink",
+     "body": "AWS Certificate Manager now supports ACME public certificate issuance through a VPC interface endpoint. Any ACMEv2 client works without changes, because private DNS resolves the same directory URL inside the VPC. CloudTrail and CloudWatch record the activity. It is available in all commercial AWS Regions; standard PrivateLink charges apply.",
+     "why": "Private workloads can now get and renew public TLS certificates without a path to the internet.",
+     "topics": [
+      "Security",
+      "DevOps"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/AWS-Certificate-Manager-ACME-Privatelink",
+     "date": "2026-10-06"
+    },
+    {
+     "title": "AWS Config adds 77 resource types, including AgentCore and EKS",
+     "body": "AWS Config now records 77 more resource types. New types include AWS::BedrockAgentCore::ResourcePolicy, AWS::BedrockAgentCore::PaymentConnector, AWS::EKS::Capability and six Amazon Q Business types. Accounts that record all resource types get them automatically. The types also work in Config rules and aggregators.",
+     "why": "You can now audit AgentCore resource policies and EKS capabilities with Config rules.",
+     "topics": [
+      "Security",
+      "Agents",
+      "Kubernetes"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-config-new-resource-types",
+     "date": "2026-10-07"
+    }
+   ]
+  },
+  "tech-pulse": {
+   "routine": "tech-pulse",
+   "status": "done",
+   "headline": "Anthropic releases Claude Haiku 5.5, a small model that costs about 75% less to run than Haiku 4.5.",
+   "filed": "2026-10-08T02:22:30Z",
+   "note": "The Hacker News 'front?day' page returned an error (HTTP 419), so the live front page was used; GitHub Trending had no AI or DevOps repositories of note.",
+   "items": [
+    {
+     "title": "Claude Haiku 5.5 arrives: cheaper, faster, and built for sub-agents",
+     "body": "Anthropic released Claude Haiku 5.5. On average it costs about 75% less to run than Haiku 4.5, and 90% less per token on tasks under 100,000 tokens. It is the first Haiku model with an adjustable effort setting, and it pairs with Opus 5.5 and Sonnet 5.5 as a coding sub-agent. Anthropic also halved the price of cache reads on Sonnet 5.5.",
+     "why": "Haiku 5.5 can cut the cost of your agent fleets and Claude Code sub-agents, and it is available on AWS now.",
+     "topics": [
+      "Claude",
+      "Agents"
+     ],
+     "source": "r/ClaudeAI · 1,877 upvotes · 268 comments",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1x03k4j/introducing_claude_haiku_55_the_cheapest_fastest/",
+     "date": "2026-10-07"
+    },
+    {
+     "title": "Mistral Large 4: open-weight 1T MoE model enters public preview",
+     "body": "Mistral Large 4 is a natively multimodal Mixture-of-Experts model with 1 trillion parameters and 49 billion active. It scores 61.7% on DeepSWE v1.1 and 28.3% on Terminal-Bench 4. The preview API costs $1.36 per million input tokens and $4.18 per million output tokens. Mistral plans to release the weights by the end of the month.",
+     "why": "It is a strong open-weight coding and agent model with low prices and a European deployment option.",
+     "topics": [
+      "Open models",
+      "Agents"
+     ],
+     "source": "Hacker News · 1,651 points · 987 comments",
+     "url": "https://mistral.ai/news/mistral-large-4/",
+     "date": "2026-10-06"
+    },
+    {
+     "title": "OpenAI publishes new math results from an internal frontier model",
+     "body": "OpenAI published a set of new results on open math problems from an unnamed internal frontier model. The results are in the openai/math GitHub repository, and many proofs are formalized in Lean. An average result used about three hours of ChatGPT Pro thinking. OpenAI worked with an advisory group at the Institute for Advanced Study on how to share the results.",
+     "why": "It shows how far long-running model reasoning has gone, with Lean proofs that a machine can check.",
+     "topics": [
+      "AI research",
+      "OpenAI"
+     ],
+     "source": "Hacker News · 631 points · 574 comments",
+     "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
+     "date": "2026-10-07"
+    },
+    {
+     "title": "GPT-6 rolls out to all ChatGPT users with Intelligent UI",
+     "body": "OpenAI is rolling out GPT-6 globally in ChatGPT. GPT-6 Sol serves paid tiers and GPT-6 Luna serves the Free and Go tiers. Intelligent UI composes answers from text, charts, forms and small tools. For web-search questions, GPT-6 Instant starts answering about 44% sooner than GPT-5.6 Instant.",
+     "why": "It shows where chat interfaces are going: models that generate interactive UI, not only text.",
+     "topics": [
+      "OpenAI"
+     ],
+     "source": "r/OpenAI · 463 upvotes · 66 comments",
+     "url": "https://openai.com/index/gpt-6-for-everyone/",
+     "date": "2026-10-07"
+    },
+    {
+     "title": "Developer uses Claude Code to find a likely new planet",
+     "body": "A Reddit user used Claude Code with Opus 5.5 to analyze NASA TESS telescope data. They found a star 116 light-years away that dims by about 0.05% every 3.18 days, in data from 2018, 2020 and 2025. The signal fits a planet about 1.4 times the size of Earth, but it is still only a candidate. The work took two weeks, 74 analyses and more than 1,000 scripts, with independent reviews from Codex and fresh agent sessions.",
+     "why": "It is a clear pattern for agent work: ask the agent to disprove the result, and use fresh read-only sessions to review.",
+     "topics": [
+      "Claude Code",
+      "Agents"
+     ],
+     "source": "r/ClaudeAI · 3,540 upvotes · 384 comments",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1wzw8zd/i_think_i_found_a_planet_nobody_knew_existed_i/",
+     "date": "2026-10-07"
+    }
+   ]
+  },
+  "tech-news": {
+   "routine": "tech-news",
+   "status": "done",
+   "headline": "Anthropic launches Claude Haiku 5.5 with a 1M context window at $0.10 per million input tokens.",
+   "filed": "2026-10-08T02:23:23Z",
+   "note": "Hacker News front page returned an error (419), so HN points came from a daily HN AI digest; the Google AI blog showed no dated posts.",
+   "items": [
+    {
+     "title": "Claude Haiku 5.5 launches: 1M context, 90% cheaper input",
+     "body": "Anthropic released claude-haiku-5-5 on October 7 with a 1M token context window and up to 128k output tokens. Prompts up to 100K tokens cost $0.10 input and $0.50 output per million tokens; longer prompts cost $0.50 and $2.50. Anthropic reports 72.4% on OSWorld 2.1 and 39.2% on Terminal-Bench 4.0, ahead of GPT-6 Luna. It is available on the Claude API, Amazon Bedrock, Google Cloud, Microsoft Foundry and Claude Platform on AWS.",
+     "why": "Haiku 5.5 is a cheap, fast model for sub-agents and high-volume agent steps, and it is available on Amazon Bedrock now.",
+     "topics": [
+      "Claude",
+      "Bedrock",
+      "Agents"
+     ],
+     "source": "Anthropic / r/ClaudeAI (1,881 upvotes)",
+     "url": "https://www.anthropic.com/claude-haiku-5-5",
+     "date": "2026-10-07"
+    },
+    {
+     "title": "Haiku 5.5 migration: breaking changes for budget_tokens, sampling and prefill",
+     "body": "Manual extended thinking with budget_tokens returns an error; adaptive thinking is on by default and responses can start with thinking blocks. Non-default temperature, top_p and top_k, and assistant prefill, also return errors. The tokenizer counts about 30% more tokens than Haiku 4.5 for the same text. Computer use moves to the computer_toolset_20260801 tool.",
+     "why": "Code that calls Haiku 4.5 today will fail with 400 errors after a model ID swap, so check the migration guide first.",
+     "topics": [
+      "Claude",
+      "Agents"
+     ],
+     "source": "Claude Platform docs",
+     "url": "https://platform.claude.com/docs/en/models/haiku-5-5/whats-new-haiku-5-5",
+     "date": "2026-10-07"
+    },
+    {
+     "title": "Claude API: cheaper Sonnet cache reads, browser SDK classes, plan credits",
+     "body": "Sonnet 5.5 cache reads now cost $0.10 per million tokens, down from $0.20. Browser and computer use SDK classes are in beta in the Python and TypeScript SDKs. Max and Team plans now include monthly API credits. In Managed Agents, allowed_hosts now also governs web_search and web_fetch under limited networking, and web_fetch only fetches URLs already seen in the session.",
+     "why": "Cheaper cache reads cut the cost of long Sonnet agent sessions, and the Managed Agents network rules change how web tools behave.",
+     "topics": [
+      "Claude",
+      "Agents"
+     ],
+     "source": "Claude Platform release notes",
+     "url": "https://platform.claude.com/docs/en/release-notes/overview",
+     "date": "2026-10-07"
+    },
+    {
+     "title": "Claude Code 2.1.292 adds effort control for sub-agents",
+     "body": "Version 2.1.292 adds an effort parameter to the Agent tool and a --marketplace option to claude plugin install. It adds CLAUDE_CODE_OVERLOADED_RETRY_BASE_DELAY_MS for longer backoff on 529 errors. It fixes NO_PROXY being ignored when HTTPS_PROXY is set and fixes claude -p and Agent SDK runs stopping background commands early.",
+     "why": "You can now set effort per sub-agent and install plugins from a chosen marketplace, which helps cost and speed tuning in daily Claude Code work.",
+     "topics": [
+      "Claude Code",
+      "Agents"
+     ],
+     "source": "GitHub anthropics/claude-code",
+     "url": "https://github.com/anthropics/claude-code/releases",
+     "date": "2026-10-06"
+    },
+    {
+     "title": "OpenAI rolls out GPT-6 Sol and Luna with Intelligent UI",
+     "body": "OpenAI is rolling out GPT-6 to all ChatGPT users. GPT-6 Sol serves Plus, Pro, Business and Enterprise; GPT-6 Luna serves Free and Go. Intelligent UI lets answers include charts, forms, buttons and small interactive tools. OpenAI says GPT-6 Instant starts web-search answers about 44% sooner than GPT-5.6 Instant; the post does not mention API changes.",
+     "why": "GPT-6 Luna is the price point that Haiku 5.5 targets, so it sets the comparison for model choice in agents.",
+     "topics": [
+      "OpenAI"
+     ],
+     "source": "OpenAI",
+     "url": "https://openai.com/index/gpt-6-for-everyone/",
+     "date": "2026-10-07"
+    },
+    {
+     "title": "Mistral Large 4: 1T-parameter MoE with open weights promised",
+     "body": "Mistral released Mistral Large 4 as a public preview: a 1-trillion-parameter multimodal MoE with 49B active parameters. API pricing is $1.36 input and $4.18 output per million tokens on Mistral Studio. Mistral says weights will ship by the end of October. It reports 61.7% on DeepSWE v1.1 and 28.3% on Terminal-Bench 4.0.",
+     "why": "A frontier-class model with open weights coming soon gives a self-hosted option for private agent workloads.",
+     "topics": [
+      "Open models"
+     ],
+     "source": "Hacker News (1,591 points)",
+     "url": "https://mistral.ai/news/mistral-large-4/",
+     "date": "2026-10-06"
+    },
+    {
+     "title": "llama.cpp PR adds GPU cache for MoE experts, up to 2.2x faster",
+     "body": "Pull request #29887 adds an LRU cache on the GPU for MoE expert weights that stay in host memory, turned on with --moe-cache-mib N. The author reports token generation on Qwen3.8-Flash-Next rising from 30.8 to 67.8 tokens/s on an RTX 5090 (2.20x). The PR is open and not yet merged.",
+     "why": "This can make large MoE models usable on one consumer GPU for local agent testing.",
+     "topics": [
+      "Open models",
+      "AI tools"
+     ],
+     "source": "r/LocalLLaMA (320 upvotes)",
+     "url": "https://github.com/ggml-org/llama.cpp/pull/29887",
+     "date": "2026-10-07"
+    }
+   ]
+  },
+  "x-desk": {
+   "routine": "x-desk",
+   "status": "done",
+   "headline": "OpenAI released new mathematical results from an internal frontier model, the top AI post on X yesterday.",
+   "filed": "2026-10-08T02:20:30Z",
+   "note": "Read 35 posts (15 from search 1, 20 from search 2); 10 passed the value filter, and no search 2 post had 20 or more likes.",
+   "items": [
+    {
+     "title": "OpenAI releases new math results from an internal frontier model",
+     "body": "OpenAI says it is \"releasing a broad range of new mathematical results produced by an internal frontier model.\" It consulted the independent Advisory Group on Mathematics and Artificial Intelligence at the Institute for Advanced Study. It used their advice for the release.",
+     "topics": [
+      "OpenAI",
+      "AI research"
+     ],
+     "source": "X · @OpenAI · 36953 likes · 5783 reposts",
+     "url": "https://x.com/OpenAI/status/2107596713791767021",
+     "date": "2026-10-06"
+    },
+    {
+     "title": "Anthropic launches Claude Haiku 5.5 at about 75% lower cost than Haiku 4.5",
+     "body": "Claude calls Haiku 5.5 \"the cheapest, fastest, and most capable small model we've ever released.\" On average, it costs around 75% less to run than Claude Haiku 4.5. Anthropic also announced it as its latest model.",
+     "topics": [
+      "Claude"
+     ],
+     "source": "X · @claudeai · 36848 likes · 2688 reposts",
+     "url": "https://x.com/claudeai/status/2107894039626277339",
+     "date": "2026-10-07"
+    },
+    {
+     "title": "GPT-6 and Intelligent UI roll out in ChatGPT for all users",
+     "body": "OpenAI is rolling out GPT-6 and Intelligent UI in ChatGPT for everyone. Intelligent UI gives \"fast, interactive answers\" that make questions more visual. It also puts interactive tools for a task on the spot.",
+     "topics": [
+      "OpenAI"
+     ],
+     "source": "X · @OpenAI · 16673 likes · 1242 reposts",
+     "url": "https://x.com/OpenAI/status/2107894997538525580",
+     "date": "2026-10-07"
+    },
+    {
+     "title": "Boris Cherny: give Claude a goal, not heavy scaffolding",
+     "body": "The Claude Code lead says: \"Talk to Claude the way you would a coworker. There's no secret to prompting.\" He says most tasks do not need overly scaffolded or prescriptive prompts. Give Claude a goal, and it will figure it out.",
+     "topics": [
+      "Claude",
+      "Claude Code"
+     ],
+     "source": "X · @bcherny · 12371 likes · 745 reposts",
+     "url": "https://x.com/bcherny/status/2107565388250874193",
+     "date": "2026-10-06"
+    },
+    {
+     "title": "Anthropic expands Cyber Verification Program to Mythos 5.1, Opus 5.5 and Sonnet 5.5",
+     "body": "Anthropic is expanding its Cyber Verification Program to give security professionals broader access to its most capable models. Verified security professionals can access Claude Mythos 5.1, Opus 5.5 and Sonnet 5.5. The access has safeguards designed for defensive work.",
+     "why": "It gives a path to stronger Claude models for defensive security work in cloud and DevOps.",
+     "topics": [
+      "Claude",
+      "AI tools"
+     ],
+     "source": "X · @AnthropicAI · 5631 likes · 598 reposts",
+     "url": "https://x.com/AnthropicAI/status/2107546569654636883",
+     "date": "2026-10-06"
+    },
+    {
+     "title": "OpenAI Decisions API enters public beta for fast model and tool routing",
+     "body": "The Decisions API lets an app choose the right model, tool or action in near real time. It is now available to all developers in public beta. OpenAI says it makes decisions up to 10x faster than GPT-6 Luna through the Responses API.",
+     "topics": [
+      "OpenAI",
+      "Agents"
+     ],
+     "source": "X · @OpenAIDevs · 4676 likes · 426 reposts",
+     "url": "https://x.com/OpenAIDevs/status/2107573382229188645",
+     "date": "2026-10-06"
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,289 @@
+{
+ "date": "2026-10-07",
+ "generated": "2026-10-07T02:24:30Z",
+ "sections": {
+  "tech-news": {
+   "routine": "tech-news",
+   "status": "done",
+   "headline": "Anthropic merges Glasswing into its Cyber Verification Program and opens Claude Mythos 5.1 to verified defenders.",
+   "filed": "2026-10-07T02:23:43Z",
+   "note": "The Hacker News front?day page returned an error (419), so HN rankings came from the hnrss.org feed.",
+   "items": [
+    {
+     "title": "Anthropic merges Glasswing into Cyber Verification Program, opens Mythos 5.1",
+     "body": "Anthropic merged Project Glasswing and the Cyber Verification Program (CVP) into one program with three tiers: Defense, Red Team and Specialized Access. Approved members get Claude Opus 5.5, Sonnet 5.5 and Claude Mythos 5.1 through the Claude Platform, Vertex AI, Microsoft Foundry and Amazon Bedrock. Glasswing partners found at least 129,000 verified vulnerabilities from April to July 2026. CVP members on r/ClaudeAI report that Mythos now shows under \"More Models\" in chat.",
+     "why": "Your security and DevOps work may qualify for Defense Access to stronger Claude models on Bedrock and the Claude Platform.",
+     "topics": [
+      "Claude",
+      "Security",
+      "Bedrock"
+     ],
+     "source": "Anthropic News; r/ClaudeAI (100 and 70 upvotes)",
+     "url": "https://www.anthropic.com/news/cyber-verification-program",
+     "date": "2026-10-06"
+    },
+    {
+     "title": "Claude Code 2.1.290 adds hook fields and Managed Agents onboarding",
+     "body": "Version 2.1.290 adds serverToolUses to the turn.step hook result, agentId to the tool.check event, and a /claude-api managed-agents-onboard command. It fixes WebFetch dropping text past 100,000 characters, scheduled tasks not firing after compaction, and plan mode approving non-read-only connector tools. Version 2.1.291 followed on October 6 to fix dropped permission answers in cloud sessions and lost messages on quit.",
+     "why": "You use Claude Code daily, and this release changes hooks, permissions, scheduled tasks and WebFetch behaviour.",
+     "topics": [
+      "Claude Code",
+      "Agents"
+     ],
+     "source": "GitHub anthropics/claude-code releases",
+     "url": "https://github.com/anthropics/claude-code/releases",
+     "date": "2026-10-06"
+    },
+    {
+     "title": "Claude Startups gives a free year of Claude Team and $1,000 credits",
+     "body": "Startups founded in the last five years, or funded in the last two years, can apply through the Claude Console. They get one free year of Claude Team with up to five Premium seats, $1,000 in API credits with higher rate limits, and partner offers worth up to $45,000. Credits work only on the Claude API, not on Amazon Bedrock or Vertex AI.",
+     "why": "If you start a product or help a startup client, this cuts the first-year cost of Claude seats and API usage.",
+     "topics": [
+      "Claude",
+      "AI tools"
+     ],
+     "source": "madrobot.blog via r/ClaudeAI (1,062 upvotes)",
+     "url": "https://claude.com/programs/startups",
+     "date": "2026-10-06"
+    },
+    {
+     "title": "OpenAI Decisions API enters public beta at $0.10 per million tokens",
+     "body": "The new POST /v1/decisions endpoint returns typed answers: a predicate probability, a choice from fixed options, or a severity score. OpenAI says it is about 10 times faster than the Responses API. It runs only on gpt-6-luna and costs $0.10 per 1M input tokens, with no charge for output. General availability is expected in the coming weeks.",
+     "why": "It is a cheap, fast option for classification and routing steps inside your agent pipelines.",
+     "topics": [
+      "OpenAI",
+      "Agents"
+     ],
+     "source": "OpenAI developer docs; Hacker News (155 points)",
+     "url": "https://developers.openai.com/api/docs/guides/decisions",
+     "date": "2026-10-06"
+    },
+    {
+     "title": "Google releases EmbeddingGemma 2, an open multimodal embedding model",
+     "body": "EmbeddingGemma 2 has 740M parameters on the Gemma 4 architecture, and text-only use needs about 270M. It embeds text, code, images, video and audio in one space with an 8K token context, four times larger than version 1. Weights are on Hugging Face and Kaggle under Apache 2.0, with support in Ollama, llama.cpp and Qdrant.",
+     "why": "You can run local RAG over text, code, images and audio with one small Apache 2.0 model.",
+     "topics": [
+      "Gemini",
+      "Open models"
+     ],
+     "source": "Google Blog; Hacker News (228 points); r/LocalLLaMA (361 upvotes)",
+     "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
+     "date": "2026-10-06"
+    },
+    {
+     "title": "Reflection announces Beam, a 501B open-weight MoE model for coding",
+     "body": "Beam is a sparse mixture-of-experts model with 501B total and 23B active parameters. Reflection pretrained it on 23.8 trillion tokens and ran over 100 million RL rollouts on 10.5K NVIDIA GB300 GPUs. It targets coding, reasoning and agentic tasks under Apache 2.0. Early access is open now, and full weights are due later in October.",
+     "why": "It is a new Apache 2.0 option for self-hosted coding and agent workloads once the weights ship.",
+     "topics": [
+      "Open models",
+      "Agents"
+     ],
+     "source": "Reflection AI; Hacker News (449 points)",
+     "url": "https://reflection.ai/blog/introducing-beam",
+     "date": "2026-10-06"
+    },
+    {
+     "title": "OpenAI publishes new AI math results with Lean proofs",
+     "body": "OpenAI released a set of new results on open math problems in a GitHub repository. An internal frontier model produced them at about 3 hours of ChatGPT Pro thinking per result on average. Several proofs are formalized in Lean. OpenAI worked with the Institute for Advanced Study on publication practices.",
+     "why": "It shows how long-thinking models plus formal verification produce results you can check, a pattern for trustworthy agent output.",
+     "topics": [
+      "OpenAI",
+      "AI research"
+     ],
+     "source": "OpenAI; Hacker News (460 points)",
+     "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
+     "date": "2026-10-06"
+    }
+   ]
+  },
+  "x-desk": {
+   "routine": "x-desk",
+   "status": "done",
+   "headline": "Claude now works inside Google Docs, Sheets and Slides, and it was the top AI post on X yesterday with 26,670 likes.",
+   "filed": "2026-10-07T02:21:04Z",
+   "note": "Read 29 posts in 2 searches; 11 passed the value filter.",
+   "items": [
+    {
+     "title": "Claude now works inside Google Docs, Sheets and Slides",
+     "body": "Anthropic put Claude in a sidebar in Google Workspace. Claude \"reads what you have open, and edits it in place\", and you can approve each edit before it lands. Google Docs, Sheets and Slides files also open inside Claude.",
+     "topics": [
+      "Claude",
+      "AI tools"
+     ],
+     "source": "X · @claudeai · 26670 likes · 1588 reposts",
+     "url": "https://x.com/claudeai/status/2107522596845822135",
+     "date": "2026-10-06"
+    },
+    {
+     "title": "Claude Startups program expands to more founders",
+     "body": "Anthropic opened the Claude Startups program to more founders. Members can get a year of Claude Team, API credits, special offers on startup tools, and office hours with Anthropic's Applied AI team.",
+     "topics": [
+      "Claude"
+     ],
+     "source": "X · @claudeai · 11474 likes · 627 reposts",
+     "url": "https://x.com/claudeai/status/2107513494493179954",
+     "date": "2026-10-06"
+    },
+    {
+     "title": "Google releases Nano Banana 2.1 image model",
+     "body": "Google AI Studio launched Nano Banana 2.1. It adds better visual design, mask-based editing, subject consistency and more natural images. Logan Kilpatrick adds that it has bug fixes, a lower price point, and is in the API, AI Studio and the Gemini app.",
+     "why": "A cheaper image model with mask-based editing is a new option for image steps in agent workflows.",
+     "topics": [
+      "Gemini"
+     ],
+     "source": "X · @GoogleAIStudio · 5889 likes · 436 reposts",
+     "url": "https://x.com/GoogleAIStudio/status/2107501303890915550",
+     "date": "2026-10-06"
+    },
+    {
+     "title": "EmbeddingGemma 2: open multimodal embeddings that run on device",
+     "body": "Google DeepMind released EmbeddingGemma 2, its \"first natively multimodal open model for on-device embeddings\". It puts code, images, audio and video in one shared embedding space.",
+     "topics": [
+      "Open models",
+      "Gemini"
+     ],
+     "source": "X · @GoogleDeepMind · 3109 likes · 369 reposts",
+     "url": "https://x.com/GoogleDeepMind/status/2107502286758895878",
+     "date": "2026-10-06"
+    },
+    {
+     "title": "Boris Cherny: Opus 5.5 built an interactive episode companion site",
+     "body": "Boris Cherny asked Opus 5.5 to make an interactive website companion for the Acquired Home Depot episode. Claude also drew the watercolor illustrations. The post links the live site and the episode.",
+     "topics": [
+      "Claude"
+     ],
+     "source": "X · @bcherny · 1181 likes · 47 reposts",
+     "url": "https://x.com/bcherny/status/2107516876876362200",
+     "date": "2026-10-06"
+    },
+    {
+     "title": "OpenAI demo: voice tasks, multi-project agents and worktrees in Codex CLI",
+     "body": "OpenAI Developers posted a video guide for the Codex CLI. It shows how to start tasks by voice, manage agents across projects, and try another direction in a separate worktree.",
+     "topics": [
+      "OpenAI",
+      "Agents",
+      "AI tools"
+     ],
+     "source": "X · @OpenAIDevs · 972 likes · 80 reposts",
+     "url": "https://x.com/OpenAIDevs/status/2107242397361139938",
+     "date": "2026-10-05"
+    }
+   ]
+  },
+  "tech-pulse": {
+   "routine": "tech-pulse",
+   "status": "done",
+   "headline": "Mistral Large 4, a 1-trillion-parameter open-weight MoE model, led yesterday's developer talk with 1,603 points on Hacker News.",
+   "filed": "2026-10-07T02:22:41Z",
+   "note": "The HN 'front?day' page returned error 419, so HN data came from the front page and the HN Algolia API; GitHub Trending returned stale old data, so it was not used.",
+   "items": [
+    {
+     "title": "Mistral Large 4 arrives: 1T-parameter MoE, open weights this month",
+     "body": "Mistral released Mistral Large 4 as a public preview API in Mistral Studio. It is a multimodal mixture-of-experts model with 1 trillion total and 49 billion active parameters. It scores 61.7% on DeepSWE v1.1 and 93% on Cybench, and costs $1.36 input and $4.18 output per million tokens. Mistral says it will release the weights by the end of October.",
+     "why": "It is a cheap, strong coding and agent model that you can soon self-host, so it is a real option next to Claude for some agent workloads.",
+     "topics": [
+      "Open models",
+      "Agents"
+     ],
+     "source": "Hacker News · 1,603 points · 969 comments",
+     "url": "https://mistral.ai/news/mistral-large-4/",
+     "date": "2026-10-06"
+    },
+    {
+     "title": "Reflection releases Beam, a 501B open-weight model for coding agents",
+     "body": "Reflection AI released Beam, a sparse MoE model with 501 billion total and 23 billion active parameters. It has a 1-million-token context and an Apache 2.0 license. Reflection reports 77.2% on SWE Bench Pro v2-Hard and 80.1% on Terminal Bench v2.1. API access is through an early-access waitlist at platform.reflection.ai.",
+     "why": "Beam targets agentic coding with a 1M-token context and an Apache 2.0 license, so you can test it as a self-hosted backend for your agents.",
+     "topics": [
+      "Open models",
+      "Agents"
+     ],
+     "source": "Hacker News · 541 points · 168 comments",
+     "url": "https://reflection.ai/blog/introducing-beam",
+     "date": "2026-10-06"
+    },
+    {
+     "title": "Anthropic launches Claude Startups: free Claude Team year plus credits",
+     "body": "Anthropic's Claude Startups program is for startups founded in the last five years or funded in the last two years. Members get one free year of Claude Team (up to five Premium seats), $1,000 in API credits, and partner perks worth up to $45,000. Credits work only on Anthropic's API, not on Amazon Bedrock or Vertex AI. You apply from the Claude Console.",
+     "why": "If you or a client runs a young startup, this gives a free year of Claude Team and API credits for agent work.",
+     "topics": [
+      "Claude"
+     ],
+     "source": "r/ClaudeAI · 1,057 upvotes · 131 comments",
+     "url": "https://madrobot.blog/2026/10/06/anthropic-claude-startups-free-year-claude-team-1000-api-credits/",
+     "date": "2026-10-06"
+    },
+    {
+     "title": "Opus 5.5 agent team finds two room-temperature magnetic semiconductor candidates",
+     "body": "Vals AI reports that a team of Claude Opus 5.5 agents, working with researcher Geby Jaff, ran density functional theory simulations to find spintronic materials. They proposed a new compound, YBaMnFeO5, and flagged KV[Cr(CN)6], first made in 1999. The results were checked with PBE+U and HSE06 methods, and the inputs and code are in a public GitHub repository.",
+     "why": "It is a concrete example of a multi-agent Claude system doing long scientific work, with a public repo you can study.",
+     "topics": [
+      "Claude",
+      "Agents",
+      "AI research"
+     ],
+     "source": "Hacker News · 482 points · 325 comments",
+     "url": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors",
+     "date": "2026-10-06"
+    },
+    {
+     "title": "Google releases EmbeddingGemma 2 for text, image, video and audio",
+     "body": "Google released EmbeddingGemma 2, a 740M-parameter open model that embeds text, images, video and audio in one space. It has an 8,192-token context and 768-dimension vectors that you can truncate to 512, 256 or 128. It scores 61.36 on multilingual MTEB and 78.68 on MTEB code, and supports over 100 languages.",
+     "why": "A small Apache 2.0 embedding model that runs on a laptop is useful for RAG and agent memory without a paid embedding API.",
+     "topics": [
+      "Open models",
+      "AI tools"
+     ],
+     "source": "r/LocalLLaMA · 366 upvotes · 84 comments; Hacker News · 228 points",
+     "url": "https://huggingface.co/google/embeddinggemma-2",
+     "date": "2026-10-06"
+    }
+   ]
+  },
+  "aws-news": {
+   "routine": "aws-news",
+   "status": "done",
+   "headline": "Claude Opus 5.5 and Sonnet 5.5 are now on Amazon Bedrock in AWS GovCloud, so Claude Code can serve regulated workloads.",
+   "filed": "2026-10-07T02:24:30Z",
+   "note": "",
+   "items": [
+    {
+     "title": "Claude Opus 5.5 and Sonnet 5.5 arrive in AWS GovCloud",
+     "body": "Claude Opus 5.5, Claude Sonnet 5.5 and Claude Sonnet 5 are available on Amazon Bedrock in AWS GovCloud (US). Opus 5.5 and Sonnet 5.5 have FedRAMP Class D certification; Sonnet 5 also has DoD IL4/IL5 authorization. The bedrock-runtime endpoint is in US-West and US-East; bedrock-mantle is in US-West only. Claude Code connects to Bedrock through environment variables for region and model.",
+     "why": "Claude Code on Bedrock can now run for regulated and ITAR clients while data stays in GovCloud.",
+     "topics": [
+      "Claude",
+      "Bedrock",
+      "Security"
+     ],
+     "source": "AWS Machine Learning Blog",
+     "url": "https://aws.amazon.com/blogs/machine-learning/supercharge-regulated-workloads-with-claude-code-and-amazon-bedrock/",
+     "date": "2026-10-05"
+    },
+    {
+     "title": "Z.ai GLM 5.3 coding model is generally available on Bedrock",
+     "body": "GLM 5.3 is a mixture-of-experts model with 753B total parameters and about 40B active per token. It has a 1M-token context window, up to 128K output tokens, adjustable reasoning effort and explicit prompt caching. It is available to eligible enterprise customers through US and Global cross-region inference profiles.",
+     "why": "It is a new agentic coding model on Bedrock to compare against Claude for long agent tasks.",
+     "topics": [
+      "Bedrock",
+      "Agents"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-bedrock-glm-5-3/",
+     "date": "2026-10-05"
+    },
+    {
+     "title": "Amazon Nova 2.5 Sonic improves reasoning for voice agents",
+     "body": "Amazon Nova 2.5 Sonic is a generally available speech-to-speech model with improved reasoning, instruction following and tool-calling accuracy. It has a 256K context window, seven languages, mixed voice and text sessions and asynchronous tool calling. It works with Strands Bidi Agents and is in us-east-1, us-west-2, eu-north-1 and ap-northeast-1 at Nova 2 Sonic prices.",
+     "why": "Better tool calling and asynchronous tools make voice agents on Bedrock more practical to build.",
+     "topics": [
+      "Bedrock",
+      "Agents"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-nova-2.5-sonic/",
+     "date": "2026-10-05"
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,24 @@
+{
+ "editions": [
+  {
+   "date": "2026-10-08",
+   "stories": 21,
+   "headline": "Claude Haiku 5.5 launches: 1M context, 90% cheaper input"
+  },
+  {
+   "date": "2026-10-07",
+   "stories": 21,
+   "headline": "Anthropic merges Glasswing into Cyber Verification Program, opens Mythos 5.1"
+  },
+  {
+   "date": "2026-10-06",
+   "stories": 21,
+   "headline": "Claude Code 2.1.290 adds Managed Agents onboarding and richer hook data"
+  },
+  {
+   "date": "2026-10-05",
+   "stories": 5,
+   "headline": "Amazon Bedrock Managed Agents powered by OpenAI (public preview), plus GPT-6.1 Sol and Claude Sonnet 5.5 on Bedrock"
+  }
+ ]
+}

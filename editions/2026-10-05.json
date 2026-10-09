@@ -1,0 +1,50 @@
+{
+ "date": "2026-10-05",
+ "generated": "2026-10-05T18:12:30Z",
+ "sections": {
+  "aws-news": {
+   "routine": "aws-news",
+   "status": "done",
+   "headline": "Amazon Bedrock Managed Agents powered by OpenAI is now in public preview and can run on AgentCore Runtime.",
+   "filed": "2026-10-05T18:12:30Z",
+   "note": "AWS published no What's New items on Oct 3-4 (weekend). Items come from Oct 2 and the Oct 5 weekly roundup. No Mumbai or Hyderabad region news found.",
+   "items": [
+    {
+     "title": "Amazon Bedrock Managed Agents powered by OpenAI (public preview), plus GPT-6.1 Sol and Claude Sonnet 5.5 on Bedrock",
+     "why": "New managed agent option that runs on AgentCore Runtime in your account; compare it with your current agent stack.",
+     "source": "AWS News Blog (Weekly Roundup)",
+     "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-amazon-bedrock-managed-agents-powered-by-openai-q3-service-availability-updates-kiro-workflows-and-more-october-5-2026/",
+     "date": "2026-10-05"
+    },
+    {
+     "title": "Amazon ECS adds Amazon VPC Lattice support for blue/green, linear, and canary deployments",
+     "why": "ECS services behind VPC Lattice get native traffic shifting and alarm-based rollback without CodeDeploy.",
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ecs-vpc-lattice-blue-green-deployments",
+     "date": "2026-10-02"
+    },
+    {
+     "title": "AgentCore Gateway supports private TLS certificates for VPC endpoints",
+     "why": "AgentCore Gateway can reach private MCP and API targets with private-CA certs and no extra load balancer.",
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/agentcore-gateway-private-tls-vpc/",
+     "date": "2026-10-02"
+    },
+    {
+     "title": "Amazon EKS and Amazon EKS Distro now support Kubernetes version 1.37",
+     "why": "Plan cluster upgrades; 1.37 adds HPA scale-to-zero and better metrics APIs.",
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-eks-distro-kubernetes-version-1-37",
+     "date": "2026-10-02"
+    },
+    {
+     "title": "GuardDuty Runtime Monitoring is now included in the AWS Security Hub Threat Analytics plan",
+     "why": "Billing change: Runtime Monitoring charges move into Security Hub; check cost reports and budgets.",
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-security-hub-runtime-monitoring/",
+     "date": "2026-10-02"
+    }
+   ]
+  }
+ }
+}

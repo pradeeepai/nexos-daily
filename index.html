@@ -1,0 +1,403 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>The Nexos Daily</title>
+<meta name="description" content="An AI-first morning paper: the most valuable AI, developer and AWS stories from yesterday, picked and summarised by scheduled AI desks.">
+<meta property="og:title" content="The Nexos Daily">
+<meta property="og:description" content="AI first. What trended yesterday, with a link to every source.">
+<link rel="alternate" type="application/json" title="Editions" href="editions/index.json">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,700..900&family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+/* Layout: a loud tech-magazine front. Black masthead band with a huge condensed wordmark; a purple section rail; a trending-topics strip; a hero row (purple lead block + ranked top stories); then the story stream: one readable column with a purple timeline spine, and a slim side rail on wide screens. Footer band in black. */
+:root{
+  --bg:#ffffff;--bg-2:#f3f2f7;--ink:#0e0d12;--ink-2:#55535e;--line:#e3e1ea;--band:#0e0d12;--on-band:#ffffff;
+  --purple:#5b2ef0;--purple-ink:#4a1fd6;--purple-soft:#ece6ff;--on-purple:#ffffff;
+  --f-display:"Archivo",Impact,"Arial Narrow",sans-serif;
+  --f-text:"Instrument Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --fs:18px;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0e0d12;--bg-2:#18171f;--ink:#f1f0f5;--ink-2:#a9a6b5;--line:#2a2833;--band:#000000;--purple:#6d44ff;--purple-ink:#b9a4ff;--purple-soft:#211a3d;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0e0d12;--bg-2:#18171f;--ink:#f1f0f5;--ink-2:#a9a6b5;--line:#2a2833;--band:#000000;--purple:#6d44ff;--purple-ink:#b9a4ff;--purple-soft:#211a3d;color-scheme:dark}
+:root[data-size="s"]{--fs:16px}:root[data-size="l"]{--fs:20px}:root[data-size="xl"]{--fs:22px}
+
+*,*::before,*::after{box-sizing:border-box}
+[hidden]{display:none!important}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--f-text);font-size:var(--fs);line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+button{font:inherit;color:inherit}
+:focus-visible{outline:3px solid var(--purple);outline-offset:2px}
+.wrap{max-width:1240px;margin:0 auto;padding-inline:clamp(16px,3vw,32px)}
+
+/* Masthead band */
+.band{background:var(--band);color:var(--on-band)}
+.band__top{display:flex;align-items:center;justify-content:space-between;gap:12px;padding-block:14px 10px;padding-top:calc(14px + env(safe-area-inset-top,0px))}
+.word{display:flex;align-items:baseline;gap:10px;text-decoration:none;color:var(--on-band)}
+.word b{font-family:var(--f-display);font-weight:900;font-stretch:62%;font-size:clamp(46px,9vw,96px);line-height:.85;letter-spacing:-.01em;text-transform:uppercase}
+.word i{font-style:normal;font-family:var(--f-display);font-weight:800;font-stretch:75%;font-size:clamp(16px,2.4vw,24px);text-transform:uppercase;color:#b9a4ff;letter-spacing:.04em}
+.tools{display:flex;align-items:center;gap:6px}
+.tb{display:inline-grid;place-items:center;min-width:38px;height:38px;padding:0 10px;border:1px solid rgba(255,255,255,.28);border-radius:999px;background:transparent;color:var(--on-band);cursor:pointer;font-size:14px;font-weight:600}
+.tb:hover:not(:disabled){background:#fff;color:#0e0d12}
+.tb:disabled{opacity:.3;cursor:not-allowed}
+.tb svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.datebtn{position:relative}
+.datebtn input{position:absolute;inset:0;opacity:0;cursor:pointer;width:100%}
+.band__meta{display:flex;justify-content:space-between;flex-wrap:wrap;gap:4px 16px;padding-bottom:12px;font-size:13px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:rgba(255,255,255,.72)}
+.rail{position:sticky;top:0;z-index:20;background:var(--purple);color:var(--on-purple)}
+.rail__in{display:flex;gap:4px;overflow-x:auto;scrollbar-width:none;padding-top:env(safe-area-inset-top,0px)}
+.rail__in::-webkit-scrollbar{display:none}
+.rt{flex:none;height:46px;padding:0 14px;border:0;background:none;cursor:pointer;color:var(--on-purple);font-family:var(--f-display);font-weight:800;font-stretch:80%;font-size:16px;letter-spacing:.04em;text-transform:uppercase;border-bottom:4px solid transparent}
+.rt small{font-family:var(--f-text);font-weight:600;font-size:12px;opacity:.8;margin-left:4px}
+.rt:hover{border-bottom-color:rgba(255,255,255,.5)}
+.rt[aria-selected="true"]{border-bottom-color:#fff}
+@media (max-width:560px){.band__meta span:nth-child(2){display:none}}
+
+/* Trending strip */
+.trend{display:flex;align-items:center;gap:10px;padding-block:14px;border-bottom:1px solid var(--line);overflow-x:auto;scrollbar-width:none}
+.trend::-webkit-scrollbar{display:none}
+.trend__lbl{flex:none;font-family:var(--f-display);font-weight:900;font-stretch:70%;font-size:18px;text-transform:uppercase;color:var(--purple-ink)}
+.chip{flex:none;display:inline-flex;align-items:center;gap:6px;height:32px;padding:0 13px;border:1.5px solid var(--ink);border-radius:999px;background:transparent;cursor:pointer;font-size:14px;font-weight:600;white-space:nowrap}
+.chip small{font-size:12px;color:var(--ink-2)}
+.chip:hover{border-color:var(--purple);color:var(--purple-ink)}
+.chip[aria-pressed="true"]{background:var(--purple);border-color:var(--purple);color:var(--on-purple)}
+.chip[aria-pressed="true"] small{color:var(--on-purple);opacity:.8}
+
+/* Hero */
+.hero{display:grid;grid-template-columns:minmax(0,1.65fr) minmax(0,1fr);gap:28px;padding-block:24px 32px;border-bottom:4px solid var(--ink)}
+.lead{background:var(--purple);color:var(--on-purple);padding:clamp(22px,3.4vw,40px);display:flex;flex-direction:column;justify-content:flex-end;min-height:420px;position:relative;overflow:hidden}
+.lead::before{content:"";position:absolute;right:-80px;top:-80px;width:280px;height:280px;border-radius:50%;border:42px solid rgba(255,255,255,.08)}
+.lead .kick{color:#e3d9ff}
+.lead h1{margin:10px 0 0;font-family:var(--f-display);font-weight:900;font-stretch:68%;font-size:clamp(40px,5.6vw,72px);line-height:.95;letter-spacing:-.005em;text-transform:none;text-wrap:balance;position:relative}
+.lead h1 a{text-decoration:none}
+.lead h1 a:hover{text-decoration:underline;text-decoration-thickness:3px;text-underline-offset:6px}
+.lead .dek{margin:16px 0 0;font-size:1.05em;line-height:1.5;max-width:42em;color:#f2edff;position:relative}
+.lead .meta{margin-top:16px;font-size:14px;font-weight:600;color:#e3d9ff;position:relative}
+.lead .meta a{color:#fff}
+.tops h2{margin:0 0 6px;font-family:var(--f-display);font-weight:900;font-stretch:70%;font-size:26px;text-transform:uppercase;border-bottom:4px solid var(--purple);padding-bottom:6px;display:inline-block}
+.tops ol{margin:0;padding:0;list-style:none;counter-reset:n}
+.tops li{display:grid;grid-template-columns:44px minmax(0,1fr);gap:4px 10px;padding:14px 0;border-bottom:1px solid var(--line);counter-increment:n}
+.tops li:last-child{border-bottom:0}
+.tops li::before{content:counter(n);grid-row:1 / span 2;font-family:var(--f-display);font-weight:900;font-stretch:62%;font-size:44px;line-height:.9;color:var(--purple-ink)}
+.tops h3{margin:0;font-family:var(--f-display);font-weight:800;font-stretch:85%;font-size:20px;line-height:1.15}
+.tops h3 a{text-decoration:none}
+.tops h3 a:hover{color:var(--purple-ink);text-decoration:underline}
+.tops .src{font-size:13px;font-weight:600;color:var(--ink-2)}
+@media (max-width:900px){.hero{grid-template-columns:minmax(0,1fr)}.lead{min-height:340px}}
+
+/* Kicker */
+.kick{display:flex;flex-wrap:wrap;align-items:center;gap:4px 10px;margin:0;font-size:12.5px;font-weight:700;letter-spacing:.09em;text-transform:uppercase}
+.kick .sec{color:var(--purple-ink)}
+.kick .src{color:var(--ink-2)}
+.lead .kick .sec,.lead .kick .src{color:#e3d9ff}
+
+/* Stream */
+.body{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:40px;padding-block:28px 40px}
+.stream h2.sh{margin:0 0 8px;font-family:var(--f-display);font-weight:900;font-stretch:70%;font-size:30px;text-transform:uppercase}
+.stream h2.sh span{color:var(--purple-ink)}
+.items{position:relative;padding-left:28px}
+.items::before{content:"";position:absolute;left:6px;top:8px;bottom:8px;width:3px;background:var(--purple);border-radius:2px}
+.story{position:relative;padding:20px 0 24px;border-bottom:1px solid var(--line);max-width:720px}
+.story::before{content:"";position:absolute;left:-28px;top:26px;width:15px;height:15px;border-radius:50%;background:var(--bg);border:3px solid var(--purple)}
+.story h3{margin:8px 0 0;font-family:var(--f-display);font-weight:800;font-stretch:85%;font-size:clamp(24px,2.6vw,30px);line-height:1.12;letter-spacing:-.005em;text-wrap:balance}
+.story h3 a{text-decoration:none}
+.story h3 a:hover{color:var(--purple-ink);text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:4px}
+.story p.txt{margin:10px 0 0;max-width:66ch}
+.story .why{margin:12px 0 0;padding:10px 14px;background:var(--purple-soft);border-left:4px solid var(--purple);font-size:.92em}
+.story .why b{color:var(--purple-ink)}
+.foot{display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px;margin-top:12px;font-size:14px;color:var(--ink-2)}
+.foot a{font-weight:700;color:var(--ink);text-decoration:none;border-bottom:2px solid var(--purple)}
+.foot a:hover{color:var(--purple-ink)}
+.tag{border:0;background:var(--bg-2);border-radius:999px;padding:3px 10px;font-size:12.5px;font-weight:600;color:var(--ink-2);cursor:pointer}
+.tag:hover{background:var(--purple-soft);color:var(--purple-ink)}
+.side{display:grid;gap:24px;align-content:start;position:sticky;top:64px;max-height:calc(100vh - 80px);overflow:auto}
+.box{border-top:4px solid var(--ink);padding-top:10px}
+.box h4{margin:0 0 8px;font-family:var(--f-display);font-weight:900;font-stretch:70%;font-size:20px;text-transform:uppercase}
+.stat{display:flex;justify-content:space-between;gap:10px;padding:8px 0;border-bottom:1px solid var(--line);font-size:15px}
+.stat b{font-family:var(--f-display);font-weight:900;font-stretch:70%;font-size:22px;color:var(--purple-ink);font-variant-numeric:tabular-nums}
+.note{margin:0;font-size:14px;line-height:1.5;color:var(--ink-2)}
+.days{display:flex;flex-wrap:wrap;gap:6px}
+.day{border:1.5px solid var(--ink);background:none;border-radius:999px;padding:4px 11px;cursor:pointer;font-size:13px;font-weight:600}
+.day[aria-current="true"]{background:var(--ink);color:var(--bg)}
+@media (max-width:980px){.body{grid-template-columns:minmax(0,1fr)}.side{position:static;max-height:none}}
+@media (max-width:520px){.items{padding-left:22px}.story::before{left:-22px}.items::before{left:4px}}
+
+/* Empty, panels */
+.empty{padding:64px 0;text-align:center}
+.empty h2{margin:0 0 8px;font-family:var(--f-display);font-weight:900;font-stretch:70%;font-size:40px;text-transform:uppercase}
+.empty p{margin:0 auto;max-width:34em;color:var(--ink-2)}
+.pill{margin-top:12px;border:1.5px solid var(--ink);background:none;border-radius:999px;padding:6px 14px;cursor:pointer;font-weight:600;font-size:14px}
+.pill--purple{background:var(--purple);border-color:var(--purple);color:var(--on-purple)}
+.panel{padding-block:28px 48px;max-width:820px}
+.panel h2{margin:0;font-family:var(--f-display);font-weight:900;font-stretch:66%;font-size:clamp(44px,7vw,72px);line-height:.95;text-transform:uppercase}
+.panel h2 span{color:var(--purple-ink)}
+.panel .lede{margin:8px 0 20px;color:var(--ink-2)}
+.search{width:100%;height:50px;padding:0 18px;font:17px var(--f-text);color:var(--ink);background:var(--bg);border:2px solid var(--ink);border-radius:999px}
+.search:focus{border-color:var(--purple);outline:none}
+.hit{padding:16px 0;border-bottom:1px solid var(--line)}
+.hit h3{margin:6px 0 0;font-family:var(--f-display);font-weight:800;font-stretch:85%;font-size:21px;line-height:1.2}
+.hit h3 a{text-decoration:none}
+.hit p{margin:4px 0 0;font-size:15px;color:var(--ink-2)}
+mark{background:var(--purple-soft);color:var(--purple-ink);padding:0 2px}
+.row{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:6px 16px;align-items:center;padding:16px 0;border-bottom:1px solid var(--line)}
+.row b{font-family:var(--f-display);font-weight:800;font-stretch:85%;font-size:20px}
+.row .m{grid-column:1 / -1;font-size:14px;color:var(--ink-2)}
+.st{font-size:12.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
+.st.bad{color:#c0262d}
+.btns{display:flex;gap:8px}
+.btn{height:36px;padding:0 16px;border-radius:999px;border:1.5px solid var(--ink);background:transparent;cursor:pointer;font-size:14px;font-weight:700}
+.btn--p{background:var(--purple);border-color:var(--purple);color:var(--on-purple)}
+.btn:disabled{opacity:.4;cursor:not-allowed}
+footer.band{margin-top:24px}
+.foot-in{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px 20px;padding-block:22px calc(22px + env(safe-area-inset-bottom,0px));font-size:13px;color:rgba(255,255,255,.72)}
+.foot-in b{font-family:var(--f-display);font-weight:900;font-stretch:62%;font-size:28px;color:#fff;text-transform:uppercase}
+
+/* Menu */
+.backdrop{position:fixed;inset:0;z-index:40;background:rgba(0,0,0,.45)}
+.sheet{position:fixed;z-index:41;top:0;right:0;bottom:0;width:min(360px,100vw);background:var(--bg);border-left:4px solid var(--purple);padding:calc(18px + env(safe-area-inset-top,0px)) 20px 20px;display:grid;gap:22px;align-content:start;overflow-y:auto}
+.sheet__h{display:flex;justify-content:space-between;align-items:center}
+.sheet__h h2{margin:0;font-family:var(--f-display);font-weight:900;font-stretch:70%;font-size:30px;text-transform:uppercase}
+.x{border:1.5px solid var(--ink);background:none;border-radius:999px;width:38px;height:38px;cursor:pointer}
+.links{display:grid;gap:4px}
+.links button{text-align:left;border:0;background:none;padding:10px 6px;cursor:pointer;font-family:var(--f-display);font-weight:800;font-stretch:85%;font-size:20px;border-bottom:1px solid var(--line)}
+.links button:hover{color:var(--purple-ink)}
+.opt p{margin:0 0 8px;font-size:12px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:var(--ink-2)}
+.seg{display:flex;border:1.5px solid var(--ink);border-radius:999px;overflow:hidden}
+.seg button{flex:1;height:38px;border:0;background:transparent;cursor:pointer;font-size:14px;font-weight:600}
+.seg button[aria-pressed="true"]{background:var(--purple);color:var(--on-purple)}
+.toast{position:fixed;z-index:60;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);max-width:calc(100vw - 32px);background:var(--purple);color:var(--on-purple);padding:10px 18px;border-radius:999px;font-size:15px;font-weight:600}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head><body>
+
+<header class="band">
+  <div class="wrap band__top">
+    <a class="word" href="#top"><b>Nexos</b><i>Daily</i></a>
+    <div class="tools" role="group" aria-label="Choose an edition">
+      <button class="tb" id="prevDay" type="button" aria-label="Previous edition">‹</button>
+      <span class="tb datebtn"><span id="dateLbl">Today</span><label class="sr" for="datePick">Edition date</label><input type="date" id="datePick"></span>
+      <button class="tb" id="nextDay" type="button" aria-label="Next edition">›</button>
+      <button class="tb" id="menuBtn" type="button" aria-label="Open menu" aria-haspopup="dialog"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    </div>
+  </div>
+  <div class="wrap band__meta" id="meta"></div>
+</header>
+<nav class="rail" aria-label="Sections"><div class="wrap rail__in" role="tablist" id="rail"></div></nav>
+
+<main id="top" class="wrap"><div id="view"></div></main>
+
+<footer class="band"><div class="wrap foot-in"><b>Nexos Daily</b><span>AI first. Printed every morning at 8:00 am IST from what trended yesterday. AI desks pick and summarise each story, so check the source before you act on it. Every story links to its source.</span></div></footer>
+
+<div class="backdrop" id="backdrop" hidden></div>
+<aside class="sheet" id="sheet" role="dialog" aria-modal="true" aria-labelledby="sheetTitle" hidden>
+  <div class="sheet__h"><h2 id="sheetTitle">Menu</h2><button class="x" id="sheetClose" type="button" aria-label="Close menu">✕</button></div>
+  <div class="links">
+    <button type="button" data-view="read">Today's paper</button>
+    <button type="button" data-view="archive">Search the archive</button>
+      </div>
+  <div class="opt"><p id="tLbl">Theme</p><div class="seg" role="group" aria-labelledby="tLbl" id="apSeg"><button type="button" data-v="system">System</button><button type="button" data-v="light">Light</button><button type="button" data-v="dark">Dark</button></div></div>
+  <div class="opt"><p id="sLbl">Text size</p><div class="seg" role="group" aria-labelledby="sLbl" id="sizeSeg"><button type="button" data-v="s">S</button><button type="button" data-v="m">M</button><button type="button" data-v="l">L</button><button type="button" data-v="xl">XL</button></div></div>
+  <p class="note">Keys: ← and → step between editions. / opens the search.</p>
+</aside>
+<div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+<script>
+/* ============ The Nexos Daily · reader ============ */
+const $ = id => document.getElementById(id);
+const esc = s => String(s == null ? "" : s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const use = n => (window.claude && typeof window.claude.use === "function") ? window.claude.use(n).catch(() => null) : Promise.resolve(null);
+const safeUrl = u => /^https?:\/\//i.test(String(u || "")) ? String(u) : "";
+const store = { get(k) { try { return localStorage.getItem(k); } catch (e) { return null; } }, set(k, v) { try { v == null ? localStorage.removeItem(k) : localStorage.setItem(k, v); } catch (e) {} } };
+const TZ = "Asia/Kolkata";
+const dayKey = d => d.toLocaleDateString("en-CA", { timeZone: TZ });
+const keyDate = k => new Date(k + "T12:00:00+05:30");
+const fmt = (k, o) => keyDate(k).toLocaleDateString("en-IN", Object.assign({ timeZone: TZ }, o));
+const timeFmt = d => d.toLocaleTimeString("en-IN", { timeZone: TZ, hour: "numeric", minute: "2-digit" });
+function whenFmt(d) { if (!d || isNaN(d)) return "–"; const k = dayKey(d), t = dayKey(new Date()), tm = dayKey(new Date(Date.now() + 864e5)), y = dayKey(new Date(Date.now() - 864e5));
+  return `${k === t ? "today" : k === tm ? "tomorrow" : k === y ? "yesterday" : fmt(k, { day: "numeric", month: "short" })}, ${timeFmt(d)}`; }
+function nextDaily(h, m) { const ist = new Date(Date.now() + 5.5 * 36e5); const t = Date.UTC(ist.getUTCFullYear(), ist.getUTCMonth(), ist.getUTCDate(), h, m) - 5.5 * 36e5; return new Date(t > Date.now() ? t : t + 864e5); }
+function toast(msg) { const t = $("toast"); t.textContent = msg; t.hidden = false; clearTimeout(toast.h); toast.h = setTimeout(() => t.hidden = true, 4500); }
+
+/* AI first, AWS last */
+const SECTIONS = [
+  { id: "tech-news", name: "AI", desk: "AI desk" },
+  { id: "x-desk", name: "Trending on X", desk: "X desk" },
+  { id: "tech-pulse", name: "Pulse", desk: "Pulse desk" },
+  { id: "aws-news", name: "Cloud", desk: "Cloud desk" }
+];
+const secOf = id => SECTIONS.find(s => s.id === id) || { id, name: id, desk: id };
+const RULES = [["Claude Code", /claude code/i], ["Claude", /\bclaude\b|anthropic|\bopus\b|\bsonnet\b|\bhaiku\b/i], ["MCP", /\bmcp\b|model context protocol/i], ["Agents", /\bagents?\b|agentic/i], ["Skills", /\bskills?\b|plugins?|hooks?\b/i], ["OpenAI", /openai|chatgpt|\bgpt-?\d/i], ["Gemini", /gemini|deepmind/i], ["Open models", /qwen|llama|mistral|deepseek|open[- ]weight|\bglm\b|local model/i], ["AI policy", /police|regulat|hearing|lawsuit|copyright|safety/i], ["Bedrock", /bedrock|agentcore/i], ["Kubernetes", /\beks\b|kubernetes/i], ["Containers", /\becs\b|fargate|docker/i], ["Security", /security|pen(etration)? test|\biam\b|vulnerab|guardduty/i], ["DevOps", /devops|ci\/cd|pipeline|terraform/i], ["GitHub", /github/i]];
+const topicsOf = it => { if (Array.isArray(it.topics) && it.topics.length) return it.topics.slice(0, 3).map(String);
+  const t = `${it.title} ${it.body || ""} ${it.why || ""}`; const out = []; for (const [n, re] of RULES) { if (re.test(t)) out.push(n); if (out.length === 3) break; } return out; };
+const SERVER = "Claude Code Remote";
+
+const ST = { routines: [], digests: [], triggers: {}, ready: false, ctrl: "unknown", mcp: null, date: null, view: "read", tab: "all", topic: null, q: "", started: {} };
+const byStart = (a, b) => String(b.end || b.start || "").localeCompare(String(a.end || a.start || ""));
+const items = d => d && Array.isArray(d.items) ? d.items : [];
+const edKey = d => { const m = String(d.id || "").match(/-(\d{4})(\d{2})(\d{2})(?:-\d{4})?$/); if (m) return `${m[1]}-${m[2]}-${m[3]}`; const t = d.end || d.start; return t ? dayKey(new Date(t)) : null; };
+const editionDates = () => [...new Set(ST.digests.filter(d => edKey(d) && items(d).length).map(edKey))].sort();
+function editionFor(k) { const o = {}; SECTIONS.forEach(s => { const l = ST.digests.filter(d => d.routine === s.id && edKey(d) === k).sort(byStart); o[s.id] = l.find(d => d.status !== "failed" && items(d).length) || l[0] || null; }); return o; }
+const storiesOf = ed => SECTIONS.flatMap(s => items(ed[s.id]).map((it, i) => Object.assign({ sec: s, rank: i, filed: ed[s.id].end || ed[s.id].start }, it, { topics: topicsOf(it) })));
+const words = s => String(s || "").split(/\s+/).filter(Boolean).length;
+const srcName = it => String(it.source || "").split("·")[0].trim();
+const srcMeta = it => String(it.source || "").split("·").slice(1).map(x => x.trim()).filter(Boolean).join(" · ");
+/* ---------- Reader (magazine front) ---------- */
+const link = (st, cls) => { const u = safeUrl(st.url); return u ? `<a href="${esc(u)}" target="_blank" rel="noopener noreferrer"${cls ? ` class="${cls}"` : ""}>${esc(st.title)}</a>` : esc(st.title); };
+const kick = st => `<p class="kick"><span class="sec">${esc(st.sec.name)}</span><span class="src">${esc(srcName(st))}${srcMeta(st) ? " · " + esc(srcMeta(st)) : ""}</span></p>`;
+function storyHtml(st) {
+  const u = safeUrl(st.url);
+  return `<article class="story">${kick(st)}<h3>${link(st)}</h3>
+    ${st.body ? `<p class="txt">${esc(st.body)}</p>` : st.why ? `<p class="txt">${esc(st.why)}</p>` : ""}
+    ${st.body && st.why ? `<p class="why"><b>Why it matters:</b> ${esc(st.why)}</p>` : ""}
+    <div class="foot">${u ? `<a href="${esc(u)}" target="_blank" rel="noopener noreferrer">Read at source ↗</a>` : ""}${st.date ? `<span>${esc(fmt(st.date, { day: "numeric", month: "short" }))}</span>` : ""}${st.topics.map(t => `<button type="button" class="tag" data-topic="${esc(t)}">#${esc(t)}</button>`).join("")}</div></article>`;
+}
+function chrome(k, all) {
+  const isToday = k === dayKey(new Date()), dates = editionDates(), no = dates.indexOf(k) + 1;
+  const mins = Math.max(1, Math.round(all.reduce((t, s) => t + words(s.title) + words(s.body || s.why), 0) / 230));
+  $("meta").innerHTML = `<span>${esc(fmt(k, { weekday: "long", day: "numeric", month: "long", year: "numeric" }))}</span><span>${isToday ? "Today's edition" : "Back issue"}${no ? " · No. " + no : ""}</span><span>${all.length} stories · ${mins} min</span>`;
+  $("rail").innerHTML = `<button type="button" class="rt" role="tab" data-tab="all" aria-selected="${ST.view === "read" && ST.tab === "all"}">Front page</button>` +
+    SECTIONS.map(s => `<button type="button" class="rt" role="tab" data-tab="${s.id}" aria-selected="${ST.view === "read" && ST.tab === s.id}">${esc(s.name)}<small>${all.filter(x => x.sec.id === s.id).length}</small></button>`).join("") +
+    `<button type="button" class="rt" data-view="archive" aria-selected="${ST.view === "archive"}">Archive</button>`;
+}
+function readView(k) {
+  const ed = editionFor(k), all = storiesOf(ed);
+  const counts = {}; all.forEach(s => s.topics.forEach(t => counts[t] = (counts[t] || 0) + 1));
+  const topics = Object.entries(counts).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0])).slice(0, 12);
+  if (ST.topic && !counts[ST.topic]) ST.topic = null;
+  const list = all.filter(s => (ST.tab === "all" || s.sec.id === ST.tab) && (!ST.topic || s.topics.includes(ST.topic)));
+  if (!all.length) { const isToday = k === dayKey(new Date()), first = editionDates()[0];
+    return `<div class="empty"><h2>${!ST.ready ? "Loading" : isToday ? "Not printed yet" : "No edition"}</h2><p>${!ST.ready ? "Fetching the paper." : isToday ? "The desks print at 7:49 am. Press ‹ to read the last edition." : first ? `The first edition is ${esc(fmt(first, { day: "numeric", month: "long" }))}.` : ""}</p></div>`; }
+  const strip = `<div class="trend" aria-label="Trending topics"><span class="trend__lbl">Trending</span>${topics.map(([t, n]) => `<button type="button" class="chip" data-topic="${esc(t)}" aria-pressed="${ST.topic === t}">#${esc(t)}<small>${n}</small></button>`).join("")}</div>`;
+  if (!list.length) return strip + `<div class="empty"><h2>Nothing here</h2><p>${ST.tab !== "all" && ed[ST.tab] && ed[ST.tab].status === "failed" ? esc(ed[ST.tab].error || "This desk could not file.") : "No story matches this topic in this section."}</p>${ST.topic ? `<button type="button" class="pill pill--purple" data-topic="">Clear #${esc(ST.topic)}</button>` : ""}</div>`;
+  const lead = list[0], tops = list.slice(1, 6), rest = list.slice(6);
+  const hero = `<section class="hero" aria-label="Top stories">
+    <article class="lead">${kick(lead)}<h1>${link(lead)}</h1>${lead.why ? `<p class="dek">${esc(lead.why)}</p>` : ""}
+      <p class="meta">${safeUrl(lead.url) ? `<a href="${esc(safeUrl(lead.url))}" target="_blank" rel="noopener noreferrer">Read the story ↗</a> · ` : ""}Filed ${esc(whenFmt(new Date(lead.filed)))}</p></article>
+    <div class="tops"><h2>Top stories</h2><ol>${tops.map(st => `<li><h3>${link(st)}</h3><span class="src">${esc(st.sec.name)} · ${esc(srcName(st))}</span></li>`).join("")}</ol></div>
+  </section>`;
+  const streamList = [lead].concat(tops, rest);
+  const label = ST.tab === "all" ? "The <span>stream</span>" : `${esc(secOf(ST.tab).name)} <span>stream</span>`;
+  const notes = SECTIONS.map(s => ed[s.id]).filter(d => d && (d.note || d.status === "failed")).map(d => `<p class="note"><b>${esc(secOf(d.routine).name)}:</b> ${esc(d.status === "failed" ? (d.error || "could not file") : d.note)}</p>`).join("");
+  const hn = all.map(s => +((String(s.source).match(/([\d,]+)\s*points/i) || [])[1] || "0").replace(/,/g, "")).filter(Boolean);
+  const likes = all.map(s => +((String(s.source).match(/([\d,]+)\s*likes/i) || [])[1] || "0").replace(/,/g, "")).filter(Boolean);
+  const dates = editionDates().slice().reverse().slice(0, 10);
+  const side = `<aside class="side" aria-label="Edition details">
+    <div class="box"><h4>By the numbers</h4>
+      <div class="stat"><span>Stories</span><b>${all.length}</b></div>
+      <div class="stat"><span>AI stories</span><b>${all.filter(s => s.sec.id === "tech-news" || s.topics.some(t => /claude|agents|mcp|openai|gemini|models|ai/i.test(t))).length}</b></div>
+      <div class="stat"><span>Top Hacker News score</span><b>${hn.length ? Math.max(...hn).toLocaleString("en-IN") : "–"}</b></div>
+      <div class="stat"><span>Top X post likes</span><b>${likes.length ? Math.max(...likes).toLocaleString("en-IN") : "–"}</b></div></div>
+    <div class="box"><h4>Back issues</h4><div class="days">${dates.map(d => `<button type="button" class="day" data-d="${d}" aria-current="${d === k}">${esc(fmt(d, { day: "numeric", month: "short" }))}</button>`).join("")}</div></div>
+    ${notes ? `<div class="box"><h4>Desk notes</h4>${notes}</div>` : ""}
+  </aside>`;
+  return strip + hero + `<div class="body"><section class="stream"><h2 class="sh">${label}</h2><div class="items">${streamList.slice(1).map(storyHtml).join("")}</div>
+    ${editionDates().some(d => d < k) ? `<p style="margin-top:24px"><button type="button" class="pill pill--purple" id="readPrev">Read the previous edition</button></p>` : ""}</section>${side}</div>`;
+}
+
+/* ---------- Archive and newsroom ---------- */
+function archiveView() {
+  const q = ST.q.trim().toLowerCase(), ws = q.split(/\s+/).filter(Boolean);
+  const seen = new Set(); const hits = [];
+  ST.digests.slice().sort(byStart).forEach(d => items(d).forEach(it => { const key = (it.url || it.title) + d.routine; if (seen.has(key)) return;
+    const hay = `${it.title} ${it.body || ""} ${it.why || ""} ${it.source || ""}`.toLowerCase(); if (ws.length && !ws.every(w => hay.includes(w))) return; seen.add(key); hits.push({ d, it }); }));
+  const mark = s => { let o = esc(s); ws.forEach(w => { if (w.length > 1) o = o.replace(new RegExp("(" + w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + ")", "gi"), "<mark>$1</mark>"); }); return o; };
+  const dates = editionDates().slice().reverse();
+  return `<section class="panel"><h2>The <span>archive</span></h2><p class="lede">Every story the desks have printed.</p>
+    <label class="sr" for="q">Search the archive</label><input class="search" id="q" type="search" placeholder="Search: Claude Code, MCP, agents, Bedrock…" value="${esc(ST.q)}">
+    <p class="lede" style="margin:16px 0 0">Editions</p><div class="days">${dates.map(d => `<button type="button" class="day" data-d="${d}" aria-current="${d === ST.date}">${esc(fmt(d, { weekday: "short", day: "numeric", month: "short" }))}</button>`).join("")}</div>
+    <div style="margin-top:16px">${hits.slice(0, 80).map(h => { const u = safeUrl(h.it.url); return `<article class="hit"><p class="kick" style="margin:0"><span class="sec">${esc(secOf(h.d.routine).name)}</span><span>${esc(fmt(edKey(h.d), { day: "numeric", month: "short" }))}</span></p><h3>${u ? `<a href="${esc(u)}" target="_blank" rel="noopener noreferrer">${mark(h.it.title)}</a>` : mark(h.it.title)}</h3><p>${mark(String(h.it.body || h.it.why || "").slice(0, 200))}</p></article>`; }).join("") || `<p class="lede">No story matches.</p>`}</div>
+    <p><button type="button" class="pill pill--purple" data-view="read">Back to the paper</button></p></section>`;
+}
+function newsroomView() {
+  const rows = SECTIONS.map(s => { const r = ST.routines.find(x => x.id === s.id); if (!r) return "";
+    const t = ST.triggers[r.triggerId], paused = t && t.enabled === false, last = ST.digests.filter(d => d.routine === s.id).sort(byStart)[0];
+    const nx = paused ? null : (t && t.next_run_at ? new Date(t.next_run_at) : nextDaily(r.hour || 7, r.minute || 49));
+    const running = ST.started[s.id] && (!last || new Date(last.start) < ST.started[s.id] - 6e4) && Date.now() - ST.started[s.id] < 30 * 6e4;
+    const st = paused ? "paused" : running ? "running" : last && last.status === "failed" ? "last run failed" : last ? "on schedule" : "no run yet";
+    return `<div class="row"><span><b>${esc(s.name)}</b> · ${esc(r.scheduleText || "")}</span><span class="st${st === "last run failed" ? " bad" : ""}">${st}</span>
+      <span class="m">${esc(r.sources || "")}<br>Last ${last ? esc(whenFmt(new Date(last.end || last.start))) : "–"} · next ${nx ? esc(whenFmt(nx)) : "paused"}</span>
+      ${ST.ctrl === "ok" ? `<span class="btns m"><button class="btn btn--p" type="button" data-act="run" data-id="${s.id}"${running ? " disabled" : ""}>${running ? "Running…" : "Run now"}</button><button class="btn" type="button" data-act="${paused ? "resume" : "pause"}" data-id="${s.id}">${paused ? "Resume" : "Pause"}</button></span>` : ""}</div>`; }).join("");
+  return `<section class="panel"><h2>The <span>newsroom</span></h2><p class="lede">Four scheduled desks print this paper every morning. They run in the cloud with automatic approval.</p>${rows}
+    <p class="note" style="margin-top:16px">${ST.ctrl === "ok" ? "Run now prints a fresh filing in about two minutes." : "Run now and Pause appear when your Claude Code Remote connection answers. The desks print on schedule without it."}</p>
+    <p><button type="button" class="pill pill--purple" data-view="read">Back to the paper</button></p></section>`;
+}
+/* ---------- Render and events ---------- */
+let rq = 0;
+function render() { cancelAnimationFrame(rq); rq = requestAnimationFrame(() => {
+  const k = ST.date, fq = document.activeElement && document.activeElement.id === "q", pos = fq ? document.activeElement.selectionStart : 0;
+  chrome(k, storiesOf(editionFor(k)));
+  $("view").innerHTML = ST.view === "archive" ? archiveView() : ST.view === "newsroom" ? newsroomView() : readView(k);
+  if (fq && $("q")) { $("q").focus(); $("q").setSelectionRange(pos, pos); }
+  const dates = editionDates(); $("datePick").value = k; $("datePick").max = dayKey(new Date()); $("datePick").min = dates[0] || "2026-10-05";
+  $("dateLbl").textContent = k === dayKey(new Date()) ? "Today" : fmt(k, { day: "numeric", month: "short" });
+  $("prevDay").disabled = !dates.some(d => d < k); $("nextDay").disabled = !dates.some(d => d > k);
+}); }
+function setDate(k) { ST.date = k; ST.picked = true; try { history.replaceState(null, "", "#" + k); } catch (e) {} if (ST.view !== "read") ST.view = "read"; render(); scrollTo({ top: 0 }); }
+function setView(v) { ST.view = v; closeSheet(); render(); scrollTo({ top: 0 }); if (v === "archive") setTimeout(() => $("q") && $("q").focus(), 30); }
+const prev = () => { const d = editionDates().filter(x => x < ST.date).pop(); if (d) setDate(d); };
+const next = () => { const d = editionDates().find(x => x > ST.date); if (d) setDate(d); };
+$("prevDay").addEventListener("click", prev); $("nextDay").addEventListener("click", next);
+$("datePick").addEventListener("change", e => { if (/^\d{4}-\d{2}-\d{2}$/.test(e.target.value)) setDate(e.target.value); });
+document.addEventListener("click", e => {
+  if (!e.target.closest) return;
+  const tp = e.target.closest("[data-topic]"); if (tp) { const t = tp.dataset.topic || null; ST.topic = ST.topic === t ? null : t; ST.view = "read"; render(); return; }
+  const tb = e.target.closest("[data-tab]"); if (tb) { ST.tab = tb.dataset.tab; ST.view = "read"; render(); return; }
+  const v = e.target.closest("[data-view]"); if (v) return setView(v.dataset.view);
+  const d = e.target.closest("[data-d]"); if (d) return setDate(d.dataset.d);
+  if (e.target.closest("#readPrev")) return prev();
+  const a = e.target.closest("[data-act]"); if (a && !a.disabled) act(a.dataset.id, a.dataset.act);
+});
+$("view").addEventListener("input", e => { if (e.target.id === "q") { ST.q = e.target.value; render(); } });
+document.addEventListener("keydown", e => {
+  if (e.key === "Escape" && !$("sheet").hidden) return closeSheet();
+  if ((e.target.closest && e.target.closest("input,textarea,select")) || e.metaKey || e.ctrlKey || e.altKey || !$("sheet").hidden) return;
+  if (e.key === "ArrowLeft") prev(); else if (e.key === "ArrowRight") next(); else if (e.key === "/") { e.preventDefault(); setView("archive"); }
+});
+/* ---------- Controls ---------- */
+const payloadOf = r => { const p = r && r.payload; if (typeof p === "string") { try { return JSON.parse(p); } catch (_) { return {}; } } return p || {}; };
+async function loadTriggers() {
+  if (!ST.mcp) { ST.ctrl = "off"; return render(); }
+  try { const p = payloadOf(await ST.mcp.callTool(SERVER, "list_triggers", { limit: 100 })); const m = {}; (p.data || []).forEach(t => { if (t && t.id) m[t.id] = t; }); ST.triggers = m; ST.ctrl = "ok"; }
+  catch (e) { ST.ctrl = "off"; }
+  render();
+}
+async function act(id, what) {
+  const r = ST.routines.find(x => x.id === id); if (!r || !ST.mcp) return;
+  try {
+    if (what === "run") { await ST.mcp.callTool(SERVER, "fire_trigger", { trigger_id: r.triggerId, text: "This run was started by hand from agents.nexos. Set trigger to \"manual\"." }); ST.started[id] = Date.now(); toast(`${secOf(id).name} desk started. The filing arrives in about two minutes.`); }
+    else { await ST.mcp.callTool(SERVER, "update_trigger", { trigger_id: r.triggerId, enabled: what === "resume" }); toast(what === "resume" ? "Desk resumed." : "Desk paused."); await loadTriggers(); }
+  } catch (e) { toast(e && e.code === "not_granted" ? "You did not allow this page to control the desks." : "The action failed: " + String((e && e.message) || (e && e.code) || "unknown error").slice(0, 140)); }
+  render();
+}
+
+/* ---------- Menu and settings ---------- */
+let lastFocus = null;
+function openSheet() { lastFocus = document.activeElement; $("sheet").hidden = false; $("backdrop").hidden = false; $("sheetClose").focus(); }
+function closeSheet() { if ($("sheet").hidden) return; $("sheet").hidden = true; $("backdrop").hidden = true; if (lastFocus && lastFocus.focus) lastFocus.focus(); }
+$("menuBtn").addEventListener("click", openSheet); $("sheetClose").addEventListener("click", closeSheet); $("backdrop").addEventListener("click", closeSheet);
+(function settings() {
+  const root = document.documentElement;
+  const segs = { apSeg: ["nx-theme", "system", v => v === "system" ? delete root.dataset.theme : root.dataset.theme = v], sizeSeg: ["np-size", "m", v => v === "m" ? delete root.dataset.size : root.dataset.size = v] };
+  function apply(id, v, save) { const [key, def, fn] = segs[id]; v = v || def; fn(v); if (save) store.set(key, v === def ? null : v); $(id).querySelectorAll("button").forEach(b => b.setAttribute("aria-pressed", b.dataset.v === v)); }
+  apply("apSeg", ["light", "dark"].includes(store.get("nx-theme")) ? store.get("nx-theme") : "system", false);
+  apply("sizeSeg", ["s", "l", "xl"].includes(store.get("np-size")) ? store.get("np-size") : "m", false);
+  Object.keys(segs).forEach(id => $(id).addEventListener("click", e => { const b = e.target.closest("button"); if (b) apply(id, b.dataset.v, true); }));
+})();
+
+/* ---------- Boot: load the edition files published next to this page ---------- */
+(function init() { const h = (location.hash || "").slice(1); ST.picked = /^\d{4}-\d{2}-\d{2}$/.test(h); ST.date = ST.picked ? h : dayKey(new Date()); render(); })();
+(async function boot() {
+  try {
+    const idx = await (await fetch("editions/index.json", { cache: "no-cache" })).json();
+    const eds = await Promise.all((idx.editions || []).map(e => fetch(`editions/${e.date}.json`, { cache: "no-cache" }).then(r => r.ok ? r.json() : null).catch(() => null)));
+    const out = [];
+    eds.filter(Boolean).forEach(ed => Object.values(ed.sections || {}).forEach(sec => out.push({ id: `${sec.routine}-${ed.date.replace(/-/g, "")}`, routine: sec.routine, status: sec.status, headline: sec.headline, note: sec.note, end: sec.filed, start: sec.filed, items: sec.items || [] })));
+    ST.digests = out;
+  } catch (e) { toast("The paper did not load. Refresh the page."); }
+  ST.ready = true;
+  const dates = editionDates(); if (!ST.picked && dates.length && !dates.includes(ST.date)) ST.date = dates[dates.length - 1];
+  render();
+})();
+</script>
+
+</body></html>
