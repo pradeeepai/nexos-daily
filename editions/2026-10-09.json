@@ -1,0 +1,296 @@
+{
+ "date": "2026-10-09",
+ "generated": "2026-10-09T11:25:02Z",
+ "sections": {
+  "tech-news": {
+   "routine": "tech-news",
+   "status": "done",
+   "headline": "Claude Haiku 5.5 launches with 1M context at $0.10/$0.50 per Mtok, and Max and Team plans now include monthly API credits.",
+   "filed": "2026-10-09T02:23:30Z",
+   "note": "The Hacker News front-page archive did not load, so HN points came from the Algolia front-page API; the Google AI blog showed no new dated posts.",
+   "items": [
+    {
+     "title": "Claude Haiku 5.5 ships with 1M context and lower prices",
+     "body": "Anthropic launched Claude Haiku 5.5 (claude-haiku-5-5) with a 1M-token context window, 128k max output and adaptive thinking on by default. Claude Code v2.1.293 makes it the default Haiku model at $0.10/$0.50 per Mtok. Code written for Haiku 4.5 can break: budget_tokens returns a 400 error. The same day, Sonnet 5.5 cache reads dropped to $0.10 per Mtok, and Claude Max and Team plans began to include monthly API credits.",
+     "topics": [
+      "Claude",
+      "Claude Code"
+     ],
+     "source": "Claude release notes; Claude Code GitHub releases; r/ClaudeAI (165 and 67 upvotes on the API-credit threads)",
+     "url": "https://platform.claude.com/docs/en/release-notes/overview",
+     "date": "2026-10-07",
+     "why": "A cheap, fast 1M-context model is a strong default for subagents, hooks and high-volume agent steps, but code written for Haiku 4.5 can break."
+    },
+    {
+     "title": "Anthropic updates Usage Policy; new rules start November 12",
+     "body": "Anthropic published its 2026 Usage Policy update, effective November 12. It adds a ban on sustained, needless abuse of the models, enforced mainly by Claude ending conversations on Claude.ai and Claude Code. Claude connected to autonomous physical hardware now needs a qualified operator who can observe and stop it, and a safe state on disconnect. Surveillance, weapons-software and Supported Regions rules are also tightened.",
+     "topics": [
+      "Claude",
+      "AI policy"
+     ],
+     "source": "Anthropic News; r/ClaudeAI (921 upvotes)",
+     "url": "https://www.anthropic.com/news/2026-usage-policy-update",
+     "date": "2026-10-08",
+     "why": "Agents that drive hardware or high-risk decisions must now meet explicit human-override and safe-state rules."
+    },
+    {
+     "title": "Anthropic Cyber Mission launches free OSS Scanner for open-source projects",
+     "body": "Anthropic launched the Cyber Mission with two focus areas: critical infrastructure and open-source software. OSS Scanner is an opt-in, no-cost service that sends periodic vulnerability reports with a proof of concept and a suggested fix; Anthropic expects a true-positive rate above 90%. The Critical Infrastructure Defense Program starts with 11 founding partners, including CrowdStrike, Palo Alto Networks and Accenture. Security teams can apply to the expanded Cyber Verification Program.",
+     "topics": [
+      "Claude",
+      "Security"
+     ],
+     "source": "Anthropic News",
+     "url": "https://www.anthropic.com/news/anthropic-cyber-mission",
+     "date": "2026-10-08",
+     "why": "Open-source maintainers can get free Claude-driven vulnerability scans with a proof of concept and a suggested fix."
+    },
+    {
+     "title": "Opus 5.5 in Claude Code beats GPT-6 Astra on design",
+     "body": "Quesma gave Opus 5.5 in Claude Code and GPT-6 Astra in Codex one prompt and a 6-hour budget to build a three.js visualization of Calvino's Invisible Cities. Opus used 6 parallel subagents, ran about 1 hour 25 minutes and cost about $74 in API tokens. Astra finished in about 53 minutes for about $10. The author rated Opus much stronger on design and Astra stronger on puzzles.",
+     "topics": [
+      "Claude Code",
+      "Agents",
+      "OpenAI"
+     ],
+     "source": "Hacker News (363 points)",
+     "url": "https://quesma.com/blog/invisible-cities-one-shot/",
+     "date": "2026-10-08",
+     "why": "It gives real cost and time numbers for long one-shot Claude Code runs with parallel subagents."
+    },
+    {
+     "title": "Claude Code 2.1.294 fixes prompt and agent hooks that failed to block",
+     "body": "Claude Code v2.1.294 fixes prompt and agent hooks written as instructions that allowed actions they should block. It also improves how prompt hooks judge Stop and SubagentStop, so Claude is less likely to stop early. v2.1.292 earlier added an effort parameter to the Agent tool and a NO_PROXY fix when HTTPS_PROXY is set.",
+     "topics": [
+      "Claude Code",
+      "Security"
+     ],
+     "source": "GitHub anthropics/claude-code releases",
+     "url": "https://github.com/anthropics/claude-code/releases",
+     "date": "2026-10-08",
+     "why": "Teams that use prompt or agent hooks as guardrails should update: some hooks did not block actions they should block."
+    },
+    {
+     "title": "OpenAI rolls out GPT-6 Sol and Luna with Intelligent UI",
+     "body": "GPT-6 Sol now powers ChatGPT for Plus, Pro, Business and Enterprise; GPT-6 Luna powers Free and Go tiers. Intelligent UI lets answers include charts, forms, buttons and small tools, rendered progressively by a compiler and a library of streamable components. GPT-6 Instant starts web-search answers 44% sooner than GPT-5.6 Instant. Models behind Work and Codex do not change, and the post gives no API details.",
+     "topics": [
+      "OpenAI"
+     ],
+     "source": "OpenAI News",
+     "url": "https://openai.com/index/gpt-6-for-everyone/",
+     "date": "2026-10-07",
+     "why": "ChatGPT now renders streamed interactive components, a pattern to note for agent UIs."
+    },
+    {
+     "title": "Whistle: open 16.9 MB on-device speech-to-text model",
+     "body": "Cactus released Whistle, a 16.9 MB speech-recognition model that runs on CPU, versus 145.3 MB for Whisper base. It supports seven languages, word-level timestamps and clips up to 30 seconds. On an Apple M4 Pro, time to first token is 11.1 ms for a 10-second clip. Weights are on Hugging Face, and install is pip install cactus-needle.",
+     "topics": [
+      "Open models",
+      "AI tools"
+     ],
+     "source": "Hacker News (566 points)",
+     "url": "https://cactuscompute.com/blog/whistle",
+     "date": "2026-10-08",
+     "why": "A tiny CPU speech model makes voice input possible for local agents and edge devices."
+    }
+   ]
+  },
+  "x-desk": {
+   "routine": "x-desk",
+   "status": "done",
+   "headline": "OpenAI rolls out Ultrafast mode for GPT-6.1 Sol, up to 8x faster than Sol Standard, and it leads yesterday's AI posts on X.",
+   "filed": "2026-10-09T02:21:00Z",
+   "note": "Read 33 posts; 11 passed the value filter.",
+   "items": [
+    {
+     "title": "OpenAI ships Ultrafast for GPT-6.1 Sol in the API, Codex and ChatGPT Work",
+     "body": "OpenAI Developers says Ultrafast is rolling out for GPT-6.1 Sol in the API, Codex and ChatGPT Work. The post claims \"near-Astra intelligence at up to 8x faster speeds than Sol Standard\".",
+     "topics": [
+      "OpenAI"
+     ],
+     "source": "X · @OpenAIDevs · 4213 likes · 281 reposts",
+     "url": "https://x.com/OpenAIDevs/status/2108262812489531498",
+     "date": "2026-10-08",
+     "why": "A faster frontier tier in Codex and the API is a new speed and cost benchmark for coding-agent workflows."
+    },
+    {
+     "title": "OpenAI previews ChatGPT for Teens and a College Planner",
+     "body": "OpenAI shares progress on ChatGPT for Teens, a ChatGPT experience for users under 18. The post also previews College Planner, new study tools and support for college advisers. The teen experience applies automatically to accounts identified as belonging to minors.",
+     "topics": [
+      "OpenAI"
+     ],
+     "source": "X · @OpenAI · 3120 likes · 166 reposts",
+     "url": "https://x.com/OpenAI/status/2107909792945832070",
+     "date": "2026-10-08",
+     "why": "It shows how a major lab applies age-based safety controls automatically, a pattern for user-facing agent guardrails."
+    },
+    {
+     "title": "Anthropic commits $150 million to the Genesis Mission",
+     "body": "Anthropic commits $150 million to the Genesis Mission for scientific research and technological discovery. It will also make Claude and its technical support available to more than 15 federal agencies.",
+     "topics": [
+      "Claude"
+     ],
+     "source": "X · @AnthropicAI · 2463 likes · 183 reposts",
+     "url": "https://x.com/AnthropicAI/status/2108226292235809081",
+     "date": "2026-10-08",
+     "why": "It signals wider government use of Claude and more public-sector AI work."
+    },
+    {
+     "title": "Claude Haiku 5.5 is out and is 10x cheaper than Haiku 4.5 at 100k context",
+     "body": "Boris Cherny says \"Haiku 5.5 is a good Haiku\". He states that with 100k token context it is 10x cheaper than Haiku 4.5. Alex Albert adds in a separate post that Haiku 5.5 is much faster and 75% cheaper.",
+     "topics": [
+      "Claude",
+      "Claude Code"
+     ],
+     "source": "X · @bcherny · 2511 likes · 64 reposts",
+     "url": "https://x.com/bcherny/status/2107909939025052107",
+     "date": "2026-10-08",
+     "why": "A cheaper, faster Haiku is a strong default for sub-agents and high-volume agent steps on the Claude API and Bedrock."
+    },
+    {
+     "title": "ChatGPT plugins get extensions: sidebar launch, @ mentions and file viewers",
+     "body": "OpenAI Developers announces plugin extensions for ChatGPT. Plugins can now launch from the sidebar, support @ mentions and add file viewers. The post links a walkthrough with @coreyching.",
+     "topics": [
+      "OpenAI",
+      "AI tools"
+     ],
+     "source": "X · @OpenAIDevs · 1094 likes · 69 reposts",
+     "url": "https://x.com/OpenAIDevs/status/2107927072165548276",
+     "date": "2026-10-08",
+     "why": "It shows how a rival platform extends tool integrations, useful context for MCP and plugin design."
+    },
+    {
+     "title": "Microsoft releases an open source cross-platform sandboxing library",
+     "body": "Simon Willison highlights a new open source sandboxing library from Microsoft for Windows, macOS and Linux. It uses processcontainer, bubblewrap and seatbelt under the hood. He says it \"looks very promising\".",
+     "topics": [
+      "AI tools",
+      "Agents"
+     ],
+     "source": "X · @simonw · 727 likes · 64 reposts",
+     "url": "https://x.com/simonw/status/2108216753604248000",
+     "date": "2026-10-08",
+     "why": "Sandboxing is key to running coding agents safely, and one cross-platform library can simplify isolation for agents and CI."
+    }
+   ]
+  },
+  "tech-pulse": {
+   "routine": "tech-pulse",
+   "status": "done",
+   "headline": "Ponytail 5, a 'lazy senior dev' skill for Claude Code, gained 1,894 GitHub stars in one day after claiming 53% less code.",
+   "filed": "2026-10-09T02:22:04Z",
+   "note": "The Hacker News 'front?day=2026-10-08' page failed to load twice, so HN items come from the live front page.",
+   "items": [
+    {
+     "title": "Ponytail 5 skill cuts Claude Code output by half",
+     "body": "Ponytail is an MIT-licensed agent skill by DietrichGebert that pushes coding agents toward the smallest complete change. Version 5 is a full rewrite, tested in more than 5,900 benchmarked Claude Code sessions. On 39 tasks with Opus 5.5, the author reports 53% less code, 41% less time and 26% less cost than no skill. It adds /ponytail-review and /ponytail-audit commands and installs with /plugin marketplace add DietrichGebert/ponytail.",
+     "topics": [
+      "Claude Code",
+      "Skills",
+      "AI tools"
+     ],
+     "source": "GitHub Trending · 1,894 stars today · r/ClaudeAI · 413 upvotes · 87 comments",
+     "url": "https://github.com/DietrichGebert/ponytail",
+     "date": "2026-10-08",
+     "why": "Teams can install it as a Claude Code plugin and test the claimed cost and review-quality savings on their own repos."
+    },
+    {
+     "title": "Opus 5.5 builds 55 Invisible Cities in one Claude Code run",
+     "body": "Piotr Migdał of Quesma gave Opus 5.5 one prompt in Claude Code to build a three.js view of all 55 cities from Calvino's Invisible Cities. The run used 6 parallel subagents, took 1 hour 25 minutes (about 7 agent-hours) and cost about $74 in API tokens. The same prompt in Codex with GPT-6 Astra took 53 minutes and about $10. The code is public on GitHub.",
+     "topics": [
+      "Claude Code",
+      "Agents",
+      "Claude"
+     ],
+     "source": "Hacker News · 358 points · 184 comments",
+     "url": "https://quesma.com/blog/invisible-cities-one-shot/",
+     "date": "2026-10-08",
+     "why": "It shows how a one-shot Claude Code run with parallel subagents performs on a large task, and what it costs."
+    },
+    {
+     "title": "CrowdStrike: one attacker used AI agents against Korean banks",
+     "body": "CrowdStrike reports that one unnamed, financially motivated actor targeted South Korean financial firms from late September to early October 2026. The actor ran ARTEX, an open-source agentic pentest tool from China, with DeepSeek v4.1-flash as the main model. Claude Code sessions with GLM-5.3 and Grok 4.6 were also found in open directories. CrowdStrike lists 10 indicators of compromise.",
+     "topics": [
+      "Security",
+      "Agents",
+      "Claude Code"
+     ],
+     "source": "r/LocalLLaMA · 799 upvotes · 153 comments",
+     "url": "https://www.crowdstrike.com/en-us/blog/unknown-threat-actor-uses-artex-to-target-south-korean-finance/",
+     "date": "2026-10-08",
+     "why": "Attackers now chain agentic pentest tools and coding agents, so cloud and agent setups need threat models for AI-driven attacks."
+    },
+    {
+     "title": "Whistle: on-device speech-to-text in a 16.9 MB file",
+     "body": "Cactus Compute released Whistle, an open speech recognition model in a single 16.9 MB file. It supports 7 languages and gives word-level timestamps. On an Apple M4 Pro CPU it reports 11.1 ms time to first token and 1,319 tokens/s, against 73.2 ms and 266 tokens/s for Whisper base. Prebuilt engines exist for 17 targets, and it installs with pip install cactus-needle.",
+     "topics": [
+      "Open models",
+      "AI tools"
+     ],
+     "source": "Hacker News · 545 points · 120 comments",
+     "url": "https://cactuscompute.com/blog/whistle",
+     "date": "2026-10-08",
+     "why": "A tiny, dependency-free speech model adds voice input to agents and edge devices without a cloud API."
+    },
+    {
+     "title": "DeepSeek 4.1 Flash: near-frontier coding at a fraction of cost",
+     "body": "A developer reports a month of DeepSeek 4.1 Flash use across a dozen coding projects. The author says it feels close to Opus in daily work, and estimates a task that costs about $1 on a frontier model at $0.003. The post says DeepSeek shrank the KV cache about 437x against its V1 model. The HN thread has 358 comments on cost and quality.",
+     "topics": [
+      "Open models",
+      "AI tools"
+     ],
+     "source": "Hacker News · 426 points · 358 comments",
+     "url": "https://www.dgt.is/blog/2026-10-07-deepseek-freek-out/",
+     "date": "2026-10-08",
+     "why": "It helps teams judge when a cheap model can replace a frontier model for routine agent work."
+    }
+   ]
+  },
+  "aws-news": {
+   "routine": "aws-news",
+   "status": "done",
+   "headline": "Claude Haiku 5.5 is now available on Amazon Bedrock and Claude Platform on AWS, at about 75% lower cost than Haiku 4.5.",
+   "filed": "2026-10-09T02:23:30Z",
+   "note": "The AWS What's New page did not render its list, so this desk used its RSS feed.",
+   "items": [
+    {
+     "title": "Claude Haiku 5.5 arrives on Amazon Bedrock",
+     "body": "AWS made Claude Haiku 5.5 available on October 7, 2026, on Amazon Bedrock and on Claude Platform on AWS. Anthropic says it costs about 75% less than Haiku 4.5 for most tasks and improves coding, tool use, computer use and agent work. It is the first Haiku model with effort controls. On Bedrock it works with Guardrails and Knowledge Bases.",
+     "topics": [
+      "Bedrock",
+      "Claude",
+      "Agents"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/claude-haiku-5-5-aws/",
+     "date": "2026-10-07",
+     "why": "Haiku 5.5 is a cheap, fast subagent model on Bedrock: a larger model can plan and hand coding and tool-use tasks to it."
+    },
+    {
+     "title": "GPT-6.1 Sol gets Ultrafast mode on Bedrock",
+     "body": "Amazon Bedrock now supports Ultrafast mode for OpenAI GPT-6.1 Sol. AWS says the mode gives faster inference for real-time coding assistants, interactive agents and customer-facing apps. It is available now through the Bedrock console and APIs. The page gives no speed figures or prices.",
+     "topics": [
+      "Bedrock",
+      "Agents"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/openai-gpt-sol-ultrafast-amazon/",
+     "date": "2026-10-08",
+     "why": "Bedrock now has a faster non-Claude option for latency-sensitive agents and coding assistants."
+    },
+    {
+     "title": "Network Firewall adds wildcard filters for EKS and ECS workloads",
+     "body": "AWS Network Firewall now supports wildcard matching in container attribute-based inspection filters. A pattern such as app=payments-* matches payments-api, payments-worker and payments-cron. The feature applies to Amazon EKS and Amazon ECS. It is available in all Regions where container attribute-based inspection is supported.",
+     "topics": [
+      "Security",
+      "Kubernetes",
+      "Containers"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-network-firewall-container-attributes-wildcard",
+     "date": "2026-10-08",
+     "why": "One firewall rule can now cover many container services, so EKS and ECS rule sets stay small."
+    }
+   ]
+  }
+ }
+}
