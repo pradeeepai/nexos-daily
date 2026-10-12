@@ -1,0 +1,296 @@
+{
+ "date": "2026-10-10",
+ "generated": "2026-10-12T06:34:43Z",
+ "sections": {
+  "tech-news": {
+   "routine": "tech-news",
+   "status": "done",
+   "headline": "Claude Haiku 5.5 still leads the AI talk: 1M context, effort levels and input at $0.10 per million tokens.",
+   "filed": "2026-10-10T02:24:30Z",
+   "note": "The Hacker News front page, the Claude Code GitHub releases page and the Anthropic Haiku 5.5 post did not load, so the desk used the HN Algolia API, Releasebot and news coverage instead.",
+   "items": [
+    {
+     "title": "Claude Haiku 5.5 cuts small-model prices and adds effort levels",
+     "body": "Anthropic released Claude Haiku 5.5 (claude-haiku-5-5) on October 7. Prompts up to 100k tokens cost $0.10 per million input tokens and $0.50 per million output tokens; Haiku 4.5 cost $1 and $5. It has a 1M-token context, 128k max output, adaptive thinking with an effort parameter, and 72.4% on the OSWorld 2.1 offline subset. It is on the Claude API, Amazon Bedrock, Google Cloud and Microsoft Foundry. Manual budget_tokens thinking now returns a 400 error.",
+     "why": "A cheap, fast Haiku with a 1M context is a strong default for subagents, routing and high-volume Bedrock workloads.",
+     "topics": [
+      "Claude",
+      "Bedrock",
+      "Agents"
+     ],
+     "source": "Let's Data Science / Anthropic release notes",
+     "url": "https://letsdatascience.com/news/anthropic-releases-claude-haiku-55-with-lower-prices-and-eff-f698c663",
+     "date": "2026-10-07"
+    },
+    {
+     "title": "Claude Code now compacts automatically before the prompt cache expires",
+     "body": "A r/ClaudeAI user reports that Claude Code compacted a session automatically just before the prompt cache expired. Before, users ran compaction by hand to avoid paying again for hundreds of thousands of cached tokens. Claude Code 2.1.293 also fixed Claude treating pre-compaction actions as finished, and fixed a memory leak in HTTP MCP connections.",
+     "why": "Long sessions no longer lose a warm cache when you forget to compact, so you save tokens and money.",
+     "topics": [
+      "Claude Code"
+     ],
+     "source": "r/ClaudeAI, 164 upvotes",
+     "url": "https://reddit.com/r/ClaudeAI/comments/1x1a6ym/claude_code_compacts_automatically_before_cache/",
+     "date": "2026-10-09"
+    },
+    {
+     "title": "Claude Code and Haiku mine 400 years of archives for new finds",
+     "body": "Jesse Waites embedded about 5.7 million Dutch East India Company passages, screened them with the small model Jev, and used Claude Haiku to read and translate the hits. Claude Code built the pipeline and checked candidates against original scans. Unconfirmed finds include an 1812 meteorite fall near Pandharpur, three Javan rhinos shipped in 1738-1740, and three unlisted volcanic eruptions. Filtering 59,000 elephant mentions cost about $3.",
+     "why": "It shows a cheap, repeatable pipeline: embeddings, a small filter model, Haiku for reading, and Claude Code for verification.",
+     "topics": [
+      "Claude Code",
+      "Agents",
+      "AI research"
+     ],
+     "source": "r/ClaudeAI, 824 upvotes; Hacker News, 108 points",
+     "url": "https://jessewaites.com/blog/post/i-pointed-ai-at-400-years-of-archives/",
+     "date": "2026-10-09"
+    },
+    {
+     "title": "bigarrow lets coding agents point at your screen",
+     "body": "bigarrow is an MIT-licensed macOS CLI that draws click-through arrows, boxes and labels on screen. Agents call commands such as bigarrow point --element with JSON output and clear exit codes. bigarrow install-skill adds a SKILL.md for Claude Code and Codex. It reached 382 points on Hacker News.",
+     "why": "It ships as a Claude Code skill, so your agent can guide you through UI steps it cannot click itself.",
+     "topics": [
+      "Skills",
+      "Claude Code",
+      "AI tools"
+     ],
+     "source": "Hacker News, 382 points",
+     "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+     "date": "2026-10-09"
+    },
+    {
+     "title": "Microsoft open-sources MXC sandbox for untrusted agent code",
+     "body": "Microsoft eXecution Container (MXC) runs untrusted code such as model output, plugins and tools in isolated containers. Backends include Bubblewrap (Linux default), Seatbelt (macOS default), ProcessContainer (Windows default), LXC, MicroVM and Hyperlight. Policies control filesystem paths, outbound network and UI access. SDKs exist for Rust, .NET and Node under the MIT license.",
+     "why": "It gives one SDK to isolate model-generated code on Linux, macOS and Windows with file and network policies.",
+     "topics": [
+      "Agents",
+      "Security",
+      "DevOps"
+     ],
+     "source": "Hacker News, 183 points",
+     "url": "https://github.com/microsoft/mxc",
+     "date": "2026-10-09"
+    },
+    {
+     "title": "Open-source mod lets Haiku 5.5 pick Claude Code's model and effort",
+     "body": "Effortless is an MIT-licensed Claude Code mod that uses Haiku 5.5 or Jev to pick Haiku, Sonnet or Opus and an effort level for each prompt. It reads earlier messages so it does not switch models mid-task. It warns when the prompt cache goes cold and when the chat gets too long. Setup takes three steps.",
+     "why": "It is a practical way to stop running every prompt on the most expensive model and effort.",
+     "topics": [
+      "Claude Code",
+      "AI tools"
+     ],
+     "source": "r/ClaudeAI, 171 upvotes",
+     "url": "https://reddit.com/r/ClaudeAI/comments/1x1nnkn/i_made_a_claude_code_mod_that_uses_haiku_55_or/",
+     "date": "2026-10-09"
+    },
+    {
+     "title": "Qwen-Image-2.1-Turbo generates 2K images in 8 steps",
+     "body": "Qwen released open weights for Qwen-Image-2.1-Turbo, an accelerated checkpoint on the same 7B Qwen-Image-2.1 architecture. It creates and edits 2K images in 8 denoising steps and supports natural-language edits. It loads in Diffusers with QwenImage21Pipeline.",
+     "why": "It is a fast open-weight image model you can self-host for diagrams and assets.",
+     "topics": [
+      "Open models"
+     ],
+     "source": "r/LocalLLaMA, 414 upvotes",
+     "url": "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo",
+     "date": "2026-10-09"
+    }
+   ]
+  },
+  "x-desk": {
+   "routine": "x-desk",
+   "status": "done",
+   "headline": "Claude Dashboards and Claude Motion enter beta and lead X with about 56k likes.",
+   "filed": "2026-10-10T02:20:20Z",
+   "note": "Read 32 posts; 6 passed the value filter.",
+   "items": [
+    {
+     "title": "Claude Dashboards and Claude Motion are now in beta",
+     "body": "Claude announced two beta features. You can \"ask Claude to turn your data into live dashboards and your ideas into animated explainers.\" The post got about 37k bookmarks and 9.9M views.",
+     "why": "Teams can turn ops metrics and agent output into live dashboards inside Claude without a separate BI tool.",
+     "topics": [
+      "Claude",
+      "AI tools"
+     ],
+     "source": "X · @claudeai · 55991 likes · 4157 reposts",
+     "url": "https://x.com/claudeai/status/2108271552991252810",
+     "date": "2026-10-09"
+    },
+    {
+     "title": "Codex adds composer predictions in beta for Pro users",
+     "body": "OpenAI Developers launched composer predictions in Codex. Codex now suggests your next message \"based on your conversation and how you talk to it.\" OpenAI calls it one of the most loved features it tested internally.",
+     "why": "It shows where competing coding agents are going, which helps teams compare Codex with Claude Code.",
+     "topics": [
+      "OpenAI",
+      "AI tools"
+     ],
+     "source": "X · @OpenAIDevs · 5011 likes · 251 reposts",
+     "url": "https://x.com/OpenAIDevs/status/2108624138369929725",
+     "date": "2026-10-09"
+    },
+    {
+     "title": "Astrophysicist uses Claude Science to build the first complete UV map of the sky",
+     "body": "Anthropic reports that astrophysicist Brice Ménard worked with Claude Science to create the first complete ultraviolet map of the sky. Sky maps already exist from radio to gamma rays, but large regions were never observed in UV. Anthropic tells the story in its science blog.",
+     "why": "It is a real example of Claude running a long, data-heavy research workflow, a pattern that agent builders can reuse.",
+     "topics": [
+      "Claude",
+      "AI research"
+     ],
+     "source": "X · @AnthropicAI · 4378 likes · 474 reposts",
+     "url": "https://x.com/AnthropicAI/status/2108290395599667700",
+     "date": "2026-10-09"
+    },
+    {
+     "title": "Anthropic launches the Cyber Mission to secure critical infrastructure and open source",
+     "body": "Anthropic announced the Anthropic Cyber Mission. It is \"a new effort to secure critical infrastructure and open-source software.\" The post links to the full announcement.",
+     "why": "DevOps teams depend on secure open-source supply chains, and this effort may bring new security tools.",
+     "topics": [
+      "Claude",
+      "AI research"
+     ],
+     "source": "X · @AnthropicAI · 2465 likes · 275 reposts",
+     "url": "https://x.com/AnthropicAI/status/2108302539498414208",
+     "date": "2026-10-09"
+    },
+    {
+     "title": "Codex on Windows gets a new sandbox built on Microsoft Execution Containers",
+     "body": "OpenAI built a new Codex sandbox mode on Microsoft Execution Containers (MXC). It gives \"faster setup, stronger network enforcement, and granular file access controls.\" It needs a compatible Windows 11 device.",
+     "why": "Network and file isolation for coding agents is a key control when agents run near infrastructure.",
+     "topics": [
+      "OpenAI",
+      "Agents"
+     ],
+     "source": "X · @OpenAIDevs · 1211 likes · 82 reposts",
+     "url": "https://x.com/OpenAIDevs/status/2108573188703781190",
+     "date": "2026-10-09"
+    },
+    {
+     "title": "Simon Willison builds a blog feature by voice with Codex Desktop",
+     "body": "Simon Willison built a new feature for his blog \"entirely by voice with Codex Desktop, while I was cooking dinner.\" The post links to his write-up of the session.",
+     "why": "It shows a hands-free coding-agent workflow that also works with Claude Code.",
+     "topics": [
+      "OpenAI",
+      "Agents"
+     ],
+     "source": "X · @simonw · 292 likes · 12 reposts",
+     "url": "https://x.com/simonw/status/2108547065634844839",
+     "date": "2026-10-09"
+    }
+   ]
+  },
+  "tech-pulse": {
+   "routine": "tech-pulse",
+   "status": "done",
+   "headline": "Developers debate DeepSeek 4.1 Flash: frontier-like coding at a fraction of the cost.",
+   "filed": "2026-10-10T02:22:11Z",
+   "note": "The Hacker News page for 2026-10-09 failed to load, so this digest uses the current front page; GitHub Trending showed no AI or DevOps repos of value.",
+   "items": [
+    {
+     "title": "DeepSeek 4.1 Flash: frontier-class results at tiny cost spark debate",
+     "body": "A blog post asks why the industry ignores DeepSeek 4.1 Flash. The author used it for about a month on a dozen projects and says it performs like a frontier model. He says most sessions cost under $1, and he estimates one task at $0.003 against $1 on a frontier model. The post also claims DeepSeek cut its KV cache by about 437x compared with its V1 model.",
+     "why": "A cheap model that performs near frontier level can cut the cost of the agent pipelines you run every day.",
+     "topics": [
+      "Open models",
+      "AI tools"
+     ],
+     "source": "Hacker News · 868 points · 779 comments",
+     "url": "https://www.dgt.is/blog/2026-10-07-deepseek-freek-out/",
+     "date": "2026-10-09"
+    },
+    {
+     "title": "Claude Code mines 400 years of archives, finds lost eruptions",
+     "body": "Jesse Waites used Claude Code, Claude Haiku and a small filter model to search 5.7 million passages from Dutch East India Company archives and old newspapers. The pipeline returned 769 eruption reports and 460 sky-phenomenon reports. Candidate finds include an 1812 meteorite fall near Pandharpur, India, three unrecorded volcanic eruptions and Javan rhinoceros records from 1738 to 1740. Specialists have not yet reviewed the finds, and the workflow is open source as the Antiquity toolkit.",
+     "why": "It shows a real Claude Code pipeline that uses a cheap model to read millions of passages, which you can copy for large-scale agent jobs.",
+     "topics": [
+      "Claude Code",
+      "Agents"
+     ],
+     "source": "r/ClaudeAI · 823 upvotes · 60 comments",
+     "url": "https://jessewaites.com/blog/post/i-pointed-ai-at-400-years-of-archives",
+     "date": "2026-10-09"
+    },
+    {
+     "title": "Whistle: 16.9 MB speech-to-text model beats Whisper base on CPU",
+     "body": "Cactus Compute released Whistle, an open speech recognition model of 16.9 MB that runs on CPU with no dependencies. It transcribes seven languages and decodes about 1,319 tokens per second on an Apple M4 Pro, against 266 for Whisper base. It beats Whisper base on LibriSpeech, SPGISpeech and Earnings-22, but loses on TED-LIUM and AMI. Prebuilt binaries cover 17 targets, including Linux, macOS, Android, iOS, browsers and WASI.",
+     "why": "A tiny, dependency-free speech model lets you add voice input to agents and edge tools without a GPU or a cloud API.",
+     "topics": [
+      "Open models",
+      "AI tools"
+     ],
+     "source": "Hacker News · 817 points · 165 comments",
+     "url": "https://cactuscompute.com/blog/whistle",
+     "date": "2026-10-09"
+    },
+    {
+     "title": "Qwen releases Qwen-Image-2.1-Turbo with open weights",
+     "body": "The Qwen team released Qwen-Image-2.1-Turbo as open weights on Hugging Face. It is an accelerated checkpoint of the 7B Qwen-Image-2.1 model and creates and edits images in 8 denoising steps. It generates 2K images from text and supports edits in natural language. It loads in Diffusers through QwenImage21Pipeline.",
+     "why": "Open image models with few steps are cheap to self-host, for example on AWS GPU instances behind your own agents.",
+     "topics": [
+      "Open models"
+     ],
+     "source": "r/LocalLLaMA · 422 upvotes · 96 comments",
+     "url": "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo",
+     "date": "2026-10-09"
+    },
+    {
+     "title": "Microsoft open-sources MXC, a sandbox for untrusted code",
+     "body": "Microsoft published MXC, a system that runs untrusted code such as model output, plugins and tools. It works on Windows, Linux and macOS and offers several containment backends, from OS-native process sandboxes to full virtual machines. It has SDKs for Rust, .NET and Node. The project uses the MIT license and has about 2.2k GitHub stars.",
+     "why": "Agents that run model-generated code need strong isolation, and MXC gives one API from process sandboxes up to full VMs.",
+     "topics": [
+      "Agents",
+      "Security",
+      "DevOps"
+     ],
+     "source": "Hacker News · 75 points · 43 comments",
+     "url": "https://github.com/microsoft/mxc",
+     "date": "2026-10-09"
+    }
+   ]
+  },
+  "aws-news": {
+   "routine": "aws-news",
+   "status": "done",
+   "headline": "AWS Cost Explorer and Budgets now break down Amazon Bedrock spend by model, provider, inference type and feature.",
+   "filed": "2026-10-10T02:24:30Z",
+   "note": "The AWS What's New page did not render its feed, so this desk used the What's New RSS feed instead.",
+   "items": [
+    {
+     "title": "Cost Explorer and Budgets now split Bedrock spend by model",
+     "body": "AWS Cost Explorer, AWS Budgets and Cost Management Dashboards now support Amazon Bedrock product attributes. The new attributes are model, model provider, inference type (for example input or output tokens) and feature (for example on-demand inference or reranker). You can combine them with cost allocation tags on application inference profiles and with IAM principal tags. It is available at no additional charge in all commercial Regions, except GovCloud (US) and China.",
+     "why": "You can now see and cap what each Claude model and agent workload costs on Bedrock, without custom billing scripts.",
+     "topics": [
+      "Bedrock",
+      "Cost"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-bedrock-attributes-in-cost-explorer/",
+     "date": "2026-10-08"
+    },
+    {
+     "title": "Bedrock returns reasoning summaries for OpenAI models",
+     "body": "Amazon Bedrock now supports the reasoning.summary parameter for all OpenAI models through the Responses API. The model returns a human-readable summary of its reasoning in the summary array of the reasoning output item. It works with in-Region, geographic cross-Region and global cross-Region inference, in all Regions that offer OpenAI GPT models. Separately, on October 8, GPT-6.1 Sol got an Ultrafast mode on Bedrock for latency-sensitive work.",
+     "why": "Readable reasoning summaries help you debug and evaluate agent decisions when you mix OpenAI models with Claude on Bedrock.",
+     "topics": [
+      "Bedrock",
+      "Agents"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-bedrock-reasoning-summaries-openai/",
+     "date": "2026-10-09"
+    },
+    {
+     "title": "Security Hub exports findings to S3 as CSV or JSON",
+     "body": "AWS Security Hub can now export findings on demand to an S3 bucket in your account. Export works from every findings page: Threats, Exposure, Vulnerabilities, Posture Management, Sensitive Data and All Findings. CSV suits spreadsheet review, and JSON uses the OCSF format. It is available in all Regions where Security Hub is available.",
+     "why": "Audit and compliance evidence now comes from one console click, so you do not need to maintain a custom export pipeline.",
+     "topics": [
+      "Security",
+      "DevOps"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/security-hub-exports-s3-csv-json/",
+     "date": "2026-10-09"
+    }
+   ]
+  }
+ }
+}
