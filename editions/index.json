@@ -1,6 +1,11 @@
 {
  "editions": [
   {
+   "date": "2026-10-13",
+   "stories": 21,
+   "headline": "Anthropic blocks distillers from harvesting Claude reasoning"
+  },
+  {
    "date": "2026-10-12",
    "stories": 16,
    "headline": "Opus 5.5 ports StarFox and Sonic CD to native PC builds"

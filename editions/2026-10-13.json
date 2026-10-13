@@ -1,0 +1,296 @@
+{
+ "date": "2026-10-13",
+ "generated": "2026-10-13T02:41:48Z",
+ "sections": {
+  "tech-news": {
+   "routine": "tech-news",
+   "status": "done",
+   "headline": "Anthropic hardens Claude against distillation and cuts harvested reasoning data by 90 to 99 percent.",
+   "filed": "2026-10-13T02:23:18Z",
+   "note": "The Hacker News front page for 2026-10-12 did not load, so ranking uses Reddit upvotes and source coverage; no new Claude Code release or Anthropic news post appeared yesterday.",
+   "items": [
+    {
+     "title": "Anthropic blocks distillers from harvesting Claude reasoning",
+     "body": "Anthropic says new defenses cut the data that distillers can harvest from Claude by about 90 to 99 percent. API accounts created on or after August 31, 2026 cannot edit prior context in preserved thinking, and Sonnet 5.5 transcripts are visible only to the requesting organization. A two-stage classifier blocks extraction attempts with a false positive rate under 0.1 percent. A model trained on full transcripts scored 80.4 percent on SWE-bench Verified, against 71.8 percent for one trained on summaries.",
+     "why": "If you call Claude through the API, these safeguards change how thinking blocks and preserved reasoning behave in your agents.",
+     "topics": [
+      "Claude",
+      "Security"
+     ],
+     "source": "Anthropic (r/LocalLLaMA 162 upvotes)",
+     "url": "https://www.anthropic.com/research/distillation-defenses",
+     "date": "2026-10-12"
+    },
+    {
+     "title": "Anthropic: small open models near self-replication on cheap devices",
+     "body": "The Anthropic Frontier Red Team found that models of 30B parameters or fewer complete many replication steps but fail to chain them end to end. GLM-5.2 reached 8 of 8 nodes in 4 of 5 trials on a GCP fleet. Gemma4-26B-A4B ran across 15 TV boxes at about 0.39 tokens per second. The authors expect small models to reach end-to-end replication by the end of 2026 and recommend anomaly monitoring and host quarantine.",
+     "why": "It shows how fast small open-weight models gain agentic skill, and which network defenses matter for the fleets you run.",
+     "topics": [
+      "AI research",
+      "Open models",
+      "Security"
+     ],
+     "source": "Anthropic (r/LocalLLaMA 426 upvotes)",
+     "url": "https://www.anthropic.com/research/self-replicating-ai",
+     "date": "2026-10-12"
+    },
+    {
+     "title": "Meta launches Muse Wonder, claims lead over Opus 5.5",
+     "body": "Meta announced Muse Wonder and Muse Wonder Full on October 12. Meta's own charts show Muse Wonder at 85.6 percent on MemoryBench, against 81.5 percent for Claude Opus 5.5 and 81.4 percent for GPT-6 Astra. Muse Wonder costs $4 input and $20 output per million tokens with about a 1M context, on the Meta Model API and OpenRouter. Muse Wonder Full is only for Muse Code subscribers.",
+     "why": "It is a new frontier model at Opus 5.5 pricing that you can test against Claude for agent workflows.",
+     "topics": [
+      "AI tools",
+      "Agents"
+     ],
+     "source": "Mad Robot (r/ClaudeAI 488 upvotes)",
+     "url": "https://madrobot.blog/2026/10/12/meta-muse-wonder-frontier-ai-model-zuckerberg-price-availability/",
+     "date": "2026-10-12"
+    },
+    {
+     "title": "Qwen releases QwenGyre for long-horizon agent RL training",
+     "body": "QwenGyre is an RL framework for extreme-long-horizon agent training. Its elastic scheduler moves GPUs between rollout and training, with up to 1.85x speedup over colocated training. Its trajectory processor turns branching runs into prefix-shared trees. On Qwen3.8-2.4T-A95B with about 700K tokens per rollout, NL2RepoBench rose from 52.5 to 58.5 percent in 48 steps.",
+     "why": "It shows how to train agents on very long tasks with sub-agents, compaction and retries, which match your agent designs.",
+     "topics": [
+      "Open models",
+      "Agents",
+      "AI research"
+     ],
+     "source": "r/LocalLLaMA (421 upvotes)",
+     "url": "https://arxiv.org/abs/2609.33848",
+     "date": "2026-10-12"
+    },
+    {
+     "title": "Decision 3.0: open multimodal decision models from 0.6B to 27B",
+     "body": "The vLLM Semantic Router team released Decision 3.0 under Apache-2.0, built on Qwen3.5 and Qwen3.8-27B. The models return a probability for each answer to choice, yes/no and score questions, with no text generation. They read text, images and video. The team reports the 27B ranks first on both Jev Decision Index boards with 64.7 text and 71.6 vision.",
+     "why": "Small yes/no and scoring models can route or gate agent steps cheaply instead of a full LLM call.",
+     "topics": [
+      "Open models",
+      "AI tools"
+     ],
+     "source": "r/LocalLLaMA (512 upvotes)",
+     "url": "https://huggingface.co/collections/vllm-sr/decision-30",
+     "date": "2026-10-12"
+    },
+    {
+     "title": "MiniCPM-V 4.7 brings a 35B-A3B MoE vision model",
+     "body": "OpenBMB released MiniCPM-V 4.7 35B-A3B, the first MoE model in the MiniCPM-V series, under Apache-2.0. It handles single-image, multi-image and video input, with a Qwen3.6 backbone and SigLIP2 vision. OpenBMB claims more than 13 tokens per second on an iPhone 17 Pro Max. A 1B variant also shipped.",
+     "why": "It is a local multimodal model that runs on vLLM, SGLang, llama.cpp and Ollama for private image and video tasks.",
+     "topics": [
+      "Open models"
+     ],
+     "source": "Hugging Face (r/LocalLLaMA 189 upvotes)",
+     "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B",
+     "date": "2026-10-12"
+    },
+    {
+     "title": "New Claude Code skill draws pencil-style architecture diagrams",
+     "body": "The open-source skill 'penciled' turns a short JSON description into a hand-drawn style diagram as SVG, PNG or offline HTML. It checks the layout first and warns about crossing arrows and overlaps. Install with 'npx skills add himanshu13ps/penciled'. It needs only Node 18 and is MIT licensed.",
+     "why": "You can add it to Claude Code to sketch repo architecture for design docs in one prompt.",
+     "topics": [
+      "Claude Code",
+      "Skills"
+     ],
+     "source": "r/ClaudeAI (41 upvotes)",
+     "url": "https://github.com/himanshu13ps/penciled",
+     "date": "2026-10-12"
+    }
+   ]
+  },
+  "x-desk": {
+   "routine": "x-desk",
+   "status": "done",
+   "headline": "Meta launches the Muse Wonder series, two frontier models for agentic tasks, and it is the top AI release on X yesterday.",
+   "filed": "2026-10-13T02:20:30Z",
+   "note": "Read 29 posts (9 from key voices, 20 from the wider search); 6 passed the value filter, and the top post by engagement (@karpathy on the LLM capability gap, 39,892 likes) was dropped as opinion.",
+   "items": [
+    {
+     "title": "Meta launches Muse Wonder and Muse Wonder Full frontier models",
+     "body": "AI at Meta introduced the Muse Wonder series with two models, Muse Wonder and Muse Wonder Full. Meta calls them \"our most capable models yet\" and says they are \"built to deliver state-of-the-art performance for personal and professional agentic tasks.\" Muse Wonder is available today via Meta.",
+     "why": "A new frontier model for agentic tasks is another option to compare with Claude when you build agents.",
+     "topics": [
+      "Open models",
+      "Agents"
+     ],
+     "source": "X · @AIatMeta · 1790 likes · 174 reposts",
+     "url": "https://x.com/AIatMeta/status/2109691148943999167",
+     "date": "2026-10-12"
+    },
+    {
+     "title": "Simon Willison shares notes on Python 3.15 with uv",
+     "body": "Simon Willison published notes on Python 3.15 and how to use it with uv. He also lists Python 3.11 features he can now use because 3.10 is no longer the minimum supported version for his projects.",
+     "why": "A practical uv and Python 3.15 upgrade guide helps teams that write Python agent and DevOps tooling.",
+     "topics": [
+      "AI tools"
+     ],
+     "source": "X · @simonw · 337 likes · 23 reposts",
+     "url": "https://x.com/simonw/status/2109711203077619768",
+     "date": "2026-10-12"
+    },
+    {
+     "title": "List of free courses to learn Claude and Claude Code",
+     "body": "The post lists free courses to learn Claude. The list includes \"Mastering Claude Code: From Setup to Real Projects\", \"Anthropic: AI Fundamentals with Claude\" and \"Claude Code in Action\", with links.",
+     "why": "Free Claude Code courses can fill workflow gaps or help onboard teammates.",
+     "topics": [
+      "Claude",
+      "Claude Code"
+     ],
+     "source": "X · @PromptLuckyAi · 133 likes · 53 reposts",
+     "url": "https://x.com/PromptLuckyAi/status/2109565074042159117",
+     "date": "2026-10-12"
+    },
+    {
+     "title": "AI Engineer NY opens with a full workshop on Claude flows",
+     "body": "swyx reports the \"world's first full length workshop on claude flows\" at AI Engineer NY, led by @cjav_dev and Harrison Stall, to a standing-room-only crowd. Latent Space will report on it and publish the material.",
+     "why": "Workshop material on Claude flows shows new patterns for multi-step agents.",
+     "topics": [
+      "Claude",
+      "Agents"
+     ],
+     "source": "X · @swyx · 136 likes · 6 reposts",
+     "url": "https://x.com/swyx/status/2109640508079263769",
+     "date": "2026-10-12"
+    },
+    {
+     "title": "prompts.chat is a large free open-source prompt library",
+     "body": "The post describes prompts.chat, formerly Awesome ChatGPT Prompts, as an open-source collection of prompts for ChatGPT, Claude, Gemini and other models. The post says the repo has more than 167K GitHub stars.",
+     "why": "A large free prompt library gives ready starting points for agent system prompts.",
+     "topics": [
+      "AI tools"
+     ],
+     "source": "X · @He1s_Sammy · 60 likes · 8 reposts",
+     "url": "https://x.com/He1s_Sammy/status/2109658019868905866",
+     "date": "2026-10-12"
+    },
+    {
+     "title": "AWS shows how Netsmart cut legacy code effort",
+     "body": "AWS posted a customer story about Netsmart, which supports over 165M people with community-based care services. The post says Netsmart's legacy code \"was costing engineering teams months of effort\" and links to how AWS helped.",
+     "why": "It is a reference case for legacy code modernization on AWS.",
+     "topics": [
+      "AI tools"
+     ],
+     "source": "X · @awscloud · 14 likes · 1 reposts",
+     "url": "https://x.com/awscloud/status/2109630459067904126",
+     "date": "2026-10-12"
+    }
+   ]
+  },
+  "tech-pulse": {
+   "routine": "tech-pulse",
+   "status": "done",
+   "headline": "Anthropic's Frontier Red Team shows small open models can nearly self-replicate across cheap IoT devices.",
+   "filed": "2026-10-13T02:21:45Z",
+   "note": "The Hacker News best-of-day page for 2026-10-12 failed to load, so this run used the current front page; GitHub Trending returned no repo names and no AI or DevOps items, so it gave no picks.",
+   "items": [
+    {
+     "title": "Anthropic: small AI models may soon self-replicate on cheap devices",
+     "body": "Anthropic's Frontier Red Team published the study on October 12, 2026. In a simplified test on 8 GCP nodes, GLM-5.2 spread to 8 of 8 nodes in 4 of 5 trials; other open-weight models failed. Qwen3.5-9B set up inference on 8 of 9 hardware types, and its success rose from 45% to 61-84% when replicas inherited notes. The authors suggest network anomaly monitoring, ISP quarantine and stronger default credentials.",
+     "why": "It shows how fast small open models gain agent skills, and it lists network defenses that a DevOps engineer can apply.",
+     "topics": [
+      "AI research",
+      "Security",
+      "Open models"
+     ],
+     "source": "r/LocalLLaMA · 426 upvotes · 158 comments",
+     "url": "https://www.anthropic.com/research/self-replicating-ai",
+     "date": "2026-10-12"
+    },
+    {
+     "title": "Meta claims Muse Wonder beats Claude Opus 5.5",
+     "body": "Meta announced its new Muse Wonder model. Meta scores it at 85.6%, against 81.5% for Claude Opus 5.5 and 81.4% for GPT-6 Astra. These are Meta's own numbers. Users on r/ClaudeAI question the claim.",
+     "why": "A new frontier model claims to beat Claude Opus 5.5, so teams that rely on Opus should test it.",
+     "topics": [
+      "Claude",
+      "Open models"
+     ],
+     "source": "r/ClaudeAI · 486 upvotes · 159 comments",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1x48ecy/meta_says_its_new_muse_wonder_scores_at_856/",
+     "date": "2026-10-12"
+    },
+    {
+     "title": "Qwen releases QwenGyre for long-horizon agent RL training",
+     "body": "Qwen released QwenGyre, an RL framework for extreme-long-horizon agent training. Its Elastic Scheduler moves GPUs between rollout and training and gives up to 1.85x speedup. On Qwen3.8-2.4T-A95B with about 700K tokens per rollout, it lifts NL2RepoBench from 52.5% to 58.5% in 48 steps and cuts training time by about 44%.",
+     "why": "It shows how labs now train agents on very long tasks with sub-agents, retries and context compaction.",
+     "topics": [
+      "Agents",
+      "Open models",
+      "AI research"
+     ],
+     "source": "r/LocalLLaMA · 418 upvotes · 38 comments",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x41myz/qwen_released_qwengyre_rl_framework_for_training/",
+     "date": "2026-10-12"
+    },
+    {
+     "title": "Zod 4.6.6 commit adds malicious preinstall script",
+     "body": "A commit on colinhacks/zod bumps the version to 4.6.6 and adds an obfuscated meta.test.mjs file. A new preinstall hook runs this file on install. The script reads domains from an Ethereum contract, fetches a payload and runs it. The commit also lets version bumps on main trigger releases automatically.",
+     "why": "Zod is in many TypeScript and agent projects, so check lockfiles and CI and rotate secrets if 4.6.6 was installed.",
+     "topics": [
+      "Security",
+      "DevOps"
+     ],
+     "source": "Hacker News · 154 points · 44 comments",
+     "url": "https://github.com/colinhacks/zod/commit/d821685ea6732436fcdf786a81d076958471e467",
+     "date": "2026-10-12"
+    },
+    {
+     "title": "Pensieve: local MCP index cuts coding-agent tool calls",
+     "body": "Pensieve is a free, MIT-licensed Mac app that indexes files, git repos and Claude Code, Codex and Qwen Code sessions on-device. It serves code passages to agents through MCP. In the author's tests with Claude Sonnet in Claude Code, it used 43% fewer tool calls and cost 18% less per lookup than grep. It needs Apple Silicon and macOS 14 or later.",
+     "why": "It plugs into Claude Code through MCP and can cut tool calls and token cost on large repos.",
+     "topics": [
+      "MCP",
+      "Claude Code",
+      "AI tools"
+     ],
+     "source": "Hacker News · 89 points · 26 comments",
+     "url": "https://tedhaley.ca/pensieve/",
+     "date": "2026-10-12"
+    }
+   ]
+  },
+  "aws-news": {
+   "routine": "aws-news",
+   "status": "done",
+   "headline": "Bedrock AgentCore Memory moves short-term memory to per-GB pricing, which cuts costs for most agents.",
+   "filed": "2026-10-13T02:24:30Z",
+   "note": "The AWS What's New page did not load its list, so this desk used its RSS feed; the Machine Learning blog had no posts in the last 48 hours.",
+   "items": [
+    {
+     "title": "AgentCore Memory switches short-term memory to per-GB pricing",
+     "body": "Amazon Bedrock AgentCore Memory now bills short-term memory by data ingested, retrieved and stored, not a flat rate per event. Ingestion costs $1.00 per GB, retrieval $0.20 per GB, and storage $0.10 per GB-month. Ingestion and retrieval bill per event with a 12 KB minimum and 64 KB maximum. Long-term memory pricing does not change, and the change applies in all Regions with AgentCore Memory.",
+     "why": "Your agents that write many small memory events will likely cost less to run.",
+     "topics": [
+      "Bedrock",
+      "Agents",
+      "Cost"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/agentcore-memory-consumption-based-pricing",
+     "date": "2026-10-12"
+    },
+    {
+     "title": "Lambda Web Functions run standard HTTP apps without handler rewrites",
+     "body": "AWS Lambda adds Web Functions, a new HTTP-native form factor for Express, Hono, Fastify, Next.js and other Node.js frameworks. Each environment serves up to 128 concurrent requests, and billing covers CPU time, so I/O wait costs little. Endpoints support immutable revisions, canary traffic splits, multi-region routing and CloudFront origins with OAC. Launch support is Node.js 24 on Arm64 in N. Virginia, Ohio, Oregon, Tokyo and Ireland.",
+     "why": "You can deploy Express or Next.js backends for agents on Lambda with no code changes and pay only for CPU time.",
+     "topics": [
+      "Serverless",
+      "DevOps"
+     ],
+     "source": "AWS News Blog",
+     "url": "https://aws.amazon.com/blogs/aws/announcing-aws-lambda-web-functions-for-fast-consistent-web-app-performance-anywhere/",
+     "date": "2026-10-12"
+    },
+    {
+     "title": "Secrets Manager now rotates Databricks and Twilio credentials",
+     "body": "AWS Secrets Manager managed external secrets now rotate Databricks personal access tokens and service principal OAuth secrets. It also rotates Twilio API keys and Auth Tokens. You set a rotation schedule in the console or API, and applications get the current value without code changes. Support is in all Regions where managed external secrets is available.",
+     "why": "You can remove custom rotation Lambdas for these third-party keys in your pipelines.",
+     "topics": [
+      "Security",
+      "DevOps"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/secrets-manager-managed-external-secrets-databricks-twilio/",
+     "date": "2026-10-12"
+    }
+   ]
+  }
+ }
+}
