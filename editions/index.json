@@ -1,6 +1,11 @@
 {
  "editions": [
   {
+   "date": "2026-10-14",
+   "stories": 15,
+   "headline": "Gemini 4 Argon goes GA with low intro API price"
+  },
+  {
    "date": "2026-10-13",
    "stories": 21,
    "headline": "Anthropic blocks distillers from harvesting Claude reasoning"

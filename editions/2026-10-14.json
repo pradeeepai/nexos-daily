@@ -1,0 +1,217 @@
+{
+ "date": "2026-10-14",
+ "generated": "2026-10-14T02:41:35Z",
+ "sections": {
+  "tech-news": {
+   "routine": "tech-news",
+   "status": "done",
+   "headline": "Google makes Gemini 4 Argon generally available at $2/$10 per million tokens, and Anthropic explains why it replaced git for its agent-heavy monorepo.",
+   "filed": "2026-10-14T02:24:00Z",
+   "note": "Composio Reddit tools did not load in this run, so r/ClaudeAI and r/LocalLLaMA were skipped; the HN day page failed, so HN data came from the Algolia API; no new Claude Code release or Claude platform note appeared after October 9.",
+   "items": [
+    {
+     "title": "Gemini 4 Argon goes GA with low intro API price",
+     "body": "Google made Gemini 4 Argon broadly available on October 13 after a preview on September 30. Intro API price is $2 input and $10 output per million tokens until November 30, then $4/$20; cached input costs $0.10. It is on the paid Gemini API, AI Studio, Antigravity (Ultra), Gemini Enterprise and the Gemini app. Google reports 77.9% on DeepSWE v1.1 against 74.2% for Opus 5.5, but 57.4% on Terminal-Bench 4.0 against 66.4% for Opus 5.5.",
+     "why": "A new frontier model now competes with Claude Opus 5.5 on agentic coding, at half price until November 30.",
+     "topics": [
+      "Gemini",
+      "Agents"
+     ],
+     "source": "Google DeepMind / VentureBeat, Hacker News 1036 points",
+     "url": "https://deepmind.google/models/gemini/",
+     "date": "2026-10-13"
+    },
+    {
+     "title": "Anthropic replaces git with Scion as Claude writes most code",
+     "body": "Anthropic moved its monorepo off git to an in-house system called Scion in about five months, with a seven-person team. Merged changes per day rose from about 2,500 in May to over 30,000 in September 2026, with about 25 million CI checkouts per day. Scion uses about 200x less CPU and memory than the old git mirrors, and CI checkouts dropped from minutes to seconds. Scion is internal, and Anthropic says it is not a general git replacement.",
+     "why": "It shows how source control and CI break when coding agents produce most commits, a direct lesson for your DevOps pipelines.",
+     "topics": [
+      "Claude Code",
+      "DevOps",
+      "Agents"
+     ],
+     "source": "Anthropic Engineering, Hacker News 563 points",
+     "url": "https://www.anthropic.com/engineering/redesigning-source-control",
+     "date": "2026-10-13"
+    },
+    {
+     "title": "Anthropic red team: small models near self-replication on IoT devices",
+     "body": "Anthropic's Frontier Red Team tested whether small open models can set up inference and spread across cheap devices without a datacenter. GLM-5.2 replicated to 8 of 8 nodes in 4 of 5 trials in a firewalled test network; other open models failed. Qwen3.5-9B got inference running on 8 of 9 hardware types. The authors call the results 'signs of life' and recommend network anomaly detection, ISP quarantine and bans on default IoT passwords.",
+     "why": "It names concrete network defenses for agent and edge fleets, which matter to you as a security-minded DevOps engineer.",
+     "topics": [
+      "AI research",
+      "Security",
+      "Open models"
+     ],
+     "source": "Anthropic Research, Hacker News 106 points",
+     "url": "https://www.anthropic.com/research/self-replicating-ai",
+     "date": "2026-10-12"
+    },
+    {
+     "title": "Paper: models can provably hide arbitrary capabilities from audits",
+     "body": "Researchers embed encrypted neural networks in a host model's weights that run only on a secret trigger. Under cryptographic assumptions, the hidden circuits are hard to find or elicit even with full weight access. The hidden capability survived fine-tuning, weight noise, gradient trigger search and latent adversarial training. The paper is accepted at NeurIPS 2026, and the authors released their models.",
+     "why": "It shows that capability evals cannot prove a third-party model is safe, which affects which open weights you trust in agents.",
+     "topics": [
+      "AI research",
+      "Security"
+     ],
+     "source": "arXiv, Hacker News 273 points",
+     "url": "https://arxiv.org/abs/2610.13928",
+     "date": "2026-10-13"
+    },
+    {
+     "title": "Janas runs 80B MoE models on a 32 GB laptop",
+     "body": "Janas-LLM is a GPL-3.0 engine in C that keeps weights on disk and streams the needed mixture-of-experts weights from NVMe SSD. On an Intel Core Ultra 9 laptop with 32 GB RAM, Qwen3-Next-80B-A3B runs at 20 to 25 tokens per second and Qwen3.6-35B-A3B at about 32. It supports only Qwen3 MoE families and runs only on Linux x86-64. The project is experimental.",
+     "why": "You can test large open coding models locally without a GPU server by streaming experts from SSD.",
+     "topics": [
+      "Open models",
+      "AI tools"
+     ],
+     "source": "GitHub, Hacker News 217 points",
+     "url": "https://github.com/prabanta-dev/janas",
+     "date": "2026-10-12"
+    },
+    {
+     "title": "EmbeddingGemma 2 becomes a 288x real-time speech-to-text app",
+     "body": "An independent team trained only a small 'reader' on top of EmbeddingGemma 2's audio encoder, in under two hours on 8 H100 GPUs. The free Mac app transcribes one hour of audio in about 13 seconds on a base M3 MacBook Air. Word error rate is about 5%, against 2 to 3% for leading speech models. Models total 715 MB and run on device.",
+     "why": "It shows a cheap technique: train a small adapter on a frozen embedding model to get a new capability.",
+     "topics": [
+      "Open models",
+      "AI tools"
+     ],
+     "source": "eg2.haku.sh, Hacker News 400 points",
+     "url": "https://eg2.haku.sh/",
+     "date": "2026-10-13"
+    },
+    {
+     "title": "Make your project the harness for Claude Code agents",
+     "body": "A game developer describes how to make a codebase agent-friendly for Claude Code and similar agents. Key techniques are one seeded random source, save and load of exact state, serializable command objects, and tunable values in data files. He also uses screenshot diffing with odiff for visual checks and text-based profilers such as samply. The goal is an edit-test-measure loop that runs in seconds.",
+     "why": "The patterns give coding agents fast, deterministic feedback loops that you can apply to any repo you run with Claude Code.",
+     "topics": [
+      "Claude Code",
+      "Agents"
+     ],
+     "source": "kylekukshtel.com, Hacker News 134 points",
+     "url": "https://kylekukshtel.com/ai-harness-engineering-game-development-claude-code",
+     "date": "2026-10-13"
+    }
+   ]
+  },
+  "tech-pulse": {
+   "routine": "tech-pulse",
+   "status": "done",
+   "headline": "Google DeepMind launches Gemini 4 Argon and leads yesterday's developer discussion with 1,036 points on Hacker News.",
+   "filed": "2026-10-14T02:23:07Z",
+   "note": "Reddit was skipped because the Composio tools were not available in this run; the Hacker News day page failed, so the HN Algolia API gave yesterday's stories.",
+   "items": [
+    {
+     "title": "Google DeepMind releases Gemini 4 Argon frontier model",
+     "body": "Gemini 4 Argon is the newest Google DeepMind model. It targets software engineering, enterprise work and cyber defense. It scores 77.9% on DeepSWE v1.1 and 91.9% on Vibe Code Bench, but Claude Opus 5.5 leads on Terminal-bench 4.0 (66.4% vs. 57.4%). Google calls it its most prompt-injection-resistant model.",
+     "why": "It is a new rival to Claude for coding and agent work, and it claims strong prompt-injection resistance for agent use.",
+     "topics": [
+      "Gemini",
+      "AI tools"
+     ],
+     "source": "Hacker News · 1,036 points · 766 comments",
+     "url": "https://deepmind.google/models/gemini/",
+     "date": "2026-10-13"
+    },
+    {
+     "title": "Anthropic replaces git with Scion for its monorepo",
+     "body": "Merges per day at Anthropic grew from about 2,500 in May 2026 to over 30,000 by September. Anthropic built Scion, an always-online version control system, and moved its monorepo off git in five months. Scion uses server-side changesets, tiered caches and virtual checkouts, and cuts infrastructure CPU and memory needs about 200x. A seven-person team built it with heavy use of Claude.",
+     "why": "It shows how Anthropic scales source control and CI for heavy agent-driven merges, a direct DevOps lesson.",
+     "topics": [
+      "DevOps",
+      "Claude"
+     ],
+     "source": "Hacker News · 564 points · 535 comments",
+     "url": "https://www.anthropic.com/engineering/redesigning-source-control",
+     "date": "2026-10-13"
+    },
+    {
+     "title": "REA gives coding agents reverse-engineering tools through MCP",
+     "body": "REA (Reverse Engineer Anything) is an MIT-licensed project by GitHub user morluto. It ships an MCP server and a CLI for agents such as Claude Code, Codex, Cursor and Gemini CLI. It analyzes native binaries, Electron apps, .NET assemblies, Android APKs, firmware and packet captures. It was the top GitHub Trending repository with 25,585 stars today.",
+     "why": "It adds an MCP server that Claude Code can use to inspect binaries, apps and network captures.",
+     "topics": [
+      "MCP",
+      "Claude Code",
+      "Security"
+     ],
+     "source": "GitHub Trending · 25,585 stars today",
+     "url": "https://github.com/morluto/rea",
+     "date": "2026-10-13"
+    },
+    {
+     "title": "Paper shows AI models can provably hide arbitrary capabilities",
+     "body": "Andis Draguns, Sumeet Ramesh Motwani, Raymond Douglas and Christian Schroeder de Witt wrote the paper. They hide encrypted neural networks in model weights that run only with a secret trigger. The hidden capability resisted fine-tuning, weight noising, trigger search and latent adversarial training.",
+     "why": "It weakens trust in capability audits of third-party and open-weight models used in agents.",
+     "topics": [
+      "AI research",
+      "Security"
+     ],
+     "source": "Hacker News · 273 points · 136 comments",
+     "url": "https://arxiv.org/abs/2610.13928",
+     "date": "2026-10-13"
+    },
+    {
+     "title": "Developers turn EmbeddingGemma 2 into fast local speech-to-text",
+     "body": "Embedding Gemma Transcribe is a free Mac app built on Google DeepMind's EmbeddingGemma 2. The team trained only a small reader, in under two hours on 8×H100 GPUs. Word error rate is about 5%. It transcribes one hour of audio in about 12.6 seconds on a base M3 MacBook Air.",
+     "why": "It shows a cheap way to adapt a small open model into a fast local tool.",
+     "topics": [
+      "Open models",
+      "AI tools"
+     ],
+     "source": "Hacker News · 400 points · 86 comments",
+     "url": "https://eg2.haku.sh/",
+     "date": "2026-10-13"
+    }
+   ]
+  },
+  "aws-news": {
+   "routine": "aws-news",
+   "status": "done",
+   "headline": "Amazon Bedrock AgentCore moves short-term memory to consumption-based pricing, which lowers costs for most agent workloads.",
+   "filed": "2026-10-14T02:23:20Z",
+   "note": "The AWS What's New page did not render its list, so this run used its RSS feed instead.",
+   "items": [
+    {
+     "title": "AgentCore short-term memory switches to pay-per-GB pricing",
+     "body": "Amazon Bedrock AgentCore now prices short-term memory by data ingested, retrieved, and stored. This replaces the flat rate per event. New rates are $1.00 per GB for ingestion, $0.20 per GB for retrieval, and $0.10 per GB-month for storage, with a 12 KB minimum and 64 KB maximum billable size per event for ingestion and retrieval. Long-term memory pricing does not change, and the change applies in all Regions where AgentCore Memory is offered.",
+     "why": "Your agents that write many small memory events can now cost less, and you can cut storage cost with a shorter TTL.",
+     "topics": [
+      "Bedrock",
+      "Agents",
+      "Cost"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/agentcore-memory-consumption-based-pricing",
+     "date": "2026-10-12"
+    },
+    {
+     "title": "Lambda Web Functions run standard HTTP servers without rewrites",
+     "body": "AWS Lambda Web Functions is a new form factor that runs standard HTTP web applications on Lambda. Each execution environment handles up to 128 concurrent requests, and CPU time is metered, so time spent waiting on I/O uses little CPU. The CLI command 'aws lambda-web deploy' creates the function and an HTTPS endpoint, supports multi-Region replication behind one URL, and supports traffic splitting for canary rollouts. At launch it supports Node.js 24 on Arm64 in N. Virginia, Ohio, Oregon, Tokyo, and Ireland, and CloudFront now supports it as an origin.",
+     "why": "You can run Express, Hono, or Next.js apps and agent web front ends on Lambda with CPU-time billing that does not charge for I/O wait.",
+     "topics": [
+      "Serverless",
+      "DevOps"
+     ],
+     "source": "AWS News Blog",
+     "url": "https://aws.amazon.com/blogs/aws/announcing-aws-lambda-web-functions-for-fast-consistent-web-app-performance-anywhere/",
+     "date": "2026-10-12"
+    },
+    {
+     "title": "ECS adds free LiveTaskCount metric, drops RunningTaskCount charge",
+     "body": "Amazon ECS added LiveTaskCount, a service metric that counts tasks in the ACTIVATING, RUNNING, and DEACTIVATING states, including tasks that drain connections during scale-in. It is free and does not need Container Insights. The charge for the RunningTaskCount metric in Container Insights is removed for all users, effective October 1, 2026. The change applies in all Regions where Amazon ECS is available.",
+     "why": "You get better ECS scaling visibility at no cost, and your Container Insights bill goes down with no action needed.",
+     "topics": [
+      "Containers",
+      "Cost"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/ecs-service-metrics/",
+     "date": "2026-10-13"
+    }
+   ]
+  }
+ }
+}
