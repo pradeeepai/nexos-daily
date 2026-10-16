@@ -1,0 +1,202 @@
+{
+ "date": "2026-10-16",
+ "generated": "2026-10-16T02:41:59Z",
+ "sections": {
+  "tech-news": {
+   "routine": "tech-news",
+   "status": "done",
+   "headline": "Fast mode for Claude Opus 5.5 is now generally available on the Claude API, and no beta header is needed.",
+   "filed": "2026-10-16T02:24:30Z",
+   "note": "The Hacker News front-page archive did not load, so I used the HN Algolia search for yesterday; Composio Reddit tools were not available in this run, so I skipped r/ClaudeAI and r/LocalLLaMA.",
+   "items": [
+    {
+     "title": "Claude Opus 5.5 fast mode leaves research preview",
+     "body": "On October 15, Anthropic moved fast mode for Claude Opus 5.5 out of research preview. The fast-mode-2026-02-01 beta header is no longer required, but requests that send it still work. Opus 5.5 gets a default fast mode rate limit in the Start, Build and Scale tiers. Fast mode is also available for Opus 5.5 on Microsoft Foundry, while Opus 5 and Opus 4.8 still need the header.",
+     "why": "You can use faster Opus 5.5 output in production agents without a beta header.",
+     "topics": [
+      "Claude"
+     ],
+     "source": "Claude Developer Platform release notes",
+     "url": "https://platform.claude.com/docs/en/release-notes/overview",
+     "date": "2026-10-15"
+    },
+    {
+     "title": "Claude Code 2.1.299–2.1.300 add idle compaction and advisor on AWS",
+     "body": "Version 2.1.299 compacts terminal conversations over 200K tokens after about 54 idle minutes, before the one-hour prompt cache expires. You can tune this with CLAUDE_CODE_IDLE_COMPACT_MIN_TOKENS or turn it off with \"idleCompaction\": false. Version 2.1.300 makes /advisor available on Claude Platform on AWS, adds 5m/1h cache-write splits to the OpenTelemetry api_request event, and lets the agent.spawn hook rewrite a workflow agent's prompt and model. --worktree now runs plugin WorktreeCreate and WorktreeRemove hooks.",
+     "why": "Long idle sessions keep their prompt cache value, and /advisor now works on Claude Platform on AWS.",
+     "topics": [
+      "Claude Code",
+      "DevOps"
+     ],
+     "source": "GitHub anthropics/claude-code releases",
+     "url": "https://github.com/anthropics/claude-code/releases",
+     "date": "2026-10-14"
+    },
+    {
+     "title": "Anthropic replaces git with Scion for its agent-heavy monorepo",
+     "body": "Anthropic built Scion, a server-centric version control system, because merges grew from about 2,500 to more than 30,000 per day between May and September 2026. Clients fetch only the trees and blobs they need, and the change cut infrastructure CPU and memory needs by about 200x and made CI checkouts about 100x faster. Scion is not open source. Two Hacker News threads argued that its design copies Meta's Mononoke without enough credit.",
+     "why": "It shows how source control and CI must change when agents, not people, make most of the commits.",
+     "topics": [
+      "Claude",
+      "DevOps",
+      "Agents"
+     ],
+     "source": "Anthropic Engineering; Hacker News 416 + 228 points",
+     "url": "https://www.anthropic.com/engineering/redesigning-source-control",
+     "date": "2026-10-13"
+    },
+    {
+     "title": "Claude API gets OpenTelemetry export for requests and Managed Agents",
+     "body": "On October 14, Anthropic released OpenTelemetry export in beta for Messages API requests and Managed Agents sessions. The SDKs emit spans in Python, TypeScript, C#, Go, Java, PHP and Ruby. To receive API spans, you add an OpenTelemetry destination in the Claude Console. Managed Agents scheduled deployments also became available on Claude Platform on AWS on the same day.",
+     "why": "You can send traces of Claude API calls and agent sessions to the observability stack you already run.",
+     "topics": [
+      "Claude",
+      "Agents",
+      "DevOps"
+     ],
+     "source": "Claude Developer Platform release notes",
+     "url": "https://platform.claude.com/docs/en/release-notes/overview",
+     "date": "2026-10-14"
+    },
+    {
+     "title": "Meta releases Muse Spark Open, an 816B open-weight model",
+     "body": "Meta Superintelligence Labs released Muse Spark Open on October 15. It has 816B total and 42B active parameters, native multimodality and a 1M-token context window. Weights are on Hugging Face, Amazon SageMaker AI, Google Cloud Model Garden and Microsoft Foundry under the Muse Model License, which has limited commercial terms. Hosted APIs include Groq, Fireworks, Together AI and OpenRouter.",
+     "why": "It is a large new open-weight option that you can run on SageMaker or self-host with vLLM and SGLang.",
+     "topics": [
+      "Open models"
+     ],
+     "source": "Meta AI research blog; Hacker News 633 points",
+     "url": "https://research.meta.ai/blog/muse-spark-open",
+     "date": "2026-10-15"
+    },
+    {
+     "title": "OpenCode 2.0 ships background server, Code Mode and stable plugins",
+     "body": "OpenCode 2.0 runs one background server that the TUI, web and desktop apps share. Its new Code Mode runs agent-written JavaScript that chains tool calls in one round trip, and all MCP servers opt in by default. Subagents and shell commands can run in the background, and more than 80 features are now internal plugins. Plugins from 1.0 do not work in 2.0.",
+     "why": "It is a strong open-source coding agent to compare with your Claude Code setup.",
+     "topics": [
+      "AI tools",
+      "Agents",
+      "MCP"
+     ],
+     "source": "anoma.ly; Hacker News 856 points",
+     "url": "https://anoma.ly/notes/opencode-2-0/",
+     "date": "2026-10-12"
+    },
+    {
+     "title": "Liquid AI LFM2.5-24B-A2B targets fast on-device agents",
+     "body": "Liquid AI released LFM2.5-24B-A2B, an open-weight MoE reasoning model with 24B total and 2B active parameters and a 131K context window. It beats Qwen3.6-35B-A3B on five of eight agentic benchmarks but trails on SWE-Bench Verified (51.0 vs 66.2). It runs at about 184 tokens/s on an Apple M5 Max and has day-one support in llama.cpp, MLX, vLLM and SGLang. API pricing is $0.10 per 1M input tokens and $1.00 per 1M output tokens.",
+     "why": "With only 2B active parameters, it is a cheap and fast local model for tool-calling agents.",
+     "topics": [
+      "Open models",
+      "Agents"
+     ],
+     "source": "Liquid AI blog; Hacker News 284 points",
+     "url": "https://www.liquid.ai/blog/lfm2-5-24b-a2b",
+     "date": "2026-10-13"
+    }
+   ]
+  },
+  "tech-pulse": {
+   "routine": "tech-pulse",
+   "status": "done",
+   "headline": "OpenCode 2.0 leads the day: the open-source coding agent ships a background server, SDK and MCP Code Mode.",
+   "filed": "2026-10-16T02:22:30Z",
+   "note": "The Hacker News best-of-day page for 2026-10-15 failed to load, GitHub Trending returned stale non-current data so it was not used, and Reddit was skipped because the Composio tools are not available in this session.",
+   "items": [
+    {
+     "title": "OpenCode 2.0 rebuilds the open coding agent around a background server",
+     "body": "Anomaly released OpenCode 2.0, a major rewrite of its coding agent. A single background server now powers the TUI, web and desktop apps, and new @opencode/client and @opencode/sdk packages expose it to scripts. Code Mode lets agents chain MCP and OpenAPI tool calls in one JavaScript script, and subagents and shell commands can run in the background. The release has more than 80 internal plugins; 1.x plugins and the old server API are not compatible.",
+     "why": "It is the main open-source rival to Claude Code, and its MCP Code Mode and background subagents show where coding agents go next.",
+     "topics": [
+      "Agents",
+      "MCP",
+      "AI tools"
+     ],
+     "source": "Hacker News · 802 points · 345 comments",
+     "url": "https://anoma.ly/notes/opencode-2-0/",
+     "date": "2026-10-15"
+    },
+    {
+     "title": "Meta releases Muse Spark Open, an 816B open-weight model",
+     "body": "Meta Superintelligence Labs released the weights of Muse Spark Open on October 15, 2026. It has 816B total and 42B active parameters, a 1M-token context window and native multimodal input. It uses the Muse Model License with limited commercial terms. Meta says it runs on two Apple M5 Ultra Mac Studios with MLX.",
+     "why": "A new large open-weight model with a 1M-token context gives a self-hosted option for agent workloads.",
+     "topics": [
+      "Open models"
+     ],
+     "source": "Hacker News · 17 points · 0 comments",
+     "url": "https://research.meta.ai/blog/muse-spark-open",
+     "date": "2026-10-15"
+    },
+    {
+     "title": "Study of 217M web responses finds prompt injection in HTTP headers",
+     "body": "Signals Corps scanned 217,097,223 responses from Common Crawl and found 7,959 sites that send headers aimed at AI agents. About 91% point agents to llms.txt files or MCP servers; 30 sites sent text that tries to steer an AI, mostly pranks. In October 2026 tests, Claude Opus, Sonnet and Haiku ignored injected header instructions by default. The authors advise passing only the body by default and requiring approval before connecting new MCP servers.",
+     "why": "Agents that fetch with curl -i see these headers, so agent fetch tools need header filtering.",
+     "topics": [
+      "Security",
+      "Agents",
+      "MCP"
+     ],
+     "source": "Hacker News · 48 points · 11 comments",
+     "url": "https://www.signalscorps.com/blog/prompt-injection-in-http-headers/",
+     "date": "2026-10-15"
+    },
+    {
+     "title": "Citizen Lab exposes zero-click spyware delivered through targeted ads",
+     "body": "Citizen Lab Report 195 says Israel-based Discover-Tech used targeted ads to deliver Candiru spyware, a technique it calls AdFection. The ad script contacts a server that picks targets by IP address and ad identifiers. At least 45 devices at Al Jazeera were targeted in 2024 and 2025. The report calls this the first public technical confirmation of zero-click spyware via ads.",
+     "why": "Ad networks can now be an infection path with no click, which changes threat models for endpoints and browsers.",
+     "topics": [
+      "Security"
+     ],
+     "source": "Hacker News · 177 points · 27 comments",
+     "url": "https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/",
+     "date": "2026-10-15"
+    },
+    {
+     "title": "Goodfire essay argues neural network neurons are mostly interpretable",
+     "body": "Nick Cammarata argues that most polysemantic neurons come from recursive generalization, not superposition. In audits of Qwen3-32B he estimates about 90% of neuron poles have one main job. Late-layer interpretability in a retrained InceptionV1 rose to about 70%, and about 99% in a modern ConvNeXt. He suggests direct study of neurons may beat sparse autoencoders.",
+     "why": "Better interpretability of models like Claude means more trust in agent behavior over time.",
+     "topics": [
+      "AI research"
+     ],
+     "source": "Hacker News · 72 points · 17 comments",
+     "url": "https://already-clean.goodfire.com/",
+     "date": "2026-10-16"
+    }
+   ]
+  },
+  "aws-news": {
+   "routine": "aws-news",
+   "status": "done",
+   "headline": "AWS makes the Lambda Durable Execution SDK for Go generally available for long-running, agent-in-the-loop workflows.",
+   "filed": "2026-10-16T02:24:11Z",
+   "note": "The What's New page for the Oct 15 AgentCore Web Search Region expansion did not load, so this desk left that item out.",
+   "items": [
+    {
+     "title": "Lambda Durable Execution SDK for Go is now generally available",
+     "body": "AWS made the Lambda Durable Execution SDK for Go generally available. Durable functions checkpoint progress automatically and can pause for up to one year while they wait for external events. The SDK adds steps, callbacks for human and agent-in-the-loop work, durable invocation and waits. A durabletest package runs workflows locally without credentials, and a durablelint analyzer flags code that can break on resume.",
+     "why": "You can write long-running agent and deployment workflows in Go with checkpoints and human approval gates, without custom state tracking.",
+     "topics": [
+      "Serverless",
+      "Agents",
+      "DevOps"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-lambda-durable-go-sdk-support/",
+     "date": "2026-10-15"
+    },
+    {
+     "title": "Lambda now stops recursive loops through EventBridge custom buses",
+     "body": "Lambda recursive loop detection now covers loops between Lambda functions and Amazon EventBridge custom event buses. When Lambda detects a loop, it stops the loop and sends an AWS Health Dashboard notification with troubleshooting steps. The feature is on by default in all commercial Regions with EventBridge custom buses. You can turn it off per function with the PutFunctionRecursionConfig API.",
+     "why": "This default guard stops runaway Lambda and EventBridge loops in your event-driven stacks before they cause surprise bills.",
+     "topics": [
+      "Serverless",
+      "Cost"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/lambda-recursive-loops-eventbridge-custom",
+     "date": "2026-10-14"
+    }
+   ]
+  }
+ }
+}

@@ -1,6 +1,11 @@
 {
  "editions": [
   {
+   "date": "2026-10-16",
+   "stories": 14,
+   "headline": "Claude Opus 5.5 fast mode leaves research preview"
+  },
+  {
    "date": "2026-10-15",
    "stories": 15,
    "headline": "Gemini 4 Argon opens to developers at $2/$10 per million tokens"
