@@ -1,0 +1,214 @@
+{
+ "date": "2026-10-17",
+ "generated": "2026-10-17T02:40:59Z",
+ "sections": {
+  "tech-news": {
+   "routine": "tech-news",
+   "status": "done",
+   "headline": "Claude Code Review is now generally available for Team and Enterprise, with reviews about 3x faster.",
+   "filed": "2026-10-17T02:23:35Z",
+   "note": "The Hacker News front?day page failed, so the HN Algolia API was used instead; Composio Reddit tools were not available in this session, so r/ClaudeAI and r/LocalLLaMA were skipped.",
+   "items": [
+    {
+     "title": "Claude Code Review reaches general availability, now about 3x faster",
+     "body": "Code Review is out of research preview for Claude Team and Enterprise. Most reviews now finish in 6 to 10 minutes, down from about 20. Admins pick Quick, Standard or Deep depth per repository, and reviews run on each new PR through the GitHub App. Eligible Enterprise organizations can claim at least $10,000 in credits until January 15, 2027.",
+     "why": "You can turn on automatic Claude reviews for every new pull request in your repos with no setup for developers.",
+     "topics": [
+      "Claude Code",
+      "DevOps"
+     ],
+     "source": "Claude blog",
+     "url": "https://claude.com/resources/articles/code-review-is-now-generally-available",
+     "date": "2026-10-15"
+    },
+    {
+     "title": "Claude Mythos 5 designs smaller quantum circuits than published best",
+     "body": "Anthropic gave Claude Mythos 5 plain-language specs for eight quantum circuit primitives and an automatic checker that scored qubits times gates. Claude beat the best published circuits on all eight tasks, in some cases by 10x or more. One run lasted 53 hours, and one decoder needs about 12x fewer gates than Google's previous design. Anthropic notes Claude was over-cautious and needed prompts to try more parallel approaches.",
+     "why": "It shows how a closed loop of Claude plus an automatic evaluator can run for days and beat expert designs, a pattern you can copy for agents.",
+     "topics": [
+      "Claude",
+      "AI research"
+     ],
+     "source": "Anthropic Research; Hacker News 105 points",
+     "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
+     "date": "2026-10-16"
+    },
+    {
+     "title": "Opus 5.5 fast mode leaves preview, no beta header needed",
+     "body": "Fast mode for Claude Opus 5.5 is out of research preview. Requests no longer need the fast-mode-2026-02-01 header, and Opus 5.5 now has a default fast mode rate limit in the Start, Build and Scale tiers. Fast mode for Opus 5 and Opus 4.8 stays in preview. Opus 5.5 fast mode is also on Claude in Microsoft Foundry for Azure-hosted deployments.",
+     "why": "You can use faster Opus 5.5 output in production agents without an access request or a beta header.",
+     "topics": [
+      "Claude"
+     ],
+     "source": "Claude Platform release notes",
+     "url": "https://platform.claude.com/docs/en/release-notes/overview.md",
+     "date": "2026-10-15"
+    },
+    {
+     "title": "Meta's open 816B Muse Spark Open runs on four Mac Studios",
+     "body": "Meta released Muse Spark Open, an 816B-parameter mixture-of-experts model with 42B active parameters and a 1M-token context, under a license with limited commercial terms. Weights are on Hugging Face, Amazon SageMaker AI, Google Cloud and Microsoft Foundry, with hosted APIs from OpenRouter, Groq, Together AI and others. Apple's MLX team ran it across four M5 Ultra Mac Studios over Thunderbolt 5 RDMA at over 36 tokens per second. It needs about 493GB in 4-bit NVFP4.",
+     "why": "A frontier-class open-weight model is now available on SageMaker and runs locally, which gives you a self-hosted option for agents.",
+     "topics": [
+      "Open models",
+      "AI tools"
+     ],
+     "source": "Meta AI Research (HN 901 points); Apple ML Research (HN 271 points)",
+     "url": "https://machinelearning.apple.com/research/mlx-distributed-inference",
+     "date": "2026-10-16"
+    },
+    {
+     "title": "Claude Code 2.1.301 adds auto-mode telemetry and safer worktree exit",
+     "body": "tool_decision events now include classifier_verdict and permission_mode, plus classifier_category with OTEL_LOG_TOOL_DETAILS=1. A new CLAUDE_CODE_RETRY_WATCHDOG_MAX_USAGE_LIMIT_WAIT_MS ends a request when a usage limit resets too far away. Quitting no longer removes a WorktreeCreate hook's worktree that may hold unpushed commits. Grep and Glob now report search failures instead of no matches.",
+     "why": "New OpenTelemetry fields show why auto mode allowed or blocked each tool call, which helps you audit agent runs.",
+     "topics": [
+      "Claude Code",
+      "DevOps"
+     ],
+     "source": "GitHub anthropics/claude-code releases",
+     "url": "https://github.com/anthropics/claude-code/releases",
+     "date": "2026-10-15"
+    },
+    {
+     "title": "Mercor: 90% of US work hours lack AI benchmark coverage",
+     "body": "Mercor mapped 29 benchmarks onto 18,797 O*NET tasks in 923 occupations. Only 924 tasks and 208 occupations have at least 5 benchmark prompts, and about 90% of US working hours fall on tasks with little or no coverage. AI-exposed tasks are about 6x more likely to be covered. The authors call the results provisional.",
+     "why": "It shows which job tasks current benchmarks miss, so you know where model scores say little about real work.",
+     "topics": [
+      "AI research"
+     ],
+     "source": "Hacker News 411 points",
+     "url": "https://www.mercor.com/research/labor-index/benchmark-map/",
+     "date": "2026-10-16"
+    },
+    {
+     "title": "StarCraft bot benchmark: GPT-6 Astra leads, Opus 5.5 ties Gemini 4",
+     "body": "StarSkirmish Bench v0.2 gives each model one hour to write a C++ Protoss bot for StarCraft: Brood War. GPT-6 Astra ranks first, and GPT-6.1 Sol ranks second at about a tenth of Astra's cost per run. Gemini 4 Argon, Claude Opus 5.5 and Claude Fable 5.1 tie at 37 to 39 points. The top model wins only about 7% of games against the strongest human-written bots.",
+     "why": "It is a fresh long-horizon coding benchmark that compares the flagship models in their own CLI harnesses.",
+     "topics": [
+      "AI research",
+      "Gemini",
+      "OpenAI"
+     ],
+     "source": "Show HN, 190 points",
+     "url": "https://starskirmish.com/bench/v0-2/",
+     "date": "2026-10-16"
+    }
+   ]
+  },
+  "tech-pulse": {
+   "routine": "tech-pulse",
+   "status": "done",
+   "headline": "REA, one MCP server that lets coding agents reverse engineer binaries and apps, gained over 32,000 GitHub stars in a day.",
+   "filed": "2026-10-17T02:23:00Z",
+   "note": "Reddit was skipped because the Composio tools are not available in this session, and the Hacker News page for yesterday's best stories did not load, so the current front page was used.",
+   "items": [
+    {
+     "title": "REA gives coding agents one MCP for reverse engineering",
+     "body": "REA (Reverse Engineer Anything) by morluto is an MIT-licensed MCP server and CLI that connects AI agents to Hopper, Ghidra or IDA. It analyzes native binaries, JavaScript/Electron, .NET, Android, Flutter, firmware and packet captures locally. Setup supports Claude Code, Codex, Cursor, Gemini CLI and Grok Build. It gained 32,314 stars today and has about 290k stars.",
+     "why": "You can plug REA into Claude Code and let the agent inspect binaries, APKs and Electron apps without custom tooling.",
+     "topics": [
+      "MCP",
+      "Agents",
+      "Security"
+     ],
+     "source": "GitHub Trending · 32,314 stars today",
+     "url": "https://github.com/morluto/rea",
+     "date": "2026-10-16"
+    },
+    {
+     "title": "Apple runs 816B-parameter Muse Spark Open on four Mac Studios",
+     "body": "Apple ML Research ran Muse Spark Open (816B total, 42B active, 4-bit NVFP4) with MLX across four M5 Ultra Mac Studios. The machines link with RDMA over Thunderbolt 5. Tensor parallelism on four machines reached 36.73 tokens per second; two machines reached 24.99. The post is dated October 15, 2026.",
+     "why": "It shows that a near-trillion-parameter open model can run on local hardware, which matters for private agent workloads.",
+     "topics": [
+      "Open models",
+      "AI research"
+     ],
+     "source": "Hacker News · 139 points · 72 comments",
+     "url": "https://machinelearning.apple.com/research/mlx-distributed-inference",
+     "date": "2026-10-16"
+    },
+    {
+     "title": "context-mode cuts coding agent tool output with sandboxed MCP tools",
+     "body": "context-mode by mksglu is an MCP server plus hooks (PreToolUse, PostToolUse, PreCompact and others on Claude Code). It runs code in sandboxed subprocesses and sends only stdout to the model. It stores session events in SQLite with FTS5 search. The project claims a 98% cut in tool output, supports 17 platforms and gained 904 stars today.",
+     "why": "It can lower token cost and keep long Claude Code sessions alive through compaction.",
+     "topics": [
+      "Claude Code",
+      "MCP",
+      "AI tools"
+     ],
+     "source": "GitHub Trending · 904 stars today",
+     "url": "https://github.com/mksglu/context-mode",
+     "date": "2026-10-16"
+    },
+    {
+     "title": "AI code reviews delay Postgres 19 and drop major features",
+     "body": "PostgreSQL 19 moved from early October to about November 19. Developers reverted eight to ten significant features, including SQL/PGQ, to PostgreSQL 20. Committer Peter Eisentraut said LLM-based code reviews are at least partly responsible. REPACK CONCURRENTLY stays in version 19.",
+     "why": "It is a real-world signal that LLM code review finds defects at scale, and it changes your Postgres upgrade plans.",
+     "topics": [
+      "AI research",
+      "DevOps"
+     ],
+     "source": "Hacker News · 55 points · 10 comments",
+     "url": "https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471",
+     "date": "2026-10-16"
+    },
+    {
+     "title": "Researchers exploit 37-year-old OpenBSD kernel bug for root",
+     "body": "Andrew Griffiths of Calif found an integer overflow in the signed 16-bit SysV shared memory attach counter. Combined with an out-of-bounds write, it gives local root with KARL, SMAP and SMEP on. The bug traces back to original BSD code. OpenBSD 7.9 errata 026 and 018 fix it.",
+     "why": "It is a detailed deep dive into a kernel privilege escalation, with patches you should apply on OpenBSD hosts.",
+     "topics": [
+      "Security"
+     ],
+     "source": "Hacker News · 93 points · 21 comments",
+     "url": "https://calif.io/research/big-fish",
+     "date": "2026-10-16"
+    }
+   ]
+  },
+  "aws-news": {
+   "routine": "aws-news",
+   "status": "done",
+   "headline": "Web Search on Amazon Bedrock AgentCore expands to four more Regions, including AWS GovCloud (US-West).",
+   "filed": "2026-10-17T02:23:40Z",
+   "note": "The AWS What's New page did not render its list, so this desk used the What's New RSS feed.",
+   "items": [
+    {
+     "title": "AgentCore Web Search expands to Ohio, Oregon, Sydney and GovCloud",
+     "body": "Web Search on Amazon Bedrock AgentCore is now available in four more Regions: US East (Ohio), US West (Oregon), Asia Pacific (Sydney) and AWS GovCloud (US-West). The tool gives AI agents current web information for research, summarization and question answering. GovCloud support helps customers with compliance and data residency needs. Pricing is on the AgentCore pricing page.",
+     "why": "Your Bedrock agents can now ground answers with live web data in more Regions, with lower latency.",
+     "topics": [
+      "Bedrock",
+      "Agents"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-bedrock-agentcore/",
+     "date": "2026-10-15"
+    },
+    {
+     "title": "Lambda Durable Execution SDK for Go is now generally available",
+     "body": "AWS made the Lambda Durable Execution SDK for Go generally available. It adds steps with automatic checkpointing, callbacks for human and agent-in-the-loop workflows, durable invocation, and waits that can pause execution for up to one year. Functions deploy as one static binary on the provided.al2023 runtime. The durabletest package tests workflows locally, and the durablelint analyzer finds code that can break a resumed workflow.",
+     "why": "You can build long-running agent and deployment workflows with human approval gates in Go on Lambda.",
+     "topics": [
+      "Serverless",
+      "Agents",
+      "DevOps"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-lambda-durable-go-sdk-support/",
+     "date": "2026-10-15"
+    },
+    {
+     "title": "AWS DevOps Agent now investigates Resilience Hub tests and findings",
+     "body": "The next generation of AWS Resilience Hub now integrates with AWS DevOps Agent. A resilience test starts a DevOps Agent investigation that reports symptoms, root cause, impact and observed recovery actions. You can also launch the agent from a failure mode assessment finding to plan a mitigation. Resilience Hub is available in 15 Regions, including Asia Pacific (Mumbai).",
+     "why": "An AI agent now does root-cause analysis on your resilience tests, and it works in Mumbai.",
+     "topics": [
+      "DevOps",
+      "Agents"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-devops-agent-test-results-aws-resilience-hub/",
+     "date": "2026-10-15"
+    }
+   ]
+  }
+ }
+}

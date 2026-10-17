@@ -1,6 +1,11 @@
 {
  "editions": [
   {
+   "date": "2026-10-17",
+   "stories": 15,
+   "headline": "Claude Code Review reaches general availability, now about 3x faster"
+  },
+  {
    "date": "2026-10-16",
    "stories": 14,
    "headline": "Claude Opus 5.5 fast mode leaves research preview"
