@@ -1,6 +1,11 @@
 {
  "editions": [
   {
+   "date": "2026-10-18",
+   "stories": 14,
+   "headline": "Claude finds how NSA generated the NIST ECDSA curve seeds"
+  },
+  {
    "date": "2026-10-17",
    "stories": 15,
    "headline": "Claude Code Review reaches general availability, now about 3x faster"
