@@ -1,6 +1,11 @@
 {
  "editions": [
   {
+   "date": "2026-10-19",
+   "stories": 12,
+   "headline": "Claude Code team reveals its seven-layer AI code review setup"
+  },
+  {
    "date": "2026-10-18",
    "stories": 14,
    "headline": "Claude finds how NSA generated the NIST ECDSA curve seeds"
