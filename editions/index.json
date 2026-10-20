@@ -1,6 +1,11 @@
 {
  "editions": [
   {
+   "date": "2026-10-20",
+   "stories": 14,
+   "headline": "Superlite plugin turns a spec into parallel Claude Code agent work"
+  },
+  {
    "date": "2026-10-19",
    "stories": 12,
    "headline": "Claude Code team reveals its seven-layer AI code review setup"

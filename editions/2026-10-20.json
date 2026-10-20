@@ -1,0 +1,204 @@
+{
+ "date": "2026-10-20",
+ "generated": "2026-10-20T02:41:31Z",
+ "sections": {
+  "tech-news": {
+   "routine": "tech-news",
+   "status": "done",
+   "headline": "Superlite, a new Claude Code plugin, runs spec-driven builds 52% faster than Superpowers with zero human stops.",
+   "filed": "2026-10-20T02:23:30Z",
+   "note": "Composio Reddit tools were not available in this session, so r/ClaudeAI and r/LocalLLaMA were skipped; the Google AI blog page showed no dated recent posts.",
+   "items": [
+    {
+     "title": "Superlite plugin turns a spec into parallel Claude Code agent work",
+     "body": "Superlite is an autonomous build workflow plugin for Claude Code, published on 18 October 2026. It splits a spec into parallel tasks, assigns each task to an agent and reviews the results without approval prompts. On a 177-test benchmark it finished in 16.1 minutes with all hidden tests passed, about 52% faster than stock Superpowers. The author says the results come from one machine and are not rigorous proof.",
+     "why": "You can hand Claude Code a spec and let it build unattended, which suits your agent-building workflow.",
+     "topics": [
+      "Claude Code",
+      "Agents",
+      "Skills"
+     ],
+     "source": "contextfirst.blog via Hacker News (125 points)",
+     "url": "https://contextfirst.blog/superlite-hand-an-agent-a-spec/",
+     "date": "2026-10-18"
+    },
+    {
+     "title": "Guide: run Claude Code agents in tmux sessions",
+     "body": "The crystl guide explains how to run Claude Code and other agents in named, detachable tmux sessions. Recent Claude Code versions create a git worktree and a tmux session together with `claude --worktree --tmux`. Scripts can send prompts with `send-keys` and read output with `capture-pane -p -J`. The guide notes that tmux cannot tell which agent waits for you and that sessions do not survive a reboot.",
+     "why": "Detachable tmux sessions keep your Claude Code agents alive over SSH and let scripts drive them.",
+     "topics": [
+      "Claude Code",
+      "Agents",
+      "DevOps"
+     ],
+     "source": "crystl.dev via Hacker News (99 points)",
+     "url": "https://crystl.dev/guides/tmux-for-ai-agents/",
+     "date": "2026-10-19"
+    },
+    {
+     "title": "Zillow launches a Claude connector for listings, tours and financing",
+     "body": "On 19 October 2026, Zillow released a connector that brings listings, interactive maps, home value estimates and affordability tools into Claude. Users link Zillow in Claude's Customize settings. Users can then schedule tours, contact agents or explore financing from the chat. Zillow already has apps in ChatGPT and Google Gemini.",
+     "why": "It shows how a large consumer brand ships a Claude connector with rich, interactive results.",
+     "topics": [
+      "Claude",
+      "MCP"
+     ],
+     "source": "Unite.AI",
+     "url": "https://unite.ai/zillow-launches-claude-connector-for-listings-tours-and-financing",
+     "date": "2026-10-19"
+    },
+    {
+     "title": "DeepSeek V4.1 Flash scores 45 on Artificial Analysis index",
+     "body": "DeepSeek V4.1 Flash (1017) was released on 17 October 2026 under the MIT license, with weights on Hugging Face. It has 552B total parameters and 16B active per token. Artificial Analysis gives it an Intelligence Index of 45, against a median of 19 for similar open models. The DeepSeek API price is $0.30 per 1M input tokens and $1.20 per 1M output tokens, at about 225 output tokens per second.",
+     "why": "It is a cheap, fast open-weight model with a 1M context that you can test for agent sub-tasks.",
+     "topics": [
+      "Open models"
+     ],
+     "source": "Artificial Analysis via Hacker News (172 points)",
+     "url": "https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017",
+     "date": "2026-10-17"
+    },
+    {
+     "title": "OpenAI GPT-6 models jump on COBOL and Fortran coding",
+     "body": "On 19 October 2026, OpenAI released MultiLangBench and a COBOL migration evaluation on GitHub. GPT-6 Astra averaged an 87.4% test pass rate across 20 languages, up from 26.8% for GPT-5.6 Sol, with COBOL at 72%. GPT-6.1 Sol reached 86.6% accuracy on COBOL migration at low effort and 97.9% at high effort. GPT-6 Luna cost about 78% less per sample than GPT-5.6 Sol.",
+     "why": "Legacy-code migration to modern languages is a common client job, and these numbers set a new bar.",
+     "topics": [
+      "OpenAI",
+      "AI research"
+     ],
+     "source": "OpenAI",
+     "url": "https://openai.com/index/low-resource-programming-languages/",
+     "date": "2026-10-19"
+    },
+    {
+     "title": "Run your own LLM proxy to see what your agents do",
+     "body": "The author argues that vendor dashboards do not give engineering-grade usage data. A self-hosted proxy gives virtual API keys, per-client logs, fast provider switching and custom MCP endpoints. The author says he can trace a cache miss in about 20 seconds. The post does not recommend a specific proxy product.",
+     "why": "A self-hosted proxy gives you per-key logs and cache-miss tracing for your Claude and agent traffic.",
+     "topics": [
+      "AI tools",
+      "DevOps",
+      "Agents"
+     ],
+     "source": "jrdsgl.com via Hacker News (251 points)",
+     "url": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/",
+     "date": "2026-10-18"
+    },
+    {
+     "title": "Mistral releases Timestral time-series forecasting models",
+     "body": "Mistral released Timestral, four time-series foundation models with 5M to 209M parameters, under a modified MIT license. Among zero-shot models, the family ranks first on GIFT-Eval, TIME and fev-bench. On an 8-thread CPU, a one-day forecast takes about 10 ms with the 5M model and 140 ms with the 209M model, with no GPU needed. Weights are on GitHub and Hugging Face, with fine-tuning in Mistral Forge.",
+     "why": "Small CPU-only forecasting models can feed capacity planning and anomaly detection in DevOps pipelines.",
+     "topics": [
+      "Open models",
+      "AI research"
+     ],
+     "source": "Mistral via Hacker News (233 points)",
+     "url": "https://mistral.ai/news/timestral/",
+     "date": "2026-10-15"
+    }
+   ]
+  },
+  "tech-pulse": {
+   "routine": "tech-pulse",
+   "status": "done",
+   "headline": "Hybrid Reasoning Agents, which mix latent thinking with text tool use, led developer discussion yesterday.",
+   "filed": "2026-10-20T02:21:41Z",
+   "note": "Reddit was skipped because the Composio tools were not available in this session, and the GitHub Trending page returned stale data that could not be dated, so all items come from Hacker News.",
+   "items": [
+    {
+     "title": "Hybrid agents think in latent space and act through text",
+     "body": "Researchers led by James Zou published Hybrid Reasoning Agents on arXiv. A small HybridLink module lets the model switch between latent reasoning and text tool calls in one generation. Across 11 benchmarks it reports +10.4% performance, 35.5-54.7% fewer tokens and 1.8-2.6x faster inference. Code is at github.com/togethercomputer/HybridAgent.",
+     "why": "It shows a path to agents that use 35-55% fewer tokens, which cuts the cost of the agents you build.",
+     "topics": [
+      "Agents",
+      "AI research"
+     ],
+     "source": "Hacker News · 491 points · 231 comments",
+     "url": "https://arxiv.org/abs/2610.18861",
+     "date": "2026-10-19"
+    },
+    {
+     "title": "Mistral releases Timestral open time-series forecasting models",
+     "body": "Mistral released four Timestral models at 5M, 28M, 123M and 209M parameters under a modified MIT license. The 209M model ranks first among zero-shot models on GIFT-Eval, TIME and fev-bench. On an 8-thread CPU, a one-day forecast takes 10 ms (5M) to 140 ms (209M). Weights are on GitHub and Hugging Face.",
+     "why": "Small open models that forecast on a CPU in milliseconds fit capacity planning and anomaly detection in AWS ops.",
+     "topics": [
+      "Open models",
+      "AI tools"
+     ],
+     "source": "Hacker News · 379 points · 67 comments",
+     "url": "https://mistral.ai/news/timestral/",
+     "date": "2026-10-19"
+    },
+    {
+     "title": "Linux 7.3 ships as a record-size kernel release",
+     "body": "Linux 7.3 was released on October 18 with 18,765 commits from 3,021 developers. Changes include global per-CPU data for BPF, a complete sched_ext subscheduler feature, a new fchroot() system call and working-set tracking for virtual machines. It also adds failfs, a filesystem that fails every operation for error-path testing.",
+     "why": "New kernel features reach EC2 AMIs and container hosts soon, so check BPF and scheduler changes before you upgrade.",
+     "topics": [
+      "DevOps"
+     ],
+     "source": "Hacker News · 537 points · 241 comments",
+     "url": "https://lwn.net/Articles/1101143/",
+     "date": "2026-10-19"
+    },
+    {
+     "title": "Why you should run your own LLM proxy",
+     "body": "The author runs a self-hosted LLM proxy at home and at work. It logs which key called which model, from which client, with status, token use and cache hits or misses. It also puts many providers behind one endpoint, issues virtual API keys and adds custom MCP server endpoints.",
+     "why": "A self-hosted proxy gives you per-key token, cost and cache-hit data for your agent fleet that provider dashboards do not show.",
+     "topics": [
+      "AI tools",
+      "DevOps",
+      "MCP"
+     ],
+     "source": "Hacker News · 278 points · 195 comments",
+     "url": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/",
+     "date": "2026-10-19"
+    },
+    {
+     "title": "Running Claude Code agents in tmux, and where it breaks",
+     "body": "The guide covers Claude Code's --worktree --tmux flags, one session per repo and send-keys -l for literal input. It uses capture-pane and pipe-pane to read agent output. It lists limits: tmux cannot detect approval or completion state, and screen scraping is brittle. The publisher sells a competing macOS terminal.",
+     "why": "It gives practical tmux patterns for running many Claude Code sessions on remote boxes.",
+     "topics": [
+      "Claude Code",
+      "Agents"
+     ],
+     "source": "Hacker News · 130 points · 90 comments",
+     "url": "https://crystl.dev/guides/tmux-for-ai-agents/",
+     "date": "2026-10-19"
+    }
+   ]
+  },
+  "aws-news": {
+   "routine": "aws-news",
+   "status": "done",
+   "headline": "GuardDuty adds over 50 optional runtime threat rules for EKS, ECS and Fargate.",
+   "filed": "2026-10-20T02:23:50Z",
+   "note": "The AWS What's New page did not load its list, so this run read the What's New RSS feed. No important Bedrock, AgentCore or Amazon Q launches came out in the last 48 hours.",
+   "items": [
+    {
+     "title": "GuardDuty adds 50+ optional runtime threat rules for containers",
+     "body": "Amazon GuardDuty Runtime Monitoring now offers more than 50 optional detection rules. The rules flag process, file and network activity such as sudoers file changes and disabled audit logging. They cover 13 finding types mapped to MITRE ATT&CK, four of them new. The rules work on EC2, EKS, ECS on EC2 and ECS on Fargate, in all commercial Regions and AWS GovCloud (US).",
+     "why": "You can catch suspicious activity in your EKS, ECS and Fargate workloads, and test the rules in dry-run mode before you turn on live alerts.",
+     "topics": [
+      "Security",
+      "Containers",
+      "Kubernetes"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/guardduty-runtime-optional-detection-rules/",
+     "date": "2026-10-19"
+    },
+    {
+     "title": "IAM Identity Center adds optimistic locking for users and groups",
+     "body": "Each user and group in the IAM Identity Center identity store now has a Revision value. You can pass Revision in UpdateUser, UpdateGroup, DeleteUser and DeleteGroup calls; a mismatch returns a ConflictException. Revision is optional, and the SCIM endpoint does not support it. The feature is available in all Regions where IAM Identity Center runs, at no extra cost.",
+     "why": "Your Terraform and automation scripts can stop silent overwrites when they change the same Identity Center user or group at the same time.",
+     "topics": [
+      "Security",
+      "DevOps"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/iam-identity-store-optimistic-locking/",
+     "date": "2026-10-19"
+    }
+   ]
+  }
+ }
+}
