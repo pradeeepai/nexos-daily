@@ -1,6 +1,6 @@
 {
  "date": "2026-10-20",
- "generated": "2026-10-20T02:41:31Z",
+ "generated": "2026-10-20T06:59:16Z",
  "sections": {
   "tech-news": {
    "routine": "tech-news",
@@ -94,6 +94,91 @@
      "source": "Mistral via Hacker News (233 points)",
      "url": "https://mistral.ai/news/timestral/",
      "date": "2026-10-15"
+    }
+   ]
+  },
+  "x-desk": {
+   "routine": "x-desk",
+   "status": "done",
+   "headline": "Meta says it trained its Muse foundation models, including Muse Wonder, on Prometheus, a gigawatt-scale GPU supercluster in Ohio.",
+   "filed": "2026-10-20T06:57:30Z",
+   "note": "Read 30 posts in 2 searches; 6 passed the value filter.",
+   "items": [
+    {
+     "title": "Meta trained its Muse models on Prometheus, a gigawatt-scale supercluster",
+     "body": "AI at Meta says it trained its Muse foundation models, including Muse Wonder, at Prometheus in New Albany, Ohio. The cluster has \"hundreds of thousands of GPUs\". Meta says \"even one underperforming host can slow an entire training run\", so it engineered the cluster to handle this.",
+     "why": "It shows how slow hosts hurt large GPU fleets, a reliability problem that DevOps teams know from their own clusters.",
+     "topics": [
+      "AI research",
+      "Open models"
+     ],
+     "source": "X · @AIatMeta · 3096 likes · 242 reposts",
+     "url": "https://x.com/AIatMeta/status/2112245968750145561",
+     "date": "2026-10-19"
+    },
+    {
+     "title": "OpenAI Developers starts a Codex demo series, \"COOKED\"",
+     "body": "OpenAI Developers posted \"Here's what we're cooking with Codex\" with a link. A second post shares the same link as \"COOKED: Ep. 1\". The series shows what the team builds with Codex.",
+     "why": "It shows how a direct competitor to Claude Code is used, so teams can compare workflows.",
+     "topics": [
+      "OpenAI",
+      "AI tools",
+      "Agents"
+     ],
+     "source": "X · @OpenAIDevs · 1286 likes · 69 reposts",
+     "url": "https://x.com/OpenAIDevs/status/2112242739198959913",
+     "date": "2026-10-19"
+    },
+    {
+     "title": "ffmpeg-skill gives coding agents 42 local FFmpeg tools through an MCP server",
+     "body": "The kajisho5/ffmpeg-skill repo is a local video editor for coding agents. It has 42 FFmpeg tools, a machine-readable contract and an MCP server for Claude Code, Cursor and Codex. It does cuts, captions, reframes, loudness and platform exports with no cloud.",
+     "why": "It is a good model of how to package a CLI tool as a Skill plus an MCP server for agents.",
+     "topics": [
+      "Skills",
+      "MCP",
+      "Claude Code"
+     ],
+     "source": "X · @Dinosn · 174 likes · 31 reposts",
+     "url": "https://x.com/Dinosn/status/2112021847403606136",
+     "date": "2026-10-19"
+    },
+    {
+     "title": "Hugging Face guide: speed up local AI with speculative decoding",
+     "body": "Hugging Face published \"Local AI 202: Get Massive Speed-ups with Speculative Decoding\". The guide explains how to make local model inference faster with speculative decoding.",
+     "why": "Faster local inference lowers cost and latency for open models that run behind agents.",
+     "topics": [
+      "Open models",
+      "AI research"
+     ],
+     "source": "X · @huggingface · 120 likes · 14 reposts",
+     "url": "https://x.com/huggingface/status/2112214753980612886",
+     "date": "2026-10-19"
+    },
+    {
+     "title": "Eight repos that add structured workflows to Opus 5.5 agents",
+     "body": "A post lists 8 repos that turn Opus 5.5 \"from a chatbot into a team\". It names superpowers, which makes the agent brainstorm, plan, write tests first and review, and anthropics/skills, Anthropic's skills repo.",
+     "why": "These repos can give daily Claude Code sessions a test-first, reviewed workflow.",
+     "topics": [
+      "Claude",
+      "Skills",
+      "Agents"
+     ],
+     "source": "X · @rvaniaaaa · 104 likes · 14 reposts",
+     "url": "https://x.com/rvaniaaaa/status/2111904670226563170",
+     "date": "2026-10-19"
+    },
+    {
+     "title": "Ten GitHub repos that give AI agents live web access",
+     "body": "A post lists 10 GitHub repos that give AI agents search, fresh information and web retrieval. The first entry is the Exa MCP Server, which adds web search and research tools to agents.",
+     "why": "Web access is a common gap in AI agents, and this list gives ready MCP options.",
+     "topics": [
+      "MCP",
+      "Agents",
+      "AI tools"
+     ],
+     "source": "X · @DivyanshT91162 · 41 likes · 5 reposts",
+     "url": "https://x.com/DivyanshT91162/status/2112149720189812882",
+     "date": "2026-10-19"
     }
    ]
   },
