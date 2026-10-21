@@ -1,6 +1,6 @@
 {
  "date": "2026-10-21",
- "generated": "2026-10-21T02:41:23Z",
+ "generated": "2026-10-21T16:50:27Z",
  "sections": {
   "tech-news": {
    "routine": "tech-news",
@@ -178,71 +178,137 @@
     }
    ]
   },
+  "gadgets": {
+   "routine": "gadgets",
+   "status": "done",
+   "headline": "Apple's first foldable, the iPhone Duo, goes on sale October 23 with limited walk-in stock.",
+   "filed": "2026-10-21T16:46:55Z",
+   "note": "The Verge blocked access, and the Apple Newsroom and Google blog index pages showed no dated articles.",
+   "items": [
+    {
+     "title": "iPhone Duo launches Friday with limited walk-in stock",
+     "body": "Apple says Apple Stores will have limited iPhone Duo stock for walk-in customers at launch on Friday, October 23, due to strong pre-order demand. The iPhone Duo is Apple's first foldable iPhone, with a 5.4-inch outer display and a 7.6-inch inner display. It starts at $1,999 and uses Touch ID and a 48MP main camera. In India and nine other markets, store pickup requires an online reservation instead of a walk-in purchase.",
+     "why": "Buyers who want Apple's first foldable on day one need a pre-order or reservation in many countries.",
+     "topics": [
+      "Phones",
+      "Apple"
+     ],
+     "source": "MacRumors",
+     "url": "https://www.macrumors.com/2026/10/21/apple-stores-limited-iphone-duo-for-walk-in/",
+     "date": "2026-10-21"
+    },
+    {
+     "title": "OPPO Find X10 and Find X10 Pro Max go global",
+     "body": "OPPO launched the Find X10 and Find X10 Pro Max internationally on October 21, with sales open in the UK, Germany, France and other markets. Both use the 2nm MediaTek Dimensity 9600 Pro chip and have 7,150mAh batteries in Europe. The Pro Max has triple 200MP rear cameras. European prices are €1,400 (256GB) and €1,500 (512GB) for the Find X10 and €1,800 (512GB) for the Pro Max.",
+     "why": "OPPO's 200MP camera flagships reach Europe now, with an India launch set for the next day.",
+     "topics": [
+      "Phones"
+     ],
+     "source": "GSMArena",
+     "url": "https://www.gsmarena.com/oppo_find_x10_and_find_x10_pro_max_go_global-news-75154.php",
+     "date": "2026-10-21"
+    },
+    {
+     "title": "Apple sets 'Pro and Tell' Mac and iPad event for October 28",
+     "body": "Apple sent invitations for a 'Pro and Tell' press and creator briefing in Los Angeles on October 28. It is a hands-on experience, not a traditional keynote. Apple has not confirmed which products it will show. Reports expect an OLED touchscreen MacBook Pro, M6 Macs and an OLED iPad mini.",
+     "why": "Buyers of Macs and the iPad mini may want to wait one week for new models.",
+     "topics": [
+      "Laptops",
+      "Tablets",
+      "Apple"
+     ],
+     "source": "Engadget",
+     "url": "https://www.engadget.com/2292117/apple-pro-and-tell-event-october-28-what-to-expect/",
+     "date": "2026-10-20"
+    },
+    {
+     "title": "Garmin launches Edge Explore 3 cycling computers from $399",
+     "body": "Garmin announced the Edge Explore 3 at $399 and the Edge Explore 3 Plus at $499. They have a 3-inch display, 32GB storage, IPX7 water resistance and up to 48 hours of battery in battery saver mode. The Plus model adds a speaker and microphone for hands-free voice control and voice messages. Pre-orders open October 23 in North America and Oceania and November 3 in Europe.",
+     "why": "Cyclists get a cheaper Garmin unit with double storage, up to 48 hours of battery and voice control.",
+     "topics": [
+      "Wearables"
+     ],
+     "source": "Notebookcheck",
+     "url": "https://notebookcheck.net/Garmin-releases-new-budget-GPS-cycling-computers-with-voice-controls-and-up-to-48-hours-battery-life.1429134.0.html",
+     "date": "2026-10-20"
+    },
+    {
+     "title": "Xbox chief puts next console at Holiday 2028, handheld 2027",
+     "body": "Xbox CEO Asha Sharma told Fortune that the next Xbox console is planned for Holiday 2028. She also named a next-generation handheld device for the 2027 holiday season. Microsoft has not confirmed device names, specs or prices. Sharma said the memory shortage will affect pricing and availability.",
+     "why": "Gamers now have an official timeline for the next Xbox hardware.",
+     "topics": [
+      "Gaming"
+     ],
+     "source": "GamingBolt",
+     "url": "https://gamingbolt.com/next-xbox-console-planned-for-holiday-2028-next-generation-handheld-in-2027",
+     "date": "2026-10-21"
+    }
+   ]
+  },
   "tech-pulse": {
    "routine": "tech-pulse",
    "status": "done",
-   "headline": "DeepSeek open-sources DeepInfer, its large-scale inference engine, and tops Hacker News and r/LocalLLaMA.",
-   "filed": "2026-10-21T02:23:30Z",
-   "note": "The Hacker News daily page (front?day=2026-10-20) did not load, so the live front page was used; GitHub Trending returned an old-looking list without repo names, so it was skipped.",
+   "headline": "DeepSeek open-sources DeepInfer, its production inference engine, and it tops Hacker News with 2,179 points.",
+   "filed": "2026-10-21T16:47:00Z",
+   "note": "GitHub Trending showed no AI or DevOps launches of note; Reddit top posts (via Composio) were mostly news, memes or opinion, and r/MachineLearning and r/devops had low engagement.",
    "items": [
     {
      "title": "DeepSeek open-sources DeepInfer, its production inference engine",
-     "body": "DeepSeek released DeepInfer on GitHub. It is a high-performance, large-scale inference framework for DeepSeek models. It was the top Hacker News story with 1,827 points and 675 comments. The r/LocalLLaMA post got 844 upvotes and 127 comments.",
-     "why": "You can study or self-host a high-throughput serving stack for open models on your own AWS GPU fleet.",
+     "body": "DeepSeek released DeepInfer under the Apache 2.0 license. It powers DeepSeek's production services and supports DeepSeek-V4.1-Flash on NVIDIA SM100 GPUs and Huawei Ascend 950 NPUs. Features include MoE expert parallelism, DSpark speculative decoding, async scheduling and structured outputs. This release covers offline inference only, without KV cache system or prefill/decode disaggregation.",
+     "why": "Teams that self-host large MoE models get a reference engine with expert parallelism and speculative decoding from a frontier lab.",
      "topics": [
       "Open models",
       "AI tools"
      ],
-     "source": "Hacker News · 1,827 points · 675 comments",
+     "source": "Hacker News · 2,179 points · 844 comments",
      "url": "https://github.com/deepseek-ai/DeepInfer",
      "date": "2026-10-20"
     },
     {
-     "title": "Anthropic report: agents wait on humans 80% of session time",
-     "body": "A Fortune article covers an Anthropic report on how its employees use Claude. It says 80% of elapsed time in Claude sessions is agents waiting for human input. The report also says the median employee spends 20% more time in meetings than a year ago. Commenters advise 2 to 3 parallel sessions at most.",
-     "why": "It shows that you, not Claude, are the bottleneck when you run parallel Claude Code sessions.",
+     "title": "Eight eMudhra intermediate CA keys exposed; browsers block certificates",
+     "body": "The private keys of eight eMudhra intermediate CAs were recoverable from the certificates because of bad key generation in April 2025. The issue was reported on 17 October. Firefox and Chrome blocked the certificates first, then Apple on 19 October and Microsoft on 20 October. Clients that do not check revocation or enforce Certificate Transparency need software updates.",
+     "why": "Servers, containers and CI images that trust system CA bundles need updated trust stores to block forged TLS certificates.",
      "topics": [
-      "Claude",
-      "Agents",
-      "Claude Code"
+      "Security"
      ],
-     "source": "r/ClaudeAI · 450 upvotes · 86 comments",
-     "url": "https://fortune.com/2026/10/19/work-botsitting-meetings-army-of-claudes-anthropic/",
-     "date": "2026-10-20"
-    },
-    {
-     "title": "eMudhra intermediate certificate authority reported compromised",
-     "body": "A disclosure page reports a compromise of an eMudhra intermediate CA. eMudhra is an Indian certificate authority. The Hacker News thread has 217 points and 97 comments.",
-     "why": "A compromised CA can affect TLS trust for certificates in your infrastructure and pipelines.",
-     "topics": [
-      "Security",
-      "DevOps"
-     ],
-     "source": "Hacker News · 217 points · 97 comments",
+     "source": "Hacker News · 747 points · 352 comments",
      "url": "https://emudhra.we-have-a-problem.com/",
      "date": "2026-10-20"
     },
     {
-     "title": "AI proves the Quasi-Riemann Hypothesis, experts confirm",
-     "body": "Quanta Magazine reports that an AI system proved the Quasi-Riemann Hypothesis. Unlike other recent AI proofs, human experts have unpacked this one. One mathematician called the implications \"staggering.\"",
-     "why": "It is a strong signal of how far AI reasoning has come on hard, verifiable problems.",
+     "title": "Mistral launches Voxtral 3 speech models and voice agent SDK",
+     "body": "Voxtral 3 includes transcription models for 50+ languages with diarization, a realtime model under 500 ms latency, and a TTS model for 35+ languages with voice cloning. The voice agent SDK is built on LiveKit and supports SIP, WebRTC and function calling. Batch transcription costs from $0.0035 per minute and the agent API from $0.04 per minute.",
+     "why": "It gives a low-cost API option for transcription, text-to-speech and real-time voice agents with tool calling.",
      "topics": [
-      "AI research"
+      "AI tools",
+      "Agents"
      ],
-     "source": "r/OpenAI · 335 upvotes · 137 comments",
-     "url": "https://www.quantamagazine.org/ai-proved-the-quasi-riemann-hypothesis-what-happens-now-20261019",
+     "source": "Hacker News · 564 points · 147 comments",
+     "url": "https://mistral.ai/news/voxtral-3/",
      "date": "2026-10-20"
     },
     {
-     "title": "Kyutai shrinks Pocket TTS with voice cloning to 1.9M parameters",
-     "body": "Kyutai released a smaller Pocket TTS model. It supports voice cloning and has only 1.9 million parameters. The r/LocalLLaMA post got 332 upvotes and 43 comments.",
-     "why": "A tiny TTS model can add voice output to agents on CPU or edge devices at almost no cost.",
+     "title": "Cloudflare and VoidZero port the TypeScript compiler to Rust",
+     "body": "Tsrs is an experimental Rust port of the TypeScript compiler, incubated in the Oxc toolchain with the TypeScript team. Cloudflare reports up to 8x faster checks and about 70% less memory than TypeScript 7.0. Cloudflare says frontier AI models now make large ports possible in days. It is available with npm install tsrs.",
+     "why": "Faster type checks cut CI time and make TypeScript tooling run in browsers through WebAssembly.",
      "topics": [
-      "Open models",
-      "AI tools"
+      "AI tools",
+      "DevOps"
      ],
-     "source": "r/LocalLLaMA · 332 upvotes · 43 comments",
-     "url": "https://kyutai.org/blog/2026-10-20-pocket-tts-small/",
+     "source": "Hacker News · 371 points · 182 comments",
+     "url": "https://blog.cloudflare.com/typescript-rust-port/",
+     "date": "2026-10-20"
+    },
+    {
+     "title": "Google open-sources TorchTPU, a native PyTorch backend for TPUs",
+     "body": "TorchTPU implements PyTorch ATen kernels for TPUs and integrates with torch.compile. It supports data and tensor parallelism and ships examples for Llama, Qwen and ResNet. Version 0.2.0 is on PyPI under the Apache 2.0 license.",
+     "why": "PyTorch teams can train and serve models on Cloud TPUs without a rewrite to JAX.",
+     "topics": [
+      "AI tools",
+      "Open models"
+     ],
+     "source": "Hacker News · 290 points · 65 comments",
+     "url": "https://github.com/google-pytorch/torch_tpu",
      "date": "2026-10-20"
     }
    ]
@@ -250,48 +316,113 @@
   "aws-news": {
    "routine": "aws-news",
    "status": "done",
-   "headline": "Amazon Bedrock now supports structured JSON outputs for all Claude models.",
-   "filed": "2026-10-21T02:23:50Z",
-   "note": "The AWS What's New page did not render its feed, so this desk used the What's New RSS feed; no AWS News Blog post in the window met the bar.",
+   "headline": "Amazon Bedrock adds structured outputs for all Claude models, so apps get schema-valid JSON without custom parsing.",
+   "filed": "2026-10-21T16:46:55Z",
+   "note": "",
    "items": [
     {
      "title": "Bedrock adds structured outputs for all Claude models",
-     "body": "Amazon Bedrock now supports structured outputs for all Anthropic Claude models. Responses return as JSON that follows a schema you define. The feature works on the bedrock-runtime and bedrock-mantle endpoints, through boto3 or the Messages API. It is available in all Regions where Claude models are available.",
-     "why": "Your agents on Bedrock can get schema-valid JSON from Claude without custom parsing or retry code.",
+     "body": "Amazon Bedrock now supports structured outputs for all Anthropic Claude models. Responses conform to a JSON schema that the developer defines. The feature works on the bedrock-runtime endpoint through boto3 and on the bedrock-mantle endpoint through the Messages API. It is available in all Regions where Claude models are available.",
+     "why": "Teams can drop custom JSON parsing and retry logic from Claude-based pipelines.",
      "topics": [
       "Bedrock",
-      "Claude",
-      "Agents"
+      "Claude"
      ],
      "source": "AWS What's New",
      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/claude-structured-outputs-bedrock/",
      "date": "2026-10-20"
     },
     {
-     "title": "Bedrock Guardrails adds Standard tier for hallucination grounding checks",
-     "body": "Bedrock Guardrails now offers a Standard tier for contextual grounding checks. Standard handles reasoning and conversational responses, scores paraphrased answers more consistently, and supports more languages. It requires cross-Region inference with a guardrail profile, and existing guardrails stay on Classic until you change them. Pricing is the same as Classic; it is available in 11 Regions, not including Mumbai or Hyderabad.",
-     "why": "You can now apply grounding checks to conversational and reasoning agent replies, not only summaries.",
+     "title": "Bedrock Guardrails gets Standard tier for hallucination grounding checks",
+     "body": "Amazon Bedrock Guardrails adds a Standard tier for contextual grounding checks. The Standard tier supports responses with reasoning or conversational content and has broader language support than the Classic tier. Pricing is the same for both tiers, and existing guardrails stay on Classic until you change them. The Standard tier requires cross-Region inference with a guardrail profile and is not listed for Mumbai or Hyderabad.",
+     "why": "Grounding checks now work for conversational and reasoning answers, not only summaries, at the same price.",
      "topics": [
       "Bedrock",
-      "Security",
-      "Agents"
+      "Security"
      ],
      "source": "AWS What's New",
      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/bedrock-guardrails-grounding-standard/",
      "date": "2026-10-20"
     },
     {
-     "title": "GuardDuty adds 50+ optional runtime rules for EKS, ECS, Fargate",
-     "body": "Amazon GuardDuty added more than 50 optional Runtime Monitoring detection rules for EC2, EKS, and ECS on EC2 and Fargate. The rules span 13 finding types mapped to MITRE ATT&CK, including four new finding types. You can run rules in dry-run mode before you turn on live detection. It is available in all commercial and GovCloud (US) Regions.",
-     "why": "You get deeper threat detection for your container workloads, with a dry-run mode to test rules first.",
+     "title": "Bedrock Prompt Optimization can now shorten prompts to cut token cost",
+     "body": "Amazon Bedrock Advanced Prompt Optimization adds an optional prompt shortening setting per prompt template. It returns an optimized prompt only when the prompt is shorter and scores at least as high on your evaluation. Results show a compression ratio and the original and optimized token counts. It works with steering criteria, LLM-as-a-judge rubrics and custom Lambda evaluators.",
+     "why": "Shorter prompts lower input token cost and time to first token without a drop in quality.",
      "topics": [
-      "Security",
-      "Kubernetes",
-      "Containers"
+      "Bedrock",
+      "Cost"
      ],
      "source": "AWS What's New",
-     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/guardduty-runtime-optional-detection-rules/",
-     "date": "2026-10-19"
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/bedrock-prompt-optimization-shortening/",
+     "date": "2026-10-20"
+    },
+    {
+     "title": "Amazon ECS Gateway brings managed ingress for ECS services",
+     "body": "Amazon ECS Gateway is a new managed ingress resource that provisions and manages Application Load Balancers in your account. Each service gets its own DNS hostname with host-based routing, and up to 25 services can share one ALB. ECS adds and removes ALBs as needed. It supports awsvpc services on all launch types in all commercial Regions, with no extra charge beyond the underlying resources.",
+     "why": "Platform teams get shared, managed ALB ingress for ECS, with up to 25 services per load balancer.",
+     "topics": [
+      "Containers",
+      "DevOps",
+      "Cost"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/announcing-amazon-ecs-gateway/",
+     "date": "2026-10-20"
+    },
+    {
+     "title": "IAM Identity Center keeps users when you move off Active Directory",
+     "body": "AWS IAM Identity Center now retains users, groups, memberships, permission set assignments and application assignments when you change the identity source from Active Directory. Users and groups keep the same IDs, so policies that reference them keep working. The feature applies to organization instances in all Regions where the service is available. It has no additional cost.",
+     "why": "Teams can move from Active Directory to Okta or Entra ID without rebuilding users and access assignments.",
+     "topics": [
+      "Security"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/iam-identity-center-chg-id-src-from-ad/",
+     "date": "2026-10-20"
+    },
+    {
+     "title": "TorchNeuron public beta runs native PyTorch on AWS Trainium",
+     "body": "AWS released TorchNeuron in public beta, an open source native PyTorch backend for AWS Trainium. Code runs on Trainium by changing the device to .to('neuron'). It supports eager execution, torch.compile and the Neuron Kernel Interface for custom operators. It supports EC2 Trainium2 and Trainium3 instances.",
+     "why": "Existing PyTorch code can move to Trainium chips with a one-line device change.",
+     "topics": [
+      "AI chips"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-announce-native-pytorch-support-trainium",
+     "date": "2026-10-20"
+    }
+   ]
+  },
+  "layoffs": {
+   "routine": "layoffs",
+   "status": "done",
+   "headline": "eBay cuts about 9% of staff, near 1,000 jobs, in its second round this year.",
+   "filed": "2026-10-21T16:47:00Z",
+   "note": "Layoffs.fyi did not show its table; no new Indian IT or startup layoffs with a reliable source appeared in the last 48 hours.",
+   "items": [
+    {
+     "title": "eBay cuts 9% of workforce in second round this year",
+     "body": "eBay will cut about 9% of its workforce, around 1,000 jobs, as first reported by Reuters with figures from Bloomberg. CEO Jamie Iannone's memo says eBay wants to simplify how it operates and move money to its fastest-growing areas. Teams and locations were not named. eBay cut about 800 jobs in February 2026.",
+     "why": "It shows big e-commerce platforms keep shrinking staff to shift money into growth areas.",
+     "topics": [
+      "Layoffs",
+      "Big tech"
+     ],
+     "source": "The Next Web, citing Reuters and Bloomberg",
+     "url": "https://thenextweb.com/news/ebay-layoffs-9-percent-second-round",
+     "date": "2026-10-21"
+    },
+    {
+     "title": "Qualcomm starts worldwide performance-based layoffs",
+     "body": "An internal memo seen by Reuters shows Qualcomm will cut jobs worldwide after annual reviews. CEO Cristiano Amon wrote that the company had consistently fallen short of expectations and needs a stronger performance culture. Qualcomm did not give a number of jobs or name teams. Fiscal Q3 revenue fell 4% year on year to $9.95 billion.",
+     "why": "Cuts at a major chip vendor signal pressure in the handset market that supplies edge AI hardware.",
+     "topics": [
+      "Layoffs",
+      "Big tech"
+     ],
+     "source": "CNBC / Reuters",
+     "url": "https://www.cnbc.com/2026/10/20/qualcomm-performance-focused-layoffs-reuters.html",
+     "date": "2026-10-20"
     }
    ]
   }
