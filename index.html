@@ -222,8 +222,10 @@ function toast(msg) { const t = $("toast"); t.textContent = msg; t.hidden = fals
 const SECTIONS = [
   { id: "tech-news", name: "AI", desk: "AI desk" },
   { id: "x-desk", name: "Trending on X", desk: "X desk" },
+  { id: "gadgets", name: "Gadgets", desk: "Cloud desk" },
   { id: "tech-pulse", name: "Pulse", desk: "Pulse desk" },
-  { id: "aws-news", name: "Cloud", desk: "Cloud desk" }
+  { id: "aws-news", name: "Cloud", desk: "Cloud desk" },
+  { id: "layoffs", name: "Layoffs", desk: "Pulse desk" }
 ];
 const secOf = id => SECTIONS.find(s => s.id === id) || { id, name: id, desk: id };
 const RULES = [["Claude Code", /claude code/i], ["Claude", /\bclaude\b|anthropic|\bopus\b|\bsonnet\b|\bhaiku\b/i], ["MCP", /\bmcp\b|model context protocol/i], ["Agents", /\bagents?\b|agentic/i], ["Skills", /\bskills?\b|plugins?|hooks?\b/i], ["OpenAI", /openai|chatgpt|\bgpt-?\d/i], ["Gemini", /gemini|deepmind/i], ["Open models", /qwen|llama|mistral|deepseek|open[- ]weight|\bglm\b|local model/i], ["AI policy", /police|regulat|hearing|lawsuit|copyright|safety/i], ["Bedrock", /bedrock|agentcore/i], ["Kubernetes", /\beks\b|kubernetes/i], ["Containers", /\becs\b|fargate|docker/i], ["Security", /security|pen(etration)? test|\biam\b|vulnerab|guardduty/i], ["DevOps", /devops|ci\/cd|pipeline|terraform/i], ["GitHub", /github/i]];
