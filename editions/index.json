@@ -1,6 +1,11 @@
 {
  "editions": [
   {
+   "date": "2026-10-21",
+   "stories": 21,
+   "headline": "Claude Code 2.1.304 adds guided auto mode setup"
+  },
+  {
    "date": "2026-10-20",
    "stories": 20,
    "headline": "Superlite plugin turns a spec into parallel Claude Code agent work"

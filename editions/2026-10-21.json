@@ -1,0 +1,299 @@
+{
+ "date": "2026-10-21",
+ "generated": "2026-10-21T02:41:23Z",
+ "sections": {
+  "tech-news": {
+   "routine": "tech-news",
+   "status": "done",
+   "headline": "Claude Code v2.1.304 adds /auto-mode-setup, which teaches auto mode about your project from recent sessions.",
+   "filed": "2026-10-21T02:24:07Z",
+   "note": "The Hacker News page for 2026-10-20 failed to load, so HN items come from the 2026-10-19 front page; Reddit was read through Composio.",
+   "items": [
+    {
+     "title": "Claude Code 2.1.304 adds guided auto mode setup",
+     "body": "Claude Code v2.1.304 adds /auto-mode-setup, a guided setup that reads your project and recent sessions to teach auto mode about your environment. It also adds /claude-api managed-agents-secure, which checks a Managed Agents agent against Anthropic's security guide without changes. Pro and Max users now get a warning when a resumed inactive conversation would use a large share of the 5-hour limit. Fixes include safety prompts for rm -r on mounted drives such as /mnt/c.",
+     "why": "Auto mode can learn your repo and tooling, so daily agent runs need fewer permission prompts.",
+     "topics": [
+      "Claude Code",
+      "Agents",
+      "Security"
+     ],
+     "source": "GitHub anthropics/claude-code releases",
+     "url": "https://github.com/anthropics/claude-code/releases",
+     "date": "2026-10-19"
+    },
+    {
+     "title": "Claude inference hooks leave beta for Enterprise organizations",
+     "body": "Anthropic moved inference hooks out of beta for Claude Enterprise on October 20. Anthropic sends a signed HTTPS POST with the transcript to your server, which returns allow or deny within a 5-second default timeout. One hook covers claude.ai, Cowork, Claude Code, Claude in Chrome and more, with shadow mode and rollout percentage for safe rollout. It is not available on Amazon Bedrock, Google Cloud or API-only organizations.",
+     "why": "A security server can now allow or deny every Claude prompt and tool call before it runs, across all Claude products.",
+     "topics": [
+      "Claude",
+      "Security",
+      "DevOps"
+     ],
+     "source": "Claude Platform release notes",
+     "url": "https://platform.claude.com/docs/en/manage-claude/inference-hooks",
+     "date": "2026-10-20"
+    },
+    {
+     "title": "DeepSeek open-sources DeepInfer, its production inference stack",
+     "body": "DeepSeek released DeepInfer under Apache 2.0. It is the framework behind DeepSeek's production services and targets DeepSeek-V4.1-Flash on NVIDIA SM100 GPUs and Huawei Ascend 950 NPUs. Features include expert parallelism, DSpark speculative decoding, deterministic sampling and structured outputs. It does not include a KV cache system or prefill/decode disaggregation.",
+     "why": "It shows how a frontier lab serves a large MoE model, with code you can run and study.",
+     "topics": [
+      "Open models",
+      "AI tools"
+     ],
+     "source": "r/LocalLLaMA (844 upvotes), GitHub",
+     "url": "https://github.com/deepseek-ai/DeepInfer",
+     "date": "2026-10-20"
+    },
+    {
+     "title": "MiniMax M3.1 Flash: cheap, fast agentic coding model",
+     "body": "MiniMax released M3.1 Flash with claimed gains in coding, computer use and cybersecurity. It reports 73.7% on DeepSWE v1.1, 61.7 on OSWorld V2 and 200+ tokens per second output. Pricing is $0.15 input and $0.60 output per million tokens, and agentic task cost is 70% lower than the previous model. Weights are not released yet; access is through the MiniMax API and MiniMax Code.",
+     "why": "A low-cost model option for sub-agents and bulk coding tasks at $0.15 per million input tokens.",
+     "topics": [
+      "Open models",
+      "Agents"
+     ],
+     "source": "Hacker News (510 points)",
+     "url": "https://www.minimax.io/blog/minimax-m31f",
+     "date": "2026-10-19"
+    },
+    {
+     "title": "OpenAI models jump on COBOL and Fortran coding",
+     "body": "OpenAI introduced MultiLangBench, which tests building a SQLite-compatible engine in 20 languages. GPT-6 Astra scored 87.4% on average, up from 26.8% for GPT-5.6 Sol, with COBOL rising from 10.9% to 72.1%. On a COBOL migration eval, GPT-6.1 Sol reached 86.6% at low effort and 97.9% at higher effort. The eval setup and results are on GitHub.",
+     "why": "Legacy migration is common client work, and OpenAI published an open benchmark you can reuse.",
+     "topics": [
+      "OpenAI",
+      "AI research"
+     ],
+     "source": "OpenAI",
+     "url": "https://openai.com/index/low-resource-programming-languages/",
+     "date": "2026-10-19"
+    },
+    {
+     "title": "Tmux and Claude Code: running many agents, and the limits",
+     "body": "The guide covers claude --worktree --tmux, one tmux session per repo, send-keys -l to script prompts, and capture-pane or pipe-pane to read agent output. It shows a status-line script that marks each agent as working, parked or idle. It lists limits: no agent state, no completion signal and brittle screen scraping. The author sells a competing product, so the comparison is not neutral.",
+     "why": "Practical send-keys and capture-pane patterns for running parallel Claude Code agents on remote boxes.",
+     "topics": [
+      "Claude Code",
+      "DevOps"
+     ],
+     "source": "Hacker News (166 points)",
+     "url": "https://crystl.dev/guides/tmux-for-ai-agents/",
+     "date": "2026-10-19"
+    },
+    {
+     "title": "Mistral releases Timestral time-series forecasting models",
+     "body": "Mistral released Timestral in four sizes: 5M, 28M, 123M and 209M parameters, under a Modified MIT license. The 209M model ranks first among zero-shot models on GIFT-Eval, TIME and fev-bench. On an 8-thread CPU, a one-day forecast takes about 10 ms with the 5M model and 140 ms with the 209M model. Models are on GitHub and Hugging Face.",
+     "why": "Small CPU-friendly forecasters can drive capacity planning and anomaly alerts in ops pipelines.",
+     "topics": [
+      "Open models",
+      "DevOps"
+     ],
+     "source": "Hacker News (614 points)",
+     "url": "https://mistral.ai/news/timestral/",
+     "date": "2026-10-15"
+    }
+   ]
+  },
+  "x-desk": {
+   "routine": "x-desk",
+   "status": "done",
+   "headline": "OpenAI says its latest models now build and migrate software in COBOL, Fortran and Visual Basic, and this post led AI engagement on X yesterday.",
+   "filed": "2026-10-21T02:21:00Z",
+   "note": "Read 31 posts in 2 searches; 8 passed the value filter and the top 6 by engagement are listed.",
+   "items": [
+    {
+     "title": "OpenAI models improve at COBOL, Fortran and Visual Basic",
+     "body": "OpenAI says its latest model advances give \"stronger capabilities for building and migrating software in low-resource programming languages such as COBOL, Fortran, and Visual Basic.\" OpenAI notes that banks, governments and businesses depend on software in these languages. The post links to more detail.",
+     "why": "Legacy migration is a common enterprise modernisation job that often ends on AWS, so this is a new use for coding agents in client work.",
+     "topics": [
+      "OpenAI",
+      "AI research"
+     ],
+     "source": "X · @OpenAI · 9056 likes · 645 reposts",
+     "url": "https://x.com/OpenAI/status/2112310345863930168",
+     "date": "2026-10-20"
+    },
+    {
+     "title": "Claude helps design protein binders against scorpion neurotoxins",
+     "body": "Anthropic published a Science Blog post on protein binders designed against scorpion neurotoxins. Scorpions sting about 1.2 million people every year, and antivenoms are often costly or in short supply. Anthropic calls the work \"an early step toward finding new treatments.\"",
+     "why": "It shows how Anthropic applies Claude to long, multi-step science work, the same agentic pattern that agent builders use every day.",
+     "topics": [
+      "Claude",
+      "AI research"
+     ],
+     "source": "X · @AnthropicAI · 5412 likes · 411 reposts",
+     "url": "https://x.com/AnthropicAI/status/2112579251555721573",
+     "date": "2026-10-20"
+    },
+    {
+     "title": "Gemini 4 Argon builds a 3D periodic table in Antigravity",
+     "body": "Google DeepMind shows Gemini 4 Argon building a 3D periodic table synced to Tom Lehrer's song \"The Elements.\" The app was made in Antigravity. It animates orbiting electrons, atomic data and light spectra.",
+     "why": "It is a demo of the coding strength of a new Gemini model that competes with Claude Code for agentic coding.",
+     "topics": [
+      "Gemini",
+      "AI tools"
+     ],
+     "source": "X · @GoogleDeepMind · 2549 likes · 274 reposts",
+     "url": "https://x.com/GoogleDeepMind/status/2112557925264752930",
+     "date": "2026-10-20"
+    },
+    {
+     "title": "OpenAI API adds 12-hour prompt caching",
+     "body": "The OpenAI API now offers 12-hour prompt caching. Persistent agents can keep shared instructions, tools and context cached longer. They pay the lower cached-input rate \"even when requests are hours apart.\"",
+     "why": "Long cache lifetimes cut cost for long-running agents, so compare this with Claude prompt caching when you design agent workloads.",
+     "topics": [
+      "OpenAI",
+      "Agents"
+     ],
+     "source": "X · @OpenAIDevs · 2398 likes · 117 reposts",
+     "url": "https://x.com/OpenAIDevs/status/2112603916076781778",
+     "date": "2026-10-20"
+    },
+    {
+     "title": "DeepSeek shares inference details for V4.1 Flash on Zhihu",
+     "body": "swyx points to a DeepSeek Zhihu post with more detail than the English posts on X. DeepSeek says it used its framework to run \"a high-throughput, low-latency large-scale inference service for DeepSeek V4.1 Flash.\" The post links to the source.",
+     "why": "Large-scale inference design is useful input if you host open models on AWS for agents.",
+     "topics": [
+      "Open models",
+      "AI research"
+     ],
+     "source": "X · @swyx · 1686 likes · 105 reposts",
+     "url": "https://x.com/swyx/status/2112587397380943953",
+     "date": "2026-10-20"
+    },
+    {
+     "title": "Meta publishes technical report on Muse Glimmer, a 30B open-weight agent model",
+     "body": "Meta published a technical report on Muse Glimmer, a 30B open-weight model built for agentic tasks on consumer hardware. It runs at practical speeds on a Mac or PC with one consumer GPU at 4-bit precision. Meta says it leads comparably sized open models on tool use.",
+     "why": "A small open model with strong tool use is a candidate for local or self-hosted agents where cost or data rules block hosted APIs.",
+     "topics": [
+      "Open models",
+      "Agents"
+     ],
+     "source": "X · @AIatMeta · 1329 likes · 175 reposts",
+     "url": "https://x.com/AIatMeta/status/2112265822274302066",
+     "date": "2026-10-20"
+    }
+   ]
+  },
+  "tech-pulse": {
+   "routine": "tech-pulse",
+   "status": "done",
+   "headline": "DeepSeek open-sources DeepInfer, its large-scale inference engine, and tops Hacker News and r/LocalLLaMA.",
+   "filed": "2026-10-21T02:23:30Z",
+   "note": "The Hacker News daily page (front?day=2026-10-20) did not load, so the live front page was used; GitHub Trending returned an old-looking list without repo names, so it was skipped.",
+   "items": [
+    {
+     "title": "DeepSeek open-sources DeepInfer, its production inference engine",
+     "body": "DeepSeek released DeepInfer on GitHub. It is a high-performance, large-scale inference framework for DeepSeek models. It was the top Hacker News story with 1,827 points and 675 comments. The r/LocalLLaMA post got 844 upvotes and 127 comments.",
+     "why": "You can study or self-host a high-throughput serving stack for open models on your own AWS GPU fleet.",
+     "topics": [
+      "Open models",
+      "AI tools"
+     ],
+     "source": "Hacker News · 1,827 points · 675 comments",
+     "url": "https://github.com/deepseek-ai/DeepInfer",
+     "date": "2026-10-20"
+    },
+    {
+     "title": "Anthropic report: agents wait on humans 80% of session time",
+     "body": "A Fortune article covers an Anthropic report on how its employees use Claude. It says 80% of elapsed time in Claude sessions is agents waiting for human input. The report also says the median employee spends 20% more time in meetings than a year ago. Commenters advise 2 to 3 parallel sessions at most.",
+     "why": "It shows that you, not Claude, are the bottleneck when you run parallel Claude Code sessions.",
+     "topics": [
+      "Claude",
+      "Agents",
+      "Claude Code"
+     ],
+     "source": "r/ClaudeAI · 450 upvotes · 86 comments",
+     "url": "https://fortune.com/2026/10/19/work-botsitting-meetings-army-of-claudes-anthropic/",
+     "date": "2026-10-20"
+    },
+    {
+     "title": "eMudhra intermediate certificate authority reported compromised",
+     "body": "A disclosure page reports a compromise of an eMudhra intermediate CA. eMudhra is an Indian certificate authority. The Hacker News thread has 217 points and 97 comments.",
+     "why": "A compromised CA can affect TLS trust for certificates in your infrastructure and pipelines.",
+     "topics": [
+      "Security",
+      "DevOps"
+     ],
+     "source": "Hacker News · 217 points · 97 comments",
+     "url": "https://emudhra.we-have-a-problem.com/",
+     "date": "2026-10-20"
+    },
+    {
+     "title": "AI proves the Quasi-Riemann Hypothesis, experts confirm",
+     "body": "Quanta Magazine reports that an AI system proved the Quasi-Riemann Hypothesis. Unlike other recent AI proofs, human experts have unpacked this one. One mathematician called the implications \"staggering.\"",
+     "why": "It is a strong signal of how far AI reasoning has come on hard, verifiable problems.",
+     "topics": [
+      "AI research"
+     ],
+     "source": "r/OpenAI · 335 upvotes · 137 comments",
+     "url": "https://www.quantamagazine.org/ai-proved-the-quasi-riemann-hypothesis-what-happens-now-20261019",
+     "date": "2026-10-20"
+    },
+    {
+     "title": "Kyutai shrinks Pocket TTS with voice cloning to 1.9M parameters",
+     "body": "Kyutai released a smaller Pocket TTS model. It supports voice cloning and has only 1.9 million parameters. The r/LocalLLaMA post got 332 upvotes and 43 comments.",
+     "why": "A tiny TTS model can add voice output to agents on CPU or edge devices at almost no cost.",
+     "topics": [
+      "Open models",
+      "AI tools"
+     ],
+     "source": "r/LocalLLaMA · 332 upvotes · 43 comments",
+     "url": "https://kyutai.org/blog/2026-10-20-pocket-tts-small/",
+     "date": "2026-10-20"
+    }
+   ]
+  },
+  "aws-news": {
+   "routine": "aws-news",
+   "status": "done",
+   "headline": "Amazon Bedrock now supports structured JSON outputs for all Claude models.",
+   "filed": "2026-10-21T02:23:50Z",
+   "note": "The AWS What's New page did not render its feed, so this desk used the What's New RSS feed; no AWS News Blog post in the window met the bar.",
+   "items": [
+    {
+     "title": "Bedrock adds structured outputs for all Claude models",
+     "body": "Amazon Bedrock now supports structured outputs for all Anthropic Claude models. Responses return as JSON that follows a schema you define. The feature works on the bedrock-runtime and bedrock-mantle endpoints, through boto3 or the Messages API. It is available in all Regions where Claude models are available.",
+     "why": "Your agents on Bedrock can get schema-valid JSON from Claude without custom parsing or retry code.",
+     "topics": [
+      "Bedrock",
+      "Claude",
+      "Agents"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/claude-structured-outputs-bedrock/",
+     "date": "2026-10-20"
+    },
+    {
+     "title": "Bedrock Guardrails adds Standard tier for hallucination grounding checks",
+     "body": "Bedrock Guardrails now offers a Standard tier for contextual grounding checks. Standard handles reasoning and conversational responses, scores paraphrased answers more consistently, and supports more languages. It requires cross-Region inference with a guardrail profile, and existing guardrails stay on Classic until you change them. Pricing is the same as Classic; it is available in 11 Regions, not including Mumbai or Hyderabad.",
+     "why": "You can now apply grounding checks to conversational and reasoning agent replies, not only summaries.",
+     "topics": [
+      "Bedrock",
+      "Security",
+      "Agents"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/bedrock-guardrails-grounding-standard/",
+     "date": "2026-10-20"
+    },
+    {
+     "title": "GuardDuty adds 50+ optional runtime rules for EKS, ECS, Fargate",
+     "body": "Amazon GuardDuty added more than 50 optional Runtime Monitoring detection rules for EC2, EKS, and ECS on EC2 and Fargate. The rules span 13 finding types mapped to MITRE ATT&CK, including four new finding types. You can run rules in dry-run mode before you turn on live detection. It is available in all commercial and GovCloud (US) Regions.",
+     "why": "You get deeper threat detection for your container workloads, with a dry-run mode to test rules first.",
+     "topics": [
+      "Security",
+      "Kubernetes",
+      "Containers"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/guardduty-runtime-optional-detection-rules/",
+     "date": "2026-10-19"
+    }
+   ]
+  }
+ }
+}
