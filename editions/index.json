@@ -1,6 +1,11 @@
 {
  "editions": [
   {
+   "date": "2026-10-22",
+   "stories": 30,
+   "headline": "Anthropic launches Claude Duet, an always-on background agent"
+  },
+  {
    "date": "2026-10-21",
    "stories": 31,
    "headline": "Claude Code 2.1.304 adds guided auto mode setup"

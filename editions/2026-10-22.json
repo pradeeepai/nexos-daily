@@ -1,0 +1,423 @@
+{
+ "date": "2026-10-22",
+ "generated": "2026-10-22T02:42:01Z",
+ "sections": {
+  "tech-news": {
+   "routine": "tech-news",
+   "status": "done",
+   "headline": "Anthropic launches Claude Duet, an always-on proactive agent on Opus 5.5, in research preview for Pro and Max users.",
+   "filed": "2026-10-22T02:24:21Z",
+   "note": "The Hacker News front page for 2026-10-21 had no high-scoring AI stories, so the ranking uses Reddit, vendor pages and news digests. Gemini 4 Argon launched on Oct 13, which is outside this window.",
+   "items": [
+    {
+     "title": "Anthropic launches Claude Duet, an always-on background agent",
+     "body": "Claude Duet is a proactive agent that runs on its own cloud computer and keeps working after the app closes. It runs on Claude Opus 5.5, shares memories, skills, connectors and plugins with Claude, and asks before it sends messages, pays, signs or deletes. It is a research preview for US Pro and Max users through a waitlist, on iOS, Android and claude.ai, at no extra cost. Team and Enterprise access comes later.",
+     "why": "Duet shows how Anthropic packages long-running agents: a cloud computer, shared skills and connectors, and approval gates before risky actions.",
+     "topics": [
+      "Claude",
+      "Agents"
+     ],
+     "source": "9to5Mac; r/ClaudeAI (878 upvotes)",
+     "url": "https://9to5mac.com/2026/10/21/anthropic-takes-on-chatgpt-dots-and-meta-muse-with-claude-duet/",
+     "date": "2026-10-21"
+    },
+    {
+     "title": "Claude API version 2026-10-21 ships with breaking SDK major versions",
+     "body": "Anthropic released API version 2026-10-21. New SDKs send it by default: Python 2.0.0, TypeScript 1.0.0, Go 2.0.0, Java 3.0.0, C# 13.0.0, PHP 1.0.0, Ruby 2.0.0 and ant CLI 2.0.0, with breaking changes and a license change from MIT to Apache 2.0. On October 20, Anthropic added /v1/user_profiles, org webhooks (beta) for restrictions, and admin controls that can turn off web fetch or limit its domains, also for Managed Agents.",
+     "why": "Every app that pins an Anthropic SDK must plan a migration, and the new user profiles let a safety action hit one end customer instead of the whole org.",
+     "topics": [
+      "Claude",
+      "Agents",
+      "Security"
+     ],
+     "source": "Claude Platform release notes",
+     "url": "https://platform.claude.com/docs/en/release-notes/overview",
+     "date": "2026-10-21"
+    },
+    {
+     "title": "Claude Code 2.1.305 fixes Bedrock and Vertex gateway failures",
+     "body": "v2.1.305 (Oct 20) retries without tool search when a gateway rejects it on Vertex, Bedrock and other providers. It adds sandbox.allowNestedUserNamespaces for Chromium or rootless podman on Linux, with a warning that it weakens file protections. allowedMcpServers no longer filters managed-mcp.json stdio servers that use ${VAR} only in env, so use deniedMcpServers to block them. v2.1.306 (Oct 21) fixes a false 'prompt is too long' error in sessions with many MCP tools.",
+     "why": "Teams that run Claude Code through Bedrock, Vertex or an LLM gateway get fewer failed requests, and MCP allowlist behavior changes on upgrade.",
+     "topics": [
+      "Claude Code",
+      "MCP",
+      "Bedrock"
+     ],
+     "source": "GitHub anthropics/claude-code releases",
+     "url": "https://github.com/anthropics/claude-code/releases",
+     "date": "2026-10-21"
+    },
+    {
+     "title": "Claude Code strips TV ads over ADB with strict guardrail prompt",
+     "body": "A user gave Claude Code a TV model number. It found the TV on the network, used ADB to disable 25 ad and tracking packages, and wrote a simple home screen. The prompt rules: back up the package list first, disable but never uninstall, never touch setup, Wi-Fi, input or casting packages, and ask before it disables apps the family uses. About 200 people sent PRs, and the list now covers about 150 TV models from 50 brands; a related Samsung TV post reached 3,087 upvotes.",
+     "why": "The post is a clear pattern for safe agent work on real devices: back up state, make every change reversible, and list what the agent must never touch.",
+     "topics": [
+      "Claude Code",
+      "Agents"
+     ],
+     "source": "r/ClaudeAI (329 upvotes, 100 comments)",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1xbrzo0/i_gave_claude_code_my_parents_tv_model_number_it/",
+     "date": "2026-10-21"
+    },
+    {
+     "title": "Mistral releases Voxtral 3 speech models and voice agent API",
+     "body": "Voxtral 3 includes Small Transcribe 3 ($0.004/min), Mini Transcribe 3 (4B, $0.0035/min), Mini Transcribe Realtime 3 ($0.008/min, under 500 ms) and a TTS model ($13 per 1M characters) with voice cloning. Speech-to-text covers 50+ languages with diarization and end-of-turn detection. A voice agent API costs $0.04/min with Mistral Small 4, and its SDK uses LiveKit with SIP and WebRTC. It runs on EU, US and global API endpoints, and self-deployment is available through sales.",
+     "why": "Voice agents get a swappable EU-hosted stack with sub-second turns and per-minute pricing that is easy to budget.",
+     "topics": [
+      "New models",
+      "AI tools"
+     ],
+     "source": "Mistral AI news",
+     "url": "https://mistral.ai/news/voxtral-3/",
+     "date": "2026-10-20"
+    },
+    {
+     "title": "OpenAI models are coming to Google Cloud Model Garden",
+     "body": "OpenAI said its frontier models and Codex agentic workflows will come to Google Cloud's Model Garden. General availability is planned in the coming weeks, and customers can request access now. Purchases go through Google Cloud Marketplace and count toward Google Cloud spend commitments. OpenAI models will also come to Google Antigravity and the Gemini Agent, and Microsoft stays OpenAI's primary cloud partner.",
+     "why": "Multi-cloud teams can soon buy OpenAI models and Codex workflows through Google Cloud Marketplace and spend commitments.",
+     "topics": [
+      "OpenAI",
+      "Gemini"
+     ],
+     "source": "OpenAI News",
+     "url": "https://openai.com/index/openai-models-google-cloud/",
+     "date": "2026-10-21"
+    },
+    {
+     "title": "OpenAI API adds 12-hour prompt cache lifetime",
+     "body": "For GPT-5.6 and later in the Responses API, prompt_cache_options.ttl now accepts \"12h\" in addition to the default \"30m\". A 12-hour cache write costs 2.5x uncached input, against 1.25x for 30 minutes, and reads cost the same for both. You can set the TTL per breakpoint, so shared material stays 12 hours and session context stays 30 minutes. Older models keep the in_memory and 24h retention options.",
+     "why": "Long-running agents can keep system prompts and tool definitions cached between sparse calls, which cuts input cost.",
+     "topics": [
+      "OpenAI",
+      "Agents"
+     ],
+     "source": "OpenAI developer docs; @OpenAIDevs",
+     "url": "https://developers.openai.com/docs/guides/prompt-caching",
+     "date": "2026-10-21"
+    }
+   ]
+  },
+  "x-desk": {
+   "routine": "x-desk",
+   "status": "done",
+   "headline": "OpenAI says its models helped a coalition find critical security flaws in PHP, the language behind about 70% of websites.",
+   "filed": "2026-10-22T02:20:30Z",
+   "note": "Read 32 posts (12 from voices, 20 from wider discussion); 7 passed the value filter, and no wider-discussion post reached 20 likes.",
+   "items": [
+    {
+     "title": "OpenAI models help find critical security flaws in PHP",
+     "body": "OpenAI says its models helped researchers in its Patch the Planet initiative discover critical security flaws in PHP. PHP runs \"an estimated 70% of websites\". OpenAI led a coalition of maintainers and researchers over the past two months.",
+     "why": "AI-found flaws in core web runtimes can affect servers and containers on AWS, so teams should watch for PHP patches.",
+     "topics": [
+      "OpenAI",
+      "AI research"
+     ],
+     "source": "X · @OpenAI · 13582 likes · 2740 reposts",
+     "url": "https://x.com/OpenAI/status/2112907856018309586",
+     "date": "2026-10-21"
+    },
+    {
+     "title": "OpenAI ships a Codex skill to check if your website is affected by the PHP flaws",
+     "body": "OpenAI packaged a Codex skill that guides you through a check of your website. You point Codex at the linked repo and it walks you through the steps.",
+     "why": "It shows a vendor shipping a security response as an agent skill, a pattern teams can reuse in their own Claude Code skills.",
+     "topics": [
+      "OpenAI",
+      "Skills",
+      "AI tools"
+     ],
+     "source": "X · @OpenAI · 7782 likes · 979 reposts",
+     "url": "https://x.com/OpenAI/status/2112945805686604033",
+     "date": "2026-10-21"
+    },
+    {
+     "title": "Claude Security now re-scans repositories as code changes",
+     "body": "Claude Security now connects to your repositories once, runs a deep first scan, then re-scans as changes land. Findings stay close to the current state of the code. The feature is in public beta on Claude Enterprise.",
+     "why": "Continuous AI security scans can fit into DevOps pipelines next to existing CI checks.",
+     "topics": [
+      "Claude",
+      "AI tools"
+     ],
+     "source": "X · @claudeai · 7321 likes · 370 reposts",
+     "url": "https://x.com/claudeai/status/2112962248218148878",
+     "date": "2026-10-21"
+    },
+    {
+     "title": "GPT-Rosalind surfaces a new drug-discovery lead for neurodegeneration",
+     "body": "OpenAI says GPT-Rosalind suggested that restoring cholesterol transport could protect neurons from degeneration. The lead comes from DCTN1, a gene linked to Perry syndrome. In mouse-brain data, disruption of DCTN1 increased expression of related genes.",
+     "why": "It is a clear example of a model producing a research hypothesis, which shows where agent work is going beyond code.",
+     "topics": [
+      "OpenAI",
+      "AI research"
+     ],
+     "source": "X · @OpenAI · 5714 likes · 589 reposts",
+     "url": "https://x.com/OpenAI/status/2112899854569762936",
+     "date": "2026-10-21"
+    },
+    {
+     "title": "Gemini 4 Argon processes about 25 trillion tokens in its first 72 hours",
+     "body": "Logan Kilpatrick says Google processed \"~25 trillion tokens\" in the first 72 hours after the Gemini 4 Argon launch. He says demand for intelligence is \"still under appreciated\".",
+     "why": "Gemini 4 Argon is a new frontier model with fast adoption, so agent builders may want to compare it with Claude.",
+     "topics": [
+      "Gemini"
+     ],
+     "source": "X · @OfficialLoganK · 5318 likes · 299 reposts",
+     "url": "https://x.com/OfficialLoganK/status/2112767157746688480",
+     "date": "2026-10-21"
+    },
+    {
+     "title": "OpenAI explains how the ChatGPT ad stack works",
+     "body": "OpenAI Developers describe how ChatGPT's ad stack responds to the conversation while answers stay independent. The post covers how the LLM orchestrator, retrieval, ranking and auction tools work together.",
+     "why": "It is a real-world architecture of an LLM orchestrator with retrieval and ranking, useful as a reference for agent designs.",
+     "topics": [
+      "OpenAI",
+      "Agents"
+     ],
+     "source": "X · @OpenAIDevs · 795 likes · 59 reposts",
+     "url": "https://x.com/OpenAIDevs/status/2112962753682198969",
+     "date": "2026-10-21"
+    }
+   ]
+  },
+  "gadgets": {
+   "routine": "gadgets",
+   "status": "done",
+   "headline": "Sony sets the new PlayStation Pulse headset at $100, on sale November 19.",
+   "filed": "2026-10-22T02:25:54Z",
+   "note": "The Verge and Gadgets 360 blocked access, and the Apple newsroom page returned no article list.",
+   "items": [
+    {
+     "title": "Sony PlayStation Pulse headset arrives November 19 for $100",
+     "body": "Sony announced the PlayStation Pulse wireless headset in white and midnight black. It has larger planar magnetic drivers, an AI noise-rejecting microphone, Bluetooth and PlayStation Link for PS5, PlayStation Portal, Mac and PC. It costs $100, which is $50 less than the Pulse Elite. Pre-orders open October 29 and it goes on sale November 19 in the US, UK, Japan and other markets.",
+     "why": "A cheaper official PS5 headset with lossless low-latency audio across console, PC and Mac.",
+     "topics": [
+      "Gaming",
+      "Audio"
+     ],
+     "source": "Engadget",
+     "url": "https://www.engadget.com/2293077/sonys-playstation-pulse-headset-arrives-on-november-19-for-dollar100/",
+     "date": "2026-10-21"
+    },
+    {
+     "title": "Garmin launches Edge 1060 and Edge Explore 3 bike computers",
+     "body": "Garmin announced the Edge 1060 at $799, with a built-in microphone and speaker for voice commands, route preview and an Up Ahead screen. The Edge Explore 3 costs $299 and the Edge Explore 3 Plus costs $399 with a microphone for voice control. Garmin also updated the Tacx Nēra smart trainer at $999. The source does not give a sale date.",
+     "why": "Garmin adds voice control to its bike computers and refreshes its entry line.",
+     "topics": [
+      "Wearables",
+      "Cycling"
+     ],
+     "source": "Bicycle Retailer",
+     "url": "https://www.bicycleretailer.com/product-tech/2026/10/20/garmin-announces-new-edge-bike-computers-and-updated-tacx-trainer",
+     "date": "2026-10-20"
+    },
+    {
+     "title": "Wyze Solar Cam launches with 2K video for $69.98",
+     "body": "Wyze launched the Solar Cam on October 20. It records 2K video (2304 x 1296) with a 130-degree field of view, color night vision and a 100-lumen spotlight. It has a 5,200 mAh battery, a 1.77W solar panel and optional microSD recording. It costs $69.98 with the panel, or $10 less without it.",
+     "why": "A low-cost wire-free outdoor camera that runs on about an hour of sun.",
+     "topics": [
+      "Smart home"
+     ],
+     "source": "9to5Google",
+     "url": "https://9to5google.com/2026/10/20/wyze-solar-cam-price-battery-camera/",
+     "date": "2026-10-20"
+    }
+   ]
+  },
+  "tech-pulse": {
+   "routine": "tech-pulse",
+   "status": "done",
+   "headline": "AI-found PHP2Shell flaws force an emergency PHP security release across nearly every PHP version.",
+   "filed": "2026-10-22T02:23:39Z",
+   "note": "GitHub Trending returned a list without clear repo names or AI-relevant entries, so no item came from it; r/MachineLearning had only two low-score posts.",
+   "items": [
+    {
+     "title": "AI uncovers PHP2Shell: unauthenticated RCE in PHP core",
+     "body": "Wiz disclosed four bugs under CVE-2026-109618 and CVE-2026-109619, with CVSS up to 9.2. The flaws allow unauthenticated remote code execution and memory disclosure, and Wiz showed RCE on current WordPress, Drupal and Joomla images. Wiz found the bugs with AI models, and PHP shipped fixes on October 21, including PHP 8.2.35. OpenAI coordinated the disclosure under its Patch the Planet effort, and Cloudflare deployed WAF protections.",
+     "why": "Most PHP stacks on EC2, containers and Lambda layers need a patch now, and WAF rules only buy time.",
+     "topics": [
+      "Security",
+      "AI research",
+      "DevOps"
+     ],
+     "source": "Hacker News · 726 points · 294 comments (PHP 8.2.35); 383 points · 141 comments (Wiz post)",
+     "url": "https://www.wiz.io/blog/php2shell-php-rce",
+     "date": "2026-10-21"
+    },
+    {
+     "title": "LiteLLM 1.107.0 on PyPI ships credential stealer and backdoor",
+     "body": "SafeDep found malware in all wheels and the sdist of LiteLLM 1.107.0 on PyPI; the GitHub source is clean. The package plants cook.pth, cook.py and sitecustomize.py, which run at every Python start. The code steals SSH keys, cloud and CI/CD credentials and LLM keys, and an hourly backdoor fetches and runs remote code. Versions 1.106.2, 1.107.0rc1 and 1.107.0rc2 are clean.",
+     "why": "LiteLLM sits in many AI gateway and agent pipelines, so a bad pin can leak cloud keys, CI secrets and LLM tokens.",
+     "topics": [
+      "Security",
+      "AI tools",
+      "DevOps"
+     ],
+     "source": "Hacker News · 162 points · 62 comments; r/devops · 45 upvotes",
+     "url": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/",
+     "date": "2026-10-21"
+    },
+    {
+     "title": "eMudhra CA private keys were single-byte numbers, cracked in milliseconds",
+     "body": "Eight eMudhra intermediate CAs used tiny private keys such as 4, 56 and 115, so anyone could recover them from the public certificates. The keys were cross-signed by Sectigo in May 2025, which left about 17 months of exposure. Chrome and Firefox blocked the intermediates, and the eMudhra root is being removed. Tests showed curl, Python and Node accepted a forged certificate.",
+     "why": "CI/CD runners, curl installers and server-to-server calls trust on-disk CA bundles and can accept forged certificates.",
+     "topics": [
+      "Security",
+      "DevOps"
+     ],
+     "source": "Hacker News · 636 points · 284 comments",
+     "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
+     "date": "2026-10-21"
+    },
+    {
+     "title": "Anthropic opens research preview of Claude Duet proactive agent",
+     "body": "Claude Duet is a new app where Claude monitors connected apps, sends morning briefs and completes tasks in the background on its own virtual machine with a browser. It asks for approval before it sends, pays, signs or deletes. It connects to over 6,000 connectors and plugins. The preview starts with US Pro and Max subscribers by waitlist on iOS, Android and claude.ai.",
+     "why": "It shows the move from chat to always-on agents that run on their own VM and act through connectors with approval gates.",
+     "topics": [
+      "Claude",
+      "Agents",
+      "MCP"
+     ],
+     "source": "r/ClaudeAI · 878 upvotes · 132 comments",
+     "url": "https://claude.com/resources/articles/claude-duet",
+     "date": "2026-10-21"
+    },
+    {
+     "title": "DuckDB 2.0 LTS adds client-server mode, async S3 I/O and agent mode",
+     "body": "DuckDB 2.0.0 LTS is supported until at least October 2027. It adds the Quack client-server protocol with a CONNECT statement, asynchronous I/O for Parquet, CSV and object storage, a VARIANT type, triggers and a new PEG parser. The CLI detects coding agents and switches to compact Markdown output and JSON errors. Databases made by 2.0 cannot be read by older versions.",
+     "why": "Faster parallel reads from S3 and a coding-agent output mode make DuckDB a stronger tool for data pipelines and AI agents.",
+     "topics": [
+      "AI tools",
+      "DevOps"
+     ],
+     "source": "Hacker News · 227 points · 25 comments",
+     "url": "https://duckdb.org/2026/10/21/announcing-duckdb-200",
+     "date": "2026-10-21"
+    }
+   ]
+  },
+  "aws-news": {
+   "routine": "aws-news",
+   "status": "done",
+   "headline": "Amazon Bedrock adds structured outputs for all Claude models, and Amazon ECS gets a managed ingress called ECS Gateway.",
+   "filed": "2026-10-22T02:25:54Z",
+   "note": "",
+   "items": [
+    {
+     "title": "Bedrock adds structured JSON outputs for all Claude models",
+     "body": "Amazon Bedrock now supports structured outputs for all Anthropic Claude models. Responses come back as JSON that matches a schema you define. The feature works on the bedrock-runtime and bedrock-mantle endpoints. It is available wherever Claude models are available on Bedrock.",
+     "why": "Apps get schema-valid JSON from Claude without custom parsing or retry code.",
+     "topics": [
+      "Bedrock",
+      "Claude"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/claude-structured-outputs-bedrock/",
+     "date": "2026-10-20"
+    },
+    {
+     "title": "Bedrock Guardrails adds Standard tier for contextual grounding checks",
+     "body": "The Standard tier checks if a model response is grounded in your reference source and relevant to the query. It handles reasoning and conversational content and supports more languages than the Classic tier. It works with any model through the ApplyGuardrail API and needs cross-Region inference with a guardrail profile. Pricing is the same as the Classic tier, and existing guardrails stay on Classic until you change them.",
+     "why": "Teams get better hallucination detection for chat and reasoning answers at the same price.",
+     "topics": [
+      "Bedrock",
+      "Security"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/bedrock-guardrails-grounding-standard/",
+     "date": "2026-10-20"
+    },
+    {
+     "title": "TorchNeuron brings native PyTorch to AWS Trainium in public beta",
+     "body": "TorchNeuron is an open source, native PyTorch backend for AWS Trainium, now in public beta. You run existing code on Trainium with .to('neuron'). It supports eager execution, torch.compile and the Neuron Kernel Interface for custom operators. It supports EC2 Trainium2 and Trainium3 instances.",
+     "why": "PyTorch teams can move training code to Trainium with a one-line device change.",
+     "topics": [
+      "DevOps"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-announce-native-pytorch-support-trainium",
+     "date": "2026-10-20"
+    },
+    {
+     "title": "Amazon ECS Gateway launches as managed ingress for ECS services",
+     "body": "ECS Gateway provisions and manages Application Load Balancers for ECS services in your account. Each service gets its own DNS hostname, and up to 25 services can share one ALB. ECS adds and removes ALBs as needed. The gateway has no extra charge, works with awsvpc services on all launch types, and is available in all commercial Regions.",
+     "why": "ECS teams get managed ALB ingress with host routing and shared load balancers at no extra charge.",
+     "topics": [
+      "Containers",
+      "DevOps",
+      "Cost"
+     ],
+     "source": "AWS News Blog",
+     "url": "https://aws.amazon.com/blogs/aws/introducing-amazon-ecs-gateway-a-fully-managed-ingress-solution-for-ecs-services/",
+     "date": "2026-10-20"
+    },
+    {
+     "title": "IAM Identity Center keeps assignments when you leave Active Directory",
+     "body": "IAM Identity Center now preserves users, groups, memberships, permission set assignments and application assignments when you switch the identity source away from Active Directory. Targets include external identity providers such as Okta or Microsoft Entra ID, or the Identity Center directory. User IDs stay the same, so policies that reference them keep working. The feature has no extra cost.",
+     "why": "Moving from Active Directory to Okta or Entra ID no longer means rebuilding access.",
+     "topics": [
+      "Security"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/iam-identity-center-chg-id-src-from-ad/",
+     "date": "2026-10-20"
+    },
+    {
+     "title": "Aurora and RDS add On-Demand Capacity Reservations",
+     "body": "Amazon Aurora and Amazon RDS now let you reserve DB instance capacity in one or more Availability Zones. You can reserve now with no commitment, or schedule a reservation 5 to 120 days ahead with a minimum commitment. Reserved capacity is billed at On-Demand rates while active, and existing Reserved DB Instance or Database Savings Plans discounts apply. It is available in all commercial Regions.",
+     "why": "Database teams can guarantee instance capacity for migrations, launches and disaster recovery.",
+     "topics": [
+      "Cost"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-aurora-rds-on-demand-capacity-reservations/",
+     "date": "2026-10-21"
+    }
+   ]
+  },
+  "layoffs": {
+   "routine": "layoffs",
+   "status": "done",
+   "headline": "eBay cuts about 1,000 jobs, 9% of staff, in its second layoff round of 2026.",
+   "filed": "2026-10-22T02:23:39Z",
+   "note": "layoffs.fyi did not load its data table, and searches found no new Indian IT or startup layoffs from reliable sources in the last 48 hours.",
+   "items": [
+    {
+     "title": "eBay cuts about 9% of staff in second 2026 round",
+     "body": "eBay plans to cut about 9% of its workforce, about 1,000 jobs per Bloomberg, according to a memo from CEO Jamie Iannone first reported by Reuters. The company says it wants to simplify operations and move resources to its fastest-growing areas. The memo did not name teams. eBay cut about 800 jobs (6%) in February 2026.",
+     "why": "Another large e-commerce platform trims headcount to shift money into growth areas, which affects platform and engineering hiring.",
+     "topics": [
+      "Layoffs",
+      "Big tech"
+     ],
+     "source": "The Next Web, citing Reuters and Bloomberg",
+     "url": "https://thenextweb.com/news/ebay-layoffs-9-percent-second-round",
+     "date": "2026-10-21"
+    },
+    {
+     "title": "EA cuts 400 jobs and closes BioWare studio",
+     "body": "Electronic Arts will cut about 400 jobs, about 3% of its workforce, per an internal letter reviewed by Bloomberg. BioWare will close, with about 50 staff affected, and the next Mass Effect game is cancelled. EA also cancelled Project Lotus and downsized the skate team. The cuts follow EA's $55 billion leveraged buyout and a plan to save up to $700 million.",
+     "why": "Debt-funded buyouts drive deep R&D cuts, and engineering teams in large studios feel it first.",
+     "topics": [
+      "Layoffs",
+      "Big tech"
+     ],
+     "source": "Dexerto, citing Bloomberg",
+     "url": "https://www.dexerto.com/gaming/ea-shuts-down-bioware-and-cancels-next-mass-effect-game-amid-400-layoffs-3420855/",
+     "date": "2026-10-21"
+    },
+    {
+     "title": "Qualcomm plans global performance-based job cuts as it pivots to AI",
+     "body": "Qualcomm will cut jobs worldwide after annual performance reviews, according to a memo from CEO Cristiano Amon reported by Reuters. The memo calls it a performance-focused reduction to build a stronger performance culture. It does not give a number, countries or teams. Affected employees will be told starting in November.",
+     "why": "Chipmakers move staff and money from handsets to AI data center and edge products.",
+     "topics": [
+      "Layoffs",
+      "Big tech",
+      "AI companies"
+     ],
+     "source": "Tom's Hardware, citing Reuters",
+     "url": "https://www.tomshardware.com/tech-industry/big-tech/qualcomm-to-cut-jobs-globally-in-performance-based-layoffs-ceo-says-move-will-build-stronger-performance-culture-as-company-pivots-to-ai-data-center-and-edge-products",
+     "date": "2026-10-20"
+    }
+   ]
+  }
+ }
+}
