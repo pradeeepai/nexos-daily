@@ -1,0 +1,455 @@
+{
+ "date": "2026-10-23",
+ "generated": "2026-10-23T02:41:56Z",
+ "sections": {
+  "tech-news": {
+   "routine": "tech-news",
+   "status": "done",
+   "headline": "Anthropic donates the Agent Skills standard to the Linux Foundation's Agentic AI Foundation, next to MCP.",
+   "filed": "2026-10-23T02:23:30Z",
+   "note": "Google AI blog showed no dated posts and the OpenAI-on-Google-Cloud post did not load; r/ClaudeAI and r/LocalLLaMA were read through Composio.",
+   "items": [
+    {
+     "title": "Anthropic donates Agent Skills to the Agentic AI Foundation",
+     "body": "Anthropic gave the Agent Skills standard, name, logo, GitHub organization and agentskills.io domain to the Agentic AI Foundation under the Linux Foundation, which already hosts MCP. Engineers from Anthropic, Google, OpenAI and other companies will maintain it. The roadmap includes versioned releases, a formal proposal process and security guidance for skill authors. More than 70 agent platforms support Agent Skills, and about 1 million skills are published.",
+     "why": "Skills that you write for Claude Code now follow a vendor-neutral standard, so the same skill can run on other agent platforms.",
+     "topics": [
+      "Skills",
+      "Claude",
+      "Agents"
+     ],
+     "source": "Anthropic News",
+     "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+     "date": "2026-10-22"
+    },
+    {
+     "title": "Claude Models launch on Google Cloud as an Anthropic-managed service",
+     "body": "Anthropic launched Claude Models on Google Cloud (Anthropic managed). Google Cloud IAM controls access and Google Cloud Marketplace handles billing. Fast mode for Claude Opus 5.5 is available on this platform.",
+     "why": "Teams on GCP can now use Claude with Google Cloud IAM and Marketplace billing, which gives a second managed-cloud option next to Bedrock.",
+     "topics": [
+      "Claude",
+      "DevOps"
+     ],
+     "source": "Claude Platform release notes",
+     "url": "https://platform.claude.com/docs/en/release-notes/overview",
+     "date": "2026-10-22"
+    },
+    {
+     "title": "Claude API version 2026-10-21 ships with new major SDKs",
+     "body": "Anthropic released API version 2026-10-21 with a migration guide. New SDKs send it by default: Python 2.0.0, TypeScript 1.0.0, Go 2.0.0, Java 3.0.0, C# 13.0.0, PHP 1.0.0, Ruby 2.0.0 and ant CLI 2.0.0. The SDKs change license from MIT to Apache 2.0. Claude Code v2.1.307 adds '/claude-api api-version' to move code to the new version.",
+     "why": "Agent code must migrate: the new SDK major versions send the new API version by default and include breaking changes.",
+     "topics": [
+      "Claude",
+      "Agents"
+     ],
+     "source": "Claude Platform release notes",
+     "url": "https://platform.claude.com/docs/en/release-notes/overview",
+     "date": "2026-10-21"
+    },
+    {
+     "title": "Claude Code 2.1.307 adds OpenTelemetry safety events, fixes MCP retries",
+     "body": "Claude Code v2.1.307 emits a claude_code.safety_event OpenTelemetry event for each tool call that was stopped, prompted or sent back. HTTP MCP tool calls are no longer sent twice when a connection closes mid-call; only read-only or idempotent tools are retried. Self-hosted runner checkout hooks now time out after 30 minutes by default. v2.1.308 followed on 22 October with bug fixes.",
+     "why": "You can now trace every tool call that a permission rule, hook or sandbox blocked, which helps audit agents in production.",
+     "topics": [
+      "Claude Code",
+      "MCP",
+      "DevOps"
+     ],
+     "source": "GitHub anthropics/claude-code releases",
+     "url": "https://github.com/anthropics/claude-code/releases",
+     "date": "2026-10-21"
+    },
+    {
+     "title": "OpenAI makes the Decisions API generally available",
+     "body": "The Decisions API answers bounded questions as a predicate probability, a choice or a rubric score, using GPT-6 Luna. Price is $0.10 per million input tokens, $0.01 per million cached input tokens, and no output-token charge. One request can hold up to 400 questions. It has US and EU regional processing and Zero Data Retention for eligible customers.",
+     "why": "Agents that route, classify or gate actions can get bounded answers at very low cost and latency.",
+     "topics": [
+      "OpenAI",
+      "Agents"
+     ],
+     "source": "OpenAI News",
+     "url": "https://openai.com/index/decisions-api/",
+     "date": "2026-10-22"
+    },
+    {
+     "title": "NVIDIA OpenShell: policy-enforced sandbox runtime for agent fleets",
+     "body": "OpenShell runs each agent in an isolated sandbox with kernel controls on files and system calls, and checks every network connection against policy. Agents never see real credentials; OpenShell adds them only to requests for approved endpoints. It supports Linux, macOS on Apple Silicon and Kubernetes through Helm, with SDKs for Python, TypeScript, Go and Rust. License is Apache 2.0.",
+     "why": "It gives kernel-level isolation and credential injection for autonomous agents, a pattern you can reuse for Claude agents on your own infrastructure.",
+     "topics": [
+      "Agents",
+      "Security",
+      "DevOps"
+     ],
+     "source": "Hacker News, 278 points; r/LocalLLaMA, 101 upvotes",
+     "url": "https://github.com/NVIDIA/OpenShell",
+     "date": "2026-10-22"
+    },
+    {
+     "title": "MiniMax publishes M3.1-Flash open weights with 1M context",
+     "body": "MiniMax put MiniMax-M3.1-Flash weights on Hugging Face under the minimax-community license. The model card lists about 23B active parameters per token and up to 1,000,000 tokens of context. Reported scores include 73.7% on DeepSWE v1.1 and 61.7 on OSWorld 2.0. Trackers list the API launch on 19 October; the model card gives no price.",
+     "why": "It is a new open-weight agentic model from a major lab that you can self-host for long-context coding and tool use.",
+     "topics": [
+      "Open models",
+      "New models"
+     ],
+     "source": "Hugging Face; r/LocalLLaMA",
+     "url": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash",
+     "date": "2026-10-22"
+    }
+   ]
+  },
+  "x-desk": {
+   "routine": "x-desk",
+   "status": "done",
+   "headline": "Anthropic opens a research preview of Claude Duet, a proactive agent app, and it leads X with 53K likes.",
+   "filed": "2026-10-23T02:20:30Z",
+   "note": "Read 32 posts (12 from search 1, 20 from search 2); 6 passed the value filter, all from search 1, because no search 2 post had 20 likes.",
+   "items": [
+    {
+     "title": "Anthropic opens a research preview of Claude Duet, a proactive agent app",
+     "body": "Claude announced a research preview of Claude Duet, a new app where Claude works as a proactive agent. It \"comes to you with what needs your attention\", completes tasks, \"keeps working when you step away\", and checks with you before it acts on your behalf.",
+     "why": "Duet shows how Anthropic designs long-running agents with human approval gates, a pattern agent builders can copy.",
+     "topics": [
+      "Claude",
+      "Agents"
+     ],
+     "source": "X · @claudeai · 53095 likes · 4064 reposts",
+     "url": "https://x.com/claudeai/status/2112984664256241837",
+     "date": "2026-10-21"
+    },
+    {
+     "title": "OpenAI models and Codex come to Google Cloud Model Garden",
+     "body": "OpenAI is bringing its frontier models and Codex agentic workflows to Google Cloud's Model Garden. The goal is that enterprises \"can use our technology where they already build.\"",
+     "why": "OpenAI models now run on GCP as well as Azure, which changes the multi-cloud model choice next to Bedrock.",
+     "topics": [
+      "OpenAI",
+      "Agents"
+     ],
+     "source": "X · @OpenAI · 4939 likes · 391 reposts",
+     "url": "https://x.com/OpenAI/status/2112988118471295323",
+     "date": "2026-10-21"
+    },
+    {
+     "title": "Gemini 4 Argon builds an interactive 3D human anatomy model from open datasets",
+     "body": "Google DeepMind shows Gemini 4 Argon combining three open-source datasets into an interactive 3D visualization of human anatomy. Users can toggle layers in motion, isolate muscles, or zoom inside a beating heart.",
+     "why": "The demo shows the current level of Gemini 4 Argon at multi-source data work and code generation, a benchmark to compare with Claude.",
+     "topics": [
+      "Gemini"
+     ],
+     "source": "X · @GoogleDeepMind · 2929 likes · 281 reposts",
+     "url": "https://x.com/GoogleDeepMind/status/2112974723659247896",
+     "date": "2026-10-21"
+    },
+    {
+     "title": "OpenAI let METR and Redwood Research evaluate its internal monitoring system",
+     "body": "OpenAI invited METR and Redwood Research this summer to pilot an embedded evaluation of its internal monitoring system, with deep access to its infrastructure for three weeks. OpenAI says the findings helped strengthen safeguards as it expanded the system.",
+     "why": "It is a reference model for monitoring and third-party audit of agent systems, which matters for agent guardrails.",
+     "topics": [
+      "OpenAI",
+      "AI research"
+     ],
+     "source": "X · @OpenAI · 2074 likes · 124 reposts",
+     "url": "https://x.com/OpenAI/status/2113298833392496746",
+     "date": "2026-10-22"
+    },
+    {
+     "title": "Anthropic donates Agent Skills to the Agentic AI Foundation, next to MCP",
+     "body": "Boris Cherny says Agent Skills \"started as an experiment in Claude Code\" and many across the industry adopted it. Anthropic now donates Agent Skills to the Agentic AI Foundation, where MCP already lives.",
+     "why": "Skills become a vendor-neutral standard, so skills written for Claude Code can work in other agent tools too.",
+     "topics": [
+      "Skills",
+      "Claude Code",
+      "MCP"
+     ],
+     "source": "X · @bcherny · 1487 likes · 47 reposts",
+     "url": "https://x.com/bcherny/status/2113333859907747871",
+     "date": "2026-10-22"
+    },
+    {
+     "title": "Google DeepMind releases ForTy, a 10m map of natural, planted and farmed forests",
+     "body": "Google DeepMind introduced Forest Typology (ForTy), a 10-metre resolution map that separates natural, planted, and farmed forests. The map helps identify deforestation and protect the forests that matter most.",
+     "why": "It is a real-world example of AI applied to large geospatial datasets, a workload type that runs on cloud infrastructure.",
+     "topics": [
+      "AI research"
+     ],
+     "source": "X · @GoogleDeepMind · 537 likes · 61 reposts",
+     "url": "https://x.com/GoogleDeepMind/status/2113278710795153785",
+     "date": "2026-10-22"
+    }
+   ]
+  },
+  "gadgets": {
+   "routine": "gadgets",
+   "status": "done",
+   "headline": "Apple's first foldable, the iPhone Duo, goes on sale today, from Rs 2,99,900 in India.",
+   "filed": "2026-10-23T02:24:25Z",
+   "note": "The Verge and Gadgets 360 blocked access, and the Apple Newsroom page showed no article list.",
+   "items": [
+    {
+     "title": "iPhone Duo, Apple's first foldable, goes on sale today",
+     "body": "Apple's iPhone Duo goes on retail sale on October 23, 2026, after pre-orders opened on October 16. It has a 5.4-inch outer OLED and a 7.6-inch inner foldable display, the A20 Pro chip, dual 48MP rear cameras, a titanium frame, IP68 and Touch ID. It starts at $1,999 in the US. India prices are Rs 2,99,900 (256GB), Rs 3,24,900 (512GB), Rs 3,74,900 (1TB) and Rs 4,49,900 (2TB).",
+     "why": "It is Apple's entry into foldables and sets a new top price for iPhone buyers.",
+     "topics": [
+      "Phones",
+      "Apple"
+     ],
+     "source": "Free Press Journal",
+     "url": "https://www.freepressjournal.in/tech/iphone-duo-pre-orders-open-in-india-today-price-starts-at-299900-offers-how-to-book",
+     "date": "2026-10-23"
+    },
+    {
+     "title": "Oppo Find X10 Pro Max launches with three 200MP cameras",
+     "body": "Oppo launched the Find X10 Pro Max in Europe, Asia and other markets, on sale from October 21. It has a 6.78-inch 144Hz display, three 200MP cameras, a 2nm MediaTek Dimensity 9600 Pro chip and a 7,150mAh battery with 80W wired and 50W wireless charging. It costs GBP 1,499 in the UK. Oppo has no plans to sell it in the US.",
+     "why": "It is a new camera-focused flagship that competes with Samsung and Apple outside the US.",
+     "topics": [
+      "Phones"
+     ],
+     "source": "Engadget",
+     "url": "https://www.engadget.com/2291445/oppo-find-x10-pro-max-hands-on/",
+     "date": "2026-10-21"
+    },
+    {
+     "title": "Sony PlayStation Pulse headset ships November 19 for $100",
+     "body": "Sony announced the PlayStation Pulse wireless headset for $100, which is $50 less than the Pulse Elite. It has larger planar magnetic drivers, Bluetooth and PlayStation Link for PS5, PlayStation Portal, Mac and PC, and an AI noise-rejecting mic. Pre-orders open October 29 and it ships November 19 in the US, UK, Japan and other countries.",
+     "why": "It brings planar drivers and PS Link to a lower price than the Pulse Elite.",
+     "topics": [
+      "Gaming",
+      "Audio"
+     ],
+     "source": "Engadget",
+     "url": "https://www.engadget.com/2293077/sonys-playstation-pulse-headset-arrives-on-november-19-for-dollar100/",
+     "date": "2026-10-21"
+    },
+    {
+     "title": "Roku Pro Series LX OLED TVs go on sale at Amazon",
+     "body": "Roku's Pro Series LX OLED TVs are now on sale, exclusively at Amazon. They come in 55-inch ($1,300) and 65-inch ($1,600) sizes with a 144Hz variable refresh rate. They support Dolby Vision, HDR10+ and Dolby Atmos, and include a rechargeable hands-free voice remote.",
+     "why": "Roku moves into premium OLED with 144Hz gaming support.",
+     "topics": [
+      "TVs"
+     ],
+     "source": "Engadget",
+     "url": "https://www.engadget.com/2293840/roku-pro-series-lx-oled-tvs-at-amazon/",
+     "date": "2026-10-22"
+    },
+    {
+     "title": "Wyze Bulb Cam Pan Color adds 360-degree tracking",
+     "body": "Wyze launched the Bulb Cam Pan Color for $99 at Wyze.com and Amazon. It has a 2.5K camera with color night vision, 360-degree pan and 180-degree tilt, and an RGB light up to 1,100 lumens. It screws into an E26 socket and supports microSD and Cam Plus cloud storage.",
+     "why": "It is a low-cost security camera that installs in a standard light socket.",
+     "topics": [
+      "Smart home"
+     ],
+     "source": "9to5Google",
+     "url": "https://9to5google.com/2026/10/22/wyze-bulb-cam-pan-color-upgrades/",
+     "date": "2026-10-22"
+    }
+   ]
+  },
+  "tech-pulse": {
+   "routine": "tech-pulse",
+   "status": "done",
+   "headline": "Anthropic launches Claude Duet, a proactive personal agent, while a poisoned LiteLLM release on PyPI steals cloud and LLM keys.",
+   "filed": "2026-10-23T02:22:25Z",
+   "note": "GitHub Trending returned no repo names and no AI items of value; r/devops and r/MachineLearning had low engagement.",
+   "items": [
+    {
+     "title": "Anthropic launches Claude Duet, a proactive personal agent",
+     "body": "Claude Duet is a personal agent that you message. It handles inbox, calendar and follow-ups, sends a morning brief, drafts replies for approval and builds decks or dashboards. It is a research preview on a waitlist for US Pro and Max users, on iOS, Android and the web, powered by Opus 5.5. Its work counts toward the plan's usage limits.",
+     "why": "Duet shows Claude moving from chat to always-on agents that act on mail, calendar and tasks, which sets the pattern for agent design.",
+     "topics": [
+      "Claude",
+      "Agents"
+     ],
+     "source": "Hacker News · 516 points · 477 comments",
+     "url": "https://claude.com/product/claude-duet",
+     "date": "2026-10-22"
+    },
+    {
+     "title": "Poisoned LiteLLM 1.107.0 on PyPI steals credentials and installs backdoor",
+     "body": "All seven LiteLLM 1.107.0 wheels on PyPI and the v1.107.0, latest, main-latest and main-stable Docker images carried malware on 21 October between about 11:39 and 14:20 UTC. A .pth stealer ran in every Python process and took SSH keys, cloud credentials, CI secrets and LLM keys; a sitecustomize.py backdoor fetched more code every hour. PyPI removed the release at 13:23 UTC. SafeDep advises pinning 1.106.2 and rotating all credentials on affected hosts.",
+     "why": "LiteLLM is a common LLM gateway, so any host or image that pulled 1.107.0 may have leaked AWS, CI/CD and model provider keys.",
+     "topics": [
+      "Security",
+      "AI tools",
+      "DevOps"
+     ],
+     "source": "Hacker News · 581 points · 188 comments",
+     "url": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/",
+     "date": "2026-10-22"
+    },
+    {
+     "title": "Railway breach exposes customer environment variables, deployments paused",
+     "body": "Railway detected unauthorized access to systems that store customer environment variables on 21 October. Some variables may have been decrypted. Railway links the attack to a series aimed at AI inference providers and asked upstream providers to revoke keys. It paused all deployments and tells users to rotate all env vars and registry credentials; follow-up posts cover checks for GCP and AWS access.",
+     "why": "Attackers now target PaaS secrets stores to steal AI inference keys, so teams must treat platform env vars as a breach surface.",
+     "topics": [
+      "Security",
+      "DevOps"
+     ],
+     "source": "Hacker News · 555 points · 322 comments",
+     "url": "https://blog.railway.com/p/security-disclosure-wednesday-october-21st",
+     "date": "2026-10-22"
+    },
+    {
+     "title": "NVIDIA open-sources OpenShell, a sandboxed runtime for agent fleets",
+     "body": "OpenShell runs each agent in an isolated sandbox with kernel-level limits on files, system calls and network access, enforced from a declared policy. Agents never see real credentials; OpenShell injects them only into requests to approved endpoints. Risky policy changes wait for human review. It installs locally or on Kubernetes via Helm, has Python, TypeScript, Go and Rust SDKs, uses Apache 2.0, and has about 10k GitHub stars.",
+     "why": "OpenShell gives a policy-based way to isolate agents and keep real credentials out of their reach on local hosts or Kubernetes.",
+     "topics": [
+      "Agents",
+      "Security",
+      "DevOps"
+     ],
+     "source": "Hacker News · 278 points · 144 comments; r/LocalLLaMA · 99 upvotes",
+     "url": "https://github.com/NVIDIA/OpenShell",
+     "date": "2026-10-22"
+    },
+    {
+     "title": "OpenAI releases official CLI for its REST API",
+     "body": "The openai CLI uses the syntax openai [resource] <command> and reads OPENAI_API_KEY, or OPENAI_ADMIN_KEY for admin endpoints. It outputs JSON, JSONL, YAML and more, filters with GJSON, accepts files with @file and supports mutual TLS in beta. It installs with Homebrew or go install and uses the Apache 2.0 license.",
+     "why": "An official CLI makes OpenAI API calls scriptable in shells and CI pipelines without custom SDK code.",
+     "topics": [
+      "OpenAI",
+      "AI tools"
+     ],
+     "source": "Hacker News · 229 points · 109 comments",
+     "url": "https://github.com/openai/openai-cli",
+     "date": "2026-10-22"
+    }
+   ]
+  },
+  "aws-news": {
+   "routine": "aws-news",
+   "status": "done",
+   "headline": "Bedrock AgentCore Gateway now supports the Bedrock InvokeModel APIs and automatic model fallback.",
+   "filed": "2026-10-23T02:24:25Z",
+   "note": "The AWS News Blog had no posts dated October 21 to 23.",
+   "items": [
+    {
+     "title": "AgentCore Gateway adds InvokeModel support and model fallback",
+     "body": "Amazon Bedrock AgentCore Gateway now supports the InvokeModel and InvokeModelWithResponseStream APIs on its inference endpoint. You define an ordered chain of fallback models or providers in a gateway rule, triggered by throttling, server errors or timeouts. A built-in circuit breaker skips failing destinations. It is available in all AgentCore Gateway Regions except China.",
+     "why": "Agent apps can survive model throttling and outages without custom retry code.",
+     "topics": [
+      "Bedrock",
+      "Agents"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/agentcore-gateway-invokemodel-fallback/",
+     "date": "2026-10-22"
+    },
+    {
+     "title": "AWS Continuum for code vulnerabilities is generally available",
+     "body": "AWS Continuum finds, validates, prioritizes and fixes code vulnerabilities. It builds a context graph of your AWS environment and tests findings in an isolated sandbox. It starts in Learn mode, where you approve fixes, and can move to Enforce mode. It works with Amazon GuardDuty and AWS Security Hub.",
+     "why": "It confirms exploitability in a sandbox and sends fixes as pull requests, which cuts triage work.",
+     "topics": [
+      "Security",
+      "DevOps"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-continuum-for-code-vulnerabilities-is-now-generally-available",
+     "date": "2026-10-22"
+    },
+    {
+     "title": "SageMaker AI adds training session APIs, including Mumbai Region",
+     "body": "Amazon SageMaker AI now has training session APIs for serverless model customization. You write your own training loops, loss functions and reward signals, and SageMaker AI handles compute, distributed execution, fault recovery and checkpoints. Billing is per token processed. It is available in US East (N. Virginia), US West (Oregon) and Asia Pacific (Mumbai).",
+     "why": "Teams can run custom fine-tuning and RL loops without managing GPUs, with India data residency.",
+     "topics": [
+      "Serverless",
+      "AI"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/training-session-apis-on-sagemaker-ai",
+     "date": "2026-10-22"
+    },
+    {
+     "title": "Network Firewall adds Route 53 resolved IP validation",
+     "body": "AWS Network Firewall can now check that a connection's destination IP was resolved through your VPC's Route 53 VPC Resolver. This lets you apply domain-based filtering to protocols beyond HTTP and HTTPS, such as SFTP and SSH. The feature has no additional charge. It is available in all commercial Regions that offer both Network Firewall and Route 53 Resolver DNS Firewall.",
+     "why": "Domain filtering now covers SSH and SFTP and blocks SNI spoofing, at no extra charge.",
+     "topics": [
+      "Security"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/network-firewall-route-53-ip-validation/",
+     "date": "2026-10-21"
+    },
+    {
+     "title": "Aurora and RDS get On-Demand Capacity Reservations",
+     "body": "Amazon Aurora and Amazon RDS now support On-Demand Capacity Reservations for DB instances in one or more Availability Zones. Reservations bill at On-Demand rates while active, and Reserved DB Instance and Database Savings Plans discounts apply automatically. Immediate-use reservations have no commitment; scheduled reservations can start 5 to 120 days ahead. It is available in all commercial Regions.",
+     "why": "Database create, restore and scale operations no longer fail from lack of capacity.",
+     "topics": [
+      "Cost"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-aurora-rds-on-demand-capacity-reservations/",
+     "date": "2026-10-21"
+    },
+    {
+     "title": "Direct Connect adds 100G connections in Bangalore",
+     "body": "AWS Direct Connect expanded 100 Gbps dedicated connections at the Netmagic DC2 data center near Bangalore, India. From this location, customers can reach all public AWS Regions except China, GovCloud and Local Zones.",
+     "why": "Indian enterprises get higher-bandwidth private links to AWS from a local site.",
+     "topics": [
+      "Networking"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-direct-connect-100g-bangalore/",
+     "date": "2026-10-22"
+    }
+   ]
+  },
+  "layoffs": {
+   "routine": "layoffs",
+   "status": "done",
+   "headline": "eBay cuts about 9% of its workforce, its second round of layoffs this year.",
+   "filed": "2026-10-23T02:22:25Z",
+   "note": "layoffs.fyi returned no table data and CNBC and Reuters pages did not load directly; no new India IT layoffs were found in the last 48 hours.",
+   "items": [
+    {
+     "title": "eBay cuts about 9% of staff in second 2026 round",
+     "body": "eBay will lay off about 9% of its workforce, roughly 1,000 to 1,100 jobs, per an internal memo from CEO Jamie Iannone reviewed by Reuters. The company says it wants to simplify the business and move resources to its fastest-growing areas. A spokesperson confirmed the cuts on 21 October; staff hear in the coming days. eBay cut about 800 jobs (6%) in February.",
+     "why": "A large e-commerce platform cuts engineering-heavy staff to fund growth areas, a common pattern for cloud and platform teams.",
+     "topics": [
+      "Layoffs",
+      "Big tech"
+     ],
+     "source": "Reuters (via Investing.com)",
+     "url": "https://www.investing.com/news/stock-market-news/exclusiveebay-to-lay-off-9-of-workforce-in-push-to-simplify-operations-internal-memo-shows-4962778",
+     "date": "2026-10-21"
+    },
+    {
+     "title": "EA cuts 400 jobs and shuts down BioWare",
+     "body": "Electronic Arts will cut about 400 jobs, roughly 3% of staff, per a 21 October letter from COO David Tinson and Chief Studios Officer Cam Weber reported by Bloomberg. BioWare closes, and the next Mass Effect game and a Sims project are cancelled; the skate team shrinks. EA says it took a hard look at its business after its buyout added about $18 billion in debt.",
+     "why": "Debt from a $55 billion buyout drives deep cuts, and studio tech and infrastructure teams are among those affected.",
+     "topics": [
+      "Layoffs",
+      "Big tech"
+     ],
+     "source": "Bloomberg",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-21/electronic-arts-to-cut-400-jobs-shut-down-bioware",
+     "date": "2026-10-21"
+    },
+    {
+     "title": "Qualcomm plans worldwide performance-based layoffs from November",
+     "body": "Qualcomm will cut jobs worldwide in a performance-focused reduction, per an internal memo from CEO Cristiano Amon reported by Reuters. The memo gives no number; Qualcomm had about 52,000 employees at the end of fiscal 2025. Notices start in November after annual reviews. The company cites weak phone demand, higher memory costs and its pivot to AI data center and edge products.",
+     "why": "Qualcomm shifts people and money from handsets to AI data center and edge chips, which signals where chip hiring goes next.",
+     "topics": [
+      "Layoffs",
+      "Big tech",
+      "AI companies"
+     ],
+     "source": "Reuters",
+     "url": "https://www.reuters.com/business/qualcomm-cut-jobs-worldwide-performance-focused-layoffs-internal-memo-shows-2026-10-20/",
+     "date": "2026-10-21"
+    },
+    {
+     "title": "Automattic starts staggered layoffs after board turmoil",
+     "body": "Automattic began layoffs in communications, social, WordPress.com marketing and product, and its VIP enterprise unit, TechCrunch reports. No total was given; the company lists about 1,397 staff. Insiders cite financial pressure and executive departures after a failed board move against the CEO. A spokesperson says the company is staggering changes to give more severance and time.",
+     "why": "The WordPress.com owner cuts product, marketing and enterprise staff, which can affect hosting and VIP platform support.",
+     "topics": [
+      "Layoffs",
+      "Startups"
+     ],
+     "source": "TechCrunch",
+     "url": "https://techcrunch.com/2026/10/21/automattic-begins-layoffs-following-board-upheaval-and-executive-departures/",
+     "date": "2026-10-21"
+    }
+   ]
+  }
+ }
+}
