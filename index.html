@@ -54,6 +54,12 @@ button{font:inherit;color:inherit}
 @media (max-width:560px){.band__meta span:nth-child(2){display:none}}
 
 /* Trending strip */
+.also{display:flex;flex-wrap:wrap;gap:6px 12px;margin:10px 0 0;font-size:14px;color:var(--ink-2)}
+.also b{color:var(--ink);font-weight:700}
+.also a{color:var(--purple-ink);text-decoration:none;font-weight:600}
+.also a:hover{text-decoration:underline}
+.listen{display:flex;align-items:center;gap:12px;padding-top:16px;font-size:14px;font-weight:600;color:var(--ink-2)}
+.listen .pill{margin-top:0}
 .trend{display:flex;align-items:center;gap:10px;padding-block:14px;border-bottom:1px solid var(--line);overflow-x:auto;scrollbar-width:none}
 .trend::-webkit-scrollbar{display:none}
 .trend__lbl{flex:none;font-family:var(--f-display);font-weight:900;font-stretch:70%;font-size:18px;text-transform:uppercase;color:var(--purple-ink)}
@@ -235,7 +241,21 @@ const topicsOf = it => { if (Array.isArray(it.topics) && it.topics.length) retur
   const t = `${it.title} ${it.body || ""} ${it.why || ""}`; const out = []; for (const [n, re] of RULES) { if (re.test(t)) out.push(n); if (out.length === 3) break; } return out; };
 const SERVER = "Claude Code Remote";
 
-const ST = { routines: [], digests: [], triggers: {}, ready: false, ctrl: "unknown", mcp: null, date: null, view: "read", tab: "all", topic: null, q: "", started: {} };
+const AUD = { on: false, days: [], el: null };
+function stopAudio() { AUD.on = false; try { speechSynthesis.cancel(); } catch (e) {} if (AUD.el) { AUD.el.pause(); AUD.el = null; } render(); }
+function playBrief(k) {
+  const text = ST.briefs[k]; if (!text) return;
+  AUD.on = true; render();
+  if (AUD.days.includes(k)) { AUD.el = new Audio(`audio/${k}.mp3`); AUD.el.onended = stopAudio; AUD.el.onerror = () => { AUD.el = null; speak(text); }; AUD.el.play().catch(() => { AUD.el = null; speak(text); }); }
+  else speak(text);
+}
+function speak(text) {
+  if (!("speechSynthesis" in window)) { AUD.on = false; render(); return toast("This browser cannot read aloud."); }
+  speechSynthesis.cancel();
+  const vs = speechSynthesis.getVoices(), v = vs.find(x => /en[-_](IN|GB|US)/i.test(x.lang) && /natural|neural|google|samantha|daniel/i.test(x.name)) || vs.find(x => /^en/i.test(x.lang));
+  text.split(/(?<=[.!?])\s+/).forEach((part, i, arr) => { const u = new SpeechSynthesisUtterance(part); if (v) u.voice = v; u.rate = 1; if (i === arr.length - 1) u.onend = () => { AUD.on = false; render(); }; speechSynthesis.speak(u); });
+}
+const ST = { briefs: {}, routines: [], digests: [], triggers: {}, ready: false, ctrl: "unknown", mcp: null, date: null, view: "read", tab: "all", topic: null, q: "", started: {} };
 const byStart = (a, b) => String(b.end || b.start || "").localeCompare(String(a.end || a.start || ""));
 const items = d => d && Array.isArray(d.items) ? d.items : [];
 const edKey = d => { const m = String(d.id || "").match(/-(\d{4})(\d{2})(\d{2})(?:-\d{4})?$/); if (m) return `${m[1]}-${m[2]}-${m[3]}`; const t = d.end || d.start; return t ? dayKey(new Date(t)) : null; };
@@ -248,12 +268,13 @@ const srcMeta = it => String(it.source || "").split("·").slice(1).map(x => x.tr
 /* ---------- Reader (magazine front) ---------- */
 const link = (st, cls) => { const u = safeUrl(st.url); return u ? `<a href="${esc(u)}" target="_blank" rel="noopener noreferrer"${cls ? ` class="${cls}"` : ""}>${esc(st.title)}</a>` : esc(st.title); };
 const kick = st => `<p class="kick"><span class="sec">${esc(st.sec.name)}</span><span class="src">${esc(srcName(st))}${srcMeta(st) ? " · " + esc(srcMeta(st)) : ""}</span></p>`;
+const alsoHtml = st => Array.isArray(st.also) && st.also.length ? `<p class="also"><b>Also in</b> ${st.also.map(a => { const u = safeUrl(a.url); const t = `${esc(a.section)} · ${esc(String(a.source || "").split("·").slice(0, 2).join("·").trim())}`; return u ? `<a href="${esc(u)}" target="_blank" rel="noopener noreferrer">${t} ↗</a>` : `<span>${t}</span>`; }).join("")}</p>` : "";
 function storyHtml(st) {
   const u = safeUrl(st.url);
   return `<article class="story">${kick(st)}<h3>${link(st)}</h3>
     ${st.body ? `<p class="txt">${esc(st.body)}</p>` : st.why ? `<p class="txt">${esc(st.why)}</p>` : ""}
     ${st.body && st.why ? `<p class="why"><b>Why it matters:</b> ${esc(st.why)}</p>` : ""}
-    <div class="foot">${u ? `<a href="${esc(u)}" target="_blank" rel="noopener noreferrer">Read at source ↗</a>` : ""}${st.date ? `<span>${esc(fmt(st.date, { day: "numeric", month: "short" }))}</span>` : ""}${st.topics.map(t => `<button type="button" class="tag" data-topic="${esc(t)}">#${esc(t)}</button>`).join("")}</div></article>`;
+    ${alsoHtml(st)}<div class="foot">${u ? `<a href="${esc(u)}" target="_blank" rel="noopener noreferrer">Read at source ↗</a>` : ""}${st.date ? `<span>${esc(fmt(st.date, { day: "numeric", month: "short" }))}</span>` : ""}${st.topics.map(t => `<button type="button" class="tag" data-topic="${esc(t)}">#${esc(t)}</button>`).join("")}</div></article>`;
 }
 function chrome(k, all) {
   const isToday = k === dayKey(new Date()), dates = editionDates(), no = dates.indexOf(k) + 1;
@@ -261,7 +282,7 @@ function chrome(k, all) {
   $("meta").innerHTML = `<span>${esc(fmt(k, { weekday: "long", day: "numeric", month: "long", year: "numeric" }))}</span><span>${isToday ? "Today's edition" : "Back issue"}${no ? " · No. " + no : ""}</span><span>${all.length} stories · ${mins} min</span>`;
   $("rail").innerHTML = `<button type="button" class="rt" role="tab" data-tab="all" aria-selected="${ST.view === "read" && ST.tab === "all"}">Front page</button>` +
     SECTIONS.filter(s => ST.tab === s.id || all.some(x => x.sec.id === s.id)).map(s => `<button type="button" class="rt" role="tab" data-tab="${s.id}" aria-selected="${ST.view === "read" && ST.tab === s.id}">${esc(s.name)}<small>${all.filter(x => x.sec.id === s.id).length}</small></button>`).join("") +
-    `<button type="button" class="rt" data-view="archive" aria-selected="${ST.view === "archive"}">Archive</button><a class="rt" href="trending.html" style="display:inline-flex;align-items:center;text-decoration:none">Trending repos</a>`;
+    `<button type="button" class="rt" data-view="archive" aria-selected="${ST.view === "archive"}">Archive</button><a class="rt" href="trending.html" style="display:inline-flex;align-items:center;text-decoration:none">Trending repos</a><a class="rt" href="tracker.html" style="display:inline-flex;align-items:center;text-decoration:none">Tracker</a><a class="rt" href="week.html" style="display:inline-flex;align-items:center;text-decoration:none">Week in review</a>`;
 }
 function readView(k) {
   const ed = editionFor(k), all = storiesOf(ed);
@@ -271,13 +292,15 @@ function readView(k) {
   const list = all.filter(s => (ST.tab === "all" || s.sec.id === ST.tab) && (!ST.topic || s.topics.includes(ST.topic)));
   if (!all.length) { const isToday = k === dayKey(new Date()), first = editionDates()[0];
     return `<div class="empty"><h2>${!ST.ready ? "Loading" : isToday ? "Not printed yet" : "No edition"}</h2><p>${!ST.ready ? "Fetching the paper." : isToday ? "The desks print at 7:49 am. Press ‹ to read the last edition." : first ? `The first edition is ${esc(fmt(first, { day: "numeric", month: "long" }))}.` : ""}</p></div>`; }
-  const strip = `<div class="trend" aria-label="Trending topics"><span class="trend__lbl">Trending</span>${topics.map(([t, n]) => `<button type="button" class="chip" data-topic="${esc(t)}" aria-pressed="${ST.topic === t}">#${esc(t)}<small>${n}</small></button>`).join("")}</div>`;
+  const brief = ST.briefs[k];
+  const listen = brief ? `<div class="listen"><button type="button" class="pill pill--purple" id="listenBtn" aria-pressed="${!!AUD.on}">${AUD.on ? "■ Stop" : "▶ Listen"}</button><span>${AUD.on ? "Playing the briefing" : `The briefing · about ${Math.max(1, Math.round(words(brief) / 150))} min`}</span></div>` : "";
+  const strip = listen + `<div class="trend" aria-label="Trending topics"><span class="trend__lbl">Trending</span>${topics.map(([t, n]) => `<button type="button" class="chip" data-topic="${esc(t)}" aria-pressed="${ST.topic === t}">#${esc(t)}<small>${n}</small></button>`).join("")}</div>`;
   if (!list.length) return strip + `<div class="empty"><h2>Nothing here</h2><p>${ST.tab !== "all" && ed[ST.tab] && ed[ST.tab].status === "failed" ? esc(ed[ST.tab].error || "This desk could not file.") : "No story matches this topic in this section."}</p>${ST.topic ? `<button type="button" class="pill pill--purple" data-topic="">Clear #${esc(ST.topic)}</button>` : ""}</div>`;
   const lead = list[0], tops = list.slice(1, 6), rest = list.slice(6);
   const hero = `<section class="hero" aria-label="Top stories">
     <article class="lead">${kick(lead)}<h1>${link(lead)}</h1>${lead.why ? `<p class="dek">${esc(lead.why)}</p>` : ""}
       <p class="meta">${safeUrl(lead.url) ? `<a href="${esc(safeUrl(lead.url))}" target="_blank" rel="noopener noreferrer">Read the story ↗</a> · ` : ""}Filed ${esc(whenFmt(new Date(lead.filed)))}</p></article>
-    <div class="tops"><h2>Top stories</h2><ol>${tops.map(st => `<li><h3>${link(st)}</h3><span class="src">${esc(st.sec.name)} · ${esc(srcName(st))}</span></li>`).join("")}</ol></div>
+    <div class="tops"><h2>Top stories</h2><ol>${tops.map(st => `<li><h3>${link(st)}</h3><span class="src">${esc(st.sec.name)} · ${esc(srcName(st))}${st.also && st.also.length ? ` · +${st.also.length} more source${st.also.length > 1 ? "s" : ""}` : ""}</span></li>`).join("")}</ol></div>
   </section>`;
   const streamList = [lead].concat(tops, rest);
   const label = ST.tab === "all" ? "The <span>stream</span>" : `${esc(secOf(ST.tab).name)} <span>stream</span>`;
@@ -349,6 +372,7 @@ document.addEventListener("click", e => {
   const v = e.target.closest("[data-view]"); if (v) return setView(v.dataset.view);
   const d = e.target.closest("[data-d]"); if (d) return setDate(d.dataset.d);
   if (e.target.closest("#readPrev")) return prev();
+  if (e.target.closest("#listenBtn")) return AUD.on ? stopAudio() : playBrief(ST.date);
   const a = e.target.closest("[data-act]"); if (a && !a.disabled) act(a.dataset.id, a.dataset.act);
 });
 $("view").addEventListener("input", e => { if (e.target.id === "q") { ST.q = e.target.value; render(); } });
@@ -397,6 +421,8 @@ $("menuBtn").addEventListener("click", openSheet); $("sheetClose").addEventListe
     const out = [];
     eds.filter(Boolean).forEach(ed => Object.values(ed.sections || {}).forEach(sec => out.push({ id: `${sec.routine}-${ed.date.replace(/-/g, "")}`, routine: sec.routine, status: sec.status, headline: sec.headline, note: sec.note, end: sec.filed, start: sec.filed, items: sec.items || [] })));
     ST.digests = out;
+    eds.filter(Boolean).forEach(ed => { if (ed.briefing) ST.briefs[ed.date] = ed.briefing; });
+    try { AUD.days = ((await (await fetch("audio/index.json", { cache: "no-cache" })).json()).days || []); } catch (e) { AUD.days = []; }
   } catch (e) { toast("The paper did not load. Refresh the page."); }
   ST.ready = true;
   const dates = editionDates(); if (!ST.picked && dates.length && !dates.includes(ST.date)) ST.date = dates[dates.length - 1];

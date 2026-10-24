@@ -61,6 +61,9 @@ ol.list{list-style:none;margin:8px 0 40px;padding:0;counter-reset:n}
 .gain{font-family:var(--f-display);font-weight:900;font-stretch:70%;font-size:24px;color:var(--up);font-variant-numeric:tabular-nums}
 .stars{font-size:13px;color:var(--ink-2);font-variant-numeric:tabular-nums}
 @media (max-width:560px){.repo{grid-template-columns:36px minmax(0,1fr)}.repo::before{font-size:32px}.nums{grid-column:2;text-align:left;display:flex;gap:10px;align-items:baseline}}
+.spark{display:block;margin:6px 0 2px auto;color:var(--purple-ink)}
+@media (max-width:560px){.spark{margin:0}}
+.links{display:flex;gap:8px}
 .empty{padding:56px 0;text-align:center;color:var(--ink-2)}
 .empty h2{margin:0 0 6px;font-family:var(--f-display);font-weight:900;font-stretch:70%;font-size:36px;text-transform:uppercase;color:var(--ink)}
 footer{background:var(--band);color:rgba(255,255,255,.72);font-size:13px}
@@ -71,7 +74,7 @@ footer .wrap{padding-block:22px calc(22px + env(safe-area-inset-bottom,0px))}
 <header class="band">
   <div class="wrap top">
     <a class="word" href="./"><b>Nexos</b><i>Trending</i></a>
-    <a class="back" href="./">← Back to the paper</a>
+    <span class="links"><a class="back" href="tracker.html">Tracker</a><a class="back" href="./">← The paper</a></span>
   </div>
   <div class="wrap meta"><span id="when">Loading</span><label>Snapshot <select id="pick" aria-label="Snapshot date"></select></label></div>
 </header>
@@ -88,7 +91,12 @@ const esc = s => String(s == null ? "" : s).replace(/[&<>"]/g, c => ({ "&": "&am
 const safeUrl = u => /^https:\/\/(github\.com|[a-z0-9.-]+)\//i.test(String(u || "")) ? String(u) : "";
 const num = n => typeof n === "number" ? n.toLocaleString("en-IN") : "–";
 const LABEL = { daily: "today", weekly: "this week", monthly: "this month" };
-const S = { dates: [], date: null, data: null, period: "daily", kind: null };
+const S = { dates: [], date: null, data: null, period: "daily", kind: null, hist: {} };
+const series = repo => { const h = S.hist[repo]; return h && h.s ? Object.entries(h.s).sort((a, b) => a[0].localeCompare(b[0])) : []; };
+function growth(repo, days) { const s = series(repo); if (s.length < 2) return null; const last = s[s.length - 1]; const cut = new Date(new Date(last[0] + "T00:00:00Z") - days * 864e5).toISOString().slice(0, 10); const base = s.filter(x => x[0] <= cut).pop() || (s[0][0] <= cut ? s[0] : null); return base ? last[1] - base[1] : null; }
+function spark(repo) { const s = series(repo).slice(-30); if (s.length < 2) return ""; const v = s.map(x => x[1]), lo = Math.min(...v), hi = Math.max(...v), w = 96, h = 28;
+  const pts = v.map((y, i) => `${(i / (v.length - 1) * w).toFixed(1)},${(h - 2 - (hi === lo ? 0.5 : (y - lo) / (hi - lo)) * (h - 4)).toFixed(1)}`).join(" ");
+  return `<svg class="spark" viewBox="0 0 ${w} ${h}" width="${w}" height="${h}" role="img" aria-label="Stars over the last ${s.length} days"><polyline points="${pts}" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/></svg>`; }
 function fmt(k) { return new Date(k + "T12:00:00+05:30").toLocaleDateString("en-IN", { weekday: "long", day: "numeric", month: "long", year: "numeric", timeZone: "Asia/Kolkata" }); }
 function render() {
   document.querySelectorAll(".tab").forEach(b => b.setAttribute("aria-selected", b.dataset.p === S.period));
@@ -105,7 +113,7 @@ function render() {
     ${list.length ? `<ol class="list">${list.map(r => { const u = safeUrl(r.url) || ("https://github.com/" + String(r.repo || "").replace(/[^\w.\-\/]/g, ""));
       return `<li class="repo"><div><h2><a href="${esc(u)}" target="_blank" rel="noopener noreferrer">${esc(r.repo)}</a></h2>${r.description ? `<p>${esc(r.description)}</p>` : ""}
         <div class="tags">${r.kind ? `<span class="tag kind">${esc(r.kind)}</span>` : ""}${r.language ? `<span class="tag">${esc(r.language)}</span>` : ""}${r.source ? `<span>${esc(r.source)}</span>` : ""}</div></div>
-        <div class="nums">${typeof r.gained === "number" ? `<div class="gain">+${num(r.gained)}</div>` : ""}<div class="stars">★ ${num(r.stars)}</div></div></li>`; }).join("")}</ol>`
+        <div class="nums">${typeof r.gained === "number" ? `<div class="gain">+${num(r.gained)}</div>` : ""}<div class="stars">★ ${num(r.stars)}</div>${spark(r.repo)}${(() => { const g7 = growth(r.repo, 7), g30 = growth(r.repo, 30); return g7 != null || g30 != null ? `<div class="stars">${g7 != null ? `+${num(g7)} in 7 days` : ""}${g7 != null && g30 != null ? " · " : ""}${g30 != null ? `+${num(g30)} in 30 days` : ""}</div>` : ""; })()}</div></li>`; }).join("")}</ol>`
       : `<div class="empty"><h2>Nothing here</h2><p>No repo for this period in this snapshot.</p></div>`}`;
 }
 async function load(date) {
@@ -120,6 +128,7 @@ document.addEventListener("click", e => {
 $("pick").addEventListener("change", e => load(e.target.value));
 (async function boot() {
   const h = (location.hash || "").slice(1); if (LABEL[h]) S.period = h;
+  try { S.hist = ((await (await fetch("stars/history.json", { cache: "no-cache" })).json()).repos || {}); } catch (e) { S.hist = {}; }
   try { S.dates = ((await (await fetch("trending/index.json", { cache: "no-cache" })).json()).dates || []).slice().sort().reverse(); } catch (e) { S.dates = []; }
   $("pick").innerHTML = S.dates.map(d => `<option value="${esc(d)}">${esc(new Date(d + "T12:00:00+05:30").toLocaleDateString("en-IN", { day: "numeric", month: "short" }))}</option>`).join("");
   if (S.dates.length) load(S.dates[0]); else { $("when").textContent = "No snapshot yet"; render(); }

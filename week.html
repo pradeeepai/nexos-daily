@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Week in Review · The Nexos Daily</title>
+<meta name="description" content="The top stories, model launches and fastest-growing Claude skills of the week.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,700..900&family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#ffffff;--bg-2:#f3f2f7;--ink:#0e0d12;--ink-2:#55535e;--line:#e3e1ea;--band:#0e0d12;--on-band:#ffffff;
+  --purple:#5b2ef0;--purple-ink:#4a1fd6;--purple-soft:#ece6ff;--on-purple:#ffffff;--up:#0a7a3d;
+  --f-display:"Archivo",Impact,"Arial Narrow",sans-serif;
+  --f-text:"Instrument Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0e0d12;--bg-2:#18171f;--ink:#f1f0f5;--ink-2:#a9a6b5;--line:#2a2833;--band:#000000;--purple:#6d44ff;--purple-ink:#b9a4ff;--purple-soft:#211a3d;--up:#4ad08a;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0e0d12;--bg-2:#18171f;--ink:#f1f0f5;--ink-2:#a9a6b5;--line:#2a2833;--band:#000000;--purple:#6d44ff;--purple-ink:#b9a4ff;--purple-soft:#211a3d;--up:#4ad08a;color-scheme:dark}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--f-text);font-size:17px;line-height:1.55;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+button,select{font:inherit;color:inherit}
+:focus-visible{outline:3px solid var(--purple);outline-offset:2px}
+.wrap{max-width:1100px;margin:0 auto;padding-inline:clamp(16px,3vw,32px)}
+.band{background:var(--band);color:var(--on-band)}
+.top{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;padding-block:calc(14px + env(safe-area-inset-top,0px)) 12px}
+.word{display:flex;align-items:baseline;gap:10px;text-decoration:none;color:var(--on-band)}
+.word b{font-family:var(--f-display);font-weight:900;font-stretch:62%;font-size:clamp(40px,8vw,80px);line-height:.85;text-transform:uppercase}
+.word i{font-style:normal;font-family:var(--f-display);font-weight:800;font-stretch:75%;font-size:clamp(15px,2.2vw,22px);text-transform:uppercase;color:#b9a4ff;letter-spacing:.04em}
+.back{color:rgba(255,255,255,.85);font-size:14px;font-weight:600;text-decoration:none;border:1px solid rgba(255,255,255,.3);border-radius:999px;padding:7px 14px}
+.back:hover{background:#fff;color:#0e0d12}
+.meta{display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px 16px;padding-bottom:12px;font-size:13px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:rgba(255,255,255,.72)}
+.meta select{background:transparent;border:1px solid rgba(255,255,255,.3);border-radius:999px;color:#fff;padding:3px 10px;font-size:13px;font-weight:600}
+.meta select option{color:#0e0d12}
+.rail{position:sticky;top:0;z-index:5;background:var(--purple)}
+.rail .wrap{display:flex;gap:4px;overflow-x:auto;scrollbar-width:none}
+.tab{flex:none;height:48px;padding:0 16px;border:0;background:none;cursor:pointer;color:var(--on-purple);font-family:var(--f-display);font-weight:800;font-stretch:80%;font-size:17px;letter-spacing:.04em;text-transform:uppercase;border-bottom:4px solid transparent}
+.tab[aria-selected="true"]{border-bottom-color:#fff}
+.tab:hover{border-bottom-color:rgba(255,255,255,.5)}
+h1{margin:26px 0 4px;font-family:var(--f-display);font-weight:900;font-stretch:66%;font-size:clamp(38px,6vw,60px);line-height:.95;text-transform:uppercase}
+h1 span{color:var(--purple-ink)}
+.lede{margin:0 0 16px;color:var(--ink-2);max-width:60ch}
+.topics{display:flex;flex-wrap:wrap;align-items:center;gap:8px;padding:14px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.topics .lbl{font-family:var(--f-display);font-weight:900;font-stretch:70%;font-size:18px;text-transform:uppercase;color:var(--purple-ink);margin-right:4px}
+.chip{display:inline-flex;align-items:center;height:30px;padding:0 12px;border:1.5px solid var(--ink);border-radius:999px;background:transparent;cursor:pointer;font-size:14px;font-weight:600;white-space:nowrap}
+.chip[aria-pressed="true"]{background:var(--purple);border-color:var(--purple);color:var(--on-purple)}
+.kinds{display:flex;flex-wrap:wrap;gap:8px;padding:14px 0 4px}
+ol.list{list-style:none;margin:8px 0 40px;padding:0;counter-reset:n}
+.repo{display:grid;grid-template-columns:52px minmax(0,1fr) auto;gap:4px 14px;align-items:start;padding:18px 0;border-bottom:1px solid var(--line);counter-increment:n}
+.repo::before{content:counter(n);font-family:var(--f-display);font-weight:900;font-stretch:62%;font-size:42px;line-height:.9;color:var(--purple-ink)}
+.repo h2{margin:0;font-family:var(--f-display);font-weight:800;font-stretch:85%;font-size:22px;line-height:1.15;word-break:break-word}
+.repo h2 a{text-decoration:none}
+.repo h2 a:hover{color:var(--purple-ink);text-decoration:underline}
+.repo p{margin:6px 0 0;max-width:68ch}
+.tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px;font-size:13px;color:var(--ink-2)}
+.tag{background:var(--bg-2);border-radius:999px;padding:2px 10px;font-weight:600}
+.tag.kind{background:var(--purple-soft);color:var(--purple-ink)}
+.nums{text-align:right;white-space:nowrap}
+.gain{font-family:var(--f-display);font-weight:900;font-stretch:70%;font-size:24px;color:var(--up);font-variant-numeric:tabular-nums}
+.stars{font-size:13px;color:var(--ink-2);font-variant-numeric:tabular-nums}
+@media (max-width:560px){.repo{grid-template-columns:36px minmax(0,1fr)}.repo::before{font-size:32px}.nums{grid-column:2;text-align:left;display:flex;gap:10px;align-items:baseline}}
+.spark{display:block;margin:6px 0 2px auto;color:var(--purple-ink)}
+@media (max-width:560px){.spark{margin:0}}
+.links{display:flex;gap:8px}
+.empty{padding:56px 0;text-align:center;color:var(--ink-2)}
+.empty h2{margin:0 0 6px;font-family:var(--f-display);font-weight:900;font-stretch:70%;font-size:36px;text-transform:uppercase;color:var(--ink)}
+footer{background:var(--band);color:rgba(255,255,255,.72);font-size:13px}
+footer .wrap{padding-block:22px calc(22px + env(safe-area-inset-bottom,0px))}
+
+h3.sh{margin:34px 0 6px;font-family:var(--f-display);font-weight:900;font-stretch:70%;font-size:28px;text-transform:uppercase;border-bottom:4px solid var(--purple);display:inline-block;padding-bottom:4px}
+.intro{font-size:1.08em;max-width:62ch;margin:6px 0 0}
+.story{display:grid;grid-template-columns:48px minmax(0,1fr);gap:4px 12px;padding:16px 0;border-bottom:1px solid var(--line);counter-increment:n}
+.story::before{content:counter(n);font-family:var(--f-display);font-weight:900;font-stretch:62%;font-size:40px;line-height:.9;color:var(--purple-ink)}
+.story h4,.card h4{margin:0;font-family:var(--f-display);font-weight:800;font-stretch:85%;font-size:21px;line-height:1.15}
+.story h4 a,.card h4 a{text-decoration:none}.story h4 a:hover,.card h4 a:hover{color:var(--purple-ink);text-decoration:underline}
+.story p,.card p{margin:6px 0 0;max-width:68ch}
+.kick{font-size:12px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:var(--purple-ink)}
+ol.plain{list-style:none;margin:0;padding:0;counter-reset:n}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px;margin-top:10px}
+.card{border:1.5px solid var(--line);border-radius:14px;padding:14px 16px}
+.sotw{background:var(--purple);color:var(--on-purple);border-radius:18px;padding:clamp(20px,3vw,32px);margin-top:12px}
+.sotw h4{margin:4px 0 0;font-family:var(--f-display);font-weight:900;font-stretch:68%;font-size:clamp(30px,4.6vw,48px);line-height:.95}
+.sotw a{color:#fff}
+.sotw p{margin:10px 0 0;max-width:64ch;color:#f2edff}
+.sotw code{display:inline-block;margin-top:12px;background:rgba(0,0,0,.25);border-radius:8px;padding:8px 12px;font-size:14px;color:#fff;word-break:break-all}
+.verdict{display:inline-block;margin-top:14px;background:#fff;color:#0e0d12;border-radius:999px;padding:4px 14px;font-weight:700;font-size:14px}
+.weeks{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0 0}
+</style>
+</head>
+<body>
+<header class="band">
+  <div class="wrap top">
+    <a class="word" href="./"><b>Nexos</b><i>Weekly</i></a>
+    <span class="links"><a class="back" href="tracker.html">Tracker</a><a class="back" href="./">← The paper</a></span>
+  </div>
+  <div class="wrap meta"><span id="when">Loading</span><label>Week <select id="pick" aria-label="Week"></select></label></div>
+</header>
+<main class="wrap" id="main"><div class="empty"><h2>Loading</h2></div></main>
+<footer><div class="wrap">Printed every Sunday morning from the week's editions. AI desks pick and summarise each story, so check the source before you act on it.</div></footer>
+<script>
+const $ = id => document.getElementById(id);
+const esc = s => String(s == null ? "" : s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const safeUrl = u => /^https?:\/\//i.test(String(u || "")) ? String(u) : "";
+const num = n => typeof n === "number" ? n.toLocaleString("en-IN") : "–";
+const day = k => new Date(k + "T12:00:00+05:30").toLocaleDateString("en-IN", { day: "numeric", month: "short", timeZone: "Asia/Kolkata" });
+const a = (url, text) => { const u = safeUrl(url); return u ? `<a href="${esc(u)}" target="_blank" rel="noopener noreferrer">${esc(text)}</a>` : esc(text); };
+function render(w) {
+  if (!w) { $("main").innerHTML = `<div class="empty"><h2>No review yet</h2><p>The first Week in review prints on Sunday.</p></div>`; return; }
+  $("when").textContent = `${day(w.week_start)} – ${day(w.week_end)}`;
+  const top = w.top || [], models = w.models || [], skills = w.skills || [], chips = w.chips || [], s = w.skill_of_week;
+  $("main").innerHTML = `<h1>The week in <span>review</span></h1>${w.intro ? `<p class="intro">${esc(w.intro)}</p>` : ""}
+    ${s ? `<h3 class="sh">Skill of the week</h3><div class="sotw"><span class="kick" style="color:#e3d9ff">${esc(s.kind || "Skill")}${typeof s.stars === "number" ? ` · ★ ${num(s.stars)}` : ""}</span><h4>${a(s.url, s.name)}</h4><p>${esc(s.what)}</p>${s.install ? `<code>${esc(s.install)}</code>` : ""}${s.verdict ? `<div><span class="verdict">${esc(s.verdict)}</span></div>` : ""}${s.note ? `<p>${esc(s.note)}</p>` : ""}</div>` : ""}
+    ${top.length ? `<h3 class="sh">Top ${top.length} stories</h3><ol class="plain">${top.map(t => `<li class="story"><div><span class="kick">${esc(t.section || "")}${t.date ? " · " + esc(day(t.date)) : ""}</span><h4>${a(t.url, t.title)}</h4>${t.body ? `<p>${esc(t.body)}</p>` : ""}</div></li>`).join("")}</ol>` : ""}
+    ${models.length ? `<h3 class="sh">Model launches</h3><div class="cards">${models.map(m => `<div class="card"><span class="kick">${esc(m.lab || "")}${m.date ? " · " + esc(day(m.date)) : ""}</span><h4>${a(m.url, m.name)}</h4>${m.what ? `<p>${esc(m.what)}</p>` : ""}</div>`).join("")}</div>` : ""}
+    ${skills.length ? `<h3 class="sh">Fastest-growing skills and plugins</h3><ol class="list">${skills.map(r => `<li class="repo"><div><h2>${a(r.url, r.repo)}</h2>${r.description ? `<p>${esc(r.description)}</p>` : ""}<div class="tags">${r.kind ? `<span class="tag kind">${esc(r.kind)}</span>` : ""}</div></div><div class="nums">${typeof r.gained === "number" ? `<div class="gain">+${num(r.gained)}</div><div class="stars">this week</div>` : ""}<div class="stars">★ ${num(r.stars)}</div></div></li>`).join("")}</ol>` : ""}
+    ${chips.length ? `<h3 class="sh">Chips and research</h3><div class="cards">${chips.map(c => `<div class="card"><span class="kick">${c.date ? esc(day(c.date)) : ""}</span><h4>${a(c.url, c.title)}</h4>${c.body ? `<p>${esc(c.body)}</p>` : ""}</div>`).join("")}</div>` : ""}
+    <p style="margin:32px 0 40px"><a class="chip" href="./" style="text-decoration:none">Read the daily paper</a></p>`;
+}
+async function load(k) { let w = null; try { w = await (await fetch(`weekly/${k}.json`, { cache: "no-cache" })).json(); } catch (e) {} render(w); }
+$("pick").addEventListener("change", e => load(e.target.value));
+(async function boot() {
+  let weeks = [];
+  try { weeks = ((await (await fetch("weekly/index.json", { cache: "no-cache" })).json()).weeks || []).slice().sort().reverse(); } catch (e) {}
+  $("pick").innerHTML = weeks.map(k => `<option value="${esc(k)}">${esc(day(k))}</option>`).join("");
+  if (weeks.length) load(weeks[0]); else { $("when").textContent = "No review yet"; render(null); }
+})();
+</script>
+</body>
+</html>

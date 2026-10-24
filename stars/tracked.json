@@ -1,0 +1,392 @@
+{
+ "repos": {
+  "appariciojunior/video-editor-skills": {
+   "first_seen": "2026-10-25",
+   "kind": "Skill",
+   "description": "Claude Code skills that make a first-pass DaVinci Resolve edit with transcript cuts, B-roll and captions.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-25",
+   "reported": {
+    "2026-10-25": 233
+   }
+  },
+  "Charonyuu/whatsmyagentdoing": {
+   "first_seen": "2026-10-25",
+   "kind": "Dev tool",
+   "description": "Live dashboard that shows what local Claude Code and Codex agents are doing.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-25",
+   "reported": {
+    "2026-10-25": 150
+   }
+  },
+  "jouaaaaaa/mcd-self-butler": {
+   "first_seen": "2026-10-25",
+   "kind": "Other",
+   "description": "Ordering assistant built on the McDonald's MCP with meal advice and cost comparison.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-25",
+   "reported": {
+    "2026-10-25": 123
+   }
+  },
+  "morganlinton/BeautifulRust": {
+   "first_seen": "2026-10-25",
+   "kind": "Plugin",
+   "description": "Claude Code plugin that teaches Claude to write idiomatic, robust Rust.",
+   "seen_in": [
+    "Trending",
+    "Claude Ecosystem"
+   ],
+   "last_seen": "2026-10-25",
+   "reported": {
+    "2026-10-25": 97
+   }
+  },
+  "lillyguisnet/sam3-segmentation": {
+   "first_seen": "2026-10-25",
+   "kind": "Skill",
+   "description": "Agent skill that masks and counts objects in photos with Meta SAM 3 on a local GPU.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-25",
+   "reported": {
+    "2026-10-25": 57
+   }
+  },
+  "Shaitrish/37studio": {
+   "first_seen": "2026-10-25",
+   "kind": "Other",
+   "description": "Self-hosted tool where Claude Code makes videos and posts them to nine platforms.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-25",
+   "reported": {
+    "2026-10-25": 50
+   }
+  },
+  "t3dotgg/tstack": {
+   "first_seen": "2026-10-25",
+   "kind": "Skill",
+   "description": "Daily-use agent skills for Claude Code and Codex.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-25",
+   "reported": {
+    "2026-10-25": 29
+   }
+  },
+  "edigeh/broll-mcp": {
+   "first_seen": "2026-10-25",
+   "kind": "MCP server",
+   "description": "MCP server that finds and cuts public-domain B-roll from the Internet Archive.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-25",
+   "reported": {
+    "2026-10-25": 24
+   }
+  },
+  "thomasunise/argus": {
+   "first_seen": "2026-10-25",
+   "kind": "Agent framework",
+   "description": "Open-source agentic security operations platform with an approval-gated action broker.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-25",
+   "reported": {
+    "2026-10-25": 23
+   }
+  },
+  "trailofbits/brotli-checker": {
+   "first_seen": "2026-10-25",
+   "kind": "Skill",
+   "description": "Claude Code and Codex skill that finds vulnerable Brotli copies and guides updates.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-25",
+   "reported": {
+    "2026-10-25": 22
+   }
+  },
+  "Gathin23/tv-vibehack": {
+   "first_seen": "2026-10-25",
+   "kind": "Other",
+   "description": "Debloats Android TV over ADB and adds a tvOS-style launcher.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-25",
+   "reported": {
+    "2026-10-25": 2253
+   }
+  },
+  "aicodeking/leanrea": {
+   "first_seen": "2026-10-25",
+   "kind": "Skill",
+   "description": "Small skill that replaces REA with plain CLI tools and no MCP.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-25",
+   "reported": {
+    "2026-10-25": 2028
+   }
+  },
+  "Ansub/tv-detox": {
+   "first_seen": "2026-10-25",
+   "kind": "Other",
+   "description": "Guide and minimal home screen to speed up old Android TVs with a coding agent.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-25",
+   "reported": {
+    "2026-10-25": 1465
+   }
+  },
+  "alchaincyf/huashu-motion": {
+   "first_seen": "2026-10-25",
+   "kind": "Skill",
+   "description": "Lets a coding agent make launch videos and revise frames by pointing at them.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-25",
+   "reported": {
+    "2026-10-25": 458
+   }
+  },
+  "Leonxlnx/athenaion": {
+   "first_seen": "2026-10-25",
+   "kind": "Other",
+   "description": "Ancient Greek world built in three.js with no external assets.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-25",
+   "reported": {
+    "2026-10-25": 136
+   }
+  },
+  "Agent2API/agent2api": {
+   "first_seen": "2026-10-25",
+   "kind": "AI infra",
+   "description": "Local gateway that exposes logged-in AI client sessions as OpenAI-compatible APIs.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-25",
+   "reported": {
+    "2026-10-25": 129
+   }
+  },
+  "kanaworksai-hue/audio-studio-mcp": {
+   "first_seen": "2026-10-25",
+   "kind": "MCP server",
+   "description": "MCP server for local AI music and sound-effect generation.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-25",
+   "reported": {
+    "2026-10-25": 109
+   }
+  },
+  "finereli/whatsapp-mcp": {
+   "first_seen": "2026-10-25",
+   "kind": "MCP server",
+   "description": "Read-only MCP server to search your own WhatsApp messages, on Cloudflare Workers.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-25",
+   "reported": {
+    "2026-10-25": 84
+   }
+  },
+  "Aoisop/mawoagent": {
+   "first_seen": "2026-10-25",
+   "kind": "Agent framework",
+   "description": "Auditable local agent runtime that turns feedback into skills only after tests pass.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-25",
+   "reported": {
+    "2026-10-25": 56
+   }
+  },
+  "olivieropinotti/orchestrator-skill": {
+   "first_seen": "2026-10-25",
+   "kind": "Skill",
+   "description": "Claude Code skill that keeps the main session dispatching work to others.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-25",
+   "reported": {
+    "2026-10-25": 50
+   }
+  },
+  "wheresryan22/anatomy": {
+   "first_seen": "2026-10-25",
+   "kind": "Skill",
+   "description": "Agent skill for interactive isometric SVG illustrations of machines and systems.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-25",
+   "reported": {
+    "2026-10-25": 20084
+   }
+  },
+  "yihui-dev/awesome-opus5-5-videos": {
+   "first_seen": "2026-10-25",
+   "kind": "Other",
+   "description": "Curated Claude Opus 5.5 videos with their prompts.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-25",
+   "reported": {
+    "2026-10-25": 10407
+   }
+  },
+  "tangency-labs/solidcraft": {
+   "first_seen": "2026-10-25",
+   "kind": "Dev tool",
+   "description": "Open-source parametric 3D CAD app in Rust with MCP automation.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-25",
+   "reported": {
+    "2026-10-25": 10007
+   }
+  },
+  "rehan-remade/universal-modder": {
+   "first_seen": "2026-10-25",
+   "kind": "Skill",
+   "description": "Claude Code skills and tools for modding PC games.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-25",
+   "reported": {
+    "2026-10-25": 8870
+   }
+  },
+  "KKKKhazix/AIHOT": {
+   "first_seen": "2026-10-25",
+   "kind": "Other",
+   "description": "Self-hosted framework for a daily industry news site with your own sources.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-25",
+   "reported": {
+    "2026-10-25": 8548
+   }
+  },
+  "lemomo-ai/lemo-opuscar": {
+   "first_seen": "2026-10-25",
+   "kind": "Other",
+   "description": "Toolbox of 59 code-made film styles, each with a demo by Claude Opus 5.5.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-25",
+   "reported": {
+    "2026-10-25": 6569
+   }
+  },
+  "Louis-CFM/coucou": {
+   "first_seen": "2026-10-25",
+   "kind": "Dev tool",
+   "description": "macOS notch and iPhone app that monitors coding agents and handles approvals.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-25",
+   "reported": {
+    "2026-10-25": 6357
+   }
+  },
+  "shader-effects-inc/shaders": {
+   "first_seen": "2026-10-25",
+   "kind": "Dev tool",
+   "description": "WebGPU shader components for React, Vue, Svelte, Solid and vanilla JS.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-25",
+   "reported": {
+    "2026-10-25": 5404
+   }
+  },
+  "Jakeschincariol/replica-skill": {
+   "first_seen": "2026-10-25",
+   "kind": "Skill",
+   "description": "Eleven Claude skills to reverse-engineer, rebuild and test apps.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-25",
+   "reported": {
+    "2026-10-25": 5215
+   }
+  },
+  "kaankiziltug/logo-design-skill": {
+   "first_seen": "2026-10-25",
+   "kind": "Skill",
+   "description": "Logo design skill for AI agents with SVG guidance and a reference library.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-25",
+   "reported": {
+    "2026-10-25": 4434
+   }
+  },
+  "anthropics/claude-code": {
+   "first_seen": "2026-10-25",
+   "kind": "Other",
+   "description": "Claude Code v2.1.310 brings Monitor tool to Bedrock and Vertex",
+   "seen_in": [
+    "AI"
+   ],
+   "last_seen": "2026-10-25"
+  },
+  "anthropics/single-agent-loop-kit": {
+   "first_seen": "2026-10-25",
+   "kind": "Subagent",
+   "description": "single-agent-loop-kit helps fold subagents into skills",
+   "seen_in": [
+    "Claude Ecosystem"
+   ],
+   "last_seen": "2026-10-25"
+  },
+  "EpicGames/unreal-engine-skills-for-claude-code-plugin": {
+   "first_seen": "2026-10-25",
+   "kind": "Plugin",
+   "description": "Epic's Unreal Engine plugin joins the official Claude marketplace",
+   "seen_in": [
+    "Claude Ecosystem"
+   ],
+   "last_seen": "2026-10-25"
+  }
+ }
+}

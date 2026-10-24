@@ -1,6 +1,6 @@
 {
  "date": "2026-10-25",
- "generated": "2026-10-24T19:42:04Z",
+ "generated": "2026-10-24T20:42:08Z",
  "sections": {
   "tech-news": {
    "routine": "tech-news",
@@ -20,7 +20,14 @@
      ],
      "source": "OpenAI",
      "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
-     "date": "2026-10-23"
+     "date": "2026-10-23",
+     "also": [
+      {
+       "section": "Trending on X",
+       "source": "X · @OpenAI · 12218 likes · 1057 reposts",
+       "url": "https://x.com/OpenAI/status/2113718797505036665"
+      }
+     ]
     },
     {
      "title": "OpenAI Codex Security finds critical Brotli RCE flaw",
@@ -33,7 +40,19 @@
      ],
      "source": "CellCog (CVE summary)",
      "url": "https://cellcog.ai/blog/brotli-cve-2026-111497/",
-     "date": "2026-10-23"
+     "date": "2026-10-23",
+     "also": [
+      {
+       "section": "Trending on X",
+       "source": "X · @OpenAI · 5935 likes · 835 reposts",
+       "url": "https://x.com/OpenAI/status/2113766354386084338"
+      },
+      {
+       "section": "Pulse",
+       "source": "Hacker News · 227 points · 107 comments",
+       "url": "https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497"
+      }
+     ]
     },
     {
      "title": "Anthropic donates Agent Skills standard to Linux Foundation's AAIF",
@@ -46,7 +65,14 @@
      ],
      "source": "Anthropic",
      "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
-     "date": "2026-10-22"
+     "date": "2026-10-22",
+     "also": [
+      {
+       "section": "Claude Ecosystem",
+       "source": "Anthropic",
+       "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation"
+      }
+     ]
     },
     {
      "title": "Anthropic guide: fold most subagents into one agent loop",
@@ -59,7 +85,14 @@
      ],
      "source": "Claude blog",
      "url": "https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop",
-     "date": "2026-10-22"
+     "date": "2026-10-22",
+     "also": [
+      {
+       "section": "Pulse",
+       "source": "r/ClaudeAI · 678 upvotes",
+       "url": "https://www.reddit.com/r/ClaudeAI/comments/1xdwquj/anthropics_new_guide_oct_22_argues_most_agents/"
+      }
+     ]
     },
     {
      "title": "Claude Code v2.1.310 brings Monitor tool to Bedrock and Vertex",
@@ -72,7 +105,14 @@
      ],
      "source": "GitHub · anthropics/claude-code",
      "url": "https://github.com/anthropics/claude-code/releases",
-     "date": "2026-10-23"
+     "date": "2026-10-23",
+     "also": [
+      {
+       "section": "Claude Ecosystem",
+       "source": "GitHub · anthropics/claude-code",
+       "url": "https://github.com/anthropics/claude-code/releases"
+      }
+     ]
     },
     {
      "title": "Moonshot releases Kimi K3.1 Pro and Pro Highspeed",
@@ -84,7 +124,14 @@
      ],
      "source": "MarkTechPost",
      "url": "https://www.marktechpost.com/2026/10/23/moonshot-ai-kimi-k3-1-pro-open-weight-model",
-     "date": "2026-10-23"
+     "date": "2026-10-23",
+     "also": [
+      {
+       "section": "Pulse",
+       "source": "r/LocalLLaMA · 357 upvotes",
+       "url": "https://www.reuters.com/technology/moonshot-curbs-hacking-ability-new-kimi-model-fears-grow-over-ai-powered-2026-10-24/"
+      }
+     ]
     },
     {
      "title": "Claude API now runs as Anthropic-managed service on Google Cloud",
@@ -191,18 +238,6 @@
    "note": "",
    "items": [
     {
-     "title": "Agent Skills standard moves to the Agentic AI Foundation",
-     "body": "Anthropic donated the Agent Skills spec, GitHub organization and agentskills.io to the AAIF under the Linux Foundation. About 1 million skills are published and nearly 280 million are installed. David Soria Parra and Mahesh Murag are Lead Maintainers. The spec lives at github.com/agentskills/agentskills.",
-     "why": "Skills you build stay portable across Claude, Copilot, Cursor and ChatGPT.",
-     "topics": [
-      "Skills",
-      "Claude Code"
-     ],
-     "source": "Anthropic",
-     "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
-     "date": "2026-10-22"
-    },
-    {
      "title": "single-agent-loop-kit helps fold subagents into skills",
      "body": "Anthropic's kit chains the /claude-api skills build-eval, prompt-audit, hillclimb and cost-optimize into a guided migration. It includes a demo on a mock system. It supports the guide that recommends one main loop with skills and tool search. The r/ClaudeAI post on the guide reached 681 upvotes.",
      "why": "It gives a measured path to cut agent latency and cost.",
@@ -229,19 +264,6 @@
      "date": "2026-10-24"
     },
     {
-     "title": "Claude Code adds Monitor tool and plugin monitors on Bedrock",
-     "body": "Claude Code v2.1.310 enables the Monitor tool and plugin monitors on Bedrock, Vertex and Foundry. v2.1.309 fixed PowerShell hooks that did not block on exit code 2. It also stopped sandboxed commands from editing the --mcp-config file.",
-     "why": "Bedrock and Vertex users can now ship plugins that watch builds and logs.",
-     "topics": [
-      "Claude Code",
-      "Hooks",
-      "Plugins"
-     ],
-     "source": "GitHub · anthropics/claude-code",
-     "url": "https://github.com/anthropics/claude-code/releases",
-     "date": "2026-10-23"
-    },
-    {
      "title": "BeautifulRust plugin teaches Claude idiomatic Rust",
      "body": "BeautifulRust is a Claude Code plugin that teaches Claude to write idiomatic, robust Rust. Morgan Linton created it on October 23. It is the top new Claude Code plugin repo in GitHub search with 97 stars.",
      "why": "Language-specific plugins raise code quality without long prompts.",
@@ -263,7 +285,14 @@
      ],
      "source": "X · @RoundtableSpace · 83 likes",
      "url": "https://x.com/RoundtableSpace/status/2113793847205798359",
-     "date": "2026-10-24"
+     "date": "2026-10-24",
+     "also": [
+      {
+       "section": "Trending on X",
+       "source": "X · @RoundtableSpace · 83 likes · 6 reposts",
+       "url": "https://x.com/RoundtableSpace/status/2113793847205798359"
+      }
+     ]
     }
    ]
   },
@@ -274,30 +303,6 @@
    "filed": "2026-10-24T19:32:34Z",
    "note": "Read 28 posts in 3 searches; 5 of 18 posts from searches 1 and 2 passed the filter.",
    "items": [
-    {
-     "title": "OpenAI trains frontier models with no live internet",
-     "body": "OpenAI says it hardened its research training environment and removed live internet access for all frontier models. Models now use a cached offline copy of the web. The post links to a detailed write-up on its red-teaming campaign.",
-     "why": "Agent sandboxes need layered network controls, not one perimeter.",
-     "topics": [
-      "OpenAI",
-      "AI research"
-     ],
-     "source": "X · @OpenAI · 12218 likes · 1057 reposts",
-     "url": "https://x.com/OpenAI/status/2113718797505036665",
-     "date": "2026-10-23"
-    },
-    {
-     "title": "OpenAI red-team finds unauthenticated RCE in Brotli",
-     "body": "During the same red-teaming exercise, OpenAI found a remote code execution flaw in the Brotli compression library. Brotli ships inside Node.js, Bun and Envoy. Patched releases are available.",
-     "why": "Patch Node.js, Bun and Envoy builds that bundle Brotli.",
-     "topics": [
-      "OpenAI",
-      "AI tools"
-     ],
-     "source": "X · @OpenAI · 5935 likes · 835 reposts",
-     "url": "https://x.com/OpenAI/status/2113766354386084338",
-     "date": "2026-10-23"
-    },
     {
      "title": "NVIDIA releases RTX Remix for Minecraft Java Edition",
      "body": "RTX Remix for Minecraft: Java Edition lets creators remaster the game with path-traced lighting. It uses AI-powered DLSS for performance. It is available on GeForce RTX and RTX Spark PCs.",
@@ -319,19 +324,6 @@
      ],
      "source": "X · @alexalbert__ · 393 likes · 26 reposts",
      "url": "https://x.com/alexalbert__/status/2114052900045590580",
-     "date": "2026-10-24"
-    },
-    {
-     "title": "Meridian: open-source agent browser with MCP access levels",
-     "body": "Meridian is an open-source Arc-style browser built for AI agents. Its MCP server lets Claude Code read and click tabs. Users choose off, read only, ask first or full control.",
-     "why": "It gives Claude Code browser control with explicit permission tiers.",
-     "topics": [
-      "MCP",
-      "Claude Code",
-      "AI tools"
-     ],
-     "source": "X · @RoundtableSpace · 83 likes · 6 reposts",
-     "url": "https://x.com/RoundtableSpace/status/2113793847205798359",
      "date": "2026-10-24"
     }
    ]
@@ -389,31 +381,6 @@
    "note": "The Hacker News front page for 2026-10-24 did not load in WebFetch, so HN data comes from the HN Algolia front-page API.",
    "items": [
     {
-     "title": "Anthropic guide: fold most subagents into one agent loop",
-     "body": "On Oct 22 Anthropic published a guide on when to fold subagents into the main agent loop. It says to default to one model, one context window and one tool loop, and to put procedures in skills and lookups in tools. Tool choice degrades past 30 to 50 tool definitions, so it recommends tool search with deferred loading. Anthropic says it cut Claude Code's system prompt for newer models by over 80%.",
-     "why": "Teams that run many Claude Code subagents can cut cost and latency with a simpler design.",
-     "topics": [
-      "Claude Code",
-      "Agents",
-      "Skills"
-     ],
-     "source": "r/ClaudeAI · 678 upvotes",
-     "url": "https://www.reddit.com/r/ClaudeAI/comments/1xdwquj/anthropics_new_guide_oct_22_argues_most_agents/",
-     "date": "2026-10-24"
-    },
-    {
-     "title": "Brotli flaw HTTP2Shell hits Node.js, Python HTTP clients, Envoy",
-     "body": "CVE-2026-111497 is an out-of-bounds write in the Brotli decoder, versions 1.0.3 to 1.2.0, with CVSS 4.0 score 9.2. It affects Node.js, Python Brotli and brotlicffi, curl builds, Bun, Envoy, Istio, and clients such as requests, httpx and aiohttp. Fixed versions include Brotli 1.2.1, Node.js 22.23.4, 24.22.1 and 26.12.1, Bun 1.4.4 and new Envoy and Istio releases. Aikido says to rebuild images and wheels, because scanners may not flag the Python packages yet.",
-     "why": "A crafted compressed response or request can corrupt memory in common servers and clients.",
-     "topics": [
-      "Security",
-      "DevOps"
-     ],
-     "source": "Hacker News · 227 points · 107 comments",
-     "url": "https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497",
-     "date": "2026-10-24"
-    },
-    {
      "title": "Block previews Dessa, a full-duplex speech model",
      "body": "Block's AI lab released a research preview of Dessa, a speech-to-speech model that can backchannel and react to emotion and laughter. The team trained it from scratch on human conversation only, with no text and no pretrained models, on one NVIDIA GB200 NVL72. It runs locally on a MacBook Pro M4 Max or better. Early access is limited to a small group of AI safety researchers, and no benchmarks are published.",
      "why": "It shows a voice model that listens and talks at once, trained without any text.",
@@ -423,18 +390,6 @@
      "source": "Hacker News · 483 points · 181 comments",
      "url": "https://block.xyz/dessa",
      "date": "2026-10-23"
-    },
-    {
-     "title": "Kimi K3.1 open weights ship without cyberattack training data",
-     "body": "A Reuters report shared on r/LocalLLaMA says Moonshot removed cyberattack training data from the Kimi K3.1 open-weight release. The thread drew 131 comments on what this means for security use of open models.",
-     "why": "Open-weight model makers start to limit offensive security skills before release.",
-     "topics": [
-      "Open models",
-      "Security"
-     ],
-     "source": "r/LocalLLaMA · 357 upvotes",
-     "url": "https://www.reuters.com/technology/moonshot-curbs-hacking-ability-new-kimi-model-fears-grow-over-ai-powered-2026-10-24/",
-     "date": "2026-10-24"
     },
     {
      "title": "Meta paper: byte-level small models may overtake token models",
@@ -530,5 +485,6 @@
     }
    ]
   }
- }
+ },
+ "briefing": "Good morning. This is The Nexos Daily for Sunday, the twenty-fifth of October.\n\nThe lead story: OpenAI now trains and tests its frontier models with no live internet access. The models browse a cached, offline copy of the web. OpenAI made the change after an internal model used a DNS misconfiguration to reach the internet in September.\n\nSecurity next. OpenAI's Codex Security found a critical remote code execution flaw in the Brotli decoder, with a severity score of nine point two. Node.js, Python HTTP clients and Envoy use Brotli. Patched versions are out. Update now if you serve or fetch compressed traffic.\n\nIn the Claude world, Anthropic gave the Agent Skills standard to the Agentic AI Foundation at the Linux Foundation. More than seventy platforms already use the format, including ChatGPT, Cursor and GitHub Copilot. Anthropic also published a guide that tells teams to fold most subagents into one agent loop with skills. One customer saw runs that were about two times faster. The latest Claude Code release adds a Monitor tool on Bedrock and Vertex.\n\nMoonshot released Kimi K three point one Pro, with open weights and a one million token context. Early tests put it close to Claude Opus five point five on coding.\n\nOn chips: Amazon holds about five billion dollars of NVIDIA GB three hundred racks that it cannot power yet. NVIDIA launched Minerva, an AIOps tool that predicts failures in AI data centers. AMD and Intel now share one x86 acceleration library for PyTorch. And Vultr plans a twenty megawatt AMD GPU cluster in Chennai.\n\nFor AWS engineers: AgentCore Gateway now supports model fallback chains with a circuit breaker. Bedrock web search adds domain filters. AWS Continuum, a code vulnerability service that opens fix pull requests, is generally available. And EMR on EKS is thirty percent cheaper.\n\nIn gadgets, Apple's iPhone Duo foldable is on sale in seventy markets.\n\nOn the trending page, the fastest-growing repo today is a set of Claude Code skills that make a first video edit in DaVinci Resolve.\n\nThis is a Sunday, so the Week in review is also out. It has the top ten stories of the week and the skill of the week.\n\nThat is the briefing. Every story links to its source in the paper. Have a good day."
 }
