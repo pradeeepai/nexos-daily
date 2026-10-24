@@ -221,11 +221,13 @@ function toast(msg) { const t = $("toast"); t.textContent = msg; t.hidden = fals
 /* AI first, AWS last */
 const SECTIONS = [
   { id: "tech-news", name: "AI", desk: "AI desk" },
-  { id: "x-desk", name: "Trending on X", desk: "X desk" },
-  { id: "gadgets", name: "Gadgets", desk: "Cloud desk" },
-  { id: "tech-pulse", name: "Pulse", desk: "Pulse desk" },
-  { id: "aws-news", name: "Cloud", desk: "Cloud desk" },
-  { id: "layoffs", name: "Layoffs", desk: "Pulse desk" }
+  { id: "chips", name: "Chips & Research", desk: "AI desk" },
+  { id: "ecosystem", name: "Claude Ecosystem", desk: "AI desk" },
+  { id: "x-desk", name: "Trending on X", desk: "AI desk" },
+  { id: "gadgets", name: "Gadgets", desk: "Tech desk" },
+  { id: "tech-pulse", name: "Pulse", desk: "Tech desk" },
+  { id: "aws-news", name: "Cloud", desk: "Tech desk" },
+  { id: "layoffs", name: "Layoffs", desk: "Tech desk" }
 ];
 const secOf = id => SECTIONS.find(s => s.id === id) || { id, name: id, desk: id };
 const RULES = [["Claude Code", /claude code/i], ["Claude", /\bclaude\b|anthropic|\bopus\b|\bsonnet\b|\bhaiku\b/i], ["MCP", /\bmcp\b|model context protocol/i], ["Agents", /\bagents?\b|agentic/i], ["Skills", /\bskills?\b|plugins?|hooks?\b/i], ["OpenAI", /openai|chatgpt|\bgpt-?\d/i], ["Gemini", /gemini|deepmind/i], ["Open models", /qwen|llama|mistral|deepseek|open[- ]weight|\bglm\b|local model/i], ["AI policy", /police|regulat|hearing|lawsuit|copyright|safety/i], ["Bedrock", /bedrock|agentcore/i], ["Kubernetes", /\beks\b|kubernetes/i], ["Containers", /\becs\b|fargate|docker/i], ["Security", /security|pen(etration)? test|\biam\b|vulnerab|guardduty/i], ["DevOps", /devops|ci\/cd|pipeline|terraform/i], ["GitHub", /github/i]];
@@ -258,8 +260,8 @@ function chrome(k, all) {
   const mins = Math.max(1, Math.round(all.reduce((t, s) => t + words(s.title) + words(s.body || s.why), 0) / 230));
   $("meta").innerHTML = `<span>${esc(fmt(k, { weekday: "long", day: "numeric", month: "long", year: "numeric" }))}</span><span>${isToday ? "Today's edition" : "Back issue"}${no ? " · No. " + no : ""}</span><span>${all.length} stories · ${mins} min</span>`;
   $("rail").innerHTML = `<button type="button" class="rt" role="tab" data-tab="all" aria-selected="${ST.view === "read" && ST.tab === "all"}">Front page</button>` +
-    SECTIONS.map(s => `<button type="button" class="rt" role="tab" data-tab="${s.id}" aria-selected="${ST.view === "read" && ST.tab === s.id}">${esc(s.name)}<small>${all.filter(x => x.sec.id === s.id).length}</small></button>`).join("") +
-    `<button type="button" class="rt" data-view="archive" aria-selected="${ST.view === "archive"}">Archive</button>`;
+    SECTIONS.filter(s => ST.tab === s.id || all.some(x => x.sec.id === s.id)).map(s => `<button type="button" class="rt" role="tab" data-tab="${s.id}" aria-selected="${ST.view === "read" && ST.tab === s.id}">${esc(s.name)}<small>${all.filter(x => x.sec.id === s.id).length}</small></button>`).join("") +
+    `<button type="button" class="rt" data-view="archive" aria-selected="${ST.view === "archive"}">Archive</button><a class="rt" href="trending.html" style="display:inline-flex;align-items:center;text-decoration:none">Trending repos</a>`;
 }
 function readView(k) {
   const ed = editionFor(k), all = storiesOf(ed);
