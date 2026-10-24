@@ -7,7 +7,8 @@
 <link rel="alternate" type="application/json" title="Editions" href="editions/index.json">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,700..900&family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,700..900&family=Instrument+Sans:wght@400;500;600;700&family=Geist:wght@300..700&display=swap" rel="stylesheet">
+<script>try{var s=localStorage.getItem("nx-style");document.documentElement.dataset.style=(s==="magazine")?"magazine":"minimal"}catch(e){document.documentElement.dataset.style="minimal"}</script>
 <style>
 /* Layout: a loud tech-magazine front. Black masthead band with a huge condensed wordmark; a purple section rail; a trending-topics strip; a hero row (purple lead block + ranked top stories); then the story stream: one readable column with a purple timeline spine, and a slim side rail on wide screens. Footer band in black. */
 :root{
@@ -58,6 +59,89 @@ button{font:inherit;color:inherit}
 .also b{color:var(--ink);font-weight:700}
 .also a{color:var(--purple-ink);text-decoration:none;font-weight:600}
 .also a:hover{text-decoration:underline}
+/* ===== Minimal design ===== */
+:root[data-style="minimal"]{--bg:#F7F8FA;--bg-2:#EEF0F3;--ink:#16181D;--ink-2:#5E6470;--line:#E3E6EB;--band:#F7F8FA;--on-band:#16181D;--purple:#5141D9;--purple-ink:#4535C9;--purple-soft:#ECEAFB;--on-purple:#fff;--f-text:"Geist",system-ui,-apple-system,"Segoe UI",sans-serif;--f-display:"Geist",system-ui,sans-serif;--fs:17px}
+@media (prefers-color-scheme:dark){:root[data-style="minimal"]:not([data-theme="light"]){--bg:#0F1115;--bg-2:#171A20;--ink:#E7E9ED;--ink-2:#9AA1AD;--line:#262A31;--band:#0F1115;--on-band:#E7E9ED;--purple:#A99DFF;--purple-ink:#B9AFFF;--purple-soft:#1D1B33;--on-purple:#0F1115}}
+:root[data-style="minimal"][data-theme="dark"]{--bg:#0F1115;--bg-2:#171A20;--ink:#E7E9ED;--ink-2:#9AA1AD;--line:#262A31;--band:#0F1115;--on-band:#E7E9ED;--purple:#A99DFF;--purple-ink:#B9AFFF;--purple-soft:#1D1B33;--on-purple:#0F1115}
+:root[data-style="minimal"] body{letter-spacing:-.005em;line-height:1.6}
+:root[data-style="minimal"] .wrap{max-width:1080px}
+:root[data-style="minimal"] .band{border-bottom:1px solid var(--line)}
+:root[data-style="minimal"] .band__top{padding-block:14px}
+:root[data-style="minimal"] .word b{font-size:20px;font-weight:650;font-stretch:100%;letter-spacing:-.02em;text-transform:none;line-height:1}
+:root[data-style="minimal"] .word i{font-size:20px;font-weight:400;font-stretch:100%;letter-spacing:-.02em;text-transform:none;color:var(--ink-2)}
+:root[data-style="minimal"] .band__meta{display:none}
+:root[data-style="minimal"] .tb{border-color:var(--line);color:var(--ink);font-weight:500}
+:root[data-style="minimal"] .tb:hover:not(:disabled){background:var(--ink);color:var(--bg)}
+:root[data-style="minimal"] footer.band{border-top:1px solid var(--line);border-bottom:0}
+:root[data-style="minimal"] .foot-in{color:var(--ink-2)}
+:root[data-style="minimal"] .foot-in b{font-size:15px;font-weight:650;font-stretch:100%;text-transform:none;color:var(--ink)}
+:root[data-style="minimal"] .rail{background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+:root[data-style="minimal"] .rt{height:46px;padding:0 12px;color:var(--ink-2);font-family:var(--f-text);font-weight:500;font-stretch:100%;font-size:15px;letter-spacing:0;text-transform:none;border-bottom:2px solid transparent}
+:root[data-style="minimal"] .rt small{opacity:.7}
+:root[data-style="minimal"] .rt:hover{color:var(--ink);border-bottom-color:var(--line)}
+:root[data-style="minimal"] .rt[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--purple)}
+:root[data-style="minimal"] .sheet{border-left:1px solid var(--line)}
+:root[data-style="minimal"] .sheet__h h2,:root[data-style="minimal"] .links button{font-family:var(--f-text);font-stretch:100%;text-transform:none;font-weight:600;letter-spacing:-.01em}
+:root[data-style="minimal"] .sheet__h h2{font-size:22px}
+:root[data-style="minimal"] .links button{font-size:17px}
+:root[data-style="minimal"] .opt p{text-transform:none;letter-spacing:0;font-size:13px}
+:root[data-style="minimal"] .seg,:root[data-style="minimal"] .x{border-color:var(--line)}
+:root[data-style="minimal"] .panel h2,:root[data-style="minimal"] .empty h2{font-family:var(--f-text);font-stretch:100%;text-transform:none;font-weight:600;letter-spacing:-.025em}
+:root[data-style="minimal"] .player{background:var(--bg);color:var(--ink);border-top:1px solid var(--line);box-shadow:0 -8px 24px rgba(20,22,30,.06)}
+:root[data-style="minimal"] .pl-title b{font-family:var(--f-text);font-stretch:100%;text-transform:none;font-size:15px;font-weight:600}
+:root[data-style="minimal"] .pl-title span,:root[data-style="minimal"] .pl-seek{color:var(--ink-2)}
+:root[data-style="minimal"] .pl-btn,:root[data-style="minimal"] .pl-rate{border-color:var(--line);color:var(--ink)}
+:root[data-style="minimal"] .pl-btn:hover{background:var(--ink);color:var(--bg)}
+:root[data-style="minimal"] .pl-main{background:var(--ink);border-color:var(--ink);color:var(--bg)}
+:root[data-style="minimal"] .pl-rate button{color:var(--ink-2)}
+:root[data-style="minimal"] .pl-rate button[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
+:root[data-style="minimal"] .pl-seek input{accent-color:var(--purple)}
+.m-date{padding:56px 0 8px;max-width:680px}
+.m-date h1{margin:0;font-weight:300;font-size:clamp(44px,8vw,84px);line-height:.98;letter-spacing:-.045em;color:var(--ink)}
+.m-date h1 span{display:block;color:var(--ink-2)}
+.m-date p{margin:18px 0 0;color:var(--ink-2);font-size:15px}
+.m-listen{display:flex;align-items:center;gap:14px;margin:28px 0 8px;padding:12px 18px 12px 12px;border:1px solid var(--line);border-radius:999px;max-width:520px;background:var(--bg)}
+.m-listen b{display:block;font-weight:600;font-size:15px}
+.m-listen span{font-size:13px;color:var(--ink-2)}
+.m-play{flex:none;width:44px;height:44px;border-radius:50%;border:0;background:var(--ink);color:var(--bg);cursor:pointer;font-size:15px}
+.m-play:hover{background:var(--purple);color:var(--on-purple)}
+.m-grid{display:grid;grid-template-columns:minmax(0,680px) 260px;justify-content:space-between;gap:64px;padding:16px 0 72px}
+.m-main{min-width:0}
+.m-story{padding:26px 0;border-bottom:1px solid var(--line)}
+.m-story h3{margin:0;font-size:21px;font-weight:600;line-height:1.3;letter-spacing:-.018em;text-wrap:pretty}
+.m-story h2{margin:6px 0 0;font-size:clamp(30px,4.4vw,42px);font-weight:600;line-height:1.08;letter-spacing:-.035em;text-wrap:balance}
+.m-story h2 a,.m-story h3 a{text-decoration:none}
+.m-story h2 a:hover,.m-story h3 a:hover{color:var(--purple-ink)}
+.m-lead{padding-top:28px}
+.m-lead .m-body{display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
+.m-sec{margin:0;font-size:14px;font-weight:500;color:var(--purple-ink)}
+.m-body{margin:10px 0 0;color:var(--ink);max-width:64ch}
+.m-lead .m-body{font-size:1.1em;color:var(--ink-2)}
+.m-why{margin:12px 0 0;font-size:15px;color:var(--ink-2);max-width:64ch}
+.m-why span{color:var(--ink);font-weight:600;margin-right:4px}
+.m-meta{display:flex;flex-wrap:wrap;gap:4px 16px;margin:14px 0 0;font-size:13.5px;color:var(--ink-2);font-variant-numeric:tabular-nums}
+.m-meta a{color:var(--purple-ink);font-weight:500;text-decoration:none}
+.m-meta a:hover{text-decoration:underline}
+.m-also{margin:6px 0 0;font-size:13.5px;color:var(--ink-2)}
+.m-also a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--line);text-underline-offset:3px}
+.m-group{margin-top:44px}
+.m-group h2{display:flex;align-items:baseline;gap:10px;margin:0;padding-bottom:10px;border-bottom:1px solid var(--ink);font-size:22px;font-weight:600;letter-spacing:-.02em}
+.m-group h2 span{font-size:14px;font-weight:400;color:var(--ink-2)}
+.m-side{position:sticky;top:64px;align-self:start;display:grid;gap:36px;padding-top:28px}
+.m-side h4{margin:0 0 12px;font-size:14px;font-weight:600}
+.m-chips{display:flex;flex-wrap:wrap;gap:6px}
+.m-chip{border:1px solid var(--line);background:var(--bg);color:var(--ink);border-radius:999px;padding:5px 12px;font:500 13.5px var(--f-text);cursor:pointer}
+.m-chip small{color:var(--ink-2);font-weight:400}
+.m-chip:hover{border-color:var(--ink-2)}
+.m-chip[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:var(--bg)}
+.m-chip[aria-pressed="true"] small{color:var(--bg);opacity:.7}
+.m-days{display:grid;gap:2px}
+.m-days button{text-align:left;border:0;background:none;padding:6px 0;font:400 14.5px var(--f-text);color:var(--ink-2);cursor:pointer}
+.m-days button:hover{color:var(--ink)}
+.m-days button[aria-current="true"]{color:var(--ink);font-weight:600}
+.m-empty{padding:48px 0;color:var(--ink-2)}
+@media (max-width:980px){.m-grid{grid-template-columns:minmax(0,1fr);gap:8px}.m-side{position:static;order:-1;padding-top:4px}.m-side h4,.m-side>div:last-child{display:none}.m-chips{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;margin-inline:calc(-1 * clamp(16px,3vw,32px));padding-inline:clamp(16px,3vw,32px)}.m-chips::-webkit-scrollbar{display:none}.m-chip{flex:none}}
+@media (max-width:560px){.m-date{padding-top:32px}.m-story{padding:22px 0}}
 .player{position:fixed;left:0;right:0;bottom:0;z-index:30;background:var(--band);color:#fff;border-top:4px solid var(--purple);padding-bottom:env(safe-area-inset-bottom,0px)}
 .pl-in{display:flex;align-items:center;gap:10px 16px;flex-wrap:wrap;padding-block:10px}
 .pl-title{display:flex;flex-direction:column;line-height:1.2;min-width:84px}
@@ -201,6 +285,7 @@ footer.band{margin-top:24px}
       <button class="tb" id="prevDay" type="button" aria-label="Previous edition">‹</button>
       <span class="tb datebtn"><span id="dateLbl">Today</span><label class="sr" for="datePick">Edition date</label><input type="date" id="datePick"></span>
       <button class="tb" id="nextDay" type="button" aria-label="Next edition">›</button>
+      <button class="tb" id="styleBtn" type="button" aria-label="Switch design" title="Switch between the Minimal and Magazine designs">Aa</button>
       <button class="tb" id="menuBtn" type="button" aria-label="Open menu" aria-haspopup="dialog"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
     </div>
   </div>
@@ -219,6 +304,7 @@ footer.band{margin-top:24px}
     <button type="button" data-view="read">Today's paper</button>
     <button type="button" data-view="archive">Search the archive</button>
       </div>
+  <div class="opt"><p id="dLbl">Design</p><div class="seg" role="group" aria-labelledby="dLbl" id="styleSeg"><button type="button" data-v="minimal">Minimal</button><button type="button" data-v="magazine">Magazine</button></div></div>
   <div class="opt"><p id="tLbl">Theme</p><div class="seg" role="group" aria-labelledby="tLbl" id="apSeg"><button type="button" data-v="system">System</button><button type="button" data-v="light">Light</button><button type="button" data-v="dark">Dark</button></div></div>
   <div class="opt"><p id="sLbl">Text size</p><div class="seg" role="group" aria-labelledby="sLbl" id="sizeSeg"><button type="button" data-v="s">S</button><button type="button" data-v="m">M</button><button type="button" data-v="l">L</button><button type="button" data-v="xl">XL</button></div></div>
   <p class="note">Keys: ← and → step between editions. / opens the search.</p>
@@ -431,10 +517,49 @@ function newsroomView() {
 }
 /* ---------- Render and events ---------- */
 let rq = 0;
+/* ---------- Minimal design: one reading column ---------- */
+function mStory(st, big) {
+  const u = safeUrl(st.url), meta = [srcName(st), srcMeta(st), st.date ? fmt(st.date, { day: "numeric", month: "short" }) : ""].filter(Boolean);
+  const body = st.body || st.why || "";
+  return `<article class="m-story${big ? " m-lead" : ""}">
+    ${big ? `<p class="m-sec">${esc(st.sec.name)}</p>` : ""}
+    ${big ? `<h2>${link(st)}</h2>` : `<h3>${link(st)}</h3>`}
+    ${body ? `<p class="m-body">${esc(body)}</p>` : ""}
+    ${st.body && st.why ? `<p class="m-why"><span>Why it matters</span> ${esc(st.why)}</p>` : ""}
+    <p class="m-meta">${meta.map(x => `<span>${esc(x)}</span>`).join("")}${u ? `<a href="${esc(u)}" target="_blank" rel="noopener noreferrer">Source</a>` : ""}</p>
+    ${Array.isArray(st.also) && st.also.length ? `<p class="m-also">Also covered by ${st.also.map(a => { const au = safeUrl(a.url), parts = String(a.source || a.section).split("·").map(x => x.trim()), t = esc(parts[0] === "X" && parts[1] ? parts[1] + " on X" : parts[0]); return au ? `<a href="${esc(au)}" target="_blank" rel="noopener noreferrer">${t}</a>` : t; }).join(", ")}</p>` : ""}
+  </article>`;
+}
+function readViewMin(k) {
+  const ed = editionFor(k), all = storiesOf(ed);
+  const counts = {}; all.forEach(s => s.topics.forEach(t => counts[t] = (counts[t] || 0) + 1));
+  const topics = Object.entries(counts).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0])).slice(0, 14);
+  if (ST.topic && !counts[ST.topic]) ST.topic = null;
+  const isToday = k === dayKey(new Date());
+  const dateLine = `<header class="m-date"><h1>${esc(fmt(k, { weekday: "long" }))}<span>${esc(fmt(k, { day: "numeric", month: "long" }))}</span></h1>
+    <p>${isToday ? "Today's edition" : "Back issue"}. ${all.length} stories, about ${Math.max(1, Math.round(all.reduce((t, s) => t + words(s.title) + words(s.body || s.why), 0) / 230))} minutes to read.</p></header>`;
+  if (!all.length) return dateLine + readView(k);
+  const list = all.filter(s => (ST.tab === "all" || s.sec.id === ST.tab) && (!ST.topic || s.topics.includes(ST.topic)));
+  const brief = ST.briefs[k];
+  const listen = brief ? `<div class="m-listen"><button type="button" id="listenBtn" class="m-play" aria-label="${AUD.on && AUD.k === k ? "Pause or play the briefing" : "Play the briefing"}">${AUD.on && AUD.k === k && AUD.playing ? "❚❚" : "▶"}</button><div><b>Listen to the briefing</b><span>About ${Math.max(1, Math.round(words(brief) / 150))} minutes. Speed and skip controls open at the bottom.</span></div></div>` : "";
+  let mainHtml;
+  if (!list.length) mainHtml = `<div class="m-empty"><p>No story matches this filter.</p>${ST.topic ? `<button type="button" class="m-chip" data-topic="">Clear #${esc(ST.topic)}</button>` : ""}</div>`;
+  else {
+    const lead = list[0], rest = list.slice(1);
+    const groups = SECTIONS.map(sec => ({ sec, items: rest.filter(x => x.sec.id === sec.id) })).filter(g => g.items.length);
+    mainHtml = mStory(lead, true) + groups.map(g => `<section class="m-group" aria-labelledby="g-${g.sec.id}"><h2 id="g-${g.sec.id}">${esc(g.sec.name)}<span>${g.items.length}</span></h2>${g.items.map(x => mStory(x)).join("")}</section>`).join("");
+  }
+  const dates = editionDates().slice().reverse().slice(0, 8);
+  const side = `<aside class="m-side" aria-label="Filters and back issues">
+    <div><h4>Topics</h4><div class="m-chips">${topics.map(([t, n]) => `<button type="button" class="m-chip" data-topic="${esc(t)}" aria-pressed="${ST.topic === t}">${esc(t)} <small>${n}</small></button>`).join("")}</div></div>
+    <div><h4>Back issues</h4><div class="m-days">${dates.map(d => `<button type="button" data-d="${d}" aria-current="${d === k}">${esc(fmt(d, { weekday: "short", day: "numeric", month: "short" }))}</button>`).join("")}</div></div>
+  </aside>`;
+  return dateLine + listen + `<div class="m-grid"><div class="m-main">${mainHtml}${editionDates().some(d => d < k) ? `<p><button type="button" class="m-chip" id="readPrev">Read the previous edition</button></p>` : ""}</div>${side}</div>`;
+}
 function render() { cancelAnimationFrame(rq); rq = requestAnimationFrame(() => {
   const k = ST.date, fq = document.activeElement && document.activeElement.id === "q", pos = fq ? document.activeElement.selectionStart : 0;
   chrome(k, storiesOf(editionFor(k)));
-  $("view").innerHTML = ST.view === "archive" ? archiveView() : ST.view === "newsroom" ? newsroomView() : readView(k);
+  $("view").innerHTML = ST.view === "archive" ? archiveView() : ST.view === "newsroom" ? newsroomView() : (document.documentElement.dataset.style === "minimal" ? readViewMin(k) : readView(k));
   if (fq && $("q")) { $("q").focus(); $("q").setSelectionRange(pos, pos); }
   const dates = editionDates(); $("datePick").value = k; $("datePick").max = dayKey(new Date()); $("datePick").min = dates[0] || "2026-10-05";
   $("dateLbl").textContent = k === dayKey(new Date()) ? "Today" : fmt(k, { day: "numeric", month: "short" });
@@ -486,10 +611,12 @@ function closeSheet() { if ($("sheet").hidden) return; $("sheet").hidden = true;
 $("menuBtn").addEventListener("click", openSheet); $("sheetClose").addEventListener("click", closeSheet); $("backdrop").addEventListener("click", closeSheet);
 (function settings() {
   const root = document.documentElement;
-  const segs = { apSeg: ["nx-theme", "system", v => v === "system" ? delete root.dataset.theme : root.dataset.theme = v], sizeSeg: ["np-size", "m", v => v === "m" ? delete root.dataset.size : root.dataset.size = v] };
+  const segs = { styleSeg: ["nx-style", "minimal", v => { root.dataset.style = v; if (typeof render === "function") render(); }], apSeg: ["nx-theme", "system", v => v === "system" ? delete root.dataset.theme : root.dataset.theme = v], sizeSeg: ["np-size", "m", v => v === "m" ? delete root.dataset.size : root.dataset.size = v] };
   function apply(id, v, save) { const [key, def, fn] = segs[id]; v = v || def; fn(v); if (save) store.set(key, v === def ? null : v); $(id).querySelectorAll("button").forEach(b => b.setAttribute("aria-pressed", b.dataset.v === v)); }
+  apply("styleSeg", store.get("nx-style") === "magazine" ? "magazine" : "minimal", false);
   apply("apSeg", ["light", "dark"].includes(store.get("nx-theme")) ? store.get("nx-theme") : "system", false);
   apply("sizeSeg", ["s", "l", "xl"].includes(store.get("np-size")) ? store.get("np-size") : "m", false);
+  $("styleBtn").addEventListener("click", () => apply("styleSeg", root.dataset.style === "minimal" ? "magazine" : "minimal", true));
   Object.keys(segs).forEach(id => $(id).addEventListener("click", e => { const b = e.target.closest("button"); if (b) apply(id, b.dataset.v, true); }));
 })();
 
