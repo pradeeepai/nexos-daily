@@ -58,6 +58,23 @@ button{font:inherit;color:inherit}
 .also b{color:var(--ink);font-weight:700}
 .also a{color:var(--purple-ink);text-decoration:none;font-weight:600}
 .also a:hover{text-decoration:underline}
+.player{position:fixed;left:0;right:0;bottom:0;z-index:30;background:var(--band);color:#fff;border-top:4px solid var(--purple);padding-bottom:env(safe-area-inset-bottom,0px)}
+.pl-in{display:flex;align-items:center;gap:10px 16px;flex-wrap:wrap;padding-block:10px}
+.pl-title{display:flex;flex-direction:column;line-height:1.2;min-width:84px}
+.pl-title b{font-family:var(--f-display);font-weight:900;font-stretch:70%;font-size:18px;text-transform:uppercase}
+.pl-title span{font-size:12px;color:rgba(255,255,255,.7)}
+.pl-ctrl{display:flex;gap:6px;align-items:center}
+.pl-btn{min-width:40px;height:40px;border-radius:999px;border:1px solid rgba(255,255,255,.3);background:transparent;color:#fff;cursor:pointer;font-weight:700;font-size:14px}
+.pl-btn:hover{background:#fff;color:#0e0d12}
+.pl-main{min-width:48px;height:48px;background:var(--purple);border-color:var(--purple);font-size:16px}
+.pl-seek{flex:1 1 220px;display:flex;align-items:center;gap:8px;font-size:13px;font-variant-numeric:tabular-nums;color:rgba(255,255,255,.8)}
+.pl-seek input{flex:1;accent-color:#8f6bff;min-width:80px}
+.pl-rate{display:flex;border:1px solid rgba(255,255,255,.3);border-radius:999px;overflow:hidden}
+.pl-rate button{border:0;background:transparent;color:#fff;cursor:pointer;font-size:13px;font-weight:600;padding:0 9px;height:34px}
+.pl-rate button[aria-pressed="true"]{background:#fff;color:#0e0d12}
+.pl-x{margin-left:auto}
+body.has-player{padding-bottom:96px}
+@media (max-width:640px){.pl-title{min-width:0}.pl-seek{order:5;flex-basis:100%}.pl-rate button{padding:0 7px}body.has-player{padding-bottom:150px}}
 .listen{display:flex;align-items:center;gap:12px;padding-top:16px;font-size:14px;font-weight:600;color:var(--ink-2)}
 .listen .pill{margin-top:0}
 .trend{display:flex;align-items:center;gap:10px;padding-block:14px;border-bottom:1px solid var(--line);overflow-x:auto;scrollbar-width:none}
@@ -241,19 +258,83 @@ const topicsOf = it => { if (Array.isArray(it.topics) && it.topics.length) retur
   const t = `${it.title} ${it.body || ""} ${it.why || ""}`; const out = []; for (const [n, re] of RULES) { if (re.test(t)) out.push(n); if (out.length === 3) break; } return out; };
 const SERVER = "Claude Code Remote";
 
-const AUD = { on: false, days: [], el: null };
-function stopAudio() { AUD.on = false; try { speechSynthesis.cancel(); } catch (e) {} if (AUD.el) { AUD.el.pause(); AUD.el = null; } render(); }
+const AUD = { on: false, days: [], el: null, k: null, mode: null, playing: false, rate: 1, parts: [], idx: 0, voice: null, run: 0 };
+try { const r = parseFloat(localStorage.getItem("nx-rate")); if ([0.75, 1, 1.25, 1.5, 1.75, 2].includes(r)) AUD.rate = r; } catch (e) {}
+const RATES = [0.75, 1, 1.25, 1.5, 1.75, 2];
+const mmss = t => { t = Math.max(0, Math.floor(t || 0)); return `${Math.floor(t / 60)}:${String(t % 60).padStart(2, "0")}`; };
+function playerEl() {
+  let el = $("player"); if (el) return el;
+  el = document.createElement("div"); el.id = "player"; el.className = "player"; el.hidden = true; el.setAttribute("role", "region"); el.setAttribute("aria-label", "Audio briefing player");
+  el.innerHTML = `<div class="wrap pl-in">
+    <div class="pl-title"><b>Briefing</b><span id="plDate"></span></div>
+    <div class="pl-ctrl">
+      <button type="button" class="pl-btn" data-pl="back" aria-label="Back 15 seconds">−15</button>
+      <button type="button" class="pl-btn pl-main" data-pl="toggle" aria-label="Pause" id="plToggle">❚❚</button>
+      <button type="button" class="pl-btn" data-pl="fwd" aria-label="Forward 15 seconds">+15</button>
+    </div>
+    <div class="pl-seek"><span id="plCur">0:00</span><input type="range" id="plRange" min="0" max="100" step="1" value="0" aria-label="Position"><span id="plDur">0:00</span></div>
+    <div class="pl-rate" role="group" aria-label="Playback speed">${RATES.map(r => `<button type="button" data-rate="${r}" aria-pressed="false">${r}×</button>`).join("")}</div>
+    <button type="button" class="pl-btn pl-x" data-pl="close" aria-label="Close player">✕</button>
+  </div>`;
+  document.body.appendChild(el);
+  el.addEventListener("click", e => {
+    const r = e.target.closest("[data-rate]"); if (r) return setRate(parseFloat(r.dataset.rate));
+    const b = e.target.closest("[data-pl]"); if (!b) return;
+    ({ toggle: togglePlay, back: () => skip(-15), fwd: () => skip(15), close: stopAudio })[b.dataset.pl]();
+  });
+  const rg = el.querySelector("#plRange");
+  rg.addEventListener("input", () => seekTo(+rg.value));
+  return el;
+}
+function updatePlayer() {
+  const el = playerEl(); el.hidden = !AUD.on; document.body.classList.toggle("has-player", AUD.on); if (!AUD.on) return;
+  $("plDate").textContent = AUD.k ? fmt(AUD.k, { day: "numeric", month: "short" }) + (AUD.mode === "speech" ? " · device voice" : "") : "";
+  $("plToggle").textContent = AUD.playing ? "❚❚" : "▶"; $("plToggle").setAttribute("aria-label", AUD.playing ? "Pause" : "Play");
+  el.querySelectorAll("[data-rate]").forEach(b => b.setAttribute("aria-pressed", parseFloat(b.dataset.rate) === AUD.rate));
+  const rg = $("plRange");
+  if (AUD.mode === "audio" && AUD.el) { const d = AUD.el.duration || 0; rg.max = Math.max(1, Math.floor(d)); if (document.activeElement !== rg) rg.value = Math.floor(AUD.el.currentTime); $("plCur").textContent = mmss(AUD.el.currentTime / 1); $("plDur").textContent = d ? mmss(d) : "–:––"; }
+  else if (AUD.mode === "speech") { const n = AUD.parts.length, per = n ? words(AUD.parts.join(" ")) / n / 2.5 : 0; rg.max = Math.max(1, n - 1); if (document.activeElement !== rg) rg.value = AUD.idx; $("plCur").textContent = mmss(AUD.idx * per / AUD.rate); $("plDur").textContent = mmss(n * per / AUD.rate); }
+}
+function stopAudio() { AUD.on = false; AUD.playing = false; try { speechSynthesis.cancel(); } catch (e) {} if (AUD.el) { AUD.el.pause(); AUD.el = null; } AUD.mode = null; updatePlayer(); render(); }
 function playBrief(k) {
   const text = ST.briefs[k]; if (!text) return;
-  AUD.on = true; render();
-  if (AUD.days.includes(k)) { AUD.el = new Audio(`audio/${k}.mp3`); AUD.el.onended = stopAudio; AUD.el.onerror = () => { AUD.el = null; speak(text); }; AUD.el.play().catch(() => { AUD.el = null; speak(text); }); }
-  else speak(text);
+  stopAudio(); AUD.on = true; AUD.k = k;
+  if (AUD.days.includes(k)) {
+    AUD.mode = "audio"; AUD.el = new Audio(`audio/${k}.mp3`); AUD.el.playbackRate = AUD.rate; AUD.el.preservesPitch = true;
+    AUD.el.ontimeupdate = updatePlayer; AUD.el.onloadedmetadata = updatePlayer; AUD.el.onended = () => { AUD.playing = false; updatePlayer(); };
+    AUD.el.onplay = () => { AUD.playing = true; updatePlayer(); }; AUD.el.onpause = () => { AUD.playing = false; updatePlayer(); };
+    AUD.el.onerror = () => { AUD.el = null; startSpeech(text); };
+    const pr = AUD.el.play(); if (pr && pr.catch) pr.catch(() => { if (AUD.el) { AUD.el = null; startSpeech(text); } });
+  } else startSpeech(text);
+  updatePlayer(); render();
 }
-function speak(text) {
-  if (!("speechSynthesis" in window)) { AUD.on = false; render(); return toast("This browser cannot read aloud."); }
-  speechSynthesis.cancel();
-  const vs = speechSynthesis.getVoices(), v = vs.find(x => /en[-_](IN|GB|US)/i.test(x.lang) && /natural|neural|google|samantha|daniel/i.test(x.name)) || vs.find(x => /^en/i.test(x.lang));
-  text.split(/(?<=[.!?])\s+/).forEach((part, i, arr) => { const u = new SpeechSynthesisUtterance(part); if (v) u.voice = v; u.rate = 1; if (i === arr.length - 1) u.onend = () => { AUD.on = false; render(); }; speechSynthesis.speak(u); });
+function startSpeech(text) {
+  if (!("speechSynthesis" in window)) { stopAudio(); return toast("This browser cannot read aloud."); }
+  AUD.mode = "speech"; AUD.parts = text.split(/(?<=[.!?])\s+/).filter(Boolean); AUD.idx = 0;
+  const vs = speechSynthesis.getVoices(); AUD.voice = vs.find(x => /en[-_](IN|GB|US)/i.test(x.lang) && /natural|neural|google|samantha|daniel/i.test(x.name)) || vs.find(x => /^en/i.test(x.lang)) || null;
+  speakFrom(0);
+}
+function speakFrom(i) {
+  speechSynthesis.cancel(); AUD.idx = Math.max(0, Math.min(i, AUD.parts.length - 1)); AUD.playing = true; const run = ++AUD.run;
+  AUD.parts.slice(AUD.idx).forEach((part, j) => { const u = new SpeechSynthesisUtterance(part); if (AUD.voice) u.voice = AUD.voice; u.rate = AUD.rate;
+    u.onstart = () => { if (AUD.run === run) { AUD.idx = i + j; updatePlayer(); } };
+    if (i + j === AUD.parts.length - 1) u.onend = () => { if (AUD.run === run) { AUD.playing = false; updatePlayer(); } };
+    speechSynthesis.speak(u); });
+  updatePlayer();
+}
+function togglePlay() {
+  if (AUD.mode === "audio" && AUD.el) { if (AUD.el.ended) AUD.el.currentTime = 0; const pr = AUD.el.paused ? AUD.el.play() : AUD.el.pause(); if (pr && pr.catch) pr.catch(() => {}); }
+  else if (AUD.mode === "speech") { if (AUD.playing) { AUD.run++; speechSynthesis.cancel(); AUD.playing = false; updatePlayer(); } else speakFrom(AUD.idx >= AUD.parts.length - 1 ? 0 : AUD.idx); }
+}
+function skip(sec) {
+  if (AUD.mode === "audio" && AUD.el) AUD.el.currentTime = Math.max(0, Math.min((AUD.el.duration || 0), AUD.el.currentTime + sec));
+  else if (AUD.mode === "speech") speakFrom(AUD.idx + (sec > 0 ? 2 : -2));
+}
+function seekTo(v) { if (AUD.mode === "audio" && AUD.el) AUD.el.currentTime = v; else if (AUD.mode === "speech") speakFrom(v); }
+function setRate(r) {
+  AUD.rate = r; try { localStorage.setItem("nx-rate", String(r)); } catch (e) {}
+  if (AUD.mode === "audio" && AUD.el) AUD.el.playbackRate = r; else if (AUD.mode === "speech" && AUD.playing) speakFrom(AUD.idx);
+  updatePlayer();
 }
 const ST = { briefs: {}, routines: [], digests: [], triggers: {}, ready: false, ctrl: "unknown", mcp: null, date: null, view: "read", tab: "all", topic: null, q: "", started: {} };
 const byStart = (a, b) => String(b.end || b.start || "").localeCompare(String(a.end || a.start || ""));
@@ -293,7 +374,7 @@ function readView(k) {
   if (!all.length) { const isToday = k === dayKey(new Date()), first = editionDates()[0];
     return `<div class="empty"><h2>${!ST.ready ? "Loading" : isToday ? "Not printed yet" : "No edition"}</h2><p>${!ST.ready ? "Fetching the paper." : isToday ? "The desks print at 7:49 am. Press ‹ to read the last edition." : first ? `The first edition is ${esc(fmt(first, { day: "numeric", month: "long" }))}.` : ""}</p></div>`; }
   const brief = ST.briefs[k];
-  const listen = brief ? `<div class="listen"><button type="button" class="pill pill--purple" id="listenBtn" aria-pressed="${!!AUD.on}">${AUD.on ? "■ Stop" : "▶ Listen"}</button><span>${AUD.on ? "Playing the briefing" : `The briefing · about ${Math.max(1, Math.round(words(brief) / 150))} min`}</span></div>` : "";
+  const listen = brief ? `<div class="listen"><button type="button" class="pill pill--purple" id="listenBtn">${AUD.on && AUD.k === k ? "Playing" : "▶ Listen"}</button><span>${AUD.on && AUD.k === k ? "Use the player at the bottom to pause, skip or change the speed" : `The briefing · about ${Math.max(1, Math.round(words(brief) / 150))} min`}</span></div>` : "";
   const strip = listen + `<div class="trend" aria-label="Trending topics"><span class="trend__lbl">Trending</span>${topics.map(([t, n]) => `<button type="button" class="chip" data-topic="${esc(t)}" aria-pressed="${ST.topic === t}">#${esc(t)}<small>${n}</small></button>`).join("")}</div>`;
   if (!list.length) return strip + `<div class="empty"><h2>Nothing here</h2><p>${ST.tab !== "all" && ed[ST.tab] && ed[ST.tab].status === "failed" ? esc(ed[ST.tab].error || "This desk could not file.") : "No story matches this topic in this section."}</p>${ST.topic ? `<button type="button" class="pill pill--purple" data-topic="">Clear #${esc(ST.topic)}</button>` : ""}</div>`;
   const lead = list[0], tops = list.slice(1, 6), rest = list.slice(6);
@@ -372,7 +453,7 @@ document.addEventListener("click", e => {
   const v = e.target.closest("[data-view]"); if (v) return setView(v.dataset.view);
   const d = e.target.closest("[data-d]"); if (d) return setDate(d.dataset.d);
   if (e.target.closest("#readPrev")) return prev();
-  if (e.target.closest("#listenBtn")) return AUD.on ? stopAudio() : playBrief(ST.date);
+  if (e.target.closest("#listenBtn")) return AUD.on && AUD.k === ST.date ? togglePlay() : playBrief(ST.date);
   const a = e.target.closest("[data-act]"); if (a && !a.disabled) act(a.dataset.id, a.dataset.act);
 });
 $("view").addEventListener("input", e => { if (e.target.id === "q") { ST.q = e.target.value; render(); } });
