@@ -1,6 +1,11 @@
 {
  "editions": [
   {
+   "date": "2026-10-24",
+   "stories": 30,
+   "headline": "Moonshot launches Kimi K3.1 Pro, close to Opus 5.5 on coding"
+  },
+  {
    "date": "2026-10-23",
    "stories": 33,
    "headline": "Anthropic donates Agent Skills to the Agentic AI Foundation"
