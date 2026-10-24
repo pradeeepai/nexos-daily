@@ -1,0 +1,340 @@
+{
+ "date": "2026-10-25",
+ "generated": "2026-10-24T19:42:04Z",
+ "headline": "appariciojunior/video-editor-skills, Claude Code skills for DaVinci Resolve editing, is the fastest-growing new repo today with 233 stars.",
+ "periods": {
+  "daily": {
+   "topics": [
+    "Agent skills",
+    "Claude Code plugins",
+    "McDonald's MCP apps",
+    "Agent monitoring",
+    "Security skills"
+   ],
+   "repos": [
+    {
+     "repo": "appariciojunior/video-editor-skills",
+     "url": "https://github.com/appariciojunior/video-editor-skills",
+     "description": "Claude Code skills that make a first-pass DaVinci Resolve edit with transcript cuts, B-roll and captions.",
+     "kind": "Skill",
+     "language": null,
+     "stars": 233,
+     "gained": 233,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "Charonyuu/whatsmyagentdoing",
+     "url": "https://github.com/Charonyuu/whatsmyagentdoing",
+     "description": "Live dashboard that shows what local Claude Code and Codex agents are doing.",
+     "kind": "Dev tool",
+     "language": "JavaScript",
+     "stars": 150,
+     "gained": 150,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "jouaaaaaa/mcd-self-butler",
+     "url": "https://github.com/jouaaaaaa/mcd-self-butler",
+     "description": "Ordering assistant built on the McDonald's MCP with meal advice and cost comparison.",
+     "kind": "Other",
+     "language": "Python",
+     "stars": 123,
+     "gained": 123,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "morganlinton/BeautifulRust",
+     "url": "https://github.com/morganlinton/BeautifulRust",
+     "description": "Claude Code plugin that teaches Claude to write idiomatic, robust Rust.",
+     "kind": "Plugin",
+     "language": "Python",
+     "stars": 97,
+     "gained": 97,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "lillyguisnet/sam3-segmentation",
+     "url": "https://github.com/lillyguisnet/sam3-segmentation",
+     "description": "Agent skill that masks and counts objects in photos with Meta SAM 3 on a local GPU.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 57,
+     "gained": 57,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "Shaitrish/37studio",
+     "url": "https://github.com/Shaitrish/37studio",
+     "description": "Self-hosted tool where Claude Code makes videos and posts them to nine platforms.",
+     "kind": "Other",
+     "language": "Go",
+     "stars": 50,
+     "gained": 50,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "t3dotgg/tstack",
+     "url": "https://github.com/t3dotgg/tstack",
+     "description": "Daily-use agent skills for Claude Code and Codex.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 29,
+     "gained": 29,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "edigeh/broll-mcp",
+     "url": "https://github.com/edigeh/broll-mcp",
+     "description": "MCP server that finds and cuts public-domain B-roll from the Internet Archive.",
+     "kind": "MCP server",
+     "language": "Python",
+     "stars": 24,
+     "gained": 24,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "thomasunise/argus",
+     "url": "https://github.com/thomasunise/argus",
+     "description": "Open-source agentic security operations platform with an approval-gated action broker.",
+     "kind": "Agent framework",
+     "language": "Python",
+     "stars": 23,
+     "gained": 23,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "trailofbits/brotli-checker",
+     "url": "https://github.com/trailofbits/brotli-checker",
+     "description": "Claude Code and Codex skill that finds vulnerable Brotli copies and guides updates.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 22,
+     "gained": 22,
+     "source": "GitHub search"
+    }
+   ]
+  },
+  "weekly": {
+   "topics": [
+    "Android TV debloat with agents",
+    "Agent skills",
+    "MCP servers",
+    "Agent video tools",
+    "LLM gateways"
+   ],
+   "repos": [
+    {
+     "repo": "Gathin23/tv-vibehack",
+     "url": "https://github.com/Gathin23/tv-vibehack",
+     "description": "Debloats Android TV over ADB and adds a tvOS-style launcher.",
+     "kind": "Other",
+     "language": "Java",
+     "stars": 2253,
+     "gained": 2253,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "aicodeking/leanrea",
+     "url": "https://github.com/aicodeking/leanrea",
+     "description": "Small skill that replaces REA with plain CLI tools and no MCP.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 2028,
+     "gained": 2028,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "Ansub/tv-detox",
+     "url": "https://github.com/Ansub/tv-detox",
+     "description": "Guide and minimal home screen to speed up old Android TVs with a coding agent.",
+     "kind": "Other",
+     "language": "Java",
+     "stars": 1465,
+     "gained": 1465,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "alchaincyf/huashu-motion",
+     "url": "https://github.com/alchaincyf/huashu-motion",
+     "description": "Lets a coding agent make launch videos and revise frames by pointing at them.",
+     "kind": "Skill",
+     "language": "JavaScript",
+     "stars": 458,
+     "gained": 458,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "Leonxlnx/athenaion",
+     "url": "https://github.com/Leonxlnx/athenaion",
+     "description": "Ancient Greek world built in three.js with no external assets.",
+     "kind": "Other",
+     "language": "JavaScript",
+     "stars": 136,
+     "gained": 136,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "Agent2API/agent2api",
+     "url": "https://github.com/Agent2API/agent2api",
+     "description": "Local gateway that exposes logged-in AI client sessions as OpenAI-compatible APIs.",
+     "kind": "AI infra",
+     "language": "Rust",
+     "stars": 129,
+     "gained": 129,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "kanaworksai-hue/audio-studio-mcp",
+     "url": "https://github.com/kanaworksai-hue/audio-studio-mcp",
+     "description": "MCP server for local AI music and sound-effect generation.",
+     "kind": "MCP server",
+     "language": "Python",
+     "stars": 109,
+     "gained": 109,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "finereli/whatsapp-mcp",
+     "url": "https://github.com/finereli/whatsapp-mcp",
+     "description": "Read-only MCP server to search your own WhatsApp messages, on Cloudflare Workers.",
+     "kind": "MCP server",
+     "language": "TypeScript",
+     "stars": 84,
+     "gained": 84,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "Aoisop/mawoagent",
+     "url": "https://github.com/Aoisop/mawoagent",
+     "description": "Auditable local agent runtime that turns feedback into skills only after tests pass.",
+     "kind": "Agent framework",
+     "language": "Python",
+     "stars": 56,
+     "gained": 56,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "olivieropinotti/orchestrator-skill",
+     "url": "https://github.com/olivieropinotti/orchestrator-skill",
+     "description": "Claude Code skill that keeps the main session dispatching work to others.",
+     "kind": "Skill",
+     "language": null,
+     "stars": 50,
+     "gained": 50,
+     "source": "GitHub search"
+    }
+   ]
+  },
+  "monthly": {
+   "topics": [
+    "Agent skills",
+    "Opus 5.5 showcases",
+    "Agent motion and video",
+    "Agent monitoring",
+    "MCP-driven tools"
+   ],
+   "repos": [
+    {
+     "repo": "wheresryan22/anatomy",
+     "url": "https://github.com/wheresryan22/anatomy",
+     "description": "Agent skill for interactive isometric SVG illustrations of machines and systems.",
+     "kind": "Skill",
+     "language": "JavaScript",
+     "stars": 20084,
+     "gained": 20084,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "yihui-dev/awesome-opus5-5-videos",
+     "url": "https://github.com/yihui-dev/awesome-opus5-5-videos",
+     "description": "Curated Claude Opus 5.5 videos with their prompts.",
+     "kind": "Other",
+     "language": null,
+     "stars": 10407,
+     "gained": 10407,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "tangency-labs/solidcraft",
+     "url": "https://github.com/tangency-labs/solidcraft",
+     "description": "Open-source parametric 3D CAD app in Rust with MCP automation.",
+     "kind": "Dev tool",
+     "language": "Rust",
+     "stars": 10007,
+     "gained": 10007,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "rehan-remade/universal-modder",
+     "url": "https://github.com/rehan-remade/universal-modder",
+     "description": "Claude Code skills and tools for modding PC games.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 8870,
+     "gained": 8870,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "KKKKhazix/AIHOT",
+     "url": "https://github.com/KKKKhazix/AIHOT",
+     "description": "Self-hosted framework for a daily industry news site with your own sources.",
+     "kind": "Other",
+     "language": "TypeScript",
+     "stars": 8548,
+     "gained": 8548,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "lemomo-ai/lemo-opuscar",
+     "url": "https://github.com/lemomo-ai/lemo-opuscar",
+     "description": "Toolbox of 59 code-made film styles, each with a demo by Claude Opus 5.5.",
+     "kind": "Other",
+     "language": "JavaScript",
+     "stars": 6569,
+     "gained": 6569,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "Louis-CFM/coucou",
+     "url": "https://github.com/Louis-CFM/coucou",
+     "description": "macOS notch and iPhone app that monitors coding agents and handles approvals.",
+     "kind": "Dev tool",
+     "language": "Swift",
+     "stars": 6357,
+     "gained": 6357,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "shader-effects-inc/shaders",
+     "url": "https://github.com/shader-effects-inc/shaders",
+     "description": "WebGPU shader components for React, Vue, Svelte, Solid and vanilla JS.",
+     "kind": "Dev tool",
+     "language": "TypeScript",
+     "stars": 5404,
+     "gained": 5404,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "Jakeschincariol/replica-skill",
+     "url": "https://github.com/Jakeschincariol/replica-skill",
+     "description": "Eleven Claude skills to reverse-engineer, rebuild and test apps.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 5215,
+     "gained": 5215,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "kaankiziltug/logo-design-skill",
+     "url": "https://github.com/kaankiziltug/logo-design-skill",
+     "description": "Logo design skill for AI agents with SVG guidance and a reference library.",
+     "kind": "Skill",
+     "language": "HTML",
+     "stars": 4434,
+     "gained": 4434,
+     "source": "GitHub search"
+    }
+   ]
+  }
+ }
+}
