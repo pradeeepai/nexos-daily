@@ -1,4 +1,5 @@
 """Make audio/DAY.mp3 from the newest edition's briefing text with Kokoro TTS. Runs in GitHub Actions."""
+# Needs preshed<=3.0.13 (pinned in the workflow).
 import json, os, glob, subprocess, datetime, time, traceback, re
 def gh_error(msg):  # shows as an annotation on the run
     print("::error::" + msg.replace("\n", "%0A")[-3000:], flush=True)
