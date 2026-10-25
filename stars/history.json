@@ -2,7 +2,7 @@
 "repos":{
 "appariciojunior/video-editor-skills":{
 "s":{
-"2026-10-25":235
+"2026-10-25":245
 },
 "kind":"Skill",
 "first_seen":"2026-10-25",
@@ -16,7 +16,7 @@
 },
 "Charonyuu/whatsmyagentdoing":{
 "s":{
-"2026-10-25":156
+"2026-10-25":181
 },
 "kind":"Dev tool",
 "first_seen":"2026-10-25",
@@ -30,9 +30,9 @@
 },
 "jouaaaaaa/mcd-self-butler":{
 "s":{
-"2026-10-25":136
+"2026-10-25":165
 },
-"kind":"Other",
+"kind":"Skill",
 "first_seen":"2026-10-25",
 "seen_in":[
 "Trending"
@@ -44,7 +44,7 @@
 },
 "morganlinton/BeautifulRust":{
 "s":{
-"2026-10-25":122
+"2026-10-25":224
 },
 "kind":"Plugin",
 "first_seen":"2026-10-25",
@@ -59,7 +59,7 @@
 },
 "lillyguisnet/sam3-segmentation":{
 "s":{
-"2026-10-25":60
+"2026-10-25":65
 },
 "kind":"Skill",
 "first_seen":"2026-10-25",
@@ -73,7 +73,7 @@
 },
 "Shaitrish/37studio":{
 "s":{
-"2026-10-25":55
+"2026-10-25":63
 },
 "kind":"Other",
 "first_seen":"2026-10-25",
@@ -87,7 +87,7 @@
 },
 "t3dotgg/tstack":{
 "s":{
-"2026-10-25":29
+"2026-10-25":32
 },
 "kind":"Skill",
 "first_seen":"2026-10-25",
@@ -101,7 +101,7 @@
 },
 "edigeh/broll-mcp":{
 "s":{
-"2026-10-25":25
+"2026-10-25":26
 },
 "kind":"MCP server",
 "first_seen":"2026-10-25",
@@ -115,7 +115,7 @@
 },
 "thomasunise/argus":{
 "s":{
-"2026-10-25":24
+"2026-10-25":57
 },
 "kind":"Agent framework",
 "first_seen":"2026-10-25",
@@ -123,13 +123,13 @@
 "Trending"
 ],
 "url":"https://github.com/thomasunise/argus",
-"description":"Open-source agentic security operations platform: evidence graph, swarm-aware detections, governed AI agents and an approval-gated action broker",
+"description":"Open-source agentic security operations platform:",
 "language":"Python",
 "created":"2026-10-24"
 },
 "trailofbits/brotli-checker":{
 "s":{
-"2026-10-25":25
+"2026-10-25":27
 },
 "kind":"Skill",
 "first_seen":"2026-10-25",
@@ -143,7 +143,7 @@
 },
 "Gathin23/tv-vibehack":{
 "s":{
-"2026-10-25":31349
+"2026-10-25":32037
 },
 "kind":"Other",
 "first_seen":"2026-10-25",
@@ -157,7 +157,7 @@
 },
 "aicodeking/leanrea":{
 "s":{
-"2026-10-25":2060
+"2026-10-25":2191
 },
 "kind":"Skill",
 "first_seen":"2026-10-25",
@@ -171,7 +171,7 @@
 },
 "Ansub/tv-detox":{
 "s":{
-"2026-10-25":1472
+"2026-10-25":1495
 },
 "kind":"Other",
 "first_seen":"2026-10-25",
@@ -185,7 +185,7 @@
 },
 "alchaincyf/huashu-motion":{
 "s":{
-"2026-10-25":1589
+"2026-10-25":1604
 },
 "kind":"Skill",
 "first_seen":"2026-10-25",
@@ -224,7 +224,7 @@
 },
 "kanaworksai-hue/audio-studio-mcp":{
 "s":{
-"2026-10-25":477
+"2026-10-25":480
 },
 "kind":"MCP server",
 "first_seen":"2026-10-25",
@@ -238,7 +238,7 @@
 },
 "finereli/whatsapp-mcp":{
 "s":{
-"2026-10-25":355
+"2026-10-25":361
 },
 "kind":"MCP server",
 "first_seen":"2026-10-25",
@@ -280,7 +280,7 @@
 },
 "wheresryan22/anatomy":{
 "s":{
-"2026-10-25":20100
+"2026-10-25":20191
 },
 "kind":"Skill",
 "first_seen":"2026-10-25",
@@ -294,7 +294,7 @@
 },
 "yihui-dev/awesome-opus5-5-videos":{
 "s":{
-"2026-10-25":10430
+"2026-10-25":10546
 },
 "kind":"Other",
 "first_seen":"2026-10-25",
@@ -308,7 +308,7 @@
 },
 "tangency-labs/solidcraft":{
 "s":{
-"2026-10-25":10032
+"2026-10-25":10117
 },
 "kind":"Dev tool",
 "first_seen":"2026-10-25",
@@ -322,7 +322,7 @@
 },
 "rehan-remade/universal-modder":{
 "s":{
-"2026-10-25":8874
+"2026-10-25":8884
 },
 "kind":"Skill",
 "first_seen":"2026-10-25",
@@ -336,9 +336,9 @@
 },
 "KKKKhazix/AIHOT":{
 "s":{
-"2026-10-25":8550
+"2026-10-25":8555
 },
-"kind":"Other",
+"kind":"Agent framework",
 "first_seen":"2026-10-25",
 "seen_in":[
 "Trending"
@@ -350,9 +350,9 @@
 },
 "lemomo-ai/lemo-opuscar":{
 "s":{
-"2026-10-25":6593
+"2026-10-25":6694
 },
-"kind":"Other",
+"kind":"Skill",
 "first_seen":"2026-10-25",
 "seen_in":[
 "Trending"
@@ -364,7 +364,7 @@
 },
 "Louis-CFM/coucou":{
 "s":{
-"2026-10-25":6362
+"2026-10-25":6380
 },
 "kind":"Dev tool",
 "first_seen":"2026-10-25",
@@ -378,7 +378,7 @@
 },
 "shader-effects-inc/shaders":{
 "s":{
-"2026-10-25":5405
+"2026-10-25":5415
 },
 "kind":"Dev tool",
 "first_seen":"2026-10-25",
@@ -392,7 +392,7 @@
 },
 "Jakeschincariol/replica-skill":{
 "s":{
-"2026-10-25":5229
+"2026-10-25":5283
 },
 "kind":"Skill",
 "first_seen":"2026-10-25",
@@ -406,7 +406,7 @@
 },
 "kaankiziltug/logo-design-skill":{
 "s":{
-"2026-10-25":4438
+"2026-10-25":4468
 },
 "kind":"Skill",
 "first_seen":"2026-10-25",
@@ -420,9 +420,9 @@
 },
 "anthropics/claude-code":{
 "s":{
-"2026-10-25":153276
+"2026-10-25":153298
 },
-"kind":"Other",
+"kind":"MCP server",
 "first_seen":"2026-10-25",
 "seen_in":[
 "AI"
@@ -434,7 +434,7 @@
 },
 "anthropics/single-agent-loop-kit":{
 "s":{
-"2026-10-25":78
+"2026-10-25":85
 },
 "kind":"Subagent",
 "first_seen":"2026-10-25",
@@ -448,7 +448,7 @@
 },
 "EpicGames/unreal-engine-skills-for-claude-code-plugin":{
 "s":{
-"2026-10-25":1642
+"2026-10-25":1646
 },
 "kind":"Plugin",
 "first_seen":"2026-10-25",
@@ -459,6 +459,188 @@
 "description":"Epic's Unreal Engine plugin joins the official Claude marketplace",
 "language":"Shell",
 "created":"2026-06-08"
+},
+"YoyoLin008/mcreplay":{
+"s":{
+"2026-10-25":170
+},
+"kind":"MCP server",
+"first_seen":"2026-10-25",
+"seen_in":[
+"Trending"
+],
+"url":"https://github.com/YoyoLin008/mcreplay",
+"description":"McReplay（麦回放）— Structural snapshots, change reports, and local MCP replay for McDonald's China integrations.",
+"language":"Python",
+"created":"2026-10-24"
+},
+"xkx121029/mcd-vibe-commit":{
+"s":{
+"2026-10-25":151
+},
+"kind":"Dev tool",
+"first_seen":"2026-10-25",
+"seen_in":[
+"Trending"
+],
+"url":"https://github.com/xkx121029/mcd-vibe-commit",
+"description":"麦门人格 Commit 生成器：测出你的麦门人格，生成专属 git commit message（麦当劳 MCP 大赛参赛作品）",
+"language":"Python",
+"created":"2026-10-24"
+},
+"tian1326/mcd-coupon-assistant":{
+"s":{
+"2026-10-25":91
+},
+"kind":"Skill",
+"first_seen":"2026-10-25",
+"seen_in":[
+"Trending"
+],
+"url":"https://github.com/tian1326/mcd-coupon-assistant",
+"description":"麦当劳优惠券省钱助手 — 基于麦当劳中国官方 MCP 的 WorkBuddy Skill：查门店/查券/带券算价/比价推荐。默认不下单、不自动领券。",
+"language":"Python",
+"created":"2026-10-24"
+},
+"xanthichi/mcd-meal-mate":{
+"s":{
+"2026-10-25":86
+},
+"kind":"Skill",
+"first_seen":"2026-10-25",
+"seen_in":[
+"Trending"
+],
+"url":"https://github.com/xanthichi/mcd-meal-mate",
+"description":"M餐搭子：基于麦当劳 MCP 实时菜单与营养数据的智能搭餐 Skill｜在线演示已上线",
+"language":"TypeScript",
+"created":"2026-10-24"
+},
+"RoderickGrc/agentic-edition-studio":{
+"s":{
+"2026-10-25":19
+},
+"kind":"Skill",
+"first_seen":"2026-10-25",
+"seen_in":[
+"Trending"
+],
+"url":"https://github.com/RoderickGrc/agentic-edition-studio",
+"description":"Teach an AI agent to edit video: perception (sureshot), Remotion editing, wiki-based judgment. By RodGrc.",
+"language":"Python",
+"created":"2026-10-24"
+},
+"joelhooks/lockjaw":{
+"s":{
+"2026-10-25":12
+},
+"kind":"AI infra",
+"first_seen":"2026-10-25",
+"seen_in":[
+"Trending"
+],
+"url":"https://github.com/joelhooks/lockjaw",
+"description":"🔐 Egress credential injection for agents: agents hold placeholders, the cell fills real keys at the edge for approved hosts.",
+"language":"TypeScript",
+"created":"2026-10-24"
+},
+"aicodeking/pandacode":{
+"s":{
+"2026-10-25":626
+},
+"kind":"Coding agent",
+"first_seen":"2026-10-25",
+"seen_in":[
+"Trending"
+],
+"url":"https://github.com/aicodeking/pandacode",
+"description":"PandaCode: a calm desktop workspace for coding agents",
+"language":"Rust",
+"created":"2026-10-18"
+},
+"dominikmartn/harp":{
+"s":{
+"2026-10-25":604
+},
+"kind":"Dev tool",
+"first_seen":"2026-10-25",
+"seen_in":[
+"Trending"
+],
+"url":"https://github.com/dominikmartn/harp",
+"description":"Run many Claude Code and Codex agents side by side, in one sidebar that tells you which one needs you. An unofficial fork of Warp.",
+"language":"Rust",
+"created":"2026-10-20"
+},
+"realskyrin/ns-game-apple-arm-port":{
+"s":{
+"2026-10-25":496
+},
+"kind":"Skill",
+"first_seen":"2026-10-25",
+"seen_in":[
+"Trending"
+],
+"url":"https://github.com/realskyrin/ns-game-apple-arm-port",
+"description":"Agent skill for native Nintendo Switch game porting to Apple Silicon macOS, iPadOS and iOS with Rust and Metal",
+"language":"",
+"created":"2026-10-18"
+},
+"simbasjungles/free-my-tv":{
+"s":{
+"2026-10-25":4317
+},
+"kind":"Other",
+"first_seen":"2026-10-25",
+"seen_in":[
+"Trending"
+],
+"url":"https://github.com/simbasjungles/free-my-tv",
+"description":"A fast, ad-free home screen for Google TV, LG webOS and Samsung Tizen. One button to undo.",
+"language":"Java",
+"created":"2026-10-19"
+},
+"vercel-labs/fx0":{
+"s":{
+"2026-10-25":398
+},
+"kind":"Agent framework",
+"first_seen":"2026-10-25",
+"seen_in":[
+"Trending"
+],
+"url":"https://github.com/vercel-labs/fx0",
+"description":"A lightweight design agent built with libfx. Describe a page and an agent writes it as one HTML file.",
+"language":"TypeScript",
+"created":"2026-10-19"
+},
+"actionow-ai/vvv":{
+"s":{
+"2026-10-25":337
+},
+"kind":"Skill",
+"first_seen":"2026-10-25",
+"seen_in":[
+"Trending"
+],
+"url":"https://github.com/actionow-ai/vvv",
+"description":"Build a video template once, reuse it across coding agents. Editable Remotion templates and an Agent Skill for Claude Code, Codex and 25+ agents.",
+"language":"Python",
+"created":"2026-10-22"
+},
+"QingYunA/answer-me-with-html":{
+"s":{
+"2026-10-25":4371
+},
+"kind":"Skill",
+"first_seen":"2026-10-25",
+"seen_in":[
+"Trending"
+],
+"url":"https://github.com/QingYunA/answer-me-with-html",
+"description":"Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
+"language":"JavaScript",
+"created":"2026-10-02"
 }
 },
 "updated":"2026-10-25"
