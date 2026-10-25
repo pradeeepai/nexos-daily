@@ -2,7 +2,7 @@ name: Audio briefing
 on:
   push:
     branches: [main]
-    paths: ["editions/20*.json"]
+    paths: ["editions/20*.json", "scripts/tts.py"]
   workflow_dispatch:
 permissions:
   contents: write
