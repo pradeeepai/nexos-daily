@@ -1,7 +1,12 @@
 """Make audio/DAY.mp3 from the newest edition's briefing text with Kokoro TTS. Runs in GitHub Actions."""
 import json, os, glob, subprocess, datetime, time, traceback, re
-import numpy as np, soundfile as sf
-from kokoro import KPipeline
+def gh_error(msg):  # shows as an annotation on the run
+    print("::error::" + msg.replace("\n", "%0A")[-3000:], flush=True)
+try:
+    import numpy as np, soundfile as sf
+    from kokoro import KPipeline
+except Exception:
+    gh_error(traceback.format_exc()); raise
 
 eds = sorted(glob.glob("editions/20*.json"))
 todo = []
@@ -16,7 +21,7 @@ for n in range(4):  # model download from Hugging Face can fail for a short time
     try:
         pipe = KPipeline(lang_code="a"); break
     except Exception:
-        traceback.print_exc(); time.sleep(20 * (n + 1))
+        gh_error(traceback.format_exc()); time.sleep(20 * (n + 1))
 else:
     raise SystemExit("could not load Kokoro")
 os.makedirs("audio", exist_ok=True)
@@ -28,9 +33,11 @@ for day, text in todo:
         if not chunks:
             raise RuntimeError("no audio")
     except Exception:
-        traceback.print_exc(); failed.append(day); continue
+        gh_error(traceback.format_exc()); failed.append(day); continue
     sf.write("/tmp/b.wav", np.concatenate(chunks), 24000)
-    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", "/tmp/b.wav", "-ac", "1", "-b:a", "48k", f"audio/{day}.mp3"], check=True)
+    r = subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", "/tmp/b.wav", "-ac", "1", "-b:a", "48k", f"audio/{day}.mp3"], capture_output=True, text=True)
+    if r.returncode:
+        gh_error("ffmpeg: " + r.stderr); failed.append(day); continue
     print("made", day)
 cut = (datetime.date.today() - datetime.timedelta(days=7)).isoformat()
 for f in glob.glob("audio/20*.mp3"):
