@@ -2,7 +2,7 @@
 "repos":{
 "appariciojunior/video-editor-skills":{
 "s":{
-"2026-10-25":245
+"2026-10-25":246
 },
 "kind":"Skill",
 "first_seen":"2026-10-25",
@@ -16,7 +16,7 @@
 },
 "Charonyuu/whatsmyagentdoing":{
 "s":{
-"2026-10-25":181
+"2026-10-25":199
 },
 "kind":"Dev tool",
 "first_seen":"2026-10-25",
@@ -30,7 +30,7 @@
 },
 "jouaaaaaa/mcd-self-butler":{
 "s":{
-"2026-10-25":165
+"2026-10-25":169
 },
 "kind":"Skill",
 "first_seen":"2026-10-25",
@@ -44,7 +44,7 @@
 },
 "morganlinton/BeautifulRust":{
 "s":{
-"2026-10-25":224
+"2026-10-25":328
 },
 "kind":"Plugin",
 "first_seen":"2026-10-25",
@@ -59,7 +59,7 @@
 },
 "lillyguisnet/sam3-segmentation":{
 "s":{
-"2026-10-25":65
+"2026-10-25":71
 },
 "kind":"Skill",
 "first_seen":"2026-10-25",
@@ -87,7 +87,7 @@
 },
 "t3dotgg/tstack":{
 "s":{
-"2026-10-25":32
+"2026-10-25":38
 },
 "kind":"Skill",
 "first_seen":"2026-10-25",
@@ -115,7 +115,7 @@
 },
 "thomasunise/argus":{
 "s":{
-"2026-10-25":57
+"2026-10-25":68
 },
 "kind":"Agent framework",
 "first_seen":"2026-10-25",
@@ -129,7 +129,7 @@
 },
 "trailofbits/brotli-checker":{
 "s":{
-"2026-10-25":27
+"2026-10-25":36
 },
 "kind":"Skill",
 "first_seen":"2026-10-25",
@@ -143,7 +143,7 @@
 },
 "Gathin23/tv-vibehack":{
 "s":{
-"2026-10-25":32037
+"2026-10-25":32801
 },
 "kind":"Other",
 "first_seen":"2026-10-25",
@@ -157,7 +157,7 @@
 },
 "aicodeking/leanrea":{
 "s":{
-"2026-10-25":2191
+"2026-10-25":2308
 },
 "kind":"Skill",
 "first_seen":"2026-10-25",
@@ -171,7 +171,7 @@
 },
 "Ansub/tv-detox":{
 "s":{
-"2026-10-25":1495
+"2026-10-25":1508
 },
 "kind":"Other",
 "first_seen":"2026-10-25",
@@ -185,7 +185,7 @@
 },
 "alchaincyf/huashu-motion":{
 "s":{
-"2026-10-25":1604
+"2026-10-25":1615
 },
 "kind":"Skill",
 "first_seen":"2026-10-25",
@@ -199,7 +199,7 @@
 },
 "Leonxlnx/athenaion":{
 "s":{
-"2026-10-25":295
+"2026-10-25":296
 },
 "kind":"Other",
 "first_seen":"2026-10-25",
@@ -224,7 +224,7 @@
 },
 "kanaworksai-hue/audio-studio-mcp":{
 "s":{
-"2026-10-25":480
+"2026-10-25":483
 },
 "kind":"MCP server",
 "first_seen":"2026-10-25",
@@ -238,7 +238,7 @@
 },
 "finereli/whatsapp-mcp":{
 "s":{
-"2026-10-25":361
+"2026-10-25":365
 },
 "kind":"MCP server",
 "first_seen":"2026-10-25",
@@ -280,7 +280,7 @@
 },
 "wheresryan22/anatomy":{
 "s":{
-"2026-10-25":20191
+"2026-10-25":20301
 },
 "kind":"Skill",
 "first_seen":"2026-10-25",
@@ -294,7 +294,7 @@
 },
 "yihui-dev/awesome-opus5-5-videos":{
 "s":{
-"2026-10-25":10546
+"2026-10-25":10656
 },
 "kind":"Other",
 "first_seen":"2026-10-25",
@@ -308,7 +308,7 @@
 },
 "tangency-labs/solidcraft":{
 "s":{
-"2026-10-25":10117
+"2026-10-25":10206
 },
 "kind":"Dev tool",
 "first_seen":"2026-10-25",
@@ -322,7 +322,7 @@
 },
 "rehan-remade/universal-modder":{
 "s":{
-"2026-10-25":8884
+"2026-10-25":8914
 },
 "kind":"Skill",
 "first_seen":"2026-10-25",
@@ -336,7 +336,7 @@
 },
 "KKKKhazix/AIHOT":{
 "s":{
-"2026-10-25":8555
+"2026-10-25":8573
 },
 "kind":"Agent framework",
 "first_seen":"2026-10-25",
@@ -350,7 +350,7 @@
 },
 "lemomo-ai/lemo-opuscar":{
 "s":{
-"2026-10-25":6694
+"2026-10-25":6842
 },
 "kind":"Skill",
 "first_seen":"2026-10-25",
@@ -364,7 +364,7 @@
 },
 "Louis-CFM/coucou":{
 "s":{
-"2026-10-25":6380
+"2026-10-25":6390
 },
 "kind":"Dev tool",
 "first_seen":"2026-10-25",
@@ -378,7 +378,7 @@
 },
 "shader-effects-inc/shaders":{
 "s":{
-"2026-10-25":5415
+"2026-10-25":5431
 },
 "kind":"Dev tool",
 "first_seen":"2026-10-25",
@@ -392,7 +392,7 @@
 },
 "Jakeschincariol/replica-skill":{
 "s":{
-"2026-10-25":5283
+"2026-10-25":5335
 },
 "kind":"Skill",
 "first_seen":"2026-10-25",
@@ -406,7 +406,7 @@
 },
 "kaankiziltug/logo-design-skill":{
 "s":{
-"2026-10-25":4468
+"2026-10-25":4498
 },
 "kind":"Skill",
 "first_seen":"2026-10-25",
@@ -420,7 +420,7 @@
 },
 "anthropics/claude-code":{
 "s":{
-"2026-10-25":153298
+"2026-10-25":153323
 },
 "kind":"MCP server",
 "first_seen":"2026-10-25",
@@ -434,7 +434,7 @@
 },
 "anthropics/single-agent-loop-kit":{
 "s":{
-"2026-10-25":85
+"2026-10-25":102
 },
 "kind":"Subagent",
 "first_seen":"2026-10-25",
@@ -448,7 +448,7 @@
 },
 "EpicGames/unreal-engine-skills-for-claude-code-plugin":{
 "s":{
-"2026-10-25":1646
+"2026-10-25":1651
 },
 "kind":"Plugin",
 "first_seen":"2026-10-25",
@@ -462,7 +462,7 @@
 },
 "YoyoLin008/mcreplay":{
 "s":{
-"2026-10-25":170
+"2026-10-25":191
 },
 "kind":"MCP server",
 "first_seen":"2026-10-25",
@@ -476,7 +476,7 @@
 },
 "xkx121029/mcd-vibe-commit":{
 "s":{
-"2026-10-25":151
+"2026-10-25":156
 },
 "kind":"Dev tool",
 "first_seen":"2026-10-25",
@@ -490,7 +490,7 @@
 },
 "tian1326/mcd-coupon-assistant":{
 "s":{
-"2026-10-25":91
+"2026-10-25":107
 },
 "kind":"Skill",
 "first_seen":"2026-10-25",
@@ -504,7 +504,7 @@
 },
 "xanthichi/mcd-meal-mate":{
 "s":{
-"2026-10-25":86
+"2026-10-25":93
 },
 "kind":"Skill",
 "first_seen":"2026-10-25",
@@ -518,7 +518,7 @@
 },
 "RoderickGrc/agentic-edition-studio":{
 "s":{
-"2026-10-25":19
+"2026-10-25":20
 },
 "kind":"Skill",
 "first_seen":"2026-10-25",
@@ -532,7 +532,7 @@
 },
 "joelhooks/lockjaw":{
 "s":{
-"2026-10-25":12
+"2026-10-25":14
 },
 "kind":"AI infra",
 "first_seen":"2026-10-25",
@@ -546,7 +546,7 @@
 },
 "aicodeking/pandacode":{
 "s":{
-"2026-10-25":626
+"2026-10-25":632
 },
 "kind":"Coding agent",
 "first_seen":"2026-10-25",
@@ -560,7 +560,7 @@
 },
 "dominikmartn/harp":{
 "s":{
-"2026-10-25":604
+"2026-10-25":607
 },
 "kind":"Dev tool",
 "first_seen":"2026-10-25",
@@ -588,7 +588,7 @@
 },
 "simbasjungles/free-my-tv":{
 "s":{
-"2026-10-25":4317
+"2026-10-25":4374
 },
 "kind":"Other",
 "first_seen":"2026-10-25",
@@ -602,7 +602,7 @@
 },
 "vercel-labs/fx0":{
 "s":{
-"2026-10-25":398
+"2026-10-25":399
 },
 "kind":"Agent framework",
 "first_seen":"2026-10-25",
@@ -616,7 +616,7 @@
 },
 "actionow-ai/vvv":{
 "s":{
-"2026-10-25":337
+"2026-10-25":363
 },
 "kind":"Skill",
 "first_seen":"2026-10-25",
@@ -630,7 +630,7 @@
 },
 "QingYunA/answer-me-with-html":{
 "s":{
-"2026-10-25":4371
+"2026-10-25":4379
 },
 "kind":"Skill",
 "first_seen":"2026-10-25",
