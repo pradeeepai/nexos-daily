@@ -26,14 +26,14 @@
   },
   "jouaaaaaa/mcd-self-butler": {
    "first_seen": "2026-10-25",
-   "kind": "Other",
+   "kind": "Skill",
    "description": "Ordering assistant built on the McDonald's MCP with meal advice and cost comparison.",
    "seen_in": [
     "Trending"
    ],
    "last_seen": "2026-10-25",
    "reported": {
-    "2026-10-25": 123
+    "2026-10-25": 164
    }
   },
   "morganlinton/BeautifulRust": {
@@ -58,7 +58,7 @@
    ],
    "last_seen": "2026-10-25",
    "reported": {
-    "2026-10-25": 57
+    "2026-10-25": 64
    }
   },
   "Shaitrish/37studio": {
@@ -82,7 +82,7 @@
    ],
    "last_seen": "2026-10-25",
    "reported": {
-    "2026-10-25": 29
+    "2026-10-25": 32
    }
   },
   "edigeh/broll-mcp": {
@@ -106,7 +106,7 @@
    ],
    "last_seen": "2026-10-25",
    "reported": {
-    "2026-10-25": 23
+    "2026-10-25": 56
    }
   },
   "trailofbits/brotli-checker": {
@@ -154,7 +154,7 @@
    ],
    "last_seen": "2026-10-25",
    "reported": {
-    "2026-10-25": 1465
+    "2026-10-25": 560
    }
   },
   "alchaincyf/huashu-motion": {
@@ -166,7 +166,7 @@
    ],
    "last_seen": "2026-10-25",
    "reported": {
-    "2026-10-25": 458
+    "2026-10-25": 1598
    }
   },
   "Leonxlnx/athenaion": {
@@ -202,7 +202,7 @@
    ],
    "last_seen": "2026-10-25",
    "reported": {
-    "2026-10-25": 109
+    "2026-10-25": 479
    }
   },
   "finereli/whatsapp-mcp": {
@@ -214,7 +214,7 @@
    ],
    "last_seen": "2026-10-25",
    "reported": {
-    "2026-10-25": 84
+    "2026-10-25": 360
    }
   },
   "Aoisop/mawoagent": {
@@ -250,7 +250,7 @@
    ],
    "last_seen": "2026-10-25",
    "reported": {
-    "2026-10-25": 20084
+    "2026-10-25": 20182
    }
   },
   "yihui-dev/awesome-opus5-5-videos": {
@@ -262,7 +262,7 @@
    ],
    "last_seen": "2026-10-25",
    "reported": {
-    "2026-10-25": 10407
+    "2026-10-25": 10540
    }
   },
   "tangency-labs/solidcraft": {
@@ -274,7 +274,7 @@
    ],
    "last_seen": "2026-10-25",
    "reported": {
-    "2026-10-25": 10007
+    "2026-10-25": 10112
    }
   },
   "rehan-remade/universal-modder": {
@@ -286,31 +286,31 @@
    ],
    "last_seen": "2026-10-25",
    "reported": {
-    "2026-10-25": 8870
+    "2026-10-25": 8885
    }
   },
   "KKKKhazix/AIHOT": {
    "first_seen": "2026-10-25",
-   "kind": "Other",
+   "kind": "Agent framework",
    "description": "Self-hosted framework for a daily industry news site with your own sources.",
    "seen_in": [
     "Trending"
    ],
    "last_seen": "2026-10-25",
    "reported": {
-    "2026-10-25": 8548
+    "2026-10-25": 8552
    }
   },
   "lemomo-ai/lemo-opuscar": {
    "first_seen": "2026-10-25",
-   "kind": "Other",
+   "kind": "Skill",
    "description": "Toolbox of 59 code-made film styles, each with a demo by Claude Opus 5.5.",
    "seen_in": [
     "Trending"
    ],
    "last_seen": "2026-10-25",
    "reported": {
-    "2026-10-25": 6569
+    "2026-10-25": 6671
    }
   },
   "Louis-CFM/coucou": {
@@ -322,7 +322,7 @@
    ],
    "last_seen": "2026-10-25",
    "reported": {
-    "2026-10-25": 6357
+    "2026-10-25": 6379
    }
   },
   "shader-effects-inc/shaders": {
@@ -346,7 +346,7 @@
    ],
    "last_seen": "2026-10-25",
    "reported": {
-    "2026-10-25": 5215
+    "2026-10-25": 5278
    }
   },
   "kaankiziltug/logo-design-skill": {
@@ -358,12 +358,12 @@
    ],
    "last_seen": "2026-10-25",
    "reported": {
-    "2026-10-25": 4434
+    "2026-10-25": 4465
    }
   },
   "anthropics/claude-code": {
    "first_seen": "2026-10-25",
-   "kind": "Other",
+   "kind": "MCP server",
    "description": "Claude Code v2.1.310 brings Monitor tool to Bedrock and Vertex",
    "seen_in": [
     "AI"
@@ -387,6 +387,162 @@
     "Claude Ecosystem"
    ],
    "last_seen": "2026-10-25"
+  },
+  "YoyoLin008/mcreplay": {
+   "first_seen": "2026-10-25",
+   "kind": "MCP server",
+   "description": "Takes structural snapshots, writes change reports and replays MCP calls locally for McDonald's China integrations.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-25",
+   "reported": {
+    "2026-10-25": 167
+   }
+  },
+  "xkx121029/mcd-vibe-commit": {
+   "first_seen": "2026-10-25",
+   "kind": "Dev tool",
+   "description": "Generates git commit messages from a playful McDonald's personality test built on the McDonald's MCP.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-25",
+   "reported": {
+    "2026-10-25": 148
+   }
+  },
+  "tian1326/mcd-coupon-assistant": {
+   "first_seen": "2026-10-25",
+   "kind": "Skill",
+   "description": "A skill on the official McDonald's China MCP that finds stores and coupons and calculates prices without placing orders.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-25",
+   "reported": {
+    "2026-10-25": 90
+   }
+  },
+  "xanthichi/mcd-meal-mate": {
+   "first_seen": "2026-10-25",
+   "kind": "Skill",
+   "description": "A meal-pairing skill that uses live menu and nutrition data from the McDonald's MCP.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-25",
+   "reported": {
+    "2026-10-25": 85
+   }
+  },
+  "RoderickGrc/agentic-edition-studio": {
+   "first_seen": "2026-10-25",
+   "kind": "Skill",
+   "description": "Teaches an AI agent to edit video with perception tools and Remotion.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-25",
+   "reported": {
+    "2026-10-25": 19
+   }
+  },
+  "joelhooks/lockjaw": {
+   "first_seen": "2026-10-25",
+   "kind": "AI infra",
+   "description": "Injects credentials at the network edge so agents only hold placeholder keys.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-25",
+   "reported": {
+    "2026-10-25": 12
+   }
+  },
+  "aicodeking/pandacode": {
+   "first_seen": "2026-10-25",
+   "kind": "Coding agent",
+   "description": "A desktop workspace for running coding agents.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-25",
+   "reported": {
+    "2026-10-25": 625
+   }
+  },
+  "dominikmartn/harp": {
+   "first_seen": "2026-10-25",
+   "kind": "Dev tool",
+   "description": "Runs many Claude Code and Codex agents side by side in one sidebar that shows which one needs you.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-25",
+   "reported": {
+    "2026-10-25": 604
+   }
+  },
+  "realskyrin/ns-game-apple-arm-port": {
+   "first_seen": "2026-10-25",
+   "kind": "Skill",
+   "description": "An agent skill for porting Nintendo Switch games natively to Apple Silicon with Rust and Metal.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-25",
+   "reported": {
+    "2026-10-25": 496
+   }
+  },
+  "simbasjungles/free-my-tv": {
+   "first_seen": "2026-10-25",
+   "kind": "Other",
+   "description": "A fast, ad-free Google TV home screen built with Claude Code.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-25",
+   "reported": {
+    "2026-10-25": 443
+   }
+  },
+  "vercel-labs/fx0": {
+   "first_seen": "2026-10-25",
+   "kind": "Agent framework",
+   "description": "A lightweight design agent that writes a described page as one HTML file.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-25",
+   "reported": {
+    "2026-10-25": 398
+   }
+  },
+  "actionow-ai/vvv": {
+   "first_seen": "2026-10-25",
+   "kind": "Skill",
+   "description": "Builds a video template once and reuses it across coding agents.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-25",
+   "reported": {
+    "2026-10-25": 332
+   }
+  },
+  "QingYunA/answer-me-with-html": {
+   "first_seen": "2026-10-25",
+   "kind": "Skill",
+   "description": "An agent skill that answers hard questions with a one-page HTML report.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-25",
+   "reported": {
+    "2026-10-25": 4372
+   }
   }
  }
 }

@@ -18,8 +18,8 @@
    "date": "2026-10-23"
   },
   {
-   "title": "OpenAI trains frontier models offline after containment breach",
-   "body": "OpenAI removed live internet access for all frontier models during training and evaluation. Models now browse an offline world of cached web content.",
+   "title": "OpenAI cuts live internet from frontier training, builds offline web",
+   "body": "OpenAI said it removed live internet access for all frontier models during training. Models now browse and search a large indexed, cached copy of the web.",
    "section": "AI",
    "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
    "date": "2026-10-25"
@@ -32,10 +32,10 @@
    "date": "2026-10-22"
   },
   {
-   "title": "OpenAI Codex Security finds critical Brotli RCE flaw",
-   "body": "CVE-2026-111497 is an out-of-bounds write in the Brotli decoder with a CVSS 4.0 score of 9.2. Brotli 1.0.3 to 1.2.0 is affected; fixes are in 1.0.10, 1.1.1 and 1.2.1.",
+   "title": "OpenAI red-team agents find unauthenticated RCE in Brotli",
+   "body": "OpenAI said its red-teaming exercise found a flaw in the Brotli compression library that allows unauthenticated remote code execution. Brotli is included in Node.js, Bun and Envoy.",
    "section": "AI",
-   "url": "https://cellcog.ai/blog/brotli-cve-2026-111497/",
+   "url": "https://x.com/OpenAI/status/2113766354386084338",
    "date": "2026-10-25"
   },
   {
@@ -79,8 +79,8 @@
    "name": "Kimi K3.1 Pro",
    "lab": "Moonshot",
    "date": "2026-10-24",
-   "url": "https://siliconangle.com/2026/10/23/moonshot-ai-launches-new-flagship-kim-k3-1-pro-model-with-3t-parameters/",
-   "what": "Moonshot AI launched Kimi K3.1 Pro on October 23 on its paid cloud services."
+   "url": "https://www.marktechpost.com/2026/10/23/moonshot-ai-kimi-k3-1-pro-open-weight-model",
+   "what": "Kimi K3.1 Pro is a 2.8T-parameter MoE model with 104B active parameters and a 1M-token context, priced at $2 input and $10 output per million tokens."
   },
   {
    "name": "MiniMax M3.1 Flash",
@@ -113,15 +113,9 @@
  ],
  "chips": [
   {
-   "title": "Amazon stores NVIDIA GB300 racks it cannot power yet",
-   "body": "Business Insider reported that Amazon expects about $5 billion of NVIDIA GB300 racks under an Early Rack Receipt process.",
-   "url": "https://letsdatascience.com/news/amazon-stockpiles-nvidia-gb300-racks-some-aws-sites-cannot-y-c2433f7d",
-   "date": "2026-10-25"
-  },
-  {
-   "title": "AMD and Intel unify x86 PyTorch acceleration in oneDNN",
-   "body": "oneDNN becomes the default open-source x86 acceleration library for PyTorch.",
-   "url": "https://newsroom.amd.com/news/amd-intel-collaborate-simplify-ai-development-on-x86-cpus-pytorch/",
+   "title": "NVIDIA Minerva brings end-to-end observability to AI factories",
+   "body": "Minerva joins telemetry from NVIDIA GPUs, networking, storage, schedulers and jobs into a live knowledge graph of GPUs, SuperNICs, switches, cables and jobs.",
+   "url": "https://blogs.nvidia.com/blog/minerva-platform-infrastructure/",
    "date": "2026-10-25"
   },
   {
@@ -129,64 +123,70 @@
    "body": "OpenShell runs each agent in an isolated sandbox with kernel controls on files and system calls, and checks every network connection against policy.",
    "url": "https://github.com/NVIDIA/OpenShell",
    "date": "2026-10-23"
+  },
+  {
+   "title": "Deep Fusion Memory adds parametric knowledge without online retrieval",
+   "body": "Deep Fusion Memory predicts a chunk-level memory from preceding context and fuses it into hidden states through gated cross-attention, with the backbone frozen.",
+   "url": "https://huggingface.co/papers/2610.25100",
+   "date": "2026-10-25"
   }
  ],
  "skills": [
   {
    "repo": "aicodeking/leanrea",
    "url": "https://github.com/aicodeking/leanrea",
-   "kind": "Skill",
-   "description": "Small skill that replaces REA with plain CLI tools and no MCP.",
-   "stars": 2028,
-   "gained": 2028
+   "kind": "",
+   "description": "",
+   "stars": null,
+   "gained": null
   },
   {
    "repo": "alchaincyf/huashu-motion",
    "url": "https://github.com/alchaincyf/huashu-motion",
    "kind": "Skill",
-   "description": "Lets a coding agent make launch videos and revise frames by pointing at them.",
-   "stars": 458,
-   "gained": 458
+   "description": "Lets a coding agent make launch films that you change by pointing at a frame.",
+   "stars": 1598,
+   "gained": 1598
   },
   {
    "repo": "olivieropinotti/orchestrator-skill",
    "url": "https://github.com/olivieropinotti/orchestrator-skill",
-   "kind": "Skill",
-   "description": "Claude Code skill that keeps the main session dispatching work to others.",
-   "stars": 50,
-   "gained": 50
+   "kind": "",
+   "description": "",
+   "stars": null,
+   "gained": null
   },
   {
    "repo": "kanaworksai-hue/audio-studio-mcp",
    "url": "https://github.com/kanaworksai-hue/audio-studio-mcp",
    "kind": "MCP server",
-   "description": "MCP server for local AI music and sound-effect generation.",
-   "stars": 109,
-   "gained": 109
+   "description": "An MCP server that makes background music and sound effects locally for Claude Code and other MCP clients.",
+   "stars": 479,
+   "gained": 479
   },
   {
    "repo": "finereli/whatsapp-mcp",
    "url": "https://github.com/finereli/whatsapp-mcp",
    "kind": "MCP server",
-   "description": "Read-only MCP server to search your own WhatsApp messages, on Cloudflare Workers.",
-   "stars": 84,
-   "gained": 84
+   "description": "A read-only MCP server that lets an agent search and read your own WhatsApp messages.",
+   "stars": 360,
+   "gained": 360
   },
   {
    "repo": "appariciojunior/video-editor-skills",
    "url": "https://github.com/appariciojunior/video-editor-skills",
-   "kind": "Skill",
-   "description": "Claude Code skills that make a first-pass DaVinci Resolve edit with transcript cuts, B-roll and captions.",
-   "stars": 233,
-   "gained": 233
+   "kind": "",
+   "description": "",
+   "stars": null,
+   "gained": null
   },
   {
    "repo": "morganlinton/BeautifulRust",
    "url": "https://github.com/morganlinton/BeautifulRust",
-   "kind": "Plugin",
-   "description": "Claude Code plugin that teaches Claude to write idiomatic, robust Rust.",
-   "stars": 97,
-   "gained": 97
+   "kind": "",
+   "description": "",
+   "stars": null,
+   "gained": null
   }
  ],
  "skill_of_week": {

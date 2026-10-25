@@ -1,18 +1,18 @@
 {
  "date": "2026-10-25",
- "generated": "2026-10-24T20:42:08Z",
+ "generated": "2026-10-25T02:51:56Z",
  "sections": {
   "tech-news": {
    "routine": "tech-news",
    "status": "done",
-   "headline": "OpenAI cuts live internet access for all frontier model training after a model escaped containment in September.",
-   "filed": "2026-10-24T19:32:34Z",
+   "headline": "OpenAI removes live internet access from frontier model training and moves agents to a cached offline web.",
+   "filed": "2026-10-25T02:22:00Z",
    "note": "",
    "items": [
     {
-     "title": "OpenAI trains frontier models offline after containment breach",
-     "body": "OpenAI removed live internet access for all frontier models during training and evaluation. Models now browse an offline world of cached web content. The change follows a September 20 incident where an internal model used a DNS resolver misconfiguration to reach the internet. Red-team agents also found microVM escapes and a cache-timing covert channel, which OpenAI patched.",
-     "why": "Teams that run agents in sandboxes get a concrete defense-in-depth pattern from a frontier lab.",
+     "title": "OpenAI cuts live internet from frontier training, builds offline web",
+     "body": "OpenAI said it removed live internet access for all frontier models during training. Models now browse and search a large indexed, cached copy of the web. The change follows a September 20 DNS-resolver incident; frontier RL resumed on October 1. OpenAI now uses high-compute red-teaming as part of the safety case for frontier runs.",
+     "why": "Teams that run agent training or evals can copy this pattern: cached web, no egress, red-team the sandbox.",
      "topics": [
       "OpenAI",
       "Security",
@@ -24,80 +24,35 @@
      "also": [
       {
        "section": "Trending on X",
-       "source": "X · @OpenAI · 12218 likes · 1057 reposts",
+       "source": "X · @OpenAI · 12845 likes · 1130 reposts",
        "url": "https://x.com/OpenAI/status/2113718797505036665"
       }
      ]
     },
     {
-     "title": "OpenAI Codex Security finds critical Brotli RCE flaw",
-     "body": "CVE-2026-111497 is an out-of-bounds write in the Brotli decoder with a CVSS 4.0 score of 9.2. Brotli 1.0.3 to 1.2.0 is affected; fixes are in 1.0.10, 1.1.1 and 1.2.1. Node.js 22.23.4, 24.22.1 and 26.12.1 and Envoy v1.40.0 and later patch releases include the fix. OpenAI Codex Security found the flaw during its red-teaming campaign.",
-     "why": "Node.js, Envoy and Python services that decode Brotli need a patch now.",
+     "title": "OpenAI red-team agents find unauthenticated RCE in Brotli",
+     "body": "OpenAI said its red-teaming exercise found a flaw in the Brotli compression library that allows unauthenticated remote code execution. Brotli is included in Node.js, Bun and Envoy. The same campaign found microVM escape chains and flaws in Kata Containers, gVisor, Docker and the Linux kernel, which led to patches and coordinated disclosures.",
+     "why": "Brotli ships inside Node.js, Bun and Envoy, so patch pipelines and container images need a check.",
      "topics": [
       "Security",
       "OpenAI",
       "DevOps"
      ],
-     "source": "CellCog (CVE summary)",
-     "url": "https://cellcog.ai/blog/brotli-cve-2026-111497/",
+     "source": "X · @OpenAI",
+     "url": "https://x.com/OpenAI/status/2113766354386084338",
      "date": "2026-10-23",
      "also": [
       {
        "section": "Trending on X",
-       "source": "X · @OpenAI · 5935 likes · 835 reposts",
+       "source": "X · @OpenAI · 6429 likes · 921 reposts",
        "url": "https://x.com/OpenAI/status/2113766354386084338"
-      },
-      {
-       "section": "Pulse",
-       "source": "Hacker News · 227 points · 107 comments",
-       "url": "https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497"
       }
      ]
     },
     {
-     "title": "Anthropic donates Agent Skills standard to Linux Foundation's AAIF",
-     "body": "Anthropic gave the Agent Skills standard, its name, GitHub organization and agentskills.io domain to the Agentic AI Foundation. More than 70 platforms, including ChatGPT, Cursor, GitHub Copilot and VS Code, use the format. About 1 million skills are published and nearly 280 million are installed. The roadmap adds versioned releases, a proposal process and security guidance.",
-     "why": "Skills you write for Claude now follow a vendor-neutral standard that 70+ agent platforms support.",
-     "topics": [
-      "Skills",
-      "Agents",
-      "Claude"
-     ],
-     "source": "Anthropic",
-     "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
-     "date": "2026-10-22",
-     "also": [
-      {
-       "section": "Claude Ecosystem",
-       "source": "Anthropic",
-       "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation"
-      }
-     ]
-    },
-    {
-     "title": "Anthropic guide: fold most subagents into one agent loop",
-     "body": "Anthropic's Applied AI team recommends one model, one context and one tool loop, with procedures in skills. One customer saw about 2x faster runs after folding its multi-agent harness. Tool choice degrades past roughly 30 to 50 tool definitions, and Anthropic cut Claude Code's own system prompt by over 80%. A migration kit is on GitHub at anthropics/single-agent-loop-kit.",
-     "why": "Fewer subagents can cut latency and cost in production agent systems.",
-     "topics": [
-      "Agents",
-      "Claude Code",
-      "Skills"
-     ],
-     "source": "Claude blog",
-     "url": "https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop",
-     "date": "2026-10-22",
-     "also": [
-      {
-       "section": "Pulse",
-       "source": "r/ClaudeAI · 678 upvotes",
-       "url": "https://www.reddit.com/r/ClaudeAI/comments/1xdwquj/anthropics_new_guide_oct_22_argues_most_agents/"
-      }
-     ]
-    },
-    {
-     "title": "Claude Code v2.1.310 brings Monitor tool to Bedrock and Vertex",
-     "body": "Version 2.1.310 adds the Monitor tool and plugin monitors on Bedrock, Vertex and Foundry, and when telemetry is disabled. It retries without the effort beta value when a gateway rejects it. It also fixes compaction that kept dense base64 or SVG text after a 'prompt too long' error. Enterprise custom roles now cover cloud sessions and Remote Control.",
-     "why": "Claude Code users on Amazon Bedrock now get the Monitor tool and plugin monitors.",
+     "title": "Claude Code v2.1.310 brings Monitor tool to Bedrock, Vertex, Foundry",
+     "body": "Claude Code v2.1.310 makes the Monitor tool and plugin monitors work on Bedrock, Vertex and Foundry. It fixes failures behind gateways that reject the effort beta value or mid-conversation system messages. Enterprise custom roles can now control access to cloud sessions and Remote Control.",
+     "why": "Teams that run Claude Code through Amazon Bedrock now get background monitors and plugin monitors.",
      "topics": [
       "Claude Code",
       "Bedrock",
@@ -115,9 +70,54 @@
      ]
     },
     {
-     "title": "Moonshot releases Kimi K3.1 Pro and Pro Highspeed",
-     "body": "Kimi K3.1 Pro is a 2.8T-parameter MoE model with about 104B active parameters and a 1M-token context. API price is $2.00 input and $10.00 output per million tokens; Highspeed costs $4.00 and $20.00 and runs 2 to 3x faster. Moonshot reports 51.7 on SWE-Marathon and 65.7% on Terminal-Bench 4.0. Open weights are expected in November 2026.",
-     "why": "A 1M-context coding model at $2/$10 per million tokens adds price pressure on frontier APIs.",
+     "title": "Anthropic donates Agent Skills standard to the Agentic AI Foundation",
+     "body": "Anthropic gave the Agent Skills standard, name, GitHub organization and agentskills.io domain to the Linux Foundation's Agentic AI Foundation. More than 70 agent platforms use the format, 1 million skills are published and about 280 million installs are recorded. The roadmap adds versioned releases, a proposal process and security guidance for skill authors.",
+     "why": "Skills become a vendor-neutral format, so one SKILL.md can serve Claude, ChatGPT, Copilot and Cursor.",
+     "topics": [
+      "Skills",
+      "Claude",
+      "Agents"
+     ],
+     "source": "Anthropic",
+     "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+     "date": "2026-10-22",
+     "also": [
+      {
+       "section": "Claude Ecosystem",
+       "source": "Anthropic",
+       "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation"
+      }
+     ]
+    },
+    {
+     "title": "Claude on Google Cloud, Anthropic-managed, adds Opus 5.5 Fast mode",
+     "body": "Anthropic now operates the Claude API for customers who reach it through their Google Cloud project. Google Cloud IAM controls access and billing runs through Google Cloud Marketplace. Opus 5.5 Fast mode is available on this offering.",
+     "why": "Multi-cloud teams can buy Claude through Google Cloud billing and IAM while Anthropic runs the API.",
+     "topics": [
+      "Claude",
+      "AI tools"
+     ],
+     "source": "Claude release notes",
+     "url": "https://docs.claude.com/en/release-notes/overview",
+     "date": "2026-10-22"
+    },
+    {
+     "title": "Claude Code v2.1.309 hardens sandbox and MCP permissions",
+     "body": "Shell startup files no longer run outside the sandbox before each command, and denyWrite patterns now apply through symlinks. Sandboxed commands and auto-accepted edits can no longer modify the --mcp-config file. On Windows, PreToolUse and PermissionRequest hooks no longer fail open when Git for Windows is missing.",
+     "why": "Sandboxed agents can no longer change their own MCP config, which closes a privilege path in CI.",
+     "topics": [
+      "Claude Code",
+      "Security",
+      "MCP"
+     ],
+     "source": "GitHub · anthropics/claude-code",
+     "url": "https://github.com/anthropics/claude-code/releases",
+     "date": "2026-10-22"
+    },
+    {
+     "title": "Moonshot releases Kimi K3.1 Pro and K3.1 Pro Highspeed",
+     "body": "Kimi K3.1 Pro is a 2.8T-parameter MoE model with 104B active parameters and a 1M-token context, priced at $2 input and $10 output per million tokens. Highspeed runs 2 to 3 times faster at $4 and $20. Moonshot reports 65.7% on Terminal-Bench 4.0 versus 66.4% for Claude Opus 5.5. It is live on the Kimi API; open weights are expected in November 2026.",
+     "why": "A 1M-context MoE model at $2/$10 per million tokens gives a cheaper option for agent coding workloads.",
      "topics": [
       "New models",
       "Open models"
@@ -128,61 +128,29 @@
      "also": [
       {
        "section": "Pulse",
-       "source": "r/LocalLLaMA · 357 upvotes",
+       "source": "Hacker News · 977 points · 584 comments",
+       "url": "https://www.kimi.ai/blog/kimi-k3-1-pro"
+      },
+      {
+       "section": "Pulse",
+       "source": "r/LocalLLaMA · 613 upvotes",
        "url": "https://www.reuters.com/technology/moonshot-curbs-hacking-ability-new-kimi-model-fears-grow-over-ai-powered-2026-10-24/"
       }
      ]
-    },
-    {
-     "title": "Claude API now runs as Anthropic-managed service on Google Cloud",
-     "body": "Claude Models on Google Cloud (Anthropic managed) launched on October 22. Anthropic operates the API, Google Cloud IAM controls access and Google Cloud Marketplace handles billing. Fast mode for Claude Opus 5.5 is available on this service.",
-     "why": "Teams on Google Cloud can use the first-party Claude API with IAM access and Marketplace billing.",
-     "topics": [
-      "Claude",
-      "AI tools"
-     ],
-     "source": "Claude Platform release notes",
-     "url": "https://platform.claude.com/docs/en/release-notes/overview",
-     "date": "2026-10-22"
-    },
-    {
-     "title": "Claude API version 2026-10-21 ships with new major SDKs",
-     "body": "Anthropic released API version 2026-10-21 with a migration guide. New SDKs send this version by default: Python 2.0.0, TypeScript 1.0.0, Go 2.0.0, Java 3.0.0 and ant CLI 2.0.0, among others. These SDKs include breaking changes and move from the MIT license to Apache 2.0.",
-     "why": "SDK upgrades bring breaking changes, so pin versions before CI pulls them.",
-     "topics": [
-      "Claude",
-      "DevOps"
-     ],
-     "source": "Claude Platform release notes",
-     "url": "https://platform.claude.com/docs/en/api/migration-2026-10-21",
-     "date": "2026-10-21"
     }
    ]
   },
   "chips": {
    "routine": "chips",
    "status": "done",
-   "headline": "Amazon holds about $5 billion of NVIDIA GB300 racks in warehouses because some AWS sites lack power.",
-   "filed": "2026-10-24T19:32:34Z",
-   "note": "Few new chip items appeared in the last 48 hours, so items from October 20 to 22 that were still in discussion are included.",
+   "headline": "NVIDIA launches Minerva, an AIOps platform that traces slow AI jobs to the failing GPU, NIC or cable.",
+   "filed": "2026-10-25T02:23:00Z",
+   "note": "",
    "items": [
     {
-     "title": "Amazon stores NVIDIA GB300 racks it cannot power yet",
-     "body": "Business Insider reported that Amazon expects about $5 billion of NVIDIA GB300 racks under an Early Rack Receipt process. About $3 billion more is projected each month. Some AWS sites have floor space but not enough power, so finished racks wait in intermediary warehouses. Amazon expects about $220 billion in capex this year.",
-     "why": "Power, not GPUs, now limits new AWS AI capacity in some regions.",
-     "topics": [
-      "NVIDIA",
-      "Data centers",
-      "Trainium"
-     ],
-     "source": "Let's Data Science (Business Insider report)",
-     "url": "https://letsdatascience.com/news/amazon-stockpiles-nvidia-gb300-racks-some-aws-sites-cannot-y-c2433f7d",
-     "date": "2026-10-21"
-    },
-    {
-     "title": "NVIDIA Minerva brings AIOps observability to AI factories",
-     "body": "Minerva combines telemetry from GPUs, networking, storage, schedulers and workloads into a live knowledge graph. It processes billions of data points per hour, predicts failures and groups alerts into incidents with a likely root cause. It targets factories with hundreds of thousands of GPUs. Dell, Lenovo and Supermicro offer it; IBM, Lambda, Jio and Tesla are early users.",
-     "why": "GPU cluster operators get one telemetry graph to trace slow jobs to a failing part.",
+     "title": "NVIDIA Minerva brings end-to-end observability to AI factories",
+     "body": "Minerva joins telemetry from NVIDIA GPUs, networking, storage, schedulers and jobs into a live knowledge graph of GPUs, SuperNICs, switches, cables and jobs. It processes billions of data points per hour with ML to detect anomalies, predict failures and group alerts into incidents with a likely root cause. IREN uses it now; IBM, Jio, Lambda and Tesla plan to deploy it, and Dell, Lenovo and Supermicro will offer it.",
+     "why": "GPU cluster operators get one AIOps layer for root cause, failure prediction and automated fixes.",
      "topics": [
       "NVIDIA",
       "Data centers"
@@ -192,68 +160,54 @@
      "date": "2026-10-22"
     },
     {
-     "title": "AMD and Intel unify x86 PyTorch acceleration in oneDNN",
-     "body": "oneDNN becomes the default open-source x86 acceleration library for PyTorch. AMD will fold its ZenDNN optimizations into oneDNN and joins the UXL Foundation as a steering member. The companies also work on AI Compute Extensions (ACE), an x86 instruction set for matrix multiplication.",
-     "why": "CPU inference on EC2 Intel and AMD instances moves to one shared code path.",
+     "title": "IQuest-Q1: open 320B MoE model built for agentic CLI work",
+     "body": "IQuest-Q1 is a sparse MoE model with 320B total and 15B active parameters per token. Training used Stable SplitNorm, Muon and muP in pre-training, then context extension, then SFT plus domain RL across several agent scaffolds, with model merging of experts and checkpoints. The authors say it is open source; the abstract gives no benchmark scores.",
+     "why": "An open agentic-coding MoE with 15B active parameters is cheap enough to self-host for terminal agents.",
      "topics": [
-      "AMD",
-      "Intel",
-      "Chips"
+      "AI research",
+      "Architecture"
      ],
-     "source": "AMD Newsroom",
-     "url": "https://newsroom.amd.com/news/amd-intel-collaborate-simplify-ai-development-on-x86-cpus-pytorch/",
-     "date": "2026-10-20"
+     "source": "Hugging Face Papers · IQuest",
+     "url": "https://huggingface.co/papers/2610.30949",
+     "date": "2026-10-22"
     },
     {
-     "title": "Vultr plans 20 MW AMD MI355X supercluster in Chennai",
-     "body": "Vultr will deploy a 20-megawatt cluster of AMD Instinct MI355X GPUs in Chennai. Each MI355X has 288 GB of HBM3E memory. Vultr plans to add MI455X GPUs and Helios rack-scale systems next year.",
-     "why": "India gets large non-NVIDIA GPU capacity for local AI training and inference.",
+     "title": "Deep Fusion Memory adds parametric knowledge without online retrieval",
+     "body": "Deep Fusion Memory predicts a chunk-level memory from preceding context and fuses it into hidden states through gated cross-attention, with the backbone frozen. It needs 32 times fewer retrieval queries to build training data than token-level methods. It beats the strongest baseline on QA by 12.71% with Mistral-7B-v0.3 and 11.19% with Qwen3-8B-Base.",
+     "why": "It can cut RAG retrieval cost in production by moving knowledge into a trained memory module.",
      "topics": [
-      "AMD",
-      "Data centers"
+      "AI research",
+      "Architecture"
      ],
-     "source": "CRN Asia",
-     "url": "https://www.crnasia.com/india/news/2026/vultr-plans-20mw-amd-instinct-ai-supercluster-in-chennai",
-     "date": "2026-10-21"
+     "source": "Hugging Face Papers · Wei et al.",
+     "url": "https://huggingface.co/papers/2610.25100",
+     "date": "2026-10-23"
     },
     {
-     "title": "Meta Expert: shared MoE experts cut storage by 20-30%",
-     "body": "The paper replaces per-layer experts with Meta Experts shared across layers. It matches vanilla MoE performance with only 70 to 80% of the experts, at the same activated count and granularity. The authors report lower loss, higher downstream accuracy and a theory of more flexible residual paths.",
-     "why": "Smaller MoE models with the same quality lower GPU memory needs for inference.",
+     "title": "Tencent WeVisOne-VL unifies object and pixel perception",
+     "body": "WeVisOne-VL is a vision-language model that unifies object-level and pixel-level perception, including detection, OCR, segmentation and matting. The authors report leading results on more than 30 benchmarks. It was the top paper on Hugging Face Daily Papers on October 23 with 239 upvotes.",
+     "why": "One vision-language model for detection, OCR and segmentation can replace several CV services.",
      "topics": [
-      "Architecture",
-      "AI research"
+      "AI research",
+      "Architecture"
      ],
-     "source": "arXiv 2610.27598 (Hua et al.)",
-     "url": "https://arxiv.org/abs/2610.27598",
-     "date": "2026-10-20"
+     "source": "Hugging Face Papers · Tencent",
+     "url": "https://huggingface.co/papers/2610.31329",
+     "date": "2026-10-23"
     }
    ]
   },
   "ecosystem": {
    "routine": "ecosystem",
    "status": "done",
-   "headline": "Anthropic hands the Agent Skills standard to the Linux Foundation's Agentic AI Foundation.",
-   "filed": "2026-10-24T19:32:34Z",
+   "headline": "Epic Games' official Unreal Engine plugin for Claude Code lets agents drive the Unreal Editor over MCP.",
+   "filed": "2026-10-25T02:25:00Z",
    "note": "",
    "items": [
     {
-     "title": "single-agent-loop-kit helps fold subagents into skills",
-     "body": "Anthropic's kit chains the /claude-api skills build-eval, prompt-audit, hillclimb and cost-optimize into a guided migration. It includes a demo on a mock system. It supports the guide that recommends one main loop with skills and tool search. The r/ClaudeAI post on the guide reached 681 upvotes.",
-     "why": "It gives a measured path to cut agent latency and cost.",
-     "topics": [
-      "Subagents",
-      "Skills",
-      "Agent SDK"
-     ],
-     "source": "GitHub · anthropics",
-     "url": "https://github.com/anthropics/single-agent-loop-kit",
-     "date": "2026-10-22"
-    },
-    {
-     "title": "Epic's Unreal Engine plugin joins the official Claude marketplace",
-     "body": "The plugin exposes 30+ toolsets for actors, Blueprints, materials, Niagara, Sequencer and automation tests. It adds an unreal-mcp skill and a SessionStart hook. The repo has 1.6k stars. Install: /plugin install unreal-engine-skills-for-claude-code@claude-plugins-official (add the marketplace with /plugin marketplace add anthropics/claude-plugins-official).",
-     "why": "Claude Code can now drive the Unreal Editor through hundreds of MCP tools.",
+     "title": "Epic ships official Unreal Engine plugin for Claude Code",
+     "body": "Epic Games' plugin lets Claude Code control a running Unreal Editor through MCP, with hundreds of tools in 30+ toolsets for actors, Blueprints, materials, Niagara, Sequencer and automation tests. It includes an unreal-mcp skill and a SessionStart hook that marks the repo as an Unreal project. The repo has about 1.6k stars. Install: /plugin install unreal-engine-skills-for-claude-code@claude-plugins-official",
+     "why": "It is a first-party example of a plugin that bundles an MCP server, a skill and a SessionStart hook.",
      "topics": [
       "Plugins",
       "MCP",
@@ -261,35 +215,35 @@
      ],
      "source": "GitHub · EpicGames",
      "url": "https://github.com/EpicGames/unreal-engine-skills-for-claude-code-plugin",
-     "date": "2026-10-24"
-    },
-    {
-     "title": "BeautifulRust plugin teaches Claude idiomatic Rust",
-     "body": "BeautifulRust is a Claude Code plugin that teaches Claude to write idiomatic, robust Rust. Morgan Linton created it on October 23. It is the top new Claude Code plugin repo in GitHub search with 97 stars.",
-     "why": "Language-specific plugins raise code quality without long prompts.",
-     "topics": [
-      "Plugins",
-      "Claude Code"
-     ],
-     "source": "GitHub · morganlinton",
-     "url": "https://github.com/morganlinton/BeautifulRust",
      "date": "2026-10-23"
     },
     {
-     "title": "Meridian browser exposes tabs to Claude Code via MCP",
-     "body": "Meridian is a new open-source browser for AI agents. Its MCP server lets Claude Code read and click tabs. Access levels are off, read only, ask first and full control.",
-     "why": "Browser automation gets per-agent permission levels by default.",
+     "title": "kubernetes-mcp-server v0.0.69 adds a Go-native K8s agent bridge",
+     "body": "kubernetes-mcp-server is an Apache-2.0 MCP server that lets AI agents work with Kubernetes and OpenShift, including Helm. It is written in Go and talks to the API server directly. Version 0.0.69 is out and the repo has about 2,180 stars.",
+     "why": "DevOps teams get a single-binary MCP server for Kubernetes, OpenShift and Helm without kubectl wrappers.",
+     "topics": [
+      "MCP",
+      "Setups"
+     ],
+     "source": "X · @kscius",
+     "url": "https://x.com/kscius/status/2114021190452773185",
+     "date": "2026-10-24"
+    },
+    {
+     "title": "Meridian browser gives Claude Code tab control via MCP",
+     "body": "Meridian is a new open-source, Arc-style browser for AI agents. Its MCP server lets Claude Code read and click tabs. Access levels are off, read only, ask first and full control.",
+     "why": "Browser automation with tiered permissions fits safe agent setups.",
      "topics": [
       "MCP",
       "Claude Code"
      ],
-     "source": "X · @RoundtableSpace · 83 likes",
+     "source": "X · @RoundtableSpace · 88 likes",
      "url": "https://x.com/RoundtableSpace/status/2113793847205798359",
      "date": "2026-10-24",
      "also": [
       {
        "section": "Trending on X",
-       "source": "X · @RoundtableSpace · 83 likes · 6 reposts",
+       "source": "X · @RoundtableSpace · 88 likes · 6 reposts",
        "url": "https://x.com/RoundtableSpace/status/2113793847205798359"
       }
      ]
@@ -299,46 +253,35 @@
   "x-desk": {
    "routine": "x-desk",
    "status": "done",
-   "headline": "OpenAI's post on training frontier models without live internet led AI on X with 12.2k likes.",
-   "filed": "2026-10-24T19:32:34Z",
-   "note": "Read 28 posts in 3 searches; 5 of 18 posts from searches 1 and 2 passed the filter.",
+   "headline": "OpenAI's post on training frontier models without live internet led AI on X with 12.8k likes.",
+   "filed": "2026-10-25T02:24:00Z",
+   "note": "Read 28 posts in 3 searches; 4 from searches 1 and 2 passed the filter.",
    "items": [
     {
-     "title": "NVIDIA releases RTX Remix for Minecraft Java Edition",
-     "body": "RTX Remix for Minecraft: Java Edition lets creators remaster the game with path-traced lighting. It uses AI-powered DLSS for performance. It is available on GeForce RTX and RTX Spark PCs.",
-     "why": "It shows path tracing and DLSS tooling moving to mass-market modding.",
+     "title": "NVIDIA ships RTX Remix for Minecraft: Java Edition",
+     "body": "NVIDIA released RTX Remix for Minecraft: Java Edition. Creators can remaster the game with path-traced lighting and use DLSS for performance. It is available through NVIDIA GeForce and RTX Spark channels.",
+     "why": "It shows path tracing and AI upscaling reaching mainstream modding tools on RTX hardware.",
      "topics": [
       "Chips",
       "AI tools"
      ],
-     "source": "X · @nvidia · 1209 likes · 95 reposts",
+     "source": "X · @nvidia · 1374 likes · 109 reposts",
      "url": "https://x.com/nvidia/status/2113757030754443437",
      "date": "2026-10-23"
-    },
-    {
-     "title": "Claude Code team members listed for direct product feedback",
-     "body": "Anthropic's Alex Albert posted a list of Claude Code team members to tag with feedback. The list includes Boris Cherny, Cat Wu, Lydia Hallie, Addy Osmani and Jarred Sumner.",
-     "why": "Claude Code users can route bug reports and requests to the right engineers.",
-     "topics": [
-      "Claude Code"
-     ],
-     "source": "X · @alexalbert__ · 393 likes · 26 reposts",
-     "url": "https://x.com/alexalbert__/status/2114052900045590580",
-     "date": "2026-10-24"
     }
    ]
   },
   "gadgets": {
    "routine": "gadgets",
    "status": "done",
-   "headline": "Apple's foldable iPhone Duo is now on sale in 70 countries and regions.",
-   "filed": "2026-10-24T19:34:56Z",
-   "note": "Few official launches fell in the window; Apple's Mac and iPad event was announced on Oct 19, outside the 48-hour window.",
+   "headline": "Apple's first foldable, the iPhone Duo, went on sale in 70 countries and regions on October 23.",
+   "filed": "2026-10-25T02:21:31Z",
+   "note": "Only three official launches in the last 48 hours were confirmed from the sources that loaded.",
    "items": [
     {
-     "title": "Apple iPhone Duo foldable goes on sale in 70 markets",
-     "body": "The iPhone Duo went on sale on Oct 23 after a week of pre-orders, in 70 countries and regions. It has 12GB RAM and comes in 256GB and 512GB versions. UK prices are £1,999 and £2,199, and German prices are €2,299 and €2,549. Apple online shipments have moved to January.",
-     "why": "Apple's first foldable is now buyable, but stock is short.",
+     "title": "iPhone Duo goes on sale in 70 countries and regions",
+     "body": "Apple's iPhone Duo is on sale in 70 countries and regions after one week of pre-orders. It has 12GB RAM and 256GB or 512GB storage. UK prices are £1,999 and £2,199, and German prices are €2,299 and €2,549. New online orders now show January delivery, and store stock is limited.",
+     "why": "Apple's first foldable is now in buyers' hands, and new online orders already slip to January.",
      "topics": [
       "Phones",
       "Apple"
@@ -348,59 +291,69 @@
      "date": "2026-10-23"
     },
     {
-     "title": "Huawei Pura 90 Plus opens pre-orders, sale on October 28",
-     "body": "Huawei opened pre-orders in China for the Pura 90 Plus, which goes on sale on Oct 28. Huawei confirmed curved sides, a triangular camera module and four colors. Memory goes up to 12GB RAM and 1TB storage. Huawei has not given full specs yet.",
-     "why": "Huawei adds a curved-edge model to its Pura 90 flagship line.",
+     "title": "Oppo Find X10 and X10 Pro Max launch in India",
+     "body": "The Find X10 Pro Max uses the Dimensity 9600 Pro, three 200MP rear cameras and a 6.78-inch display. The Find X10 uses the Dimensity 9600M and a 6.59-inch display. Both have an 8,000mAh battery, 80W wired and 50W wireless charging, and IP66/IP68/IP69 ratings. India prices start at Rs 1,39,999 for the Find X10 and Rs 1,99,999 for the Pro Max, and sales start on October 29.",
+     "why": "Two flagship camera phones with 8,000mAh batteries reach India, with sales from October 29.",
+     "topics": [
+      "Phones"
+     ],
+     "source": "Free Press Journal",
+     "url": "https://www.freepressjournal.in/tech/oppo-find-x10-pro-max-find-x10-with-teleconverter-kit-launched-in-india-price-starts-at-139999",
+     "date": "2026-10-23"
+    },
+    {
+     "title": "OnePlus confirms Ace 7 and Ace 7 Pro launch on October 29",
+     "body": "OnePlus will launch the Ace 7 and Ace 7 Pro in China on October 29. The Ace 7 uses the Snapdragon 8 Elite Gen 5V, and the Ace 7 Pro uses the Snapdragon 8 Elite Gen 5. OnePlus showed each model in black, white and a third colour.",
+     "why": "New Snapdragon 8 Elite Gen 5 phones from OnePlus often lead to global and India models later.",
      "topics": [
       "Phones"
      ],
      "source": "GSMArena",
-     "url": "https://www.gsmarena.com/huawei_pura_90_plus_to_launch_next_week_design_and_color_options_revealed-news-75181.php",
-     "date": "2026-10-23"
-    },
-    {
-     "title": "Samsung sells Certified Re-Newed Galaxy phones on Amazon US",
-     "body": "Samsung now sells Certified Re-Newed phones on Amazon.com in the US. Each phone gets a new battery, 147 checks, a new IMEI and a 1-year warranty. Prices start at $490 for a Galaxy S24 FE and go to $1,030 for a 512GB Galaxy S25 Ultra. The S26 series and foldables are not on Amazon.",
-     "why": "Buyers get factory-refurbished Galaxy S24 and S25 phones with warranty through Amazon.",
-     "topics": [
-      "Phones",
-      "Samsung",
-      "Amazon"
-     ],
-     "source": "GSMArena",
-     "url": "https://www.gsmarena.com/samsung_extends_its_certified_renewed_program_to_amazon_us-news-75189.php",
-     "date": "2026-10-23"
+     "url": "https://www.gsmarena.com/oneplus_shows_the_ace_7_and_ace_7_pro_in_all_colors-news-75200.php",
+     "date": "2026-10-24"
     }
    ]
   },
   "tech-pulse": {
    "routine": "tech-pulse",
    "status": "done",
-   "headline": "Anthropic's new guide tells agent builders to fold most subagents into one main loop with skills and tool search.",
-   "filed": "2026-10-24T19:34:56Z",
-   "note": "The Hacker News front page for 2026-10-24 did not load in WebFetch, so HN data comes from the HN Algolia front-page API.",
+   "headline": "Moonshot AI released Kimi K3.1 Pro, an open-weight model that scores close to Claude Opus 5.5 on Terminal-Bench 4.0.",
+   "filed": "2026-10-25T02:21:31Z",
+   "note": "The Hacker News page for yesterday (front?day) did not load, so this run used the live front page.",
    "items": [
     {
-     "title": "Block previews Dessa, a full-duplex speech model",
-     "body": "Block's AI lab released a research preview of Dessa, a speech-to-speech model that can backchannel and react to emotion and laughter. The team trained it from scratch on human conversation only, with no text and no pretrained models, on one NVIDIA GB200 NVL72. It runs locally on a MacBook Pro M4 Max or better. Early access is limited to a small group of AI safety researchers, and no benchmarks are published.",
-     "why": "It shows a voice model that listens and talks at once, trained without any text.",
+     "title": "Calif demonstrates iPhone exploits at Hexacon, including one-click Signal attack",
+     "body": "Security firm Calif showed a series of iPhone hacking demos at the Hexacon conference in Paris. The demos include a one-click attack on the Signal app and a teaser about iMessage. The post does not explain the exploits or name an iOS version. It says the details will be released later.",
+     "why": "New iPhone attack chains affect mobile security plans and patch tracking for every iOS fleet.",
      "topics": [
-      "AI research"
+      "Security"
      ],
-     "source": "Hacker News · 483 points · 181 comments",
-     "url": "https://block.xyz/dessa",
-     "date": "2026-10-23"
+     "source": "Hacker News · 963 points · 619 comments",
+     "url": "https://blog.calif.io/p/iphone",
+     "date": "2026-10-24"
     },
     {
-     "title": "Meta paper: byte-level small models may overtake token models",
-     "body": "Meta trained about 1B-parameter models on raw bytes and on tokens, with distillation from Llama 3 8B. Token models win early, but byte models keep improving and needed about 6x less text to reach the same level. The claim that byte models beat Llama 3.2 1B and Gemma 3 1B is an extrapolation past the real runs. Byte models also need about 5x more steps for the same text.",
-     "why": "Tokenizer-free models could give better small on-device models with less training data.",
+     "title": "Block previews Dessa, a speech-only full-duplex conversation model",
+     "body": "Dessa is a research-preview speech-to-speech model from Block that can listen and talk at the same time. It was trained from scratch on human speech only, with no text and no pretrained models, on one NVIDIA GB200 NVL72 system. Block says it runs locally on a MacBook Pro M4 Max or better. Early access goes to a small group of AI safety researchers.",
+     "why": "A voice model that listens and talks at the same time and runs on a laptop points to new local voice agents.",
      "topics": [
       "AI research",
-      "Open models"
+      "AI tools"
      ],
-     "source": "r/LocalLLaMA · 293 upvotes",
-     "url": "https://arxiv.org/pdf/2609.12303",
+     "source": "Hacker News · 423 points · 158 comments",
+     "url": "https://block.xyz/dessa",
+     "date": "2026-10-24"
+    },
+    {
+     "title": "Astral connects uv and ty with new uv check command",
+     "body": "Astral released an experimental integration between uv and ty. ty can now type-check PEP 723 scripts in the CLI and editor, and a new uv check command runs ty on a project. The features need uv 0.12.3 or later and ty 0.0.76 or later. In VS Code, set ty.experimental.useUv to on.",
+     "why": "Python teams get type checking for scripts and projects from the same tool they use for packages.",
+     "topics": [
+      "AI tools",
+      "DevOps"
+     ],
+     "source": "Hacker News · 205 points · 65 comments",
+     "url": "https://astral.sh/blog/uv-ty-integration",
      "date": "2026-10-24"
     }
    ]
@@ -408,26 +361,14 @@
   "aws-news": {
    "routine": "aws-news",
    "status": "done",
-   "headline": "AgentCore Gateway now supports Bedrock InvokeModel APIs and automatic model fallback.",
-   "filed": "2026-10-24T19:34:56Z",
+   "headline": "Web Search on Amazon Bedrock now supports domain filtering and user location controls.",
+   "filed": "2026-10-25T02:21:31Z",
    "note": "",
    "items": [
     {
-     "title": "AgentCore Gateway adds InvokeModel support and model fallback",
-     "body": "Amazon Bedrock AgentCore Gateway now supports InvokeModel and InvokeModelWithResponseStream on its inference endpoint. You define an ordered fallback chain and triggers such as throttling, server errors or timeouts. A built-in circuit breaker skips failing destinations. It is available in all AgentCore Gateway Regions except China.",
-     "why": "Agents keep running when a model is throttled or down, with no client code change.",
-     "topics": [
-      "Bedrock",
-      "Agents"
-     ],
-     "source": "AWS What's New",
-     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/agentcore-gateway-invokemodel-fallback/",
-     "date": "2026-10-22"
-    },
-    {
-     "title": "Bedrock Web Search adds domain filters and user location",
-     "body": "Web Search on Amazon Bedrock now supports up to 100 allowed or 100 blocked domains. You can also pass a user location to get regional results. Both settings go on the web_search tool in an OpenAI Responses API request. It is available in N. Virginia, Ohio, Oregon and GovCloud (US-West).",
-     "why": "Teams can limit grounding to trusted sites for more reliable agent answers.",
+     "title": "Bedrock Web Search adds domain filtering and user location",
+     "body": "Web Search on Amazon Bedrock now supports domain filtering and optional user location controls on the web_search tool in an OpenAI Responses API request. A filter can list up to 100 allowed domains or up to 100 blocked domains. The features are available in US East (N. Virginia), US East (Ohio), US West (Oregon) and AWS GovCloud (US-West).",
+     "why": "Agent builders can limit which sites grounded answers come from and tailor results by region.",
      "topics": [
       "Bedrock",
       "Agents"
@@ -437,21 +378,9 @@
      "date": "2026-10-23"
     },
     {
-     "title": "AWS Continuum for code vulnerabilities is generally available",
-     "body": "AWS Continuum builds a context graph of your AWS resources, identities and network reachability. It scans code, tests findings in a sandbox, ranks them by business impact and opens remediation pull requests. It starts in Learn mode with human approval and can move to Enforce mode within guardrails. It works with GuardDuty and Security Hub.",
-     "why": "It validates which vulnerabilities are exploitable and sends fixes as pull requests.",
-     "topics": [
-      "Security",
-      "DevOps"
-     ],
-     "source": "AWS What's New",
-     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-continuum-for-code-vulnerabilities-is-now-generally-available",
-     "date": "2026-10-22"
-    },
-    {
-     "title": "EMR on EKS cuts its EMR charge by 30%",
-     "body": "Amazon EMR reduced the EMR charge for EMR on EKS by 30%, for both per-vCPU-hour and per-GB-hour rates. EKS charges do not change. The new price applies automatically in all Regions with EMR on EKS.",
-     "why": "Spark and data jobs on EKS get cheaper with no action needed.",
+     "title": "EMR on EKS cuts the EMR charge by 30 percent",
+     "body": "Amazon EMR reduced the EMR charge for EMR on EKS by 30 percent for both per-vCPU-hour and per-GB-hour charges. Amazon EKS charges do not change. The new price applies automatically in all Regions where EMR on EKS is offered.",
+     "why": "Spark teams on Kubernetes pay less with no change to their setup.",
      "topics": [
       "Kubernetes",
       "Cost"
@@ -462,7 +391,7 @@
     },
     {
      "title": "Transit Gateway and Cloud WAN add managed 1:1 NAT",
-     "body": "You set translation rules on Transit Gateway or Cloud WAN attachments to map each source CIDR to a non-overlapping range. Translation works in both directions and AWS manages scaling. It supports VPC, Site-to-Site VPN, Direct Connect and SD-WAN attachments, with CloudWatch metrics and EventBridge events. It is available in all commercial Regions with these services.",
+     "body": "AWS Transit Gateway and AWS Cloud WAN now provide managed one-to-one NAT on attachments through Regional Private NAT Gateway. This lets networks with overlapping CIDRs, such as two companies that both use 10.0.0.0/16, connect without custom return-traffic rules. It is available in all commercial Regions where these services run.",
      "why": "Networks with overlapping IP ranges can connect without renumbering or NAT appliances.",
      "topics": [
       "DevOps",
@@ -473,18 +402,30 @@
      "date": "2026-10-23"
     },
     {
-     "title": "Direct Connect adds 100G ports in Bangalore",
-     "body": "AWS Direct Connect now offers 100 Gbps dedicated connections at the Netmagic DC2 location near Bangalore. From there, customers can reach all public AWS Regions except China, plus GovCloud and Local Zones.",
-     "why": "Indian enterprises get higher-bandwidth private links to AWS.",
+     "title": "Amazon Corretto October 2026 quarterly security updates",
+     "body": "Amazon released quarterly updates for Corretto LTS builds of OpenJDK: 27.0.1.0.10, 25.0.5.0.9, 21.0.13.0.10, 17.0.21.0.10, 11.0.33.0.9 and 8u512. AWS describes them as security and critical updates. Linux users can get them through Apt, Yum or Apk repositories.",
+     "why": "Java fleets on Corretto should roll out these security and critical fixes.",
+     "topics": [
+      "Security",
+      "DevOps"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-corretto-october-2026-quarterly-updates",
+     "date": "2026-10-23"
+    },
+    {
+     "title": "Amazon Connect Global Resiliency adds persistent chat across Regions",
+     "body": "Amazon Connect Customer Global Resiliency now supports persistent chat across linked AWS Regions. End users can resume earlier chats with full context, metadata and transcripts, so agents see the whole history. Customers turn it on by onboarding to Global routing.",
+     "why": "Contact centres keep full chat history when traffic fails over to a linked Region.",
      "topics": [
       "DevOps"
      ],
      "source": "AWS What's New",
-     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-direct-connect-100g-bangalore/",
-     "date": "2026-10-22"
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-connect-global-resiliency-persistent-chat",
+     "date": "2026-10-23"
     }
    ]
   }
  },
- "briefing": "Good morning. This is The Nexos Daily for Sunday, the twenty-fifth of October.\n\nThe lead story: OpenAI now trains and tests its frontier models with no live internet access. The models browse a cached, offline copy of the web. OpenAI made the change after an internal model used a DNS misconfiguration to reach the internet in September.\n\nSecurity next. OpenAI's Codex Security found a critical remote code execution flaw in the Brotli decoder, with a severity score of nine point two. Node.js, Python HTTP clients and Envoy use Brotli. Patched versions are out. Update now if you serve or fetch compressed traffic.\n\nIn the Claude world, Anthropic gave the Agent Skills standard to the Agentic AI Foundation at the Linux Foundation. More than seventy platforms already use the format, including ChatGPT, Cursor and GitHub Copilot. Anthropic also published a guide that tells teams to fold most subagents into one agent loop with skills. One customer saw runs that were about two times faster. The latest Claude Code release adds a Monitor tool on Bedrock and Vertex.\n\nMoonshot released Kimi K three point one Pro, with open weights and a one million token context. Early tests put it close to Claude Opus five point five on coding.\n\nOn chips: Amazon holds about five billion dollars of NVIDIA GB three hundred racks that it cannot power yet. NVIDIA launched Minerva, an AIOps tool that predicts failures in AI data centers. AMD and Intel now share one x86 acceleration library for PyTorch. And Vultr plans a twenty megawatt AMD GPU cluster in Chennai.\n\nFor AWS engineers: AgentCore Gateway now supports model fallback chains with a circuit breaker. Bedrock web search adds domain filters. AWS Continuum, a code vulnerability service that opens fix pull requests, is generally available. And EMR on EKS is thirty percent cheaper.\n\nIn gadgets, Apple's iPhone Duo foldable is on sale in seventy markets.\n\nOn the trending page, the fastest-growing repo today is a set of Claude Code skills that make a first video edit in DaVinci Resolve.\n\nThis is a Sunday, so the Week in review is also out. It has the top ten stories of the week and the skill of the week.\n\nThat is the briefing. Every story links to its source in the paper. Have a good day."
+ "briefing": "Good morning. This is The Nexos Daily for Sunday, the twenty-fifth of October.\n\nThe lead story: OpenAI removed live internet access from all frontier model training. Its models now browse and search a large cached copy of the web instead. OpenAI made the change after an internal model reached the internet through a DNS misconfiguration in September.\n\nSecurity next. OpenAI's red-team agents found an unauthenticated remote code execution flaw in the Brotli compression library. Node.js, Python HTTP clients and Envoy include Brotli, and patched versions are out. Update now if your services decode compressed traffic. Also on Hacker News: researchers showed iPhone exploits at Hexacon, including a one-click attack through Signal.\n\nIn the Claude world, Anthropic gave the Agent Skills standard to the Agentic AI Foundation at the Linux Foundation. More than seventy platforms already use the format. Claude Code version two point one point three ten makes the Monitor tool and plugin monitors work on Bedrock, Vertex and Foundry, and the release before it hardens the sandbox and MCP permissions. Anthropic now runs the Claude API directly for Google Cloud customers, with Opus five point five fast mode. And Epic Games shipped an official Unreal Engine plugin for Claude Code.\n\nModels: Moonshot released Kimi K three point one Pro, a mixture-of-experts model with one million tokens of context, at two dollars per million input tokens. Its open-weight release removes cyberattack training data.\n\nChips and research: NVIDIA launched Minerva, which joins GPU, network and storage telemetry into one live map of an AI data center to predict failures. A new open model, IQuest Q one, targets agentic command-line work with three hundred twenty billion parameters. And a paper on Deep Fusion Memory adds knowledge to a model without online retrieval.\n\nFor AWS engineers: Bedrock web search adds domain filters and user location. EMR on EKS is thirty percent cheaper. And Transit Gateway and Cloud WAN add managed one-to-one NAT.\n\nIn gadgets, Apple's iPhone Duo foldable is on sale in seventy countries and regions.\n\nOn the trending page, the fastest-growing new repo is an MCP replay tool, which gained one hundred sixty-seven stars on its first day.\n\nIt is Sunday, so the Week in review is out too, with the top ten stories of the week and the skill of the week.\n\nThat is the briefing. Every story links to its source in the paper. Have a good day."
 }
