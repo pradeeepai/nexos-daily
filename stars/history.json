@@ -2,7 +2,8 @@
 "repos":{
 "appariciojunior/video-editor-skills":{
 "s":{
-"2026-10-25":246
+"2026-10-25":246,
+"2026-10-26":259
 },
 "kind":"Skill",
 "first_seen":"2026-10-25",
@@ -16,7 +17,8 @@
 },
 "Charonyuu/whatsmyagentdoing":{
 "s":{
-"2026-10-25":199
+"2026-10-25":199,
+"2026-10-26":230
 },
 "kind":"Dev tool",
 "first_seen":"2026-10-25",
@@ -30,7 +32,8 @@
 },
 "jouaaaaaa/mcd-self-butler":{
 "s":{
-"2026-10-25":169
+"2026-10-25":169,
+"2026-10-26":223
 },
 "kind":"Skill",
 "first_seen":"2026-10-25",
@@ -44,7 +47,8 @@
 },
 "morganlinton/BeautifulRust":{
 "s":{
-"2026-10-25":328
+"2026-10-25":328,
+"2026-10-26":791
 },
 "kind":"Plugin",
 "first_seen":"2026-10-25",
@@ -59,7 +63,8 @@
 },
 "lillyguisnet/sam3-segmentation":{
 "s":{
-"2026-10-25":71
+"2026-10-25":71,
+"2026-10-26":75
 },
 "kind":"Skill",
 "first_seen":"2026-10-25",
@@ -73,7 +78,8 @@
 },
 "Shaitrish/37studio":{
 "s":{
-"2026-10-25":63
+"2026-10-25":63,
+"2026-10-26":66
 },
 "kind":"Other",
 "first_seen":"2026-10-25",
@@ -87,7 +93,8 @@
 },
 "t3dotgg/tstack":{
 "s":{
-"2026-10-25":38
+"2026-10-25":38,
+"2026-10-26":55
 },
 "kind":"Skill",
 "first_seen":"2026-10-25",
@@ -101,7 +108,8 @@
 },
 "edigeh/broll-mcp":{
 "s":{
-"2026-10-25":26
+"2026-10-25":26,
+"2026-10-26":27
 },
 "kind":"MCP server",
 "first_seen":"2026-10-25",
@@ -115,7 +123,8 @@
 },
 "thomasunise/argus":{
 "s":{
-"2026-10-25":68
+"2026-10-25":68,
+"2026-10-26":89
 },
 "kind":"Agent framework",
 "first_seen":"2026-10-25",
@@ -129,7 +138,8 @@
 },
 "trailofbits/brotli-checker":{
 "s":{
-"2026-10-25":36
+"2026-10-25":36,
+"2026-10-26":46
 },
 "kind":"Skill",
 "first_seen":"2026-10-25",
@@ -143,7 +153,8 @@
 },
 "Gathin23/tv-vibehack":{
 "s":{
-"2026-10-25":32801
+"2026-10-25":32801,
+"2026-10-26":35598
 },
 "kind":"Other",
 "first_seen":"2026-10-25",
@@ -157,7 +168,8 @@
 },
 "aicodeking/leanrea":{
 "s":{
-"2026-10-25":2308
+"2026-10-25":2308,
+"2026-10-26":2607
 },
 "kind":"Skill",
 "first_seen":"2026-10-25",
@@ -171,7 +183,8 @@
 },
 "Ansub/tv-detox":{
 "s":{
-"2026-10-25":1508
+"2026-10-25":1508,
+"2026-10-26":1568
 },
 "kind":"Other",
 "first_seen":"2026-10-25",
@@ -185,7 +198,8 @@
 },
 "alchaincyf/huashu-motion":{
 "s":{
-"2026-10-25":1615
+"2026-10-25":1615,
+"2026-10-26":1682
 },
 "kind":"Skill",
 "first_seen":"2026-10-25",
@@ -199,7 +213,8 @@
 },
 "Leonxlnx/athenaion":{
 "s":{
-"2026-10-25":296
+"2026-10-25":296,
+"2026-10-26":300
 },
 "kind":"Other",
 "first_seen":"2026-10-25",
@@ -224,7 +239,8 @@
 },
 "kanaworksai-hue/audio-studio-mcp":{
 "s":{
-"2026-10-25":483
+"2026-10-25":483,
+"2026-10-26":491
 },
 "kind":"MCP server",
 "first_seen":"2026-10-25",
@@ -238,7 +254,8 @@
 },
 "finereli/whatsapp-mcp":{
 "s":{
-"2026-10-25":365
+"2026-10-25":365,
+"2026-10-26":377
 },
 "kind":"MCP server",
 "first_seen":"2026-10-25",
@@ -252,7 +269,8 @@
 },
 "Aoisop/mawoagent":{
 "s":{
-"2026-10-25":57
+"2026-10-25":57,
+"2026-10-26":57
 },
 "kind":"Agent framework",
 "first_seen":"2026-10-25",
@@ -266,7 +284,8 @@
 },
 "olivieropinotti/orchestrator-skill":{
 "s":{
-"2026-10-25":70
+"2026-10-25":70,
+"2026-10-26":72
 },
 "kind":"Skill",
 "first_seen":"2026-10-25",
@@ -280,7 +299,8 @@
 },
 "wheresryan22/anatomy":{
 "s":{
-"2026-10-25":20301
+"2026-10-25":20301,
+"2026-10-26":20657
 },
 "kind":"Skill",
 "first_seen":"2026-10-25",
@@ -294,7 +314,8 @@
 },
 "yihui-dev/awesome-opus5-5-videos":{
 "s":{
-"2026-10-25":10656
+"2026-10-25":10656,
+"2026-10-26":11127
 },
 "kind":"Other",
 "first_seen":"2026-10-25",
@@ -308,7 +329,8 @@
 },
 "tangency-labs/solidcraft":{
 "s":{
-"2026-10-25":10206
+"2026-10-25":10206,
+"2026-10-26":10505
 },
 "kind":"Dev tool",
 "first_seen":"2026-10-25",
@@ -322,7 +344,8 @@
 },
 "rehan-remade/universal-modder":{
 "s":{
-"2026-10-25":8914
+"2026-10-25":8914,
+"2026-10-26":8963
 },
 "kind":"Skill",
 "first_seen":"2026-10-25",
@@ -336,7 +359,8 @@
 },
 "KKKKhazix/AIHOT":{
 "s":{
-"2026-10-25":8573
+"2026-10-25":8573,
+"2026-10-26":8610
 },
 "kind":"Agent framework",
 "first_seen":"2026-10-25",
@@ -350,7 +374,8 @@
 },
 "lemomo-ai/lemo-opuscar":{
 "s":{
-"2026-10-25":6842
+"2026-10-25":6842,
+"2026-10-26":7489
 },
 "kind":"Skill",
 "first_seen":"2026-10-25",
@@ -364,7 +389,8 @@
 },
 "Louis-CFM/coucou":{
 "s":{
-"2026-10-25":6390
+"2026-10-25":6390,
+"2026-10-26":6455
 },
 "kind":"Dev tool",
 "first_seen":"2026-10-25",
@@ -378,7 +404,8 @@
 },
 "shader-effects-inc/shaders":{
 "s":{
-"2026-10-25":5431
+"2026-10-25":5431,
+"2026-10-26":5472
 },
 "kind":"Dev tool",
 "first_seen":"2026-10-25",
@@ -392,7 +419,8 @@
 },
 "Jakeschincariol/replica-skill":{
 "s":{
-"2026-10-25":5335
+"2026-10-25":5335,
+"2026-10-26":5508
 },
 "kind":"Skill",
 "first_seen":"2026-10-25",
@@ -406,7 +434,8 @@
 },
 "kaankiziltug/logo-design-skill":{
 "s":{
-"2026-10-25":4498
+"2026-10-25":4498,
+"2026-10-26":4587
 },
 "kind":"Skill",
 "first_seen":"2026-10-25",
@@ -420,7 +449,8 @@
 },
 "anthropics/claude-code":{
 "s":{
-"2026-10-25":153323
+"2026-10-25":153323,
+"2026-10-26":153369
 },
 "kind":"MCP server",
 "first_seen":"2026-10-25",
@@ -434,7 +464,8 @@
 },
 "anthropics/single-agent-loop-kit":{
 "s":{
-"2026-10-25":102
+"2026-10-25":102,
+"2026-10-26":148
 },
 "kind":"Subagent",
 "first_seen":"2026-10-25",
@@ -448,7 +479,8 @@
 },
 "EpicGames/unreal-engine-skills-for-claude-code-plugin":{
 "s":{
-"2026-10-25":1651
+"2026-10-25":1651,
+"2026-10-26":1667
 },
 "kind":"Plugin",
 "first_seen":"2026-10-25",
@@ -462,7 +494,8 @@
 },
 "YoyoLin008/mcreplay":{
 "s":{
-"2026-10-25":191
+"2026-10-25":191,
+"2026-10-26":206
 },
 "kind":"MCP server",
 "first_seen":"2026-10-25",
@@ -476,7 +509,8 @@
 },
 "xkx121029/mcd-vibe-commit":{
 "s":{
-"2026-10-25":156
+"2026-10-25":156,
+"2026-10-26":158
 },
 "kind":"Dev tool",
 "first_seen":"2026-10-25",
@@ -490,7 +524,8 @@
 },
 "tian1326/mcd-coupon-assistant":{
 "s":{
-"2026-10-25":107
+"2026-10-25":107,
+"2026-10-26":122
 },
 "kind":"Skill",
 "first_seen":"2026-10-25",
@@ -504,7 +539,8 @@
 },
 "xanthichi/mcd-meal-mate":{
 "s":{
-"2026-10-25":93
+"2026-10-25":93,
+"2026-10-26":131
 },
 "kind":"Skill",
 "first_seen":"2026-10-25",
@@ -518,7 +554,8 @@
 },
 "RoderickGrc/agentic-edition-studio":{
 "s":{
-"2026-10-25":20
+"2026-10-25":20,
+"2026-10-26":21
 },
 "kind":"Skill",
 "first_seen":"2026-10-25",
@@ -532,7 +569,8 @@
 },
 "joelhooks/lockjaw":{
 "s":{
-"2026-10-25":14
+"2026-10-25":14,
+"2026-10-26":24
 },
 "kind":"AI infra",
 "first_seen":"2026-10-25",
@@ -546,7 +584,8 @@
 },
 "aicodeking/pandacode":{
 "s":{
-"2026-10-25":632
+"2026-10-25":632,
+"2026-10-26":675
 },
 "kind":"Coding agent",
 "first_seen":"2026-10-25",
@@ -560,7 +599,8 @@
 },
 "dominikmartn/harp":{
 "s":{
-"2026-10-25":607
+"2026-10-25":607,
+"2026-10-26":619
 },
 "kind":"Dev tool",
 "first_seen":"2026-10-25",
@@ -574,7 +614,8 @@
 },
 "realskyrin/ns-game-apple-arm-port":{
 "s":{
-"2026-10-25":496
+"2026-10-25":496,
+"2026-10-26":506
 },
 "kind":"Skill",
 "first_seen":"2026-10-25",
@@ -588,7 +629,8 @@
 },
 "simbasjungles/free-my-tv":{
 "s":{
-"2026-10-25":4374
+"2026-10-25":4374,
+"2026-10-26":4634
 },
 "kind":"Other",
 "first_seen":"2026-10-25",
@@ -602,7 +644,8 @@
 },
 "vercel-labs/fx0":{
 "s":{
-"2026-10-25":399
+"2026-10-25":399,
+"2026-10-26":404
 },
 "kind":"Agent framework",
 "first_seen":"2026-10-25",
@@ -616,12 +659,14 @@
 },
 "actionow-ai/vvv":{
 "s":{
-"2026-10-25":363
+"2026-10-25":363,
+"2026-10-26":374
 },
 "kind":"Skill",
 "first_seen":"2026-10-25",
 "seen_in":[
-"Trending"
+"Trending",
+"Claude Ecosystem"
 ],
 "url":"https://github.com/actionow-ai/vvv",
 "description":"Build a video template once, reuse it across coding agents. Editable Remotion templates and an Agent Skill for Claude Code, Codex and 25+ agents.",
@@ -630,7 +675,8 @@
 },
 "QingYunA/answer-me-with-html":{
 "s":{
-"2026-10-25":4379
+"2026-10-25":4379,
+"2026-10-26":4447
 },
 "kind":"Skill",
 "first_seen":"2026-10-25",
@@ -641,7 +687,246 @@
 "description":"Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
 "language":"JavaScript",
 "created":"2026-10-02"
+},
+"DenisSergeevitch/ex-ussr-kinship-research":{
+"s":{
+"2026-10-26":541
+},
+"kind":"Skill",
+"first_seen":"2026-10-26",
+"seen_in":[
+"Trending"
+],
+"url":"https://github.com/DenisSergeevitch/ex-ussr-kinship-research",
+"description":"Evidence-first genealogy skill for AI agents (Codex, Claude Code): church books, civil, military, deportation and repression records across the former USSR. Replies in your language.",
+"language":"Python",
+"created":"2026-10-25"
+},
+"mochiiwuff/capri-desktop":{
+"s":{
+"2026-10-26":108
+},
+"kind":"Other",
+"first_seen":"2026-10-26",
+"seen_in":[
+"Trending"
+],
+"url":"https://github.com/mochiiwuff/capri-desktop",
+"description":"Capri, the Project Capricorn construct from Cyberpunk: Edgerunners 2, living on your desktop and narrating what Claude Code is doing.",
+"language":"JavaScript",
+"created":"2026-10-25"
+},
+"lemiur/Game-Decompilation-Skill-For-Claude":{
+"s":{
+"2026-10-26":81
+},
+"kind":"Skill",
+"first_seen":"2026-10-26",
+"seen_in":[
+"Trending"
+],
+"url":"https://github.com/lemiur/Game-Decompilation-Skill-For-Claude",
+"description":"Skill for creating a bytematching decompilation of a game with Claude",
+"language":"",
+"created":"2026-10-25"
+},
+"ZiChuanLan/agent-purge":{
+"s":{
+"2026-10-26":77
+},
+"kind":"Dev tool",
+"first_seen":"2026-10-26",
+"seen_in":[
+"Trending"
+],
+"url":"https://github.com/ZiChuanLan/agent-purge",
+"description":"One persona, many coding agents. Replace or inject system prompts across codex, claude, opencode, grok, omp, hermes, pi, zcode - with a local web console.",
+"language":"JavaScript",
+"created":"2026-10-25"
+},
+"boyuchengz/canvas-mcp":{
+"s":{
+"2026-10-26":48
+},
+"kind":"MCP server",
+"first_seen":"2026-10-26",
+"seen_in":[
+"Trending"
+],
+"url":"https://github.com/boyuchengz/canvas-mcp",
+"description":"Read-only MCP server that connects Claude, ChatGPT and other AI assistants to Canvas LMS.",
+"language":"JavaScript",
+"created":"2026-10-25"
+},
+"jacke-pp/ai-wallet-binance":{
+"s":{
+"2026-10-26":34
+},
+"kind":"Other",
+"first_seen":"2026-10-26",
+"seen_in":[
+"Trending"
+],
+"url":"https://github.com/jacke-pp/ai-wallet-binance",
+"description":"让任何 AI 用你自己的币安 AI 钱包交易：秒买秒卖、狙击 Agent 专属发射台（Four、Flap、GANG）、AI 专属 Mint、本机交易页面。币安签名，不碰私钥。Let any AI trade with your own Binance AI wallet.",
+"language":"JavaScript",
+"created":"2026-10-25"
+},
+"AdhirajPersonal/antigravity-argon-bridge":{
+"s":{
+"2026-10-26":29
+},
+"kind":"AI infra",
+"first_seen":"2026-10-26",
+"seen_in":[
+"Trending"
+],
+"url":"https://github.com/AdhirajPersonal/antigravity-argon-bridge",
+"description":"Connect Google's flagship 4 Argon reasoning model to Antigravity IDE & MCP. Built on the belief that Pro users deserve full, unconstrained access to the models they have access to—paid, bundled, or trial. Features multi-account failover rot",
+"language":"TypeScript",
+"created":"2026-10-25"
+},
+"smhanov/agentloop":{
+"s":{
+"2026-10-26":30
+},
+"kind":"Agent framework",
+"first_seen":"2026-10-26",
+"seen_in":[
+"Trending"
+],
+"url":"https://github.com/smhanov/agentloop",
+"description":"Everything you need for building an agent. A Go library for the LLM tool-calling loop with budgets, hooks, skills, and tracing.",
+"language":"Go",
+"created":"2026-10-25"
+},
+"souvlakeee/siga":{
+"s":{
+"2026-10-26":17
+},
+"kind":"Dev tool",
+"first_seen":"2026-10-26",
+"seen_in":[
+"Trending"
+],
+"url":"https://github.com/souvlakeee/siga",
+"description":"Progress bars that keep filling after they're printed. Live bars in Claude Code for Ghostty, Kitty and herdr.",
+"language":"Python",
+"created":"2026-10-25"
+},
+"codician-team/diffinery":{
+"s":{
+"2026-10-26":17
+},
+"kind":"Dev tool",
+"first_seen":"2026-10-26",
+"seen_in":[
+"Trending"
+],
+"url":"https://github.com/codician-team/diffinery",
+"description":"Open-source, agent-first GitHub and GitHub Actions alternative that runs on your own Cloudflare account: git hosting, pull requests, code review and drop-in GitHub Actions YAML on Workers, Durable Objects, R2 and Containers.",
+"language":"TypeScript",
+"created":"2026-10-25"
+},
+"Jakeschincariol/day-trader-skill":{
+"s":{
+"2026-10-26":1664
+},
+"kind":"Skill",
+"first_seen":"2026-10-26",
+"seen_in":[
+"Trending"
+],
+"url":"https://github.com/Jakeschincariol/day-trader-skill",
+"description":"11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before you risk a dollar.",
+"language":"Python",
+"created":"2026-10-20"
+},
+"udhaykumarbala/cleanyourtv-app":{
+"s":{
+"2026-10-26":608
+},
+"kind":"Other",
+"first_seen":"2026-10-26",
+"seen_in":[
+"Trending"
+],
+"url":"https://github.com/udhaykumarbala/cleanyourtv-app",
+"description":"A community-built phone app for Clean Your TV: clean up an Android TV from your phone. No laptop, no coding agent, nothing uninstalled.",
+"language":"Kotlin",
+"created":"2026-10-21"
+},
+"rossark0/rossark-motion-skill":{
+"s":{
+"2026-10-26":491
+},
+"kind":"Skill",
+"first_seen":"2026-10-26",
+"seen_in":[
+"Trending",
+"Claude Ecosystem"
+],
+"url":"https://github.com/rossark0/rossark-motion-skill",
+"description":"Turn any SVG into a professional 60 fps animation. A Claude Code skill that brings anything drawn to life: live faces, full-body acting and whole scenes, in React Native and SwiftUI.",
+"language":"Swift",
+"created":"2026-10-22"
+},
+"wangrongding/tv-fresh":{
+"s":{
+"2026-10-26":390
+},
+"kind":"Skill",
+"first_seen":"2026-10-26",
+"seen_in":[
+"Trending"
+],
+"url":"https://github.com/wangrongding/tv-fresh",
+"description":"tv-fresh 电视焕新：小米电视(MIUI TV)去广告/清理预装/换桌面/装代理与影视仓的 Agent Skill——免root可逆，含固件逆向实录与一键脚本",
+"language":"Shell",
+"created":"2026-10-24"
+},
+"zengshuangzi/mcd-money-saver":{
+"s":{
+"2026-10-26":357
+},
+"kind":"MCP server",
+"first_seen":"2026-10-26",
+"seen_in":[
+"Trending"
+],
+"url":"https://github.com/zengshuangzi/mcd-money-saver",
+"description":"基于麦当劳MCP的智能省钱助手",
+"language":"Python",
+"created":"2026-10-22"
+},
+"slee-persis/GVS5H":{
+"s":{
+"2026-10-26":987
+},
+"kind":"Other",
+"first_seen":"2026-10-26",
+"seen_in":[
+"AI"
+],
+"url":"https://github.com/slee-persis/GVS5H",
+"description":"GVS5H: Five Qwen3.8-27B Models Match Claude Fable 5 on LiveCodeBench Hard  |  Fable 5 Level Coding for a Fifth the Price - or on a Single GPU",
+"language":"Python",
+"created":"2026-08-26"
+},
+"EricJujianZou/rederive":{
+"s":{
+"2026-10-26":238
+},
+"kind":"Skill",
+"first_seen":"2026-10-26",
+"seen_in":[
+"Claude Ecosystem"
+],
+"url":"https://github.com/EricJujianZou/rederive",
+"description":"Learn a codebase by re-deriving its design decisions yourself. A Claude Code skill.",
+"language":"Python",
+"created":"2026-10-19"
 }
 },
-"updated":"2026-10-25"
+"updated":"2026-10-26"
 }
