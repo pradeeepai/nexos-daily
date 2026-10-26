@@ -1,0 +1,339 @@
+{
+ "date": "2026-10-26",
+ "generated": "2026-10-26T02:51:29Z",
+ "headline": "DenisSergeevitch/ex-ussr-kinship-research, a genealogy skill for AI agents, gained 539 stars on its first day.",
+ "periods": {
+  "daily": {
+   "topics": [
+    "Agent skills",
+    "Claude Code add-ons",
+    "MCP servers",
+    "Agent frameworks"
+   ],
+   "repos": [
+    {
+     "repo": "DenisSergeevitch/ex-ussr-kinship-research",
+     "url": "https://github.com/DenisSergeevitch/ex-ussr-kinship-research",
+     "description": "A genealogy research skill for AI agents that uses former USSR archive records.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 539,
+     "gained": 539,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "mochiiwuff/capri-desktop",
+     "url": "https://github.com/mochiiwuff/capri-desktop",
+     "description": "A desktop companion character that narrates what Claude Code is doing.",
+     "kind": "Other",
+     "language": "JavaScript",
+     "stars": 100,
+     "gained": 100,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "lemiur/Game-Decompilation-Skill-For-Claude",
+     "url": "https://github.com/lemiur/Game-Decompilation-Skill-For-Claude",
+     "description": "A Claude skill for making byte-matching decompilations of games.",
+     "kind": "Skill",
+     "language": null,
+     "stars": 78,
+     "gained": 78,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "ZiChuanLan/agent-purge",
+     "url": "https://github.com/ZiChuanLan/agent-purge",
+     "description": "A local web console that applies one persona or system prompt across many coding agents.",
+     "kind": "Dev tool",
+     "language": "JavaScript",
+     "stars": 71,
+     "gained": 71,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "boyuchengz/canvas-mcp",
+     "url": "https://github.com/boyuchengz/canvas-mcp",
+     "description": "A read-only MCP server that connects AI assistants to Canvas LMS.",
+     "kind": "MCP server",
+     "language": "JavaScript",
+     "stars": 39,
+     "gained": 39,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "jacke-pp/ai-wallet-binance",
+     "url": "https://github.com/jacke-pp/ai-wallet-binance",
+     "description": "Lets AI agents trade through a Binance AI wallet, with Binance doing the signing.",
+     "kind": "Other",
+     "language": "JavaScript",
+     "stars": 31,
+     "gained": 31,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "AdhirajPersonal/antigravity-argon-bridge",
+     "url": "https://github.com/AdhirajPersonal/antigravity-argon-bridge",
+     "description": "Connects a Google model to the Antigravity IDE and MCP with multi-account failover.",
+     "kind": "AI infra",
+     "language": "TypeScript",
+     "stars": 27,
+     "gained": 27,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "smhanov/agentloop",
+     "url": "https://github.com/smhanov/agentloop",
+     "description": "A Go library for LLM tool-calling loops with budgets, hooks, skills and tracing.",
+     "kind": "Agent framework",
+     "language": "Go",
+     "stars": 26,
+     "gained": 26,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "souvlakeee/siga",
+     "url": "https://github.com/souvlakeee/siga",
+     "description": "Shows live Claude Code progress bars in Ghostty, Kitty and herdr terminals.",
+     "kind": "Dev tool",
+     "language": "Python",
+     "stars": 17,
+     "gained": 17,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "codician-team/diffinery",
+     "url": "https://github.com/codician-team/diffinery",
+     "description": "A self-hosted, agent-first alternative to GitHub and GitHub Actions on Cloudflare.",
+     "kind": "Dev tool",
+     "language": "TypeScript",
+     "stars": 15,
+     "gained": 15,
+     "source": "GitHub search"
+    }
+   ]
+  },
+  "weekly": {
+   "topics": [
+    "Agent skills",
+    "Claude Code plugins",
+    "Multi-agent terminals",
+    "Smart TV cleanup",
+    "McDonald's China MCP"
+   ],
+   "repos": [
+    {
+     "repo": "Jakeschincariol/day-trader-skill",
+     "url": "https://github.com/Jakeschincariol/day-trader-skill",
+     "description": "Eleven Claude skills for day trading, from chart scans to trade replay.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 1660,
+     "gained": 1660,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "morganlinton/BeautifulRust",
+     "url": "https://github.com/morganlinton/BeautifulRust",
+     "description": "A Claude Code plugin that steers Claude toward idiomatic, robust Rust.",
+     "kind": "Plugin",
+     "language": "Python",
+     "stars": 767,
+     "gained": 767,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "dominikmartn/harp",
+     "url": "https://github.com/dominikmartn/harp",
+     "description": "An unofficial Warp fork that runs many Claude Code and Codex agents in one sidebar.",
+     "kind": "Dev tool",
+     "language": "Rust",
+     "stars": 618,
+     "gained": 618,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "udhaykumarbala/cleanyourtv-app",
+     "url": "https://github.com/udhaykumarbala/cleanyourtv-app",
+     "description": "A community phone app for cleaning up Android TV devices.",
+     "kind": "Other",
+     "language": "Kotlin",
+     "stars": 597,
+     "gained": 597,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "DenisSergeevitch/ex-ussr-kinship-research",
+     "url": "https://github.com/DenisSergeevitch/ex-ussr-kinship-research",
+     "description": "A genealogy research skill for AI agents that uses former USSR archive records.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 539,
+     "gained": 539,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "rossark0/rossark-motion-skill",
+     "url": "https://github.com/rossark0/rossark-motion-skill",
+     "description": "A skill that turns SVG drawings into 60 fps animations for React Native and SwiftUI.",
+     "kind": "Skill",
+     "language": "Swift",
+     "stars": 491,
+     "gained": 491,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "vercel-labs/fx0",
+     "url": "https://github.com/vercel-labs/fx0",
+     "description": "A lightweight design agent that writes a page as one HTML file.",
+     "kind": "Other",
+     "language": "TypeScript",
+     "stars": 403,
+     "gained": 403,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "wangrongding/tv-fresh",
+     "url": "https://github.com/wangrongding/tv-fresh",
+     "description": "An agent skill to remove ads and bloat from Xiaomi MIUI TVs.",
+     "kind": "Skill",
+     "language": "Shell",
+     "stars": 380,
+     "gained": 380,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "actionow-ai/vvv",
+     "url": "https://github.com/actionow-ai/vvv",
+     "description": "Editable Remotion video templates with an agent skill for coding agents.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 374,
+     "gained": 374,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "zengshuangzi/mcd-money-saver",
+     "url": "https://github.com/zengshuangzi/mcd-money-saver",
+     "description": "A money-saving assistant built on the McDonald's China MCP server.",
+     "kind": "MCP server",
+     "language": "Python",
+     "stars": 347,
+     "gained": 347,
+     "source": "GitHub search"
+    }
+   ]
+  },
+  "monthly": {
+   "topics": [
+    "Agent skills",
+    "Opus 5.5 creative demos",
+    "Agent monitoring apps",
+    "Reverse engineering skills",
+    "MCP-enabled apps"
+   ],
+   "repos": [
+    {
+     "repo": "wheresryan22/anatomy",
+     "url": "https://github.com/wheresryan22/anatomy",
+     "description": "An agent skill that draws detailed isometric illustrations of machines and systems.",
+     "kind": "Skill",
+     "language": "JavaScript",
+     "stars": 20636,
+     "gained": 20636,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "yihui-dev/awesome-opus5-5-videos",
+     "url": "https://github.com/yihui-dev/awesome-opus5-5-videos",
+     "description": "A curated list of videos made with Claude Opus 5.5, with their prompts.",
+     "kind": "Other",
+     "language": null,
+     "stars": 11110,
+     "gained": 11110,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "tangency-labs/solidcraft",
+     "url": "https://github.com/tangency-labs/solidcraft",
+     "description": "An open-source parametric 3D CAD app in Rust with MCP automation.",
+     "kind": "Other",
+     "language": "Rust",
+     "stars": 10499,
+     "gained": 10499,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "rehan-remade/universal-modder",
+     "url": "https://github.com/rehan-remade/universal-modder",
+     "description": "Claude Code skills and tools for modding PC games, including reverse engineering.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 8961,
+     "gained": 8961,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "KKKKhazix/AIHOT",
+     "url": "https://github.com/KKKKhazix/AIHOT",
+     "description": "A self-hosted framework that finds industry news and writes daily digests.",
+     "kind": "Other",
+     "language": "TypeScript",
+     "stars": 8608,
+     "gained": 8608,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "lemomo-ai/lemo-opuscar",
+     "url": "https://github.com/lemomo-ai/lemo-opuscar",
+     "description": "A toolbox of 59 code-made film styles for Claude Code.",
+     "kind": "Skill",
+     "language": "JavaScript",
+     "stars": 7454,
+     "gained": 7454,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "Louis-CFM/coucou",
+     "url": "https://github.com/Louis-CFM/coucou",
+     "description": "A macOS notch and iPhone app that monitors AI coding agents and handles approvals.",
+     "kind": "Dev tool",
+     "language": "Swift",
+     "stars": 6450,
+     "gained": 6450,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "Jakeschincariol/replica-skill",
+     "url": "https://github.com/Jakeschincariol/replica-skill",
+     "description": "Eleven Claude skills for reverse engineering, rebuilding and testing apps.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 5503,
+     "gained": 5503,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "kaankiziltug/logo-design-skill",
+     "url": "https://github.com/kaankiziltug/logo-design-skill",
+     "description": "A logo design skill for AI agents with SVG guidance and test tools.",
+     "kind": "Skill",
+     "language": "HTML",
+     "stars": 4586,
+     "gained": 4586,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "QingYunA/answer-me-with-html",
+     "url": "https://github.com/QingYunA/answer-me-with-html",
+     "description": "An agent skill that answers complex questions with one readable HTML page.",
+     "kind": "Skill",
+     "language": "JavaScript",
+     "stars": 4439,
+     "gained": 4439,
+     "source": "GitHub search"
+    }
+   ]
+  }
+ }
+}

@@ -44,9 +44,10 @@
     "Trending",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "reported": {
-    "2026-10-25": 97
+    "2026-10-25": 97,
+    "2026-10-26": 767
    }
   },
   "lillyguisnet/sam3-segmentation": {
@@ -248,9 +249,10 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "reported": {
-    "2026-10-25": 20182
+    "2026-10-25": 20182,
+    "2026-10-26": 20636
    }
   },
   "yihui-dev/awesome-opus5-5-videos": {
@@ -260,9 +262,10 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "reported": {
-    "2026-10-25": 10540
+    "2026-10-25": 10540,
+    "2026-10-26": 11110
    }
   },
   "tangency-labs/solidcraft": {
@@ -272,9 +275,10 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "reported": {
-    "2026-10-25": 10112
+    "2026-10-25": 10112,
+    "2026-10-26": 10499
    }
   },
   "rehan-remade/universal-modder": {
@@ -284,9 +288,10 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "reported": {
-    "2026-10-25": 8885
+    "2026-10-25": 8885,
+    "2026-10-26": 8961
    }
   },
   "KKKKhazix/AIHOT": {
@@ -296,9 +301,10 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "reported": {
-    "2026-10-25": 8552
+    "2026-10-25": 8552,
+    "2026-10-26": 8608
    }
   },
   "lemomo-ai/lemo-opuscar": {
@@ -308,9 +314,10 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "reported": {
-    "2026-10-25": 6671
+    "2026-10-25": 6671,
+    "2026-10-26": 7454
    }
   },
   "Louis-CFM/coucou": {
@@ -320,9 +327,10 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "reported": {
-    "2026-10-25": 6379
+    "2026-10-25": 6379,
+    "2026-10-26": 6450
    }
   },
   "shader-effects-inc/shaders": {
@@ -344,9 +352,10 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "reported": {
-    "2026-10-25": 5278
+    "2026-10-25": 5278,
+    "2026-10-26": 5503
    }
   },
   "kaankiziltug/logo-design-skill": {
@@ -356,9 +365,10 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "reported": {
-    "2026-10-25": 4465
+    "2026-10-25": 4465,
+    "2026-10-26": 4586
    }
   },
   "anthropics/claude-code": {
@@ -368,7 +378,7 @@
    "seen_in": [
     "AI"
    ],
-   "last_seen": "2026-10-25"
+   "last_seen": "2026-10-26"
   },
   "anthropics/single-agent-loop-kit": {
    "first_seen": "2026-10-25",
@@ -479,9 +489,10 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "reported": {
-    "2026-10-25": 604
+    "2026-10-25": 604,
+    "2026-10-26": 618
    }
   },
   "realskyrin/ns-game-apple-arm-port": {
@@ -515,9 +526,10 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "reported": {
-    "2026-10-25": 398
+    "2026-10-25": 398,
+    "2026-10-26": 403
    }
   },
   "actionow-ai/vvv": {
@@ -525,11 +537,13 @@
    "kind": "Skill",
    "description": "Builds a video template once and reuses it across coding agents.",
    "seen_in": [
-    "Trending"
+    "Trending",
+    "Claude Ecosystem"
    ],
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "reported": {
-    "2026-10-25": 332
+    "2026-10-25": 332,
+    "2026-10-26": 374
    }
   },
   "QingYunA/answer-me-with-html": {
@@ -539,10 +553,210 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "reported": {
-    "2026-10-25": 4372
+    "2026-10-25": 4372,
+    "2026-10-26": 4439
    }
+  },
+  "DenisSergeevitch/ex-ussr-kinship-research": {
+   "first_seen": "2026-10-26",
+   "kind": "Skill",
+   "description": "A genealogy research skill for AI agents that uses former USSR archive records.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-26",
+   "reported": {
+    "2026-10-26": 539
+   }
+  },
+  "mochiiwuff/capri-desktop": {
+   "first_seen": "2026-10-26",
+   "kind": "Other",
+   "description": "A desktop companion character that narrates what Claude Code is doing.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-26",
+   "reported": {
+    "2026-10-26": 100
+   }
+  },
+  "lemiur/Game-Decompilation-Skill-For-Claude": {
+   "first_seen": "2026-10-26",
+   "kind": "Skill",
+   "description": "A Claude skill for making byte-matching decompilations of games.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-26",
+   "reported": {
+    "2026-10-26": 78
+   }
+  },
+  "ZiChuanLan/agent-purge": {
+   "first_seen": "2026-10-26",
+   "kind": "Dev tool",
+   "description": "A local web console that applies one persona or system prompt across many coding agents.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-26",
+   "reported": {
+    "2026-10-26": 71
+   }
+  },
+  "boyuchengz/canvas-mcp": {
+   "first_seen": "2026-10-26",
+   "kind": "MCP server",
+   "description": "A read-only MCP server that connects AI assistants to Canvas LMS.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-26",
+   "reported": {
+    "2026-10-26": 39
+   }
+  },
+  "jacke-pp/ai-wallet-binance": {
+   "first_seen": "2026-10-26",
+   "kind": "Other",
+   "description": "Lets AI agents trade through a Binance AI wallet, with Binance doing the signing.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-26",
+   "reported": {
+    "2026-10-26": 31
+   }
+  },
+  "AdhirajPersonal/antigravity-argon-bridge": {
+   "first_seen": "2026-10-26",
+   "kind": "AI infra",
+   "description": "Connects a Google model to the Antigravity IDE and MCP with multi-account failover.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-26",
+   "reported": {
+    "2026-10-26": 27
+   }
+  },
+  "smhanov/agentloop": {
+   "first_seen": "2026-10-26",
+   "kind": "Agent framework",
+   "description": "A Go library for LLM tool-calling loops with budgets, hooks, skills and tracing.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-26",
+   "reported": {
+    "2026-10-26": 26
+   }
+  },
+  "souvlakeee/siga": {
+   "first_seen": "2026-10-26",
+   "kind": "Dev tool",
+   "description": "Shows live Claude Code progress bars in Ghostty, Kitty and herdr terminals.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-26",
+   "reported": {
+    "2026-10-26": 17
+   }
+  },
+  "codician-team/diffinery": {
+   "first_seen": "2026-10-26",
+   "kind": "Dev tool",
+   "description": "A self-hosted, agent-first alternative to GitHub and GitHub Actions on Cloudflare.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-26",
+   "reported": {
+    "2026-10-26": 15
+   }
+  },
+  "Jakeschincariol/day-trader-skill": {
+   "first_seen": "2026-10-26",
+   "kind": "Skill",
+   "description": "Eleven Claude skills for day trading, from chart scans to trade replay.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-26",
+   "reported": {
+    "2026-10-26": 1660
+   }
+  },
+  "udhaykumarbala/cleanyourtv-app": {
+   "first_seen": "2026-10-26",
+   "kind": "Other",
+   "description": "A community phone app for cleaning up Android TV devices.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-26",
+   "reported": {
+    "2026-10-26": 597
+   }
+  },
+  "rossark0/rossark-motion-skill": {
+   "first_seen": "2026-10-26",
+   "kind": "Skill",
+   "description": "A skill that turns SVG drawings into 60 fps animations for React Native and SwiftUI.",
+   "seen_in": [
+    "Trending",
+    "Claude Ecosystem"
+   ],
+   "last_seen": "2026-10-26",
+   "reported": {
+    "2026-10-26": 491
+   }
+  },
+  "wangrongding/tv-fresh": {
+   "first_seen": "2026-10-26",
+   "kind": "Skill",
+   "description": "An agent skill to remove ads and bloat from Xiaomi MIUI TVs.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-26",
+   "reported": {
+    "2026-10-26": 380
+   }
+  },
+  "zengshuangzi/mcd-money-saver": {
+   "first_seen": "2026-10-26",
+   "kind": "MCP server",
+   "description": "A money-saving assistant built on the McDonald's China MCP server.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-26",
+   "reported": {
+    "2026-10-26": 347
+   }
+  },
+  "slee-persis/GVS5H": {
+   "first_seen": "2026-10-26",
+   "kind": "Other",
+   "description": "GVS5H harness lifts Qwen3.8 models past Fable 5 on LiveCodeBench",
+   "seen_in": [
+    "AI"
+   ],
+   "last_seen": "2026-10-26"
+  },
+  "EricJujianZou/rederive": {
+   "first_seen": "2026-10-26",
+   "kind": "Skill",
+   "description": "rederive skill helps you learn a codebase by re-deriving design",
+   "seen_in": [
+    "Claude Ecosystem"
+   ],
+   "last_seen": "2026-10-26"
   }
  }
 }
