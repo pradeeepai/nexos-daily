@@ -1,6 +1,11 @@
 {
  "editions": [
   {
+   "date": "2026-10-27",
+   "stories": 30,
+   "headline": "OpenAI releases GPT-6.1 Terra for fast, low-cost computer use"
+  },
+  {
    "date": "2026-10-26",
    "stories": 32,
    "headline": "Anthropic donates Agent Skills standard to the Agentic AI Foundation"

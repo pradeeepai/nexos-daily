@@ -19,9 +19,10 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-27",
    "reported": {
-    "2026-10-25": 150
+    "2026-10-25": 150,
+    "2026-10-27": 251
    }
   },
   "jouaaaaaa/mcd-self-butler": {
@@ -44,10 +45,11 @@
     "Trending",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-10-26",
+   "last_seen": "2026-10-27",
    "reported": {
     "2026-10-25": 97,
-    "2026-10-26": 767
+    "2026-10-26": 767,
+    "2026-10-27": 1223
    }
   },
   "lillyguisnet/sam3-segmentation": {
@@ -81,9 +83,10 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-27",
    "reported": {
-    "2026-10-25": 32
+    "2026-10-25": 32,
+    "2026-10-27": 1596
    }
   },
   "edigeh/broll-mcp": {
@@ -262,10 +265,11 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-26",
+   "last_seen": "2026-10-27",
    "reported": {
     "2026-10-25": 10540,
-    "2026-10-26": 11110
+    "2026-10-26": 11110,
+    "2026-10-27": 11567
    }
   },
   "tangency-labs/solidcraft": {
@@ -288,10 +292,11 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-26",
+   "last_seen": "2026-10-27",
    "reported": {
     "2026-10-25": 8885,
-    "2026-10-26": 8961
+    "2026-10-26": 8961,
+    "2026-10-27": 9023
    }
   },
   "KKKKhazix/AIHOT": {
@@ -327,10 +332,11 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-26",
+   "last_seen": "2026-10-27",
    "reported": {
     "2026-10-25": 6379,
-    "2026-10-26": 6450
+    "2026-10-26": 6450,
+    "2026-10-27": 6572
    }
   },
   "shader-effects-inc/shaders": {
@@ -352,10 +358,11 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-26",
+   "last_seen": "2026-10-27",
    "reported": {
     "2026-10-25": 5278,
-    "2026-10-26": 5503
+    "2026-10-26": 5503,
+    "2026-10-27": 5808
    }
   },
   "kaankiziltug/logo-design-skill": {
@@ -376,9 +383,10 @@
    "kind": "MCP server",
    "description": "Claude Code v2.1.310 brings Monitor tool to Bedrock and Vertex",
    "seen_in": [
-    "AI"
+    "AI",
+    "Claude Ecosystem"
    ],
-   "last_seen": "2026-10-26"
+   "last_seen": "2026-10-27"
   },
   "anthropics/single-agent-loop-kit": {
    "first_seen": "2026-10-25",
@@ -489,10 +497,11 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-26",
+   "last_seen": "2026-10-27",
    "reported": {
     "2026-10-25": 604,
-    "2026-10-26": 618
+    "2026-10-26": 618,
+    "2026-10-27": 659
    }
   },
   "realskyrin/ns-game-apple-arm-port": {
@@ -540,10 +549,11 @@
     "Trending",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-10-26",
+   "last_seen": "2026-10-27",
    "reported": {
     "2026-10-25": 332,
-    "2026-10-26": 374
+    "2026-10-26": 374,
+    "2026-10-27": 395
    }
   },
   "QingYunA/answer-me-with-html": {
@@ -602,9 +612,10 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-26",
+   "last_seen": "2026-10-27",
    "reported": {
-    "2026-10-26": 71
+    "2026-10-26": 71,
+    "2026-10-27": 366
    }
   },
   "boyuchengz/canvas-mcp": {
@@ -686,9 +697,10 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-26",
+   "last_seen": "2026-10-27",
    "reported": {
-    "2026-10-26": 1660
+    "2026-10-26": 1660,
+    "2026-10-27": 2074
    }
   },
   "udhaykumarbala/cleanyourtv-app": {
@@ -723,9 +735,10 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-26",
+   "last_seen": "2026-10-27",
    "reported": {
-    "2026-10-26": 380
+    "2026-10-26": 380,
+    "2026-10-27": 499
    }
   },
   "zengshuangzi/mcd-money-saver": {
@@ -757,6 +770,213 @@
     "Claude Ecosystem"
    ],
    "last_seen": "2026-10-26"
+  },
+  "andyhuo520/digital-human-koubo": {
+   "first_seen": "2026-10-27",
+   "kind": "Skill",
+   "description": "Agent skill that makes talking-head videos from one photo, with editing styles and packaging parts.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-27",
+   "reported": {
+    "2026-10-27": 742
+   }
+  },
+  "blakeandersonw/ai-app-playbook": {
+   "first_seen": "2026-10-27",
+   "kind": "Other",
+   "description": "Guide to building AI apps, made for use with a coding agent through AGENTS.md.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-27",
+   "reported": {
+    "2026-10-27": 219
+   }
+  },
+  "Motionsites-AI/claude-skill": {
+   "first_seen": "2026-10-27",
+   "kind": "Skill",
+   "description": "Free Claude skill for building cinematic landing pages.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-27",
+   "reported": {
+    "2026-10-27": 152
+   }
+  },
+  "daniellockyer/dstack": {
+   "first_seen": "2026-10-27",
+   "kind": "Skill",
+   "description": "Collection of agent skills that the author uses daily.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-27",
+   "reported": {
+    "2026-10-27": 86
+   }
+  },
+  "isitcredible/research_skills": {
+   "first_seen": "2026-10-27",
+   "kind": "Skill",
+   "description": "Agent skills for research work from The Catalogue of Errors.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-27",
+   "reported": {
+    "2026-10-27": 12
+   }
+  },
+  "juanlizarazo/hackathon-starter-kit": {
+   "first_seen": "2026-10-27",
+   "kind": "Skill",
+   "description": "Claude Code agent rules and a brief template for fast hackathon builds.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-27",
+   "reported": {
+    "2026-10-27": 10
+   }
+  },
+  "amigoscode/spring-ai-course": {
+   "first_seen": "2026-10-27",
+   "kind": "Other",
+   "description": "Step-by-step Spring AI course covering RAG, MCP and agents.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-27",
+   "reported": {
+    "2026-10-27": 9
+   }
+  },
+  "devMarksKnobb/Ollama-Code": {
+   "first_seen": "2026-10-27",
+   "kind": "Coding agent",
+   "description": "Unofficial open-source coding agent that runs on Ollama.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-27",
+   "reported": {
+    "2026-10-27": 8
+   }
+  },
+  "xyl-0216/prism-research": {
+   "first_seen": "2026-10-27",
+   "kind": "Agent framework",
+   "description": "Multimodal research agent built on Open Deep Research with PDF and image input.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-27",
+   "reported": {
+    "2026-10-27": 8
+   }
+  },
+  "hevnsnt/CVEngine": {
+   "first_seen": "2026-10-27",
+   "kind": "AI infra",
+   "description": "AI-first external attack surface assessment with vulnerability validation.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-27",
+   "reported": {
+    "2026-10-27": 385
+   }
+  },
+  "nykooi1/vibe-wise": {
+   "first_seen": "2026-10-27",
+   "kind": "Plugin",
+   "description": "Claude Code and Codex plugin that teaches you while the AI writes code.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-27",
+   "reported": {
+    "2026-10-27": 3981
+   }
+  },
+  "Folkbench/folkbench": {
+   "first_seen": "2026-10-27",
+   "kind": "AI infra",
+   "description": "Benchmark and switcher for AI API relay services by uptime, latency and price.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-27",
+   "reported": {
+    "2026-10-27": 3743
+   }
+  },
+  "oil-oil/oil-ui": {
+   "first_seen": "2026-10-27",
+   "kind": "Skill",
+   "description": "UI design skill for agents that compares design directions side by side.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-27",
+   "reported": {
+    "2026-10-27": 2373
+   }
+  },
+  "Vincentwei1021/mg-styles-15": {
+   "first_seen": "2026-10-27",
+   "kind": "Skill",
+   "description": "Fifteen motion design styles, each made by Claude Opus 5.5 from one prompt.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-27",
+   "reported": {
+    "2026-10-27": 2282
+   }
+  },
+  "Jakeschincariol/founder-skill": {
+   "first_seen": "2026-10-27",
+   "kind": "Skill",
+   "description": "Set of 11 Claude skills to test a business idea with simulated advisors.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-27",
+   "reported": {
+    "2026-10-27": 1872
+   }
+  },
+  "Deibler/openskycam": {
+   "first_seen": "2026-10-27",
+   "kind": "MCP server",
+   "description": "openskycam: sky camera that Claude Code runs through MCP",
+   "seen_in": [
+    "Claude Ecosystem"
+   ],
+   "last_seen": "2026-10-27"
+  },
+  "tomtomsatnav/agent-orchestration-standard": {
+   "first_seen": "2026-10-27",
+   "kind": "Subagent",
+   "description": "agent-orchestration-standard: local dashboard for Claude Code agents",
+   "seen_in": [
+    "Claude Ecosystem"
+   ],
+   "last_seen": "2026-10-27"
+  },
+  "priyanshujha/subagent-studio": {
+   "first_seen": "2026-10-27",
+   "kind": "Subagent",
+   "description": "subagent-studio: plugins for lean single-purpose subagents",
+   "seen_in": [
+    "Claude Ecosystem"
+   ],
+   "last_seen": "2026-10-27"
   }
  }
 }

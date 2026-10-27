@@ -1,0 +1,329 @@
+{
+ "date": "2026-10-27",
+ "generated": "2026-10-27T02:51:24Z",
+ "headline": "andyhuo520/digital-human-koubo, a talking-head video skill for coding agents, gained 742 stars on its first day.",
+ "periods": {
+  "daily": {
+   "topics": [
+    "Agent skills",
+    "Video generation",
+    "Coding agents",
+    "AI app guides"
+   ],
+   "repos": [
+    {
+     "repo": "andyhuo520/digital-human-koubo",
+     "url": "https://github.com/andyhuo520/digital-human-koubo",
+     "description": "Agent skill that makes talking-head videos from one photo, with editing styles and packaging parts.",
+     "kind": "Skill",
+     "language": "TypeScript",
+     "stars": 742,
+     "gained": 742,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "blakeandersonw/ai-app-playbook",
+     "url": "https://github.com/blakeandersonw/ai-app-playbook",
+     "description": "Guide to building AI apps, made for use with a coding agent through AGENTS.md.",
+     "kind": "Other",
+     "language": "TypeScript",
+     "stars": 219,
+     "gained": 219,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "Motionsites-AI/claude-skill",
+     "url": "https://github.com/Motionsites-AI/claude-skill",
+     "description": "Free Claude skill for building cinematic landing pages.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 152,
+     "gained": 152,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "daniellockyer/dstack",
+     "url": "https://github.com/daniellockyer/dstack",
+     "description": "Collection of agent skills that the author uses daily.",
+     "kind": "Skill",
+     "language": null,
+     "stars": 86,
+     "gained": 86,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "isitcredible/research_skills",
+     "url": "https://github.com/isitcredible/research_skills",
+     "description": "Agent skills for research work from The Catalogue of Errors.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 12,
+     "gained": 12,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "juanlizarazo/hackathon-starter-kit",
+     "url": "https://github.com/juanlizarazo/hackathon-starter-kit",
+     "description": "Claude Code agent rules and a brief template for fast hackathon builds.",
+     "kind": "Skill",
+     "language": null,
+     "stars": 10,
+     "gained": 10,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "amigoscode/spring-ai-course",
+     "url": "https://github.com/amigoscode/spring-ai-course",
+     "description": "Step-by-step Spring AI course covering RAG, MCP and agents.",
+     "kind": "Other",
+     "language": "Java",
+     "stars": 9,
+     "gained": 9,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "devMarksKnobb/Ollama-Code",
+     "url": "https://github.com/devMarksKnobb/Ollama-Code",
+     "description": "Unofficial open-source coding agent that runs on Ollama.",
+     "kind": "Coding agent",
+     "language": "Python",
+     "stars": 8,
+     "gained": 8,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "xyl-0216/prism-research",
+     "url": "https://github.com/xyl-0216/prism-research",
+     "description": "Multimodal research agent built on Open Deep Research with PDF and image input.",
+     "kind": "Agent framework",
+     "language": "Python",
+     "stars": 8,
+     "gained": 8,
+     "source": "GitHub search"
+    }
+   ]
+  },
+  "weekly": {
+   "topics": [
+    "Agent skills",
+    "Multi-agent terminals",
+    "Agent monitoring",
+    "TV debloat skills",
+    "AI security"
+   ],
+   "repos": [
+    {
+     "repo": "Jakeschincariol/day-trader-skill",
+     "url": "https://github.com/Jakeschincariol/day-trader-skill",
+     "description": "Set of 11 Claude skills for chart scans, news tracking and trade replay.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 2074,
+     "gained": 2074,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "t3dotgg/tstack",
+     "url": "https://github.com/t3dotgg/tstack",
+     "description": "Daily-use agent skills for Claude Code and Codex.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 1596,
+     "gained": 1596,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "morganlinton/BeautifulRust",
+     "url": "https://github.com/morganlinton/BeautifulRust",
+     "description": "Agent skills to write, review and port idiomatic Rust, plus a clippy config.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 1223,
+     "gained": 1223,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "andyhuo520/digital-human-koubo",
+     "url": "https://github.com/andyhuo520/digital-human-koubo",
+     "description": "Agent skill that makes talking-head videos from one photo.",
+     "kind": "Skill",
+     "language": "TypeScript",
+     "stars": 742,
+     "gained": 742,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "dominikmartn/harp",
+     "url": "https://github.com/dominikmartn/harp",
+     "description": "Warp fork that runs many Claude Code and Codex agents side by side.",
+     "kind": "Coding agent",
+     "language": "Rust",
+     "stars": 659,
+     "gained": 659,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "wangrongding/tv-fresh",
+     "url": "https://github.com/wangrongding/tv-fresh",
+     "description": "Agent skill to debloat and customize Xiaomi TVs without root.",
+     "kind": "Skill",
+     "language": "Shell",
+     "stars": 499,
+     "gained": 499,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "actionow-ai/vvv",
+     "url": "https://github.com/actionow-ai/vvv",
+     "description": "Editable Remotion video templates with an agent skill for coding agents.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 395,
+     "gained": 395,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "hevnsnt/CVEngine",
+     "url": "https://github.com/hevnsnt/CVEngine",
+     "description": "AI-first external attack surface assessment with vulnerability validation.",
+     "kind": "AI infra",
+     "language": "Python",
+     "stars": 385,
+     "gained": 385,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "ZiChuanLan/agent-purge",
+     "url": "https://github.com/ZiChuanLan/agent-purge",
+     "description": "Local web console to manage system prompts across many coding agents.",
+     "kind": "Dev tool",
+     "language": "JavaScript",
+     "stars": 366,
+     "gained": 366,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "Charonyuu/whatsmyagentdoing",
+     "url": "https://github.com/Charonyuu/whatsmyagentdoing",
+     "description": "Live dashboard of the Claude Code and Codex agents on your machine.",
+     "kind": "Dev tool",
+     "language": "JavaScript",
+     "stars": 251,
+     "gained": 251,
+     "source": "GitHub search"
+    }
+   ]
+  },
+  "monthly": {
+   "topics": [
+    "Claude skills",
+    "Agent monitoring",
+    "Claude Code plugins",
+    "AI API routing",
+    "Design skills"
+   ],
+   "repos": [
+    {
+     "repo": "yihui-dev/awesome-opus5-5-videos",
+     "url": "https://github.com/yihui-dev/awesome-opus5-5-videos",
+     "description": "Curated videos made with Claude Opus 5.5, with their prompts.",
+     "kind": "Other",
+     "language": null,
+     "stars": 11567,
+     "gained": 11567,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "rehan-remade/universal-modder",
+     "url": "https://github.com/rehan-remade/universal-modder",
+     "description": "Skills, tools and an MCP server to mod PC games with Claude Code.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 9023,
+     "gained": 9023,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "Louis-CFM/coucou",
+     "url": "https://github.com/Louis-CFM/coucou",
+     "description": "Mac notch and iPhone app that monitors coding agents and handles approvals.",
+     "kind": "Dev tool",
+     "language": "Swift",
+     "stars": 6572,
+     "gained": 6572,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "Jakeschincariol/replica-skill",
+     "url": "https://github.com/Jakeschincariol/replica-skill",
+     "description": "Set of 11 Claude skills to reverse-engineer, rebuild and test apps.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 5808,
+     "gained": 5808,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "nykooi1/vibe-wise",
+     "url": "https://github.com/nykooi1/vibe-wise",
+     "description": "Claude Code and Codex plugin that teaches you while the AI writes code.",
+     "kind": "Plugin",
+     "language": "Python",
+     "stars": 3981,
+     "gained": 3981,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "Folkbench/folkbench",
+     "url": "https://github.com/Folkbench/folkbench",
+     "description": "Benchmark and switcher for AI API relay services by uptime, latency and price.",
+     "kind": "AI infra",
+     "language": "Rust",
+     "stars": 3743,
+     "gained": 3743,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "oil-oil/oil-ui",
+     "url": "https://github.com/oil-oil/oil-ui",
+     "description": "UI design skill for agents that compares design directions side by side.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 2373,
+     "gained": 2373,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "Vincentwei1021/mg-styles-15",
+     "url": "https://github.com/Vincentwei1021/mg-styles-15",
+     "description": "Fifteen motion design styles, each made by Claude Opus 5.5 from one prompt.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 2282,
+     "gained": 2282,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "Jakeschincariol/day-trader-skill",
+     "url": "https://github.com/Jakeschincariol/day-trader-skill",
+     "description": "Set of 11 Claude skills for chart scans, news tracking and trade replay.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 2074,
+     "gained": 2074,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "Jakeschincariol/founder-skill",
+     "url": "https://github.com/Jakeschincariol/founder-skill",
+     "description": "Set of 11 Claude skills to test a business idea with simulated advisors.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 1872,
+     "gained": 1872,
+     "source": "GitHub search"
+    }
+   ]
+  }
+ }
+}
