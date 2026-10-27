@@ -275,6 +275,135 @@ footer.band{margin-top:24px}
 .toast{position:fixed;z-index:60;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);max-width:calc(100vw - 32px);background:var(--purple);color:var(--on-purple);padding:10px 18px;border-radius:999px;font-size:15px;font-weight:600}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+/* ===== In-page views: Trending, Tracker, Week in review, Layoffs ===== */
+:root{--up:#0a7a3d}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--up:#4ad08a}}
+:root[data-theme="dark"]{--up:#4ad08a}
+.xv{padding-block:6px 56px}
+.xv h1.xh{margin:26px 0 4px;font-family:var(--f-display);font-weight:900;font-stretch:66%;font-size:clamp(38px,6vw,60px);line-height:.95;text-transform:uppercase}
+.xv h1.xh span{color:var(--purple-ink)}
+.xv .lede{margin:6px 0 16px;color:var(--ink-2);max-width:62ch}
+.xbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between;padding:12px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.xbar .grp{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.xsel{height:34px;border:1.5px solid var(--ink);border-radius:999px;background:var(--bg);color:var(--ink);padding:0 12px;font:600 14px var(--f-text)}
+.xlbl{font-size:13px;font-weight:600;color:var(--ink-2)}
+.xv .topics{display:flex;flex-wrap:wrap;align-items:center;gap:8px;padding:14px 0;border-bottom:1px solid var(--line)}
+.xv .topics .lbl{font-family:var(--f-display);font-weight:900;font-stretch:70%;font-size:18px;text-transform:uppercase;color:var(--purple-ink);margin-right:4px}
+.xv .kinds{display:flex;flex-wrap:wrap;gap:8px;padding:14px 0 4px}
+.xv ol.list{list-style:none;margin:8px 0 40px;padding:0;counter-reset:n}
+.repo{display:grid;grid-template-columns:52px minmax(0,1fr) auto;gap:4px 14px;align-items:start;padding:18px 0;border-bottom:1px solid var(--line);counter-increment:n}
+.repo::before{content:counter(n);font-family:var(--f-display);font-weight:900;font-stretch:62%;font-size:42px;line-height:.9;color:var(--purple-ink)}
+.repo h2{margin:0;font-family:var(--f-display);font-weight:800;font-stretch:85%;font-size:22px;line-height:1.15;word-break:break-word}
+.repo h2 a{text-decoration:none}
+.repo h2 a:hover{color:var(--purple-ink);text-decoration:underline}
+.repo p{margin:6px 0 0;max-width:68ch}
+.rtags{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px;font-size:13px;color:var(--ink-2)}
+.rtag{background:var(--bg-2);border-radius:999px;padding:2px 10px;font-weight:600}
+.rtag.kind{background:var(--purple-soft);color:var(--purple-ink)}
+.nums{text-align:right;white-space:nowrap}
+.gain{font-family:var(--f-display);font-weight:900;font-stretch:70%;font-size:24px;color:var(--up);font-variant-numeric:tabular-nums}
+.stars{font-size:13px;color:var(--ink-2);font-variant-numeric:tabular-nums}
+.spark{display:block;margin:6px 0 2px auto;color:var(--purple-ink)}
+.repo .first{font-size:12.5px;color:var(--ink-2)}
+.new{background:var(--purple);color:var(--on-purple);border-radius:999px;padding:1px 8px;font-size:11.5px;font-weight:700;letter-spacing:.04em;margin-left:6px;vertical-align:middle}
+@media (max-width:560px){.repo{grid-template-columns:36px minmax(0,1fr)}.repo::before{font-size:32px}.nums{grid-column:2;text-align:left;display:flex;flex-wrap:wrap;gap:4px 10px;align-items:baseline}.spark{margin:0}}
+.xv .xsearch{flex:1 1 220px;width:auto;height:40px;font-size:15px}
+.xv h3.sh{margin:34px 0 6px;font-family:var(--f-display);font-weight:900;font-stretch:70%;font-size:28px;text-transform:uppercase;border-bottom:4px solid var(--purple);display:inline-block;padding-bottom:4px}
+.xv .intro{font-size:1.08em;max-width:62ch;margin:6px 0 0}
+.wstory{display:grid;grid-template-columns:48px minmax(0,1fr);gap:4px 12px;padding:16px 0;border-bottom:1px solid var(--line);counter-increment:n}
+.wstory::before{content:counter(n);font-family:var(--f-display);font-weight:900;font-stretch:62%;font-size:40px;line-height:.9;color:var(--purple-ink)}
+.wstory h4,.card h4{margin:0;font-family:var(--f-display);font-weight:800;font-stretch:85%;font-size:21px;line-height:1.15}
+.wstory h4 a,.card h4 a{text-decoration:none}.wstory h4 a:hover,.card h4 a:hover{color:var(--purple-ink);text-decoration:underline}
+.wstory p,.card p{margin:6px 0 0;max-width:68ch}
+.wk{font-size:12px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:var(--purple-ink)}
+.xv ol.plain{list-style:none;margin:0;padding:0;counter-reset:n}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px;margin-top:10px}
+.card{border:1.5px solid var(--line);border-radius:14px;padding:14px 16px}
+.sotw{background:var(--purple);color:var(--on-purple);border-radius:18px;padding:clamp(20px,3vw,32px);margin-top:12px}
+.sotw h4{margin:4px 0 0;font-family:var(--f-display);font-weight:900;font-stretch:68%;font-size:clamp(30px,4.6vw,48px);line-height:.95}
+.sotw a{color:#fff}
+.sotw p{margin:10px 0 0;max-width:64ch;color:#f2edff}
+.sotw code{display:inline-block;margin-top:12px;background:rgba(0,0,0,.25);border-radius:8px;padding:8px 12px;font-size:14px;color:#fff;word-break:break-all}
+.sotw .wk{color:#e3d9ff}
+.verdict{display:inline-block;margin-top:14px;background:#fff;color:#0e0d12;border-radius:999px;padding:4px 14px;font-weight:700;font-size:14px}
+/* Layoffs */
+.kpis{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:18px 0 6px}
+.kpi{border-top:4px solid var(--ink);padding-top:8px}
+.kpi b{display:block;font-family:var(--f-display);font-weight:900;font-stretch:66%;font-size:clamp(34px,5vw,52px);line-height:1;color:var(--purple-ink);font-variant-numeric:tabular-nums}
+.kpi span{font-size:14px;color:var(--ink-2)}
+.kpi small{display:block;font-size:13px;color:var(--ink-2);margin-top:2px}
+@media (max-width:700px){.kpis{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.lbox{margin-top:26px}
+.lbox h3{margin:0 0 4px;font-family:var(--f-display);font-weight:900;font-stretch:70%;font-size:22px;text-transform:uppercase}
+.lbox p.sub{margin:0 0 10px;font-size:14px;color:var(--ink-2)}
+.mchart{width:100%;height:auto;display:block;overflow:visible}
+.mchart .bar{fill:var(--purple)}
+.mchart .bar:hover,.mchart .hit:hover+.bar{fill:var(--purple-ink)}
+.mchart .hit{fill:transparent;cursor:default}
+.mchart .ax{fill:var(--ink-2);font:500 12px var(--f-text)}
+.mchart .vl{fill:var(--ink);font:600 12px var(--f-text)}
+.mchart .gl{stroke:var(--line);stroke-width:1}
+.mbars{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:clamp(3px,1vw,10px);height:clamp(170px,26vw,240px);padding-top:22px;border-bottom:1px solid var(--line)}
+.mcol{position:relative;display:flex;flex-direction:column;justify-content:flex-end;height:100%;outline-offset:2px}
+.mcol i{display:block;min-height:0;background:var(--purple);border-radius:4px 4px 0 0}
+.mcol:hover i,.mcol:focus-visible i{background:var(--purple-ink)}
+.mcol .mv{position:absolute;left:-10px;right:-10px;text-align:center;font:600 13px var(--f-text);color:var(--ink);padding-bottom:4px;white-space:nowrap}
+.mcol .mm{position:absolute;left:0;right:0;bottom:-24px;text-align:center;font:500 12px var(--f-text);color:var(--ink-2)}
+.mcol.future .mm{opacity:.45}
+.mchart-wrap{padding-bottom:28px}
+.lgrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px}
+@media (max-width:900px){.lgrid{grid-template-columns:minmax(0,1fr)}}
+.hb{display:grid;grid-template-columns:minmax(0,9fr) minmax(0,10fr) auto;gap:8px;align-items:center;padding:6px 0;font-size:14px;border:0;background:none;width:100%;text-align:left;color:var(--ink);cursor:pointer}
+.hb:hover .hb-n{color:var(--purple-ink)}
+.hb[aria-pressed="true"] .hb-n{color:var(--purple-ink);font-weight:700}
+.hb-n{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.hb-t{height:12px;background:var(--bg-2);border-radius:4px;overflow:hidden}
+.hb-t i{display:block;height:100%;background:var(--purple);border-radius:0 4px 4px 0}
+.hb-v{font-variant-numeric:tabular-nums;color:var(--ink-2);font-size:13px;min-width:56px;text-align:right}
+.ltab{width:100%;border-collapse:collapse;font-size:15px;margin-top:6px}
+.ltab th{text-align:left;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-2);padding:8px 8px 8px 0;border-bottom:2px solid var(--ink)}
+.ltab td{padding:10px 8px 10px 0;border-bottom:1px solid var(--line);vertical-align:top}
+.ltab td.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+.ltab th.n{text-align:right}
+.ltab td a{font-weight:700;text-decoration:none}
+.ltab td a:hover{color:var(--purple-ink);text-decoration:underline}
+.ltab .dim{color:var(--ink-2);font-size:13px}
+.badge{display:inline-block;margin-left:6px;padding:0 7px;border-radius:999px;font-size:11.5px;font-weight:700;border:1px solid var(--ink-2);color:var(--ink-2);vertical-align:1px}
+@media (max-width:640px){.ltab .hide-s{display:none}}
+.tip{position:fixed;z-index:70;pointer-events:none;background:var(--ink);color:var(--bg);padding:6px 10px;border-radius:8px;font-size:13px;line-height:1.35;max-width:260px;box-shadow:0 4px 16px rgba(0,0,0,.18)}
+.srcnote{margin-top:28px;font-size:13.5px;color:var(--ink-2);max-width:72ch}
+.srcnote a{color:var(--purple-ink)}
+/* Minimal design for the in-page views */
+:root[data-style="minimal"]{--up:#14804A}
+@media (prefers-color-scheme:dark){:root[data-style="minimal"]:not([data-theme="light"]){--up:#5AD08F}}
+:root[data-style="minimal"] .xv h1.xh{font-weight:300;font-stretch:100%;text-transform:none;letter-spacing:-.045em;font-size:clamp(40px,7vw,72px);line-height:1;margin-top:44px}
+:root[data-style="minimal"] .xv h1.xh span{color:inherit}
+:root[data-style="minimal"] .xv .topics .lbl,:root[data-style="minimal"] .xv h3.sh,:root[data-style="minimal"] .lbox h3{font-family:var(--f-text);font-stretch:100%;text-transform:none;font-weight:600;letter-spacing:-.02em;color:var(--ink)}
+:root[data-style="minimal"] .xv .topics .lbl{font-size:14px}
+:root[data-style="minimal"] .xv h3.sh{font-size:22px;border-bottom:1px solid var(--ink);display:block}
+:root[data-style="minimal"] .lbox h3{font-size:18px}
+:root[data-style="minimal"] .xv .chip{border:1px solid var(--line);font-weight:500}
+:root[data-style="minimal"] .xv .chip[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:var(--bg)}
+:root[data-style="minimal"] .xsel{border:1px solid var(--line);font-weight:500}
+:root[data-style="minimal"] .repo::before,:root[data-style="minimal"] .wstory::before{font-family:var(--f-text);font-stretch:100%;font-weight:300;font-size:30px;color:var(--ink-2)}
+:root[data-style="minimal"] .repo h2,:root[data-style="minimal"] .wstory h4,:root[data-style="minimal"] .card h4{font-family:var(--f-text);font-stretch:100%;font-weight:600;letter-spacing:-.015em;font-size:19px}
+:root[data-style="minimal"] .gain,:root[data-style="minimal"] .kpi b{font-family:var(--f-text);font-stretch:100%;font-weight:600;letter-spacing:-.03em}
+:root[data-style="minimal"] .gain{font-size:20px}
+:root[data-style="minimal"] .kpi b{color:var(--ink)}
+:root[data-style="minimal"] .kpi{border-top:1px solid var(--line)}
+:root[data-style="minimal"] .rtag{background:transparent;border:1px solid var(--line)}
+:root[data-style="minimal"] .rtag.kind{border-color:transparent;background:var(--purple-soft)}
+:root[data-style="minimal"] .wk{text-transform:none;letter-spacing:0;font-weight:500;font-size:13.5px}
+:root[data-style="minimal"] .card{border-color:var(--line);border-radius:10px}
+:root[data-style="minimal"] .sotw{background:var(--bg-2);color:var(--ink);border:1px solid var(--line)}
+:root[data-style="minimal"] .sotw h4{font-family:var(--f-text);font-stretch:100%;font-weight:600;letter-spacing:-.03em;font-size:clamp(28px,4vw,40px)}
+:root[data-style="minimal"] .sotw a{color:var(--ink);text-decoration:none}
+:root[data-style="minimal"] .sotw p{color:var(--ink-2)}
+:root[data-style="minimal"] .sotw .wk{color:var(--purple-ink)}
+:root[data-style="minimal"] .sotw code{background:var(--bg);color:var(--ink);border:1px solid var(--line)}
+:root[data-style="minimal"] .verdict{background:var(--ink);color:var(--bg)}
+:root[data-style="minimal"] .new{background:var(--ink);color:var(--bg)}
+:root[data-style="minimal"] .ltab th{border-bottom:1px solid var(--ink);text-transform:none;letter-spacing:0;font-weight:600;font-size:13px}
 </style>
 </head><body>
 
@@ -303,7 +432,11 @@ footer.band{margin-top:24px}
   <div class="links">
     <button type="button" data-view="read">Today's paper</button>
     <button type="button" data-view="archive">Search the archive</button>
-      </div>
+    <button type="button" data-view="trending">Trending repos</button>
+    <button type="button" data-view="tracker">Ecosystem tracker</button>
+    <button type="button" data-view="layoffs">Layoffs tracker</button>
+    <button type="button" data-view="week">Week in review</button>
+  </div>
   <div class="opt"><p id="dLbl">Design</p><div class="seg" role="group" aria-labelledby="dLbl" id="styleSeg"><button type="button" data-v="magazine">Magazine</button><button type="button" data-v="minimal">Minimal</button></div></div>
   <div class="opt"><p id="tLbl">Theme</p><div class="seg" role="group" aria-labelledby="tLbl" id="apSeg"><button type="button" data-v="system">System</button><button type="button" data-v="light">Light</button><button type="button" data-v="dark">Dark</button></div></div>
   <div class="opt"><p id="sLbl">Text size</p><div class="seg" role="group" aria-labelledby="sLbl" id="sizeSeg"><button type="button" data-v="s">S</button><button type="button" data-v="m">M</button><button type="button" data-v="l">L</button><button type="button" data-v="xl">XL</button></div></div>
@@ -449,7 +582,7 @@ function chrome(k, all) {
   $("meta").innerHTML = `<span>${esc(fmt(k, { weekday: "long", day: "numeric", month: "long", year: "numeric" }))}</span><span>${isToday ? "Today's edition" : "Back issue"}${no ? " · No. " + no : ""}</span><span>${all.length} stories · ${mins} min</span>`;
   $("rail").innerHTML = `<button type="button" class="rt" role="tab" data-tab="all" aria-selected="${ST.view === "read" && ST.tab === "all"}">Front page</button>` +
     SECTIONS.filter(s => ST.tab === s.id || all.some(x => x.sec.id === s.id)).map(s => `<button type="button" class="rt" role="tab" data-tab="${s.id}" aria-selected="${ST.view === "read" && ST.tab === s.id}">${esc(s.name)}<small>${all.filter(x => x.sec.id === s.id).length}</small></button>`).join("") +
-    `<button type="button" class="rt" data-view="archive" aria-selected="${ST.view === "archive"}">Archive</button><a class="rt" href="trending.html" style="display:inline-flex;align-items:center;text-decoration:none">Trending repos</a><a class="rt" href="tracker.html" style="display:inline-flex;align-items:center;text-decoration:none">Tracker</a><a class="rt" href="week.html" style="display:inline-flex;align-items:center;text-decoration:none">Week in review</a>`;
+    `<button type="button" class="rt" data-view="archive" aria-selected="${ST.view === "archive"}">Archive</button>` + [["trending", "Trending repos"], ["tracker", "Tracker"], ["layoffs", "Layoffs tracker"], ["week", "Week in review"]].map(([v, l]) => `<button type="button" class="rt" data-view="${v}" aria-selected="${ST.view === v}">${l}</button>`).join("");
 }
 function readView(k) {
   const ed = editionFor(k), all = storiesOf(ed);
@@ -515,6 +648,171 @@ function newsroomView() {
     <p class="note" style="margin-top:16px">${ST.ctrl === "ok" ? "Run now prints a fresh filing in about two minutes." : "Run now and Pause appear when your Claude Code Remote connection answers. The desks print on schedule without it."}</p>
     <p><button type="button" class="pill pill--purple" data-view="read">Back to the paper</button></p></section>`;
 }
+/* ---------- In-page views: Trending, Tracker, Week in review, Layoffs (no page reload) ---------- */
+const XVIEWS = ["trending", "tracker", "week", "layoffs"];
+const XV = { busy: {}, hist: null, tracked: null,
+  trend: { dates: null, cache: {}, date: null, period: "daily", kind: null },
+  trk: { kind: null, q: "", sort: "g7" },
+  wk: { weeks: null, cache: {}, k: null },
+  lay: null, lf: { q: "", ind: null, sort: "date", year: null, all: false } };
+const num = n => typeof n === "number" ? n.toLocaleString("en-IN") : "–";
+const short = n => typeof n !== "number" ? "–" : n >= 1e5 ? (n / 1e3).toFixed(0) + "K" : n >= 1e4 ? (n / 1e3).toFixed(1).replace(/\.0$/, "") + "K" : n.toLocaleString("en-IN");
+const getJSON = u => fetch(u, { cache: "no-cache" }).then(r => r.ok ? r.json() : null).catch(() => null);
+function once(key, fn) { if (XV.busy[key]) return; XV.busy[key] = true; Promise.resolve(fn()).finally(() => { XV.busy[key] = false; render(); }); }
+const loadingHtml = t => `<section class="xv"><div class="empty"><h2>Loading</h2><p>${esc(t)}</p></div></section>`;
+const extA = (url, text) => { const u = safeUrl(url); return u ? `<a href="${esc(u)}" target="_blank" rel="noopener noreferrer">${esc(text)}</a>` : esc(text); };
+const sdate = k => fmt(k, { day: "numeric", month: "short" });
+
+/* star history helpers */
+const seriesOf = repo => { const h = (XV.hist || {})[repo], t = (XV.tracked || {})[repo] || {};
+  return Object.entries(Object.assign({}, t.reported || {}, (h && h.s) || {})).sort((a, b) => a[0].localeCompare(b[0])); };
+function growthOf(s, days) { if (s.length < 2) return null; const last = s[s.length - 1]; const cut = new Date(new Date(last[0] + "T00:00:00Z") - days * 864e5).toISOString().slice(0, 10); const base = s.filter(x => x[0] <= cut).pop(); return base ? last[1] - base[1] : null; }
+function sparkOf(s) { s = s.slice(-30); if (s.length < 2) return ""; const v = s.map(x => x[1]), lo = Math.min(...v), hi = Math.max(...v), w = 96, h = 28;
+  const pts = v.map((y, i) => `${(i / (v.length - 1) * w).toFixed(1)},${(h - 2 - (hi === lo ? 0.5 : (y - lo) / (hi - lo)) * (h - 4)).toFixed(1)}`).join(" ");
+  return `<svg class="spark" viewBox="0 0 ${w} ${h}" width="${w}" height="${h}" role="img" aria-label="Stars over the last ${s.length} days"><polyline points="${pts}" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/></svg>`; }
+function needStars() { if (XV.hist && XV.tracked) return true;
+  once("stars", async () => { const h = await getJSON("stars/history.json"), t = await getJSON("stars/tracked.json"); XV.hist = (h && h.repos) || {}; XV.histUpdated = (h && h.updated) || ""; XV.tracked = (t && t.repos) || {}; });
+  return false; }
+const kindChips = (kinds, cur) => kinds.length > 1 ? `<div class="kinds">${["All"].concat(kinds).map(k => `<button type="button" class="chip" data-xk="${esc(k)}" aria-pressed="${(k === "All" && !cur) || k === cur}">${esc(k)}</button>`).join("")}</div>` : "";
+
+/* ---- Trending ---- */
+const PLABEL = { daily: "today", weekly: "this week", monthly: "this month" };
+function trendingView() {
+  const T = XV.trend;
+  if (!T.dates) { once("tdates", async () => { const j = await getJSON("trending/index.json"); T.dates = ((j && j.dates) || []).slice().sort().reverse(); T.date = T.date || T.dates[0] || null; }); return loadingHtml("Fetching the trending list."); }
+  if (!needStars()) return loadingHtml("Fetching star history.");
+  if (!T.date) return `<section class="xv"><div class="empty"><h2>No list yet</h2><p>The first trending list prints tomorrow morning.</p></div></section>`;
+  if (!(T.date in T.cache)) { once("t" + T.date, async () => { T.cache[T.date] = await getJSON(`trending/${T.date}.json`); }); return loadingHtml("Fetching the trending list."); }
+  const data = T.cache[T.date] || {}, per = (data.periods || {})[T.period] || {}, repos = Array.isArray(per.repos) ? per.repos : [], topics = Array.isArray(per.topics) ? per.topics : [];
+  const kinds = [...new Set(repos.map(r => r.kind).filter(Boolean))]; if (T.kind && !kinds.includes(T.kind)) T.kind = null;
+  const list = repos.filter(r => !T.kind || r.kind === T.kind);
+  return `<section class="xv"><h1 class="xh">Growing <span>${esc(PLABEL[T.period])}</span></h1>
+    <p class="lede">The fastest-rising repos in the AI agent and Claude ecosystem${data.headline ? ". " + esc(data.headline) : "."}</p>
+    <div class="xbar"><div class="grp" role="group" aria-label="Period">${Object.keys(PLABEL).map(p => `<button type="button" class="chip" data-period="${p}" aria-pressed="${p === T.period}">${p[0].toUpperCase() + p.slice(1)}</button>`).join("")}</div>
+      <div class="grp"><label class="xlbl" for="tPick">Snapshot</label><select class="xsel" id="tPick">${T.dates.map(d => `<option value="${esc(d)}"${d === T.date ? " selected" : ""}>${esc(sdate(d))}</option>`).join("")}</select><button type="button" class="chip" data-view="tracker">Tracker →</button></div></div>
+    ${topics.length ? `<div class="topics"><span class="lbl">Rising topics</span>${topics.map(t => `<span class="chip" style="cursor:default">${esc(t)}</span>`).join("")}</div>` : ""}
+    ${kindChips(kinds, T.kind)}
+    ${list.length ? `<ol class="list">${list.map(r => { const u = safeUrl(r.url) || ("https://github.com/" + String(r.repo || "").replace(/[^\w.\-\/]/g, "")), s = seriesOf(r.repo), g7 = growthOf(s, 7), g30 = growthOf(s, 30);
+      return `<li class="repo"><div><h2>${extA(u, r.repo)}</h2>${r.description ? `<p>${esc(r.description)}</p>` : ""}
+        <div class="rtags">${r.kind ? `<span class="rtag kind">${esc(r.kind)}</span>` : ""}${r.language ? `<span class="rtag">${esc(r.language)}</span>` : ""}${r.source ? `<span>${esc(r.source)}</span>` : ""}</div></div>
+        <div class="nums">${typeof r.gained === "number" ? `<div class="gain">+${num(r.gained)}</div>` : ""}<div class="stars">★ ${num(r.stars)}</div>${sparkOf(s)}${g7 != null || g30 != null ? `<div class="stars">${g7 != null ? `+${num(g7)} in 7 days` : ""}${g7 != null && g30 != null ? " · " : ""}${g30 != null ? `+${num(g30)} in 30 days` : ""}</div>` : ""}</div></li>`; }).join("")}</ol>`
+      : `<div class="empty"><h2>Nothing here</h2><p>No repo for this period in this snapshot.</p></div>`}
+    <p class="srcnote">Updated every morning from GitHub Trending and GitHub search. AI desks pick and describe each repo, so check the repo before you install anything.</p></section>`;
+}
+
+/* ---- Tracker ---- */
+function trackerView() {
+  if (!needStars()) return loadingHtml("Fetching star history.");
+  const S = XV.trk, hist = XV.hist, tracked = XV.tracked;
+  const rows = [...new Set(Object.keys(tracked).concat(Object.keys(hist)))].map(repo => { const h = hist[repo] || {}, t = tracked[repo] || {}, s = seriesOf(repo);
+    return { repo, url: h.url || `https://github.com/${repo}`, description: h.description || t.description || "", kind: h.kind || t.kind || "Other", language: h.language || "", first: t.first_seen || h.first_seen || "", seen: t.seen_in || h.seen_in || [], gone: !!h.gone, s, stars: s.length ? s[s.length - 1][1] : null, g1: growthOf(s, 1), g7: growthOf(s, 7), g30: growthOf(s, 30) }; }).filter(r => !r.gone);
+  const kinds = [...new Set(rows.map(r => r.kind).filter(Boolean))].sort();
+  const ws = S.q.toLowerCase().split(/\s+/).filter(Boolean);
+  const key = r => S.sort === "stars" ? (r.stars ?? -1) : S.sort === "new" ? r.first : (r[S.sort] ?? -1e9);
+  const list = rows.filter(r => (!S.kind || r.kind === S.kind) && ws.every(w => `${r.repo} ${r.description} ${r.kind}`.toLowerCase().includes(w)))
+    .sort((a, b) => { const x = key(a), y = key(b); return x < y ? 1 : x > y ? -1 : (b.stars || 0) - (a.stars || 0); });
+  const week = new Date(Date.now() - 7 * 864e5).toISOString().slice(0, 10);
+  const sorts = [["g7", "Fastest growth, 7 days"], ["g30", "Fastest growth, 30 days"], ["g1", "Fastest growth, 1 day"], ["stars", "Most stars"], ["new", "Newest found"]];
+  return `<section class="xv"><h1 class="xh">Ecosystem <span>tracker</span></h1>
+    <p class="lede">Every Claude skill, plugin, MCP server and agent repo the desks have found. A GitHub job saves the star count of each repo every day, so growth comes from our own history. ${XV.histUpdated ? `Stars updated ${esc(XV.histUpdated)}.` : ""}</p>
+    <div class="xbar"><label class="sr" for="tq">Search repos</label><input class="search xsearch" id="tq" type="search" placeholder="Search repos: skill, mcp, plugin…" value="${esc(S.q)}">
+      <div class="grp"><label class="sr" for="tSort">Sort by</label><select class="xsel" id="tSort">${sorts.map(([v, l]) => `<option value="${v}"${v === S.sort ? " selected" : ""}>${l}</option>`).join("")}</select><span class="xlbl">${list.length} of ${rows.length}</span></div></div>
+    ${kindChips(kinds, S.kind)}
+    <ol class="list">${list.length ? list.slice(0, 200).map(r => `<li class="repo"><div><h2>${extA(r.url, r.repo)}${r.first >= week ? `<span class="new">NEW</span>` : ""}</h2>${r.description ? `<p>${esc(r.description)}</p>` : ""}
+      <div class="rtags">${r.kind ? `<span class="rtag kind">${esc(r.kind)}</span>` : ""}${r.language ? `<span class="rtag">${esc(r.language)}</span>` : ""}<span class="first">Found ${esc(r.first)}${r.seen.length ? " in " + esc(r.seen.join(", ")) : ""}</span></div></div>
+      <div class="nums">${r.g7 != null ? `<div class="gain">+${num(r.g7)}</div><div class="stars">7 days</div>` : ""}<div class="stars">★ ${num(r.stars)}</div>${sparkOf(r.s)}${r.g30 != null ? `<div class="stars">+${num(r.g30)} in 30 days</div>` : ""}</div></li>`).join("")
+      : `<li class="empty"><h2>Nothing here</h2><p>No repo matches.</p></li>`}</ol>
+    <p class="srcnote">Star counts come from the GitHub API once a day. Growth shows after two or more days of history. Check each repo before you install it.</p></section>`;
+}
+
+/* ---- Week in review ---- */
+function weekView() {
+  const W = XV.wk;
+  if (!W.weeks) { once("weeks", async () => { const j = await getJSON("weekly/index.json"); W.weeks = ((j && j.weeks) || []).slice().sort().reverse(); W.k = W.k || W.weeks[0] || null; }); return loadingHtml("Fetching the Week in review."); }
+  if (!W.k) return `<section class="xv"><div class="empty"><h2>No review yet</h2><p>The first Week in review prints on Sunday.</p></div></section>`;
+  if (!(W.k in W.cache)) { once("w" + W.k, async () => { W.cache[W.k] = await getJSON(`weekly/${W.k}.json`); }); return loadingHtml("Fetching the Week in review."); }
+  const w = W.cache[W.k] || {}, top = w.top || [], models = w.models || [], skills = w.skills || [], chips = w.chips || [], s = w.skill_of_week;
+  return `<section class="xv"><h1 class="xh">The week in <span>review</span></h1>
+    <div class="xbar"><span class="xlbl">${w.week_start ? `${esc(sdate(w.week_start))} – ${esc(sdate(w.week_end))}` : ""}</span><div class="grp"><label class="xlbl" for="wPick">Week</label><select class="xsel" id="wPick">${W.weeks.map(k => `<option value="${esc(k)}"${k === W.k ? " selected" : ""}>${esc(sdate(k))}</option>`).join("")}</select></div></div>
+    ${w.intro ? `<p class="intro">${esc(w.intro)}</p>` : ""}
+    ${s ? `<h3 class="sh">Skill of the week</h3><div class="sotw"><span class="wk">${esc(s.kind || "Skill")}${typeof s.stars === "number" ? ` · ★ ${num(s.stars)}` : ""}</span><h4>${extA(s.url, s.name)}</h4><p>${esc(s.what)}</p>${s.install ? `<code>${esc(s.install)}</code>` : ""}${s.verdict ? `<div><span class="verdict">${esc(s.verdict)}</span></div>` : ""}${s.note ? `<p>${esc(s.note)}</p>` : ""}</div>` : ""}
+    ${top.length ? `<h3 class="sh">Top ${top.length} stories</h3><ol class="plain">${top.map(t => `<li class="wstory"><div><span class="wk">${esc(t.section || "")}${t.date ? " · " + esc(sdate(t.date)) : ""}</span><h4>${extA(t.url, t.title)}</h4>${t.body ? `<p>${esc(t.body)}</p>` : ""}</div></li>`).join("")}</ol>` : ""}
+    ${models.length ? `<h3 class="sh">Model launches</h3><div class="cards">${models.map(m => `<div class="card"><span class="wk">${esc(m.lab || "")}${m.date ? " · " + esc(sdate(m.date)) : ""}</span><h4>${extA(m.url, m.name)}</h4>${m.what ? `<p>${esc(m.what)}</p>` : ""}</div>`).join("")}</div>` : ""}
+    ${skills.length ? `<h3 class="sh">Fastest-growing skills and plugins</h3><ol class="list">${skills.map(r => `<li class="repo"><div><h2>${extA(r.url, r.repo)}</h2>${r.description ? `<p>${esc(r.description)}</p>` : ""}<div class="rtags">${r.kind ? `<span class="rtag kind">${esc(r.kind)}</span>` : ""}</div></div><div class="nums">${typeof r.gained === "number" ? `<div class="gain">+${num(r.gained)}</div><div class="stars">this week</div>` : ""}<div class="stars">★ ${num(r.stars)}</div></div></li>`).join("")}</ol>` : ""}
+    ${chips.length ? `<h3 class="sh">Chips and research</h3><div class="cards">${chips.map(c => `<div class="card"><span class="wk">${c.date ? esc(sdate(c.date)) : ""}</span><h4>${extA(c.url, c.title)}</h4>${c.body ? `<p>${esc(c.body)}</p>` : ""}</div>`).join("")}</div>` : ""}
+    <p class="srcnote">Printed every Sunday morning from the week's editions. AI desks pick and summarise each story, so check the source before you act on it.</p></section>`;
+}
+
+/* ---- Layoffs tracker ---- */
+const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+function hbars(rows, filterKey) { const max = Math.max(1, ...rows.map(r => r[1]));
+  return rows.map(([name, v, n]) => `<${filterKey ? "button" : "div"} ${filterKey ? 'type="button" ' : 'tabindex="0" '}class="hb"${filterKey ? ` data-lf="${filterKey}" data-lv="${esc(name)}" aria-pressed="${XV.lf.ind === name}"` : ""} data-tip="${esc(name)}: ${esc(num(v))} employees in ${n} layoff${n === 1 ? "" : "s"}"><span class="hb-n">${esc(name)}</span><span class="hb-t"><i style="width:${(v / max * 100).toFixed(1)}%"></i></span><span class="hb-v">${esc(short(v))}</span></${filterKey ? "button" : "div"}>`).join(""); }
+function monthChart(byM, year) {
+  const max = Math.max(1, ...byM.map(m => m.v)), nowM = new Date().getFullYear() === +year ? new Date().getMonth() : 11, top = byM.reduce((a, m, i) => m.v > byM[a].v ? i : a, 0);
+  return `<div class="mbars" role="img" aria-label="Employees laid off by month in ${year}. The table below has the full data.">${byM.map((m, i) => {
+    const tip = `${MONTHS[i]} ${year}: ${num(m.v)} employees in ${m.n} layoff${m.n === 1 ? "" : "s"}${m.big ? `. Largest: ${m.big}` : ""}`;
+    return `<div class="mcol${i > nowM ? " future" : ""}" tabindex="${i > nowM ? -1 : 0}" data-tip="${esc(tip)}"><span class="mv" style="bottom:${(m.v / max * 100).toFixed(1)}%">${i === top && m.v ? esc(short(m.v)) : ""}</span><i style="height:${(m.v / max * 100).toFixed(1)}%"></i><span class="mm">${MONTHS[i]}</span></div>`; }).join("")}</div>`;
+}
+function layoffsView() {
+  if (!XV.lay) { once("lay", async () => { XV.lay = (await getJSON("layoffs/tracker.json")) || { entries: [] }; }); return loadingHtml("Fetching the layoffs tracker."); }
+  const F = XV.lf, all = (XV.lay.entries || []).filter(e => e && e.date && e.company);
+  const years = [...new Set(all.map(e => e.date.slice(0, 4)))].sort().reverse(); if (!F.year || !years.includes(F.year)) F.year = years[0] || String(new Date().getFullYear());
+  const yr = all.filter(e => e.date.startsWith(F.year));
+  const cuts = yr.filter(e => e.kind !== "buyout" && e.confirmed !== false), buy = yr.filter(e => e.kind === "buyout");
+  const total = cuts.reduce((t, e) => t + (e.count || 0), 0), cos = new Set(cuts.map(e => e.company.toLowerCase())).size;
+  const big = cuts.filter(e => e.count).sort((a, b) => b.count - a.count)[0];
+  const byM = MONTHS.map(() => ({ v: 0, n: 0, big: "", bv: 0 }));
+  cuts.forEach(e => { const m = byM[+e.date.slice(5, 7) - 1]; if (!m) return; m.n++; m.v += e.count || 0; if ((e.count || 0) > m.bv) { m.bv = e.count; m.big = `${e.company} (${num(e.count)})`; } });
+  const group = key => { const o = {}; cuts.forEach(e => { const k = e[key] || "Not stated"; o[k] = o[k] || [k, 0, 0]; o[k][1] += e.count || 0; o[k][2]++; }); return Object.values(o).filter(r => r[0] !== "Not stated" || key !== "country").sort((a, b) => b[1] - a[1] || b[2] - a[2]); };
+  const coRows = (() => { const o = {}; cuts.forEach(e => { const k = e.company; o[k] = o[k] || [k, 0, 0]; o[k][1] += e.count || 0; o[k][2]++; }); return Object.values(o).sort((a, b) => b[1] - a[1]).slice(0, 10); })();
+  const ws = F.q.toLowerCase().split(/\s+/).filter(Boolean);
+  const rows = yr.filter(e => (!F.ind || e.industry === F.ind) && ws.every(w => `${e.company} ${e.industry} ${e.location} ${e.country}`.toLowerCase().includes(w)))
+    .sort((a, b) => F.sort === "count" ? (b.count || 0) - (a.count || 0) : F.sort === "pct" ? (b.pct || 0) - (a.pct || 0) : b.date.localeCompare(a.date) || (b.count || 0) - (a.count || 0));
+  const last30 = cuts.filter(e => e.date >= new Date(Date.now() - 30 * 864e5).toISOString().slice(0, 10));
+  return `<section class="xv"><h1 class="xh">Layoffs <span>tracker</span></h1>
+    <p class="lede">Tech layoffs in ${esc(F.year)}, by month, industry, country and company. The Layoffs desk adds new cuts every morning. Each row links to its source.</p>
+    <div class="xbar"><div class="grp">${years.length > 1 ? `<label class="xlbl" for="lYear">Year</label><select class="xsel" id="lYear">${years.map(y => `<option${y === F.year ? " selected" : ""}>${y}</option>`).join("")}</select>` : `<span class="xlbl">${esc(F.year)}</span>`}</div><span class="xlbl">Updated ${XV.lay.updated ? esc(whenFmt(new Date(XV.lay.updated))) : "–"}</span></div>
+    <div class="kpis">
+      <div class="kpi"><b>${esc(short(total))}</b><span>employees laid off</span><small>${esc(num(total))} with a known number</small></div>
+      <div class="kpi"><b>${cuts.length}</b><span>layoffs</span><small>${last30.length} in the last 30 days</small></div>
+      <div class="kpi"><b>${cos}</b><span>companies</span><small>${cuts.filter(e => !e.count).length} cuts with no number given</small></div>
+      <div class="kpi"><b>${big ? esc(short(big.count)) : "–"}</b><span>largest cut</span><small>${big ? `${esc(big.company)}, ${esc(sdate(big.date))}` : ""}</small></div></div>
+    ${buy.length ? `<p class="srcnote" style="margin-top:6px">${buy.map(b => `<b>${esc(b.company)}</b> offered voluntary buyouts to about ${esc(num(b.count))} staff on ${esc(sdate(b.date))}.`).join(" ")} Buyout offers are listed below but are not in the totals.</p>` : ""}
+    <div class="lbox"><h3>Employees laid off by month</h3><p class="sub">Hover or tap a bar for the number of layoffs and the largest cut.</p><div class="mchart-wrap">${monthChart(byM, F.year)}</div></div>
+    <div class="lgrid">
+      <div class="lbox"><h3>By industry</h3><p class="sub">Select one to filter the table.</p>${hbars(group("industry").slice(0, 9), "ind")}</div>
+      <div class="lbox"><h3>Top companies</h3><p class="sub">All ${esc(F.year)} cuts added together.</p>${hbars(coRows)}</div>
+      <div class="lbox"><h3>By country</h3><p class="sub">Where the cuts were reported.</p>${hbars(group("country").slice(0, 8))}</div></div>
+    <div class="lbox"><h3>All layoffs</h3>
+      <div class="xbar" style="border-top:0"><label class="sr" for="lq">Search layoffs</label><input class="search xsearch" id="lq" type="search" placeholder="Search company, industry, location…" value="${esc(F.q)}">
+        <div class="grp">${F.ind ? `<button type="button" class="chip" data-lf="ind" data-lv="${esc(F.ind)}" aria-pressed="true">${esc(F.ind)} ✕</button>` : ""}<label class="sr" for="lSort">Sort by</label><select class="xsel" id="lSort">${[["date", "Newest first"], ["count", "Most employees"], ["pct", "Largest share of staff"]].map(([v, l]) => `<option value="${v}"${v === F.sort ? " selected" : ""}>${l}</option>`).join("")}</select><span class="xlbl">${rows.length} rows</span></div></div>
+      <table class="ltab"><thead><tr><th>Date</th><th>Company</th><th class="n">Employees</th><th class="n">Share</th><th class="hide-s">Industry</th><th class="hide-s">Location</th></tr></thead><tbody>
+      ${rows.slice(0, F.all || F.q || F.ind ? 400 : 25).map(e => `<tr><td class="dim">${esc(sdate(e.date))}</td><td>${extA(e.url, e.company)}${e.kind === "buyout" ? `<span class="badge">Buyout offer</span>` : ""}${e.confirmed === false ? `<span class="badge">Unconfirmed</span>` : ""}<div class="dim">${esc(e.source || "")}</div></td>
+        <td class="n">${e.count ? esc(num(e.count)) : `<span class="dim">${esc(e.count_text || "Not given")}</span>`}</td><td class="n">${e.pct ? esc(String(e.pct)) + "%" : `<span class="dim">–</span>`}</td><td class="hide-s">${esc(e.industry || "")}</td><td class="hide-s dim">${esc(e.location || e.country || "")}</td></tr>`).join("") || `<tr><td colspan="6" class="dim">No layoff matches.</td></tr>`}
+      </tbody></table>${rows.length > 25 && !(F.all || F.q || F.ind) ? `<p><button type="button" class="pill" id="lAll">Show all ${rows.length} layoffs</button></p>` : ""}</div>
+    <p class="srcnote">Sources: from 1 January to 20 October 2026, the list comes from the <a href="https://golayoffs.com/tech-layoff-tracker/" target="_blank" rel="noopener noreferrer">GoLayoffs Tech Layoff Tracker</a> (company statements, SEC filings and state WARN notices). After that date the Layoffs desk adds cuts from Reuters, Bloomberg, CNBC, TechCrunch and Indian business media. Totals count only cuts with a stated number, so the real total is higher. For the full public database, see <a href="https://layoffs.fyi/" target="_blank" rel="noopener noreferrer">layoffs.fyi</a>.</p></section>`;
+}
+
+/* tooltip for charts */
+(function tips() {
+  let tip = null;
+  const show = (el, x, y) => { if (!tip) { tip = document.createElement("div"); tip.className = "tip"; tip.setAttribute("role", "tooltip"); document.body.appendChild(tip); } tip.textContent = el.getAttribute("data-tip"); tip.hidden = false;
+    const r = tip.getBoundingClientRect(); tip.style.left = Math.max(8, Math.min(innerWidth - r.width - 8, x + 12)) + "px"; tip.style.top = Math.max(8, y - r.height - 12) + "px"; };
+  document.addEventListener("pointermove", e => { const el = e.target.closest && e.target.closest("[data-tip]"); if (el) show(el, e.clientX, e.clientY); else if (tip) tip.hidden = true; });
+  document.addEventListener("focusin", e => { const el = e.target.closest && e.target.closest("[data-tip]"); if (el) { const r = el.getBoundingClientRect(); show(el, r.left, r.top); } else if (tip) tip.hidden = true; });
+  addEventListener("scroll", () => { if (tip) tip.hidden = true; }, { passive: true });
+})();
+
+/* routing: #trending, #trending/weekly, #tracker, #week, #layoffs, or #YYYY-MM-DD */
+function routeFromHash() {
+  const h = decodeURIComponent((location.hash || "").slice(1)), [v, sub] = h.split("/");
+  if (XVIEWS.includes(v)) { ST.view = v; if (v === "trending" && PLABEL[sub]) XV.trend.period = sub; return true; }
+  if (/^\d{4}-\d{2}-\d{2}$/.test(h)) { ST.view = "read"; ST.date = h; ST.picked = true; return true; }
+  if (!h && XVIEWS.includes(ST.view)) ST.view = "read";
+  return false;
+}
+addEventListener("popstate", () => { routeFromHash(); render(); scrollTo({ top: 0 }); });
+
 /* ---------- Render and events ---------- */
 let rq = 0;
 /* ---------- Minimal design: one reading column ---------- */
@@ -557,16 +855,18 @@ function readViewMin(k) {
   return dateLine + listen + `<div class="m-grid"><div class="m-main">${mainHtml}${editionDates().some(d => d < k) ? `<p><button type="button" class="m-chip" id="readPrev">Read the previous edition</button></p>` : ""}</div>${side}</div>`;
 }
 function render() { cancelAnimationFrame(rq); rq = requestAnimationFrame(() => {
-  const k = ST.date, fq = document.activeElement && document.activeElement.id === "q", pos = fq ? document.activeElement.selectionStart : 0;
+  const k = ST.date, ae = document.activeElement, fid = ae && ae.tagName === "INPUT" && ae.type === "search" && $("view").contains(ae) ? ae.id : null, pos = fid ? ae.selectionStart : 0;
   chrome(k, storiesOf(editionFor(k)));
-  $("view").innerHTML = ST.view === "archive" ? archiveView() : ST.view === "newsroom" ? newsroomView() : (document.documentElement.dataset.style === "minimal" ? readViewMin(k) : readView(k));
-  if (fq && $("q")) { $("q").focus(); $("q").setSelectionRange(pos, pos); }
+  const XR = { archive: archiveView, newsroom: newsroomView, trending: trendingView, tracker: trackerView, week: weekView, layoffs: layoffsView };
+  $("view").innerHTML = XR[ST.view] ? XR[ST.view]() : (document.documentElement.dataset.style === "minimal" ? readViewMin(k) : readView(k));
+  if (fid && $(fid)) { $(fid).focus(); try { $(fid).setSelectionRange(pos, pos); } catch (e) {} }
   const dates = editionDates(); $("datePick").value = k; $("datePick").max = dayKey(new Date()); $("datePick").min = dates[0] || "2026-10-05";
   $("dateLbl").textContent = k === dayKey(new Date()) ? "Today" : fmt(k, { day: "numeric", month: "short" });
   $("prevDay").disabled = !dates.some(d => d < k); $("nextDay").disabled = !dates.some(d => d > k);
 }); }
 function setDate(k) { ST.date = k; ST.picked = true; try { history.replaceState(null, "", "#" + k); } catch (e) {} if (ST.view !== "read") ST.view = "read"; render(); scrollTo({ top: 0 }); }
-function setView(v) { ST.view = v; closeSheet(); render(); scrollTo({ top: 0 }); if (v === "archive") setTimeout(() => $("q") && $("q").focus(), 30); }
+function setHash(h) { const u = location.pathname + location.search + (h ? "#" + h : ""); if (u !== location.pathname + location.search + location.hash) try { history.pushState(null, "", u); } catch (e) {} }
+function setView(v) { ST.view = v; closeSheet(); setHash(XVIEWS.includes(v) ? (v === "trending" && XV.trend.period !== "daily" ? "trending/" + XV.trend.period : v) : (ST.picked ? ST.date : "")); render(); scrollTo({ top: 0 }); if (v === "archive") setTimeout(() => $("q") && $("q").focus(), 30); }
 const prev = () => { const d = editionDates().filter(x => x < ST.date).pop(); if (d) setDate(d); };
 const next = () => { const d = editionDates().find(x => x > ST.date); if (d) setDate(d); };
 $("prevDay").addEventListener("click", prev); $("nextDay").addEventListener("click", next);
@@ -574,17 +874,24 @@ $("datePick").addEventListener("change", e => { if (/^\d{4}-\d{2}-\d{2}$/.test(e
 document.addEventListener("click", e => {
   if (!e.target.closest) return;
   const tp = e.target.closest("[data-topic]"); if (tp) { const t = tp.dataset.topic || null; ST.topic = ST.topic === t ? null : t; ST.view = "read"; render(); return; }
-  const tb = e.target.closest("[data-tab]"); if (tb) { ST.tab = tb.dataset.tab; ST.view = "read"; render(); return; }
+  const tb = e.target.closest("[data-tab]"); if (tb) { ST.tab = tb.dataset.tab; if (ST.view !== "read") { ST.view = "read"; setHash(ST.picked ? ST.date : ""); scrollTo({ top: 0 }); } render(); return; }
+  const pd = e.target.closest("[data-period]"); if (pd) { XV.trend.period = pd.dataset.period; XV.trend.kind = null; setHash(pd.dataset.period === "daily" ? "trending" : "trending/" + pd.dataset.period); render(); return; }
+  const xk = e.target.closest("[data-xk]"); if (xk) { const v = xk.dataset.xk === "All" ? null : xk.dataset.xk; if (ST.view === "trending") XV.trend.kind = v; else XV.trk.kind = v; render(); return; }
+  const lf = e.target.closest("[data-lf]"); if (lf) { XV.lf.ind = XV.lf.ind === lf.dataset.lv ? null : lf.dataset.lv; render(); return; }
   const v = e.target.closest("[data-view]"); if (v) return setView(v.dataset.view);
   const d = e.target.closest("[data-d]"); if (d) return setDate(d.dataset.d);
+  if (e.target.closest("#lAll")) { XV.lf.all = true; return render(); }
   if (e.target.closest("#readPrev")) return prev();
   if (e.target.closest("#listenBtn")) return AUD.on && AUD.k === ST.date ? togglePlay() : playBrief(ST.date);
   const a = e.target.closest("[data-act]"); if (a && !a.disabled) act(a.dataset.id, a.dataset.act);
 });
-$("view").addEventListener("input", e => { if (e.target.id === "q") { ST.q = e.target.value; render(); } });
+$("view").addEventListener("input", e => { const id = e.target.id, v = e.target.value; if (id === "q") ST.q = v; else if (id === "tq") XV.trk.q = v; else if (id === "lq") XV.lf.q = v; else return; render(); });
+$("view").addEventListener("change", e => { const id = e.target.id, v = e.target.value;
+  if (id === "tPick") XV.trend.date = v; else if (id === "tSort") XV.trk.sort = v; else if (id === "wPick") XV.wk.k = v; else if (id === "lSort") XV.lf.sort = v; else if (id === "lYear") XV.lf.year = v; else return; render(); });
 document.addEventListener("keydown", e => {
   if (e.key === "Escape" && !$("sheet").hidden) return closeSheet();
   if ((e.target.closest && e.target.closest("input,textarea,select")) || e.metaKey || e.ctrlKey || e.altKey || !$("sheet").hidden) return;
+  if (ST.view !== "read") { if (e.key === "/") { e.preventDefault(); setView("archive"); } return; }
   if (e.key === "ArrowLeft") prev(); else if (e.key === "ArrowRight") next(); else if (e.key === "/") { e.preventDefault(); setView("archive"); }
 });
 /* ---------- Controls ---------- */
@@ -621,7 +928,7 @@ $("menuBtn").addEventListener("click", openSheet); $("sheetClose").addEventListe
 })();
 
 /* ---------- Boot: load the edition files published next to this page ---------- */
-(function init() { const h = (location.hash || "").slice(1); ST.picked = /^\d{4}-\d{2}-\d{2}$/.test(h); ST.date = ST.picked ? h : dayKey(new Date()); render(); })();
+(function init() { ST.date = dayKey(new Date()); ST.picked = false; routeFromHash(); render(); })();
 (async function boot() {
   try {
     const idx = await (await fetch("editions/index.json", { cache: "no-cache" })).json();
