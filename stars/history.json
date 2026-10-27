@@ -3,7 +3,8 @@
 "appariciojunior/video-editor-skills":{
 "s":{
 "2026-10-25":246,
-"2026-10-26":262
+"2026-10-26":262,
+"2026-10-27":270
 },
 "kind":"Skill",
 "first_seen":"2026-10-25",
@@ -18,7 +19,8 @@
 "Charonyuu/whatsmyagentdoing":{
 "s":{
 "2026-10-25":199,
-"2026-10-26":236
+"2026-10-26":236,
+"2026-10-27":251
 },
 "kind":"Dev tool",
 "first_seen":"2026-10-25",
@@ -33,7 +35,8 @@
 "jouaaaaaa/mcd-self-butler":{
 "s":{
 "2026-10-25":169,
-"2026-10-26":219
+"2026-10-26":219,
+"2026-10-27":218
 },
 "kind":"Skill",
 "first_seen":"2026-10-25",
@@ -48,7 +51,8 @@
 "morganlinton/BeautifulRust":{
 "s":{
 "2026-10-25":328,
-"2026-10-26":938
+"2026-10-26":938,
+"2026-10-27":1225
 },
 "kind":"Plugin",
 "first_seen":"2026-10-25",
@@ -57,14 +61,15 @@
 "Claude Ecosystem"
 ],
 "url":"https://github.com/morganlinton/BeautifulRust",
-"description":"A Claude Code plugin that teaches Claude to write idiomatic, robust Rust",
+"description":"Agent Skills that teach coding agents to write, review, and port idiomatic Rust, plus a tested clippy config. Works with Claude Code, Codex, Copilot, Cursor, and Gemini CLI.",
 "language":"Python",
 "created":"2026-10-23"
 },
 "lillyguisnet/sam3-segmentation":{
 "s":{
 "2026-10-25":71,
-"2026-10-26":75
+"2026-10-26":75,
+"2026-10-27":78
 },
 "kind":"Skill",
 "first_seen":"2026-10-25",
@@ -79,7 +84,8 @@
 "Shaitrish/37studio":{
 "s":{
 "2026-10-25":63,
-"2026-10-26":68
+"2026-10-26":68,
+"2026-10-27":72
 },
 "kind":"Other",
 "first_seen":"2026-10-25",
@@ -94,7 +100,8 @@
 "t3dotgg/tstack":{
 "s":{
 "2026-10-25":38,
-"2026-10-26":424
+"2026-10-26":424,
+"2026-10-27":1612
 },
 "kind":"Skill",
 "first_seen":"2026-10-25",
@@ -109,7 +116,8 @@
 "edigeh/broll-mcp":{
 "s":{
 "2026-10-25":26,
-"2026-10-26":30
+"2026-10-26":30,
+"2026-10-27":40
 },
 "kind":"MCP server",
 "first_seen":"2026-10-25",
@@ -124,7 +132,8 @@
 "thomasunise/argus":{
 "s":{
 "2026-10-25":68,
-"2026-10-26":91
+"2026-10-26":91,
+"2026-10-27":97
 },
 "kind":"Agent framework",
 "first_seen":"2026-10-25",
@@ -139,7 +148,8 @@
 "trailofbits/brotli-checker":{
 "s":{
 "2026-10-25":36,
-"2026-10-26":50
+"2026-10-26":50,
+"2026-10-27":55
 },
 "kind":"Skill",
 "first_seen":"2026-10-25",
@@ -154,7 +164,8 @@
 "Gathin23/tv-vibehack":{
 "s":{
 "2026-10-25":32801,
-"2026-10-26":36961
+"2026-10-26":36961,
+"2026-10-27":39526
 },
 "kind":"Other",
 "first_seen":"2026-10-25",
@@ -169,7 +180,8 @@
 "aicodeking/leanrea":{
 "s":{
 "2026-10-25":2308,
-"2026-10-26":2656
+"2026-10-26":2656,
+"2026-10-27":3027
 },
 "kind":"Skill",
 "first_seen":"2026-10-25",
@@ -184,7 +196,8 @@
 "Ansub/tv-detox":{
 "s":{
 "2026-10-25":1508,
-"2026-10-26":1573
+"2026-10-26":1573,
+"2026-10-27":1637
 },
 "kind":"Other",
 "first_seen":"2026-10-25",
@@ -199,7 +212,8 @@
 "alchaincyf/huashu-motion":{
 "s":{
 "2026-10-25":1615,
-"2026-10-26":1703
+"2026-10-26":1703,
+"2026-10-27":1741
 },
 "kind":"Skill",
 "first_seen":"2026-10-25",
@@ -214,7 +228,8 @@
 "Leonxlnx/athenaion":{
 "s":{
 "2026-10-25":296,
-"2026-10-26":301
+"2026-10-26":301,
+"2026-10-27":309
 },
 "kind":"Other",
 "first_seen":"2026-10-25",
@@ -240,7 +255,8 @@
 "kanaworksai-hue/audio-studio-mcp":{
 "s":{
 "2026-10-25":483,
-"2026-10-26":498
+"2026-10-26":498,
+"2026-10-27":506
 },
 "kind":"MCP server",
 "first_seen":"2026-10-25",
@@ -255,7 +271,8 @@
 "finereli/whatsapp-mcp":{
 "s":{
 "2026-10-25":365,
-"2026-10-26":382
+"2026-10-26":382,
+"2026-10-27":388
 },
 "kind":"MCP server",
 "first_seen":"2026-10-25",
@@ -270,7 +287,8 @@
 "Aoisop/mawoagent":{
 "s":{
 "2026-10-25":57,
-"2026-10-26":57
+"2026-10-26":57,
+"2026-10-27":57
 },
 "kind":"Agent framework",
 "first_seen":"2026-10-25",
@@ -285,7 +303,8 @@
 "olivieropinotti/orchestrator-skill":{
 "s":{
 "2026-10-25":70,
-"2026-10-26":72
+"2026-10-26":72,
+"2026-10-27":72
 },
 "kind":"Skill",
 "first_seen":"2026-10-25",
@@ -300,7 +319,8 @@
 "wheresryan22/anatomy":{
 "s":{
 "2026-10-25":20301,
-"2026-10-26":20821
+"2026-10-26":20821,
+"2026-10-27":21109
 },
 "kind":"Skill",
 "first_seen":"2026-10-25",
@@ -315,7 +335,8 @@
 "yihui-dev/awesome-opus5-5-videos":{
 "s":{
 "2026-10-25":10656,
-"2026-10-26":11253
+"2026-10-26":11253,
+"2026-10-27":11577
 },
 "kind":"Other",
 "first_seen":"2026-10-25",
@@ -330,7 +351,8 @@
 "tangency-labs/solidcraft":{
 "s":{
 "2026-10-25":10206,
-"2026-10-26":10590
+"2026-10-26":10590,
+"2026-10-27":10842
 },
 "kind":"Dev tool",
 "first_seen":"2026-10-25",
@@ -345,7 +367,8 @@
 "rehan-remade/universal-modder":{
 "s":{
 "2026-10-25":8914,
-"2026-10-26":8979
+"2026-10-26":8979,
+"2026-10-27":9024
 },
 "kind":"Skill",
 "first_seen":"2026-10-25",
@@ -360,7 +383,8 @@
 "KKKKhazix/AIHOT":{
 "s":{
 "2026-10-25":8573,
-"2026-10-26":8649
+"2026-10-26":8649,
+"2026-10-27":8683
 },
 "kind":"Agent framework",
 "first_seen":"2026-10-25",
@@ -375,7 +399,8 @@
 "lemomo-ai/lemo-opuscar":{
 "s":{
 "2026-10-25":6842,
-"2026-10-26":7731
+"2026-10-26":7731,
+"2026-10-27":8161
 },
 "kind":"Skill",
 "first_seen":"2026-10-25",
@@ -390,7 +415,8 @@
 "Louis-CFM/coucou":{
 "s":{
 "2026-10-25":6390,
-"2026-10-26":6498
+"2026-10-26":6498,
+"2026-10-27":6574
 },
 "kind":"Dev tool",
 "first_seen":"2026-10-25",
@@ -405,7 +431,8 @@
 "shader-effects-inc/shaders":{
 "s":{
 "2026-10-25":5431,
-"2026-10-26":5486
+"2026-10-26":5486,
+"2026-10-27":5517
 },
 "kind":"Dev tool",
 "first_seen":"2026-10-25",
@@ -420,7 +447,8 @@
 "Jakeschincariol/replica-skill":{
 "s":{
 "2026-10-25":5335,
-"2026-10-26":5572
+"2026-10-26":5572,
+"2026-10-27":5815
 },
 "kind":"Skill",
 "first_seen":"2026-10-25",
@@ -435,7 +463,8 @@
 "kaankiziltug/logo-design-skill":{
 "s":{
 "2026-10-25":4498,
-"2026-10-26":4620
+"2026-10-26":4620,
+"2026-10-27":4738
 },
 "kind":"Skill",
 "first_seen":"2026-10-25",
@@ -450,12 +479,14 @@
 "anthropics/claude-code":{
 "s":{
 "2026-10-25":153323,
-"2026-10-26":153414
+"2026-10-26":153414,
+"2026-10-27":153485
 },
 "kind":"MCP server",
 "first_seen":"2026-10-25",
 "seen_in":[
-"AI"
+"AI",
+"Claude Ecosystem"
 ],
 "url":"https://github.com/anthropics/claude-code",
 "description":"Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
@@ -465,7 +496,8 @@
 "anthropics/single-agent-loop-kit":{
 "s":{
 "2026-10-25":102,
-"2026-10-26":173
+"2026-10-26":173,
+"2026-10-27":228
 },
 "kind":"Subagent",
 "first_seen":"2026-10-25",
@@ -480,7 +512,8 @@
 "EpicGames/unreal-engine-skills-for-claude-code-plugin":{
 "s":{
 "2026-10-25":1651,
-"2026-10-26":1678
+"2026-10-26":1678,
+"2026-10-27":1686
 },
 "kind":"Plugin",
 "first_seen":"2026-10-25",
@@ -495,7 +528,8 @@
 "YoyoLin008/mcreplay":{
 "s":{
 "2026-10-25":191,
-"2026-10-26":202
+"2026-10-26":202,
+"2026-10-27":202
 },
 "kind":"MCP server",
 "first_seen":"2026-10-25",
@@ -510,7 +544,8 @@
 "xkx121029/mcd-vibe-commit":{
 "s":{
 "2026-10-25":156,
-"2026-10-26":157
+"2026-10-26":157,
+"2026-10-27":155
 },
 "kind":"Dev tool",
 "first_seen":"2026-10-25",
@@ -525,7 +560,8 @@
 "tian1326/mcd-coupon-assistant":{
 "s":{
 "2026-10-25":107,
-"2026-10-26":120
+"2026-10-26":120,
+"2026-10-27":120
 },
 "kind":"Skill",
 "first_seen":"2026-10-25",
@@ -540,7 +576,8 @@
 "xanthichi/mcd-meal-mate":{
 "s":{
 "2026-10-25":93,
-"2026-10-26":128
+"2026-10-26":128,
+"2026-10-27":128
 },
 "kind":"Skill",
 "first_seen":"2026-10-25",
@@ -555,7 +592,8 @@
 "RoderickGrc/agentic-edition-studio":{
 "s":{
 "2026-10-25":20,
-"2026-10-26":21
+"2026-10-26":21,
+"2026-10-27":21
 },
 "kind":"Skill",
 "first_seen":"2026-10-25",
@@ -570,7 +608,8 @@
 "joelhooks/lockjaw":{
 "s":{
 "2026-10-25":14,
-"2026-10-26":24
+"2026-10-26":24,
+"2026-10-27":27
 },
 "kind":"AI infra",
 "first_seen":"2026-10-25",
@@ -585,7 +624,8 @@
 "aicodeking/pandacode":{
 "s":{
 "2026-10-25":632,
-"2026-10-26":686
+"2026-10-26":686,
+"2026-10-27":773
 },
 "kind":"Coding agent",
 "first_seen":"2026-10-25",
@@ -600,7 +640,8 @@
 "dominikmartn/harp":{
 "s":{
 "2026-10-25":607,
-"2026-10-26":630
+"2026-10-26":630,
+"2026-10-27":660
 },
 "kind":"Dev tool",
 "first_seen":"2026-10-25",
@@ -615,7 +656,8 @@
 "realskyrin/ns-game-apple-arm-port":{
 "s":{
 "2026-10-25":496,
-"2026-10-26":510
+"2026-10-26":510,
+"2026-10-27":515
 },
 "kind":"Skill",
 "first_seen":"2026-10-25",
@@ -630,7 +672,8 @@
 "simbasjungles/free-my-tv":{
 "s":{
 "2026-10-25":4374,
-"2026-10-26":4690
+"2026-10-26":4690,
+"2026-10-27":4876
 },
 "kind":"Other",
 "first_seen":"2026-10-25",
@@ -645,7 +688,8 @@
 "vercel-labs/fx0":{
 "s":{
 "2026-10-25":399,
-"2026-10-26":405
+"2026-10-26":405,
+"2026-10-27":410
 },
 "kind":"Agent framework",
 "first_seen":"2026-10-25",
@@ -660,7 +704,8 @@
 "actionow-ai/vvv":{
 "s":{
 "2026-10-25":363,
-"2026-10-26":384
+"2026-10-26":384,
+"2026-10-27":398
 },
 "kind":"Skill",
 "first_seen":"2026-10-25",
@@ -676,7 +721,8 @@
 "QingYunA/answer-me-with-html":{
 "s":{
 "2026-10-25":4379,
-"2026-10-26":4471
+"2026-10-26":4471,
+"2026-10-27":4505
 },
 "kind":"Skill",
 "first_seen":"2026-10-25",
@@ -690,7 +736,8 @@
 },
 "DenisSergeevitch/ex-ussr-kinship-research":{
 "s":{
-"2026-10-26":621
+"2026-10-26":621,
+"2026-10-27":804
 },
 "kind":"Skill",
 "first_seen":"2026-10-26",
@@ -704,7 +751,8 @@
 },
 "mochiiwuff/capri-desktop":{
 "s":{
-"2026-10-26":152
+"2026-10-26":152,
+"2026-10-27":246
 },
 "kind":"Other",
 "first_seen":"2026-10-26",
@@ -718,7 +766,8 @@
 },
 "lemiur/Game-Decompilation-Skill-For-Claude":{
 "s":{
-"2026-10-26":113
+"2026-10-26":113,
+"2026-10-27":143
 },
 "kind":"Skill",
 "first_seen":"2026-10-26",
@@ -732,7 +781,8 @@
 },
 "ZiChuanLan/agent-purge":{
 "s":{
-"2026-10-26":200
+"2026-10-26":200,
+"2026-10-27":387
 },
 "kind":"Dev tool",
 "first_seen":"2026-10-26",
@@ -746,7 +796,8 @@
 },
 "boyuchengz/canvas-mcp":{
 "s":{
-"2026-10-26":115
+"2026-10-26":115,
+"2026-10-27":115
 },
 "kind":"MCP server",
 "first_seen":"2026-10-26",
@@ -760,7 +811,8 @@
 },
 "jacke-pp/ai-wallet-binance":{
 "s":{
-"2026-10-26":58
+"2026-10-26":58,
+"2026-10-27":97
 },
 "kind":"Other",
 "first_seen":"2026-10-26",
@@ -774,7 +826,8 @@
 },
 "AdhirajPersonal/antigravity-argon-bridge":{
 "s":{
-"2026-10-26":40
+"2026-10-26":40,
+"2026-10-27":43
 },
 "kind":"AI infra",
 "first_seen":"2026-10-26",
@@ -783,12 +836,13 @@
 ],
 "url":"https://github.com/AdhirajPersonal/antigravity-argon-bridge",
 "description":"Connect Google's flagship 4 Argon reasoning model to Antigravity IDE & MCP. Built on the belief that Pro users deserve full, unconstrained access to the models they have access to—paid, bundled, or trial. Features multi-account failover rot",
-"language":"TypeScript",
+"language":"",
 "created":"2026-10-25"
 },
 "smhanov/agentloop":{
 "s":{
-"2026-10-26":56
+"2026-10-26":56,
+"2026-10-27":83
 },
 "kind":"Agent framework",
 "first_seen":"2026-10-26",
@@ -802,7 +856,8 @@
 },
 "souvlakeee/siga":{
 "s":{
-"2026-10-26":19
+"2026-10-26":19,
+"2026-10-27":20
 },
 "kind":"Dev tool",
 "first_seen":"2026-10-26",
@@ -816,7 +871,8 @@
 },
 "codician-team/diffinery":{
 "s":{
-"2026-10-26":28
+"2026-10-26":28,
+"2026-10-27":43
 },
 "kind":"Dev tool",
 "first_seen":"2026-10-26",
@@ -830,7 +886,8 @@
 },
 "Jakeschincariol/day-trader-skill":{
 "s":{
-"2026-10-26":1803
+"2026-10-26":1803,
+"2026-10-27":2080
 },
 "kind":"Skill",
 "first_seen":"2026-10-26",
@@ -844,7 +901,8 @@
 },
 "udhaykumarbala/cleanyourtv-app":{
 "s":{
-"2026-10-26":658
+"2026-10-26":658,
+"2026-10-27":746
 },
 "kind":"Other",
 "first_seen":"2026-10-26",
@@ -858,7 +916,8 @@
 },
 "rossark0/rossark-motion-skill":{
 "s":{
-"2026-10-26":497
+"2026-10-26":497,
+"2026-10-27":509
 },
 "kind":"Skill",
 "first_seen":"2026-10-26",
@@ -873,7 +932,8 @@
 },
 "wangrongding/tv-fresh":{
 "s":{
-"2026-10-26":436
+"2026-10-26":436,
+"2026-10-27":500
 },
 "kind":"Skill",
 "first_seen":"2026-10-26",
@@ -887,7 +947,8 @@
 },
 "zengshuangzi/mcd-money-saver":{
 "s":{
-"2026-10-26":348
+"2026-10-26":348,
+"2026-10-27":355
 },
 "kind":"MCP server",
 "first_seen":"2026-10-26",
@@ -901,7 +962,8 @@
 },
 "slee-persis/GVS5H":{
 "s":{
-"2026-10-26":1015
+"2026-10-26":1015,
+"2026-10-27":1050
 },
 "kind":"Other",
 "first_seen":"2026-10-26",
@@ -915,7 +977,8 @@
 },
 "EricJujianZou/rederive":{
 "s":{
-"2026-10-26":248
+"2026-10-26":248,
+"2026-10-27":284
 },
 "kind":"Skill",
 "first_seen":"2026-10-26",
@@ -926,7 +989,259 @@
 "description":"Learn a codebase by re-deriving its design decisions yourself. A Claude Code skill.",
 "language":"Python",
 "created":"2026-10-19"
+},
+"andyhuo520/digital-human-koubo":{
+"s":{
+"2026-10-27":755
+},
+"kind":"Skill",
+"first_seen":"2026-10-27",
+"seen_in":[
+"Trending"
+],
+"url":"https://github.com/andyhuo520/digital-human-koubo",
+"description":"AI digital-human talking-head videos from one photo: Renoise MCP generation + 5 editing styles + 48 creator-grade packaging components. Agent skill for Claude Code / Codex / OpenClaw / WorkBuddy …",
+"language":"TypeScript",
+"created":"2026-10-26"
+},
+"blakeandersonw/ai-app-playbook":{
+"s":{
+"2026-10-27":223
+},
+"kind":"Other",
+"first_seen":"2026-10-27",
+"seen_in":[
+"Trending"
+],
+"url":"https://github.com/blakeandersonw/ai-app-playbook",
+"description":"How to build useful, profitable apps in 2026. Clone it and point your coding agent at AGENTS.md.",
+"language":"TypeScript",
+"created":"2026-10-26"
+},
+"Motionsites-AI/claude-skill":{
+"s":{
+"2026-10-27":155
+},
+"kind":"Skill",
+"first_seen":"2026-10-27",
+"seen_in":[
+"Trending"
+],
+"url":"https://github.com/Motionsites-AI/claude-skill",
+"description":"Free Claude skill: make Claude build award-level, cinematic landing pages. By MotionSites.",
+"language":"Python",
+"created":"2026-10-26"
+},
+"daniellockyer/dstack":{
+"s":{
+"2026-10-27":93
+},
+"kind":"Skill",
+"first_seen":"2026-10-27",
+"seen_in":[
+"Trending"
+],
+"url":"https://github.com/daniellockyer/dstack",
+"description":"The agent skills I use daily.",
+"language":"",
+"created":"2026-10-26"
+},
+"isitcredible/research_skills":{
+"s":{
+"2026-10-27":14
+},
+"kind":"Skill",
+"first_seen":"2026-10-27",
+"seen_in":[
+"Trending"
+],
+"url":"https://github.com/isitcredible/research_skills",
+"description":"Agent skills developed by The Catalogue of Errors Ltd",
+"language":"Python",
+"created":"2026-10-26"
+},
+"juanlizarazo/hackathon-starter-kit":{
+"s":{
+"2026-10-27":10
+},
+"kind":"Skill",
+"first_seen":"2026-10-27",
+"seen_in":[
+"Trending"
+],
+"url":"https://github.com/juanlizarazo/hackathon-starter-kit",
+"description":"Claude Code agent rules for building hackathon projects fast: Angular + Firebase defaults, rules split by topic so they don't eat context, and a template for the hackathon brief.",
+"language":"",
+"created":"2026-10-26"
+},
+"amigoscode/spring-ai-course":{
+"s":{
+"2026-10-27":9
+},
+"kind":"Other",
+"first_seen":"2026-10-27",
+"seen_in":[
+"Trending"
+],
+"url":"https://github.com/amigoscode/spring-ai-course",
+"description":"Learn Spring AI step by step: exercises with tests, from your first ChatClient call to RAG, MCP and agents. Spring Boot 4, Spring AI 2, DeepSeek.",
+"language":"Java",
+"created":"2026-10-26"
+},
+"devMarksKnobb/Ollama-Code":{
+"s":{
+"2026-10-27":10
+},
+"kind":"Coding agent",
+"first_seen":"2026-10-27",
+"seen_in":[
+"Trending"
+],
+"url":"https://github.com/devMarksKnobb/Ollama-Code",
+"description":"An unofficial, open-source AI coding agent powered by Ollama. Featuring autonomous coding, repository intelligence, multi-file editing, web search, long-context reasoning, isolated execution, and a powerful terminal UI.",
+"language":"Python",
+"created":"2026-10-26"
+},
+"xyl-0216/prism-research":{
+"s":{
+"2026-10-27":8
+},
+"kind":"Agent framework",
+"first_seen":"2026-10-27",
+"seen_in":[
+"Trending"
+],
+"url":"https://github.com/xyl-0216/prism-research",
+"description":"基于 Open Deep Research 的多模态研究 Agent，支持证据驱动检索、图像与 PDF 理解，以及来源可追溯的研究报告。",
+"language":"Python",
+"created":"2026-10-26"
+},
+"hevnsnt/CVEngine":{
+"s":{
+"2026-10-27":387
+},
+"kind":"AI infra",
+"first_seen":"2026-10-27",
+"seen_in":[
+"Trending"
+],
+"url":"https://github.com/hevnsnt/CVEngine",
+"description":"AI-first external attack surface assessment with continuous discovery, evidence-based vulnerability validation, and developer-agent MCP integration.",
+"language":"Python",
+"created":"2026-10-24"
+},
+"nykooi1/vibe-wise":{
+"s":{
+"2026-10-27":3981
+},
+"kind":"Plugin",
+"first_seen":"2026-10-27",
+"seen_in":[
+"Trending"
+],
+"url":"https://github.com/nykooi1/vibe-wise",
+"description":"A Claude Code / Codex plugin that helps you learn how to build while AI writes the code.",
+"language":"Python",
+"created":"2026-09-29"
+},
+"Folkbench/folkbench":{
+"s":{
+"2026-10-27":3744
+},
+"kind":"AI infra",
+"first_seen":"2026-10-27",
+"seen_in":[
+"Trending"
+],
+"url":"https://github.com/Folkbench/folkbench",
+"description":"AI API 中转站评测排行与切换工具：实测可用率、延迟与价格 · Open-source AI API relay benchmark, rankings & switcher for Claude Code / Codex",
+"language":"Rust",
+"created":"2026-10-02"
+},
+"oil-oil/oil-ui":{
+"s":{
+"2026-10-27":2375
+},
+"kind":"Skill",
+"first_seen":"2026-10-27",
+"seen_in":[
+"Trending"
+],
+"url":"https://github.com/oil-oil/oil-ui",
+"description":"UI design skill for Claude Code, Codex and other AI agents: explore distinct directions, compare them side by side, refine against real screenshots. 给 AI Agent 用的 UI 设计 Skill。",
+"language":"Python",
+"created":"2026-09-30"
+},
+"Vincentwei1021/mg-styles-15":{
+"s":{
+"2026-10-27":2286
+},
+"kind":"Skill",
+"first_seen":"2026-10-27",
+"seen_in":[
+"Trending"
+],
+"url":"https://github.com/Vincentwei1021/mg-styles-15",
+"description":"15 motion design styles, each made by Claude Opus 5.5 writing code from one prompt: watch the films, copy the prompts, read the full source.",
+"language":"Python",
+"created":"2026-10-02"
+},
+"Jakeschincariol/founder-skill":{
+"s":{
+"2026-10-27":1873
+},
+"kind":"Skill",
+"first_seen":"2026-10-27",
+"seen_in":[
+"Trending"
+],
+"url":"https://github.com/Jakeschincariol/founder-skill",
+"description":"Eleven free Claude skills that test a business before you launch it: a board trained on Hormozi, Thiel and Jobs, a marketing director, a CFO, and a consumer panel of 100 buyer agents. Free, MIT.",
+"language":"Python",
+"created":"2026-10-07"
+},
+"Deibler/openskycam":{
+"s":{
+"2026-10-27":46
+},
+"kind":"MCP server",
+"first_seen":"2026-10-27",
+"seen_in":[
+"Claude Ecosystem"
+],
+"url":"https://github.com/Deibler/openskycam",
+"description":"Record a sky camera around the clock, keep the footage on your own disk, and find what flew past.",
+"language":"TypeScript",
+"created":"2026-10-26"
+},
+"tomtomsatnav/agent-orchestration-standard":{
+"s":{
+"2026-10-27":95
+},
+"kind":"Subagent",
+"first_seen":"2026-10-27",
+"seen_in":[
+"Claude Ecosystem"
+],
+"url":"https://github.com/tomtomsatnav/agent-orchestration-standard",
+"description":"A live, local-first dashboard for Claude Code sessions: project graph of agents, tokens, tool feed, replay, alerts. Plugin + terminal UI + MCP server. Includes the AOS-1 agent orchestration spec.",
+"language":"JavaScript",
+"created":"2026-10-18"
+},
+"priyanshujha/subagent-studio":{
+"s":{
+"2026-10-27":33
+},
+"kind":"Subagent",
+"first_seen":"2026-10-27",
+"seen_in":[
+"Claude Ecosystem"
+],
+"url":"https://github.com/priyanshujha/subagent-studio",
+"description":"Claude Code plugins for running lean, single-purpose subagents: plan, build, two review passes",
+"language":"Python",
+"created":"2026-10-13"
 }
 },
-"updated":"2026-10-26"
+"updated":"2026-10-27"
 }
