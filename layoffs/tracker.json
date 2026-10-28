@@ -2,6 +2,34 @@
  "entries": [
   {
    "date": "2026-10-26",
+   "company": "Sony",
+   "count": 24,
+   "count_text": "",
+   "pct": null,
+   "location": "",
+   "country": "United States",
+   "industry": "Gaming",
+   "kind": "layoff",
+   "confirmed": true,
+   "source": "Aftermath",
+   "url": "https://aftermath.site/sucker-punch-layoffs-sony-ghost-of-yotei/"
+  },
+  {
+   "date": "2026-10-26",
+   "company": "SolarEdge",
+   "count": 200,
+   "count_text": "",
+   "pct": 10,
+   "location": "Israel",
+   "country": "Global",
+   "industry": "Hardware & networking",
+   "kind": "layoff",
+   "confirmed": true,
+   "source": "Globes",
+   "url": "https://en.globes.co.il/en/article-solaredge-lays-off-another-200-employees-1001560826"
+  },
+  {
+   "date": "2026-10-26",
    "company": "Microsoft",
    "count": 60000,
    "count_text": "buyout offers to about 60,000",
@@ -13,6 +41,20 @@
    "confirmed": true,
    "source": "Axios",
    "url": "https://www.axios.com/local/seattle/2026/10/26/microsoft-voluntary-buyouts-ai-job-cuts-2026"
+  },
+  {
+   "date": "2026-10-26",
+   "company": "Innodata",
+   "count": 550,
+   "count_text": "",
+   "pct": 16.0,
+   "location": "India, Philippines",
+   "country": "India",
+   "industry": "AI companies",
+   "kind": "layoff",
+   "confirmed": true,
+   "source": "AajTak",
+   "url": "https://aajtak.in/education/career/story/innodata-layoffs-550-employees-india-ai-tech-sector-crisis-dskc-2681700-2026-10-27"
   },
   {
    "date": "2026-10-21",
@@ -1625,5 +1667,5 @@
    "url": "https://golayoffs.com/tech-layoff-tracker/"
   }
  ],
- "updated": "2026-10-27T09:25:42Z"
+ "updated": "2026-10-28T02:51:44Z"
 }

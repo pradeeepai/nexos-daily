@@ -17,9 +17,10 @@
    "kind": "Dev tool",
    "description": "Live dashboard that shows what local Claude Code and Codex agents are doing.",
    "seen_in": [
-    "Trending"
+    "Trending",
+    "Claude Ecosystem"
    ],
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "reported": {
     "2026-10-25": 150,
     "2026-10-27": 251
@@ -45,11 +46,12 @@
     "Trending",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "reported": {
     "2026-10-25": 97,
     "2026-10-26": 767,
-    "2026-10-27": 1223
+    "2026-10-27": 1223,
+    "2026-10-28": 1316
    }
   },
   "lillyguisnet/sam3-segmentation": {
@@ -81,12 +83,14 @@
    "kind": "Skill",
    "description": "Daily-use agent skills for Claude Code and Codex.",
    "seen_in": [
-    "Trending"
+    "Trending",
+    "Claude Ecosystem"
    ],
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "reported": {
     "2026-10-25": 32,
-    "2026-10-27": 1596
+    "2026-10-27": 1596,
+    "2026-10-28": 2018
    }
   },
   "edigeh/broll-mcp": {
@@ -252,10 +256,11 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-26",
+   "last_seen": "2026-10-28",
    "reported": {
     "2026-10-25": 20182,
-    "2026-10-26": 20636
+    "2026-10-26": 20636,
+    "2026-10-28": 21488
    }
   },
   "yihui-dev/awesome-opus5-5-videos": {
@@ -279,10 +284,11 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-26",
+   "last_seen": "2026-10-28",
    "reported": {
     "2026-10-25": 10112,
-    "2026-10-26": 10499
+    "2026-10-26": 10499,
+    "2026-10-28": 11280
    }
   },
   "rehan-remade/universal-modder": {
@@ -292,11 +298,12 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "reported": {
     "2026-10-25": 8885,
     "2026-10-26": 8961,
-    "2026-10-27": 9023
+    "2026-10-27": 9023,
+    "2026-10-28": 9091
    }
   },
   "KKKKhazix/AIHOT": {
@@ -306,10 +313,11 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-26",
+   "last_seen": "2026-10-28",
    "reported": {
     "2026-10-25": 8552,
-    "2026-10-26": 8608
+    "2026-10-26": 8608,
+    "2026-10-28": 8742
    }
   },
   "lemomo-ai/lemo-opuscar": {
@@ -346,9 +354,10 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-28",
    "reported": {
-    "2026-10-25": 5404
+    "2026-10-25": 5404,
+    "2026-10-28": 5612
    }
   },
   "Jakeschincariol/replica-skill": {
@@ -358,11 +367,12 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "reported": {
     "2026-10-25": 5278,
     "2026-10-26": 5503,
-    "2026-10-27": 5808
+    "2026-10-27": 5808,
+    "2026-10-28": 6072
    }
   },
   "kaankiziltug/logo-design-skill": {
@@ -386,7 +396,7 @@
     "AI",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-10-27"
+   "last_seen": "2026-10-28"
   },
   "anthropics/single-agent-loop-kit": {
    "first_seen": "2026-10-25",
@@ -563,10 +573,11 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-26",
+   "last_seen": "2026-10-28",
    "reported": {
     "2026-10-25": 4372,
-    "2026-10-26": 4439
+    "2026-10-26": 4439,
+    "2026-10-28": 4552
    }
   },
   "DenisSergeevitch/ex-ussr-kinship-research": {
@@ -576,9 +587,10 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-26",
+   "last_seen": "2026-10-28",
    "reported": {
-    "2026-10-26": 539
+    "2026-10-26": 539,
+    "2026-10-28": 1061
    }
   },
   "mochiiwuff/capri-desktop": {
@@ -612,10 +624,11 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "reported": {
     "2026-10-26": 71,
-    "2026-10-27": 366
+    "2026-10-27": 366,
+    "2026-10-28": 610
    }
   },
   "boyuchengz/canvas-mcp": {
@@ -723,9 +736,10 @@
     "Trending",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-10-26",
+   "last_seen": "2026-10-28",
    "reported": {
-    "2026-10-26": 491
+    "2026-10-26": 491,
+    "2026-10-28": 533
    }
   },
   "wangrongding/tv-fresh": {
@@ -748,9 +762,10 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-26",
+   "last_seen": "2026-10-28",
    "reported": {
-    "2026-10-26": 347
+    "2026-10-26": 347,
+    "2026-10-28": 418
    }
   },
   "slee-persis/GVS5H": {
@@ -778,9 +793,10 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "reported": {
-    "2026-10-27": 742
+    "2026-10-27": 742,
+    "2026-10-28": 1097
    }
   },
   "blakeandersonw/ai-app-playbook": {
@@ -802,9 +818,10 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "reported": {
-    "2026-10-27": 152
+    "2026-10-27": 152,
+    "2026-10-28": 521
    }
   },
   "daniellockyer/dstack": {
@@ -886,9 +903,10 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "reported": {
-    "2026-10-27": 385
+    "2026-10-27": 385,
+    "2026-10-28": 421
    }
   },
   "nykooi1/vibe-wise": {
@@ -898,9 +916,10 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "reported": {
-    "2026-10-27": 3981
+    "2026-10-27": 3981,
+    "2026-10-28": 3995
    }
   },
   "Folkbench/folkbench": {
@@ -910,9 +929,10 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "reported": {
-    "2026-10-27": 3743
+    "2026-10-27": 3743,
+    "2026-10-28": 3793
    }
   },
   "oil-oil/oil-ui": {
@@ -977,6 +997,159 @@
     "Claude Ecosystem"
    ],
    "last_seen": "2026-10-27"
+  },
+  "ChannelCooperStart/capri-ai": {
+   "first_seen": "2026-10-28",
+   "kind": "Coding agent",
+   "description": "Desktop AI agent with a cyberpunk theme that works with Claude Code, Codex and other coding agents.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-28",
+   "reported": {
+    "2026-10-28": 169
+   }
+  },
+  "meta-models/legal-agent-workshop": {
+   "first_seen": "2026-10-28",
+   "kind": "Agent framework",
+   "description": "Workshop code for building an AI legal agent.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-28",
+   "reported": {
+    "2026-10-28": 41
+   }
+  },
+  "zhtyyx/codex-seo": {
+   "first_seen": "2026-10-28",
+   "kind": "Skill",
+   "description": "SEO audit skills for the Codex CLI, ported from a Claude SEO skill set.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-28",
+   "reported": {
+    "2026-10-28": 36
+   }
+  },
+  "Ericcc0321/soulgent": {
+   "first_seen": "2026-10-28",
+   "kind": "Dev tool",
+   "description": "macOS app that shows Claude Code, Codex and WorkBuddy sessions as characters, with a phone web app for replies.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-28",
+   "reported": {
+    "2026-10-28": 30
+   }
+  },
+  "onurozcan/omux": {
+   "first_seen": "2026-10-28",
+   "kind": "Dev tool",
+   "description": "Native macOS terminal to run several Claude Code sessions side by side.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-28",
+   "reported": {
+    "2026-10-28": 25
+   }
+  },
+  "ghosthand-dev/ghosthand": {
+   "first_seen": "2026-10-28",
+   "kind": "AI infra",
+   "description": "Lets AI agents control a real iPhone over USB and Bluetooth.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-28",
+   "reported": {
+    "2026-10-28": 15
+   }
+  },
+  "R44VC0RP/query": {
+   "first_seen": "2026-10-28",
+   "kind": "Dev tool",
+   "description": "Lets coding agents ask for secrets through a floating macOS prompt instead of the chat.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-28",
+   "reported": {
+    "2026-10-28": 13
+   }
+  },
+  "yanyan1115/ringringring": {
+   "first_seen": "2026-10-28",
+   "kind": "MCP server",
+   "description": "MCP tool that lets AI place phone calls through native iOS calling over free SIP.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-28",
+   "reported": {
+    "2026-10-28": 12
+   }
+  },
+  "kbrianps/claude-inline-images": {
+   "first_seen": "2026-10-28",
+   "kind": "Plugin",
+   "description": "Claude Code modification that shows PNG images inline in supported terminals.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-28",
+   "reported": {
+    "2026-10-28": 9
+   }
+  },
+  "SunandBean/paper2video": {
+   "first_seen": "2026-10-28",
+   "kind": "Skill",
+   "description": "Claude Code skill that turns arXiv papers into narrated explainer videos.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-28",
+   "reported": {
+    "2026-10-28": 9
+   }
+  },
+  "CopilotKit/OpenDuet": {
+   "first_seen": "2026-10-28",
+   "kind": "Agent framework",
+   "description": "Open-source template for a proactive AI agent that keeps the user in the loop.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-28",
+   "reported": {
+    "2026-10-28": 543
+   }
+  },
+  "onehumanbeing/esp32-iphone-agent": {
+   "first_seen": "2026-10-28",
+   "kind": "AI infra",
+   "description": "Lets an AI model operate a real iPhone through a $7 ESP32, AirPlay vision and USB HID input.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-28",
+   "reported": {
+    "2026-10-28": 4023
+   }
+  },
+  "haplollc/Vesalius": {
+   "first_seen": "2026-10-28",
+   "kind": "MCP server",
+   "description": "Vesalius: on-device code graph MCP server for Claude Code",
+   "seen_in": [
+    "Claude Ecosystem"
+   ],
+   "last_seen": "2026-10-28"
   }
  }
 }

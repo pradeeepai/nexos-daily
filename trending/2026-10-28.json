@@ -1,0 +1,338 @@
+{
+ "date": "2026-10-28",
+ "generated": "2026-10-28T02:51:44Z",
+ "headline": "ChannelCooperStart/capri-ai, a desktop agent for Claude Code and Codex, is the fastest-growing new AI repo today with 169 stars.",
+ "periods": {
+  "daily": {
+   "topics": [
+    "Coding agent companions",
+    "Claude Code skills",
+    "Agent phone control",
+    "MCP tools"
+   ],
+   "repos": [
+    {
+     "repo": "ChannelCooperStart/capri-ai",
+     "url": "https://github.com/ChannelCooperStart/capri-ai",
+     "description": "Desktop AI agent with a cyberpunk theme that works with Claude Code, Codex and other coding agents.",
+     "kind": "Coding agent",
+     "language": null,
+     "stars": 169,
+     "gained": 169,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "meta-models/legal-agent-workshop",
+     "url": "https://github.com/meta-models/legal-agent-workshop",
+     "description": "Workshop code for building an AI legal agent.",
+     "kind": "Agent framework",
+     "language": "Python",
+     "stars": 41,
+     "gained": 41,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "zhtyyx/codex-seo",
+     "url": "https://github.com/zhtyyx/codex-seo",
+     "description": "SEO audit skills for the Codex CLI, ported from a Claude SEO skill set.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 36,
+     "gained": 36,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "Ericcc0321/soulgent",
+     "url": "https://github.com/Ericcc0321/soulgent",
+     "description": "macOS app that shows Claude Code, Codex and WorkBuddy sessions as characters, with a phone web app for replies.",
+     "kind": "Dev tool",
+     "language": "Swift",
+     "stars": 30,
+     "gained": 30,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "onurozcan/omux",
+     "url": "https://github.com/onurozcan/omux",
+     "description": "Native macOS terminal to run several Claude Code sessions side by side.",
+     "kind": "Dev tool",
+     "language": "Swift",
+     "stars": 25,
+     "gained": 25,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "ghosthand-dev/ghosthand",
+     "url": "https://github.com/ghosthand-dev/ghosthand",
+     "description": "Lets AI agents control a real iPhone over USB and Bluetooth.",
+     "kind": "AI infra",
+     "language": "TypeScript",
+     "stars": 15,
+     "gained": 15,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "R44VC0RP/query",
+     "url": "https://github.com/R44VC0RP/query",
+     "description": "Lets coding agents ask for secrets through a floating macOS prompt instead of the chat.",
+     "kind": "Dev tool",
+     "language": "Swift",
+     "stars": 13,
+     "gained": 13,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "yanyan1115/ringringring",
+     "url": "https://github.com/yanyan1115/ringringring",
+     "description": "MCP tool that lets AI place phone calls through native iOS calling over free SIP.",
+     "kind": "MCP server",
+     "language": "Python",
+     "stars": 12,
+     "gained": 12,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "kbrianps/claude-inline-images",
+     "url": "https://github.com/kbrianps/claude-inline-images",
+     "description": "Claude Code modification that shows PNG images inline in supported terminals.",
+     "kind": "Plugin",
+     "language": "TypeScript",
+     "stars": 9,
+     "gained": 9,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "SunandBean/paper2video",
+     "url": "https://github.com/SunandBean/paper2video",
+     "description": "Claude Code skill that turns arXiv papers into narrated explainer videos.",
+     "kind": "Skill",
+     "language": "JavaScript",
+     "stars": 9,
+     "gained": 9,
+     "source": "GitHub search"
+    }
+   ]
+  },
+  "weekly": {
+   "topics": [
+    "Agent skills",
+    "Video generation skills",
+    "Coding agent tooling",
+    "McDonald's MCP apps"
+   ],
+   "repos": [
+    {
+     "repo": "t3dotgg/tstack",
+     "url": "https://github.com/t3dotgg/tstack",
+     "description": "Set of daily-use agent skills for Claude Code and Codex.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 2018,
+     "gained": 2018,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "morganlinton/BeautifulRust",
+     "url": "https://github.com/morganlinton/BeautifulRust",
+     "description": "Agent skills to write, review and port idiomatic Rust, with a clippy config.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 1316,
+     "gained": 1316,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "andyhuo520/digital-human-koubo",
+     "url": "https://github.com/andyhuo520/digital-human-koubo",
+     "description": "Agent skill that makes talking-head videos from one photo, with MCP-based generation and editing styles.",
+     "kind": "Skill",
+     "language": "TypeScript",
+     "stars": 1097,
+     "gained": 1097,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "DenisSergeevitch/ex-ussr-kinship-research",
+     "url": "https://github.com/DenisSergeevitch/ex-ussr-kinship-research",
+     "description": "Evidence-first genealogy skill for AI agents that covers former-USSR archive records.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 1061,
+     "gained": 1061,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "ZiChuanLan/agent-purge",
+     "url": "https://github.com/ZiChuanLan/agent-purge",
+     "description": "Replaces or injects system prompts across many coding agents, with a local web console.",
+     "kind": "Dev tool",
+     "language": "JavaScript",
+     "stars": 610,
+     "gained": 610,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "CopilotKit/OpenDuet",
+     "url": "https://github.com/CopilotKit/OpenDuet",
+     "description": "Open-source template for a proactive AI agent that keeps the user in the loop.",
+     "kind": "Agent framework",
+     "language": "TypeScript",
+     "stars": 543,
+     "gained": 543,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "rossark0/rossark-motion-skill",
+     "url": "https://github.com/rossark0/rossark-motion-skill",
+     "description": "Agent skill that turns SVG files into 60 fps animations for React Native and SwiftUI.",
+     "kind": "Skill",
+     "language": "Swift",
+     "stars": 533,
+     "gained": 533,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "Motionsites-AI/claude-skill",
+     "url": "https://github.com/Motionsites-AI/claude-skill",
+     "description": "Free Claude skill that generates cinematic landing pages.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 521,
+     "gained": 521,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "hevnsnt/CVEngine",
+     "url": "https://github.com/hevnsnt/CVEngine",
+     "description": "AI-first external attack surface assessment with vulnerability validation and MCP integration for developer agents.",
+     "kind": "MCP server",
+     "language": "Python",
+     "stars": 421,
+     "gained": 421,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "zengshuangzi/mcd-money-saver",
+     "url": "https://github.com/zengshuangzi/mcd-money-saver",
+     "description": "Money-saving assistant built on the McDonald's China MCP server.",
+     "kind": "MCP server",
+     "language": "Python",
+     "stars": 418,
+     "gained": 418,
+     "source": "GitHub search"
+    }
+   ]
+  },
+  "monthly": {
+   "topics": [
+    "Agent skills",
+    "Claude Code reverse engineering",
+    "MCP automation",
+    "Agents on real phones",
+    "AI API benchmarks"
+   ],
+   "repos": [
+    {
+     "repo": "wheresryan22/anatomy",
+     "url": "https://github.com/wheresryan22/anatomy",
+     "description": "Agent skill that makes interactive isometric illustrations of machines and complex systems.",
+     "kind": "Skill",
+     "language": "JavaScript",
+     "stars": 21488,
+     "gained": 21488,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "tangency-labs/solidcraft",
+     "url": "https://github.com/tangency-labs/solidcraft",
+     "description": "Open-source parametric 3D CAD app in Rust, with desktop, web and MCP automation.",
+     "kind": "MCP server",
+     "language": "Rust",
+     "stars": 11280,
+     "gained": 11280,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "rehan-remade/universal-modder",
+     "url": "https://github.com/rehan-remade/universal-modder",
+     "description": "Claude Code toolkit to reverse-engineer and mod PC games.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 9091,
+     "gained": 9091,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "KKKKhazix/AIHOT",
+     "url": "https://github.com/KKKKhazix/AIHOT",
+     "description": "Self-hostable template for a daily industry news site built on your own sources.",
+     "kind": "Other",
+     "language": "TypeScript",
+     "stars": 8742,
+     "gained": 8742,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "Jakeschincariol/replica-skill",
+     "url": "https://github.com/Jakeschincariol/replica-skill",
+     "description": "Free Claude skills to reverse-engineer, rebuild and bug-test existing apps.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 6072,
+     "gained": 6072,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "shader-effects-inc/shaders",
+     "url": "https://github.com/shader-effects-inc/shaders",
+     "description": "WebGPU shader components for React, Vue, Svelte, Solid, JS and Framer.",
+     "kind": "Dev tool",
+     "language": "TypeScript",
+     "stars": 5612,
+     "gained": 5612,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "QingYunA/answer-me-with-html",
+     "url": "https://github.com/QingYunA/answer-me-with-html",
+     "description": "Agent skill that answers complex questions with a one-page HTML document.",
+     "kind": "Skill",
+     "language": "JavaScript",
+     "stars": 4552,
+     "gained": 4552,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "onehumanbeing/esp32-iphone-agent",
+     "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
+     "description": "Lets an AI model operate a real iPhone through a $7 ESP32, AirPlay vision and USB HID input.",
+     "kind": "AI infra",
+     "language": "C",
+     "stars": 4023,
+     "gained": 4023,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "nykooi1/vibe-wise",
+     "url": "https://github.com/nykooi1/vibe-wise",
+     "description": "Claude Code and Codex plugin that teaches you to build software while AI writes the code.",
+     "kind": "Plugin",
+     "language": "Python",
+     "stars": 3995,
+     "gained": 3995,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "Folkbench/folkbench",
+     "url": "https://github.com/Folkbench/folkbench",
+     "description": "Open-source benchmark and switcher for AI API relays that measures uptime, latency and price.",
+     "kind": "AI infra",
+     "language": "Rust",
+     "stars": 3793,
+     "gained": 3793,
+     "source": "GitHub search"
+    }
+   ]
+  }
+ }
+}

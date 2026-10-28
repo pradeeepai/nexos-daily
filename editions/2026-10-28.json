@@ -1,0 +1,546 @@
+{
+ "date": "2026-10-28",
+ "generated": "2026-10-28T02:51:44Z",
+ "sections": {
+  "tech-news": {
+   "routine": "tech-news",
+   "status": "done",
+   "headline": "Anthropic reports Claude results in drug development with six partners, as DeepMind previews Genie 4 and OpenAI ships the cheaper GPT-6.1 Terra.",
+   "filed": "2026-10-28T02:19:00Z",
+   "note": "Only three Claude items had real news in the window; the Anthropic S-1 filing was skipped as financial news.",
+   "items": [
+    {
+     "title": "Anthropic reports early Claude results in drug development",
+     "body": "Anthropic published results from six partners, including Bristol Myers Squibb, Generate Biomedicines and Enveda. Generate used Claude Code to design a genetic component about 70% shorter that gave about 10 times more receptors in lab tests. Enveda says Claude reviewed 1,061 pages of manufacturing documents, found all 11 human-found issues plus 7 more, and cut review time by 89%. Most of the work is preclinical.",
+     "why": "It shows Claude Code and Claude skills running long, multi-team scientific workflows, a pattern engineers can reuse for regulated pipelines.",
+     "topics": [
+      "Claude",
+      "Claude Code",
+      "AI research"
+     ],
+     "source": "Anthropic",
+     "url": "https://www.anthropic.com/research/early-progress-drug-development",
+     "date": "2026-10-27"
+    },
+    {
+     "title": "Anthropic gives US governments 40% off Claude through GSA",
+     "body": "A new GSA OneGov agreement gives federal, state, local, tribal and territorial governments a 40% discount on Claude Enterprise, Claude for Government and the Claude API. There is no minimum spend. The discount will also apply through cloud providers in the coming months. Anthropic estimates savings of $1 billion.",
+     "why": "Public-sector teams on AWS can buy Claude at a discount, and Claude on Bedrock is FedRAMP High with select models at DoD IL4/IL5 in GovCloud.",
+     "topics": [
+      "Claude",
+      "AI policy",
+      "Bedrock"
+     ],
+     "source": "Anthropic",
+     "url": "https://www.anthropic.com/news/expanding-partnership-gsa",
+     "date": "2026-10-27"
+    },
+    {
+     "title": "Claude Code v2.1.311 auto-compacts past 200K and fixes subagent hooks",
+     "body": "Sessions no longer stop with a 1M-context credits error when a request goes over 200K tokens; Claude Code compacts and continues. The release adds --hold-idle-file and --max-hold-min to self-hosted-runner. It fixes SubagentStop hooks firing about twice a minute and subagents that could not use MCP tools from late-connecting servers. ultrathink now runs at xhigh effort on several models.",
+     "why": "Long unattended sessions and self-hosted runners stop failing on large contexts and hook spam.",
+     "topics": [
+      "Claude Code",
+      "Agents",
+      "DevOps"
+     ],
+     "source": "GitHub · anthropics/claude-code",
+     "url": "https://github.com/anthropics/claude-code/releases",
+     "date": "2026-10-26"
+    },
+    {
+     "title": "Google DeepMind previews Genie 4 world model",
+     "body": "Genie 4 generates explorable environments in real time, with audio, physics and people who move and speak. Users can edit the world with natural language during a simulation. It is a research preview for trusted testers. Google plans access for Google AI Ultra subscribers in Project Genie and for early partners on the Gemini API and AI Studio, with a waitlist.",
+     "why": "Real-time interactive world simulation is coming to the Gemini API, which opens new agent training and simulation workloads.",
+     "topics": [
+      "Gemini",
+      "New models",
+      "AI research"
+     ],
+     "source": "Google DeepMind",
+     "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+     "date": "2026-10-27",
+     "also": [
+      {
+       "section": "Pulse",
+       "source": "Hacker News · 677 points · 410 comments",
+       "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/"
+      },
+      {
+       "section": "Trending on X",
+       "source": "X · @GoogleDeepMind · 15879 likes · 1704 reposts",
+       "url": "https://x.com/GoogleDeepMind/status/2115114028338962672"
+      },
+      {
+       "section": "Trending on X",
+       "source": "X · @OfficialLoganK · 2023 likes · 105 reposts",
+       "url": "https://x.com/OfficialLoganK/status/2115129174826647863"
+      }
+     ]
+    },
+    {
+     "title": "OpenAI launches GPT-6.1 Terra at $1/$5 per million tokens",
+     "body": "GPT-6.1 Terra costs $1 per million input tokens and $5 per million output tokens, which OpenAI says is 50% lower than GPT-5.6 Terra and GPT-6.1 Sol. OpenAI says it finishes tasks more than three times faster than GPT-6 Astra and GPT-6.1 Sol. It is in ChatGPT Plus, Pro, Enterprise and Edu, in Codex, and in the API as gpt-6.1-terra. The source does not give the context size.",
+     "why": "A cheaper, faster OpenAI model changes cost math for high-volume agent and coding pipelines.",
+     "topics": [
+      "OpenAI",
+      "New models"
+     ],
+     "source": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-launches-gpt-61-terra-with-3x-faster-ai-agents-50-percent-lower-pricing/",
+     "date": "2026-10-26"
+    },
+    {
+     "title": "Cloudflare discloses cross-customer KV cache leak in GLM-5.3",
+     "body": "From August 27 to September 9, 155 Workers AI responses for GLM-5.3 contained data from other customers' requests. All were prompts longer than 681,280 tokens. The KV cache pool was smaller than the 1,048,576-token context, and an SGLang bug let the decode node read stale KV pages. Cloudflare raised the pool to about 2.04M tokens and patched SGLang upstream.",
+     "why": "Teams that self-host disaggregated LLM inference on SGLang must check KV pool sizing and upgrade to v0.5.22 or later.",
+     "topics": [
+      "Security",
+      "Open models",
+      "DevOps"
+     ],
+     "source": "Cloudflare blog",
+     "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
+     "date": "2026-10-26",
+     "also": [
+      {
+       "section": "Pulse",
+       "source": "Hacker News · 178 points · 71 comments",
+       "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/"
+      }
+     ]
+    },
+    {
+     "title": "CodeRabbit uses GPT-6.1 Sol for code security review",
+     "body": "OpenAI published a customer story on CodeRabbit using GPT-6.1 Sol. CodeRabbit uses the model to help developers find security risks across complex codebases. The OpenAI Developers account shared the story on X.",
+     "why": "It is a production example of a frontier model finding security risks in large codebases during code review.",
+     "topics": [
+      "OpenAI",
+      "Security",
+      "AI tools"
+     ],
+     "source": "OpenAI",
+     "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security/",
+     "date": "2026-10-26",
+     "also": [
+      {
+       "section": "Trending on X",
+       "source": "X · @OpenAIDevs · 602 likes · 47 reposts",
+       "url": "https://x.com/OpenAIDevs/status/2114837274550747603"
+      }
+     ]
+    }
+   ]
+  },
+  "chips": {
+   "routine": "chips",
+   "status": "done",
+   "headline": "NVIDIA Vera Rubin NVL72 and the Vera CPU are now generally available on Oracle Cloud, with a plan to grow to multi-gigawatt scale.",
+   "filed": "2026-10-28T02:19:00Z",
+   "note": "",
+   "items": [
+    {
+     "title": "Vera Rubin NVL72 and Vera CPU reach GA on Oracle Cloud",
+     "body": "NVIDIA and Oracle say Vera Rubin NVL72 systems and Vera CPUs are generally available on OCI. Each NVL72 rack links 72 GPUs over NVLink, and OCI Superclusters will grow to multi-gigawatt scale. OpenAI has early access to Vera CPUs and is moving them into production. An x86 HGX Rubin NVL8 system with eight Rubin GPUs, 4TB DDR5 and 6.4 Tbps RDMA is planned.",
+     "why": "It is a new cloud option for Rubin-class training and agent workloads outside AWS, with CPUs tuned for tool calls.",
+     "topics": [
+      "NVIDIA",
+      "Data centers",
+      "Chips"
+     ],
+     "source": "NVIDIA Newsroom",
+     "url": "https://nvidianews.nvidia.com/news/nvidia-and-oracle-expand-nvidia-vera-rubin-to-multi-gigawatt-scale-and-bring-nvidia-vera-cpu-to-oracle-cloud-infrastructure",
+     "date": "2026-10-27"
+    },
+    {
+     "title": "Apple M6 MacBook Pro: dual Neural Engine, 25% faster LLM work",
+     "body": "The M6 has a 12-core CPU, a 12-core GPU with a Neural Accelerator in each core, and a dual 16-core Neural Engine. It supports up to 32GB unified memory at up to 170GB/s. Apple claims up to 25% faster LLM prompt processing, 1.3x faster time to first token and a 1.9x faster Neural Engine than M5. Pre-orders open October 28 and sales start November 6.",
+     "why": "Local LLM inference on developer laptops gets faster, with per-core GPU neural accelerators.",
+     "topics": [
+      "Apple silicon",
+      "Chips"
+     ],
+     "source": "Apple Newsroom",
+     "url": "https://www.apple.com/in/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/",
+     "date": "2026-10-27",
+     "also": [
+      {
+       "section": "Gadgets",
+       "source": "Apple Newsroom India",
+       "url": "https://www.apple.com/in/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/"
+      }
+     ]
+    },
+    {
+     "title": "Meta expands Vera Rubin, Spectrum-X and BlueField-4 deployment",
+     "body": "NVIDIA and Meta will co-optimize training and inference for Meta's Muse models. Meta plans to expand its use of Vera Rubin, Vera CPUs, Spectrum-X Ethernet and BlueField-4. The two will also look at NVIDIA OpenShell and Sentry for safer agent deployment and monitoring. The release gives no benchmark figures.",
+     "why": "It signals that the largest model builders are standardizing on Rubin systems and Ethernet AI fabrics.",
+     "topics": [
+      "NVIDIA",
+      "Data centers"
+     ],
+     "source": "NVIDIA Newsroom",
+     "url": "https://nvidianews.nvidia.com/news/nvidia-and-meta-to-expand-collaboration-on-muse-and-muse-family-of-models-amid-robust-growth",
+     "date": "2026-10-26"
+    },
+    {
+     "title": "Trajectory2Gym boosts tool-use agents by 17 to 30 points",
+     "body": "Trajectory2Gym builds executable interactions around compositional structures that agents handle poorly, instead of only collecting successful runs. It uses decision-grounded supervision and parent-normalized fine-tuning. Across five Qwen3 sizes, the mean of Tau1, Tau2 and BFCL rose 16.9 to 29.8 points. It was the top Hugging Face paper on October 27 with 331 upvotes.",
+     "why": "It gives a data recipe that makes small fine-tuned models more reliable at multi-turn, stateful tool use.",
+     "topics": [
+      "AI research",
+      "Architecture"
+     ],
+     "source": "Hugging Face Papers · Hu et al.",
+     "url": "https://huggingface.co/papers/2610.33568",
+     "date": "2026-10-27"
+    },
+    {
+     "title": "TraceTrial-Bench: task success hides harness failures",
+     "body": "The benchmark tests agent harnesses on seven parts, such as context, tools, governance and verification, with 95 expert tasks. It ran 4 harnesses and 9 models for 3,420 runs. Harness scores ranged from 59.8% to 72.0%. In 31.1% of runs the task succeeded even though the harness failed at least one criterion.",
+     "why": "Teams running agents in production need to measure harness reliability, not only task pass rates.",
+     "topics": [
+      "AI research"
+     ],
+     "source": "Hugging Face Papers · Cao, Zhu et al.",
+     "url": "https://huggingface.co/papers/2610.32285",
+     "date": "2026-10-27"
+    }
+   ]
+  },
+  "ecosystem": {
+   "routine": "ecosystem",
+   "status": "done",
+   "headline": "Anthropic donated the Agent Skills standard to the Agentic AI Foundation, while Theo's tstack skills passed 2,000 stars in four days.",
+   "filed": "2026-10-28T02:19:00Z",
+   "note": "",
+   "items": [
+    {
+     "title": "Anthropic donates Agent Skills standard to the Agentic AI Foundation",
+     "body": "Anthropic gave the Agent Skills standard, name, logo, GitHub org and agentskills.io domain to the AAIF. More than 70 platforms, including ChatGPT, Cursor, GitHub Copilot and VS Code, support it. The roadmap adds versioned releases, a proposal process and security guidance for skill authors and users.",
+     "why": "Skills you write for Claude Code now follow a vendor-neutral standard under the Linux Foundation, like MCP.",
+     "topics": [
+      "Skills",
+      "Claude Code"
+     ],
+     "source": "Anthropic",
+     "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+     "date": "2026-10-22"
+    },
+    {
+     "title": "tstack: Theo's daily PR skills for Claude Code and Codex",
+     "body": "t3dotgg/tstack has nine skills, such as full-send, council (review by three models until they agree), babysit-pr and takeover. It was created October 24 and has 2,018 stars. Install: git clone https://github.com/t3dotgg/tstack && cp -R tstack/skills/* ~/.claude/skills/",
+     "why": "It packages a full PR workflow (prove, review, babysit CI, merge) as reusable skills.",
+     "topics": [
+      "Skills",
+      "Claude Code",
+      "Setups"
+     ],
+     "source": "GitHub · t3dotgg",
+     "url": "https://github.com/t3dotgg/tstack",
+     "date": "2026-10-27"
+    },
+    {
+     "title": "BeautifulRust: agent skills for idiomatic Rust",
+     "body": "morganlinton/BeautifulRust provides agent skills to write, review and port idiomatic Rust, plus a clippy configuration. It was created October 23 and has 1,316 stars.",
+     "why": "Teams that write Rust with agents get review and porting guidance plus a clippy config.",
+     "topics": [
+      "Skills",
+      "Claude Code"
+     ],
+     "source": "GitHub · morganlinton",
+     "url": "https://github.com/morganlinton/BeautifulRust",
+     "date": "2026-10-27"
+    },
+    {
+     "title": "whatsmyagentdoing: live dashboard for Claude Code agents",
+     "body": "Charonyuu/whatsmyagentdoing shows a live dashboard of Claude Code and Codex agent activity. It was created October 23 and has 270 stars.",
+     "why": "It gives visibility into what parallel Claude Code and Codex agents are doing.",
+     "topics": [
+      "Setups",
+      "Claude Code",
+      "Subagents"
+     ],
+     "source": "GitHub · Charonyuu",
+     "url": "https://github.com/Charonyuu/whatsmyagentdoing",
+     "date": "2026-10-27"
+    },
+    {
+     "title": "Vesalius: on-device code graph MCP server for Claude Code",
+     "body": "haplollc/Vesalius builds an on-device code graph and ships an MCP server, a CLI, a Mac app and a VS Code extension. It was created October 22 and has 79 stars.",
+     "why": "A local code graph gives Claude Code better codebase context without sending code to a third party.",
+     "topics": [
+      "MCP",
+      "Claude Code"
+     ],
+     "source": "GitHub · haplollc",
+     "url": "https://github.com/haplollc/Vesalius",
+     "date": "2026-10-27"
+    },
+    {
+     "title": "Skillspector scans agent skills for prompt injection",
+     "body": "Skillspector checks agent skills for prompt injection, data exfiltration and other harmful content before they reach your machine. It was shared on X on October 27. The post had low engagement.",
+     "why": "Third-party skills can hide prompt injection or data exfiltration, so scanning before install reduces risk.",
+     "topics": [
+      "Skills",
+      "Security"
+     ],
+     "source": "X · @Yance16z · 5 likes · 0 reposts",
+     "url": "https://x.com/Yance16z/status/2115071189613981824",
+     "date": "2026-10-27"
+    }
+   ]
+  },
+  "x-desk": {
+   "routine": "x-desk",
+   "status": "done",
+   "headline": "Google DeepMind's Genie 4 world model reveal led AI posts on X with about 15,900 likes.",
+   "filed": "2026-10-28T02:19:00Z",
+   "note": "Read 28 posts in 3 searches; 4 passed the filter (the rest were opinion, unclear or under 20 likes).",
+   "items": [
+    {
+     "title": "NVIDIA-powered tool predicts breast cancer recurrence from MRI",
+     "body": "NVIDIA highlighted SimBioSys and its FDA-cleared TumorSight Risk. The tool analyzes an existing breast MRI to help doctors and patients understand the risk that cancer comes back. It runs on NVIDIA technology.",
+     "why": "It is an example of FDA-cleared AI inference on existing medical images.",
+     "topics": [
+      "AI tools",
+      "Chips"
+     ],
+     "source": "X · @nvidia · 513 likes · 69 reposts",
+     "url": "https://x.com/nvidia/status/2114827978748383342",
+     "date": "2026-10-26"
+    }
+   ]
+  },
+  "gadgets": {
+   "routine": "gadgets",
+   "status": "done",
+   "headline": "Apple launched the 14-inch MacBook Pro with M6, from INR 239,900, with sales from November 6.",
+   "filed": "2026-10-28T02:21:45Z",
+   "note": "The vivo X500 global launch article and the Galaxy Buds On launch article could not be opened, so they are not included.",
+   "items": [
+    {
+     "title": "Apple updates iMac with M6 chip",
+     "body": "The base iMac costs $1,499 and has a 10-core CPU and 10-core GPU. The $1,699 model has a 12-core CPU and 12-core GPU. Both have 16GB memory as standard, the Apple N1 wireless chip with Wi-Fi 7 and Bluetooth 6, and an optional nano-texture display. Pre-orders start October 28 and sales start November 6.",
+     "why": "The all-in-one desktop moves to M6 with Wi-Fi 7 at an unchanged design.",
+     "topics": [
+      "Apple"
+     ],
+     "source": "GSMArena",
+     "url": "https://www.gsmarena.com/apple_updates_14inch_macbook_pro_and_imac_with_m6-news-75228.php",
+     "date": "2026-10-27"
+    },
+    {
+     "title": "Infinix GT 50 Pro launches in India at INR 69,999",
+     "body": "The GT 50 Pro has a 6.78-inch 144Hz AMOLED screen and a MediaTek Dimensity 8400 Ultimate chip. It has a 6,500mAh battery with 45W wired and 30W wireless charging. The only model, 12GB RAM with 256GB storage, costs INR 69,999. Pre-orders are open on Flipkart and sales start October 30.",
+     "why": "A gaming phone with liquid cooling and wireless charging enters the Indian mid-premium market.",
+     "topics": [
+      "Phones"
+     ],
+     "source": "GSMArena",
+     "url": "https://www.gsmarena.com/the_infinix_gt_50_pro_goes_official_in_india-news-75224.php",
+     "date": "2026-10-27"
+    },
+    {
+     "title": "Xiaomi Smart Band 11 goes on sale in Europe",
+     "body": "The Smart Band 11 has a 1.72-inch AMOLED screen with 2,000 nits peak brightness and runs HyperOS 4. It has 5ATM water resistance and up to 21 days of battery life. It costs EUR 60, or EUR 80 with NFC, and is on sale in Xiaomi online stores in Europe.",
+     "why": "A low-cost tracker with a bright AMOLED screen and three-week battery reaches more markets.",
+     "topics": [
+      "Wearables"
+     ],
+     "source": "GSMArena",
+     "url": "https://www.gsmarena.com/xiaomi_smart_band_11_arrives_in_europe-news-75221.php",
+     "date": "2026-10-27"
+    }
+   ]
+  },
+  "tech-pulse": {
+   "routine": "tech-pulse",
+   "status": "done",
+   "headline": "Google DeepMind's Genie 4 world model led developer discussion, with real-time audio and prompt-steered scenes.",
+   "filed": "2026-10-28T02:21:45Z",
+   "note": "The LWN article on removal of the CPython experimental JIT (Hacker News, 433 points) could not be opened.",
+   "items": [
+    {
+     "title": "OpenAI claims AI-made results in math, CS and physics",
+     "body": "OpenAI said its AI systems produced three research results. The claims are a proof of the local smoothing conjecture, a refutation of the Exponential Time Hypothesis, and a construction of certain four-dimensional quantum field theories. Public manuscripts and Lean formalizations exist for the math and CS results. The physics work is not public yet and is not verified.",
+     "why": "A refutation of the Exponential Time Hypothesis would change core assumptions in algorithm and complexity work.",
+     "topics": [
+      "OpenAI",
+      "AI research"
+     ],
+     "source": "r/OpenAI · 596 upvotes",
+     "url": "https://www.reddit.com/r/OpenAI/comments/1xgiich/openai_announces_three_new_discoveries_in/",
+     "date": "2026-10-26"
+    },
+    {
+     "title": "Ghostty 1.4 adds full Kitty graphics and compressed scrollback",
+     "body": "Ghostty 1.4.0 was released on October 27. It supports the full Kitty graphics specification, including animation and relative placements. Idle scrollback is now compressed, which cuts history memory by 70% to 90%, and the default scrollback limit rose from 10 MB to 50 MB. The release also adds the Kitty clipboard protocol, a ghostty +ssh wrapper and macOS 27 support.",
+     "why": "The terminal that many coding-agent users run now uses 70 to 90 percent less memory for history.",
+     "topics": [
+      "AI tools",
+      "DevOps"
+     ],
+     "source": "Hacker News · 685 points · 210 comments",
+     "url": "https://ghostty.org/docs/install/release-notes/1-4-0",
+     "date": "2026-10-27"
+    },
+    {
+     "title": "Liquid AI releases LFM3-1.7B for local agents and tool calling",
+     "body": "LFM3-1.7B is a 1.73-billion-parameter text model with a hybrid convolution and attention design across 24 layers. It supports a 256K-token context and uses the LFM Open License v1.0. Its model card reports 96.66 on IFEval and 71.39 on BFCL V4. Liquid AI targets local agents, tool calling and structured outputs, and advises against agentic coding use.",
+     "why": "A small open model with a 256K context gives on-device agents a cheap tool-calling option.",
+     "topics": [
+      "Open models",
+      "Agents"
+     ],
+     "source": "r/LocalLLaMA · 334 upvotes",
+     "url": "https://huggingface.co/LiquidAI/LFM3-1.7B",
+     "date": "2026-10-27"
+    }
+   ]
+  },
+  "aws-news": {
+   "routine": "aws-news",
+   "status": "done",
+   "headline": "OpenAI GPT-6.1 Terra is generally available on Amazon Bedrock with a 1-million-token context.",
+   "filed": "2026-10-28T02:21:45Z",
+   "note": "The What's New feed showed no launches dated October 27; all items are from October 26.",
+   "items": [
+    {
+     "title": "OpenAI GPT-6.1 Terra now generally available on Amazon Bedrock",
+     "body": "GPT-6.1 Terra is generally available on Amazon Bedrock. It supports a 1-million-token input context and text and image inputs. Its token prices are at least 50% lower than GPT-6.1 Sol and GPT-5.6 Terra. ChatGPT Work and Codex can be set to use it on Bedrock.",
+     "why": "Teams get a lower-cost GPT-6 model with a 1M-token context inside AWS controls.",
+     "topics": [
+      "Bedrock"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/openai-gpt-6-1-terra-on-amazon-bedrock/",
+     "date": "2026-10-26"
+    },
+    {
+     "title": "AWS KMS adds ML-KEM post-quantum key encapsulation",
+     "body": "AWS KMS supports ML-KEM-512, ML-KEM-768 and ML-KEM-1024 under NIST FIPS 203. The Encapsulate API makes a 32-byte shared secret and Decapsulate recovers it, with private keys kept in FIPS 140-3 Level 3 HSMs. It is available in all KMS Regions except the UAE, Bahrain and China Regions.",
+     "why": "Teams can start to protect key exchange against harvest-now, decrypt-later attacks.",
+     "topics": [
+      "Security"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/kms-ml-kem-post-quantum/",
+     "date": "2026-10-26"
+    },
+    {
+     "title": "IAM Identity Center propagates user identity across Regions",
+     "body": "Trusted identity propagation can now carry a user's identity to AWS services in other Regions. Before, all services that used the identity had to be in the same Region. The feature has no extra charge and works in all IAM Identity Center Regions.",
+     "why": "Per-user access and audit now work when compute and data sit in different Regions.",
+     "topics": [
+      "Security"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-iam-identity-center-cross-region-tip/",
+     "date": "2026-10-26"
+    },
+    {
+     "title": "EC2 Auto Scaling sets Launch Before Terminate account-wide",
+     "body": "Launch Before Terminate can now be the default replacement behavior for all Auto Scaling groups in an account. A new instance launches and passes health checks before the old one stops. New PutAccountSetting and DescribeAccountSettings APIs control it, at no extra cost in all Regions.",
+     "why": "One account setting removes capacity dips during instance replacement in all groups.",
+     "topics": [
+      "DevOps"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/ec2-auto-scaling-launch-before-terminate/",
+     "date": "2026-10-26"
+    },
+    {
+     "title": "Glue Data Catalog accepts OAuth for Iceberg REST Catalog APIs",
+     "body": "The Glue Data Catalog now accepts OAuth 2.0 bearer tokens for Iceberg REST Catalog requests, in addition to SigV4. Clients exchange an OpenID Connect token for a short-lived Glue-scoped token with RFC 8693 token exchange. IAM and Lake Formation permissions still control access, in all Glue and Lake Formation Regions.",
+     "why": "Partner analytics platforms can query Glue Iceberg tables without AWS credentials.",
+     "topics": [
+      "Security"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/glue-catalog-oauth-iceberg-rest/",
+     "date": "2026-10-26"
+    },
+    {
+     "title": "Amazon Connect tests now validate flow action outcomes",
+     "body": "Amazon Connect Customer testing and simulation now checks the results of flow actions, not only that they started. You can verify data that a Lambda function, an Amazon Lex intent or an Agentic CX block returns. A failed test points to the action that gave the unexpected result.",
+     "why": "Contact center teams can find the exact failing step, including agentic blocks, before release.",
+     "topics": [
+      "Agents",
+      "DevOps"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/connect-customer-validate-flow-actions/",
+     "date": "2026-10-26"
+    }
+   ]
+  },
+  "layoffs": {
+   "routine": "layoffs",
+   "status": "done",
+   "headline": "Innodata cut about 550 jobs in India after a major client reduced its work.",
+   "filed": "2026-10-28T02:21:45Z",
+   "note": "Microsoft's 60,000-employee buyout offer was reported yesterday and is not repeated.",
+   "items": [
+    {
+     "title": "Innodata lays off about 550 staff in India",
+     "body": "AI data services company Innodata laid off about 550 employees in India on October 26, with more cuts in the Philippines. Termination emails cited fewer business assignments and said the cuts were not based on performance. The company did not confirm the total number. Its shares fell 16% in premarket trading.",
+     "why": "AI data-labeling vendors are exposed when large AI clients cut service volumes.",
+     "topics": [
+      "Layoffs",
+      "AI companies",
+      "India IT"
+     ],
+     "source": "AajTak",
+     "url": "https://aajtak.in/education/career/story/innodata-layoffs-550-employees-india-ai-tech-sector-crisis-dskc-2681700-2026-10-27",
+     "date": "2026-10-26",
+     "company": "Innodata",
+     "count": 550,
+     "pct": null,
+     "country": "India",
+     "location": "India, Philippines",
+     "industry": "AI companies",
+     "kind": "layoff"
+    },
+    {
+     "title": "SolarEdge cuts another 200 jobs, 10% of staff",
+     "body": "SolarEdge laid off about 200 employees, or 10% of its workforce. Only a few dozen of the cuts are in Israel. The cuts are part of a series of streamlining steps after weak third-quarter guidance.",
+     "why": "Hardware makers tied to residential solar keep cutting as demand stays weak.",
+     "topics": [
+      "Layoffs"
+     ],
+     "source": "Globes",
+     "url": "https://en.globes.co.il/en/article-solaredge-lays-off-another-200-employees-1001560826",
+     "date": "2026-10-26",
+     "company": "SolarEdge",
+     "count": 200,
+     "pct": 10,
+     "country": "Global",
+     "location": "Israel",
+     "industry": "Hardware & networking",
+     "kind": "layoff"
+    },
+    {
+     "title": "Sony's Sucker Punch studio lays off 24 people",
+     "body": "Sucker Punch, the Sony-owned developer of Ghost of Yotei, laid off 24 employees. A former employee and an email from studio leadership confirmed the cuts. Sony did not comment.",
+     "why": "Cuts continue at major game studios even after hit releases.",
+     "topics": [
+      "Layoffs",
+      "Big tech"
+     ],
+     "source": "Aftermath",
+     "url": "https://aftermath.site/sucker-punch-layoffs-sony-ghost-of-yotei/",
+     "date": "2026-10-26",
+     "company": "Sony",
+     "count": 24,
+     "pct": null,
+     "country": "United States",
+     "location": "",
+     "industry": "Gaming",
+     "kind": "layoff"
+    }
+   ]
+  }
+ },
+ "briefing": "Good morning. This is The Nexos Daily for Wednesday, the twenty-eighth of October.\n\nThe lead story: Anthropic reported early results from Claude in drug development with six partners. Claude Code and Claude skills ran long scientific workflows across several teams. Anthropic also gives United States government agencies forty percent off Claude through the GSA, and Claude on Bedrock is FedRAMP High.\n\nThe second big story: Google DeepMind previewed Genie four, a real-time interactive world model with generated audio. It will come to the Gemini API. It led the discussion on Hacker News and on X.\n\nSecurity next. Cloudflare disclosed a cross-customer leak in the KV cache of the GLM five point three model on Workers AI. If you host your own LLM inference on SGLang, check your KV pool size and upgrade to version zero point five point twenty-two or later. Also, CodeRabbit now uses GPT six point one Sol to find security risks in code review.\n\nIn the Claude world, Claude Code version two point one point three eleven compacts context automatically past two hundred thousand tokens and fixes subagent hooks. Theo's tstack skills for daily pull request work passed two thousand stars this week. A new tool called Skillspector scans agent skills for prompt injection before you install them.\n\nModels: OpenAI's GPT six point one Terra costs one dollar per million input tokens and five dollars per million output tokens, and it is generally available on Amazon Bedrock. Liquid AI released LFM three, a one point seven billion parameter model for local agents and tool calling.\n\nChips and research: NVIDIA Vera Rubin NVL seventy-two and the Vera CPU are generally available on Oracle Cloud. Meta expands its Vera Rubin and Spectrum-X deployment. Apple's M6 MacBook Pro has a dual Neural Engine and runs LLM work about twenty-five percent faster. A new paper, Trajectory to Gym, improves small tool-use agents by seventeen to thirty points.\n\nFor AWS engineers: AWS KMS adds ML-KEM post-quantum key encapsulation. IAM Identity Center now propagates user identity across Regions. And the Glue Data Catalog accepts OAuth for Iceberg REST Catalog APIs.\n\nLayoffs: Innodata cut about five hundred fifty jobs in India after a large client reduced its work. SolarEdge cut two hundred more jobs. The new Layoffs tracker in the paper shows all twenty twenty-six cuts by month and industry.\n\nIn gadgets, Apple updated the iMac with the M6 chip.\n\nOn the trending page, the top new repo is capri-ai, a desktop agent for Claude Code and Codex.\n\nThat is the briefing. Every story links to its source in the paper. Have a good day."
+}
