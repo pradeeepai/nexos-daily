@@ -7,9 +7,10 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-29",
    "reported": {
-    "2026-10-25": 233
+    "2026-10-25": 233,
+    "2026-10-29": 217
    }
   },
   "Charonyuu/whatsmyagentdoing": {
@@ -46,12 +47,13 @@
     "Trending",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "reported": {
     "2026-10-25": 97,
     "2026-10-26": 767,
     "2026-10-27": 1223,
-    "2026-10-28": 1316
+    "2026-10-28": 1316,
+    "2026-10-29": 1368
    }
   },
   "lillyguisnet/sam3-segmentation": {
@@ -86,11 +88,12 @@
     "Trending",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "reported": {
     "2026-10-25": 32,
     "2026-10-27": 1596,
-    "2026-10-28": 2018
+    "2026-10-28": 2018,
+    "2026-10-29": 2275
    }
   },
   "edigeh/broll-mcp": {
@@ -148,9 +151,10 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-29",
    "reported": {
-    "2026-10-25": 2028
+    "2026-10-25": 2028,
+    "2026-10-29": 3458
    }
   },
   "Ansub/tv-detox": {
@@ -256,11 +260,12 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "reported": {
     "2026-10-25": 20182,
     "2026-10-26": 20636,
-    "2026-10-28": 21488
+    "2026-10-28": 21488,
+    "2026-10-29": 22159
    }
   },
   "yihui-dev/awesome-opus5-5-videos": {
@@ -284,11 +289,12 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "reported": {
     "2026-10-25": 10112,
     "2026-10-26": 10499,
-    "2026-10-28": 11280
+    "2026-10-28": 11280,
+    "2026-10-29": 11679
    }
   },
   "rehan-remade/universal-modder": {
@@ -298,12 +304,13 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "reported": {
     "2026-10-25": 8885,
     "2026-10-26": 8961,
     "2026-10-27": 9023,
-    "2026-10-28": 9091
+    "2026-10-28": 9091,
+    "2026-10-29": 9156
    }
   },
   "KKKKhazix/AIHOT": {
@@ -354,10 +361,11 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "reported": {
     "2026-10-25": 5404,
-    "2026-10-28": 5612
+    "2026-10-28": 5612,
+    "2026-10-29": 5656
    }
   },
   "Jakeschincariol/replica-skill": {
@@ -367,12 +375,13 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "reported": {
     "2026-10-25": 5278,
     "2026-10-26": 5503,
     "2026-10-27": 5808,
-    "2026-10-28": 6072
+    "2026-10-28": 6072,
+    "2026-10-29": 6291
    }
   },
   "kaankiziltug/logo-design-skill": {
@@ -396,7 +405,7 @@
     "AI",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   "anthropics/single-agent-loop-kit": {
    "first_seen": "2026-10-25",
@@ -559,11 +568,12 @@
     "Trending",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-29",
    "reported": {
     "2026-10-25": 332,
     "2026-10-26": 374,
-    "2026-10-27": 395
+    "2026-10-27": 395,
+    "2026-10-29": 301
    }
   },
   "QingYunA/answer-me-with-html": {
@@ -573,11 +583,12 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "reported": {
     "2026-10-25": 4372,
     "2026-10-26": 4439,
-    "2026-10-28": 4552
+    "2026-10-28": 4552,
+    "2026-10-29": 4598
    }
   },
   "DenisSergeevitch/ex-ussr-kinship-research": {
@@ -736,10 +747,11 @@
     "Trending",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "reported": {
     "2026-10-26": 491,
-    "2026-10-28": 533
+    "2026-10-28": 533,
+    "2026-10-29": 408
    }
   },
   "wangrongding/tv-fresh": {
@@ -762,10 +774,11 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "reported": {
     "2026-10-26": 347,
-    "2026-10-28": 418
+    "2026-10-28": 418,
+    "2026-10-29": 420
    }
   },
   "slee-persis/GVS5H": {
@@ -793,10 +806,11 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "reported": {
     "2026-10-27": 742,
-    "2026-10-28": 1097
+    "2026-10-28": 1097,
+    "2026-10-29": 1323
    }
   },
   "blakeandersonw/ai-app-playbook": {
@@ -903,10 +917,11 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "reported": {
     "2026-10-27": 385,
-    "2026-10-28": 421
+    "2026-10-28": 421,
+    "2026-10-29": 446
    }
   },
   "nykooi1/vibe-wise": {
@@ -916,10 +931,11 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "reported": {
     "2026-10-27": 3981,
-    "2026-10-28": 3995
+    "2026-10-28": 3995,
+    "2026-10-29": 4023
    }
   },
   "Folkbench/folkbench": {
@@ -1137,9 +1153,10 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "reported": {
-    "2026-10-28": 4023
+    "2026-10-28": 4023,
+    "2026-10-29": 4066
    }
   },
   "haplollc/Vesalius": {
@@ -1150,6 +1167,162 @@
     "Claude Ecosystem"
    ],
    "last_seen": "2026-10-28"
+  },
+  "jmanico/grim-prompter": {
+   "first_seen": "2026-10-29",
+   "kind": "Dev tool",
+   "description": "Builds evidence-traced threat models for AI coding agents.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-29",
+   "reported": {
+    "2026-10-29": 83
+   }
+  },
+  "andyhuo520/vibe-knowledge": {
+   "first_seen": "2026-10-29",
+   "kind": "Skill",
+   "description": "Claude Code skill that makes short explainer videos.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-29",
+   "reported": {
+    "2026-10-29": 69
+   }
+  },
+  "win4r/video-director": {
+   "first_seen": "2026-10-29",
+   "kind": "Skill",
+   "description": "Claude skill that renders videos from code.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-29",
+   "reported": {
+    "2026-10-29": 34
+   }
+  },
+  "bassnova42/arch-diagram-skill": {
+   "first_seen": "2026-10-29",
+   "kind": "Skill",
+   "description": "Skill that turns repos or articles into animated architecture diagrams.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-29",
+   "reported": {
+    "2026-10-29": 33
+   }
+  },
+  "iamrohithrnair/merman": {
+   "first_seen": "2026-10-29",
+   "kind": "Plugin",
+   "description": "Claude Code mod that renders diagrams and tables in color.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-29",
+   "reported": {
+    "2026-10-29": 18
+   }
+  },
+  "rul-lang/rul": {
+   "first_seen": "2026-10-29",
+   "kind": "Agent framework",
+   "description": "Binary language and execution engine for AI agents with proof-carrying code.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-29",
+   "reported": {
+    "2026-10-29": 17
+   }
+  },
+  "Sidiora-Labs/workbox": {
+   "first_seen": "2026-10-29",
+   "kind": "AI infra",
+   "description": "Sandbox for agent interactions and programmatic tool use.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-29",
+   "reported": {
+    "2026-10-29": 17
+   }
+  },
+  "harrytted/ai-agent-interview-playbook": {
+   "first_seen": "2026-10-29",
+   "kind": "Other",
+   "description": "Chinese study guide with labs for AI agent engineering interviews.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-29",
+   "reported": {
+    "2026-10-29": 17
+   }
+  },
+  "KevinChu1110/driftnet": {
+   "first_seen": "2026-10-29",
+   "kind": "MCP server",
+   "description": "Saves AI tool links from chat apps into searchable folders, with an MCP server.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-29",
+   "reported": {
+    "2026-10-29": 15
+   }
+  },
+  "johunsang/vibe-coding-news": {
+   "first_seen": "2026-10-29",
+   "kind": "Skill",
+   "description": "Agent skill that writes a daily briefing on AI coding tools.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-29",
+   "reported": {
+    "2026-10-29": 14
+   }
+  },
+  "0xS4N4TG/kinetograph": {
+   "first_seen": "2026-10-29",
+   "kind": "Dev tool",
+   "description": "Programmatic video engine built for AI agents.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-29",
+   "reported": {
+    "2026-10-29": 303
+   }
+  },
+  "qybaihe/bla": {
+   "first_seen": "2026-10-29",
+   "kind": "Dev tool",
+   "description": "Protects code and binaries against AI reverse-engineering agents.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-29",
+   "reported": {
+    "2026-10-29": 200
+   }
+  },
+  "amosblomqvist/learnharness": {
+   "first_seen": "2026-10-29",
+   "kind": "Agent framework",
+   "description": "Agent harness for learning hard subjects.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-29",
+   "reported": {
+    "2026-10-29": 3635
+   }
   }
  }
 }

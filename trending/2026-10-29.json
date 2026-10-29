@@ -1,0 +1,338 @@
+{
+ "date": "2026-10-29",
+ "generated": "2026-10-29T02:51:51Z",
+ "headline": "jmanico/grim-prompter, a threat-modeling tool for AI coding agents, gained 83 stars on its first day.",
+ "periods": {
+  "daily": {
+   "topics": [
+    "Agent skills",
+    "Video generation skills",
+    "Agent security",
+    "Claude Code mods"
+   ],
+   "repos": [
+    {
+     "repo": "jmanico/grim-prompter",
+     "url": "https://github.com/jmanico/grim-prompter",
+     "description": "Builds evidence-traced threat models for AI coding agents.",
+     "kind": "Dev tool",
+     "language": null,
+     "stars": 83,
+     "gained": 83,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "andyhuo520/vibe-knowledge",
+     "url": "https://github.com/andyhuo520/vibe-knowledge",
+     "description": "Claude Code skill that makes short explainer videos.",
+     "kind": "Skill",
+     "language": "JavaScript",
+     "stars": 69,
+     "gained": 69,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "win4r/video-director",
+     "url": "https://github.com/win4r/video-director",
+     "description": "Claude skill that renders videos from code.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 34,
+     "gained": 34,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "bassnova42/arch-diagram-skill",
+     "url": "https://github.com/bassnova42/arch-diagram-skill",
+     "description": "Skill that turns repos or articles into animated architecture diagrams.",
+     "kind": "Skill",
+     "language": "JavaScript",
+     "stars": 33,
+     "gained": 33,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "iamrohithrnair/merman",
+     "url": "https://github.com/iamrohithrnair/merman",
+     "description": "Claude Code mod that renders diagrams and tables in color.",
+     "kind": "Plugin",
+     "language": "TypeScript",
+     "stars": 18,
+     "gained": 18,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "rul-lang/rul",
+     "url": "https://github.com/rul-lang/rul",
+     "description": "Binary language and execution engine for AI agents with proof-carrying code.",
+     "kind": "Agent framework",
+     "language": "Rust",
+     "stars": 17,
+     "gained": 17,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "Sidiora-Labs/workbox",
+     "url": "https://github.com/Sidiora-Labs/workbox",
+     "description": "Sandbox for agent interactions and programmatic tool use.",
+     "kind": "AI infra",
+     "language": "JavaScript",
+     "stars": 17,
+     "gained": 17,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "harrytted/ai-agent-interview-playbook",
+     "url": "https://github.com/harrytted/ai-agent-interview-playbook",
+     "description": "Chinese study guide with labs for AI agent engineering interviews.",
+     "kind": "Other",
+     "language": "Python",
+     "stars": 17,
+     "gained": 17,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "KevinChu1110/driftnet",
+     "url": "https://github.com/KevinChu1110/driftnet",
+     "description": "Saves AI tool links from chat apps into searchable folders, with an MCP server.",
+     "kind": "MCP server",
+     "language": "TypeScript",
+     "stars": 15,
+     "gained": 15,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "johunsang/vibe-coding-news",
+     "url": "https://github.com/johunsang/vibe-coding-news",
+     "description": "Agent skill that writes a daily briefing on AI coding tools.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 14,
+     "gained": 14,
+     "source": "GitHub search"
+    }
+   ]
+  },
+  "weekly": {
+   "topics": [
+    "Agent skills",
+    "Video agents",
+    "MCP servers",
+    "Security tools"
+   ],
+   "repos": [
+    {
+     "repo": "t3dotgg/tstack",
+     "url": "https://github.com/t3dotgg/tstack",
+     "description": "A daily-use set of agent skills for Claude Code and Codex.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 2275,
+     "gained": 2275,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "morganlinton/BeautifulRust",
+     "url": "https://github.com/morganlinton/BeautifulRust",
+     "description": "Agent skills that teach coding agents to write and review idiomatic Rust.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 1368,
+     "gained": 1368,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "andyhuo520/digital-human-koubo",
+     "url": "https://github.com/andyhuo520/digital-human-koubo",
+     "description": "Makes talking-head videos from one photo with an MCP generation step.",
+     "kind": "MCP server",
+     "language": "TypeScript",
+     "stars": 1323,
+     "gained": 1323,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "hevnsnt/CVEngine",
+     "url": "https://github.com/hevnsnt/CVEngine",
+     "description": "AI-driven external attack surface assessment and vulnerability validation.",
+     "kind": "Other",
+     "language": "Python",
+     "stars": 446,
+     "gained": 446,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "zengshuangzi/mcd-money-saver",
+     "url": "https://github.com/zengshuangzi/mcd-money-saver",
+     "description": "Savings assistant built on the McDonald's MCP server.",
+     "kind": "MCP server",
+     "language": "Python",
+     "stars": 420,
+     "gained": 420,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "rossark0/rossark-motion-skill",
+     "url": "https://github.com/rossark0/rossark-motion-skill",
+     "description": "Claude Code skill that animates SVGs at 60 fps for React Native and SwiftUI.",
+     "kind": "Skill",
+     "language": "Swift",
+     "stars": 408,
+     "gained": 408,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "0xS4N4TG/kinetograph",
+     "url": "https://github.com/0xS4N4TG/kinetograph",
+     "description": "Programmatic video engine built for AI agents.",
+     "kind": "Dev tool",
+     "language": "TypeScript",
+     "stars": 303,
+     "gained": 303,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "actionow-ai/vvv",
+     "url": "https://github.com/actionow-ai/vvv",
+     "description": "Reusable Remotion video templates plus an agent skill.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 301,
+     "gained": 301,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "appariciojunior/video-editor-skills",
+     "url": "https://github.com/appariciojunior/video-editor-skills",
+     "description": "Skills that let Claude Code do first-pass edits in DaVinci Resolve.",
+     "kind": "Skill",
+     "language": null,
+     "stars": 217,
+     "gained": 217,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "qybaihe/bla",
+     "url": "https://github.com/qybaihe/bla",
+     "description": "Protects code and binaries against AI reverse-engineering agents.",
+     "kind": "Dev tool",
+     "language": "TypeScript",
+     "stars": 200,
+     "gained": 200,
+     "source": "GitHub search"
+    }
+   ]
+  },
+  "monthly": {
+   "topics": [
+    "Agent skills",
+    "Reverse engineering",
+    "Game modding",
+    "MCP servers",
+    "Hardware agents"
+   ],
+   "repos": [
+    {
+     "repo": "wheresryan22/anatomy",
+     "url": "https://github.com/wheresryan22/anatomy",
+     "description": "Agent skill that draws interactive isometric SVG illustrations of systems.",
+     "kind": "Skill",
+     "language": "JavaScript",
+     "stars": 22159,
+     "gained": 22159,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "tangency-labs/solidcraft",
+     "url": "https://github.com/tangency-labs/solidcraft",
+     "description": "Parametric 3D CAD app in Rust with MCP automation.",
+     "kind": "Other",
+     "language": "Rust",
+     "stars": 11679,
+     "gained": 11679,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "rehan-remade/universal-modder",
+     "url": "https://github.com/rehan-remade/universal-modder",
+     "description": "Claude Code skills, tools and an MCP server for modding PC games.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 9156,
+     "gained": 9156,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "Jakeschincariol/replica-skill",
+     "url": "https://github.com/Jakeschincariol/replica-skill",
+     "description": "Claude skills that reverse-engineer, rebuild and test apps.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 6291,
+     "gained": 6291,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "shader-effects-inc/shaders",
+     "url": "https://github.com/shader-effects-inc/shaders",
+     "description": "WebGPU shader components for React, Vue, Svelte and more.",
+     "kind": "Dev tool",
+     "language": "TypeScript",
+     "stars": 5656,
+     "gained": 5656,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "QingYunA/answer-me-with-html",
+     "url": "https://github.com/QingYunA/answer-me-with-html",
+     "description": "Agent skill that answers hard questions as one readable HTML page.",
+     "kind": "Skill",
+     "language": "JavaScript",
+     "stars": 4598,
+     "gained": 4598,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "onehumanbeing/esp32-iphone-agent",
+     "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
+     "description": "Lets an AI model operate a real iPhone through an ESP32 board.",
+     "kind": "Coding agent",
+     "language": "C",
+     "stars": 4066,
+     "gained": 4066,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "nykooi1/vibe-wise",
+     "url": "https://github.com/nykooi1/vibe-wise",
+     "description": "Claude Code and Codex plugin that teaches you while AI writes code.",
+     "kind": "Plugin",
+     "language": "Python",
+     "stars": 4023,
+     "gained": 4023,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "amosblomqvist/learnharness",
+     "url": "https://github.com/amosblomqvist/learnharness",
+     "description": "Agent harness for learning hard subjects.",
+     "kind": "Agent framework",
+     "language": "TypeScript",
+     "stars": 3635,
+     "gained": 3635,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "aicodeking/leanrea",
+     "url": "https://github.com/aicodeking/leanrea",
+     "description": "Single-file reverse-engineering skill that uses plain CLI tools.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 3458,
+     "gained": 3458,
+     "source": "GitHub search"
+    }
+   ]
+  }
+ }
+}

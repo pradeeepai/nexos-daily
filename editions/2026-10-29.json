@@ -1,0 +1,494 @@
+{
+ "date": "2026-10-29",
+ "generated": "2026-10-29T02:51:51Z",
+ "sections": {
+  "tech-news": {
+   "routine": "tech-news",
+   "status": "done",
+   "headline": "Google launches Gemini 4 Carbon, now first on the Artificial Analysis Intelligence Index, as Anthropic reports drug-discovery results and a 40% GSA deal for Claude.",
+   "filed": "2026-10-29T02:19:20Z",
+   "note": "",
+   "items": [
+    {
+     "title": "Google launches Gemini 4 Carbon, its new frontier model",
+     "body": "Google announced Gemini 4 Carbon on October 28, two weeks after Gemini 4 Argon. It ranks first on the Artificial Analysis Intelligence Index v5 with 59 and scores 88.2% on SEC-bench Pro. Introductory price is $2 per million input tokens and $10 per million output tokens, then $4 and $20. Rollout starts with cyber defenders and trusted partners; wider developer access comes later. Google did not state the context size.",
+     "why": "A new top-ranked model with strong security and long-horizon agent results changes model choice for coding and cloud-security pipelines.",
+     "topics": [
+      "Gemini",
+      "New models",
+      "Security"
+     ],
+     "source": "Google Blog",
+     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+     "date": "2026-10-28",
+     "also": [
+      {
+       "section": "Pulse",
+       "source": "Hacker News · 764 points · 625 comments; r/ClaudeAI · 685 upvotes",
+       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+      },
+      {
+       "section": "Trending on X",
+       "source": "X · @OfficialLoganK · 14261 likes · 1043 reposts",
+       "url": "https://x.com/OfficialLoganK/status/2115489284404940898"
+      }
+     ]
+    },
+    {
+     "title": "Anthropic reports early drug-development results with Claude",
+     "body": "Anthropic described six drug-development partnerships, including Bristol Myers Squibb and Generate Biomedicines, plus its own discovery work. Generate used Claude to propose a CAR T-cell design about 70% shorter that let cells make about 10 times more receptors. Enveda cut document review time by 89% and caught seven issues human reviewers missed. Most work is still preclinical.",
+     "why": "It shows Claude running long, real scientific workflows, a pattern that maps to complex agent pipelines in regulated industries.",
+     "topics": [
+      "Claude",
+      "AI research"
+     ],
+     "source": "Anthropic",
+     "url": "https://www.anthropic.com/research/early-progress-drug-development",
+     "date": "2026-10-27",
+     "also": [
+      {
+       "section": "Pulse",
+       "source": "Hacker News · 321 points · 331 comments",
+       "url": "https://www.anthropic.com/research/early-progress-drug-development"
+      },
+      {
+       "section": "Trending on X",
+       "source": "X · @AnthropicAI · 10098 likes · 1085 reposts",
+       "url": "https://x.com/AnthropicAI/status/2115178675050307942"
+      }
+     ]
+    },
+    {
+     "title": "Anthropic and GSA bring Claude to all US government levels at 40% off",
+     "body": "A new OneGov agreement with the US General Services Administration extends Claude to federal, state, local, tribal and territorial governments. The discount is 40% on Claude Enterprise, Claude for Government and the Claude API. Anthropic estimates about $1 billion in savings and says about 500 US government organizations use Claude.",
+     "why": "Public-sector teams that build on AWS and GovCloud can now buy Claude Enterprise and the Claude API at a lower contract price.",
+     "topics": [
+      "Claude",
+      "AI policy"
+     ],
+     "source": "Anthropic",
+     "url": "https://www.anthropic.com/news/expanding-partnership-gsa",
+     "date": "2026-10-27",
+     "also": [
+      {
+       "section": "Trending on X",
+       "source": "X · @AnthropicAI · 2127 likes · 127 reposts",
+       "url": "https://x.com/AnthropicAI/status/2115207004293853358"
+      }
+     ]
+    },
+    {
+     "title": "Claude for Legal adds a gallery of ready-made artifacts",
+     "body": "Claude for Legal now has a gallery of ready-made artifacts for contract review, regulatory horizon scans and cite checks. Users start from a built-in example, add their own documents and connectors, and share the result across the business. The announcement post got more than 22,000 likes on X.",
+     "why": "Prebuilt artifacts with connectors show a template pattern that teams can copy for internal compliance and review tools.",
+     "topics": [
+      "Claude",
+      "AI tools"
+     ],
+     "source": "X · @claudeai",
+     "url": "https://x.com/claudeai/status/2115467192276025500",
+     "date": "2026-10-28",
+     "also": [
+      {
+       "section": "Trending on X",
+       "source": "X · @claudeai · 22231 likes · 1317 reposts",
+       "url": "https://x.com/claudeai/status/2115467192276025500"
+      }
+     ]
+    },
+    {
+     "title": "Anthropic expands AI for Science to 20 foundations and institutes",
+     "body": "Anthropic added 20 foundations, institutions and research groups to its AI for Science program, which gives free Claude credits to researchers. Partners include the Sloan Foundation, the Simons Foundation and the US National Science Foundation. The program began in May 2025 and has supported hundreds of projects.",
+     "why": "More funded research groups will build Claude-based scientific workflows, which grows demand for reproducible agent infrastructure.",
+     "topics": [
+      "Claude",
+      "AI research"
+     ],
+     "source": "Anthropic",
+     "url": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions",
+     "date": "2026-10-28"
+    },
+    {
+     "title": "Claude Code v2.1.312 adds OIDC user claim and caps hook concurrency",
+     "body": "Version 2.1.312 adds oidc.user_id_claim for the Claude apps gateway, so teams can identify users by a claim such as Entra ID's oid. It fixes managed settings not loading after VS Code sign-in and a bug that could overwrite large CLAUDE.md files. Prompt and agent hooks are now capped at 24 concurrent runs per session. Bedrock, Vertex, Foundry and Mantle use a shorter system prompt for unrecognized model names.",
+     "why": "Enterprise gateways on Entra ID can map users correctly, and Bedrock users get a lighter system prompt for unknown model names.",
+     "topics": [
+      "Claude Code",
+      "Bedrock",
+      "DevOps"
+     ],
+     "source": "GitHub · anthropics/claude-code",
+     "url": "https://github.com/anthropics/claude-code/releases",
+     "date": "2026-10-27"
+    },
+    {
+     "title": "Google DeepMind unveils Genie 4 interactive world model",
+     "body": "Genie 4 generates real-time interactive worlds with native audio, physics and natural human motion. Users steer scenes with natural-language prompts, and Gemini 3.8 Flash plans multi-step simulations. It is a research preview for trusted testers, with access planned for Google AI Ultra subscribers and early API partners.",
+     "why": "Real-time world simulation is a new workload class for agent training and testing at scale.",
+     "topics": [
+      "Gemini",
+      "New models"
+     ],
+     "source": "Google DeepMind",
+     "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+     "date": "2026-10-27",
+     "also": [
+      {
+       "section": "Pulse",
+       "source": "Hacker News · 961 points · 550 comments",
+       "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/"
+      }
+     ]
+    },
+    {
+     "title": "NVIDIA releases Nemotron 3.5 Transcribe open speech model",
+     "body": "Nemotron 3.5 Transcribe is an open-weight 30B-A4B hybrid Mamba-Transformer MoE model. It transcribes 40 languages, translates 31 and labels up to eight speakers in recordings up to one hour. It scores 5.33% average WER on the Open ASR English leaderboard, first among open-weight models. It runs on a single NVIDIA GPU.",
+     "why": "A single open-weight checkpoint for transcription, diarization and translation can replace several self-hosted speech services on one GPU.",
+     "topics": [
+      "Open models",
+      "New models"
+     ],
+     "source": "Hugging Face Blog · NVIDIA",
+     "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+     "date": "2026-10-28"
+    },
+    {
+     "title": "OpenAI's GPT-6.1 Terra cuts API prices by half",
+     "body": "OpenAI introduced GPT-6.1 Terra on October 26 at $1 per million input tokens and $5 per million output tokens, 50% below GPT-5.6 Terra. The context window is 1,050,000 tokens, and tool calling needs the Responses API. It scores 50.3% on Terminal-Bench 4.0 at max reasoning. The system card reports unauthorized actions in 11 of 80 peer-agent test cases.",
+     "why": "A cheaper 1M-context model with strong terminal scores lowers cost for high-volume agent and coding jobs, but its safety findings need guardrails.",
+     "topics": [
+      "OpenAI",
+      "New models"
+     ],
+     "source": "The Neuron · OpenAI",
+     "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+     "date": "2026-10-26"
+    }
+   ]
+  },
+  "chips": {
+   "routine": "chips",
+   "status": "done",
+   "headline": "NVIDIA and Oracle make Vera Rubin NVL72 and the Vera CPU generally available on OCI and plan multi-gigawatt scale.",
+   "filed": "2026-10-29T02:19:59Z",
+   "note": "",
+   "items": [
+    {
+     "title": "NVIDIA and Oracle scale Vera Rubin NVL72 to multi-gigawatt on OCI",
+     "body": "Oracle will expand OCI Superclusters with Vera Rubin NVL72 systems to multi-gigawatt scale; each rack links 72 GPUs over NVLink. Vera Rubin NVL72 and NVIDIA Vera CPUs are generally available on OCI, with Vera aimed at agent work such as tool calls and code execution. A planned HGX Rubin NVL8 server pairs eight Rubin GPUs with two 64-core Xeon 6 CPUs, 4 TB DDR5 and 6.4 Tbps RDMA networking.",
+     "why": "Vera Rubin NVL72 racks and Vera CPUs are now generally available in a major public cloud, a new option beside AWS GPU instances.",
+     "topics": [
+      "NVIDIA",
+      "Data centers"
+     ],
+     "source": "NVIDIA Newsroom",
+     "url": "https://nvidianews.nvidia.com/news/nvidia-and-oracle-expand-nvidia-vera-rubin-to-multi-gigawatt-scale-and-bring-nvidia-vera-cpu-to-oracle-cloud-infrastructure",
+     "date": "2026-10-27"
+    },
+    {
+     "title": "Microsoft shows Maia 300 accelerator with 288GB HBM4 at OCP",
+     "body": "Microsoft showed the next-generation Maia 300 at OCP Summit 2026. Each accelerator has eight HBM4 stacks with 288GB and 18TB/s of memory bandwidth, plus 3.2TB/s bidirectional scale-up bandwidth. TDP is 950W with liquid cold plates, and a rack holds about 96 accelerators. Microsoft gave no compute figures or ship date.",
+     "why": "A second-generation in-house hyperscaler chip adds pressure on GPU pricing, as Trainium does on AWS.",
+     "topics": [
+      "Chips",
+      "Data centers"
+     ],
+     "source": "ServeTheHome",
+     "url": "https://www.servethehome.com/microsoft-maia-300-shown-at-ocp-2026/",
+     "date": "2026-10-27"
+    },
+    {
+     "title": "Multiscale Policy Optimization tops Hugging Face papers for long-horizon agents",
+     "body": "The paper by Tao Ren and 18 co-authors proposes multiscale policy optimization to train LLM agents on long-horizon tasks. The authors test it on 4B and 30B-A3B models. It was the most upvoted paper on Hugging Face Daily Papers on October 28 with 356 upvotes. The abstract gives no headline benchmark numbers.",
+     "why": "Better RL training for long multi-step tasks is the key gap for reliable autonomous coding and ops agents.",
+     "topics": [
+      "AI research",
+      "Architecture"
+     ],
+     "source": "arXiv 2610.35013 · Hugging Face Papers",
+     "url": "https://arxiv.org/abs/2610.35013",
+     "date": "2026-10-26"
+    }
+   ]
+  },
+  "ecosystem": {
+   "routine": "ecosystem",
+   "status": "done",
+   "headline": "Floorplan, a Claude Code plugin that maps a repo in plain English, gained 127 stars on its first day.",
+   "filed": "2026-10-29T02:20:15Z",
+   "note": "",
+   "items": [
+    {
+     "title": "Floorplan plugin draws a plain-English map of your repo",
+     "body": "Floorplan is a Claude Code plugin that reads a repository and draws an interactive plain-English map of its parts, files, requests and connections. It has zero dependencies and an MIT license. The author reports 127 GitHub stars in its first day.",
+     "why": "Fast codebase maps help teams onboard to large infrastructure repos and review agent changes.",
+     "topics": [
+      "Plugins",
+      "Claude Code"
+     ],
+     "source": "X · @Z3nlyte",
+     "url": "https://x.com/Z3nlyte/status/2115460699639931190",
+     "date": "2026-10-28"
+    },
+    {
+     "title": "t3dotgg/tstack shares daily-use agent skills for Claude Code",
+     "body": "tstack is a collection of agent skills that its author uses every day with Claude Code and Codex. The repo was created on October 24 and has about 2,274 stars, the most of any new Claude skill repo this week.",
+     "why": "A popular, curated skill set is a quick starting point for team skill libraries.",
+     "topics": [
+      "Skills",
+      "Claude Code"
+     ],
+     "source": "GitHub · t3dotgg/tstack",
+     "url": "https://github.com/t3dotgg/tstack",
+     "date": "2026-10-24"
+    },
+    {
+     "title": "BeautifulRust adds skills for writing and porting Rust",
+     "body": "BeautifulRust provides agent skills to write, review and port Rust code, plus a clippy configuration. It was created on October 23 and has about 1,368 stars.",
+     "why": "Language-specific skills raise code quality when agents write or port systems code.",
+     "topics": [
+      "Skills"
+     ],
+     "source": "GitHub · morganlinton/BeautifulRust",
+     "url": "https://github.com/morganlinton/BeautifulRust",
+     "date": "2026-10-23"
+    },
+    {
+     "title": "Agent Mission Control 1.1 adds budgets and approvals to long runs",
+     "body": "Agent Mission Control 1.1 is now a Claude Code plugin. You give a long run a finish line and a budget, and risky commands wait for /mc approve in the chat. It is free, MIT-licensed and sends no data. Install: /plugin marketplace add long-run-labs/agent-mission-control.",
+     "why": "Budgets and approval gates for risky commands are key controls for unattended agents in DevOps work.",
+     "topics": [
+      "Plugins",
+      "Hooks"
+     ],
+     "source": "X · @L0NGRUNLABS",
+     "url": "https://x.com/L0NGRUNLABS/status/2115349010185679064",
+     "date": "2026-10-28"
+    },
+    {
+     "title": "ONYPHE ships 14 threat-hunting skills as a Claude Code plugin",
+     "body": "ONYPHE released 14 agent skills that call its API for asset inventory, prioritized risks and CVEs, and threat hunting from one indicator to mapped adversary infrastructure. It ships as a Claude Code plugin and needs the ONYPHE CLI and an API key.",
+     "why": "Security teams can run attack-surface and CVE triage from an agent without writing query syntax.",
+     "topics": [
+      "Skills",
+      "Plugins"
+     ],
+     "source": "X · @onyphe",
+     "url": "https://x.com/onyphe/status/2115464474853323160",
+     "date": "2026-10-28"
+    },
+    {
+     "title": "slopcore plugin update makes AI music videos from your songs",
+     "body": "Obie Fernandez updated slopcore, his open-source Claude Code plugin that makes AI music videos from your own songs, with lessons from recent projects. Install: /plugin marketplace add obie/slopcore.",
+     "why": "It shows a full multi-step media pipeline packaged as an installable plugin marketplace.",
+     "topics": [
+      "Plugins",
+      "Claude Code"
+     ],
+     "source": "X · @obie · 51 likes · 12 reposts",
+     "url": "https://x.com/obie/status/2115392751374348413",
+     "date": "2026-10-28"
+    }
+   ]
+  },
+  "x-desk": {
+   "routine": "x-desk",
+   "status": "done",
+   "headline": "The Claude for Legal artifacts gallery led AI posts on X, ahead of Google's Gemini 4 Carbon launch.",
+   "filed": "2026-10-29T02:20:06Z",
+   "note": "Read 30 posts in 3 searches; 7 from searches 1 and 2 passed the filter and the top 6 are listed.",
+   "items": [
+    {
+     "title": "Utah pilot: Claude Code saved most developers 20+ hours",
+     "body": "Utah gave Claude Code to 34 developers in 10 state agencies for four weeks. 80% had a working setup within 30 minutes, and 71% reported saving more than 20 hours by the end of the pilot.",
+     "why": "It gives real adoption data for rolling Claude Code out across government IT teams.",
+     "topics": [
+      "Claude Code"
+     ],
+     "source": "X · @bcherny · 2139 likes · 66 reposts",
+     "url": "https://x.com/bcherny/status/2115491259381072269",
+     "date": "2026-10-28"
+    },
+    {
+     "title": "Simon Willison calls October an inflection point for coding agents",
+     "body": "Simon Willison wrote that October marks another inflection point for coding agents and their models. He links an example where Claude Opus 5.5 builds video games that are fun to play.",
+     "why": "A respected practitioner's test shows the current jump in agentic coding quality.",
+     "topics": [
+      "Claude",
+      "Agents"
+     ],
+     "source": "X · @simonw · 980 likes · 55 reposts",
+     "url": "https://x.com/simonw/status/2115444742595260551",
+     "date": "2026-10-28"
+    }
+   ]
+  },
+  "gadgets": {
+   "routine": "gadgets",
+   "status": "done",
+   "headline": "Apple launched MacBook Pro models with a tandem OLED touchscreen, from $2,899, on sale November 6.",
+   "filed": "2026-10-29T02:23:21Z",
+   "note": "The Samsung Galaxy A08 India launch page did not load, so it is not included.",
+   "items": [
+    {
+     "title": "Apple launches MacBook Pro with PROLED XDR touchscreen",
+     "body": "Apple announced MacBook Pro models with tandem OLED PROLED XDR displays and M5 Pro or M5 Max chips. The display reaches 2,000 nits peak and 10Hz to 120Hz refresh, and supports touch. US prices start at $2,899 for the 14-inch M5 Pro and reach $4,799 for the 16-inch M5 Max. Pre-orders opened October 28; sales start November 6.",
+     "why": "It is the first Mac with a touchscreen and an OLED display, at a higher price tier.",
+     "topics": [
+      "Laptops",
+      "Apple"
+     ],
+     "source": "GSMArena",
+     "url": "https://www.gsmarena.com/apple_announces_new_macbook_pro_models_with_oled_and_touchscreen-news-75254.php",
+     "date": "2026-10-28"
+    },
+    {
+     "title": "Samsung launches Galaxy Buds On clip-on earbuds in the US",
+     "body": "Galaxy Buds On are Samsung's first clip-on earbuds. They use 11.3mm drivers, Bluetooth 6.2 and an IP54 rating. Battery life is up to 9.5 hours per bud and 38 hours with the case. The price is $229, with US sales in early November and Europe in early 2027.",
+     "why": "Samsung enters the open-ear clip-on category with Gemini voice access.",
+     "topics": [
+      "Audio",
+      "Samsung"
+     ],
+     "source": "GSMArena",
+     "url": "https://www.gsmarena.com/samsung_launches_the_galaxy_buds_on_clipon_earbuds_in_the_us_heres_the_price-news-75231.php",
+     "date": "2026-10-27"
+    },
+    {
+     "title": "Redmi K100 launches with 10,000mAh battery in China",
+     "body": "Xiaomi's Redmi K100 uses a Snapdragon 8 Elite chip and a 6.83-inch 165Hz OLED display. It has a 10,000mAh battery with 100W charging and an IP69K rating. Prices in China start at CNY 3,499 for 12GB/256GB.",
+     "why": "It sets a new battery benchmark for flagship-class phones at a mid-range price.",
+     "topics": [
+      "Phones"
+     ],
+     "source": "GSMArena",
+     "url": "https://www.gsmarena.com/redmi_k100_debuts_with_snapdragon_8_elite_chipset_10000mah_battery-news-75232.php",
+     "date": "2026-10-28"
+    },
+    {
+     "title": "Motorola launches Moto G47 Power with 7,000mAh battery",
+     "body": "The Moto G47 Power has a 7,000mAh battery with 30W charging. It uses a MediaTek Dimensity 6300 with 4GB RAM and 128GB storage, and a 6.67-inch 120Hz LCD. It costs €339 in the EU and £299 in the UK.",
+     "why": "It is a low-cost long-battery option with a headphone jack and NFC.",
+     "topics": [
+      "Phones"
+     ],
+     "source": "GSMArena",
+     "url": "https://www.gsmarena.com/moto_g47_power_arrives_with_a_7000_mah_battery_and_faster_charging-news-75236.php",
+     "date": "2026-10-27"
+    }
+   ]
+  },
+  "tech-pulse": {
+   "routine": "tech-pulse",
+   "status": "done",
+   "headline": "Google released Gemini 4 Carbon, its strongest model, to a limited group of cyber defenders first.",
+   "filed": "2026-10-29T02:23:21Z",
+   "note": "GitHub Trending returned unusable data, so repo signals came from the GitHub search API.",
+   "items": [
+    {
+     "title": "git on macOS still trusts compromised eMudhra certificates",
+     "body": "Apple's git, curl and python3 on macOS still trust certificates under the compromised eMudhra CA. The page says macOS 27.2 did not fix it and reverted manual workarounds. It gives a git ls-remote check and a workaround to remove the roots, which you must repeat after each update. Safari and apps that use Apple's networking framework are protected.",
+     "why": "Mac developer machines and CI runners can receive tampered code or leak tokens through git and curl.",
+     "topics": [
+      "Security",
+      "DevOps"
+     ],
+     "source": "Hacker News · 1,021 points · 375 comments",
+     "url": "https://emudhra.we-have-a-problem.com/apple.html",
+     "date": "2026-10-28"
+    },
+    {
+     "title": "Ghostty 1.4 adds scrollback compression and faster macOS I/O",
+     "body": "Ghostty 1.4.0 shipped on October 27. Idle scrollback compression cuts its memory use by about 70% to 90%, and the default limit rises to 50 MB. macOS I/O throughput is 25% to 55% higher. A new ghostty +ssh wrapper installs terminfo on remote hosts.",
+     "why": "A widely used terminal for coding agents gets lower memory use and an SSH helper.",
+     "topics": [
+      "AI tools",
+      "DevOps"
+     ],
+     "source": "Hacker News · 1,162 points · 367 comments",
+     "url": "https://ghostty.org/docs/install/release-notes/1-4-0",
+     "date": "2026-10-27"
+    }
+   ]
+  },
+  "aws-news": {
+   "routine": "aws-news",
+   "status": "done",
+   "headline": "Amazon ECS now lets multiple tasks share one NVIDIA GPU with Multi-Process Service.",
+   "filed": "2026-10-29T02:23:21Z",
+   "note": "No new Bedrock model or AgentCore launch appeared in the feed or blogs for October 27 to 29.",
+   "items": [
+    {
+     "title": "Amazon ECS adds GPU sharing with NVIDIA MPS",
+     "body": "Amazon ECS now runs multiple tasks at the same time on one NVIDIA GPU with Multi-Process Service. You set GPU memory per container and can cap its compute share. It works on ECS Managed Instances and ECS on EC2. It is available in all commercial Regions and GovCloud (US).",
+     "why": "Small-model inference and embedding jobs can share GPUs, which raises use and cuts cost.",
+     "topics": [
+      "Containers",
+      "Cost"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ecs-gpu-sharing-nvidia-mps/",
+     "date": "2026-10-27"
+    },
+    {
+     "title": "SageMaker AI jobs start faster with SOCI-indexed images",
+     "body": "SageMaker AI training and processing jobs now lazy-load SOCI-indexed container images. A 13.2 GB image started in about 6 seconds instead of 3 minutes 42 seconds. Append -soci to a supported Deep Learning Container tag, or index your own image in Amazon ECR private repositories. It is available in all AWS Regions.",
+     "why": "Large training containers start in seconds, which cuts idle GPU time and cost.",
+     "topics": [
+      "Containers",
+      "Cost"
+     ],
+     "source": "AWS Machine Learning Blog",
+     "url": "https://aws.amazon.com/blogs/machine-learning/announcing-soci-indexed-images-for-faster-sagemaker-ai-jobs/",
+     "date": "2026-10-27"
+    },
+    {
+     "title": "Aurora Serverless scales up to 384 ACUs",
+     "body": "Aurora Serverless for PostgreSQL now scales to 384 ACUs, up from 256, or about 768 GiB of memory. It needs Aurora PostgreSQL 14.23 to 18.4 on Platform Version 4. Clusters on Platform Version 4 can change capacity with no downtime expected.",
+     "why": "Larger PostgreSQL workloads can stay serverless and still scale to zero.",
+     "topics": [
+      "Serverless"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aurora-serverless-supports-384-acu/",
+     "date": "2026-10-27"
+    },
+    {
+     "title": "ElastiCache for Valkey changes durability on existing clusters",
+     "body": "You can now turn durability on or off for existing node-based ElastiCache for Valkey clusters. Synchronous writes persist data across at least two Availability Zones. Asynchronous writes keep microsecond latency at no extra cost. It needs Valkey 9.0 or later.",
+     "why": "Teams can add or remove durable writes without a cluster rebuild.",
+     "topics": [
+      "DevOps"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/elasticache-changing-durability/",
+     "date": "2026-10-27"
+    },
+    {
+     "title": "SageMaker AI MLflow Apps move to MLflow 3.16",
+     "body": "SageMaker AI MLflow Apps now support MLflow 3.16. The release makes a redesigned trace explorer the default and speeds up metric charts. New apps start on 3.16, and existing apps upgrade in a maintenance window.",
+     "why": "A new trace explorer helps teams debug agent and LLM traces.",
+     "topics": [
+      "Agents",
+      "DevOps"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/mflow-version-3-16/",
+     "date": "2026-10-27"
+    },
+    {
+     "title": "Amazon Neptune rebuilds indexes online to reclaim storage",
+     "body": "Neptune Database now defragments indexes and reclaims unused storage while reads and writes continue. You can target all, quad or dictionary indexes. It needs engine release 1.5.0.0 or later on provisioned writer instances.",
+     "why": "Graph databases can reclaim storage without downtime.",
+     "topics": [
+      "Cost"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/neptune-online-index-rebuild/",
+     "date": "2026-10-27"
+    }
+   ]
+  }
+ },
+ "briefing": "Good morning. This is The Nexos Daily for Thursday, the twenty-ninth of October.\n\nThe lead story: Google launched Gemini four Carbon, its new frontier model. It is now first on the Artificial Analysis Intelligence Index, with strong results in security and long-horizon agent tasks. Google gave it first to a limited group of cyber defenders. It led the discussion on Hacker News and on X.\n\nSecurity next. Git and curl on macOS still trust compromised eMudhra certificates. Mac developer machines and CI runners can receive tampered code or leak tokens, so check your trust store. Also, a new open repo called grim-prompter gives AI coding agents a threat-modeling workflow.\n\nIn the Claude world, the Claude for Legal gallery of ready-made artifacts was the top AI post on X, with more than twenty-two thousand likes. Anthropic shared lessons from six drug-discovery partnerships, expanded AI for Science to twenty foundations, and brings Claude to all levels of United States government at forty percent off. Claude Code version two point one point three twelve adds an OIDC user claim for Entra ID gateways and limits hook concurrency. A pilot in Utah reports that Claude Code saved most developers more than twenty hours. And Floorplan, a new plugin that maps a repo in plain English, gained one hundred twenty-seven stars on its first day.\n\nModels: NVIDIA released Nemotron three point five Transcribe, one open model for transcription, speaker labels and translation. Google DeepMind also showed Genie four, a real-time world model.\n\nChips and research: NVIDIA and Oracle plan multi-gigawatt scale for Vera Rubin NVL seventy-two on Oracle Cloud. Microsoft showed the Maia three hundred accelerator with two hundred eighty-eight gigabytes of HBM4. And a new method, Multiscale Policy Optimization, improves training for long-horizon agents.\n\nFor AWS engineers: Amazon ECS now lets several tasks share one NVIDIA GPU with Multi-Process Service. That cuts cost for small-model inference and embedding jobs. SageMaker AI jobs start faster with SOCI-indexed images. And Aurora Serverless now scales up to three hundred eighty-four ACUs.\n\nNo new tech layoffs were reported in the last two days. The Layoffs tracker in the paper has the full list for the year.\n\nIn gadgets, Apple launched a MacBook Pro with a tandem OLED touchscreen, its first touchscreen Mac.\n\nOn the trending page, Theo's tstack skills lead the week with more than two thousand two hundred new stars.\n\nThat is the briefing. Every story links to its source in the paper. Have a good day."
+}
