@@ -1,0 +1,328 @@
+{
+ "date": "2026-10-30",
+ "generated": "2026-10-30T02:52:10Z",
+ "headline": "guilhermealvestech/carrossel-skill, a Claude Code carousel skill, is the fastest-growing new AI repo today with 83 stars.",
+ "periods": {
+  "daily": {
+   "topics": [
+    "Agent skills",
+    "Agent dashboards",
+    "Multi-agent routing",
+    "MCP servers"
+   ],
+   "repos": [
+    {
+     "repo": "guilhermealvestech/carrossel-skill",
+     "url": "https://github.com/guilhermealvestech/carrossel-skill",
+     "description": "A Claude Code and Codex skill that makes brand-styled carousel posts and exports them as PNG files.",
+     "kind": "Skill",
+     "language": "HTML",
+     "stars": 83,
+     "gained": 83,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "jefferysha0627/agent-office-3d",
+     "url": "https://github.com/jefferysha0627/agent-office-3d",
+     "description": "A low-poly 3D office that shows the live status of your AI coding agents.",
+     "kind": "Dev tool",
+     "language": "JavaScript",
+     "stars": 76,
+     "gained": 76,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "Sac-Y/match-cut",
+     "url": "https://github.com/Sac-Y/match-cut",
+     "description": "An agent skill that makes beat-synced match-cut edits for product promo videos.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 46,
+     "gained": 46,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "Sheernox/cedr",
+     "url": "https://github.com/Sheernox/cedr",
+     "description": "A Rust tool that routes work to the right AI coding agent and merges multi-vendor reviews into one gate.",
+     "kind": "Coding agent",
+     "language": "Rust",
+     "stars": 44,
+     "gained": 44,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "DataWithBaraa/claude-code-data-engineering-skills",
+     "url": "https://github.com/DataWithBaraa/claude-code-data-engineering-skills",
+     "description": "A set of Claude Code skills for data engineering work.",
+     "kind": "Skill",
+     "language": "HTML",
+     "stars": 28,
+     "gained": 28,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "wangzan101/Mika",
+     "url": "https://github.com/wangzan101/Mika",
+     "description": "An on-device Android AI agent that operates apps and the web for the user.",
+     "kind": "Agent framework",
+     "language": "Kotlin",
+     "stars": 26,
+     "gained": 26,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "yc-software/minecraft-agent-harness",
+     "url": "https://github.com/yc-software/minecraft-agent-harness",
+     "description": "A harness that runs language-model agents in Minecraft with Mineflayer tools and shell sandboxes.",
+     "kind": "Agent framework",
+     "language": "JavaScript",
+     "stars": 21,
+     "gained": 21,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "phuryn/product-engineering",
+     "url": "https://github.com/phuryn/product-engineering",
+     "description": "Agent skills that take a product from first idea to paying users with coding agents.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 20,
+     "gained": 20,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "chartergroup/topopt",
+     "url": "https://github.com/chartergroup/topopt",
+     "description": "An MCP server that runs topology optimization to make lighter 3D-printable STL parts.",
+     "kind": "MCP server",
+     "language": "Python",
+     "stars": 20,
+     "gained": 20,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "jisuzzzz/haechi",
+     "url": "https://github.com/jisuzzzz/haechi",
+     "description": "A Claude Code and Codex workflow plugin with playbooks and subagents.",
+     "kind": "Plugin",
+     "language": "JavaScript",
+     "stars": 10,
+     "gained": 10,
+     "source": "GitHub search"
+    }
+   ]
+  },
+  "weekly": {
+   "topics": [
+    "Agent skills",
+    "Video and media skills",
+    "Agent monitoring",
+    "MCP servers"
+   ],
+   "repos": [
+    {
+     "repo": "andyhuo520/digital-human-koubo",
+     "url": "https://github.com/andyhuo520/digital-human-koubo",
+     "description": "An agent skill that makes talking-head videos from one photo, with MCP-based generation.",
+     "kind": "Skill",
+     "language": "TypeScript",
+     "stars": 1475,
+     "gained": 1475,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "morganlinton/BeautifulRust",
+     "url": "https://github.com/morganlinton/BeautifulRust",
+     "description": "Agent skills that teach coding agents to write, review and port idiomatic Rust.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 1419,
+     "gained": 1419,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "DenisSergeevitch/ex-ussr-kinship-research",
+     "url": "https://github.com/DenisSergeevitch/ex-ussr-kinship-research",
+     "description": "An evidence-first genealogy research skill for Codex and Claude Code.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 1270,
+     "gained": 1270,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "Motionsites-AI/claude-skill",
+     "url": "https://github.com/Motionsites-AI/claude-skill",
+     "description": "A Claude skill that guides Claude to build cinematic landing pages.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 1093,
+     "gained": 1093,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "appariciojunior/video-editor-skills",
+     "url": "https://github.com/appariciojunior/video-editor-skills",
+     "description": "Claude Code skills that do first-pass video edits in DaVinci Resolve.",
+     "kind": "Skill",
+     "language": null,
+     "stars": 233,
+     "gained": 233,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "Charonyuu/whatsmyagentdoing",
+     "url": "https://github.com/Charonyuu/whatsmyagentdoing",
+     "description": "A live dashboard that shows what each Claude Code and Codex agent on a machine is doing.",
+     "kind": "Dev tool",
+     "language": "JavaScript",
+     "stars": 150,
+     "gained": 150,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "lillyguisnet/sam3-segmentation",
+     "url": "https://github.com/lillyguisnet/sam3-segmentation",
+     "description": "An agent skill that masks and counts objects in photos with Meta SAM 3 on a local NVIDIA GPU.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 57,
+     "gained": 57,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "edigeh/broll-mcp",
+     "url": "https://github.com/edigeh/broll-mcp",
+     "description": "An MCP server that finds and cuts public-domain b-roll from the Internet Archive with provenance records.",
+     "kind": "MCP server",
+     "language": "Python",
+     "stars": 24,
+     "gained": 24,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "trailofbits/brotli-checker",
+     "url": "https://github.com/trailofbits/brotli-checker",
+     "description": "A Claude Code and Codex skill that finds vulnerable Brotli copies and guides updates.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 22,
+     "gained": 22,
+     "source": "GitHub search"
+    }
+   ]
+  },
+  "monthly": {
+   "topics": [
+    "Agent skills",
+    "Agent harnesses",
+    "MCP automation",
+    "Reverse engineering",
+    "Audio for agents"
+   ],
+   "repos": [
+    {
+     "repo": "wheresryan22/anatomy",
+     "url": "https://github.com/wheresryan22/anatomy",
+     "description": "An agent skill that makes interactive isometric illustrations of machines and complex systems.",
+     "kind": "Skill",
+     "language": "JavaScript",
+     "stars": 22646,
+     "gained": 22646,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "tangency-labs/solidcraft",
+     "url": "https://github.com/tangency-labs/solidcraft",
+     "description": "An open-source parametric 3D CAD app for desktop and web with MCP automation.",
+     "kind": "MCP server",
+     "language": "Rust",
+     "stars": 12083,
+     "gained": 12083,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "rehan-remade/universal-modder",
+     "url": "https://github.com/rehan-remade/universal-modder",
+     "description": "A Claude Code toolkit for modding PC games, with reverse engineering and generated assets.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 9199,
+     "gained": 9199,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "Jakeschincariol/replica-skill",
+     "url": "https://github.com/Jakeschincariol/replica-skill",
+     "description": "Eleven Claude skills that reverse-engineer, rebuild, test and improve an existing app.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 6496,
+     "gained": 6496,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "QingYunA/answer-me-with-html",
+     "url": "https://github.com/QingYunA/answer-me-with-html",
+     "description": "An agent skill that answers hard questions with a one-page HTML document.",
+     "kind": "Skill",
+     "language": "JavaScript",
+     "stars": 4758,
+     "gained": 4758,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "onehumanbeing/esp32-iphone-agent",
+     "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
+     "description": "Lets a vision model use a real iPhone through a low-cost ESP32 with AirPlay and USB HID.",
+     "kind": "Agent framework",
+     "language": "C",
+     "stars": 4099,
+     "gained": 4099,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "amosblomqvist/learnharness",
+     "url": "https://github.com/amosblomqvist/learnharness",
+     "description": "An agent harness built to help people learn difficult subjects.",
+     "kind": "Agent framework",
+     "language": "TypeScript",
+     "stars": 4032,
+     "gained": 4032,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "aicodeking/leanrea",
+     "url": "https://github.com/aicodeking/leanrea",
+     "description": "A compact skill with plain CLI tools that replaces the REA reverse-engineering MCP setup.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 3627,
+     "gained": 3627,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "openfilm/openfilm",
+     "url": "https://github.com/openfilm/openfilm",
+     "description": "An open-source video agent that turns any coding agent into a video agent, with an editor.",
+     "kind": "Agent framework",
+     "language": "TypeScript",
+     "stars": 3611,
+     "gained": 3611,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "Leonxlnx/earshot",
+     "url": "https://github.com/Leonxlnx/earshot",
+     "description": "CPU-only tools that let coding agents hear, review and make sound.",
+     "kind": "AI infra",
+     "language": "Python",
+     "stars": 3242,
+     "gained": 3242,
+     "source": "GitHub search"
+    }
+   ]
+  }
+ }
+}

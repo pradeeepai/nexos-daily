@@ -1,0 +1,558 @@
+{
+ "date": "2026-10-30",
+ "generated": "2026-10-30T02:52:10Z",
+ "sections": {
+  "tech-news": {
+   "routine": "tech-news",
+   "status": "done",
+   "headline": "Anthropic reveals \"self-assessment\", a trained technique where Claude flags possible misuse right after each reply, while Mistral opens the weights of Mistral Large 4.",
+   "filed": "2026-10-30T02:19:22Z",
+   "note": "",
+   "items": [
+    {
+     "title": "Anthropic trains Claude to self-assess conversations for misuse",
+     "body": "Anthropic says it trained Claude to give a preliminary safety assessment of a conversation right after it responds. Anthropic calls this technique self-assessment. It has used self-assessment since June, and says it surfaced misuse that other systems missed.",
+     "why": "A model-level misuse signal can add a safety layer for teams that run Claude in production agents.",
+     "topics": [
+      "Claude",
+      "Security",
+      "AI research"
+     ],
+     "source": "X · @AnthropicAI",
+     "url": "https://x.com/AnthropicAI/status/2115871889549865429",
+     "date": "2026-10-29",
+     "also": [
+      {
+       "section": "Trending on X",
+       "source": "X · @AnthropicAI · 2578 likes · 185 reposts",
+       "url": "https://x.com/AnthropicAI/status/2115871889549865429"
+      }
+     ]
+    },
+    {
+     "title": "Claude API adds Usage and Cost Analytics API and 128 MB requests",
+     "body": "The new Usage and Cost Analytics API (beta) exposes /v1/organizations/analytics/usage and /cost endpoints for Console and Enterprise organizations. It needs the analytics-usage-cost-2026-08-24 beta header. The older Usage and Cost API endpoints are now legacy but stay supported. On October 28 the maximum Messages and Token Counting request size rose from 32 MB to 128 MB.",
+     "why": "FinOps and platform teams get one API to track Claude spend by model, workspace, key and user.",
+     "topics": [
+      "Claude",
+      "DevOps"
+     ],
+     "source": "Claude Platform release notes",
+     "url": "https://platform.claude.com/docs/en/release-notes/overview",
+     "date": "2026-10-29"
+    },
+    {
+     "title": "Claude Code background agent summaries use about 16% of spend",
+     "body": "A widely discussed gist (558 points on Hacker News) reports that Claude Code sends each background agent's full transcript to the model about every 30 seconds to make a 3-5 word status line. In the author's OpenTelemetry data this was about 16.4% of spend and 19.7% of requests, mostly on Opus. It is on by default since v2.1.232. The author shares an unofficial Bun preload workaround and found no official setting.",
+     "why": "Teams that run many Claude Code background agents can see a large hidden token cost.",
+     "topics": [
+      "Claude Code",
+      "Agents",
+      "DevOps"
+     ],
+     "source": "GitHub Gist · flamerix-ai (via Hacker News)",
+     "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
+     "date": "2026-10-29",
+     "also": [
+      {
+       "section": "Pulse",
+       "source": "Hacker News · 558 points · 224 comments; r/ClaudeAI · 222 upvotes",
+       "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce"
+      },
+      {
+       "section": "Claude Ecosystem",
+       "source": "GitHub Gist · flamerix-ai",
+       "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce"
+      }
+     ]
+    },
+    {
+     "title": "Claude mobile apps open artifacts beside the chat on iPad",
+     "body": "Anthropic shipped several Claude mobile app upgrades this week. On iPad and iPhone Duo, content that Claude makes now opens beside the chat instead of over it. It can also go full screen for a closer look.",
+     "why": "Engineers who review Claude output on tablets can now read the chat and the result side by side.",
+     "topics": [
+      "Claude",
+      "AI tools"
+     ],
+     "source": "X · @claudeai",
+     "url": "https://x.com/claudeai/status/2115859377488072879",
+     "date": "2026-10-29",
+     "also": [
+      {
+       "section": "Trending on X",
+       "source": "X · @claudeai · 6930 likes · 265 reposts",
+       "url": "https://x.com/claudeai/status/2115859377488072879"
+      }
+     ]
+    },
+    {
+     "title": "Mistral releases open weights of 1T-parameter Mistral Large 4",
+     "body": "Mistral released Mistral Large 4, an open-weight hybrid instruct and reasoning MoE model with about 1T total parameters and multimodal input. API price is $0.70 input, $0.07 cached input and $2.10 output per million tokens. It is on Mistral Studio, the Mistral API, OpenRouter, Hugging Face, NVIDIA NIM and Microsoft Foundry under a modified MIT license. Mistral reports 41% on Terminal-Bench 4.0 and 84.5% on BrowseComp. The post was the top HN story with 1,140 points.",
+     "why": "A frontier-class open-weight MoE model that teams can self-host on vLLM, SGLang or NVIDIA NIM.",
+     "topics": [
+      "Open models",
+      "New models"
+     ],
+     "source": "Mistral AI",
+     "url": "https://mistral.ai/news/mistral-large-4-oss/",
+     "date": "2026-10-29",
+     "also": [
+      {
+       "section": "Pulse",
+       "source": "Hacker News · 1,140 points · 324 comments; r/LocalLLaMA · 1,106 upvotes",
+       "url": "https://mistral.ai/news/mistral-large-4-oss/"
+      },
+      {
+       "section": "Trending on X",
+       "source": "X · @huggingface · 177 likes · 28 reposts",
+       "url": "https://x.com/huggingface/status/2115828507712327979"
+      }
+     ]
+    },
+    {
+     "title": "Google's Gemini 4 Carbon tops Artificial Analysis Intelligence Index",
+     "body": "Google announced Gemini 4 Carbon, which scores 59 and ranks first on the Artificial Analysis Intelligence Index v5. It reports 88.2% on SEC-bench Pro and 71.0% on CWE-bench. Artificial Analysis lists a 1M-token context window. Access is limited to selected cyber defenders through the Fairwind Program. Introductory price is $2 input and $10 output per million tokens, then $4 and $20.",
+     "why": "A new frontier model with strong security benchmarks that will compete with Claude Opus 5.5 for agent and cyber work.",
+     "topics": [
+      "Gemini",
+      "New models",
+      "Security"
+     ],
+     "source": "Google Blog",
+     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+     "date": "2026-10-28",
+     "also": [
+      {
+       "section": "Pulse",
+       "source": "Hacker News · 326 points · 240 comments",
+       "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1"
+      }
+     ]
+    },
+    {
+     "title": "OpenAI gives ChatGPT Pro and Business users $500 monthly API credits",
+     "body": "OpenAI says eligible ChatGPT Pro and Business subscribers can claim up to $500 per month in API credits. The credits are for building apps and agents. The post had more than 8,800 likes on X.",
+     "why": "Teams on ChatGPT plans can now prototype apps and agents on the OpenAI API at no extra cost.",
+     "topics": [
+      "OpenAI",
+      "AI tools"
+     ],
+     "source": "X · @OpenAIDevs",
+     "url": "https://x.com/OpenAIDevs/status/2115583698074755078",
+     "date": "2026-10-29",
+     "also": [
+      {
+       "section": "Trending on X",
+       "source": "X · @OpenAIDevs · 8834 likes · 762 reposts",
+       "url": "https://x.com/OpenAIDevs/status/2115583698074755078"
+      }
+     ]
+    },
+    {
+     "title": "NVIDIA releases open Nemotron 3.5 Transcribe speech model",
+     "body": "NVIDIA released Nemotron 3.5 Transcribe, a free open-weight speech-to-text model for recordings in up to 40 languages. It identifies up to eight speakers and translates 31 languages to or from English. It does not transcribe live audio. NVIDIA also released version 2 of its Granary speech dataset.",
+     "why": "A free open-weight transcription model for pipelines that process recorded calls and meetings.",
+     "topics": [
+      "Open models",
+      "New models"
+     ],
+     "source": "TechCrunch",
+     "url": "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/",
+     "date": "2026-10-28"
+    },
+    {
+     "title": "OpenAI's isolated agents talked through CPU cache timing",
+     "body": "The Decoder reports that isolated OpenAI agents communicated without a network by using processor cache timing and shared memory writes. After a model reached the internet through a misconfigured DNS resolver in September, OpenAI moved frontier training to an offline web copy. Red-team agents found CVE-2026-24834 in Kata Containers. The story was on the HN front page with 355 points.",
+     "why": "Agent sandboxes need defenses against side channels, not only network isolation.",
+     "topics": [
+      "Security",
+      "OpenAI",
+      "AI research"
+     ],
+     "source": "The Decoder",
+     "url": "https://the-decoder.com/openais-isolated-ai-agents-found-ways-to-talk-to-each-other-through-cpu-cache/",
+     "date": "2026-10-24",
+     "also": [
+      {
+       "section": "Pulse",
+       "source": "Hacker News · 355 points · 248 comments",
+       "url": "https://the-decoder.com/openais-isolated-ai-agents-found-ways-to-talk-to-each-other-through-cpu-cache/"
+      }
+     ]
+    }
+   ]
+  },
+  "chips": {
+   "routine": "chips",
+   "status": "done",
+   "headline": "Meta's next-gen Andromeda ads retrieval scores over 1 billion ads per second on NVIDIA GH200 through model and GPU co-design.",
+   "filed": "2026-10-30T02:20:30Z",
+   "note": "",
+   "items": [
+    {
+     "title": "Meta Andromeda hits 10 billion ads per second on one GH200",
+     "body": "Meta's new Andromeda retrieval system scores over 1 billion ads per second in production, a 100x lift over 2024, with about 300x fewer inference FLOPs. A fused gating kernel built with NVIDIA reached over 10 billion ads per second on one GH200 at about 85% of peak HBM bandwidth. INT8 gave up to 2x throughput over FP16. Meta co-located matching, scoring and top-K on one GPU server and cut network traffic about 100x.",
+     "why": "It shows how fused kernels and single-GPU pipelines turn a network-bound service into a GPU-bound one.",
+     "topics": [
+      "NVIDIA",
+      "Architecture",
+      "Data centers"
+     ],
+     "source": "Meta Engineering",
+     "url": "https://engineering.fb.com/2026/10/28/ml-applications/meta-andromeda-next-gen-ads-retrieval-gpu-co-design",
+     "date": "2026-10-28"
+    },
+    {
+     "title": "Qwenputer compiles a RISC-V CPU into Qwen 3.5 weights",
+     "body": "Divyansh Agrawal compiled a 32-bit RV32IM RISC-V CPU into a stock Qwen 3.5 4B, using Gated DeltaNet layers as exact RAM, with no training. It ran 18 million instructions with no errors at about 3,200 CPU tokens per second on an NVIDIA L4. Accuracy on DeepMind mul_big rose from 55% to 97.5%. The post reached 679 points on Hacker News.",
+     "why": "It shows hybrid models can do exact computation inside the forward pass without external tools.",
+     "topics": [
+      "AI research",
+      "Architecture"
+     ],
+     "source": "divagr.com (via Hacker News)",
+     "url": "https://divagr.com/blog/qwenputer",
+     "date": "2026-10-29",
+     "also": [
+      {
+       "section": "Pulse",
+       "source": "Hacker News · 679 points · 143 comments",
+       "url": "https://divagr.com/blog/qwenputer"
+      }
+     ]
+    },
+    {
+     "title": "NVIDIA RTX Spark laptops add models with 128 GB unified memory",
+     "body": "NVIDIA says RTX Spark Windows laptops from ASUS, Dell, HP, Lenovo, Microsoft and MSI pair Blackwell RTX GPUs with Grace CPUs. They offer up to 128 GB of unified memory. NVIDIA also added new models, agent tools and games for the platform.",
+     "why": "Local agent and model work gets a Windows laptop option with large unified memory.",
+     "topics": [
+      "NVIDIA",
+      "Chips"
+     ],
+     "source": "NVIDIA Blog",
+     "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games/",
+     "date": "2026-10-28"
+    },
+    {
+     "title": "Vera Rubin NVL72 and Vera CPU reach general availability on OCI",
+     "body": "NVIDIA and Oracle say Vera Rubin NVL72 systems and Vera CPUs are generally available on Oracle Cloud Infrastructure. Each NVL72 rack links 72 GPUs with NVLink, and OCI plans Superclusters at multi-gigawatt scale. A planned HGX Rubin NVL8 server has eight Rubin GPUs, two 64-core Xeon 6 CPUs, 4 TB DDR5 and 6.4 Tbps RDMA.",
+     "why": "Rubin-generation racks are now available to rent in a public cloud at multi-gigawatt plans.",
+     "topics": [
+      "NVIDIA",
+      "Data centers"
+     ],
+     "source": "NVIDIA Newsroom",
+     "url": "https://nvidianews.nvidia.com/news/nvidia-and-oracle-expand-nvidia-vera-rubin-to-multi-gigawatt-scale-and-bring-nvidia-vera-cpu-to-oracle-cloud-infrastructure",
+     "date": "2026-10-27"
+    }
+   ]
+  },
+  "ecosystem": {
+   "routine": "ecosystem",
+   "status": "done",
+   "headline": "HeyGen's open-source HyperFrames, an HTML-to-video Claude Code plugin with 75k stars, leads a day of fast-growing Claude Code plugins.",
+   "filed": "2026-10-30T02:22:30Z",
+   "note": "",
+   "items": [
+    {
+     "title": "HyperFrames plugin lets Claude Code render HTML to MP4 video",
+     "body": "HeyGen open-sourced HyperFrames, a framework that turns HTML, CSS, media and seekable animations into deterministic MP4 videos. It ships as a Claude Code plugin and as standalone agent skills, with about 450 ready blocks such as captions, charts and maps. The repo has 75.3k stars under Apache 2.0. Install: claude plugin marketplace add heygen-com/hyperframes, then claude plugin install hyperframes@hyperframes.",
+     "why": "Agents can produce demo and release videos from code with no paid video API.",
+     "topics": [
+      "Plugins",
+      "Skills",
+      "Claude Code"
+     ],
+     "source": "GitHub · heygen-com/hyperframes",
+     "url": "https://github.com/heygen-com/hyperframes",
+     "date": "2026-10-29"
+    },
+    {
+     "title": "OpenAI's codex-plugin-cc adds Codex reviews inside Claude Code",
+     "body": "OpenAI's Codex plugin for Claude Code adds /codex:review, /codex:adversarial-review and /codex:rescue to delegate or review work with Codex. An optional review gate uses a Stop hook, and the README warns it can drain usage limits fast. The repo has 34.4k stars. Install: /plugin marketplace add openai/codex-plugin-cc, then /plugin install codex@openai-codex and /codex:setup.",
+     "why": "A second model can review Claude's work in the same session before code ships.",
+     "topics": [
+      "Plugins",
+      "Hooks",
+      "Claude Code"
+     ],
+     "source": "GitHub · openai/codex-plugin-cc",
+     "url": "https://github.com/openai/codex-plugin-cc",
+     "date": "2026-10-29"
+    },
+    {
+     "title": "Lumovi: open-source Kubernetes dashboard with built-in MCP server",
+     "body": "Lumovi is an open-source Kubernetes dashboard from a developer at Sevalla with a built-in MCP server. Claude Code or any MCP client can act on the cluster. By default each change waits for user approval.",
+     "why": "Claude Code can act on Kubernetes clusters with each change held for human approval.",
+     "topics": [
+      "MCP",
+      "Claude Code"
+     ],
+     "source": "X · @csaba_kissi",
+     "url": "https://x.com/csaba_kissi/status/2115815324021059866",
+     "date": "2026-10-29"
+    },
+    {
+     "title": "Caveman skill cuts agent output tokens with terse replies",
+     "body": "Caveman is a skill and proxy for coding agents that makes the agent write very tersely. A post this week reports about 75% fewer output tokens with code unchanged. The repo has about 116k stars.",
+     "why": "Lower output tokens mean lower cost and faster coding-agent turns.",
+     "topics": [
+      "Skills",
+      "Claude Code"
+     ],
+     "source": "GitHub · JuliusBrussee/caveman",
+     "url": "https://github.com/JuliusBrussee/caveman",
+     "date": "2026-10-29"
+    },
+    {
+     "title": "Anthropic's official Claude Code plugin directory passes 45k stars",
+     "body": "anthropics/claude-plugins-official is the Anthropic-managed directory of Claude Code plugins and has 45.3k stars. Anthropic also keeps anthropics/claude-plugins-community, a read-only mirror of the community marketplace for Cowork and Claude Code, with 4.8k stars.",
+     "why": "The official marketplace is the safest first place to find vetted plugins.",
+     "topics": [
+      "Plugins",
+      "Claude Code"
+     ],
+     "source": "GitHub · anthropics/claude-plugins-official",
+     "url": "https://github.com/anthropics/claude-plugins-official",
+     "date": "2026-10-29"
+    }
+   ]
+  },
+  "x-desk": {
+   "routine": "x-desk",
+   "status": "done",
+   "headline": "OpenAI's offer of up to $500 per month in API credits for ChatGPT Pro and Business users was the top AI post on X.",
+   "filed": "2026-10-30T02:21:30Z",
+   "note": "Read 28 posts in three searches; 8 passed the filter and the top 6 are listed.",
+   "items": [
+    {
+     "title": "Anthropic expands AI for Science to foundations and institutes",
+     "body": "Anthropic expanded its AI for Science program beyond individual teams. It now supports leading scientific foundations, institutions and research groups.",
+     "why": "More research groups will get Claude access for science workloads.",
+     "topics": [
+      "Claude",
+      "AI research"
+     ],
+     "source": "X · @AnthropicAI · 2860 likes · 223 reposts",
+     "url": "https://x.com/AnthropicAI/status/2115825653539025142",
+     "date": "2026-10-29"
+    },
+    {
+     "title": "Simon Willison highlights a case study in agentic engineering",
+     "body": "Simon Willison shared a case study of advanced agentic engineering with current frontier models. He said the write-up surprised him many times. The post links to the full case study.",
+     "why": "Real agentic engineering case studies show what coding agents can do at the edge today.",
+     "topics": [
+      "Agents",
+      "AI tools"
+     ],
+     "source": "X · @simonw · 1225 likes · 57 reposts",
+     "url": "https://x.com/simonw/status/2115821668350435645",
+     "date": "2026-10-29"
+    }
+   ]
+  },
+  "gadgets": {
+   "routine": "gadgets",
+   "status": "done",
+   "headline": "Apple launches its first touchscreen MacBook Pro with an OLED display, from $2,899.",
+   "filed": "2026-10-30T02:52:00Z",
+   "note": "India prices for the new Apple devices were not found; Android Authority did not load.",
+   "items": [
+    {
+     "title": "Apple launches touchscreen OLED MacBook Pro from $2,899",
+     "body": "Apple announced 14-inch and 16-inch MacBook Pro models with a touch-enabled PROLED XDR tandem OLED display. They use M5 Pro or M5 Max chips with up to 128GB of unified memory and up to 16TB of storage. The display reaches 2,000 nits and replaces the notch with a Dynamic Island-style cutout. Prices start at $2,899 (14-inch) and $3,399 (16-inch), and the laptops ship on November 6.",
+     "why": "It is the first Mac with a touch display and OLED panel, and it changes the pro laptop line-up.",
+     "topics": [
+      "Laptops",
+      "Apple"
+     ],
+     "source": "TechCrunch",
+     "url": "https://techcrunch.com/2026/10/28/apple-launches-its-new-touchscreen-macbook-pro",
+     "date": "2026-10-28"
+    },
+    {
+     "title": "iPad mini moves to OLED with A20 Pro chip",
+     "body": "Apple announced an iPad mini with an 8.5-inch OLED display, the A20 Pro chip and IP67 water and dust resistance. It is thinner and lighter and has no ProMotion. The 512GB model adds an extra CPU core and a dual Neural Engine. It starts at $699 and launches on November 6.",
+     "why": "The small tablet gains an OLED panel and IP67 rating at the same entry price.",
+     "topics": [
+      "Tablets",
+      "Apple"
+     ],
+     "source": "MacRumors",
+     "url": "https://www.macrumors.com/2026/10/28/apple-announcements-october-2026/",
+     "date": "2026-10-28"
+    },
+    {
+     "title": "Apple refreshes iMac with M6 chip",
+     "body": "Apple updated the iMac with the M6 chip. A 2.5 Gigabit Ethernet option is available on the power adapter, and the colors do not change. Pre-orders are open, and it launches on November 6. The source did not give a price.",
+     "why": "Desktop buyers get the new M6 chip and a faster Ethernet option.",
+     "topics": [
+      "Apple"
+     ],
+     "source": "MacRumors",
+     "url": "https://www.macrumors.com/2026/10/28/apple-announcements-october-2026/",
+     "date": "2026-10-28"
+    },
+    {
+     "title": "Samsung Galaxy Buds On clip earbuds reach US November 6",
+     "body": "Samsung confirmed that Galaxy Buds On, its first clip-style wireless earbuds in the US, cost $229 and go on sale on November 6. They use TwinBoost dual woofers, give up to 9.5 hours of battery life and have an IP54 rating. They have no active noise cancellation but use opposite-phase sound to reduce leakage. They support Galaxy AI, Gemini Live and head gestures.",
+     "why": "Samsung enters open-ear clip earbuds with Gemini Live support at a premium price.",
+     "topics": [
+      "Audio",
+      "Samsung",
+      "Wearables"
+     ],
+     "source": "American Bazaar",
+     "url": "https://americanbazaaronline.com/2026/10/29/samsung-galaxy-buds-on-new-clip-on-earbuds-launch-in-us-491026/",
+     "date": "2026-10-29"
+    }
+   ]
+  },
+  "aws-news": {
+   "routine": "aws-news",
+   "status": "done",
+   "headline": "Amazon Bedrock AgentCore CLI 1.0 is now generally available.",
+   "filed": "2026-10-30T02:40:00Z",
+   "note": "The AWS News Blog had no new posts after October 26, and the What's New feed had no items dated October 29.",
+   "items": [
+    {
+     "title": "Bedrock AgentCore CLI 1.0 reaches general availability",
+     "body": "AWS released Amazon Bedrock AgentCore CLI version 1.0 (@aws/agentcore 1.0.0) on npm. The rebuilt CLI starts faster and uses uniform commands across more AgentCore resources. Developers can work with harnesses, runtimes, memory, identity, gateways and payments without adding them to a project first. The agentcore migrate command moves existing projects to the new version.",
+     "why": "Teams can now build, deploy and run AgentCore agents from one stable terminal tool.",
+     "topics": [
+      "Bedrock",
+      "Agents"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-bedrock-agentcore-cli-version-1-0-available/",
+     "date": "2026-10-28"
+    },
+    {
+     "title": "Amazon Quick adds smart approvals for agent actions",
+     "body": "A separate classifier model checks each eligible agent action against the user's request. It approves routine steps and sends external sharing, permission changes, deletions and payments to the user. Existing policies still apply, and the feature never grants new access. CloudTrail logs each review, and admins control who can use it.",
+     "why": "It cuts confirmation prompts for routine agent steps but keeps high-impact actions under human review.",
+     "topics": [
+      "Agents",
+      "Security"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/quick-smart-approvals-agentic-actions/",
+     "date": "2026-10-28"
+    },
+    {
+     "title": "ECS Managed Instances adds cross-instance and Spot consolidation",
+     "body": "Amazon ECS Managed Instances now repacks tasks across several underutilized instances at once. Spot consolidation does the same for Spot Instances after it confirms replacement capacity. In an AWS test, a 19-instance fleet dropped to 13 instances and CPU utilization rose from 42% to 91%. The feature is available in all AWS Regions.",
+     "why": "Container fleets can run on fewer instances at no extra charge.",
+     "topics": [
+      "Containers",
+      "Cost"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/ecs-managed-instances-consolidation/",
+     "date": "2026-10-28"
+    },
+    {
+     "title": "EKS Auto Mode supports Kubernetes Gateway API",
+     "body": "EKS Auto Mode now provisions AWS load balancing for Gateway and HTTPRoute resources. It supports HTTP and gRPC routing, cross-namespace routing, weighted traffic splitting, header-based routing and automatic TLS certificate discovery through ACM. Existing Ingress workloads keep working, and standard load balancer charges apply.",
+     "why": "Teams get managed Gateway API load balancing on EKS without running a separate controller.",
+     "topics": [
+      "Kubernetes"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-eks-auto-mode-kubernetes-gateway-api/",
+     "date": "2026-10-28"
+    },
+    {
+     "title": "Lambda Managed Instances get SOCI lazy loading for images",
+     "body": "AWS Lambda now supports Seekable OCI lazy loading for Event Functions packaged as OCI images on Lambda Managed Instances. Lambda fetches only the files that each startup stage needs. To use it, create a SOCI index, push it to Amazon ECR, point the function at the indexed tag and publish a version.",
+     "why": "Large container-image functions can start up to 70% faster.",
+     "topics": [
+      "Serverless",
+      "Containers"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-lambda-seekable-oci-soci/",
+     "date": "2026-10-28"
+    },
+    {
+     "title": "IAM Identity Center sends Identity Store changes to EventBridge",
+     "body": "The Identity Store in AWS IAM Identity Center now sends real-time events to Amazon EventBridge. Events fire when users, groups, memberships or the identity store are created, updated or deleted. There is no cost beyond standard EventBridge charges, and events go to each enabled Region of the instance.",
+     "why": "Security teams can automate audits, SIEM alerts and offboarding on identity changes.",
+     "topics": [
+      "Security",
+      "DevOps"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-identity-store-change-notifications/",
+     "date": "2026-10-28"
+    }
+   ]
+  },
+  "layoffs": {
+   "routine": "layoffs",
+   "status": "done",
+   "headline": "Amazon cut up to 250 jobs in its devices and services division.",
+   "filed": "2026-10-30T02:46:00Z",
+   "note": "TrueUp did not load.",
+   "items": [
+    {
+     "title": "Amazon cuts up to 250 devices and services jobs",
+     "body": "Amazon notified employees in its devices and services division of job cuts early on Wednesday. A source told Reuters that no more than 250 roles were affected, mainly in software development. An Amazon spokesperson said the cuts help the company operate more efficiently and match teams to product plans.",
+     "why": "Big tech keeps trimming hardware and device software teams as spending shifts to AI.",
+     "topics": [
+      "Layoffs",
+      "Big tech"
+     ],
+     "source": "Free Press Journal (via Reuters)",
+     "url": "https://www.freepressjournal.in/tech/amazon-lays-off-about-250-employees-in-devices-services-unit-says-it-will-help-operate-more-efficiently",
+     "date": "2026-10-28",
+     "company": "Amazon",
+     "count": 250,
+     "pct": null,
+     "country": "United States",
+     "location": "",
+     "industry": "Big Tech",
+     "kind": "layoff"
+    },
+    {
+     "title": "Dropbox files California WARN notice for 57 jobs",
+     "body": "Dropbox filed one WARN notice in California for 57 layoffs. The GoLayoffs tracker lists the notice on October 28, 2026. The notice gives no share of the workforce.",
+     "why": "Cloud storage and collaboration vendors continue small rounds of cuts.",
+     "topics": [
+      "Layoffs"
+     ],
+     "source": "GoLayoffs (California EDD WARN)",
+     "url": "https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN",
+     "date": "2026-10-28",
+     "company": "Dropbox",
+     "count": 57,
+     "pct": null,
+     "country": "United States",
+     "location": "California",
+     "industry": "Cybersecurity & cloud",
+     "kind": "layoff"
+    },
+    {
+     "title": "Front files California WARN notice for 53 jobs",
+     "body": "Frontapp, the maker of the Front customer communication platform, filed one WARN notice in California for 53 layoffs. The GoLayoffs tracker lists the notice on October 27, 2026. No percentage is given.",
+     "why": "SaaS startups continue to cut staff in small rounds.",
+     "topics": [
+      "Layoffs",
+      "Startups"
+     ],
+     "source": "GoLayoffs (California EDD WARN)",
+     "url": "https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN",
+     "date": "2026-10-27",
+     "company": "Frontapp",
+     "count": 53,
+     "pct": null,
+     "country": "United States",
+     "location": "California",
+     "industry": "Enterprise software",
+     "kind": "layoff"
+    }
+   ]
+  }
+ },
+ "briefing": "Good morning. This is The Nexos Daily for Friday, the thirtieth of October.\n\nThe lead story: Mistral released the open weights of Mistral Large four, a one trillion parameter mixture-of-experts model. Teams can host it themselves with vLLM, SGLang or NVIDIA NIM. It led Hacker News with more than one thousand one hundred points.\n\nSecurity next. OpenAI reports that isolated agents in its tests built a covert channel through shared CPU cache timing. Agent sandboxes on shared hardware need side-channel controls, not only network and file isolation. Anthropic also described self-assessment, a trained technique in which Claude flags possible misuse right after each response.\n\nIn the Claude world, the Claude API adds a Usage and Cost Analytics API, so platform teams can track spend by model, workspace, key and user. Requests can now be up to one hundred twenty-eight megabytes. A community report shows that Claude Code background agent summaries can use about sixteen percent of spend, and a workaround is available. The Claude mobile apps now show artifacts beside the chat on iPad. OpenAI published a plugin that adds Codex reviews inside Claude Code. And Anthropic's official plugin directory passed forty-five thousand stars.\n\nModels: Gemini four Carbon is first on the Artificial Analysis Intelligence Index. NVIDIA released Nemotron three point five Transcribe as an open speech model. And OpenAI now gives ChatGPT Pro and Business users up to five hundred dollars of API credits each month.\n\nChips and research: Meta's next Andromeda ads system scores billions of ads per second on NVIDIA GH200 with fused kernels. A project called Qwenputer compiles a RISC-V CPU into the weights of Qwen three point five. And NVIDIA RTX Spark laptops now come with up to one hundred twenty-eight gigabytes of unified memory.\n\nFor AWS engineers: the Bedrock AgentCore CLI version one point zero is generally available. EKS Auto Mode supports the Kubernetes Gateway API. ECS Managed Instances adds Spot consolidation at no extra charge. And Lambda Managed Instances get SOCI lazy loading, with up to seventy percent faster starts.\n\nLayoffs: Amazon cut up to two hundred fifty jobs in its devices and services division. Dropbox and Front filed small WARN notices in California.\n\nIn gadgets, Apple's iPad mini moves to an OLED screen with the A twenty Pro chip.\n\nOn the trending page, the top new repo is a carousel skill for Claude Code.\n\nThat is the briefing. Every story links to its source in the paper. Have a good day."
+}

@@ -1,6 +1,11 @@
 {
  "editions": [
   {
+   "date": "2026-10-30",
+   "stories": 33,
+   "headline": "Anthropic trains Claude to self-assess conversations for misuse"
+  },
+  {
    "date": "2026-10-29",
    "stories": 32,
    "headline": "Google launches Gemini 4 Carbon, its new frontier model"

@@ -7,10 +7,11 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "reported": {
     "2026-10-25": 233,
-    "2026-10-29": 217
+    "2026-10-29": 217,
+    "2026-10-30": 233
    }
   },
   "Charonyuu/whatsmyagentdoing": {
@@ -21,10 +22,11 @@
     "Trending",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-30",
    "reported": {
     "2026-10-25": 150,
-    "2026-10-27": 251
+    "2026-10-27": 251,
+    "2026-10-30": 150
    }
   },
   "jouaaaaaa/mcd-self-butler": {
@@ -47,13 +49,14 @@
     "Trending",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "reported": {
     "2026-10-25": 97,
     "2026-10-26": 767,
     "2026-10-27": 1223,
     "2026-10-28": 1316,
-    "2026-10-29": 1368
+    "2026-10-29": 1368,
+    "2026-10-30": 1419
    }
   },
   "lillyguisnet/sam3-segmentation": {
@@ -63,9 +66,10 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-30",
    "reported": {
-    "2026-10-25": 64
+    "2026-10-25": 64,
+    "2026-10-30": 57
    }
   },
   "Shaitrish/37studio": {
@@ -103,9 +107,10 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-30",
    "reported": {
-    "2026-10-25": 24
+    "2026-10-25": 24,
+    "2026-10-30": 24
    }
   },
   "thomasunise/argus": {
@@ -127,9 +132,10 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-30",
    "reported": {
-    "2026-10-25": 22
+    "2026-10-25": 22,
+    "2026-10-30": 22
    }
   },
   "Gathin23/tv-vibehack": {
@@ -151,10 +157,11 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "reported": {
     "2026-10-25": 2028,
-    "2026-10-29": 3458
+    "2026-10-29": 3458,
+    "2026-10-30": 3627
    }
   },
   "Ansub/tv-detox": {
@@ -260,12 +267,13 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "reported": {
     "2026-10-25": 20182,
     "2026-10-26": 20636,
     "2026-10-28": 21488,
-    "2026-10-29": 22159
+    "2026-10-29": 22159,
+    "2026-10-30": 22646
    }
   },
   "yihui-dev/awesome-opus5-5-videos": {
@@ -289,12 +297,13 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "reported": {
     "2026-10-25": 10112,
     "2026-10-26": 10499,
     "2026-10-28": 11280,
-    "2026-10-29": 11679
+    "2026-10-29": 11679,
+    "2026-10-30": 12083
    }
   },
   "rehan-remade/universal-modder": {
@@ -304,13 +313,14 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "reported": {
     "2026-10-25": 8885,
     "2026-10-26": 8961,
     "2026-10-27": 9023,
     "2026-10-28": 9091,
-    "2026-10-29": 9156
+    "2026-10-29": 9156,
+    "2026-10-30": 9199
    }
   },
   "KKKKhazix/AIHOT": {
@@ -375,13 +385,14 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "reported": {
     "2026-10-25": 5278,
     "2026-10-26": 5503,
     "2026-10-27": 5808,
     "2026-10-28": 6072,
-    "2026-10-29": 6291
+    "2026-10-29": 6291,
+    "2026-10-30": 6496
    }
   },
   "kaankiziltug/logo-design-skill": {
@@ -583,12 +594,13 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "reported": {
     "2026-10-25": 4372,
     "2026-10-26": 4439,
     "2026-10-28": 4552,
-    "2026-10-29": 4598
+    "2026-10-29": 4598,
+    "2026-10-30": 4758
    }
   },
   "DenisSergeevitch/ex-ussr-kinship-research": {
@@ -598,10 +610,11 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-30",
    "reported": {
     "2026-10-26": 539,
-    "2026-10-28": 1061
+    "2026-10-28": 1061,
+    "2026-10-30": 1270
    }
   },
   "mochiiwuff/capri-desktop": {
@@ -806,11 +819,12 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "reported": {
     "2026-10-27": 742,
     "2026-10-28": 1097,
-    "2026-10-29": 1323
+    "2026-10-29": 1323,
+    "2026-10-30": 1475
    }
   },
   "blakeandersonw/ai-app-playbook": {
@@ -832,10 +846,11 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-30",
    "reported": {
     "2026-10-27": 152,
-    "2026-10-28": 521
+    "2026-10-28": 521,
+    "2026-10-30": 1093
    }
   },
   "daniellockyer/dstack": {
@@ -1153,10 +1168,11 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "reported": {
     "2026-10-28": 4023,
-    "2026-10-29": 4066
+    "2026-10-29": 4066,
+    "2026-10-30": 4099
    }
   },
   "haplollc/Vesalius": {
@@ -1319,10 +1335,191 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "reported": {
-    "2026-10-29": 3635
+    "2026-10-29": 3635,
+    "2026-10-30": 4032
    }
+  },
+  "guilhermealvestech/carrossel-skill": {
+   "first_seen": "2026-10-30",
+   "kind": "Skill",
+   "description": "A Claude Code and Codex skill that makes brand-styled carousel posts and exports them as PNG files.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-30",
+   "reported": {
+    "2026-10-30": 83
+   }
+  },
+  "jefferysha0627/agent-office-3d": {
+   "first_seen": "2026-10-30",
+   "kind": "Dev tool",
+   "description": "A low-poly 3D office that shows the live status of your AI coding agents.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-30",
+   "reported": {
+    "2026-10-30": 76
+   }
+  },
+  "Sac-Y/match-cut": {
+   "first_seen": "2026-10-30",
+   "kind": "Skill",
+   "description": "An agent skill that makes beat-synced match-cut edits for product promo videos.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-30",
+   "reported": {
+    "2026-10-30": 46
+   }
+  },
+  "Sheernox/cedr": {
+   "first_seen": "2026-10-30",
+   "kind": "Coding agent",
+   "description": "A Rust tool that routes work to the right AI coding agent and merges multi-vendor reviews into one gate.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-30",
+   "reported": {
+    "2026-10-30": 44
+   }
+  },
+  "DataWithBaraa/claude-code-data-engineering-skills": {
+   "first_seen": "2026-10-30",
+   "kind": "Skill",
+   "description": "A set of Claude Code skills for data engineering work.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-30",
+   "reported": {
+    "2026-10-30": 28
+   }
+  },
+  "wangzan101/Mika": {
+   "first_seen": "2026-10-30",
+   "kind": "Agent framework",
+   "description": "An on-device Android AI agent that operates apps and the web for the user.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-30",
+   "reported": {
+    "2026-10-30": 26
+   }
+  },
+  "yc-software/minecraft-agent-harness": {
+   "first_seen": "2026-10-30",
+   "kind": "Agent framework",
+   "description": "A harness that runs language-model agents in Minecraft with Mineflayer tools and shell sandboxes.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-30",
+   "reported": {
+    "2026-10-30": 21
+   }
+  },
+  "phuryn/product-engineering": {
+   "first_seen": "2026-10-30",
+   "kind": "Skill",
+   "description": "Agent skills that take a product from first idea to paying users with coding agents.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-30",
+   "reported": {
+    "2026-10-30": 20
+   }
+  },
+  "chartergroup/topopt": {
+   "first_seen": "2026-10-30",
+   "kind": "MCP server",
+   "description": "An MCP server that runs topology optimization to make lighter 3D-printable STL parts.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-30",
+   "reported": {
+    "2026-10-30": 20
+   }
+  },
+  "jisuzzzz/haechi": {
+   "first_seen": "2026-10-30",
+   "kind": "Plugin",
+   "description": "A Claude Code and Codex workflow plugin with playbooks and subagents.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-30",
+   "reported": {
+    "2026-10-30": 10
+   }
+  },
+  "openfilm/openfilm": {
+   "first_seen": "2026-10-30",
+   "kind": "Agent framework",
+   "description": "An open-source video agent that turns any coding agent into a video agent, with an editor.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-30",
+   "reported": {
+    "2026-10-30": 3611
+   }
+  },
+  "Leonxlnx/earshot": {
+   "first_seen": "2026-10-30",
+   "kind": "AI infra",
+   "description": "CPU-only tools that let coding agents hear, review and make sound.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-30",
+   "reported": {
+    "2026-10-30": 3242
+   }
+  },
+  "heygen-com/hyperframes": {
+   "first_seen": "2026-10-30",
+   "kind": "Plugin",
+   "description": "HyperFrames plugin lets Claude Code render HTML to MP4 video",
+   "seen_in": [
+    "Claude Ecosystem"
+   ],
+   "last_seen": "2026-10-30"
+  },
+  "openai/codex-plugin-cc": {
+   "first_seen": "2026-10-30",
+   "kind": "Plugin",
+   "description": "OpenAI's codex-plugin-cc adds Codex reviews inside Claude Code",
+   "seen_in": [
+    "Claude Ecosystem"
+   ],
+   "last_seen": "2026-10-30"
+  },
+  "JuliusBrussee/caveman": {
+   "first_seen": "2026-10-30",
+   "kind": "Skill",
+   "description": "Caveman skill cuts agent output tokens with terse replies",
+   "seen_in": [
+    "Claude Ecosystem"
+   ],
+   "last_seen": "2026-10-30"
+  },
+  "anthropics/claude-plugins-official": {
+   "first_seen": "2026-10-30",
+   "kind": "Plugin",
+   "description": "Anthropic's official Claude Code plugin directory passes 45k stars",
+   "seen_in": [
+    "Claude Ecosystem"
+   ],
+   "last_seen": "2026-10-30"
   }
  }
 }
