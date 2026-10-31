@@ -36,9 +36,10 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-31",
    "reported": {
-    "2026-10-25": 164
+    "2026-10-25": 164,
+    "2026-10-31": 164
    }
   },
   "morganlinton/BeautifulRust": {
@@ -66,10 +67,11 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "reported": {
     "2026-10-25": 64,
-    "2026-10-30": 57
+    "2026-10-30": 57,
+    "2026-10-31": 64
    }
   },
   "Shaitrish/37studio": {
@@ -92,12 +94,13 @@
     "Trending",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-31",
    "reported": {
     "2026-10-25": 32,
     "2026-10-27": 1596,
     "2026-10-28": 2018,
-    "2026-10-29": 2275
+    "2026-10-29": 2275,
+    "2026-10-31": 2472
    }
   },
   "edigeh/broll-mcp": {
@@ -120,9 +123,10 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-31",
    "reported": {
-    "2026-10-25": 56
+    "2026-10-25": 56,
+    "2026-10-31": 56
    }
   },
   "trailofbits/brotli-checker": {
@@ -157,11 +161,12 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "reported": {
     "2026-10-25": 2028,
     "2026-10-29": 3458,
-    "2026-10-30": 3627
+    "2026-10-30": 3627,
+    "2026-10-31": 3749
    }
   },
   "Ansub/tv-detox": {
@@ -267,13 +272,14 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "reported": {
     "2026-10-25": 20182,
     "2026-10-26": 20636,
     "2026-10-28": 21488,
     "2026-10-29": 22159,
-    "2026-10-30": 22646
+    "2026-10-30": 22646,
+    "2026-10-31": 23044
    }
   },
   "yihui-dev/awesome-opus5-5-videos": {
@@ -297,13 +303,14 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "reported": {
     "2026-10-25": 10112,
     "2026-10-26": 10499,
     "2026-10-28": 11280,
     "2026-10-29": 11679,
-    "2026-10-30": 12083
+    "2026-10-30": 12083,
+    "2026-10-31": 12390
    }
   },
   "rehan-remade/universal-modder": {
@@ -385,14 +392,15 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "reported": {
     "2026-10-25": 5278,
     "2026-10-26": 5503,
     "2026-10-27": 5808,
     "2026-10-28": 6072,
     "2026-10-29": 6291,
-    "2026-10-30": 6496
+    "2026-10-30": 6496,
+    "2026-10-31": 6674
    }
   },
   "kaankiziltug/logo-design-skill": {
@@ -443,9 +451,10 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-31",
    "reported": {
-    "2026-10-25": 167
+    "2026-10-25": 167,
+    "2026-10-31": 167
    }
   },
   "xkx121029/mcd-vibe-commit": {
@@ -594,13 +603,14 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "reported": {
     "2026-10-25": 4372,
     "2026-10-26": 4439,
     "2026-10-28": 4552,
     "2026-10-29": 4598,
-    "2026-10-30": 4758
+    "2026-10-30": 4758,
+    "2026-10-31": 4910
    }
   },
   "DenisSergeevitch/ex-ussr-kinship-research": {
@@ -819,12 +829,13 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "reported": {
     "2026-10-27": 742,
     "2026-10-28": 1097,
     "2026-10-29": 1323,
-    "2026-10-30": 1475
+    "2026-10-30": 1475,
+    "2026-10-31": 1558
    }
   },
   "blakeandersonw/ai-app-playbook": {
@@ -960,10 +971,11 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-31",
    "reported": {
     "2026-10-27": 3743,
-    "2026-10-28": 3793
+    "2026-10-28": 3793,
+    "2026-10-31": 4007
    }
   },
   "oil-oil/oil-ui": {
@@ -1168,11 +1180,12 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "reported": {
     "2026-10-28": 4023,
     "2026-10-29": 4066,
-    "2026-10-30": 4099
+    "2026-10-30": 4099,
+    "2026-10-31": 4132
    }
   },
   "haplollc/Vesalius": {
@@ -1237,9 +1250,10 @@
    "kind": "Plugin",
    "description": "Claude Code mod that renders diagrams and tables in color.",
    "seen_in": [
-    "Trending"
+    "Trending",
+    "Claude Ecosystem"
    ],
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-31",
    "reported": {
     "2026-10-29": 18
    }
@@ -1323,9 +1337,10 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-31",
    "reported": {
-    "2026-10-29": 200
+    "2026-10-29": 200,
+    "2026-10-31": 1432
    }
   },
   "amosblomqvist/learnharness": {
@@ -1335,10 +1350,11 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "reported": {
     "2026-10-29": 3635,
-    "2026-10-30": 4032
+    "2026-10-30": 4032,
+    "2026-10-31": 4305
    }
   },
   "guilhermealvestech/carrossel-skill": {
@@ -1468,9 +1484,10 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "reported": {
-    "2026-10-30": 3611
+    "2026-10-30": 3611,
+    "2026-10-31": 3776
    }
   },
   "Leonxlnx/earshot": {
@@ -1480,9 +1497,10 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "reported": {
-    "2026-10-30": 3242
+    "2026-10-30": 3242,
+    "2026-10-31": 3324
    }
   },
   "heygen-com/hyperframes": {
@@ -1520,6 +1538,156 @@
     "Claude Ecosystem"
    ],
    "last_seen": "2026-10-30"
+  },
+  "patch-gg/pixelfx": {
+   "first_seen": "2026-10-31",
+   "kind": "Skill",
+   "description": "A library of 232 pixel-art effects as small code snippets, with a Claude Code skill to make new ones.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-31",
+   "reported": {
+    "2026-10-31": 339
+   }
+  },
+  "Pluviobyte/douyin-comments": {
+   "first_seen": "2026-10-31",
+   "kind": "Skill",
+   "description": "An agent skill that collects full Douyin comment threads through a logged-in Chrome session.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-31",
+   "reported": {
+    "2026-10-31": 187
+   }
+  },
+  "shinefuer/frugent": {
+   "first_seen": "2026-10-31",
+   "kind": "AI infra",
+   "description": "A cost-focused runtime for coding agents with cache routing, context compression and model cascading.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-31",
+   "reported": {
+    "2026-10-31": 37
+   }
+  },
+  "ideapacket/voxwright": {
+   "first_seen": "2026-10-31",
+   "kind": "Agent framework",
+   "description": "An offline voice-agent layer with deterministic replay, safe function calls and evaluation tools.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-31",
+   "reported": {
+    "2026-10-31": 32
+   }
+  },
+  "openrobokit/roboskills": {
+   "first_seen": "2026-10-31",
+   "kind": "Skill",
+   "description": "A minimal set of agent workflows and tools for robotics.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-31",
+   "reported": {
+    "2026-10-31": 28
+   }
+  },
+  "WeCarbon/decisions-md": {
+   "first_seen": "2026-10-31",
+   "kind": "Dev tool",
+   "description": "A markdown-based task and decision hub for long-running AI agents, with a terminal dashboard.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-31",
+   "reported": {
+    "2026-10-31": 28
+   }
+  },
+  "aa1143/NamiAgent": {
+   "first_seen": "2026-10-31",
+   "kind": "Agent framework",
+   "description": "A Chinese tutorial that builds a local AI agent with files, commands, MCP and memory.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-31",
+   "reported": {
+    "2026-10-31": 27
+   }
+  },
+  "chiarorosa/claude-codex-taskbar": {
+   "first_seen": "2026-10-31",
+   "kind": "Dev tool",
+   "description": "A Windows taskbar widget that shows Claude Code and Codex usage limits and system stats.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-31",
+   "reported": {
+    "2026-10-31": 23
+   }
+  },
+  "elvarofficial/teardown": {
+   "first_seen": "2026-10-31",
+   "kind": "Skill",
+   "description": "A Claude Code skill that turns a machine into a 3D simulator you can take apart.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-31",
+   "reported": {
+    "2026-10-31": 22
+   }
+  },
+  "Hybirdss/kicad-cli-extended": {
+   "first_seen": "2026-10-31",
+   "kind": "Dev tool",
+   "description": "Extends the KiCad CLI so AI agents can edit schematics and PCBs with JSON output.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-31",
+   "reported": {
+    "2026-10-31": 17
+   }
+  },
+  "lordon1a/agents.md": {
+   "first_seen": "2026-10-31",
+   "kind": "Coding agent",
+   "description": "A drop-in AGENTS.md system prompt for coding agents.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-10-31",
+   "reported": {
+    "2026-10-31": 51
+   }
+  },
+  "jaklimoff/claude-grammar": {
+   "first_seen": "2026-10-31",
+   "kind": "Plugin",
+   "description": "claude-grammar plugin corrects your English with Haiku as you work",
+   "seen_in": [
+    "Claude Ecosystem"
+   ],
+   "last_seen": "2026-10-31"
+  },
+  "dmitribogatenkov/briefproof": {
+   "first_seen": "2026-10-31",
+   "kind": "Plugin",
+   "description": "briefproof plugin turns a brief into spec, tickets and blind check",
+   "seen_in": [
+    "Claude Ecosystem"
+   ],
+   "last_seen": "2026-10-31"
   }
  }
 }

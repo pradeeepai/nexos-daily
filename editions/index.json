@@ -1,6 +1,11 @@
 {
  "editions": [
   {
+   "date": "2026-10-31",
+   "stories": 32,
+   "headline": "Trojanized Claude Code extension plants SSH backdoor via Cursor marketplace"
+  },
+  {
    "date": "2026-10-30",
    "stories": 33,
    "headline": "Anthropic trains Claude to self-assess conversations for misuse"
