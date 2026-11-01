@@ -1,6 +1,20 @@
 {
  "entries": [
   {
+   "date": "2026-10-30",
+   "company": "Comcast",
+   "count": 994,
+   "count_text": "",
+   "pct": null,
+   "location": "Philadelphia, PA; New Jersey; Washington; California",
+   "country": "United States",
+   "industry": "Other tech",
+   "kind": "layoff",
+   "confirmed": true,
+   "source": "The Philadelphia Inquirer",
+   "url": "https://inquirer.com/business/comcast/comcast-layoffs-warn-notice-philadelphia-ai-jobs-20261030.html"
+  },
+  {
    "date": "2026-10-28",
    "company": "Dropbox",
    "count": 57,
@@ -1709,5 +1723,5 @@
    "url": "https://golayoffs.com/tech-layoff-tracker/"
   }
  ],
- "updated": "2026-10-30T02:52:10Z"
+ "updated": "2026-11-01T02:57:54Z"
 }

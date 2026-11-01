@@ -1,0 +1,506 @@
+{
+ "date": "2026-11-01",
+ "generated": "2026-11-01T02:57:53Z",
+ "sections": {
+  "tech-news": {
+   "routine": "tech-news",
+   "status": "done",
+   "headline": "Anthropic adds a Claude Code rule against cloning existing games, and publishes research on automated misalignment stress-tests.",
+   "filed": "2026-11-01T02:19:35Z",
+   "note": "",
+   "items": [
+    {
+     "title": "Anthropic tells Claude Code not to clone existing games",
+     "body": "On 31 October, Anthropic added two sentences to Claude Code's rules. The rules tell Claude to build original games, genre games and games from the user's own designs. Claude must not recreate a specific existing game, even under a new name. The change follows weeks of AI-made game copies on Steam.",
+     "why": "Shows that Anthropic changes agent behavior through Claude Code's built-in rules, which can change output for teams without a model release.",
+     "topics": [
+      "Claude Code",
+      "AI policy"
+     ],
+     "source": "PC Gamer",
+     "url": "https://www.pcgamer.com/gaming-industry/anthropic-updates-claude-to-steer-it-away-from-letting-users-clone-games-following-weeks-of-steam-being-inundated-with-ai-slop/",
+     "date": "2026-10-31",
+     "also": [
+      {
+       "section": "Pulse",
+       "source": "r/ClaudeAI · 720 upvotes",
+       "url": "https://www.pcgamer.com/gaming-industry/anthropic-updates-claude-to-steer-it-away-from-letting-users-clone-games-following-weeks-of-steam-being-inundated-with-ai-slop/"
+      }
+     ]
+    },
+    {
+     "title": "Claude agents automate search for hidden misalignment training data",
+     "body": "Anthropic set Claude to write fine-tuning datasets of up to 5,000 examples that make a small model misaligned and still pass a production-like monitor. A submission failed if the monitor flagged more than 10% of rows or over 100 rows. Every run eventually found datasets that passed, mostly by hiding the behavior in roleplay and fiction. Anthropic calls this a proof of concept for automated stress-testing.",
+     "why": "Shows that fine-tuning data can pass production-style monitors and still cause misalignment, so data checks need more than one filter.",
+     "topics": [
+      "AI research",
+      "Claude",
+      "Security"
+     ],
+     "source": "Anthropic Alignment Science Blog",
+     "url": "https://alignment.anthropic.com/2026/automated-em-search/",
+     "date": "2026-10-31",
+     "also": [
+      {
+       "section": "Trending on X",
+       "source": "X · @AnthropicAI · 3542 likes · 345 reposts",
+       "url": "https://x.com/AnthropicAI/status/2116349211549843666"
+      }
+     ]
+    },
+    {
+     "title": "Fast mode for Claude Opus 4.8 is deprecated",
+     "body": "Anthropic deprecated fast mode for Claude Opus 4.8 on 30 October. Removal is scheduled for 30 November 2026. After that date, requests to claude-opus-4-8 with speed fast return an error. Anthropic says to migrate to Claude Opus 5.5 to keep fast mode.",
+     "why": "Teams that send speed fast to claude-opus-4-8 must migrate before 30 November or their requests fail.",
+     "topics": [
+      "Claude",
+      "AI tools"
+     ],
+     "source": "Claude Platform release notes",
+     "url": "https://platform.claude.com/docs/en/release-notes/overview",
+     "date": "2026-10-30"
+    },
+    {
+     "title": "Claude API adds Usage and Cost Analytics API and 128 MB requests",
+     "body": "The Usage and Cost Analytics API entered beta on 29 October with the analytics-usage-cost-2026-08-24 header. Its usage and cost endpoints group results by model, workspace, API key and user or service account. The older Usage and Cost API is now legacy but still supported. On 28 October, the maximum Messages API request size rose from 32 MB to 128 MB.",
+     "why": "Gives FinOps and platform teams per-key, per-workspace cost data for Claude, and allows larger payloads per request.",
+     "topics": [
+      "Claude",
+      "DevOps"
+     ],
+     "source": "Claude Platform release notes",
+     "url": "https://platform.claude.com/docs/en/release-notes/overview",
+     "date": "2026-10-29"
+    },
+    {
+     "title": "Mistral releases open weights for 1T-parameter Mistral Large 4",
+     "body": "Mistral Large 4 is a natively multimodal model with about 1 trillion parameters (repo name shows 52B active). API price is $0.70 input, $0.07 cached input and $2.10 output per million tokens. Weights are on Hugging Face under a modified MIT license that needs a commercial license for model-as-a-service. Mistral reports 41% on Terminal-Bench 4.0 and 84.5% on BrowseComp.",
+     "why": "A frontier-class open model that runs on your own infrastructure, with NVIDIA NIM and Microsoft Foundry deployment options.",
+     "topics": [
+      "Open models",
+      "New models"
+     ],
+     "source": "Mistral AI",
+     "url": "https://mistral.ai/news/mistral-large-4-oss/",
+     "date": "2026-10-29"
+    },
+    {
+     "title": "Shared ChatGPT chats allowed full account takeover, now fixed",
+     "body": "Parameter researchers found that a malicious public ChatGPT share could run attacker JavaScript as chatgpt.com. They combined a graph math-keyboard component with HTML Preview. The payload could read private chats and call ChatGPT's authenticated APIs as the victim. OpenAI fixed it on 26 October, rated it P1 and paid a $5,000 bounty.",
+     "why": "Shows how rich rendering in AI chat apps opens XSS paths; review any shared-content features in your own AI tools.",
+     "topics": [
+      "Security",
+      "OpenAI"
+     ],
+     "source": "Parameter Labs (Hacker News, 293 points)",
+     "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
+     "date": "2026-10-31",
+     "also": [
+      {
+       "section": "Pulse",
+       "source": "Hacker News · 293 points · 142 comments",
+       "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai"
+      }
+     ]
+    },
+    {
+     "title": "Malware uses an LLM to rank infostealer victims by value",
+     "body": "Cisco Talos describes the Volta infostealer. It uses an AI model to rank victims by how much they are worth. The story reached 223 points on Hacker News.",
+     "why": "Attackers now use LLMs to triage stolen data, so stolen cloud credentials get acted on faster.",
+     "topics": [
+      "Security",
+      "AI tools"
+     ],
+     "source": "Cisco Talos (Hacker News, 223 points)",
+     "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
+     "date": "2026-10-31"
+    },
+    {
+     "title": "GPT-5.6 Sol completes Factorio on peaceful mode in Codex",
+     "body": "Ryan Madden reports that GPT-5.6 Sol, in Codex at low thinking level, finished a peaceful Factorio run in 13.5 hours of game time. A Python library enforced the same limits as human players, such as reach and fog of war. The factory had unconnected systems that the model fixed by moving supplies by hand. GPT-5.5 could not use transport belts well.",
+     "why": "A long-horizon agent benchmark that shows progress in multi-hour planning and tool use.",
+     "topics": [
+      "OpenAI",
+      "Agents"
+     ],
+     "source": "ryanmadden.net (Hacker News, 138 points)",
+     "url": "https://ryanmadden.net/gpt-56-beats-factorio/",
+     "date": "2026-10-31"
+    },
+    {
+     "title": "Google DeepMind's Gemini-based PlanAssist cuts UK planning review time",
+     "body": "Google DeepMind built PlanAssist with Gemini for UK Government planning officers. It cut time spent on householder applications by up to 58%.",
+     "why": "A public-sector example of Gemini agents that cut review time on document-heavy workflows.",
+     "topics": [
+      "Gemini",
+      "Agents"
+     ],
+     "source": "X · @GoogleDeepMind",
+     "url": "https://x.com/GoogleDeepMind/status/2116524000977285321",
+     "date": "2026-10-31",
+     "also": [
+      {
+       "section": "Trending on X",
+       "source": "X · @GoogleDeepMind · 933 likes · 100 reposts",
+       "url": "https://x.com/GoogleDeepMind/status/2116524000977285321"
+      }
+     ]
+    }
+   ]
+  },
+  "chips": {
+   "routine": "chips",
+   "status": "done",
+   "headline": "Amazon says it will sell Trainium chips to outside companies from late 2027.",
+   "filed": "2026-11-01T02:19:35Z",
+   "note": "",
+   "items": [
+    {
+     "title": "Amazon will sell Trainium chips to outside companies from late 2027",
+     "body": "On the Q3 2026 call, Andy Jassy said Amazon will start selling Trainium chips externally in late 2027. Trainium and Graviton run at a pace above $25 billion a year. Amazon open-sourced TorchNeuron so PyTorch code runs on Trainium without rewrites. Amazon did not name a chip generation, buyer or price.",
+     "why": "Trainium may become an option outside AWS, which changes long-term accelerator sourcing plans.",
+     "topics": [
+      "Trainium",
+      "Chips"
+     ],
+     "source": "24/7 Wall St.",
+     "url": "https://247wallst.com/investing/2026/10/30/amazon-says-it-will-start-selling-its-ai-chips-to-other-companies-in-2027/",
+     "date": "2026-10-30"
+    },
+    {
+     "title": "Google's TPU satellite Suncatcher is online in orbit",
+     "body": "Google's Suncatcher prototype carries four TPUs and generates up to 1 kW. Power limits allow one TPU to run for about 20 minutes at a time. It runs Gemma 4 and is operating nominally after three weeks of tests. Two more satellites with optical links are planned for 2027.",
+     "why": "First real test of space-based AI compute, including radiation bit flips and thermal limits.",
+     "topics": [
+      "Google TPU",
+      "Data centers"
+     ],
+     "source": "TechCrunch",
+     "url": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry",
+     "date": "2026-10-30"
+    },
+    {
+     "title": "LOWN cuts diffusion VLM decoding compute by about 65%",
+     "body": "KAIST AI researchers propose LOWN for diffusion vision-language models such as LLaDA-V. The model reads the image only when a text-only prediction disagrees with the last image-based prediction. It keeps 99.6% of LLaDA-V's score on ten benchmarks with 35.3% of decoding FLOPs. It was the top paper on Hugging Face Daily Papers with 99 upvotes.",
+     "why": "Training-free method that lowers inference cost for vision-language models.",
+     "topics": [
+      "AI research",
+      "Architecture"
+     ],
+     "source": "Hugging Face Papers (Cho, Kim, Shin, Yang)",
+     "url": "https://huggingface.co/papers/2610.36671",
+     "date": "2026-10-30"
+    },
+    {
+     "title": "Balestriero and LeCun turn Platonic Representation Hypothesis into a theorem",
+     "body": "The paper claims JEPAs trained separately on different modalities converge to one representation, up to a rotation. Good views need 42 times fewer samples than next-token prediction for the same alignment. A 109M-parameter text JEPA aligned with DINOv2 and CLIP better than language models up to 72B. One rotation turned the encoders into a COCO captioner with CIDEr 0.838.",
+     "why": "Suggests JEPA training can reach cross-modal alignment with far less data than next-token prediction.",
+     "topics": [
+      "AI research",
+      "Architecture"
+     ],
+     "source": "Hugging Face Papers (Balestriero, LeCun)",
+     "url": "https://huggingface.co/papers/2610.39302",
+     "date": "2026-10-30"
+    }
+   ]
+  },
+  "ecosystem": {
+   "routine": "ecosystem",
+   "status": "done",
+   "headline": "The unslop Claude skill reached about 3,575 GitHub stars in three days.",
+   "filed": "2026-11-01T02:19:35Z",
+   "note": "",
+   "items": [
+    {
+     "title": "unslop skill redesigns AI-looking UI",
+     "body": "unslop is a Claude skill that finds the purple gradients, glows and loud copy common to AI-built sites. It then redesigns the screen pass by pass. Created on 29 October, it has about 3,575 GitHub stars. Install: git clone https://github.com/heydamir/unslop.",
+     "why": "Gives frontend teams a repeatable way to remove generic AI styling from agent-built pages.",
+     "topics": [
+      "Skills",
+      "Claude Code"
+     ],
+     "source": "GitHub · heydamir/unslop",
+     "url": "https://github.com/heydamir/unslop",
+     "date": "2026-10-31"
+    },
+    {
+     "title": "pixelfx plugin ships 244 pixel-art effects for Claude Code",
+     "body": "pixelfx contains 244 pixel-art effects, each a small piece of code. It includes a Claude Code skill to make new effects. Created 30 October, it has about 1,461 stars. Install: /plugin marketplace add patch-gg/pixelfx, then /plugin install pixelfx@pixelfx.",
+     "why": "Shows the plugin marketplace pattern for bundling a code library with a skill.",
+     "topics": [
+      "Plugins",
+      "Skills"
+     ],
+     "source": "GitHub · patch-gg/pixelfx",
+     "url": "https://github.com/patch-gg/pixelfx",
+     "date": "2026-10-31"
+    },
+    {
+     "title": "LiveNerf tracks Opus 5.5 for silent quality changes",
+     "body": "LiveNerf measures Claude model performance daily to detect silent degradation. After 38 days it found no degradation in Opus 5.5 and can detect changes of 7% or more. The repo has over 1,600 stars, and its day-38 update had 316 upvotes on r/ClaudeAI.",
+     "why": "Gives teams independent data on model regressions before they trust a provider's model in production.",
+     "topics": [
+      "Claude Code",
+      "Setups"
+     ],
+     "source": "GitHub · ninjahawk/livenerf (r/ClaudeAI)",
+     "url": "https://github.com/ninjahawk/livenerf",
+     "date": "2026-10-31"
+    },
+    {
+     "title": "reanimate skill reverse-engineers animations frame by frame",
+     "body": "reanimate is a Claude Code skill that breaks any animation down frame by frame. It then proves that the rebuilt animation moves the same. Created 29 October, it has about 479 stars. Install: npx skills add NiazMorshed2007/reanimate -g.",
+     "why": "Lets agents copy motion behavior and verify the copy, which helps frontend migration work.",
+     "topics": [
+      "Skills",
+      "Claude Code"
+     ],
+     "source": "GitHub · NiazMorshed2007/reanimate",
+     "url": "https://github.com/NiazMorshed2007/reanimate",
+     "date": "2026-10-31"
+    },
+    {
+     "title": "teardown skill turns any machine into a 3D simulator",
+     "body": "teardown is a Claude Code skill that builds a 3D simulator of a machine that you can take apart. Created 30 October, it has about 435 stars.",
+     "why": "Shows skills that generate interactive 3D output, useful for technical training content.",
+     "topics": [
+      "Skills"
+     ],
+     "source": "GitHub · elvarofficial/teardown",
+     "url": "https://github.com/elvarofficial/teardown",
+     "date": "2026-10-31"
+    },
+    {
+     "title": "tokendoctor plugin audits Claude Code token use and settings",
+     "body": "tokendoctor shows where Claude Code tokens go and audits your setup against the docs. It proposes setting changes as a diff that you approve. It is new (created 25 October, about 13 stars). Install: claude plugin marketplace add rsaryev/tokendoctor, then claude plugin install tokendoctor@tokendoctor.",
+     "why": "Helps teams cut Claude Code cost by showing where tokens go and fixing settings.",
+     "topics": [
+      "Plugins",
+      "Claude Code"
+     ],
+     "source": "GitHub · rsaryev/tokendoctor",
+     "url": "https://github.com/rsaryev/tokendoctor",
+     "date": "2026-10-31"
+    }
+   ]
+  },
+  "x-desk": {
+   "routine": "x-desk",
+   "status": "done",
+   "headline": "Anthropic's research on Claude agents that automate misalignment stress-tests led AI posts on X.",
+   "filed": "2026-11-01T02:19:35Z",
+   "note": "Read 29 posts in 3 searches; 5 passed the filter (memes, opinion and posts under 20 likes were dropped).",
+   "items": [
+    {
+     "title": "NVIDIA shows CUDA-X simulation demos from GTC Berlin",
+     "body": "NVIDIA posted a demo reel of computer graphics and simulation powered by CUDA-X. The clips come from GTC Berlin. CUDA-X is NVIDIA's software stack for scientific and engineering workloads.",
+     "why": "Shows CUDA-X libraries in use for simulation and graphics at scale.",
+     "topics": [
+      "Chips",
+      "AI tools"
+     ],
+     "source": "X · @nvidia · 872 likes · 101 reposts",
+     "url": "https://x.com/nvidia/status/2116236325351559524",
+     "date": "2026-10-30"
+    },
+    {
+     "title": "OpenAI Developers posts weekly roundup for the Agents API",
+     "body": "OpenAI Developers shared a roundup of what shipped this week for the Agents API. The post links to the full list of changes.",
+     "why": "Teams that build on OpenAI's Agents API should check the new features.",
+     "topics": [
+      "OpenAI",
+      "Agents"
+     ],
+     "source": "X · @OpenAIDevs · 611 likes · 32 reposts",
+     "url": "https://x.com/OpenAIDevs/status/2116306164375863343",
+     "date": "2026-10-30"
+    },
+    {
+     "title": "Surge iOS 6 beta adds an MCP server for AI agents",
+     "body": "Surge iOS 6 is in beta on TestFlight. It is rebuilt for iOS 26 with a new home screen, faster request list and versioned profiles. It adds an MCP server for AI agents and is a free update.",
+     "why": "Network debugging tools now expose MCP servers, so agents can inspect traffic directly.",
+     "topics": [
+      "MCP",
+      "AI tools"
+     ],
+     "source": "X · @nssurge · 100 likes · 13 reposts",
+     "url": "https://x.com/nssurge/status/2116530752938737785",
+     "date": "2026-10-31"
+    }
+   ]
+  },
+  "gadgets": {
+   "routine": "gadgets",
+   "status": "done",
+   "headline": "Motorola confirms the Signature 27 launch for November 5, with a Snapdragon 8 Elite Extreme Gen 6 chip and a 200MP periscope camera.",
+   "filed": "2026-11-01T02:50:00Z",
+   "note": "Few new official launches appeared in the last 48 hours; the Apple, Samsung and OPPO news in the window was already reported, and Gadgets 360 searches failed.",
+   "items": [
+    {
+     "title": "Motorola Signature 27 launches November 5, India included",
+     "body": "Motorola confirmed a November 5 launch for the Signature 27, and Motorola India lists it for an India launch the same day. Official specs include the 2nm Snapdragon 8 Elite Extreme Gen 6, a 50MP Sony LYT 910 main camera and a 200MP periscope telephoto. It has a larger vapor chamber, Bang & Olufsen audio tuning and seven years of OS updates. Motorola has not announced the price.",
+     "why": "It is one of the first phones with Qualcomm's 2nm flagship chip and promises seven years of OS updates.",
+     "topics": [
+      "Phones"
+     ],
+     "source": "GSMArena",
+     "url": "https://www.gsmarena.com/motorola_signature_27_key_specs_geekbench-news-75301.php",
+     "date": "2026-10-31"
+    }
+   ]
+  },
+  "tech-pulse": {
+   "routine": "tech-pulse",
+   "status": "done",
+   "headline": "Anthropic changed Claude to refuse cloning specific existing games, after weeks of AI copycat games on Steam.",
+   "filed": "2026-11-01T02:30:00Z",
+   "note": "r/MachineLearning and r/devops had very few posts with engagement yesterday.",
+   "items": [
+    {
+     "title": "Critical Linux TCP use-after-free CVE-2026-98432, patch now",
+     "body": "A use-after-free in the IPv4 TCP handshake affects Linux 4.4 and later below 5.10.272, 5.15.223, 6.1.190, 6.6.159, 6.12.113, 6.18.56 and 7.2.10. Anthropic says Claude built a working remote root exploit for hosts with an MPTCP listener. Debian, SUSE and Amazon Linux 2023 kernel6.12 and kernel6.18 have fixes; Ubuntu, RHEL and Amazon Linux 2 did not as of October 29. Check MPTCP listeners with 'ss -Mlnp' and patch those hosts first.",
+     "why": "A remote, no-auth kernel bug with CVSS 9.8 affects most Linux servers until distribution kernels are updated.",
+     "topics": [
+      "Security",
+      "DevOps"
+     ],
+     "source": "Hacker News · 214 points · 102 comments",
+     "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
+     "date": "2026-10-31"
+    },
+    {
+     "title": "Betelgeuse runs Qwen 3.8 Flash Next at 22 tok/s on RTX 3060",
+     "body": "Betelgeuse is a llama.cpp fork that keeps dense layers and about 5,000 expert slots in VRAM, with a RAM victim cache and an io_uring pager. It runs the 68 GB IQ2_XS build of Qwen 3.8 Flash Next at about 22 tok/s warm, against 1.47 tok/s for stock llama.cpp. The author says output is byte-exact with stock output and no experts are dropped. An upstream llama.cpp pull request is open.",
+     "why": "It shows large MoE models can run at usable speed on a 12 GB GPU and 16 GB RAM without quality loss.",
+     "topics": [
+      "Open models",
+      "AI tools"
+     ],
+     "source": "r/LocalLLaMA · 411 upvotes",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xk8s6z/betelgeuse_running_qwen_38_flash_next_at_22_toks/",
+     "date": "2026-10-31"
+    },
+    {
+     "title": "Prospero: a lean C++ coding harness for any model endpoint",
+     "body": "Chris Wellons released Prospero, a desktop coding harness written in C++ with a Dear ImGui interface. It supports subagents, Git worktrees, MCP, deadlines on every operation and process-tree cleanup. It ships no model provider; users connect llama.cpp, OpenRouter, the Anthropic API or the OpenAI API. The Community Edition is free on GitHub, and a paid edition adds headless remote engines.",
+     "why": "It gives teams a low-memory, self-hosted agent harness that works with local models and remote hosts.",
+     "topics": [
+      "Agents",
+      "AI tools"
+     ],
+     "source": "Hacker News · 177 points · 117 comments",
+     "url": "https://nullprogram.com/blog/2026/10/31/",
+     "date": "2026-10-31"
+    }
+   ]
+  },
+  "aws-news": {
+   "routine": "aws-news",
+   "status": "done",
+   "headline": "Amazon Bedrock now serves OpenAI GPT-5.6 Terra and Luna in AWS GovCloud (US), with Cross-Region Inference.",
+   "filed": "2026-11-01T02:42:00Z",
+   "note": "The AWS News Blog showed no posts after October 26, and the What's New feed had no items for October 31.",
+   "items": [
+    {
+     "title": "Bedrock adds GPT-5.6 models and Cross-Region Inference in GovCloud",
+     "body": "Amazon Bedrock supports OpenAI GPT-5.6 Terra and GPT-5.6 Luna on bedrock-runtime in AWS GovCloud (US). The Responses, Converse and Chat Completions APIs are supported. Cross-Region Inference routes requests across both GovCloud Regions. Usage shows in invocation logs, CloudWatch metrics and Cost Explorer by model.",
+     "why": "Public-sector teams can now run OpenAI GPT-5.6 on Bedrock with higher throughput and data kept in US borders.",
+     "topics": [
+      "Bedrock"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/bedrock-openai-runtime-govcloud/",
+     "date": "2026-10-30"
+    },
+    {
+     "title": "OpenAI Daybreak Red security model arrives on Bedrock",
+     "body": "Daybreak Red (GPT-5.6 Cyber) from OpenAI is available on Amazon Bedrock in US East (Ohio) and AWS GovCloud (US-East). It supports authorized vulnerability research, exploit reproduction and mitigation work. Access needs enrollment in OpenAI's Daybreak program and approval through the AWS account team.",
+     "why": "Approved security teams get a vulnerability-research model with fewer refusals, inside their AWS controls.",
+     "topics": [
+      "Bedrock",
+      "Security"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/openai-daybreak-red-govcloud-east/",
+     "date": "2026-10-30"
+    },
+    {
+     "title": "SageMaker real-time endpoints support NVIDIA MIG GPU partitioning",
+     "body": "SageMaker AI can split one GPU into up to seven isolated partitions with dedicated memory and compute, using NVIDIA MIG. Each model in an inference component goes on a partition sized for it, and apps still call models by name. Supported instances are P4d, P5, G7 and G7e in seven Regions, including Singapore and Tokyo, but not Mumbai or Hyderabad.",
+     "why": "Teams can pack several small models on one GPU with hardware isolation and cut inference cost.",
+     "topics": [
+      "Cost",
+      "DevOps"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/sagemaker-gpu-partitioning/",
+     "date": "2026-10-30"
+    },
+    {
+     "title": "AWS WAF auto-injects its JavaScript SDK on CloudFront",
+     "body": "When enabled, CloudFront inserts the AWS WAF JavaScript SDK tag into served HTML. The SDK feeds Bot Control targeted inspection and Fraud Control ATP and ACFP rule groups. There is no extra charge. It is on by default for new console-created web ACLs with these rule groups and off for programmatic ones.",
+     "why": "Bot and fraud protection no longer needs manual script tags on every page.",
+     "topics": [
+      "Security"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-waf-automatic-sdk-integration-amazon-cloudfront/",
+     "date": "2026-10-30"
+    },
+    {
+     "title": "CloudFront exposes viewer ISP and post-quantum TLS details",
+     "body": "CloudFront adds two optional headers: CloudFront-Viewer-ISP and CloudFront-Viewer-TLS-Details. The TLS header shows key exchange, signature scheme and key type, including post-quantum use. Add the headers to an origin request policy and attach it to a distribution.",
+     "why": "Origins can now measure post-quantum TLS adoption and route or debug by viewer ISP.",
+     "topics": [
+      "Security",
+      "DevOps"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/cloudfront-viewer-isp-post-quantum-visbility/",
+     "date": "2026-10-30"
+    },
+    {
+     "title": "Amazon MSK Provisioned supports TLS 1.3 in transit",
+     "body": "MSK Provisioned clusters can use named security policies that allow TLS 1.2 and 1.3, or TLS 1.3 only. Existing clusters do not change until a policy is applied. Connections that do not meet the policy are rejected. It is available in all Regions with MSK Provisioned at no extra charge.",
+     "why": "Kafka teams can enforce modern TLS for compliance at no extra cost.",
+     "topics": [
+      "Security"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-msk-tls/",
+     "date": "2026-10-30"
+    }
+   ]
+  },
+  "layoffs": {
+   "routine": "layoffs",
+   "status": "done",
+   "headline": "Comcast files WARN notices for about 994 jobs, including 634 at its Philadelphia headquarters, as it redesigns around AI.",
+   "filed": "2026-11-01T02:52:00Z",
+   "note": "TrueUp did not load, and GoLayoffs showed no new entries after October 28.",
+   "items": [
+    {
+     "title": "Comcast cuts 634 Philadelphia headquarters jobs in WARN filing",
+     "body": "Comcast filed a WARN notice in Pennsylvania for 634 jobs at its Center City Philadelphia headquarters. It also cut 119 positions in New Jersey, 159 in Washington state and 82 in California. The layoffs take effect from December 31. Comcast says it is redesigning its organization and investing in AI, and plans to hire more than 1,100 new roles.",
+     "why": "It shows large tech and telecom employers cutting staff while they move budget to AI.",
+     "topics": [
+      "Layoffs",
+      "Big tech"
+     ],
+     "source": "The Philadelphia Inquirer",
+     "url": "https://inquirer.com/business/comcast/comcast-layoffs-warn-notice-philadelphia-ai-jobs-20261030.html",
+     "date": "2026-10-30",
+     "company": "Comcast",
+     "count": 994,
+     "pct": null,
+     "country": "United States",
+     "location": "Philadelphia, PA; New Jersey; Washington; California",
+     "industry": "Other tech",
+     "kind": "layoff"
+    }
+   ]
+  }
+ },
+ "briefing": "Good morning. This is The Nexos Daily for Sunday, the first of November.\n\nThe lead story: Anthropic added a Claude Code rule against cloning existing games, after weeks of AI copycat games on Steam. Teams that build games with Claude Code must now frame the work as original or genre designs. The change came through built-in rules, not a new model.\n\nSecurity next. A critical Linux TCP use-after-free bug, CVE twenty twenty-six ninety-eight four thirty-two, has a severity score of nine point eight. It is remote and needs no authentication, so update your server kernels now. A chain of bugs in shared ChatGPT chats allowed full account takeover, and OpenAI has fixed it. And Cisco Talos found malware that uses an LLM to rank infostealer victims by value.\n\nIn the Claude world, Anthropic showed Claude agents that search for hidden misalignment in fine-tuning data. Fast mode for Claude Opus four point eight is deprecated, so migrate before the thirtieth of November. The unslop skill, which removes generic AI styling from agent-built pages, reached about three thousand five hundred stars in three days. And tokendoctor audits Claude Code token use.\n\nModels: Mistral Large four is still the top open model story. A community test ran Qwen three point eight Flash Next at twenty-two tokens per second on a twelve gigabyte RTX three thousand sixty.\n\nChips and research: Amazon says it will sell Trainium chips to outside companies from late twenty twenty-seven. Google's Suncatcher TPU satellite is online in orbit. And a paper by Balestriero and LeCun turns the Platonic Representation Hypothesis into a theorem.\n\nFor AWS engineers: Bedrock adds OpenAI GPT five point six models and Cross-Region Inference in GovCloud. SageMaker real-time endpoints now support NVIDIA MIG GPU partitioning. And AWS WAF can inject its JavaScript SDK on CloudFront automatically.\n\nLayoffs: Comcast filed WARN notices for about nine hundred ninety-four jobs, including six hundred thirty-four at its Philadelphia headquarters.\n\nIn gadgets, the Motorola Signature twenty-seven launches on the fifth of November, India included.\n\nOn the trending page, a DeepSeek superagent prototype gained two thousand eight hundred forty stars on its first day.\n\nIt is Sunday, so the Week in review is out. It has the top ten stories of the week, every model launch, and the skill of the week: Theo's tstack pull request skills.\n\nThat is the briefing. Every story links to its source in the paper. Have a good day."
+}

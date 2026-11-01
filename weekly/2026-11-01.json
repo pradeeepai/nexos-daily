@@ -1,0 +1,217 @@
+{
+ "week_start": "2026-10-26",
+ "week_end": "2026-11-01",
+ "intro": "Three frontier launches set the week: OpenAI's low-cost GPT-6.1 Terra, Google's Gemini 4 Carbon and the open-weight Mistral Large 4. Anthropic filed for an IPO and gave heavy Claude Code users an Ultra plan without the five-hour limit, while a trojanized Claude Code extension in the Open VSX marketplace was the week's main security alert.",
+ "top": [
+  {
+   "title": "Google launches Gemini 4 Carbon, its new frontier model",
+   "body": "Google announced Gemini 4 Carbon on October 28, two weeks after Gemini 4 Argon. It ranks first on the Artificial Analysis Intelligence Index v5 with 59 and scores 88.2% on SEC-bench Pro.",
+   "section": "AI",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+   "date": "2026-10-29"
+  },
+  {
+   "title": "OpenAI releases GPT-6.1 Terra for fast, low-cost computer use",
+   "body": "OpenAI released GPT-6.1 Terra on 26 October for computer use, visual reasoning and coding. API price is $1 input and $5 output per million tokens, 50% below GPT-5.6 Terra and GPT-6.1 Sol; context is 1.1M tokens per the Opper tracker.",
+   "section": "AI",
+   "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-launches-gpt-61-terra-with-3x-faster-ai-agents-50-percent-lower-pricing/",
+   "date": "2026-10-27"
+  },
+  {
+   "title": "Mistral releases open weights of 1T-parameter Mistral Large 4",
+   "body": "Mistral released Mistral Large 4, an open-weight hybrid instruct and reasoning MoE model with about 1T total parameters and multimodal input. API price is $0.70 input, $0.07 cached input and $2.10 output per million tokens.",
+   "section": "AI",
+   "url": "https://mistral.ai/news/mistral-large-4-oss/",
+   "date": "2026-10-30"
+  },
+  {
+   "title": "Anthropic files S-1 for Nasdaq IPO under ticker ANT",
+   "body": "Anthropic, PBC filed a Form S-1 with the SEC on 26 October for a proposed IPO of Class A stock. It plans to list on the Nasdaq Global Select Market as ANT.",
+   "section": "AI",
+   "url": "https://www.anthropic.com/news/s1-sec",
+   "date": "2026-10-27"
+  },
+  {
+   "title": "Trojanized Claude Code extension plants SSH backdoor via Cursor marketplace",
+   "body": "Malicious builds of Anthropic.claude-code 2.1.312 and 2.1.313 were live in the Cursor extension marketplace from about 2:27am to 1:35pm PT on Oct 29. The payload adds an attacker SSH key named svc-telemetry, opens a reverse SSH tunnel, sets persistence and sends host details.",
+   "section": "AI",
+   "url": "https://cursor.com/blog/claude-code-extension-security-notice",
+   "date": "2026-10-31"
+  },
+  {
+   "title": "Claude Max 20x becomes Ultra, drops five-hour limit for verified accounts",
+   "body": "Anthropic renamed Max 5x to Max ($100/month) and Max 20x to Ultra ($200/month); existing subscribers move automatically. Verified Ultra accounts have no five-hour limit; Anthropic verifies accounts from account and payment history.",
+   "section": "AI",
+   "url": "https://support.claude.com/en/articles/17728952-what-is-the-ultra-plan",
+   "date": "2026-10-31"
+  },
+  {
+   "title": "Google DeepMind previews Genie 4 world model",
+   "body": "Genie 4 generates explorable environments in real time, with audio, physics and people who move and speak. Users can edit the world with natural language during a simulation.",
+   "section": "AI",
+   "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+   "date": "2026-10-28"
+  },
+  {
+   "title": "Cloudflare discloses cross-customer KV cache leak in GLM-5.3",
+   "body": "From August 27 to September 9, 155 Workers AI responses for GLM-5.3 contained data from other customers' requests. All were prompts longer than 681,280 tokens.",
+   "section": "AI",
+   "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
+   "date": "2026-10-28"
+  },
+  {
+   "title": "Microsoft offers buyouts to about 60,000 employees",
+   "body": "Microsoft offered voluntary buyouts to about 60,000 employees, roughly one quarter of its global workforce, on October 26, 2026. Staff at vice president level and below in the US, Canada, India and the UK are eligible for standard severance.",
+   "section": "Layoffs",
+   "url": "https://www.axios.com/local/seattle/2026/10/26/microsoft-voluntary-buyouts-ai-job-cuts-2026",
+   "date": "2026-10-27"
+  },
+  {
+   "title": "Anthropic reports early Claude results in drug development",
+   "body": "Anthropic published results from six partners, including Bristol Myers Squibb, Generate Biomedicines and Enveda. Generate used Claude Code to design a genetic component about 70% shorter that gave about 10 times more receptors in lab tests.",
+   "section": "AI",
+   "url": "https://www.anthropic.com/research/early-progress-drug-development",
+   "date": "2026-10-28"
+  }
+ ],
+ "models": [
+  {
+   "name": "GPT-6.1 Terra",
+   "lab": "OpenAI",
+   "date": "2026-10-27",
+   "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-launches-gpt-61-terra-with-3x-faster-ai-agents-50-percent-lower-pricing/",
+   "what": "OpenAI released GPT-6.1 Terra on 26 October for computer use, visual reasoning and coding."
+  },
+  {
+   "name": "Gemini 4 Carbon",
+   "lab": "Google",
+   "date": "2026-10-29",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+   "what": "Google announced Gemini 4 Carbon on October 28, two weeks after Gemini 4 Argon."
+  },
+  {
+   "name": "Mistral Large 4 (open weights)",
+   "lab": "Mistral AI",
+   "date": "2026-10-30",
+   "url": "https://mistral.ai/news/mistral-large-4-oss/",
+   "what": "Mistral released Mistral Large 4, an open-weight hybrid instruct and reasoning MoE model with about 1T total parameters and multimodal input."
+  },
+  {
+   "name": "Kimi K3.1 Pro",
+   "lab": "Moonshot AI",
+   "date": "2026-10-26",
+   "url": "https://the-decoder.com/chinese-ai-model-kimi-k3-1-pro-is-closing-in-on-anthropics-claude-opus-5-5/",
+   "what": "Kimi K3.1 Pro is a 2.8T-parameter MoE with 104B active parameters and a 1M-token context."
+  },
+  {
+   "name": "Genie 4 (preview)",
+   "lab": "Google DeepMind",
+   "date": "2026-10-28",
+   "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+   "what": "Genie 4 generates explorable environments in real time, with audio, physics and people who move and speak."
+  },
+  {
+   "name": "Nemotron 3.5 Transcribe",
+   "lab": "NVIDIA",
+   "date": "2026-10-29",
+   "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+   "what": "Nemotron 3.5 Transcribe is an open-weight 30B-A4B hybrid Mamba-Transformer MoE model."
+  }
+ ],
+ "chips": [
+  {
+   "title": "Vera Rubin NVL72 and Vera CPU reach GA on Oracle Cloud",
+   "body": "NVIDIA and Oracle say Vera Rubin NVL72 systems and Vera CPUs are generally available on OCI.",
+   "url": "https://nvidianews.nvidia.com/news/nvidia-and-oracle-expand-nvidia-vera-rubin-to-multi-gigawatt-scale-and-bring-nvidia-vera-cpu-to-oracle-cloud-infrastructure",
+   "date": "2026-10-28"
+  },
+  {
+   "title": "Microsoft shows Maia 300 accelerator with 288GB HBM4 at OCP",
+   "body": "Microsoft showed the next-generation Maia 300 at OCP Summit 2026.",
+   "url": "https://www.servethehome.com/microsoft-maia-300-shown-at-ocp-2026/",
+   "date": "2026-10-29"
+  },
+  {
+   "title": "Amazon will sell Trainium chips to outside companies from late 2027",
+   "body": "On the Q3 2026 call, Andy Jassy said Amazon will start selling Trainium chips externally in late 2027.",
+   "url": "https://247wallst.com/investing/2026/10/30/amazon-says-it-will-start-selling-its-ai-chips-to-other-companies-in-2027/",
+   "date": "2026-11-01"
+  }
+ ],
+ "skills": [
+  {
+   "repo": "lemomo-ai/lemo-opuscar",
+   "url": "https://github.com/lemomo-ai/lemo-opuscar",
+   "kind": "Skill",
+   "description": "A toolbox of film styles made in code for Claude Code: 66 ready to use, and your own. Each style is a style prompt plus a demo film made entirely in code by Claude Opus 5.5, with no video model. By Lemomo. · 一套用代码做片的风格工具箱：66 种现成风格，也能做出你自己的",
+   "stars": 9906,
+   "gained": 3064
+  },
+  {
+   "repo": "wheresryan22/anatomy",
+   "url": "https://github.com/wheresryan22/anatomy",
+   "kind": "Skill",
+   "description": "Agent skill that makes interactive isometric illustrations of machines and systems.",
+   "stars": 23381,
+   "gained": 2831
+  },
+  {
+   "repo": "t3dotgg/tstack",
+   "url": "https://github.com/t3dotgg/tstack",
+   "kind": "Skill",
+   "description": "The agent skills I use every day. Works with Claude Code and Codex.",
+   "stars": 2491,
+   "gained": 2453
+  },
+  {
+   "repo": "Jakeschincariol/day-trader-skill",
+   "url": "https://github.com/Jakeschincariol/day-trader-skill",
+   "kind": "Skill",
+   "description": "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before you risk a dollar.",
+   "stars": 3764,
+   "gained": 1961
+  },
+  {
+   "repo": "aicodeking/leanrea",
+   "url": "https://github.com/aicodeking/leanrea",
+   "kind": "Skill",
+   "description": "Lightweight agent skill that replaces REA with plain CLI tools.",
+   "stars": 3801,
+   "gained": 1456
+  },
+  {
+   "repo": "Jakeschincariol/replica-skill",
+   "url": "https://github.com/Jakeschincariol/replica-skill",
+   "kind": "Skill",
+   "description": "Claude skills to reverse-engineer, rebuild and test apps.",
+   "stars": 6826,
+   "gained": 1380
+  },
+  {
+   "repo": "morganlinton/BeautifulRust",
+   "url": "https://github.com/morganlinton/BeautifulRust",
+   "kind": "Plugin",
+   "description": "Agent Skills that teach coding agents to write, review, and port idiomatic Rust, plus a tested clippy config. Works with Claude Code, Codex, Copilot, Cursor, and Gemini CLI.",
+   "stars": 1577,
+   "gained": 1249
+  },
+  {
+   "repo": "Motionsites-AI/claude-skill",
+   "url": "https://github.com/Motionsites-AI/claude-skill",
+   "kind": "Skill",
+   "description": "Free Claude skill: make Claude build award-level, cinematic landing pages. By MotionSites.",
+   "stars": 1226,
+   "gained": 997
+  }
+ ],
+ "skill_of_week": {
+  "name": "tstack",
+  "kind": "Skills · Claude Code and Codex",
+  "url": "https://github.com/t3dotgg/tstack",
+  "stars": 2491,
+  "what": "Theo Browne's daily pull-request skills, packaged for Claude Code and Codex under the MIT license. Nine skills cover the full PR loop: full-send takes a change to a merged PR, full-stop does the same but stops before the merge, council asks three models from different providers to review until they agree, babysit-pr watches CI and review bots and fixes real findings, and file-pr, takeover, modernize, sol-loop and leaving-pr-comments cover the rest.",
+  "install": "git clone https://github.com/t3dotgg/tstack && cp -R tstack/skills/* ~/.claude/skills/",
+  "verdict": "Worth a try. Start with full-stop, not full-send",
+  "note": "Honest take: the workflow is practical, and it grew by about 2,450 stars this week. But the repo is young, with a few commits and no tagged release, and it reports no measured results. full-send can merge and force-push the PR branch unattended; skills are instructions, so only branch protection really blocks a bad merge. council needs models from other providers, costs more tokens, and sends code to several vendors, which can conflict with data rules. It also needs an authenticated GitHub CLI."
+ }
+}
