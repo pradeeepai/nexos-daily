@@ -1,0 +1,340 @@
+{
+ "date": "2026-11-02",
+ "generated": "2026-11-02T02:52:54Z",
+ "headline": "caru-ini/stack-diagram, an agent skill that draws architecture diagrams, is the fastest-growing new repo today with 429 stars.",
+ "periods": {
+  "daily": {
+   "topics": [
+    "Agent skills",
+    "Video and animation skills",
+    "Coding agent harnesses",
+    "Phone agents",
+    "Offline AI"
+   ],
+   "repos": [
+    {
+     "repo": "caru-ini/stack-diagram",
+     "url": "https://github.com/caru-ini/stack-diagram",
+     "description": "Agent skill that turns a one-sentence stack description into an architecture diagram with official logos.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 429,
+     "gained": 429,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "Balanov/uncut",
+     "url": "https://github.com/Balanov/uncut",
+     "description": "Headless coding agent harness in one 7 MB static binary with four tools over stdin and stdout.",
+     "kind": "Coding agent",
+     "language": "Go",
+     "stars": 253,
+     "gained": 253,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "mylea1/phongent",
+     "url": "https://github.com/mylea1/phongent",
+     "description": "Controller and Android executor for running a Mika-based agent across several iOS and Android devices.",
+     "kind": "Agent framework",
+     "language": "Kotlin",
+     "stars": 199,
+     "gained": 199,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "mromidev/claude-animated-shorts",
+     "url": "https://github.com/mromidev/claude-animated-shorts",
+     "description": "Free Claude skill that makes animated story shorts with three.js and Remotion.",
+     "kind": "Skill",
+     "language": "TypeScript",
+     "stars": 194,
+     "gained": 194,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "elhajahmadj/offline-emergency-library",
+     "url": "https://github.com/elhajahmadj/offline-emergency-library",
+     "description": "One command downloads an offline library with local AI, document Q&A, Wikipedia and maps.",
+     "kind": "Other",
+     "language": "PowerShell",
+     "stars": 97,
+     "gained": 97,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "artemnovitckii/claude-animation-skills",
+     "url": "https://github.com/artemnovitckii/claude-animation-skills",
+     "description": "Six Claude Code skills that generate animations for short videos without footage.",
+     "kind": "Skill",
+     "language": "JavaScript",
+     "stars": 59,
+     "gained": 59,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "justhalfbit/thinksmart-ubuntu-image",
+     "url": "https://github.com/justhalfbit/thinksmart-ubuntu-image",
+     "description": "Ubuntu voice-assistant image for the Lenovo ThinkSmart View, with flashing guides for people and AI assistants.",
+     "kind": "Other",
+     "language": "Python",
+     "stars": 48,
+     "gained": 48,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "CubeLink-oss/voltdir",
+     "url": "https://github.com/CubeLink-oss/voltdir",
+     "description": "Read-only Windows disk analysis tool for AI agents that returns stable JSON in one call.",
+     "kind": "Dev tool",
+     "language": "Rust",
+     "stars": 35,
+     "gained": 35,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "cclank/lanshu-infinite-stream-koubo",
+     "url": "https://github.com/cclank/lanshu-infinite-stream-koubo",
+     "description": "Agent skill for continuous digital-human talking-head video production with lip and audio sync.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 30,
+     "gained": 30,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "duyunzhoudyz/dyz-med-paper-skills",
+     "url": "https://github.com/duyunzhoudyz/dyz-med-paper-skills",
+     "description": "32 agent skills for Claude Code and Codex that help medical researchers write and submit papers.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 21,
+     "gained": 21,
+     "source": "GitHub search"
+    }
+   ]
+  },
+  "weekly": {
+   "topics": [
+    "Claude Code skills",
+    "Proactive coding agents",
+    "UI design skills",
+    "On-device agents",
+    "AI video tools"
+   ],
+   "repos": [
+    {
+     "repo": "deepseek-ai/dsh-superagent-prototype",
+     "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+     "description": "DeepSeek research prototype of a proactive coding agent that takes GitHub requests and replies with pull requests.",
+     "kind": "Coding agent",
+     "language": "TypeScript",
+     "stars": 8079,
+     "gained": 8079,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "heydamir/unslop",
+     "url": "https://github.com/heydamir/unslop",
+     "description": "Claude skill that redesigns generic AI-looking UI into a deliberate interface.",
+     "kind": "Skill",
+     "language": "JavaScript",
+     "stars": 4933,
+     "gained": 4933,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "wangzan101/Mika",
+     "url": "https://github.com/wangzan101/Mika",
+     "description": "On-device Android agent that operates apps and the web to finish tasks for the user.",
+     "kind": "Agent framework",
+     "language": "Kotlin",
+     "stars": 3966,
+     "gained": 3966,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "patch-gg/pixelfx",
+     "url": "https://github.com/patch-gg/pixelfx",
+     "description": "244 code-generated pixel art effects plus a Claude Code skill to make new ones.",
+     "kind": "Skill",
+     "language": "JavaScript",
+     "stars": 2682,
+     "gained": 2682,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "haydenschmitty/floorplan",
+     "url": "https://github.com/haydenschmitty/floorplan",
+     "description": "Interactive plain-English map of a codebase, drawn by Claude.",
+     "kind": "Dev tool",
+     "language": "JavaScript",
+     "stars": 1824,
+     "gained": 1824,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "andyhuo520/digital-human-koubo",
+     "url": "https://github.com/andyhuo520/digital-human-koubo",
+     "description": "Talking-head video maker from one photo, using a Renoise MCP server and editing styles.",
+     "kind": "Skill",
+     "language": "TypeScript",
+     "stars": 1653,
+     "gained": 1653,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "Motionsites-AI/claude-skill",
+     "url": "https://github.com/Motionsites-AI/claude-skill",
+     "description": "Free Claude skill for building cinematic landing pages.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 1407,
+     "gained": 1407,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "elvarofficial/teardown",
+     "url": "https://github.com/elvarofficial/teardown",
+     "description": "Claude Code skill that turns a machine into a 3D simulator you can take apart.",
+     "kind": "Skill",
+     "language": "JavaScript",
+     "stars": 945,
+     "gained": 945,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "NiazMorshed2007/reanimate",
+     "url": "https://github.com/NiazMorshed2007/reanimate",
+     "description": "Claude Code skill that reverse-engineers an animation frame by frame and verifies the copy.",
+     "kind": "Skill",
+     "language": "JavaScript",
+     "stars": 743,
+     "gained": 743,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "konlu/story-studio",
+     "url": "https://github.com/konlu/story-studio",
+     "description": "Agent skill that takes a short video from topic choice to a CapCut draft.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 636,
+     "gained": 636,
+     "source": "GitHub search"
+    }
+   ]
+  },
+  "monthly": {
+   "topics": [
+    "Agent skills",
+    "Agent harnesses",
+    "Device-control agents",
+    "Coding agent cost control",
+    "AI video agents"
+   ],
+   "repos": [
+    {
+     "repo": "wheresryan22/anatomy",
+     "url": "https://github.com/wheresryan22/anatomy",
+     "description": "Agent skill that makes detailed interactive isometric illustrations of real machines and systems.",
+     "kind": "Skill",
+     "language": "JavaScript",
+     "stars": 23807,
+     "gained": 23807,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "tangency-labs/solidcraft",
+     "url": "https://github.com/tangency-labs/solidcraft",
+     "description": "Open-source parametric 3D CAD application in pure Rust for desktop, web and automation.",
+     "kind": "Other",
+     "language": "Rust",
+     "stars": 12924,
+     "gained": 12924,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "deepseek-ai/dsh-superagent-prototype",
+     "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+     "description": "DeepSeek research prototype of a proactive coding agent that takes GitHub requests and replies with pull requests.",
+     "kind": "Coding agent",
+     "language": "TypeScript",
+     "stars": 8079,
+     "gained": 8079,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "Jakeschincariol/replica-skill",
+     "url": "https://github.com/Jakeschincariol/replica-skill",
+     "description": "Eleven free Claude skills that reverse-engineer, rebuild and test a clone of any app.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 7000,
+     "gained": 7000,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "heydamir/unslop",
+     "url": "https://github.com/heydamir/unslop",
+     "description": "Claude skill that redesigns generic AI-looking UI into a deliberate interface.",
+     "kind": "Skill",
+     "language": "JavaScript",
+     "stars": 4933,
+     "gained": 4933,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "amosblomqvist/learnharness",
+     "url": "https://github.com/amosblomqvist/learnharness",
+     "description": "Agent harness built to help a person learn difficult subjects.",
+     "kind": "Agent framework",
+     "language": "TypeScript",
+     "stars": 4740,
+     "gained": 4740,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "Jakeschincariol/day-trader-skill",
+     "url": "https://github.com/Jakeschincariol/day-trader-skill",
+     "description": "Eleven Claude skills that scan charts, track news and time trades.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 4328,
+     "gained": 4328,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "onehumanbeing/esp32-iphone-agent",
+     "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
+     "description": "Lets a vision model control a real iPhone through a $7 ESP32 with AirPlay input and USB HID output.",
+     "kind": "Agent framework",
+     "language": "C",
+     "stars": 4206,
+     "gained": 4206,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "openfilm/openfilm",
+     "url": "https://github.com/openfilm/openfilm",
+     "description": "Open-source AI video agent that turns any coding agent into a video editor.",
+     "kind": "Agent framework",
+     "language": "TypeScript",
+     "stars": 4114,
+     "gained": 4114,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "microsoft/TokenEconomizer",
+     "url": "https://github.com/microsoft/TokenEconomizer",
+     "description": "Microsoft research on experience-driven black-box cost control for coding agents.",
+     "kind": "AI infra",
+     "language": "Python",
+     "stars": 3976,
+     "gained": 3976,
+     "source": "GitHub search"
+    }
+   ]
+  }
+ }
+}

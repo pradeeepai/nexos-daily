@@ -273,7 +273,7 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-01",
+   "last_seen": "2026-11-02",
    "reported": {
     "2026-10-25": 20182,
     "2026-10-26": 20636,
@@ -281,7 +281,8 @@
     "2026-10-29": 22159,
     "2026-10-30": 22646,
     "2026-10-31": 23044,
-    "2026-11-01": 23381
+    "2026-11-01": 23381,
+    "2026-11-02": 23807
    }
   },
   "yihui-dev/awesome-opus5-5-videos": {
@@ -305,7 +306,7 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-01",
+   "last_seen": "2026-11-02",
    "reported": {
     "2026-10-25": 10112,
     "2026-10-26": 10499,
@@ -313,7 +314,8 @@
     "2026-10-29": 11679,
     "2026-10-30": 12083,
     "2026-10-31": 12390,
-    "2026-11-01": 12652
+    "2026-11-01": 12652,
+    "2026-11-02": 12924
    }
   },
   "rehan-remade/universal-modder": {
@@ -395,7 +397,7 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-01",
+   "last_seen": "2026-11-02",
    "reported": {
     "2026-10-25": 5278,
     "2026-10-26": 5503,
@@ -404,7 +406,8 @@
     "2026-10-29": 6291,
     "2026-10-30": 6496,
     "2026-10-31": 6674,
-    "2026-11-01": 6826
+    "2026-11-01": 6826,
+    "2026-11-02": 7000
    }
   },
   "kaankiziltug/logo-design-skill": {
@@ -428,7 +431,7 @@
     "AI",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-10-29"
+   "last_seen": "2026-11-02"
   },
   "anthropics/single-agent-loop-kit": {
    "first_seen": "2026-10-25",
@@ -749,10 +752,11 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-11-02",
    "reported": {
     "2026-10-26": 1660,
-    "2026-10-27": 2074
+    "2026-10-27": 2074,
+    "2026-11-02": 4328
    }
   },
   "udhaykumarbala/cleanyourtv-app": {
@@ -834,14 +838,15 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-01",
+   "last_seen": "2026-11-02",
    "reported": {
     "2026-10-27": 742,
     "2026-10-28": 1097,
     "2026-10-29": 1323,
     "2026-10-30": 1475,
     "2026-10-31": 1558,
-    "2026-11-01": 1588
+    "2026-11-01": 1588,
+    "2026-11-02": 1653
    }
   },
   "blakeandersonw/ai-app-playbook": {
@@ -864,11 +869,12 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-11-02",
    "reported": {
     "2026-10-27": 152,
     "2026-10-28": 521,
-    "2026-10-30": 1093
+    "2026-10-30": 1093,
+    "2026-11-02": 1407
    }
   },
   "daniellockyer/dstack": {
@@ -1188,13 +1194,14 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-01",
+   "last_seen": "2026-11-02",
    "reported": {
     "2026-10-28": 4023,
     "2026-10-29": 4066,
     "2026-10-30": 4099,
     "2026-10-31": 4132,
-    "2026-11-01": 4160
+    "2026-11-01": 4160,
+    "2026-11-02": 4206
    }
   },
   "haplollc/Vesalius": {
@@ -1361,12 +1368,13 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-01",
+   "last_seen": "2026-11-02",
    "reported": {
     "2026-10-29": 3635,
     "2026-10-30": 4032,
     "2026-10-31": 4305,
-    "2026-11-01": 4546
+    "2026-11-01": 4546,
+    "2026-11-02": 4740
    }
   },
   "guilhermealvestech/carrossel-skill": {
@@ -1436,10 +1444,11 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-01",
+   "last_seen": "2026-11-02",
    "reported": {
     "2026-10-30": 26,
-    "2026-11-01": 2802
+    "2026-11-01": 2802,
+    "2026-11-02": 3966
    }
   },
   "yc-software/minecraft-agent-harness": {
@@ -1497,11 +1506,12 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-01",
+   "last_seen": "2026-11-02",
    "reported": {
     "2026-10-30": 3611,
     "2026-10-31": 3776,
-    "2026-11-01": 3927
+    "2026-11-01": 3927,
+    "2026-11-02": 4114
    }
   },
   "Leonxlnx/earshot": {
@@ -1551,7 +1561,7 @@
    "seen_in": [
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-10-30"
+   "last_seen": "2026-11-02"
   },
   "patch-gg/pixelfx": {
    "first_seen": "2026-10-31",
@@ -1561,9 +1571,10 @@
     "Trending",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-01",
+   "last_seen": "2026-11-02",
    "reported": {
-    "2026-10-31": 339
+    "2026-10-31": 339,
+    "2026-11-02": 2682
    }
   },
   "Pluviobyte/douyin-comments": {
@@ -1658,9 +1669,10 @@
     "Trending",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-01",
+   "last_seen": "2026-11-02",
    "reported": {
-    "2026-10-31": 22
+    "2026-10-31": 22,
+    "2026-11-02": 945
    }
   },
   "Hybirdss/kicad-cli-extended": {
@@ -1710,11 +1722,13 @@
    "kind": "Agent framework",
    "description": "DeepSeek prototype of a more autonomous agent system.",
    "seen_in": [
-    "Trending"
+    "Trending",
+    "Pulse"
    ],
-   "last_seen": "2026-11-01",
+   "last_seen": "2026-11-02",
    "reported": {
-    "2026-11-01": 2840
+    "2026-11-01": 2840,
+    "2026-11-02": 8079
    }
   },
   "wiva-hq/CodeRail": {
@@ -1820,9 +1834,10 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-01",
+   "last_seen": "2026-11-02",
    "reported": {
-    "2026-11-01": 560
+    "2026-11-01": 560,
+    "2026-11-02": 636
    }
   },
   "davemessew/AgentFlux": {
@@ -1869,9 +1884,10 @@
     "Trending",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-01",
+   "last_seen": "2026-11-02",
    "reported": {
-    "2026-11-01": 3574
+    "2026-11-01": 3574,
+    "2026-11-02": 4933
    }
   },
   "ninjahawk/livenerf": {
@@ -1888,9 +1904,13 @@
    "kind": "Skill",
    "description": "reanimate skill reverse-engineers animations frame by frame",
    "seen_in": [
-    "Claude Ecosystem"
+    "Claude Ecosystem",
+    "Trending"
    ],
-   "last_seen": "2026-11-01"
+   "last_seen": "2026-11-02",
+   "reported": {
+    "2026-11-02": 743
+   }
   },
   "rsaryev/tokendoctor": {
    "first_seen": "2026-11-01",
@@ -1900,6 +1920,195 @@
     "Claude Ecosystem"
    ],
    "last_seen": "2026-11-01"
+  },
+  "caru-ini/stack-diagram": {
+   "first_seen": "2026-11-02",
+   "kind": "Skill",
+   "description": "Agent skill that turns a one-sentence stack description into an architecture diagram with official logos.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-02",
+   "reported": {
+    "2026-11-02": 429
+   }
+  },
+  "Balanov/uncut": {
+   "first_seen": "2026-11-02",
+   "kind": "Coding agent",
+   "description": "Headless coding agent harness in one 7 MB static binary with four tools over stdin and stdout.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-02",
+   "reported": {
+    "2026-11-02": 253
+   }
+  },
+  "mylea1/phongent": {
+   "first_seen": "2026-11-02",
+   "kind": "Agent framework",
+   "description": "Controller and Android executor for running a Mika-based agent across several iOS and Android devices.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-02",
+   "reported": {
+    "2026-11-02": 199
+   }
+  },
+  "mromidev/claude-animated-shorts": {
+   "first_seen": "2026-11-02",
+   "kind": "Skill",
+   "description": "Free Claude skill that makes animated story shorts with three.js and Remotion.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-02",
+   "reported": {
+    "2026-11-02": 194
+   }
+  },
+  "elhajahmadj/offline-emergency-library": {
+   "first_seen": "2026-11-02",
+   "kind": "Other",
+   "description": "One command downloads an offline library with local AI, document Q&A, Wikipedia and maps.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-02",
+   "reported": {
+    "2026-11-02": 97
+   }
+  },
+  "artemnovitckii/claude-animation-skills": {
+   "first_seen": "2026-11-02",
+   "kind": "Skill",
+   "description": "Six Claude Code skills that generate animations for short videos without footage.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-02",
+   "reported": {
+    "2026-11-02": 59
+   }
+  },
+  "justhalfbit/thinksmart-ubuntu-image": {
+   "first_seen": "2026-11-02",
+   "kind": "Other",
+   "description": "Ubuntu voice-assistant image for the Lenovo ThinkSmart View, with flashing guides for people and AI assistants.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-02",
+   "reported": {
+    "2026-11-02": 48
+   }
+  },
+  "CubeLink-oss/voltdir": {
+   "first_seen": "2026-11-02",
+   "kind": "Dev tool",
+   "description": "Read-only Windows disk analysis tool for AI agents that returns stable JSON in one call.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-02",
+   "reported": {
+    "2026-11-02": 35
+   }
+  },
+  "cclank/lanshu-infinite-stream-koubo": {
+   "first_seen": "2026-11-02",
+   "kind": "Skill",
+   "description": "Agent skill for continuous digital-human talking-head video production with lip and audio sync.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-02",
+   "reported": {
+    "2026-11-02": 30
+   }
+  },
+  "duyunzhoudyz/dyz-med-paper-skills": {
+   "first_seen": "2026-11-02",
+   "kind": "Skill",
+   "description": "32 agent skills for Claude Code and Codex that help medical researchers write and submit papers.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-02",
+   "reported": {
+    "2026-11-02": 21
+   }
+  },
+  "haydenschmitty/floorplan": {
+   "first_seen": "2026-11-02",
+   "kind": "Dev tool",
+   "description": "Interactive plain-English map of a codebase, drawn by Claude.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-02",
+   "reported": {
+    "2026-11-02": 1824
+   }
+  },
+  "microsoft/TokenEconomizer": {
+   "first_seen": "2026-11-02",
+   "kind": "AI infra",
+   "description": "Microsoft research on experience-driven black-box cost control for coding agents.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-02",
+   "reported": {
+    "2026-11-02": 3976
+   }
+  },
+  "jarrodwatts/claude-hud": {
+   "first_seen": "2026-11-02",
+   "kind": "Plugin",
+   "description": "Claude HUD statusline plugin reaches 29k stars",
+   "seen_in": [
+    "Claude Ecosystem"
+   ],
+   "last_seen": "2026-11-02"
+  },
+  "mksglu/context-mode": {
+   "first_seen": "2026-11-02",
+   "kind": "Hook",
+   "description": "context-mode hooks cut tool-output context by up to 98%",
+   "seen_in": [
+    "Claude Ecosystem"
+   ],
+   "last_seen": "2026-11-02"
+  },
+  "Dicklesworthstone/destructive_command_guard": {
+   "first_seen": "2026-11-02",
+   "kind": "Hook",
+   "description": "destructive_command_guard: Rust hook blocks dangerous agent commands",
+   "seen_in": [
+    "Claude Ecosystem"
+   ],
+   "last_seen": "2026-11-02"
+  },
+  "p-e-w/heretic": {
+   "first_seen": "2026-11-02",
+   "kind": "Other",
+   "description": "Heretic 2.0 turns abliteration tool into general model modifier",
+   "seen_in": [
+    "Pulse"
+   ],
+   "last_seen": "2026-11-02"
+  },
+  "ivankovic/omnidiff": {
+   "first_seen": "2026-11-02",
+   "kind": "Other",
+   "description": "OmniDiff: fast syntax-aware Git difftool written in Rust",
+   "seen_in": [
+    "Pulse"
+   ],
+   "last_seen": "2026-11-02"
   }
  }
 }

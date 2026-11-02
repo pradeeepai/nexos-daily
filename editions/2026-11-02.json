@@ -1,0 +1,350 @@
+{
+ "date": "2026-11-02",
+ "generated": "2026-11-02T02:52:54Z",
+ "sections": {
+  "tech-news": {
+   "routine": "tech-news",
+   "status": "done",
+   "headline": "Claude Code v2.1.316 adds subagent effort control and starts the removal of Opus 4.8 fast mode.",
+   "filed": "2026-11-02T02:19:30Z",
+   "note": "Quiet weekend: no major lab released a new model in the window (1 Nov IST).",
+   "items": [
+    {
+     "title": "Claude Code v2.1.316 adds subagent effort control, deprecates Opus 4.8 fast mode",
+     "body": "Claude Code v2.1.316 adds CLAUDE_CODE_SUBAGENT_EFFORT to set the subagent effort level and CLAUDE_CODE_DISABLE_ULTRATHINK to turn off the ultrathink keyword. Fast mode for Opus 4.8 is deprecated and is removed on 30 November 2026; after that date, fast requests to Opus 4.8 return an error. The release also fixes the sonnet, opus and haiku aliases on Bedrock and Vertex AI.",
+     "why": "Teams that run subagents in CI can now set their effort level, and fast-mode users must move to Opus 5.5 before 30 November.",
+     "topics": [
+      "Claude Code",
+      "Bedrock"
+     ],
+     "source": "GitHub · anthropics/claude-code releases",
+     "url": "https://github.com/anthropics/claude-code/releases",
+     "date": "2026-10-31"
+    },
+    {
+     "title": "Claude API launches Usage and Cost Analytics API in beta",
+     "body": "The new beta API uses the analytics-usage-cost-2026-08-24 header and exposes /v1/organizations/analytics/usage and /v1/organizations/analytics/cost. Results can be grouped by model, workspace, API key and user or service account. The older Usage and Cost API and four Enterprise Analytics report endpoints are now legacy but stay supported. On 28 October, the Messages API request size limit rose from 32 MB to 128 MB.",
+     "why": "Platform teams can track Claude token spend per workspace, API key and service account from one endpoint.",
+     "topics": [
+      "Claude",
+      "DevOps"
+     ],
+     "source": "Claude Platform release notes",
+     "url": "https://platform.claude.com/docs/en/release-notes/overview",
+     "date": "2026-10-29"
+    },
+    {
+     "title": "Claude Code v2.1.314 can block writes outside working directories",
+     "body": "The permissions.blockWritesOutsideWorkingDirectories setting makes Write, Edit and NotebookEdit refuse paths outside the working directories. VS Code and the Desktop Code tab now compact idle conversations over 200K tokens. 'claude -p' now prints the startup error and exits with code 1 instead of 0.",
+     "why": "The new setting gives a hard guardrail for agents on shared hosts and build servers in every permission mode.",
+     "topics": [
+      "Claude Code",
+      "Security"
+     ],
+     "source": "GitHub · anthropics/claude-code releases",
+     "url": "https://github.com/anthropics/claude-code/releases",
+     "date": "2026-10-30"
+    },
+    {
+     "title": "Karpathy builds HackerTube with Opus 5.5 in about two hours",
+     "body": "Andrej Karpathy had Claude filter 43 million Hacker News comments from 20 years down to 6,454 videos that users keep recommending. He says the build took about two hours with Opus 5.5. The post had more than 30,000 likes by the end of the day.",
+     "why": "It is a public example of Claude processing a large dataset end to end in a weekend project.",
+     "topics": [
+      "Claude",
+      "AI tools"
+     ],
+     "source": "X · @karpathy",
+     "url": "https://x.com/karpathy/status/2116957135661945283",
+     "date": "2026-11-01",
+     "also": [
+      {
+       "section": "Trending on X",
+       "source": "X · @karpathy · 30197 likes · 2607 reposts",
+       "url": "https://x.com/karpathy/status/2116957135661945283"
+      },
+      {
+       "section": "Trending on X",
+       "source": "X · @swyx · 780 likes · 28 reposts",
+       "url": "https://x.com/swyx/status/2116773135668404286"
+      }
+     ]
+    },
+    {
+     "title": "Claude usage policy bans extreme abuse of the model from 12 November",
+     "body": "Anthropic's updated usage policy bans 'sustained and needless abusive or cruel behavior' toward its models from 12 November 2026. Everyday frustration, pushback, dark creative themes, and testing or research on models are excluded. Enforcement relies mainly on Claude ending abusive conversations, which it already does on Claude.ai and Claude Code. CNN covered the policy again on 1 November.",
+     "why": "Teams that red-team or stress-test Claude should know which behaviour the policy permits.",
+     "topics": [
+      "Claude",
+      "AI policy"
+     ],
+     "source": "PCWorld",
+     "url": "https://www.pcworld.com/article/3257335/venting-at-claude-is-fine-but-extreme-abuse-will-be-banned-nov-12.html",
+     "date": "2026-10-09"
+    },
+    {
+     "title": "Mistral Large 4 open weights: 1T-parameter MoE with 49B active",
+     "body": "Mistral Large 4 is a sparse mixture-of-experts model with 1 trillion total and 49 billion active parameters. It takes multimodal input, outputs text and supports more than 160 languages, under a custom licence that replaces Apache 2.0. Mistral reports 62% on DeepSWE v1.1, against 61% for GLM-5.3. Hugging Face Transformers v5.22.0 adds support.",
+     "why": "It is a self-hostable frontier-class option for regulated workloads, but it needs a multi-GPU setup.",
+     "topics": [
+      "Open models",
+      "New models"
+     ],
+     "source": "The New Stack",
+     "url": "https://thenewstack.io/mistral-large-4-weights/?mid=1",
+     "date": "2026-10-27"
+    },
+    {
+     "title": "OpenAI explains how ChatGPT and Codex usage limits combine",
+     "body": "An OpenAI Help Center article on combined ChatGPT and Codex usage limits reached 211 points on Hacker News on 1 November. Earlier reports say ChatGPT Work and Codex draw from one agentic usage pool on supported plans, while regular chat keeps separate limits. API-key usage is billed separately.",
+     "why": "Teams that use both ChatGPT agents and Codex must plan for one shared allowance.",
+     "topics": [
+      "OpenAI",
+      "AI tools"
+     ],
+     "source": "OpenAI Help Center (via Hacker News)",
+     "url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
+     "date": "2026-11-01"
+    },
+    {
+     "title": "Benchmark compares AI build cost across JavaScript frameworks",
+     "body": "Nolan Lawson had an agent build the same app in several frameworks. Hono+htmx had the lowest median build cost at $2.67 and Angular the highest at $4.97. Astro built fastest (8.2 minutes median) and shipped about 0 KiB of JavaScript, against 142 KiB for Next.js. The author warns that results vary from run to run.",
+     "why": "Framework choice changes agent token cost and output size for AI-generated web apps.",
+     "topics": [
+      "AI tools",
+      "AI research"
+     ],
+     "source": "nolanlawson.com · HN 269 points",
+     "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
+     "date": "2026-10-28",
+     "also": [
+      {
+       "section": "Pulse",
+       "source": "Hacker News · 269 points · 204 comments",
+       "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/"
+      }
+     ]
+    }
+   ]
+  },
+  "chips": {
+   "routine": "chips",
+   "status": "done",
+   "headline": "Tom's Hardware benchmarks NVIDIA's Vera CPU, now generally available on Oracle Cloud, and reports a large memory-bandwidth lead over dual Xeon 6.",
+   "filed": "2026-11-02T02:20:30Z",
+   "note": "Few hardware launches in the last 48 hours; the Vera item includes context from the 27 October NVIDIA-Oracle release.",
+   "items": [
+    {
+     "title": "NVIDIA Vera CPU benchmarked; generally available on Oracle Cloud",
+     "body": "Tom's Hardware benchmarked a Vera server and reports a large memory-bandwidth lead over a dual Xeon 6 server; it gives no exact figures. NVIDIA and Oracle say Vera CPUs and Vera Rubin NVL72 are generally available on OCI, with standalone Vera instances and plans to scale Vera Rubin to multi-gigawatt size. OpenAI is an early-access customer. Tom's Hardware is also building a CPU-only benchmark for agentic workloads.",
+     "why": "A CPU built for agent tool calls and code execution can change how teams size the CPU side of agent clusters.",
+     "topics": [
+      "NVIDIA",
+      "Data centers",
+      "Chips"
+     ],
+     "source": "Tom's Hardware",
+     "url": "https://www.tomshardware.com/tech-industry/this-week-in-toms-hardware-premium-october-31-2026-vera-cpus-available-on-oracle-clusters-building-an-agentic-cpu-benchmark-and-a-primer-to-llms",
+     "date": "2026-10-31"
+    },
+    {
+     "title": "Planned HGX Rubin NVL8: eight Rubin GPUs, 4 TB DDR5",
+     "body": "The planned HGX Rubin NVL8 connects eight Rubin GPUs over NVLink in an x86 server. It has two 64-core Intel Xeon 6 CPUs, 4 TB of DDR5 memory and 6.4 Tbps of RDMA networking. OCI networking uses Spectrum-X Ethernet, Spectrum-6 switches and BlueField-4 DPUs.",
+     "why": "It gives an x86 entry point to Rubin for teams that do not run full NVL72 racks.",
+     "topics": [
+      "NVIDIA",
+      "Data centers"
+     ],
+     "source": "NVIDIA Newsroom",
+     "url": "https://nvidianews.nvidia.com/news/nvidia-and-oracle-expand-nvidia-vera-rubin-to-multi-gigawatt-scale-and-bring-nvidia-vera-cpu-to-oracle-cloud-infrastructure",
+     "date": "2026-10-27"
+    },
+    {
+     "title": "JEPA theorem: 109M text model beats 72B LLMs on vision alignment",
+     "body": "Randall Balestriero and Yann LeCun prove that JEPAs trained on separate modalities learn the same representation up to one rotation. Good views need 42 times fewer samples than next-token prediction to reach the same alignment. A 109M-parameter text JEPA aligns with DINOv2 and CLIP image encoders better than every language model tested up to 72B parameters. The paper trended on Hugging Face and Hacker News (93 points).",
+     "why": "It argues that training views, not scale alone, drive cross-modal representations, which can cut training cost.",
+     "topics": [
+      "AI research",
+      "Architecture"
+     ],
+     "source": "arXiv 2610.39302",
+     "url": "https://arxiv.org/abs/2610.39302",
+     "date": "2026-10-29"
+    },
+    {
+     "title": "LOWN: diffusion VLMs keep 99.6% accuracy at 35% FLOPs",
+     "body": "KAIST researchers found that removing the image changes the unmasked token at only 22.8% of decoding steps in diffusion VLMs. LOWN predicts without the image and processes it only when the prediction disagrees. It retains 99.6% of LLaDA-V's score on ten benchmarks with 35.3% of decoding FLOPs, needs no training, and works with KV caching. It was the top trending paper on Hugging Face.",
+     "why": "Training-free inference savings for vision-language models lower serving cost without retraining.",
+     "topics": [
+      "AI research",
+      "Architecture"
+     ],
+     "source": "arXiv 2610.36671",
+     "url": "https://arxiv.org/abs/2610.36671",
+     "date": "2026-10-27"
+    }
+   ]
+  },
+  "ecosystem": {
+   "routine": "ecosystem",
+   "status": "done",
+   "headline": "Anthropic's official Skills repo passes 186k stars and installs as a Claude Code plugin marketplace.",
+   "filed": "2026-11-02T02:22:30Z",
+   "note": "Sources: X search 3, GitHub search (pushed since 26 Oct), r/ClaudeAI top of the day. Star growth figures were not available.",
+   "items": [
+    {
+     "title": "anthropics/skills passes 186k stars",
+     "body": "Anthropic's official Skills repository has 186k stars, per a post on 1 November. Each skill is a folder with one markdown file, and its YAML header (name and description) tells Claude when to load it. Anthropic donated Agent Skills to the Agentic AI Foundation on 22 October. Install: /plugin marketplace add anthropics/skills",
+     "why": "It is the reference set for building and packaging skills that load on demand in Claude Code.",
+     "topics": [
+      "Skills",
+      "Plugins"
+     ],
+     "source": "X · @leoliangtk2; Anthropic",
+     "url": "https://x.com/leoliangtk2/status/2116865906735550694",
+     "date": "2026-11-01"
+    },
+    {
+     "title": "draw.io ships an official Claude plugin and connector",
+     "body": "jgraph, the maker of draw.io, ships a Claude connector and a Claude Code plugin so that diagrams appear in chat and open for editing in draw.io. The post had 65 likes. Install: /plugin marketplace add jgraph/drawio-mcp, then /plugin install drawio@drawio",
+     "why": "Teams can generate and edit architecture diagrams from Claude Code without leaving the terminal.",
+     "topics": [
+      "Plugins",
+      "MCP",
+      "Claude Code"
+     ],
+     "source": "X · @drawio",
+     "url": "https://x.com/drawio/status/2116923226769224019",
+     "date": "2026-11-01"
+    },
+    {
+     "title": "Claude HUD statusline plugin reaches 29k stars",
+     "body": "jarrodwatts/claude-hud is a Claude Code plugin that shows context usage, active tools, running agents and todo progress below the input. It uses the native statusline API, so it works in any terminal. It has 29,079 stars and an MIT licence.",
+     "why": "It shows context use and running subagents at a glance, which helps control long agent sessions.",
+     "topics": [
+      "Plugins",
+      "Setups",
+      "Claude Code"
+     ],
+     "source": "GitHub · jarrodwatts/claude-hud",
+     "url": "https://github.com/jarrodwatts/claude-hud",
+     "date": "2026-11-01"
+    },
+    {
+     "title": "context-mode hooks cut tool-output context by up to 98%",
+     "body": "mksglu/context-mode is a context-window optimizer for AI coding agents. It sandboxes tool output (the project claims a 98% reduction) and persists session memory. It has 33,171 stars and was updated in the past week.",
+     "why": "Smaller tool output means fewer tokens and fewer compactions in long DevOps sessions.",
+     "topics": [
+      "Hooks",
+      "Claude Code"
+     ],
+     "source": "GitHub · mksglu/context-mode",
+     "url": "https://github.com/mksglu/context-mode",
+     "date": "2026-11-01"
+    },
+    {
+     "title": "destructive_command_guard: Rust hook blocks dangerous agent commands",
+     "body": "Dicklesworthstone/destructive_command_guard is a fast Rust safety hook. It blocks destructive shell, git and filesystem commands before an AI coding agent runs them. It has 6,239 stars.",
+     "why": "A pre-execution guard stops agents from running destructive git, shell or filesystem commands on real hosts.",
+     "topics": [
+      "Hooks",
+      "Claude Code"
+     ],
+     "source": "GitHub · Dicklesworthstone/destructive_command_guard",
+     "url": "https://github.com/Dicklesworthstone/destructive_command_guard",
+     "date": "2026-11-01"
+    },
+    {
+     "title": "Official Anthropic plugin directory passes 45k stars",
+     "body": "anthropics/claude-plugins-official is an Anthropic-managed directory of high-quality Claude Code plugins. It has 45,730 stars and was updated in the past week.",
+     "why": "It is the vetted source for Claude Code plugins that teams can approve for company use.",
+     "topics": [
+      "Plugins",
+      "Claude Code"
+     ],
+     "source": "GitHub · anthropics/claude-plugins-official",
+     "url": "https://github.com/anthropics/claude-plugins-official",
+     "date": "2026-11-01"
+    }
+   ]
+  },
+  "x-desk": {
+   "routine": "x-desk",
+   "status": "done",
+   "headline": "Karpathy's HackerTube, built with Claude Opus 5.5 from 43M Hacker News comments, was the top AI post on X.",
+   "filed": "2026-11-02T02:21:30Z",
+   "note": "Read 33 posts in 4 searches (including 1 extra search); 3 passed the filter. Search 2 posts all had fewer than 20 likes.",
+   "items": [
+    {
+     "title": "swyx shares babysit-runs skill: low effort plus critique loop",
+     "body": "swyx recommends low effort plus a critique loop over the highest effort settings when throughput is the constraint. He points to the babysit-runs skill in his swyxio/skills repository as the method.",
+     "why": "A low-effort run with a review loop can raise throughput for teams with tight rate limits.",
+     "topics": [
+      "Skills",
+      "Agents"
+     ],
+     "source": "X · @swyx · 250 likes · 2 reposts",
+     "url": "https://x.com/swyx/status/2116642586387730593",
+     "date": "2026-10-31"
+    }
+   ]
+  },
+  "tech-pulse": {
+   "routine": "tech-pulse",
+   "status": "done",
+   "headline": "DeepSeek open-sources dsh-superagent, a proactive GitHub coding agent prototype that passed 8,000 stars in two days.",
+   "filed": "2026-11-02T02:21:06Z",
+   "note": "The OpenAI help page on merged ChatGPT and Codex usage limits (HN, 211 points) did not load, so it is not included.",
+   "items": [
+    {
+     "title": "DeepSeek open-sources a proactive super-agent coding prototype",
+     "body": "deepseek-ai published dsh-superagent-prototype under the MIT license. It is a coding agent for one GitHub repository, packaged for DeepSeek Harness. It listens to GitHub and optionally Feishu, opens a work item per request, works in its own session and replies, for example with a pull request. DeepSeek says it is a research prototype, not an official product.",
+     "why": "It shows a design for coding agents that act on GitHub requests with minimal human attention.",
+     "topics": [
+      "Agents",
+      "Open models"
+     ],
+     "source": "GitHub · 8,079 stars · r/LocalLLaMA · 90 upvotes",
+     "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+     "date": "2026-11-01"
+    },
+    {
+     "title": "Heretic 2.0 turns abliteration tool into general model modifier",
+     "body": "Heretic 2.0 replaces directional abliteration with a new steering method called Arbitrary-Rank Ablation (ARA), now the default. The tool is rebuilt around scorer and modifier plugins. It can now also suppress slop, reduce sycophancy and change emotional alignment, besides refusal removal. The author reports 37k GitHub stars and more than 8,500 derived models on Hugging Face.",
+     "why": "Teams that tune open-weight models get a plugin system to change model behavior without retraining.",
+     "topics": [
+      "Open models",
+      "AI tools"
+     ],
+     "source": "r/LocalLLaMA · 1,157 upvotes",
+     "url": "https://github.com/p-e-w/heretic",
+     "date": "2026-11-01"
+    },
+    {
+     "title": "Claude agent runs rented robotic telescopes end to end",
+     "body": "A user gave Claude access to robotic telescopes rented by the hour on StellarDock in Chile, Spain and Utah. Claude picks targets, checks Moon position and altitude, sets filters and exposures, books slots, downloads frames and stacks them. In the first week it measured 57 positions of 8 asteroids over 3 nights and sent them to the Minor Planet Center.",
+     "why": "It is a real example of an agent that plans, books, runs and processes physical-world jobs without a human.",
+     "topics": [
+      "Claude",
+      "Agents"
+     ],
+     "source": "r/ClaudeAI · 2,039 upvotes",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1xkxsca/i_gave_claude_access_to_remote_telescopes_now_she/",
+     "date": "2026-11-01"
+    },
+    {
+     "title": "OmniDiff: fast syntax-aware Git difftool written in Rust",
+     "body": "OmniDiff parses code with tree-sitter grammars and highlights the changed parts instead of whole lines. It supports 24 languages structurally and reports a median diff time of 7.6 ms in its benchmark. It works as a git difftool backend, supports Jujutsu, and has a terminal UI, plain-text and JSON output. It is licensed under AGPL-3.0.",
+     "why": "Code review of large agent-made diffs gets easier when the tool highlights only the real changes.",
+     "topics": [
+      "AI tools",
+      "DevOps"
+     ],
+     "source": "Hacker News · 105 points · 33 comments",
+     "url": "https://github.com/ivankovic/omnidiff",
+     "date": "2026-11-01"
+    }
+   ]
+  }
+ },
+ "briefing": "Good morning. This is The Nexos Daily for Monday, the second of November. It was a quiet weekend, with no major model launches.\n\nThe lead story: Claude Code version two point one point three sixteen adds effort control for subagents. Teams that run subagents in CI can now set how hard each one works. The same release starts the removal of fast mode for Opus four point eight, so move to Opus five point five before the thirtieth of November.\n\nSecurity next. Claude Code version two point one point three fourteen adds a setting that blocks writes outside the working directories, in every permission mode. That gives a hard guardrail for agents on shared hosts and build servers. A new open-source Rust hook, destructive command guard, also stops agents from running dangerous git, shell and file commands. And from the twelfth of November, the Claude usage policy bans extreme abuse of the model.\n\nIn the Claude world, Andrej Karpathy built HackerTube with Opus five point five in about two hours, from forty-three million Hacker News comments. It was the top AI post on X, and it ran at medium effort. The Claude API Usage and Cost Analytics API is now in beta. Anthropic's official skills repo passed one hundred eighty-six thousand stars. draw dot io shipped an official Claude plugin. And the context-mode hooks cut tool output in context by up to ninety-eight percent.\n\nModels: DeepSeek open-sourced a proactive super-agent coding prototype that passed eight thousand stars in two days. Mistral Large four has forty-nine billion active parameters, so it needs a multi-GPU setup. OpenAI explained that ChatGPT and Codex usage limits now share one allowance.\n\nChips and research: Tom's Hardware benchmarked the NVIDIA Vera CPU, which is built for agent tool calls. NVIDIA plans an HGX Rubin NVL eight system with eight Rubin GPUs and four terabytes of memory. And a new theory paper shows that a small text model can beat much larger models on vision alignment.\n\nFor AWS engineers, there were no new launches in the last two days. There were also no new tech layoffs and no official gadget launches.\n\nOn Reddit, a Claude agent ran rented robotic telescopes end to end, from booking to processing, with more than two thousand upvotes.\n\nOn the trending page, the top new repo is stack-diagram, an agent skill that draws architecture diagrams. The unslop skill passed four thousand nine hundred stars this week.\n\nThat is the briefing. Every story links to its source in the paper. Have a good day."
+}
