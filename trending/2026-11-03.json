@@ -1,0 +1,339 @@
+{
+ "date": "2026-11-03",
+ "generated": "2026-11-03T02:51:58Z",
+ "headline": "DeepSeek's dsh-superagent-prototype is the fastest-growing new agent repo, with 13,504 stars since 31 October.",
+ "periods": {
+  "daily": {
+   "topics": [
+    "Agent skills",
+    "Agent harnesses",
+    "Agent verification",
+    "Deep research agents"
+   ],
+   "repos": [
+    {
+     "repo": "Balanov/shim",
+     "url": "https://github.com/Balanov/shim",
+     "description": "Small local-first AI harness that runs any model with MCP and Agent Skills from a natural-language CLI.",
+     "kind": "Coding agent",
+     "language": "Go",
+     "stars": 206,
+     "gained": 206,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "mhfed/vn-law-check",
+     "url": "https://github.com/mhfed/vn-law-check",
+     "description": "Skill for Claude Code and other agents that audits websites against Vietnamese data, e-commerce, cybersecurity and AI laws.",
+     "kind": "Skill",
+     "language": "Shell",
+     "stars": 163,
+     "gained": 163,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "Balanov/verdict",
+     "url": "https://github.com/Balanov/verdict",
+     "description": "Small local semantic verifier that checks AI agent tool calls.",
+     "kind": "AI infra",
+     "language": "Python",
+     "stars": 115,
+     "gained": 115,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "JDhruv14/ascii-diorama",
+     "url": "https://github.com/JDhruv14/ascii-diorama",
+     "description": "Claude Code skill that makes tilt-shift ASCII miniature videos with Three.js.",
+     "kind": "Skill",
+     "language": "JavaScript",
+     "stars": 49,
+     "gained": 49,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "DominikScholz/open-bot-avatar",
+     "url": "https://github.com/DominikScholz/open-bot-avatar",
+     "description": "JSON spec and renderer for interactive agent avatars.",
+     "kind": "Dev tool",
+     "language": "TypeScript",
+     "stars": 41,
+     "gained": 41,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "brewed-ops/talking-explainer",
+     "url": "https://github.com/brewed-ops/talking-explainer",
+     "description": "Claude Code skill that turns a topic into a narrated motion-design explainer with a lip-synced cartoon host.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 38,
+     "gained": 38,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "albertirgi/replica",
+     "url": "https://github.com/albertirgi/replica",
+     "description": "Agent skill that rebuilds a UI from a reference and scores how close the copy is.",
+     "kind": "Skill",
+     "language": "JavaScript",
+     "stars": 30,
+     "gained": 30,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "bryllim/fun-sfx",
+     "url": "https://github.com/bryllim/fun-sfx",
+     "description": "Agent skill with a searchable sound-effect catalog and editing guides.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 30,
+     "gained": 30,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "weir36/deep-research-langgraph",
+     "url": "https://github.com/weir36/deep-research-langgraph",
+     "description": "Multi-agent deep research assistant on LangGraph with resumable runs and citation checks.",
+     "kind": "Agent framework",
+     "language": "Python",
+     "stars": 29,
+     "gained": 29,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "bytedance/axion1_0",
+     "url": "https://github.com/bytedance/axion1_0",
+     "description": "ByteDance training recipe that builds agent capabilities with high-quality data, two SFT stages and RL.",
+     "kind": "Model",
+     "language": "Python",
+     "stars": 10,
+     "gained": 10,
+     "source": "GitHub search"
+    }
+   ]
+  },
+  "weekly": {
+   "topics": [
+    "Agent skills",
+    "Autonomous agent systems",
+    "On-device agents",
+    "Codebase visualization",
+    "Creative skills"
+   ],
+   "repos": [
+    {
+     "repo": "deepseek-ai/dsh-superagent-prototype",
+     "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+     "description": "DeepSeek prototype of a more autonomous agent system.",
+     "kind": "Agent framework",
+     "language": "TypeScript",
+     "stars": 13504,
+     "gained": 13504,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "heydamir/unslop",
+     "url": "https://github.com/heydamir/unslop",
+     "description": "Claude skill that turns generic AI-looking UI into a designed interface.",
+     "kind": "Skill",
+     "language": "JavaScript",
+     "stars": 6339,
+     "gained": 6339,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "wangzan101/Mika",
+     "url": "https://github.com/wangzan101/Mika",
+     "description": "On-device Android AI agent that operates apps and the web for the user.",
+     "kind": "Other",
+     "language": "Kotlin",
+     "stars": 5386,
+     "gained": 5386,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "patch-gg/pixelfx",
+     "url": "https://github.com/patch-gg/pixelfx",
+     "description": "Library of 244 pixel-art effects plus a Claude Code skill to make new ones.",
+     "kind": "Skill",
+     "language": "JavaScript",
+     "stars": 3553,
+     "gained": 3553,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "haydenschmitty/floorplan",
+     "url": "https://github.com/haydenschmitty/floorplan",
+     "description": "Interactive plain-English map of a codebase, drawn by Claude or Codex.",
+     "kind": "Dev tool",
+     "language": "JavaScript",
+     "stars": 2261,
+     "gained": 2261,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "modelflare-ai/AnyModelBot",
+     "url": "https://github.com/modelflare-ai/AnyModelBot",
+     "description": "Open-source, local-first AI bots that run on any model.",
+     "kind": "Agent framework",
+     "language": "TypeScript",
+     "stars": 1443,
+     "gained": 1443,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "elvarofficial/teardown",
+     "url": "https://github.com/elvarofficial/teardown",
+     "description": "Claude Code skill that turns any machine into a 3D simulator you can take apart.",
+     "kind": "Skill",
+     "language": "JavaScript",
+     "stars": 1285,
+     "gained": 1285,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "caru-ini/stack-diagram",
+     "url": "https://github.com/caru-ini/stack-diagram",
+     "description": "Agent skill that turns a one-sentence stack description into an architecture diagram with official logos.",
+     "kind": "Skill",
+     "language": "TypeScript",
+     "stars": 1226,
+     "gained": 1226,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "NiazMorshed2007/reanimate",
+     "url": "https://github.com/NiazMorshed2007/reanimate",
+     "description": "Claude Code skill that reverse-engineers an animation frame by frame and checks the copy.",
+     "kind": "Skill",
+     "language": "JavaScript",
+     "stars": 962,
+     "gained": 962,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "mromidev/claude-animated-shorts",
+     "url": "https://github.com/mromidev/claude-animated-shorts",
+     "description": "Claude skill that makes animated story shorts with three.js and Remotion.",
+     "kind": "Skill",
+     "language": "TypeScript",
+     "stars": 659,
+     "gained": 659,
+     "source": "GitHub search"
+    }
+   ]
+  },
+  "monthly": {
+   "topics": [
+    "Agent skills",
+    "Autonomous agent systems",
+    "MCP apps",
+    "Agent cost control",
+    "TV debloat tools"
+   ],
+   "repos": [
+    {
+     "repo": "Gathin23/cleanyourtv",
+     "url": "https://github.com/Gathin23/cleanyourtv",
+     "description": "Tool that debloats Android and Google TV devices over Wi-Fi and adds a clean home screen.",
+     "kind": "Other",
+     "language": "Python",
+     "stars": 50472,
+     "gained": 50472,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "wheresryan22/anatomy",
+     "url": "https://github.com/wheresryan22/anatomy",
+     "description": "Agent skill that creates detailed interactive isometric illustrations of machines and systems.",
+     "kind": "Skill",
+     "language": "JavaScript",
+     "stars": 24144,
+     "gained": 24144,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "deepseek-ai/dsh-superagent-prototype",
+     "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+     "description": "DeepSeek prototype of a more autonomous agent system.",
+     "kind": "Agent framework",
+     "language": "TypeScript",
+     "stars": 13505,
+     "gained": 13505,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "tangency-labs/solidcraft",
+     "url": "https://github.com/tangency-labs/solidcraft",
+     "description": "Open-source parametric 3D CAD app in Rust with automation through MCP.",
+     "kind": "MCP server",
+     "language": "Rust",
+     "stars": 13196,
+     "gained": 13196,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "heydamir/unslop",
+     "url": "https://github.com/heydamir/unslop",
+     "description": "Claude skill that turns generic AI-looking UI into a designed interface.",
+     "kind": "Skill",
+     "language": "JavaScript",
+     "stars": 6339,
+     "gained": 6339,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "alchaincyf/huashu-art-motion",
+     "url": "https://github.com/alchaincyf/huashu-art-motion",
+     "description": "Art animation skill with 35 art styles and 9 narration patterns, rendered with code.",
+     "kind": "Skill",
+     "language": "JavaScript",
+     "stars": 6022,
+     "gained": 6022,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "wangzan101/Mika",
+     "url": "https://github.com/wangzan101/Mika",
+     "description": "On-device Android AI agent that operates apps and the web for the user.",
+     "kind": "Other",
+     "language": "Kotlin",
+     "stars": 5386,
+     "gained": 5386,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "amosblomqvist/learnharness",
+     "url": "https://github.com/amosblomqvist/learnharness",
+     "description": "Agent harness built to help people learn difficult subjects.",
+     "kind": "Agent framework",
+     "language": "TypeScript",
+     "stars": 4983,
+     "gained": 4983,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "Jakeschincariol/day-trader-skill",
+     "url": "https://github.com/Jakeschincariol/day-trader-skill",
+     "description": "Set of 11 Claude skills for scanning charts, tracking news and reviewing day trades.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 4608,
+     "gained": 4608,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "microsoft/TokenEconomizer",
+     "url": "https://github.com/microsoft/TokenEconomizer",
+     "description": "Microsoft research tool for experience-driven black-box cost control of coding agents.",
+     "kind": "AI infra",
+     "language": "Python",
+     "stars": 4491,
+     "gained": 4491,
+     "source": "GitHub search"
+    }
+   ]
+  }
+ }
+}

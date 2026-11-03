@@ -273,7 +273,7 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-03",
    "reported": {
     "2026-10-25": 20182,
     "2026-10-26": 20636,
@@ -282,7 +282,8 @@
     "2026-10-30": 22646,
     "2026-10-31": 23044,
     "2026-11-01": 23381,
-    "2026-11-02": 23807
+    "2026-11-02": 23807,
+    "2026-11-03": 24144
    }
   },
   "yihui-dev/awesome-opus5-5-videos": {
@@ -306,7 +307,7 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-03",
    "reported": {
     "2026-10-25": 10112,
     "2026-10-26": 10499,
@@ -315,7 +316,8 @@
     "2026-10-30": 12083,
     "2026-10-31": 12390,
     "2026-11-01": 12652,
-    "2026-11-02": 12924
+    "2026-11-02": 12924,
+    "2026-11-03": 13196
    }
   },
   "rehan-remade/universal-modder": {
@@ -431,7 +433,7 @@
     "AI",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-02"
+   "last_seen": "2026-11-03"
   },
   "anthropics/single-agent-loop-kit": {
    "first_seen": "2026-10-25",
@@ -449,7 +451,7 @@
    "seen_in": [
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-10-25"
+   "last_seen": "2026-11-03"
   },
   "YoyoLin008/mcreplay": {
    "first_seen": "2026-10-25",
@@ -752,11 +754,12 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-03",
    "reported": {
     "2026-10-26": 1660,
     "2026-10-27": 2074,
-    "2026-11-02": 4328
+    "2026-11-02": 4328,
+    "2026-11-03": 4608
    }
   },
   "udhaykumarbala/cleanyourtv-app": {
@@ -1368,13 +1371,14 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-03",
    "reported": {
     "2026-10-29": 3635,
     "2026-10-30": 4032,
     "2026-10-31": 4305,
     "2026-11-01": 4546,
-    "2026-11-02": 4740
+    "2026-11-02": 4740,
+    "2026-11-03": 4983
    }
   },
   "guilhermealvestech/carrossel-skill": {
@@ -1444,11 +1448,12 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-03",
    "reported": {
     "2026-10-30": 26,
     "2026-11-01": 2802,
-    "2026-11-02": 3966
+    "2026-11-02": 3966,
+    "2026-11-03": 5386
    }
   },
   "yc-software/minecraft-agent-harness": {
@@ -1571,10 +1576,11 @@
     "Trending",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-03",
    "reported": {
     "2026-10-31": 339,
-    "2026-11-02": 2682
+    "2026-11-02": 2682,
+    "2026-11-03": 3553
    }
   },
   "Pluviobyte/douyin-comments": {
@@ -1669,10 +1675,11 @@
     "Trending",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-03",
    "reported": {
     "2026-10-31": 22,
-    "2026-11-02": 945
+    "2026-11-02": 945,
+    "2026-11-03": 1285
    }
   },
   "Hybirdss/kicad-cli-extended": {
@@ -1715,7 +1722,7 @@
    "seen_in": [
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-10-31"
+   "last_seen": "2026-11-03"
   },
   "deepseek-ai/dsh-superagent-prototype": {
    "first_seen": "2026-11-01",
@@ -1725,10 +1732,11 @@
     "Trending",
     "Pulse"
    ],
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-03",
    "reported": {
     "2026-11-01": 2840,
-    "2026-11-02": 8079
+    "2026-11-02": 8079,
+    "2026-11-03": 13505
    }
   },
   "wiva-hq/CodeRail": {
@@ -1857,9 +1865,10 @@
    "kind": "Dev tool",
    "description": "Self-hosted kanban board for people and agents in one small binary.",
    "seen_in": [
-    "Trending"
+    "Trending",
+    "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-01",
+   "last_seen": "2026-11-03",
    "reported": {
     "2026-11-01": 219
    }
@@ -1884,10 +1893,11 @@
     "Trending",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-03",
    "reported": {
     "2026-11-01": 3574,
-    "2026-11-02": 4933
+    "2026-11-02": 4933,
+    "2026-11-03": 6339
    }
   },
   "ninjahawk/livenerf": {
@@ -1907,9 +1917,10 @@
     "Claude Ecosystem",
     "Trending"
    ],
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-03",
    "reported": {
-    "2026-11-02": 743
+    "2026-11-02": 743,
+    "2026-11-03": 962
    }
   },
   "rsaryev/tokendoctor": {
@@ -1928,9 +1939,10 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-03",
    "reported": {
-    "2026-11-02": 429
+    "2026-11-02": 429,
+    "2026-11-03": 1226
    }
   },
   "Balanov/uncut": {
@@ -1964,9 +1976,10 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-03",
    "reported": {
-    "2026-11-02": 194
+    "2026-11-02": 194,
+    "2026-11-03": 659
    }
   },
   "elhajahmadj/offline-emergency-library": {
@@ -2048,9 +2061,10 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-03",
    "reported": {
-    "2026-11-02": 1824
+    "2026-11-02": 1824,
+    "2026-11-03": 2261
    }
   },
   "microsoft/TokenEconomizer": {
@@ -2060,9 +2074,10 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-03",
    "reported": {
-    "2026-11-02": 3976
+    "2026-11-02": 3976,
+    "2026-11-03": 4491
    }
   },
   "jarrodwatts/claude-hud": {
@@ -2109,6 +2124,171 @@
     "Pulse"
    ],
    "last_seen": "2026-11-02"
+  },
+  "Balanov/shim": {
+   "first_seen": "2026-11-03",
+   "kind": "Coding agent",
+   "description": "Small local-first AI harness that runs any model with MCP and Agent Skills from a natural-language CLI.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-03",
+   "reported": {
+    "2026-11-03": 206
+   }
+  },
+  "mhfed/vn-law-check": {
+   "first_seen": "2026-11-03",
+   "kind": "Skill",
+   "description": "Skill for Claude Code and other agents that audits websites against Vietnamese data, e-commerce, cybersecurity and AI laws.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-03",
+   "reported": {
+    "2026-11-03": 163
+   }
+  },
+  "Balanov/verdict": {
+   "first_seen": "2026-11-03",
+   "kind": "AI infra",
+   "description": "Small local semantic verifier that checks AI agent tool calls.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-03",
+   "reported": {
+    "2026-11-03": 115
+   }
+  },
+  "JDhruv14/ascii-diorama": {
+   "first_seen": "2026-11-03",
+   "kind": "Skill",
+   "description": "Claude Code skill that makes tilt-shift ASCII miniature videos with Three.js.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-03",
+   "reported": {
+    "2026-11-03": 49
+   }
+  },
+  "DominikScholz/open-bot-avatar": {
+   "first_seen": "2026-11-03",
+   "kind": "Dev tool",
+   "description": "JSON spec and renderer for interactive agent avatars.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-03",
+   "reported": {
+    "2026-11-03": 41
+   }
+  },
+  "brewed-ops/talking-explainer": {
+   "first_seen": "2026-11-03",
+   "kind": "Skill",
+   "description": "Claude Code skill that turns a topic into a narrated motion-design explainer with a lip-synced cartoon host.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-03",
+   "reported": {
+    "2026-11-03": 38
+   }
+  },
+  "albertirgi/replica": {
+   "first_seen": "2026-11-03",
+   "kind": "Skill",
+   "description": "Agent skill that rebuilds a UI from a reference and scores how close the copy is.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-03",
+   "reported": {
+    "2026-11-03": 30
+   }
+  },
+  "bryllim/fun-sfx": {
+   "first_seen": "2026-11-03",
+   "kind": "Skill",
+   "description": "Agent skill with a searchable sound-effect catalog and editing guides.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-03",
+   "reported": {
+    "2026-11-03": 30
+   }
+  },
+  "weir36/deep-research-langgraph": {
+   "first_seen": "2026-11-03",
+   "kind": "Agent framework",
+   "description": "Multi-agent deep research assistant on LangGraph with resumable runs and citation checks.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-03",
+   "reported": {
+    "2026-11-03": 29
+   }
+  },
+  "bytedance/axion1_0": {
+   "first_seen": "2026-11-03",
+   "kind": "Model",
+   "description": "ByteDance training recipe that builds agent capabilities with high-quality data, two SFT stages and RL.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-03",
+   "reported": {
+    "2026-11-03": 10
+   }
+  },
+  "modelflare-ai/AnyModelBot": {
+   "first_seen": "2026-11-03",
+   "kind": "Agent framework",
+   "description": "Open-source, local-first AI bots that run on any model.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-03",
+   "reported": {
+    "2026-11-03": 1443
+   }
+  },
+  "Gathin23/cleanyourtv": {
+   "first_seen": "2026-11-03",
+   "kind": "Other",
+   "description": "Tool that debloats Android and Google TV devices over Wi-Fi and adds a clean home screen.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-03",
+   "reported": {
+    "2026-11-03": 50472
+   }
+  },
+  "alchaincyf/huashu-art-motion": {
+   "first_seen": "2026-11-03",
+   "kind": "Skill",
+   "description": "Art animation skill with 35 art styles and 9 narration patterns, rendered with code.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-03",
+   "reported": {
+    "2026-11-03": 6022
+   }
+  },
+  "ratomirjovanovic/pandaward": {
+   "first_seen": "2026-11-03",
+   "kind": "Plugin",
+   "description": "pandaward: local app-security assessment plugin for Claude Code",
+   "seen_in": [
+    "Claude Ecosystem"
+   ],
+   "last_seen": "2026-11-03"
   }
  }
 }

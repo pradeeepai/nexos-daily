@@ -1,0 +1,335 @@
+{
+ "date": "2026-11-03",
+ "generated": "2026-11-03T02:51:58Z",
+ "sections": {
+  "tech-news": {
+   "routine": "tech-news",
+   "status": "done",
+   "headline": "Claude API adds Message threads beta, which keeps the conversation on the server so agent loops send only new messages.",
+   "filed": "2026-11-03T02:19:00Z",
+   "note": "No new model from a major lab was found in the window.",
+   "items": [
+    {
+     "title": "Claude API adds Message threads beta for faster agent loops",
+     "body": "On November 2, Anthropic released Message threads in beta with the header message-threads-2026-08-12. The API keeps the conversation on the server, so each later request sends only the new messages. A thread expires 5 minutes after its last request and is deleted no more than 1 hour after its last use. It is available on the Claude API, Claude Platform on AWS, Google Cloud and Microsoft Foundry.",
+     "why": "Agent loops and long chats send smaller requests and get a lower time to first token.",
+     "topics": [
+      "Claude",
+      "Agents"
+     ],
+     "source": "Claude Platform release notes",
+     "url": "https://platform.claude.com/docs/en/release-notes/overview",
+     "date": "2026-11-02"
+    },
+    {
+     "title": "SemiAnalysis GDPx benchmark: Claude Opus 5.5 leads at only 12%",
+     "body": "SemiAnalysis launched GDPx, an agentic benchmark with interactive environments in 11 domains, including chip design, cybersecurity, finance, legal and software engineering. Claude Opus 5.5 is the best all-around model at about 12%, ahead of Gemini 4 Carbon and GPT-6 Astra. Finance and legal scored zero for every model. Opus 5.5 costs about $51.41 per task, roughly 3x Gemini 4 Carbon.",
+     "why": "It shows that frontier agents still fail most long, real expert tasks, so human review stays necessary.",
+     "topics": [
+      "Claude",
+      "AI research",
+      "Gemini"
+     ],
+     "source": "SemiAnalysis",
+     "url": "https://newsletter.semianalysis.com/p/gdpx-measuring-frontier-model-capabilities",
+     "date": "2026-11-02",
+     "also": [
+      {
+       "section": "Chips & Research",
+       "source": "SemiAnalysis",
+       "url": "https://newsletter.semianalysis.com/p/gdpx-measuring-frontier-model-capabilities"
+      }
+     ]
+    },
+    {
+     "title": "Anthropic confirms Claude Code limit on cloning existing games",
+     "body": "Anthropic added two sentences to the Claude Code prompt for Opus 5.5 to stop it from recreating a specific existing game. Anthropic says original games, genre games and games from your own designs still work. Users also report refusals for reverse-engineering tasks, but Anthropic has not confirmed a rule for that. The limit seems to apply only to Claude Code with Opus 5.5.",
+     "why": "Teams that use Claude Code with Opus 5.5 can see new refusals and should know the scope of the rule.",
+     "topics": [
+      "Claude Code",
+      "Security"
+     ],
+     "source": "Tom's Hardware",
+     "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-confirms-new-claude-code-limits-to-prevent-game-cloning-users-report-opus-5-5-is-also-actively-blocking-reverse-engineering-tasks",
+     "date": "2026-11-02",
+     "also": [
+      {
+       "section": "Pulse",
+       "source": "r/ClaudeAI · 859 upvotes",
+       "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-confirms-new-claude-code-limits-to-prevent-game-cloning-users-report-opus-5-5-is-also-actively-blocking-reverse-engineering-tasks"
+      }
+     ]
+    },
+    {
+     "title": "Claude Code 2.1.316 adds subagent effort control",
+     "body": "Claude Code v2.1.316 adds CLAUDE_CODE_SUBAGENT_EFFORT to set the effort level of subagents and CLAUDE_CODE_DISABLE_ULTRATHINK to turn off the ultrathink keyword. Fast mode for Opus 4.8 is deprecated and will be removed on November 30, 2026; migrate to Opus 5.5 to keep the speedup. The release also fixes shell commands left running after Claude Code exits.",
+     "why": "You can now tune cost and speed of subagents and must plan the Opus 4.8 fast mode migration.",
+     "topics": [
+      "Claude Code",
+      "DevOps"
+     ],
+     "source": "GitHub anthropics/claude-code releases",
+     "url": "https://github.com/anthropics/claude-code/releases",
+     "date": "2026-10-31"
+    },
+    {
+     "title": "MIT team uses GPT-6 Astra to edit model weights directly",
+     "body": "Researchers from MIT CSAIL used GPT-6 Astra to read and write neural network weights with no gradient descent, a method they call Weight-Space Programming. Astra changed 131,072 weights (0.016%) in Qwen3.5-0.8B to remove a reasoning-loop direction. MATH-500 rose from 7.9% to 48.1% and GSM8K from 13.8% to 67.1%. The edit did not help Gemma 3 270M, so it removes obstacles but does not add new skills.",
+     "why": "It suggests a new way to debug and fix small models without a training run.",
+     "topics": [
+      "AI research",
+      "OpenAI",
+      "Open models"
+     ],
+     "source": "MIT CSAIL blog (Hacker News, 1,613 points)",
+     "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+     "date": "2026-11-02",
+     "also": [
+      {
+       "section": "Chips & Research",
+       "source": "MIT CSAIL blog",
+       "url": "https://rikiyat.github.io/blog/weight-space-programming/"
+      },
+      {
+       "section": "Pulse",
+       "source": "Hacker News · 1,613 points · 516 comments",
+       "url": "https://rikiyat.github.io/blog/weight-space-programming/"
+      }
+     ]
+    },
+    {
+     "title": "OpenAI releases LifeVal benchmark for personal-assistant tasks",
+     "body": "OpenAI announced LifeVal, a benchmark shaped by feedback from thousands of ChatGPT users. It measures where people most want help from a personal assistant, for example finding childcare. The post had more than 5,000 likes on X.",
+     "why": "It gives a new yardstick for assistants that do everyday tasks, not only coding or exams.",
+     "topics": [
+      "OpenAI",
+      "AI research"
+     ],
+     "source": "X · @OpenAI",
+     "url": "https://x.com/OpenAI/status/2117307611338997846",
+     "date": "2026-11-02",
+     "also": [
+      {
+       "section": "Trending on X",
+       "source": "X · @OpenAI · 5214 likes · 365 reposts",
+       "url": "https://x.com/OpenAI/status/2117307611338997846"
+      }
+     ]
+    },
+    {
+     "title": "Deep Principle releases Hydrogen-1.0, a 753B open-weight science model",
+     "body": "Deep Principle released Hydrogen-1.0, an open-weight scientific model with 753B parameters. It is post-trained from GLM-5.3. The source does not give context size or price.",
+     "why": "Open science models give teams a self-hosted option for research workloads.",
+     "topics": [
+      "Open models",
+      "New models"
+     ],
+     "source": "MarkTechPost via AI Model Radar",
+     "url": "https://www.marktechpost.com/2026/11/02/deep-principle-hydrogen-1-0-open-weight-scientific-model/",
+     "date": "2026-11-02"
+    },
+    {
+     "title": "China proposes export controls on frontier AI models and agents",
+     "body": "MOFCOM Announcement No. 48 proposes 23 AI technologies for the export control catalogue; comments are open until November 15, 2026. Model weights and code are restricted when training used 10^26 FLOPs or more, the model has 2 trillion or more parameters, or it ranks in the global top 10. API, app and SaaS use do not count as export, but local deployment of a restricted model abroad needs a license. The note trended on Hacker News yesterday.",
+     "why": "Teams that deploy Chinese models outside China may need licenses for local deployment.",
+     "topics": [
+      "AI policy",
+      "Open models"
+     ],
+     "source": "Cloud Security Alliance (Hacker News)",
+     "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-china-ai-export-controls-announcement-48-2/",
+     "date": "2026-11-02"
+    }
+   ]
+  },
+  "chips": {
+   "routine": "chips",
+   "status": "done",
+   "headline": "NVIDIA cuts shipping Rubin GPU memory bandwidth to 19.2 TB/s and NVLink to 3.0 TB/s as production hardware arrives.",
+   "filed": "2026-11-03T02:20:00Z",
+   "note": "",
+   "items": [
+    {
+     "title": "NVIDIA lowers Rubin bandwidth specs as production hardware ships",
+     "body": "Shipping Rubin GPUs keep 50 PFLOPS FP4 inference and 288GB HBM4, but memory bandwidth drops from 22 TB/s to 19.2 TB/s and NVLink from 3.6 TB/s to 3.0 TB/s. Scale-out networking rises to 0.45 TB/s per GPU. The NVL72 rack drops to 1,400 TB/s memory bandwidth and 216 TB/s NVLink; HGX Rubin NVL8 drops from 2.3TB to 2.0TB HBM4. NVIDIA has not explained the changes.",
+     "why": "Capacity plans for Rubin clusters must use the lower memory and NVLink figures.",
+     "topics": [
+      "NVIDIA",
+      "Data centers"
+     ],
+     "source": "ServeTheHome",
+     "url": "https://www.servethehome.com/nvidia-updates-rubin-gpu-specs-as-first-production-hardware-arrives/",
+     "date": "2026-10-31"
+    },
+    {
+     "title": "ASRock Rack shows liquid-cooled Vera Rubin NVL72 and HGX Rubin servers",
+     "body": "At OCP Global Summit 2026, ASRock Rack showed the XGMRACK-VR/NVL72 with 72 Rubin GPUs, 36 Vera CPUs and 20.7TB HBM4 in a 48RU rack with a 5000A busbar. The rack uses four 110kW power shelves and fully liquid-cooled compute trays. A fanless 2U server holds an HGX Rubin NVL8 board with dual Xeon 6 and ConnectX-9 800Gbps networking. No availability or price was given.",
+     "why": "It shows the power and cooling that Rubin racks need in a data center.",
+     "topics": [
+      "NVIDIA",
+      "Data centers"
+     ],
+     "source": "ServeTheHome",
+     "url": "https://www.servethehome.com/liquid-cooled-nvidia-servers-at-the-asrock-rack-ocp-2026-booth/",
+     "date": "2026-11-01"
+    }
+   ]
+  },
+  "ecosystem": {
+   "routine": "ecosystem",
+   "status": "done",
+   "headline": "Epic Games ships an official Unreal Engine plugin for Claude Code with hundreds of MCP tools in the claude-plugins-official marketplace.",
+   "filed": "2026-11-03T02:22:00Z",
+   "note": "",
+   "items": [
+    {
+     "title": "Epic Games ships official Unreal Engine plugin for Claude Code",
+     "body": "The plugin lets Claude Code control a running Unreal Editor through MCP, with hundreds of tools in 30+ toolsets for actors, Blueprints, materials, Niagara, Sequencer and automation tests. It includes an unreal-mcp skill and a SessionStart hook. The repo has about 1.7k stars. Install: /plugin install unreal-engine-skills-for-claude-code@claude-plugins-official.",
+     "why": "Teams can drive a live Unreal Editor from Claude Code with an official, supported plugin.",
+     "topics": [
+      "Plugins",
+      "MCP",
+      "Hooks"
+     ],
+     "source": "GitHub EpicGames",
+     "url": "https://github.com/EpicGames/unreal-engine-skills-for-claude-code-plugin",
+     "date": "2026-11-02"
+    },
+    {
+     "title": "PostHog plugin bundles an MCP server and 161 skills",
+     "body": "PostHog's official Claude Code plugin bundles an MCP server with 161 skills, from building dashboards to cleaning up stale feature flags. Install: /plugin install posthog@claude-plugins-official.",
+     "why": "One install gives Claude Code product analytics and feature-flag work through an official plugin.",
+     "topics": [
+      "Plugins",
+      "Skills",
+      "MCP"
+     ],
+     "source": "X · @AgentStackList",
+     "url": "https://x.com/AgentStackList/status/2116979603667644800",
+     "date": "2026-11-01"
+    },
+    {
+     "title": "Kanzo: self-hosted kanban board that is also an MCP server",
+     "body": "Kanzo by emanuele-em is a small self-hosted kanban board in the browser that also runs as an MCP server. Agents such as Claude Code and Codex can take tasks, move cards and comment. It has about 700 stars and is trending on GitHub. Install: curl -LsSf https://github.com/emanuele-em/kanzo/releases/latest/download/kanzo-installer.sh | sh, or cargo install kanzo.",
+     "why": "Humans and coding agents can share one task board without a SaaS account.",
+     "topics": [
+      "MCP",
+      "Setups"
+     ],
+     "source": "GitHub emanuele-em/kanzo",
+     "url": "https://github.com/emanuele-em/kanzo",
+     "date": "2026-11-02"
+    },
+    {
+     "title": "briefproof plugin turns a brief into spec, tickets and checks",
+     "body": "briefproof is a Claude Code plugin that turns a brief into checked requirements, a spec, tickets and a blind acceptance check. Created on October 21, 2026, it is the most-starred new Claude Code plugin repo in GitHub search, with 77 stars.",
+     "why": "It adds a requirements-to-acceptance flow that cuts rework in agent-built features.",
+     "topics": [
+      "Plugins",
+      "Claude Code"
+     ],
+     "source": "GitHub search",
+     "url": "https://github.com/dmitribogatenkov/briefproof",
+     "date": "2026-11-02"
+    },
+    {
+     "title": "pandaward: local app-security assessment plugin for Claude Code",
+     "body": "pandaward is a local, evidence-based application security assessment engine that also ships as a Claude Code plugin. The repo was created on October 27, 2026 and has 66 stars.",
+     "why": "It brings evidence-based security review into the coding loop without sending code to a third party.",
+     "topics": [
+      "Plugins",
+      "Claude Code"
+     ],
+     "source": "GitHub search",
+     "url": "https://github.com/ratomirjovanovic/pandaward",
+     "date": "2026-11-02"
+    },
+    {
+     "title": "Guide: Claude Code hooks for targeted .NET verification",
+     "body": "Dev Leader published a guide on Claude Code hooks for targeted .NET verification. It covers event schemas, stdin handling, exit behavior, selective checks and the limits compared with CI.",
+     "why": "It shows how to run selective checks with hooks so agents verify only what changed.",
+     "topics": [
+      "Hooks",
+      "Claude Code"
+     ],
+     "source": "X · @DevLeaderCa",
+     "url": "https://x.com/DevLeaderCa/status/2117316381146251404",
+     "date": "2026-11-02"
+    }
+   ]
+  },
+  "tech-pulse": {
+   "routine": "tech-pulse",
+   "status": "done",
+   "headline": "MIT CSAIL used GPT-6 Astra to edit Qwen weights directly and raise MATH-500 accuracy from 7.9% to 48.1%.",
+   "filed": "2026-11-03T02:21:57Z",
+   "note": "GitHub Trending returned stale archived data through WebFetch, so it was not used as a Pulse source.",
+   "items": [
+    {
+     "title": "Postgres 19 slips because AI tools find many more bugs",
+     "body": "Robert Haas writes that a surge of bug reports, many found with LLMs, forced committers to spend more time on fixes and back-patches. Commits from feature freeze to 25 September rose to 1,443 from 1,037 a year earlier, and back-patched commits rose from 724 to 1,169. Several features, including SQL/PGQ and ALTER TABLE MERGE/SPLIT PARTITION, were reverted late in beta. The release now most likely ships in November 2026.",
+     "why": "Teams that plan PostgreSQL upgrades must expect a later release with fewer features.",
+     "topics": [
+      "AI tools",
+      "DevOps"
+     ],
+     "source": "Hacker News · 803 points · 477 comments",
+     "url": "http://rhaas.blogspot.com/2026/10/postgres-19-is-late-and-its-ais-fault.html",
+     "date": "2026-11-02"
+    },
+    {
+     "title": "Qwen team says its models will stay open source",
+     "body": "The r/LocalLLaMA community shared an official Qwen statement that its models will stick to open source. It was the top post of the day on the subreddit. Qwen models are among the most used open-weight models for local inference.",
+     "why": "Teams that build on open-weight models get a clear signal that Qwen releases will continue.",
+     "topics": [
+      "Open models"
+     ],
+     "source": "r/LocalLLaMA · 3,724 upvotes",
+     "url": "https://reddit.com/r/LocalLLaMA/comments/1xm28e6/official_statement_qwen_models_will_stick_to_open/",
+     "date": "2026-11-02"
+    },
+    {
+     "title": "Trigger.dev discloses exposure of customer environment variables",
+     "body": "Trigger.dev disclosed that an attacker got unauthorized access to environment variables for a subset of organizations. The company says it blocked the exploit but did not explain how it worked. The disclosure is dated 1 November 2026. Owners of affected accounts received mitigation steps by email.",
+     "why": "Teams that store secrets in Trigger.dev environment variables must check if they need to rotate them.",
+     "topics": [
+      "Security",
+      "DevOps"
+     ],
+     "source": "Hacker News · 162 points · 85 comments",
+     "url": "https://trigger.dev/blog/security-incident-nov-2026",
+     "date": "2026-11-02"
+    }
+   ]
+  },
+  "layoffs": {
+   "routine": "layoffs",
+   "status": "done",
+   "headline": "Squarespace lays off about 300 employees, roughly 19% of its workforce, in a restructuring.",
+   "filed": "2026-11-03T02:21:57Z",
+   "note": "TrueUp did not load, and GoLayoffs showed no new entries after 28 October.",
+   "items": [
+    {
+     "title": "Squarespace cuts about 300 jobs, 19% of staff",
+     "body": "Squarespace is laying off about 300 employees, roughly 19% of its workforce. The company calls the cuts part of a broader restructuring of its global workforce. It says the changes aim to simplify how it operates, sharpen its priorities and move faster. A Squarespace spokesperson confirmed the layoffs to TechCrunch after The Verge first reported them.",
+     "why": "It is another sizable cut at a website and commerce software company that reorganizes to move faster.",
+     "topics": [
+      "Layoffs",
+      "Startups"
+     ],
+     "source": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/02/web-host-squarespace-lays-off-19-of-its-employees",
+     "date": "2026-11-02",
+     "company": "Squarespace",
+     "count": 300,
+     "pct": 19,
+     "country": "United States",
+     "location": "",
+     "industry": "E-commerce software",
+     "kind": "layoff"
+    }
+   ]
+  }
+ },
+ "briefing": "Good morning. This is The Nexos Daily for Tuesday, the third of November.\n\nThe lead story: the Claude API adds Message threads in beta. The conversation now stays on the server, so agent loops send only the new turns. Requests get smaller, and the time to the first token goes down.\n\nSecurity next. Trigger dot dev disclosed an exposure of customer environment variables. If you keep secrets there, check whether you must rotate them. China also proposed export controls on frontier AI models and agents, so teams that deploy Chinese models outside China may need licenses.\n\nIn the Claude world, Epic Games shipped an official Unreal Engine plugin for Claude Code, with hundreds of MCP tools. PostHog released a plugin with an MCP server and one hundred sixty-one skills. Anthropic confirmed the Claude Code rule against cloning existing games. And Claude Code version two point one point three sixteen adds effort control for subagents.\n\nModels and research: a team at MIT used GPT six Astra to edit the weights of a Qwen model directly. Accuracy on the MATH five hundred test rose from about eight percent to forty-eight percent, with no training run. It led Hacker News with more than one thousand six hundred points. On the new SemiAnalysis GDPx benchmark for real chip and hardware design work, Claude Opus five point five leads, but it completes only twelve percent of the tasks. OpenAI released LifeVal, a benchmark for personal-assistant tasks. Deep Principle released Hydrogen one point zero, an open science model with seven hundred fifty-three billion parameters. And the Qwen team says its models will stay open source.\n\nChips: NVIDIA lowered the shipping specifications for Rubin GPUs, to nineteen point two terabytes per second of memory bandwidth and three point zero terabytes per second of NVLink. Use these lower figures in your capacity plans. ASRock Rack showed liquid-cooled Vera Rubin servers.\n\nFor AWS engineers, there were no new launches in the last two days.\n\nLayoffs: Squarespace cut about three hundred jobs, about nineteen percent of its staff.\n\nThere were no official gadget launches. On Hacker News, the PostgreSQL nineteen release slips because AI tools find many more bugs.\n\nOn the trending page, DeepSeek's super-agent prototype passed thirteen thousand five hundred stars since the thirty-first of October, and the unslop skill passed six thousand three hundred.\n\nThat is the briefing. Every story links to its source in the paper. Have a good day."
+}

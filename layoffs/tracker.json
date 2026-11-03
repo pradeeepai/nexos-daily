@@ -1,6 +1,20 @@
 {
  "entries": [
   {
+   "date": "2026-11-02",
+   "company": "Squarespace",
+   "count": 300,
+   "count_text": "",
+   "pct": 19,
+   "location": "",
+   "country": "United States",
+   "industry": "E-commerce software",
+   "kind": "layoff",
+   "confirmed": true,
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/11/02/web-host-squarespace-lays-off-19-of-its-employees"
+  },
+  {
    "date": "2026-10-30",
    "company": "Comcast",
    "count": 994,
@@ -1723,5 +1737,5 @@
    "url": "https://golayoffs.com/tech-layoff-tracker/"
   }
  ],
- "updated": "2026-11-01T02:57:54Z"
+ "updated": "2026-11-03T02:51:58Z"
 }
