@@ -1,6 +1,34 @@
 {
  "entries": [
   {
+   "date": "2026-11-03",
+   "company": "Frontapp",
+   "count": 53,
+   "count_text": "",
+   "pct": null,
+   "location": "San Francisco, California",
+   "country": "United States",
+   "industry": "AI companies",
+   "kind": "layoff",
+   "confirmed": true,
+   "source": "AI Commission (citing KRON4); California EDD WARN",
+   "url": "https://aicommission.org/2026/11/ai-startup-front-cuts-jobs-in-push-for-a-more-sustainable-business/"
+  },
+  {
+   "date": "2026-11-03",
+   "company": "Canva",
+   "count": 1271,
+   "count_text": "",
+   "pct": 22,
+   "location": "Sydney, Australia; staff in 37 countries",
+   "country": "Global",
+   "industry": "Enterprise software",
+   "kind": "layoff",
+   "confirmed": true,
+   "source": "Trending Topics (citing Canva staff note); Bloomberg",
+   "url": "https://www.trendingtopics.eu/canva-layoffs-ai/"
+  },
+  {
    "date": "2026-11-02",
    "company": "Squarespace",
    "count": 300,
@@ -48,7 +76,7 @@
    "count": 250,
    "count_text": "",
    "pct": null,
-   "location": "",
+   "location": "Seattle, Bellevue, Redmond, Pasco, Sumner, Washington",
    "country": "United States",
    "industry": "Big Tech",
    "kind": "layoff",
@@ -1737,5 +1765,5 @@
    "url": "https://golayoffs.com/tech-layoff-tracker/"
   }
  ],
- "updated": "2026-11-03T02:51:58Z"
+ "updated": "2026-11-04T02:52:02Z"
 }

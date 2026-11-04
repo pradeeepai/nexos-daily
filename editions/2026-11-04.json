@@ -1,0 +1,521 @@
+{
+ "date": "2026-11-04",
+ "generated": "2026-11-04T02:52:02Z",
+ "sections": {
+  "tech-news": {
+   "routine": "tech-news",
+   "status": "done",
+   "headline": "Anthropic ships Message Threads beta for the Messages API, so long agent loops send only new messages and get faster first tokens.",
+   "filed": "2026-11-04T02:19:00Z",
+   "note": "No new model launch from a major lab was found in the window.",
+   "items": [
+    {
+     "title": "Claude API adds Message Threads beta for long conversations",
+     "body": "The Messages API can now keep a conversation on the server, so each later request sends only the new messages. Enable it with the message-threads-2026-08-12 beta header. A thread expires 5 minutes after its last request and is deleted no more than 1 hour after last use. It is available on the Claude API, Claude Platform on AWS, Google Cloud and Microsoft Foundry.",
+     "why": "Long agent loops can send smaller requests and get lower latency without changes to token billing.",
+     "topics": [
+      "Claude",
+      "Agents"
+     ],
+     "source": "Claude release notes",
+     "url": "https://platform.claude.com/docs/en/release-notes/overview",
+     "date": "2026-11-02"
+    },
+    {
+     "title": "Claude text output now carries Anthropic's text watermark",
+     "body": "Text from Claude Mythos 5, Claude Opus 4.7 and Claude Sonnet 4.6 now carries Anthropic's text watermark on the listed platforms. On Sonnet 4.6, requests that set temperature, top_p or top_k to non-default values might not carry it. A new docs page explains the feature.",
+     "why": "Teams that publish Claude-generated text must expect it to be marked as AI-generated on supported platforms.",
+     "topics": [
+      "Claude",
+      "AI policy"
+     ],
+     "source": "Claude release notes",
+     "url": "https://platform.claude.com/docs/en/build-with-claude/text-watermark",
+     "date": "2026-11-03"
+    },
+    {
+     "title": "Anthropic opens applications for its paid Anthropic Residency",
+     "body": "Anthropic opened applications for the Anthropic Residency, a paid, fixed-term research program. It is for academics, technical founders and staff-level engineers. No ML background is required. Applications close November 22.",
+     "why": "Staff-level engineers without an ML background can apply for a paid path into AI safety research.",
+     "topics": [
+      "Claude",
+      "AI research"
+     ],
+     "source": "X · @AnthropicAI",
+     "url": "https://x.com/AnthropicAI/status/2117343929960112486",
+     "date": "2026-11-02",
+     "also": [
+      {
+       "section": "Trending on X",
+       "source": "X · @AnthropicAI · 38700 likes · 3038 reposts",
+       "url": "https://x.com/AnthropicAI/status/2117343929960112486"
+      }
+     ]
+    },
+    {
+     "title": "Weight-space paper: GPT-6 Astra reads and edits raw model weights",
+     "body": "The paper 'Sparks of Weight-Space Programming' says GPT-6 Astra can infer what a network does from its weights. It edited 0.016% of Qwen3.5-0.8B weights and raised MATH-500 from 7.9% to 48.1%. Matthew Honnibal says the Qwen result used Python and model runs, and the PPO win holds only on Breakout. Simon Willison showed local Qwen 3.8 27B identified the game networks in 46 to 65 minutes.",
+     "why": "If models can debug weights directly, model repair and audit workflows may change, but the claims need care.",
+     "topics": [
+      "AI research",
+      "OpenAI",
+      "Open models"
+     ],
+     "source": "Simon Willison's blog / honnibal.dev",
+     "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+     "date": "2026-11-03",
+     "also": [
+      {
+       "section": "Chips & Research",
+       "source": "rikiyat.github.io / honnibal.dev",
+       "url": "https://rikiyat.github.io/blog/weight-space-programming/"
+      },
+      {
+       "section": "Pulse",
+       "source": "Hacker News · 872 points · 189 comments",
+       "url": "https://honnibal.dev/blog/astra-read-write-misleading"
+      },
+      {
+       "section": "Pulse",
+       "source": "Hacker News · 462 points · 147 comments",
+       "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/"
+      }
+     ]
+    },
+    {
+     "title": "OpenAI builds Pando Git backend to scale agent traffic",
+     "body": "OpenAI built Pando, a new Git backend for its monorepo, without changing how engineers and agents use Git. Pando cut push latency by about 80%. It now serves nearly a petabyte of Git data a day.",
+     "why": "Agent-driven commit volume stresses Git hosting, and this shows one design that scales it.",
+     "topics": [
+      "OpenAI",
+      "DevOps"
+     ],
+     "source": "OpenAI",
+     "url": "https://openai.com/index/scaling-git-at-openai/",
+     "date": "2026-11-03",
+     "also": [
+      {
+       "section": "Trending on X",
+       "source": "X · @OpenAIDevs · 6398 likes · 508 reposts",
+       "url": "https://x.com/OpenAIDevs/status/2117408792346509663"
+      }
+     ]
+    },
+    {
+     "title": "Postman silently auto-installs AI plugins, users report",
+     "body": "A GitHub issue reports that the Postman app auto-installs AI plugins without consent. The report says the plugins attempt to share API data. The issue reached 969 points on Hacker News.",
+     "why": "Silent AI plugins in API tools can leak API data, so security teams must audit developer tools.",
+     "topics": [
+      "Security",
+      "AI tools"
+     ],
+     "source": "GitHub · postmanlabs/postman-app-support",
+     "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
+     "date": "2026-11-03",
+     "also": [
+      {
+       "section": "Pulse",
+       "source": "Hacker News · 969 points · 319 comments",
+       "url": "https://github.com/postmanlabs/postman-app-support/issues/14370"
+      }
+     ]
+    },
+    {
+     "title": "Google to turn off search for schools that reject AI",
+     "body": "The New York Times reports that Google will turn off search for schools that restrict its AI features. The story drew 542 points on Hacker News.",
+     "why": "Vendors now tie core services to AI features, which affects procurement and policy choices.",
+     "topics": [
+      "AI policy",
+      "Gemini"
+     ],
+     "source": "The New York Times",
+     "url": "https://www.nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html",
+     "date": "2026-11-03"
+    }
+   ]
+  },
+  "chips": {
+   "routine": "chips",
+   "status": "done",
+   "headline": "Qualcomm validates HBC stacked memory with over 5x the bandwidth-per-watt of HBM4 for its Dragonfly AI250 accelerator.",
+   "filed": "2026-11-04T02:19:00Z",
+   "note": "Only three items met the bar in the 48-hour window.",
+   "items": [
+    {
+     "title": "Qualcomm validates HBC stacked memory for Dragonfly AI250",
+     "body": "Qualcomm completed initial validation of High Bandwidth Compute (HBC) memory, which stacks DRAM layers on a small compute die. It claims more than 5x the bandwidth-per-watt of HBM4 and about 18x the bandwidth of external LPDDR5X. HBC uses LPDDR5X dies and cheap 2D organic substrates instead of CoWoS or EMIB. Dragonfly AI250 should sample in the first half of 2027.",
+     "why": "Cheaper, more efficient AI memory could lower inference cost and ease the CoWoS packaging bottleneck.",
+     "topics": [
+      "Chips",
+      "Architecture",
+      "Data centers"
+     ],
+     "source": "ServeTheHome",
+     "url": "https://www.servethehome.com/qualcomm-validates-hbc-stacked-memory-ahead-of-2027-dragonfly-ai250-sampling/",
+     "date": "2026-11-02"
+    },
+    {
+     "title": "FLAMIA: microscaling FP8/FP4 attention speeds training on Blackwell",
+     "body": "Yandex Research released FLAMIA, a microscaling attention kernel for NVIDIA Blackwell. The MXFP8 path speeds up forward plus backward attention by 1.10 to 1.40x on B200 and 1.06 to 1.42x on B300 against the fastest baseline. A mixed path uses NVFP4 for query-key scores and FP8 for other products.",
+     "why": "Low-precision attention makes training on B200 and B300 clusters faster and cheaper.",
+     "topics": [
+      "NVIDIA",
+      "AI research"
+     ],
+     "source": "Hugging Face Papers · arXiv:2611.03344",
+     "url": "https://huggingface.co/papers/2611.03344",
+     "date": "2026-11-02"
+    }
+   ]
+  },
+  "ecosystem": {
+   "routine": "ecosystem",
+   "status": "done",
+   "headline": "DiDi open-sources HelixHarness, a Claude Code and Codex plugin that feeds team rules to agents and writes lessons back to the repo.",
+   "filed": "2026-11-04T02:19:00Z",
+   "note": "Sources: X search 3, X search 2, GitHub search and r/ClaudeAI top of the day (no tool posts in the top 10).",
+   "items": [
+    {
+     "title": "DiDi open-sources HelixHarness plugin for Claude Code and Codex",
+     "body": "HelixHarness feeds a team's business rules and engineering constraints to the coding agent. Verified lessons from each task are written back to the repo for the next feature. It had 291 stars when posted.",
+     "why": "Teams can keep engineering constraints in the repo so agents follow them on every task.",
+     "topics": [
+      "Plugins",
+      "Claude Code"
+     ],
+     "source": "X · @LLMpsycho",
+     "url": "https://x.com/LLMpsycho/status/2117622183740727317",
+     "date": "2026-11-03"
+    },
+    {
+     "title": "cheap-ag MCP server lets a cheap model type for Opus",
+     "body": "cheap-ag by muaaz9329 is an MCP server for Claude Code. A cheap model writes the code while Opus only plans. It was trending on GitHub with 218 stars.",
+     "why": "Splitting planning and typing across models can cut Claude usage limits and cost.",
+     "topics": [
+      "MCP",
+      "Claude Code"
+     ],
+     "source": "X · @TheArthiAI",
+     "url": "https://x.com/TheArthiAI/status/2117383140738289703",
+     "date": "2026-11-02"
+    },
+    {
+     "title": "Railway ships official Claude Code plugin with MCP and skill",
+     "body": "Railway has an official plugin in claude-plugins-official with an MCP server and a use-railway skill. Install: /plugin install railway@claude-plugins-official, then run /mcp to connect.",
+     "why": "Deploys from Claude Code get an official, supported path on Railway.",
+     "topics": [
+      "Plugins",
+      "MCP",
+      "Skills"
+     ],
+     "source": "X · @AgentStackList",
+     "url": "https://x.com/AgentStackList/status/2117371733284212883",
+     "date": "2026-11-02"
+    },
+    {
+     "title": "Pinecone official plugin bundles MCP server and nine skills",
+     "body": "Pinecone's official plugin includes an MCP server and 9 skills, including query, full-text search, n8n and quickstart. Install: /plugin install pinecone@claude-plugins-official.",
+     "why": "Vector search tasks in Claude Code get ready-made skills for query, search and n8n.",
+     "topics": [
+      "Plugins",
+      "Skills",
+      "MCP"
+     ],
+     "source": "X · @AgentStackList",
+     "url": "https://x.com/AgentStackList/status/2117327199887917377",
+     "date": "2026-11-02"
+    },
+    {
+     "title": "grim-prompter brings threat modeling to AI coding agents",
+     "body": "grim-prompter by jmanico does threat modeling for AI coding agents and produces evidence-traced models. Created October 28, it is the top new Claude-related repo of the week with 83 stars.",
+     "why": "Security teams get evidence-traced threat models produced inside the agent workflow.",
+     "topics": [
+      "Skills",
+      "Claude Code"
+     ],
+     "source": "GitHub · jmanico/grim-prompter",
+     "url": "https://github.com/jmanico/grim-prompter",
+     "date": "2026-10-28"
+    },
+    {
+     "title": "YesWeHack Claude Kit plugin helps write bug bounty reports",
+     "body": "YesWeHack Claude Kit is a Claude Code plugin for bug bounty hunters. It helps write clear, well-evidenced reports that a triager can validate quickly.",
+     "why": "Security engineers can produce clear, well-evidenced vulnerability reports faster.",
+     "topics": [
+      "Plugins",
+      "Claude Code"
+     ],
+     "source": "X · @LethalAccess",
+     "url": "https://x.com/LethalAccess/status/2117650629640192223",
+     "date": "2026-11-03"
+    }
+   ]
+  },
+  "x-desk": {
+   "routine": "x-desk",
+   "status": "done",
+   "headline": "Anthropic opens applications for its paid Anthropic Residency, the top AI post on X yesterday at 38.7K likes.",
+   "filed": "2026-11-04T02:19:00Z",
+   "note": "Read 27 X posts (17 from searches 1 and 2, 10 from search 3); 5 passed the filter.",
+   "items": [
+    {
+     "title": "OpenAI plans security sprint with Cathedral Systems",
+     "body": "OpenAI is planning its next internal security sprint. Researchers from Cathedral Systems will use OpenAI models with OpenAI teams to test its defenses. OpenAI says defenders must use AI before attackers do.",
+     "why": "AI-driven vulnerability discovery is moving into defender workflows.",
+     "topics": [
+      "OpenAI",
+      "AI tools"
+     ],
+     "source": "X · @OpenAI · 3417 likes · 330 reposts",
+     "url": "https://x.com/OpenAI/status/2117444048227123277",
+     "date": "2026-11-03"
+    },
+    {
+     "title": "AI Engineer event adds 'Raising your Ambition' track",
+     "body": "swyx announced the final track theme for the AI Engineer event that ends 2026. Speakers include builders from Bun, Sourcegraph and StrongDM. The track is called 'Raising your Ambition'.",
+     "why": "The track lineup shows which agent-tooling builders lead the field.",
+     "topics": [
+      "Agents",
+      "AI tools"
+     ],
+     "source": "X · @swyx · 68 likes · 5 reposts",
+     "url": "https://x.com/swyx/status/2117679157035602065",
+     "date": "2026-11-03"
+    }
+   ]
+  },
+  "gadgets": {
+   "routine": "gadgets",
+   "status": "done",
+   "headline": "RedMagic 12 Pro launched globally from $949 with an 8,400mAh battery and Snapdragon 8 Elite Extreme Gen 6.",
+   "filed": "2026-11-04T02:22:13Z",
+   "note": "Few major-brand launches appeared in the 48-hour window; Android Authority did not load.",
+   "items": [
+    {
+     "title": "RedMagic 12 Pro gaming phone launches globally from $949",
+     "body": "The RedMagic 12 Pro is the global version of the 12 Pro+. It has a 6.85-inch 1.5K 185Hz OLED, Snapdragon 8 Elite Extreme Gen 6, up to 16GB RAM and 1TB storage, an 8,400mAh battery and 80W charging. Prices are $949 to $1,199 in North America, €899 to €1,199 in the EU and £799 to £1,059 in the UK. Open sales start November 18, after an early-bird phase from November 12.",
+     "why": "It brings a Snapdragon 8 Elite Extreme Gen 6 and an 8,400mAh battery to global buyers at a set price.",
+     "topics": [
+      "Phones",
+      "Gaming"
+     ],
+     "source": "GSMArena",
+     "url": "https://www.gsmarena.com/redmagic_12_pro_brings_its_rgb_liquid_cooling_and_185hz_screen_to_the_global_market-news-75316.php",
+     "date": "2026-11-03"
+    },
+    {
+     "title": "Samsung upgrades sleep apnea feature on Galaxy Ring and Watch9",
+     "body": "The upgraded feature in the Samsung Health Monitor app shows the severity of detected breathing disruptions. It is now available in the US on the Galaxy Ring and Galaxy Watch9 with Wear OS 7.0 or later, and Korea has approved it. Galaxy Watch7 and Watch8 will get it in future updates. Users need a compatible Galaxy phone and two nights of valid data in 10 days.",
+     "why": "The feature now grades how severe breathing disruptions are, which makes Samsung wearables a stronger health-screening tool.",
+     "topics": [
+      "Wearables",
+      "Samsung"
+     ],
+     "source": "GSMArena",
+     "url": "https://www.gsmarena.com/samsungs_upgraded_sleep_apnea_feature_is_now_available_on_the_galaxy_ring_and_watch9-news-75313.php",
+     "date": "2026-11-03"
+    },
+    {
+     "title": "Xiaomi launches Redmi M100 Pro in China at CNY 2,499",
+     "body": "The Redmi M100 Pro uses a Dimensity 7300-Ultra chip with 12GB RAM and 256GB storage. It has a 6.67-inch curved 120Hz AMOLED, a 50MP main camera, a 5,500mAh battery with 45W charging, IP68, NFC and an IR blaster. It costs CNY 2,499 in China. The source gives no sale date.",
+     "why": "It is a new IP68 mid-range phone with a large battery from a brand that often brings models to India.",
+     "topics": [
+      "Phones"
+     ],
+     "source": "GSMArena",
+     "url": "https://www.gsmarena.com/redmi_m100_pro_launches_with_dimensity_7300ultra_soc_and_triplerear_cameras-news-75308.php",
+     "date": "2026-11-02"
+    },
+    {
+     "title": "Motorola Signature 27 launch set for November 5",
+     "body": "Motorola confirmed November 5 as the launch date for the Signature 27. Confirmed specs include a Snapdragon 8 Elite Extreme Gen 6, a 50MP Sony Lytia 910 main camera with OIS, a 200MP periscope telephoto, Bang & Olufsen audio, and Android 17 with seven years of OS updates. Motorola India's site says the phone is coming this November. Prices are not official yet.",
+     "why": "It is Motorola's top flagship for this season, and Motorola has confirmed it for India.",
+     "topics": [
+      "Phones"
+     ],
+     "source": "GSMArena",
+     "url": "https://gsmarena.com/motorola_confirms_the_exact_signature_27_launch_date-news-75275.php",
+     "date": "2026-10-30"
+    }
+   ]
+  },
+  "tech-pulse": {
+   "routine": "tech-pulse",
+   "status": "done",
+   "headline": "Postman desktop silently installed Claude Code and Codex plugins and an MCP connection, the top developer story on Hacker News.",
+   "filed": "2026-11-04T02:22:13Z",
+   "note": "",
+   "items": [
+    {
+     "title": "Revolut cuts AI coding costs 10x with self-hosted GLM",
+     "body": "Revolut made self-hosted models its default for AI coding instead of mainly using Claude Code and Codex. It now runs Z.ai GLM-5.3 on 56 Nvidia B200 GPUs with NVFP4 quantization. Self-hosting GLM 5.1 cost about $0.30 per million tokens, about a tenth of the commercial tools. Across about 2,000 engineers, Revolut reports 60% better coding time and sub-3-second time to first token at about 256K-token contexts.",
+     "why": "It is a real production case that open models on own GPUs can replace paid coding agents at large scale.",
+     "topics": [
+      "Open models",
+      "AI tools"
+     ],
+     "source": "r/LocalLLaMA · 1,020 upvotes",
+     "url": "https://www.theregister.com/ai-and-ml/2026/11/03/british-fintech-revolut-slashes-ai-coding-costs-10x-by-cutting-out-claude-and-going-self-hosted/5307345",
+     "date": "2026-11-03"
+    },
+    {
+     "title": "Users report Codex model-training setting silently re-enabled",
+     "body": "A Hacker News post says a company disabled data sharing in Codex, then found the setting re-enabled without any opt-in. The control is the \"Improve the model for everyone\" toggle in ChatGPT data controls, and users can also opt out at privacy.openai.com. No official OpenAI response appeared in the thread.",
+     "why": "Teams that send source code to Codex must check that the training opt-out is still off.",
+     "topics": [
+      "OpenAI",
+      "Security"
+     ],
+     "source": "Hacker News · 421 points · 133 comments",
+     "url": "https://news.ycombinator.com/item?id=50352757",
+     "date": "2026-11-03"
+    }
+   ]
+  },
+  "aws-news": {
+   "routine": "aws-news",
+   "status": "done",
+   "headline": "Amazon Connect flows can now call MCP tools through Bedrock AgentCore Gateway without custom Lambda code.",
+   "filed": "2026-11-04T02:22:13Z",
+   "note": "",
+   "items": [
+    {
+     "title": "Amazon Connect flows can call MCP tools through AgentCore Gateway",
+     "body": "Amazon Connect Customer adds an External Tool block to flows. The block calls Model Context Protocol tools through Amazon Bedrock AgentCore Gateway, with no custom Lambda code. It is available in nine Regions, including US East (N. Virginia), Europe (Frankfurt) and Asia Pacific (Singapore and Tokyo).",
+     "why": "Contact-center flows can now use MCP tools directly, so teams can drop custom Lambda glue code.",
+     "topics": [
+      "Agents",
+      "Bedrock"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/connect-flows-mcp-tools/",
+     "date": "2026-11-02"
+    },
+    {
+     "title": "Claude Haiku 5.5 now available in Kiro on GovCloud",
+     "body": "Claude Haiku 5.5, the fastest Claude 5.5 model, is now in the Kiro IDE and CLI in AWS GovCloud (US) Regions. It supports a 1M-token context window. It uses a 0.06x credit multiplier, and requests above 100K tokens bill at 0.3x. Users update and restart Kiro, then select the model.",
+     "why": "US government teams can now use all three Claude 5.5 models in Kiro.",
+     "topics": [
+      "Claude",
+      "Agents"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/kiro-haiku-5-5-aws-govcloud-us/",
+     "date": "2026-11-02"
+    },
+    {
+     "title": "Lambda adds queue mode for self-managed Kafka using share groups",
+     "body": "Lambda self-managed Kafka event source mappings now support a Queue consumption mode. It uses Kafka share groups, so several pollers read one partition at once, with up to 10 concurrent invocations each. It needs share groups enabled, for example Apache Kafka 4.2 or later. It is available in all commercial Regions that support self-managed Kafka mappings.",
+     "why": "Kafka consumers on Lambda can now scale past the partition count without topic changes.",
+     "topics": [
+      "Serverless"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-lambda-queue-kafka-esm/",
+     "date": "2026-11-02"
+    },
+    {
+     "title": "Amazon Inspector now scans AMIs before launch",
+     "body": "Amazon Inspector now scans EC2 AMIs for software vulnerabilities without launching instances or installing software. Scans run continuously across the AMI catalog or as one-time scans from the EC2 console. You can enable it for one account or an organization. It is available in all commercial Regions that offer Inspector.",
+     "why": "Teams can find vulnerable images before any instance starts, with no agent install.",
+     "topics": [
+      "Security"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/ec2-amis-scanned-through-inspector/",
+     "date": "2026-11-02"
+    },
+    {
+     "title": "Amazon RDS adds per-snapshot billing at no charge",
+     "body": "Amazon RDS now shows the cost of each snapshot instead of only totals per instance. It covers all RDS engines, is on by default and has no extra charge. Cost allocation tags on snapshots track spend. It is available in all commercial and GovCloud (US) Regions.",
+     "why": "FinOps teams can now see and tag the cost of each database snapshot.",
+     "topics": [
+      "Cost"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-rds-per-snapshot-billing/",
+     "date": "2026-11-02"
+    },
+    {
+     "title": "Amazon Textract gets new text detection model for 40+ languages",
+     "body": "Textract has an updated text detection model with better accuracy and more robust multilingual table extraction. It supports more than 40 languages, including Arabic, Chinese, Japanese and Russian. It applies to the DetectDocumentText and AnalyzeDocument APIs with no request or response changes, in all Textract Regions.",
+     "why": "Document pipelines get better OCR accuracy and more languages with no code change.",
+     "topics": [
+      "DevOps"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/textract-text-detection-model/",
+     "date": "2026-11-02"
+    }
+   ]
+  },
+  "layoffs": {
+   "routine": "layoffs",
+   "status": "done",
+   "headline": "Canva cut 1,271 roles, 22% of its workforce, in a company-wide restructuring.",
+   "filed": "2026-11-04T02:22:13Z",
+   "note": "TrueUp and Bloomberg pages did not load; GoLayoffs showed no entries after October 28.",
+   "items": [
+    {
+     "title": "Canva cuts 1,271 roles, 22% of staff, in restructuring",
+     "body": "Canva cut 1,271 roles, 22% of its workforce, in a company-wide restructuring. The CEO said the company needs to refound itself. Canva has staff in 37 countries, will move more product teams to Sydney, and will ask some staff to relocate to central hubs. Revenue growth is expected at about 20% in 2026, down from 38% in 2025.",
+     "why": "A major design SaaS company cut deep as growth slows and AI compute costs rise.",
+     "topics": [
+      "Layoffs",
+      "Startups"
+     ],
+     "source": "Trending Topics (citing Canva staff note); Bloomberg",
+     "url": "https://www.trendingtopics.eu/canva-layoffs-ai/",
+     "date": "2026-11-03",
+     "company": "Canva",
+     "count": 1271,
+     "pct": 22,
+     "country": "Global",
+     "location": "Sydney, Australia; staff in 37 countries",
+     "industry": "Enterprise software",
+     "kind": "layoff"
+    },
+    {
+     "title": "Amazon WARN filing lists 95 job cuts in Washington",
+     "body": "Amazon filed a WARN notice with Washington's Employment Security Department for about 95 jobs at Washington sites, plus 15 remote workers in the state. Sites include Seattle, Bellevue, Redmond, Pasco and Sumner. Separations run from December 7, 2026 to January 25, 2027. The cuts are part of Amazon's previously announced layoffs.",
+     "why": "The filing shows where Amazon's announced cuts land in its home state.",
+     "topics": [
+      "Layoffs",
+      "Big tech"
+     ],
+     "source": "KOMO News",
+     "url": "https://komonews.com/newsletter-daily/amazon-tech-seattle-employment-to-cut-95-jobs-across-multiple-washington-locations-redmond-bellevue-pasco-in-december-and-january",
+     "date": "2026-11-03",
+     "company": "Amazon",
+     "count": 95,
+     "pct": null,
+     "country": "United States",
+     "location": "Seattle, Bellevue, Redmond, Pasco, Sumner, Washington",
+     "industry": "Big Tech",
+     "kind": "layoff"
+    },
+    {
+     "title": "AI customer-service startup Front confirms job cuts",
+     "body": "Front, a San Francisco AI customer service startup, cut jobs to build a more sustainable business, the CEO said on LinkedIn. The company did not give a number. A California WARN notice dated October 27 lists 53 jobs. Front lists 500 to 1,000 employees on LinkedIn.",
+     "why": "AI startups are also cutting staff to reach a sustainable business.",
+     "topics": [
+      "Layoffs",
+      "AI companies",
+      "Startups"
+     ],
+     "source": "AI Commission (citing KRON4); California EDD WARN",
+     "url": "https://aicommission.org/2026/11/ai-startup-front-cuts-jobs-in-push-for-a-more-sustainable-business/",
+     "date": "2026-11-03",
+     "company": "Frontapp",
+     "count": 53,
+     "pct": null,
+     "country": "United States",
+     "location": "San Francisco, California",
+     "industry": "AI companies",
+     "kind": "layoff"
+    }
+   ]
+  }
+ },
+ "briefing": "Good morning. This is The Nexos Daily for Wednesday, the fourth of November.\n\nThe lead story is a security alert. Users report that the Postman desktop app silently installed Claude Code and Codex plugins and an MCP connection. An API client that changes coding-agent settings and hooks without asking is a supply-chain and data risk. Check the agent plugins on your developer machines. Users also report that the Codex setting for model training was switched back on, so check that your opt-out is still off.\n\nIn the Claude world, the Message Threads beta for the Messages API keeps long conversations on the server, so agent loops send only new messages. Claude text output now carries Anthropic's text watermark. Anthropic opened applications for its paid Anthropic Residency, for engineers without a machine learning background. It was the top AI post on X, with thirty-eight thousand likes. New official Claude Code plugins come from Railway and Pinecone, and DiDi open-sourced HelixHarness, a plugin that feeds team rules to agents.\n\nModels and research: the claim that GPT six Astra can read and edit raw model weights drew a strong critique on Hacker News, which says the results mix different methods. A local Qwen three point eight twenty-seven billion model on a laptop repeated part of the result. Revolut says it cut its AI coding costs by ten times with a self-hosted GLM model. And OpenAI built a Git backend called Pando that cuts push latency by about eighty percent for agent traffic.\n\nChips: Qualcomm validated a stacked memory called HBC, with more than five times the bandwidth per watt of HBM4, for its Dragonfly AI two fifty accelerator. A new paper, FLAMIA, uses FP8 and FP4 attention to train faster on Blackwell GPUs.\n\nFor AWS engineers: Amazon Connect flows can now call MCP tools through the Bedrock AgentCore Gateway, with no custom Lambda code. Amazon Inspector now scans AMIs before launch. Lambda adds a queue mode for self-managed Kafka. And Claude Haiku five point five is now in Kiro on GovCloud.\n\nLayoffs: Canva cut one thousand two hundred seventy-one roles, about twenty-two percent of its staff. An Amazon WARN filing lists ninety-five cuts in Washington.\n\nIn gadgets, the RedMagic twelve Pro gaming phone launched globally from nine hundred forty-nine dollars, with an eight thousand four hundred milliamp-hour battery.\n\nOn the trending page, the top new repo is agent-autoloop, a background runner for command-line coding agents, with five hundred seventy-eight stars on its first day.\n\nThat is the briefing. Every story links to its source in the paper. Have a good day."
+}

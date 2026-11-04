@@ -1,0 +1,339 @@
+{
+ "date": "2026-11-04",
+ "generated": "2026-11-04T02:52:02Z",
+ "headline": "KKKKhazix/agent-autoloop, a background runner for command-line coding agents, gained 578 stars on its first day.",
+ "periods": {
+  "daily": {
+   "topics": [
+    "Agent skills",
+    "Background coding agents",
+    "Agent harnesses",
+    "Agent memory"
+   ],
+   "repos": [
+    {
+     "repo": "KKKKhazix/agent-autoloop",
+     "url": "https://github.com/KKKKhazix/agent-autoloop",
+     "description": "Runs a command-line coding agent in the background so it picks up and follows tasks, and asks the user only for unclear decisions.",
+     "kind": "Coding agent",
+     "language": "TypeScript",
+     "stars": 578,
+     "gained": 578,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "RUC-NLPIR/CoworkOS",
+     "url": "https://github.com/RUC-NLPIR/CoworkOS",
+     "description": "A cowork harness for long-horizon agent tasks with human-in-the-loop steps.",
+     "kind": "Agent framework",
+     "language": "JavaScript",
+     "stars": 90,
+     "gained": 90,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "kubai087/kubai-icons",
+     "url": "https://github.com/kubai087/kubai-icons",
+     "description": "A Claude skill that draws icons in one consistent style, as animated or static SVG.",
+     "kind": "Skill",
+     "language": "HTML",
+     "stars": 85,
+     "gained": 85,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "capri-com/Capri-AI",
+     "url": "https://github.com/capri-com/Capri-AI",
+     "description": "A desktop AI agent that works with Claude Code, Codex and other coding agents.",
+     "kind": "Coding agent",
+     "language": "C#",
+     "stars": 83,
+     "gained": 83,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "abouchedidxcode/open-source-hands",
+     "url": "https://github.com/abouchedidxcode/open-source-hands",
+     "description": "Browser hand-tracking games with MediaPipe, built so a coding agent can make new ones.",
+     "kind": "Other",
+     "language": "TypeScript",
+     "stars": 64,
+     "gained": 64,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "aligh98/tts-director",
+     "url": "https://github.com/aligh98/tts-director",
+     "description": "An agent skill that rewrites scripts for text-to-speech, with tag budgets, a linter and A/B tests.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 36,
+     "gained": 36,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "deanyool/lorevault",
+     "url": "https://github.com/deanyool/lorevault",
+     "description": "Turns coding-agent chat history into an Obsidian or Logseq knowledge graph of decisions, rules and TODOs.",
+     "kind": "MCP server",
+     "language": "Python",
+     "stars": 23,
+     "gained": 23,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "Vumb-VibeCoder/hook-everything",
+     "url": "https://github.com/Vumb-VibeCoder/hook-everything",
+     "description": "AI skills for natural-sounding copy, plus a zero-dependency scanner for AI slop.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 16,
+     "gained": 16,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "Kemerd/claude-hardware-in-the-loop",
+     "url": "https://github.com/Kemerd/claude-hardware-in-the-loop",
+     "description": "A Claude Code skill and swarm method for agent-driven hardware-in-the-loop engineering with KiCad.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 14,
+     "gained": 14,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "spider12223/exterminator",
+     "url": "https://github.com/spider12223/exterminator",
+     "description": "A Claude Code and Codex skill that fixes a bug at its root cause and then finds similar bugs.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 12,
+     "gained": 12,
+     "source": "GitHub search"
+    }
+   ]
+  },
+  "weekly": {
+   "topics": [
+    "Agent skills",
+    "Autonomous agents",
+    "Design skills",
+    "On-device agents",
+    "MCP servers"
+   ],
+   "repos": [
+    {
+     "repo": "deepseek-ai/dsh-superagent-prototype",
+     "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+     "description": "DeepSeek's prototype of a more autonomous agent system.",
+     "kind": "Agent framework",
+     "language": "TypeScript",
+     "stars": 16973,
+     "gained": 16973,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "storytold/craft-anything",
+     "url": "https://github.com/storytold/craft-anything",
+     "description": "A Rust tool to study how any software works and build your own version.",
+     "kind": "Dev tool",
+     "language": "Rust",
+     "stars": 8601,
+     "gained": 8601,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "heydamir/unslop",
+     "url": "https://github.com/heydamir/unslop",
+     "description": "A Claude skill that turns generic AI-looking UI into a designed interface.",
+     "kind": "Skill",
+     "language": "JavaScript",
+     "stars": 7594,
+     "gained": 7594,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "wangzan101/Mika",
+     "url": "https://github.com/wangzan101/Mika",
+     "description": "An on-device Android AI agent that operates apps and the web for the user.",
+     "kind": "Agent framework",
+     "language": "Kotlin",
+     "stars": 6105,
+     "gained": 6105,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "patch-gg/pixelfx",
+     "url": "https://github.com/patch-gg/pixelfx",
+     "description": "244 pixel-art effects as small code pieces, with a Claude Code skill to make new ones.",
+     "kind": "Skill",
+     "language": "JavaScript",
+     "stars": 4172,
+     "gained": 4172,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "lexifina/global-law",
+     "url": "https://github.com/lexifina/global-law",
+     "description": "Laws of many countries tracked in git, with provision history and MCP access.",
+     "kind": "MCP server",
+     "language": "HTML",
+     "stars": 1755,
+     "gained": 1755,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "elvarofficial/teardown",
+     "url": "https://github.com/elvarofficial/teardown",
+     "description": "A Claude Code skill that turns a machine into a 3D simulator you can take apart.",
+     "kind": "Skill",
+     "language": "JavaScript",
+     "stars": 1670,
+     "gained": 1670,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "caru-ini/stack-diagram",
+     "url": "https://github.com/caru-ini/stack-diagram",
+     "description": "An agent skill that turns a one-sentence stack description into an architecture diagram with official logos.",
+     "kind": "Skill",
+     "language": "TypeScript",
+     "stars": 1558,
+     "gained": 1558,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "mromidev/claude-animated-shorts",
+     "url": "https://github.com/mromidev/claude-animated-shorts",
+     "description": "A Claude skill for animated story shorts built with three.js and Remotion.",
+     "kind": "Skill",
+     "language": "TypeScript",
+     "stars": 1243,
+     "gained": 1243,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "NiazMorshed2007/reanimate",
+     "url": "https://github.com/NiazMorshed2007/reanimate",
+     "description": "A Claude Code skill that rebuilds an animation frame by frame and checks the copy matches.",
+     "kind": "Skill",
+     "language": "JavaScript",
+     "stars": 1104,
+     "gained": 1104,
+     "source": "GitHub search"
+    }
+   ]
+  },
+  "monthly": {
+   "topics": [
+    "Agent skills",
+    "Inference infra",
+    "Autonomous agents",
+    "GPU tuning",
+    "Agent cost control"
+   ],
+   "repos": [
+    {
+     "repo": "Gathin23/cleanyourtv",
+     "url": "https://github.com/Gathin23/cleanyourtv",
+     "description": "Removes bloat from Android and Google TV over Wi-Fi and adds a clean home screen.",
+     "kind": "Other",
+     "language": "Python",
+     "stars": 51415,
+     "gained": 51415,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "deepseek-ai/DeepInfer",
+     "url": "https://github.com/deepseek-ai/DeepInfer",
+     "description": "A high-performance, large-scale inference framework for DeepSeek models.",
+     "kind": "AI infra",
+     "language": "Python",
+     "stars": 25244,
+     "gained": 25244,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "wheresryan22/anatomy",
+     "url": "https://github.com/wheresryan22/anatomy",
+     "description": "An agent skill that makes interactive isometric illustrations of machines and complex systems.",
+     "kind": "Skill",
+     "language": "JavaScript",
+     "stars": 24484,
+     "gained": 24484,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "deepseek-ai/dsh-superagent-prototype",
+     "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+     "description": "DeepSeek's prototype of a more autonomous agent system.",
+     "kind": "Agent framework",
+     "language": "TypeScript",
+     "stars": 16974,
+     "gained": 16974,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "Zagitta/gpu-unlock",
+     "url": "https://github.com/Zagitta/gpu-unlock",
+     "description": "Claims to unlock up to 2x tensor throughput for AI on GeForce 20, 30 and 40 series cards.",
+     "kind": "AI infra",
+     "language": "C",
+     "stars": 15708,
+     "gained": 15708,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "tangency-labs/solidcraft",
+     "url": "https://github.com/tangency-labs/solidcraft",
+     "description": "An open-source parametric 3D CAD app in Rust, with automation through MCP.",
+     "kind": "MCP server",
+     "language": "Rust",
+     "stars": 13426,
+     "gained": 13426,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "heydamir/unslop",
+     "url": "https://github.com/heydamir/unslop",
+     "description": "A Claude skill that turns generic AI-looking UI into a designed interface.",
+     "kind": "Skill",
+     "language": "JavaScript",
+     "stars": 7594,
+     "gained": 7594,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "wangzan101/Mika",
+     "url": "https://github.com/wangzan101/Mika",
+     "description": "An on-device Android AI agent that operates apps and the web for the user.",
+     "kind": "Agent framework",
+     "language": "Kotlin",
+     "stars": 6105,
+     "gained": 6105,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "amosblomqvist/learnharness",
+     "url": "https://github.com/amosblomqvist/learnharness",
+     "description": "An agent harness built to help people learn difficult subjects.",
+     "kind": "Agent framework",
+     "language": "TypeScript",
+     "stars": 5210,
+     "gained": 5210,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "microsoft/TokenEconomizer",
+     "url": "https://github.com/microsoft/TokenEconomizer",
+     "description": "Microsoft research code for black-box cost control of coding agents based on past runs.",
+     "kind": "AI infra",
+     "language": "Python",
+     "stars": 4683,
+     "gained": 4683,
+     "source": "GitHub search"
+    }
+   ]
+  }
+ }
+}

@@ -273,7 +273,7 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "reported": {
     "2026-10-25": 20182,
     "2026-10-26": 20636,
@@ -283,7 +283,8 @@
     "2026-10-31": 23044,
     "2026-11-01": 23381,
     "2026-11-02": 23807,
-    "2026-11-03": 24144
+    "2026-11-03": 24144,
+    "2026-11-04": 24484
    }
   },
   "yihui-dev/awesome-opus5-5-videos": {
@@ -307,7 +308,7 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "reported": {
     "2026-10-25": 10112,
     "2026-10-26": 10499,
@@ -317,7 +318,8 @@
     "2026-10-31": 12390,
     "2026-11-01": 12652,
     "2026-11-02": 12924,
-    "2026-11-03": 13196
+    "2026-11-03": 13196,
+    "2026-11-04": 13426
    }
   },
   "rehan-remade/universal-modder": {
@@ -1221,9 +1223,10 @@
    "kind": "Dev tool",
    "description": "Builds evidence-traced threat models for AI coding agents.",
    "seen_in": [
-    "Trending"
+    "Trending",
+    "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-01",
+   "last_seen": "2026-11-04",
    "reported": {
     "2026-10-29": 83,
     "2026-11-01": 310
@@ -1371,14 +1374,15 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "reported": {
     "2026-10-29": 3635,
     "2026-10-30": 4032,
     "2026-10-31": 4305,
     "2026-11-01": 4546,
     "2026-11-02": 4740,
-    "2026-11-03": 4983
+    "2026-11-03": 4983,
+    "2026-11-04": 5210
    }
   },
   "guilhermealvestech/carrossel-skill": {
@@ -1448,12 +1452,13 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "reported": {
     "2026-10-30": 26,
     "2026-11-01": 2802,
     "2026-11-02": 3966,
-    "2026-11-03": 5386
+    "2026-11-03": 5386,
+    "2026-11-04": 6105
    }
   },
   "yc-software/minecraft-agent-harness": {
@@ -1576,11 +1581,12 @@
     "Trending",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "reported": {
     "2026-10-31": 339,
     "2026-11-02": 2682,
-    "2026-11-03": 3553
+    "2026-11-03": 3553,
+    "2026-11-04": 4172
    }
   },
   "Pluviobyte/douyin-comments": {
@@ -1675,11 +1681,12 @@
     "Trending",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "reported": {
     "2026-10-31": 22,
     "2026-11-02": 945,
-    "2026-11-03": 1285
+    "2026-11-03": 1285,
+    "2026-11-04": 1670
    }
   },
   "Hybirdss/kicad-cli-extended": {
@@ -1732,11 +1739,12 @@
     "Trending",
     "Pulse"
    ],
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "reported": {
     "2026-11-01": 2840,
     "2026-11-02": 8079,
-    "2026-11-03": 13505
+    "2026-11-03": 13505,
+    "2026-11-04": 16974
    }
   },
   "wiva-hq/CodeRail": {
@@ -1893,11 +1901,12 @@
     "Trending",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "reported": {
     "2026-11-01": 3574,
     "2026-11-02": 4933,
-    "2026-11-03": 6339
+    "2026-11-03": 6339,
+    "2026-11-04": 7594
    }
   },
   "ninjahawk/livenerf": {
@@ -1917,10 +1926,11 @@
     "Claude Ecosystem",
     "Trending"
    ],
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "reported": {
     "2026-11-02": 743,
-    "2026-11-03": 962
+    "2026-11-03": 962,
+    "2026-11-04": 1104
    }
   },
   "rsaryev/tokendoctor": {
@@ -1939,10 +1949,11 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "reported": {
     "2026-11-02": 429,
-    "2026-11-03": 1226
+    "2026-11-03": 1226,
+    "2026-11-04": 1558
    }
   },
   "Balanov/uncut": {
@@ -1976,10 +1987,11 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "reported": {
     "2026-11-02": 194,
-    "2026-11-03": 659
+    "2026-11-03": 659,
+    "2026-11-04": 1243
    }
   },
   "elhajahmadj/offline-emergency-library": {
@@ -2074,10 +2086,11 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "reported": {
     "2026-11-02": 3976,
-    "2026-11-03": 4491
+    "2026-11-03": 4491,
+    "2026-11-04": 4683
    }
   },
   "jarrodwatts/claude-hud": {
@@ -2264,9 +2277,10 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "reported": {
-    "2026-11-03": 50472
+    "2026-11-03": 50472,
+    "2026-11-04": 51415
    }
   },
   "alchaincyf/huashu-art-motion": {
@@ -2289,6 +2303,183 @@
     "Claude Ecosystem"
    ],
    "last_seen": "2026-11-03"
+  },
+  "KKKKhazix/agent-autoloop": {
+   "first_seen": "2026-11-04",
+   "kind": "Coding agent",
+   "description": "Runs a command-line coding agent in the background so it picks up and follows tasks, and asks the user only for unclear decisions.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-04",
+   "reported": {
+    "2026-11-04": 578
+   }
+  },
+  "RUC-NLPIR/CoworkOS": {
+   "first_seen": "2026-11-04",
+   "kind": "Agent framework",
+   "description": "A cowork harness for long-horizon agent tasks with human-in-the-loop steps.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-04",
+   "reported": {
+    "2026-11-04": 90
+   }
+  },
+  "kubai087/kubai-icons": {
+   "first_seen": "2026-11-04",
+   "kind": "Skill",
+   "description": "A Claude skill that draws icons in one consistent style, as animated or static SVG.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-04",
+   "reported": {
+    "2026-11-04": 85
+   }
+  },
+  "capri-com/Capri-AI": {
+   "first_seen": "2026-11-04",
+   "kind": "Coding agent",
+   "description": "A desktop AI agent that works with Claude Code, Codex and other coding agents.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-04",
+   "reported": {
+    "2026-11-04": 83
+   }
+  },
+  "abouchedidxcode/open-source-hands": {
+   "first_seen": "2026-11-04",
+   "kind": "Other",
+   "description": "Browser hand-tracking games with MediaPipe, built so a coding agent can make new ones.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-04",
+   "reported": {
+    "2026-11-04": 64
+   }
+  },
+  "aligh98/tts-director": {
+   "first_seen": "2026-11-04",
+   "kind": "Skill",
+   "description": "An agent skill that rewrites scripts for text-to-speech, with tag budgets, a linter and A/B tests.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-04",
+   "reported": {
+    "2026-11-04": 36
+   }
+  },
+  "deanyool/lorevault": {
+   "first_seen": "2026-11-04",
+   "kind": "MCP server",
+   "description": "Turns coding-agent chat history into an Obsidian or Logseq knowledge graph of decisions, rules and TODOs.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-04",
+   "reported": {
+    "2026-11-04": 23
+   }
+  },
+  "Vumb-VibeCoder/hook-everything": {
+   "first_seen": "2026-11-04",
+   "kind": "Skill",
+   "description": "AI skills for natural-sounding copy, plus a zero-dependency scanner for AI slop.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-04",
+   "reported": {
+    "2026-11-04": 16
+   }
+  },
+  "Kemerd/claude-hardware-in-the-loop": {
+   "first_seen": "2026-11-04",
+   "kind": "Skill",
+   "description": "A Claude Code skill and swarm method for agent-driven hardware-in-the-loop engineering with KiCad.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-04",
+   "reported": {
+    "2026-11-04": 14
+   }
+  },
+  "spider12223/exterminator": {
+   "first_seen": "2026-11-04",
+   "kind": "Skill",
+   "description": "A Claude Code and Codex skill that fixes a bug at its root cause and then finds similar bugs.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-04",
+   "reported": {
+    "2026-11-04": 12
+   }
+  },
+  "storytold/craft-anything": {
+   "first_seen": "2026-11-04",
+   "kind": "Dev tool",
+   "description": "A Rust tool to study how any software works and build your own version.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-04",
+   "reported": {
+    "2026-11-04": 8601
+   }
+  },
+  "lexifina/global-law": {
+   "first_seen": "2026-11-04",
+   "kind": "MCP server",
+   "description": "Laws of many countries tracked in git, with provision history and MCP access.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-04",
+   "reported": {
+    "2026-11-04": 1755
+   }
+  },
+  "deepseek-ai/DeepInfer": {
+   "first_seen": "2026-11-04",
+   "kind": "AI infra",
+   "description": "A high-performance, large-scale inference framework for DeepSeek models.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-04",
+   "reported": {
+    "2026-11-04": 25244
+   }
+  },
+  "Zagitta/gpu-unlock": {
+   "first_seen": "2026-11-04",
+   "kind": "AI infra",
+   "description": "Claims to unlock up to 2x tensor throughput for AI on GeForce 20, 30 and 40 series cards.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-04",
+   "reported": {
+    "2026-11-04": 15708
+   }
+  },
+  "postmanlabs/postman-app-support": {
+   "first_seen": "2026-11-04",
+   "kind": "Other",
+   "description": "Postman silently auto-installs AI plugins, users report",
+   "seen_in": [
+    "AI"
+   ],
+   "last_seen": "2026-11-04"
   }
  }
 }
