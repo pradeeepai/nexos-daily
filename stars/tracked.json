@@ -273,7 +273,7 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-05",
    "reported": {
     "2026-10-25": 20182,
     "2026-10-26": 20636,
@@ -284,7 +284,8 @@
     "2026-11-01": 23381,
     "2026-11-02": 23807,
     "2026-11-03": 24144,
-    "2026-11-04": 24484
+    "2026-11-04": 24484,
+    "2026-11-05": 24909
    }
   },
   "yihui-dev/awesome-opus5-5-videos": {
@@ -308,7 +309,7 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-05",
    "reported": {
     "2026-10-25": 10112,
     "2026-10-26": 10499,
@@ -319,7 +320,8 @@
     "2026-11-01": 12652,
     "2026-11-02": 12924,
     "2026-11-03": 13196,
-    "2026-11-04": 13426
+    "2026-11-04": 13426,
+    "2026-11-05": 13666
    }
   },
   "rehan-remade/universal-modder": {
@@ -1199,14 +1201,15 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-05",
    "reported": {
     "2026-10-28": 4023,
     "2026-10-29": 4066,
     "2026-10-30": 4099,
     "2026-10-31": 4132,
     "2026-11-01": 4160,
-    "2026-11-02": 4206
+    "2026-11-02": 4206,
+    "2026-11-05": 4383
    }
   },
   "haplollc/Vesalius": {
@@ -1374,7 +1377,7 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-05",
    "reported": {
     "2026-10-29": 3635,
     "2026-10-30": 4032,
@@ -1382,7 +1385,8 @@
     "2026-11-01": 4546,
     "2026-11-02": 4740,
     "2026-11-03": 4983,
-    "2026-11-04": 5210
+    "2026-11-04": 5210,
+    "2026-11-05": 5395
    }
   },
   "guilhermealvestech/carrossel-skill": {
@@ -1452,13 +1456,14 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-05",
    "reported": {
     "2026-10-30": 26,
     "2026-11-01": 2802,
     "2026-11-02": 3966,
     "2026-11-03": 5386,
-    "2026-11-04": 6105
+    "2026-11-04": 6105,
+    "2026-11-05": 6679
    }
   },
   "yc-software/minecraft-agent-harness": {
@@ -1531,10 +1536,11 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-31",
+   "last_seen": "2026-11-05",
    "reported": {
     "2026-10-30": 3242,
-    "2026-10-31": 3324
+    "2026-10-31": 3324,
+    "2026-11-05": 3900
    }
   },
   "heygen-com/hyperframes": {
@@ -1581,12 +1587,13 @@
     "Trending",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-05",
    "reported": {
     "2026-10-31": 339,
     "2026-11-02": 2682,
     "2026-11-03": 3553,
-    "2026-11-04": 4172
+    "2026-11-04": 4172,
+    "2026-11-05": 4757
    }
   },
   "Pluviobyte/douyin-comments": {
@@ -1681,12 +1688,13 @@
     "Trending",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-05",
    "reported": {
     "2026-10-31": 22,
     "2026-11-02": 945,
     "2026-11-03": 1285,
-    "2026-11-04": 1670
+    "2026-11-04": 1670,
+    "2026-11-05": 1919
    }
   },
   "Hybirdss/kicad-cli-extended": {
@@ -1739,12 +1747,13 @@
     "Trending",
     "Pulse"
    ],
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-05",
    "reported": {
     "2026-11-01": 2840,
     "2026-11-02": 8079,
     "2026-11-03": 13505,
-    "2026-11-04": 16974
+    "2026-11-04": 16974,
+    "2026-11-05": 18649
    }
   },
   "wiva-hq/CodeRail": {
@@ -1901,12 +1910,13 @@
     "Trending",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-05",
    "reported": {
     "2026-11-01": 3574,
     "2026-11-02": 4933,
     "2026-11-03": 6339,
-    "2026-11-04": 7594
+    "2026-11-04": 7594,
+    "2026-11-05": 8723
    }
   },
   "ninjahawk/livenerf": {
@@ -1926,11 +1936,12 @@
     "Claude Ecosystem",
     "Trending"
    ],
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-05",
    "reported": {
     "2026-11-02": 743,
     "2026-11-03": 962,
-    "2026-11-04": 1104
+    "2026-11-04": 1104,
+    "2026-11-05": 1178
    }
   },
   "rsaryev/tokendoctor": {
@@ -1949,11 +1960,12 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-05",
    "reported": {
     "2026-11-02": 429,
     "2026-11-03": 1226,
-    "2026-11-04": 1558
+    "2026-11-04": 1558,
+    "2026-11-05": 1760
    }
   },
   "Balanov/uncut": {
@@ -1963,9 +1975,10 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-05",
    "reported": {
-    "2026-11-02": 253
+    "2026-11-02": 253,
+    "2026-11-05": 601
    }
   },
   "mylea1/phongent": {
@@ -1987,11 +2000,12 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-05",
    "reported": {
     "2026-11-02": 194,
     "2026-11-03": 659,
-    "2026-11-04": 1243
+    "2026-11-04": 1243,
+    "2026-11-05": 1535
    }
   },
   "elhajahmadj/offline-emergency-library": {
@@ -2086,11 +2100,12 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-05",
    "reported": {
     "2026-11-02": 3976,
     "2026-11-03": 4491,
-    "2026-11-04": 4683
+    "2026-11-04": 4683,
+    "2026-11-05": 4780
    }
   },
   "jarrodwatts/claude-hud": {
@@ -2311,9 +2326,10 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-05",
    "reported": {
-    "2026-11-04": 578
+    "2026-11-04": 578,
+    "2026-11-05": 2611
    }
   },
   "RUC-NLPIR/CoworkOS": {
@@ -2480,6 +2496,147 @@
     "AI"
    ],
    "last_seen": "2026-11-04"
+  },
+  "Balanov/latch": {
+   "first_seen": "2026-11-05",
+   "kind": "AI infra",
+   "description": "A zero-dependency HTTPS contract that lets any agent quote, approve, commit and get a receipt from a service.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-05",
+   "reported": {
+    "2026-11-05": 224
+   }
+  },
+  "relayworkslab/relayworks-recovery": {
+   "first_seen": "2026-11-05",
+   "kind": "AI infra",
+   "description": "Resumes failed AI agent jobs from the last checkpoint and keeps verified completed work.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-05",
+   "reported": {
+    "2026-11-05": 68
+   }
+  },
+  "jihe520/agent-graph": {
+   "first_seen": "2026-11-05",
+   "kind": "Dev tool",
+   "description": "An interaction experiment that replaces the chat session with a git graph as the main view of an agent dev environment.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-05",
+   "reported": {
+    "2026-11-05": 43
+   }
+  },
+  "TngSHoO/agentcase-lab": {
+   "first_seen": "2026-11-05",
+   "kind": "Dev tool",
+   "description": "Replays AI agent failures and helps find their root cause.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-05",
+   "reported": {
+    "2026-11-05": 31
+   }
+  },
+  "mohamedbenhandil/kie-claude-skill": {
+   "first_seen": "2026-11-05",
+   "kind": "Skill",
+   "description": "A Claude Code skill that generates images, video, music and voice through KIE.ai models.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-05",
+   "reported": {
+    "2026-11-05": 26
+   }
+  },
+  "iampedii/herdr-redline": {
+   "first_seen": "2026-11-05",
+   "kind": "Plugin",
+   "description": "Code review for GitLab MRs and GitHub PRs in a git worktree beside an AI agent, inside the Herdr app.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-05",
+   "reported": {
+    "2026-11-05": 24
+   }
+  },
+  "almonk/rexpad": {
+   "first_seen": "2026-11-05",
+   "kind": "Dev tool",
+   "description": "A live to-do list for coding agents, drawn in a terminal pane with the kitty graphics protocol.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-05",
+   "reported": {
+    "2026-11-05": 20
+   }
+  },
+  "TIGER-AI-Lab/WebsiteBench": {
+   "first_seen": "2026-11-05",
+   "kind": "Other",
+   "description": "A benchmark that tests whether AI agents can rebuild websites by exploring them in a browser.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-05",
+   "reported": {
+    "2026-11-05": 13
+   }
+  },
+  "nestjs/mcp": {
+   "first_seen": "2026-11-05",
+   "kind": "MCP server",
+   "description": "An official NestJS module for building MCP servers in Node.js.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-05",
+   "reported": {
+    "2026-11-05": 9
+   }
+  },
+  "tobi/wrapvm": {
+   "first_seen": "2026-11-05",
+   "kind": "AI infra",
+   "description": "A desktop VM image for agents with XFCE, a shared Chrome and agent browser and desktop tools.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-05",
+   "reported": {
+    "2026-11-05": 8
+   }
+  },
+  "ccch1mneyyy/dsh-Go": {
+   "first_seen": "2026-11-05",
+   "kind": "Coding agent",
+   "description": "Runs the DeepSeek Harness on a phone and can control a computer remotely.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-05",
+   "reported": {
+    "2026-11-05": 9659
+   }
+  },
+  "BekirEfeoglu/proof-of-green": {
+   "first_seen": "2026-11-05",
+   "kind": "Hook",
+   "description": "proof-of-green hook blocks 'done' until tests pass",
+   "seen_in": [
+    "Claude Ecosystem"
+   ],
+   "last_seen": "2026-11-05"
   }
  }
 }

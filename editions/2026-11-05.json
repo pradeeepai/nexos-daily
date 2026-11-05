@@ -1,0 +1,434 @@
+{
+ "date": "2026-11-05",
+ "generated": "2026-11-05T02:51:49Z",
+ "sections": {
+  "tech-news": {
+   "routine": "tech-news",
+   "status": "done",
+   "headline": "Anthropic releases FlashProve, an open-source prototype that proves which model produced a response.",
+   "filed": "2026-11-05T02:19:05Z",
+   "note": "Claude Duet was excluded because it launched on October 21.",
+   "items": [
+    {
+     "title": "Anthropic releases FlashProve for provable LLM inference",
+     "body": "FlashProve uses a zkSNARK to prove that a response came from a committed model without revealing the weights. On Llama 4 Maverick (400B MoE, 4-bit) it proves about 110 tokens/s on one H100, with 70-95x the GPU time of vLLM. Verification takes about 17 seconds on a 24-thread CPU. Code and Lean proofs are Apache 2.0; it is a research prototype limited to 1,024-token context and greedy decoding.",
+     "why": "Teams can check that an API response came from the committed model, which helps audit, compliance and model-substitution detection.",
+     "topics": [
+      "Claude",
+      "AI research",
+      "Security"
+     ],
+     "source": "Anthropic Research",
+     "url": "https://www.anthropic.com/research/provable-inference",
+     "date": "2026-11-03",
+     "also": [
+      {
+       "section": "Chips & Research",
+       "source": "Anthropic Research",
+       "url": "https://www.anthropic.com/research/provable-inference"
+      },
+      {
+       "section": "Pulse",
+       "source": "Hacker News · 166 points · 83 comments",
+       "url": "https://www.anthropic.com/research/provable-inference"
+      },
+      {
+       "section": "Trending on X",
+       "source": "X · @AnthropicAI · 5034 likes · 525 reposts",
+       "url": "https://x.com/AnthropicAI/status/2117710942826123294"
+      }
+     ]
+    },
+    {
+     "title": "Claude finds two critical Xen hypervisor VM-escape flaws",
+     "body": "Xen advisory XSA-523 covers CVE-2026-102703 and CVE-2026-102704 in the grant-copy operation. A malicious guest can read and write memory of other VMs, including dom0. The Xen Project credits Anthropic's Claude with the discovery. Patches exist for supported branches; XCP-ng 8.3 and Qubes 4.3 shipped fixes, and there is no other mitigation.",
+     "why": "Hosts on Xen 4.6 or later, such as XCP-ng and Qubes, need patches and reboots now.",
+     "topics": [
+      "Claude",
+      "Security",
+      "DevOps"
+     ],
+     "source": "The Hacker News",
+     "url": "https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html",
+     "date": "2026-11-04"
+    },
+    {
+     "title": "Claude text watermark extends to Mythos 5, Opus 4.7, Sonnet 4.6",
+     "body": "From November 3, text from Claude Mythos 5, Opus 4.7 and Sonnet 4.6 carries Anthropic's text watermark. On Sonnet 4.6, requests that set temperature, top_p or top_k to non-default values might not carry it. Users cannot opt out. Detection is limited to eligible organisations under EU law, such as regulators and researchers.",
+     "why": "Generated text from these models now carries a detectable mark, and sampling settings can affect it on Sonnet 4.6.",
+     "topics": [
+      "Claude",
+      "AI policy"
+     ],
+     "source": "Claude Platform release notes",
+     "url": "https://platform.claude.com/docs/en/release-notes/overview",
+     "date": "2026-11-03"
+    },
+    {
+     "title": "Claude now auto-connects company plugins for Team and Enterprise",
+     "body": "Team and Enterprise admins can set up company plugins for Claude. Teammates are connected automatically the first time they use a plugin. The change removes the one-by-one sign-in step.",
+     "why": "Admins can roll out plugins once, so engineers no longer sign in to each plugin by hand.",
+     "topics": [
+      "Claude",
+      "Claude Code",
+      "AI tools"
+     ],
+     "source": "X · @bcherny",
+     "url": "https://x.com/bcherny/status/2117693181651542387",
+     "date": "2026-11-04",
+     "also": [
+      {
+       "section": "Claude Ecosystem",
+       "source": "X · @bcherny · 2696 likes",
+       "url": "https://x.com/bcherny/status/2117693181651542387"
+      },
+      {
+       "section": "Trending on X",
+       "source": "X · @bcherny · 2696 likes · 101 reposts",
+       "url": "https://x.com/bcherny/status/2117693181651542387"
+      }
+     ]
+    },
+    {
+     "title": "Moonshot publishes Kimi K3.1 Pro open weights",
+     "body": "Kimi K3.1 Pro is a 2.8T-parameter MoE with 104B active parameters and a 1,048,576-token context. It takes text and image input and ships as an MXFP4-weight, MXFP8-activation checkpoint under a custom Kimi license. Self-reported scores: 65.7 on Terminal-Bench 4.0 (Claude Opus 5.5: 66.4), 94.2 on GPQA-Diamond and 79.6 on OSWorld V2.1.",
+     "why": "A 1M-context open-weight agentic model gives teams a self-hosted option close to frontier coding scores.",
+     "topics": [
+      "Open models",
+      "New models"
+     ],
+     "source": "Hugging Face",
+     "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+     "date": "2026-11-04",
+     "also": [
+      {
+       "section": "Pulse",
+       "source": "r/LocalLLaMA · 1,170 upvotes",
+       "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro"
+      }
+     ]
+    },
+    {
+     "title": "Tencent launches Hy4 with vision and computer use",
+     "body": "Tencent Hunyuan released Hy4, its latest-generation LLM, after a preview weeks earlier. It adds visual understanding and computer operation for the first time. It is available in Tencent Cloud TokenHub, CodeBuddy, Yuanbao and other apps, and through OpenRouter and OpenCode. AI Weekly reports a 770B-parameter MoE with 1M-token context and 50% launch discount through December 31.",
+     "why": "Another large model with native computer-use skills is now on OpenRouter for agent builders.",
+     "topics": [
+      "New models",
+      "Open models"
+     ],
+     "source": "ChainCatcher",
+     "url": "https://www.chaincatcher.com/en/article/2301641",
+     "date": "2026-11-04"
+    },
+    {
+     "title": "Gemini API computer use tool is generally available",
+     "body": "Google AI Studio announced that the computer use tool in the Gemini API is generally available. There are no breaking changes from the preview. Google positions it for production browser, mobile and desktop agents.",
+     "why": "Browser, mobile and desktop agents built on Gemini can now move to production support.",
+     "topics": [
+      "Gemini",
+      "Agents"
+     ],
+     "source": "X · @GoogleAIStudio",
+     "url": "https://x.com/GoogleAIStudio/status/2118025709146829218",
+     "date": "2026-11-04",
+     "also": [
+      {
+       "section": "Trending on X",
+       "source": "X · @GoogleAIStudio · 1101 likes · 108 reposts",
+       "url": "https://x.com/GoogleAIStudio/status/2118025709146829218"
+      }
+     ]
+    },
+    {
+     "title": "Ricursive releases Ripple-65B Preview open-weight coding model",
+     "body": "Ricursive Intelligence released Ripple-65B Preview, a 65B dense Transformer trained on 12T tokens. It self-reports 80.52 on TerminalBench 2.1. The lab claims about $32M training cost and 1.4M RL rollouts. These figures are the lab's own claims.",
+     "why": "A 65B dense model is small enough to self-host for agentic coding tests.",
+     "topics": [
+      "Open models",
+      "New models"
+     ],
+     "source": "Ricursive (via AI Weekly)",
+     "url": "https://www.ricursive.com/ripple",
+     "date": "2026-11-04"
+    }
+   ]
+  },
+  "chips": {
+   "routine": "chips",
+   "status": "done",
+   "headline": "NVIDIA researchers argue in 'You don't need long context' that frequent compaction keeps accuracy while cutting inference cost.",
+   "filed": "2026-11-05T02:20:30Z",
+   "note": "",
+   "items": [
+    {
+     "title": "NVIDIA paper: frequent compaction can replace long context",
+     "body": "NVIDIA researchers (Belcak, Molchanov and others) report that later tokens cost more to generate, up to 7x on frontier open-weight models. With frequent compaction, frontier models lose little to no accuracy on long-horizon and long-input tasks. Long-horizon software engineering does not collapse even at one action per context. The authors propose semantic state space models (SSSMs).",
+     "why": "Agent stacks can cut inference cost by keeping contexts short instead of buying long-context capacity.",
+     "topics": [
+      "AI research",
+      "Architecture",
+      "NVIDIA"
+     ],
+     "source": "arXiv 2611.05306",
+     "url": "https://arxiv.org/abs/2611.05306",
+     "date": "2026-11-03"
+    },
+    {
+     "title": "SpaceX targets about 13GW of data-center capacity in 2027",
+     "body": "SemiAnalysis reports SpaceX raised its 2027 estimate to about 13GW, with 3.6GW under construction. Colossus 2 took 91 days for 210MW and is installing about 5.9GWh of batteries. SpaceX tracks over 8GW of behind-the-meter power. The 2027 timeline implies NVIDIA Vera Rubin chips.",
+     "why": "Gigawatt builds in months reset the pace for AI capacity and power planning.",
+     "topics": [
+      "Data centers",
+      "NVIDIA"
+     ],
+     "source": "SemiAnalysis",
+     "url": "https://newsletter.semianalysis.com/p/elon-is-doing-it-again-spacex-will",
+     "date": "2026-11-03"
+    },
+    {
+     "title": "Google backstops Anthropic's TPU campus lease in Kentucky",
+     "body": "Three Google credit support agreements cover about $19B of lease commitments at TeraWulf's 401MW campus in Hawesville, Kentucky. Anthropic is the tenant and must use Google-approved TPUs. Phased ready-for-service runs from late 2027 to Q2 2028.",
+     "why": "It shows how TPU capacity for Claude is financed and when it comes online.",
+     "topics": [
+      "Google TPU",
+      "Data centers"
+     ],
+     "source": "Unite.AI (via AI Weekly)",
+     "url": "https://www.unite.ai/terawulf-lines-up-google-backstop-for-anthropics-kentucky-ai-campus/",
+     "date": "2026-11-04"
+    },
+    {
+     "title": "RTX Spark laptops run LLMs at a quarter speed on Linux",
+     "body": "MindStudio measured GPT-OSS-120B at 65.4 tok/s on Windows and 13.9 tok/s on native Linux. GPU clocks drop to about 780 MHz on Linux when plugged in. The cause is an encrypted power table that only the Windows driver can read. The post trended on Hacker News with 583 points.",
+     "why": "Linux users of RTX Spark hardware should use WSL until NVIDIA fixes power management.",
+     "topics": [
+      "NVIDIA",
+      "Chips"
+     ],
+     "source": "MindStudio",
+     "url": "https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop",
+     "date": "2026-11-04",
+     "also": [
+      {
+       "section": "Pulse",
+       "source": "Hacker News · 583 points · 266 comments",
+       "url": "https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop"
+      }
+     ]
+    }
+   ]
+  },
+  "ecosystem": {
+   "routine": "ecosystem",
+   "status": "done",
+   "headline": "The unslop skill, which redesigns AI-looking UI, passes 8,700 GitHub stars in its first week.",
+   "filed": "2026-11-05T02:22:30Z",
+   "note": "Sources: X search 3 (no post passed 20 likes), GitHub search for repos created since 2026-10-29, and r/ClaudeAI top posts of the day.",
+   "items": [
+    {
+     "title": "unslop skill passes 8,700 stars in one week",
+     "body": "heydamir/unslop is a Claude skill that turns vibecoded, AI-looking UI into a designed interface. It was created on October 29 and has 8,723 GitHub stars. It can snapshot a live site with Playwright.",
+     "why": "It fixes generic AI-made front ends, a common gap in agent-built internal tools.",
+     "topics": [
+      "Skills",
+      "Claude Code"
+     ],
+     "source": "GitHub · heydamir/unslop · 8,723 stars",
+     "url": "https://github.com/heydamir/unslop",
+     "date": "2026-11-05"
+    },
+    {
+     "title": "pixelfx: 244 pixel-art effects plus a Claude Code skill",
+     "body": "patch-gg/pixelfx ships 244 pixel-art effects as small code pieces. Its skill teaches Claude Code to find, use, export and make effects. Created October 30, it has 4,757 stars. Install: /plugin marketplace add patch-gg/pixelfx, then /plugin install pixelfx@pixelfx.",
+     "why": "It shows the plugin marketplace pattern for shipping a library with its own agent skill.",
+     "topics": [
+      "Plugins",
+      "Skills"
+     ],
+     "source": "GitHub · patch-gg/pixelfx · 4,757 stars",
+     "url": "https://github.com/patch-gg/pixelfx",
+     "date": "2026-11-05"
+    },
+    {
+     "title": "teardown skill turns any machine into a 3D simulator",
+     "body": "elvarofficial/teardown is a Claude Code skill that builds a 3D simulator of a machine you can take apart. Created October 30, it has 1,919 stars. Install: npx skills add elvarofficial/teardown -g -a claude-code, then npm install and npx playwright install chromium.",
+     "why": "It is an example of a skill that drives a browser toolchain end to end.",
+     "topics": [
+      "Skills",
+      "Claude Code"
+     ],
+     "source": "GitHub · elvarofficial/teardown · 1,919 stars",
+     "url": "https://github.com/elvarofficial/teardown",
+     "date": "2026-11-05"
+    },
+    {
+     "title": "proof-of-green hook blocks 'done' until tests pass",
+     "body": "BekirEfeoglu/proof-of-green blocks Claude Code and Codex from ending a turn when code changed and no test passed after the last change. It is a new repo with 24 stars, the top new 'claude-code hooks' result this week. Install: /plugin marketplace add BekirEfeoglu/proof-of-green, then /plugin install proof-of-green@proof-of-green.",
+     "why": "A Stop hook enforces a test gate on agent edits, a simple CI-style guardrail.",
+     "topics": [
+      "Hooks",
+      "Plugins"
+     ],
+     "source": "GitHub · BekirEfeoglu/proof-of-green · 24 stars",
+     "url": "https://github.com/BekirEfeoglu/proof-of-green",
+     "date": "2026-11-05"
+    },
+    {
+     "title": "Guide: MCP vs API vs CLI for agent access",
+     "body": "Wasp published a comparison of MCP, API and CLI as ways for AI agents to connect to an app. The post reached 87 upvotes in r/ClaudeAI top posts of the day.",
+     "why": "It helps teams pick how agents should connect to internal services.",
+     "topics": [
+      "MCP",
+      "Setups"
+     ],
+     "source": "Wasp blog · r/ClaudeAI · 87 upvotes",
+     "url": "https://wasp.sh/blog/2026/11/03/mcp-vs-api-vs-cli-connect-ai-agents-to-your-app",
+     "date": "2026-11-03"
+    }
+   ]
+  },
+  "x-desk": {
+   "routine": "x-desk",
+   "status": "done",
+   "headline": "OpenAI shows how ChatGPT and Codex help engineers in mechanical, electrical and simulation work.",
+   "filed": "2026-11-05T02:21:30Z",
+   "note": "Read 26 posts across three searches; 5 of 16 posts from searches 1 and 2 passed the filter (one duplicate Anthropic post dropped, the rest had under 20 likes).",
+   "items": [
+    {
+     "title": "OpenAI: ChatGPT and Codex now help hardware engineers",
+     "body": "OpenAI shared progress on using ChatGPT and Codex for mechanical design, electrical engineering and simulation. Its own hardware teams use them to iterate faster. OpenAI also tests new workflows with industry partners.",
+     "why": "Codex use is spreading from software to CAD, electronics and simulation workflows.",
+     "topics": [
+      "OpenAI",
+      "AI tools"
+     ],
+     "source": "X · @OpenAI · 7831 likes · 691 reposts",
+     "url": "https://x.com/OpenAI/status/2117692475775258785",
+     "date": "2026-11-04"
+    },
+    {
+     "title": "Hugging Face co-founds RoboColosseum real-robot benchmark",
+     "body": "Hugging Face is a founding partner of RoboColosseum. It uses 100+ real robots and 140+ in-the-wild scenes. Every rollout, including failures, is open on the Hub.",
+     "why": "Open, real-world robot evaluation data helps compare robot models fairly.",
+     "topics": [
+      "AI research",
+      "Open models"
+     ],
+     "source": "X · @huggingface · 195 likes · 37 reposts",
+     "url": "https://x.com/huggingface/status/2118004921597665638",
+     "date": "2026-11-04"
+    }
+   ]
+  },
+  "gadgets": {
+   "routine": "gadgets",
+   "status": "done",
+   "headline": "Nothing's CEO says the company's first AI-native device, with no screen, ships in December.",
+   "filed": "2026-11-05T02:20:34Z",
+   "note": "The Verge and Gadgets 360 were blocked; RedMagic 12 Pro and Samsung's sleep apnea update were already reported yesterday.",
+   "items": [
+    {
+     "title": "Nothing says first AI-native device ships in December",
+     "body": "Nothing CEO Carl Pei said the company's first AI-native product ships in December. He described it as a productivity tool with no new screen. Nothing has not announced a firm release date, specs or price.",
+     "why": "A new screenless AI gadget from a major phone brand adds to the AI hardware category buyers can choose from.",
+     "topics": [
+      "AI gadgets"
+     ],
+     "source": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/04/nothing-ceo-says-companys-mysterious-ai-first-device-is-dropping-next-month",
+     "date": "2026-11-04"
+    }
+   ]
+  },
+  "tech-pulse": {
+   "routine": "tech-pulse",
+   "status": "done",
+   "headline": "Moonshot released Kimi K3.1 Pro as open weights: a 2.8T-parameter MoE with a 1M-token context.",
+   "filed": "2026-11-05T02:20:34Z",
+   "note": "",
+   "items": [
+    {
+     "title": "AI-aided audit turns old PHP crash into PHP2Shell RCE",
+     "body": "PHP2Shell is a critical PHP flaw that can let attackers read data and run code on servers, including WordPress and Drupal hosts. The bug was reported in 2024 as a minor out-of-memory crash. A Calif researcher used AI tools to turn it into code execution within two weeks of an audit. The article argues defenders need more funding and formal verification of AI-generated patches.",
+     "why": "AI tools now find exploit paths in legacy code fast, so old dependencies need patching and review now.",
+     "topics": [
+      "Security",
+      "AI tools"
+     ],
+     "source": "Hacker News · 1,015 points · 612 comments",
+     "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
+     "date": "2026-11-04"
+    },
+    {
+     "title": "Gemini trains on personal subscribers' chat history by default",
+     "body": "A Tell HN post reports that chats from personal Google AI subscriptions can be used for training. Some chats may be read by human reviewers. The only opt-out is to turn off Keep Activity or use temporary chats, which deletes sessions after 72 hours.",
+     "why": "Paid personal Gemini plans are not private by default, so do not paste company code or secrets there.",
+     "topics": [
+      "Gemini",
+      "Security"
+     ],
+     "source": "Hacker News · 619 points · 159 comments",
+     "url": "https://news.ycombinator.com/item?id=50363461",
+     "date": "2026-11-04"
+    }
+   ]
+  },
+  "aws-news": {
+   "routine": "aws-news",
+   "status": "done",
+   "headline": "Amazon EKS Capability for Argo CD now sends Argo CD Notifications to 16 services at no extra charge.",
+   "filed": "2026-11-05T02:20:34Z",
+   "note": "The What's New feed had no items dated November 4 or 5; the AWS News Blog had no new posts after November 2.",
+   "items": [
+    {
+     "title": "EKS Argo CD capability adds built-in Argo CD Notifications",
+     "body": "Amazon EKS Capabilities for Argo CD now supports Argo CD Notifications. Alerts fire when applications sync, fail or change health. Targets include 16 services such as Slack, PagerDuty, Opsgenie, Amazon SQS and Amazon EventBridge. The feature has no added charge and is available in all Regions with the EKS Capability for Argo CD.",
+     "why": "GitOps teams on EKS get sync and health alerts in Slack or PagerDuty without running their own notifier.",
+     "topics": [
+      "Kubernetes",
+      "DevOps"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-eks-argo-cd-notifications",
+     "date": "2026-11-03"
+    },
+    {
+     "title": "AWS Config records 10 new resource types",
+     "body": "AWS Config now supports 10 new resource types. They include AWS::ElastiCache::CacheCluster, AWS::ElastiCache::ReplicationGroup, AWS::QuickSight::Agent and AWS::Oam::Link. Accounts that record all resource types track them automatically.",
+     "why": "More resources fall under Config compliance rules and change history, including ElastiCache.",
+     "topics": [
+      "Security",
+      "DevOps"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-config-new-resource-types",
+     "date": "2026-11-03"
+    },
+    {
+     "title": "AWS Transform for mainframe adds requirements coverage report",
+     "body": "AWS Transform for mainframe now groups business functions with field-level precision and gives them clearer names. A new requirements coverage report tracks every line of source code and links business rules to their source lines. The features are available in all Regions where the service is offered.",
+     "why": "AI-assisted mainframe modernization now traces every source line to generated requirements for audit.",
+     "topics": [
+      "Agents",
+      "DevOps"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-transform-mainframe-reimagine/",
+     "date": "2026-11-03"
+    },
+    {
+     "title": "RDS for SQL Server adds latest cumulative and GDR updates",
+     "body": "Amazon RDS for SQL Server now supports SQL Server 2017 CU31+GDR, 2019 CU32+GDR, 2022 CU27+GDR and 2025 CU10. Details of the fixes are in Microsoft KB articles KB5128496, KB5128494, KB5126934 and KB5125471. AWS recommends upgrading.",
+     "why": "SQL Server fleets on RDS can apply Microsoft's newest fixes across four major versions.",
+     "topics": [
+      "Security"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-rds-supports-latest-cumulative-update-gdr-microsoft-sql-server/",
+     "date": "2026-11-03"
+    }
+   ]
+  }
+ },
+ "briefing": "Good morning. This is The Nexos Daily for Thursday, the fifth of November.\n\nThe lead story: Anthropic released FlashProve, an open-source prototype that proves which model produced a response. It can prove inference for a four hundred billion parameter mixture-of-experts model on one H100 GPU. API users could use it to check that they get the model they pay for, which helps audit and compliance work.\n\nSecurity next. Claude found two critical virtual machine escape flaws in the Xen hypervisor. Hosts on Xen four point six or later, such as XCP-ng and Qubes, need patches and reboots now. An AI-aided audit also turned an old PHP crash into a remote code execution exploit called PHP2Shell, so review old dependencies. And Gemini trains on the chat history of personal subscribers by default, so do not paste company code or secrets into personal plans.\n\nIn the Claude world, Claude now connects company plugins automatically for Team and Enterprise accounts, so engineers no longer sign in to each plugin. The Claude text watermark now covers Mythos five, Opus four point seven and Sonnet four point six. The unslop skill passed eight thousand seven hundred stars in its first week. And a new Stop hook called proof-of-green blocks an agent from saying done until the tests pass.\n\nModels: Moonshot published the open weights of Kimi K three point one Pro, a two point eight trillion parameter mixture-of-experts model with one million tokens of context. Tencent launched Hy four with vision and computer use. The Gemini API computer use tool is now generally available. And Ricursive released Ripple sixty-five B, an open coding model.\n\nChips and research: an NVIDIA paper argues that frequent compaction can replace long context and cut inference cost. SpaceX targets about thirteen gigawatts of data-center capacity in twenty twenty-seven. Google backstops Anthropic's TPU campus lease in Kentucky. And RTX Spark laptops run LLMs about four times slower on native Linux, so use WSL for now.\n\nFor AWS engineers: the EKS capability for Argo CD now sends notifications to sixteen services at no extra charge. AWS Config records ten new resource types. And AWS Transform for mainframe adds a requirements coverage report.\n\nNo new tech layoffs were reported in the last two days.\n\nIn gadgets, Nothing says its first AI-native device, with no screen, ships in December.\n\nOn the trending page, the top new repo is latch, a zero-dependency contract between agents and services.\n\nThat is the briefing. Every story links to its source in the paper. Have a good day."
+}
