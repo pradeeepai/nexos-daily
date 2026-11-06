@@ -273,7 +273,7 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-06",
    "reported": {
     "2026-10-25": 20182,
     "2026-10-26": 20636,
@@ -285,7 +285,8 @@
     "2026-11-02": 23807,
     "2026-11-03": 24144,
     "2026-11-04": 24484,
-    "2026-11-05": 24909
+    "2026-11-05": 24909,
+    "2026-11-06": 25267
    }
   },
   "yihui-dev/awesome-opus5-5-videos": {
@@ -309,7 +310,7 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-06",
    "reported": {
     "2026-10-25": 10112,
     "2026-10-26": 10499,
@@ -321,7 +322,8 @@
     "2026-11-02": 12924,
     "2026-11-03": 13196,
     "2026-11-04": 13426,
-    "2026-11-05": 13666
+    "2026-11-05": 13666,
+    "2026-11-06": 14188
    }
   },
   "rehan-remade/universal-modder": {
@@ -1201,7 +1203,7 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-06",
    "reported": {
     "2026-10-28": 4023,
     "2026-10-29": 4066,
@@ -1209,7 +1211,8 @@
     "2026-10-31": 4132,
     "2026-11-01": 4160,
     "2026-11-02": 4206,
-    "2026-11-05": 4383
+    "2026-11-05": 4383,
+    "2026-11-06": 4459
    }
   },
   "haplollc/Vesalius": {
@@ -1377,7 +1380,7 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-06",
    "reported": {
     "2026-10-29": 3635,
     "2026-10-30": 4032,
@@ -1386,7 +1389,8 @@
     "2026-11-02": 4740,
     "2026-11-03": 4983,
     "2026-11-04": 5210,
-    "2026-11-05": 5395
+    "2026-11-05": 5395,
+    "2026-11-06": 5564
    }
   },
   "guilhermealvestech/carrossel-skill": {
@@ -1456,14 +1460,15 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-06",
    "reported": {
     "2026-10-30": 26,
     "2026-11-01": 2802,
     "2026-11-02": 3966,
     "2026-11-03": 5386,
     "2026-11-04": 6105,
-    "2026-11-05": 6679
+    "2026-11-05": 6679,
+    "2026-11-06": 7130
    }
   },
   "yc-software/minecraft-agent-harness": {
@@ -1536,11 +1541,12 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-06",
    "reported": {
     "2026-10-30": 3242,
     "2026-10-31": 3324,
-    "2026-11-05": 3900
+    "2026-11-05": 3900,
+    "2026-11-06": 3999
    }
   },
   "heygen-com/hyperframes": {
@@ -1587,13 +1593,14 @@
     "Trending",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-06",
    "reported": {
     "2026-10-31": 339,
     "2026-11-02": 2682,
     "2026-11-03": 3553,
     "2026-11-04": 4172,
-    "2026-11-05": 4757
+    "2026-11-05": 4757,
+    "2026-11-06": 5298
    }
   },
   "Pluviobyte/douyin-comments": {
@@ -1663,9 +1670,10 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-10-31",
+   "last_seen": "2026-11-06",
    "reported": {
-    "2026-10-31": 27
+    "2026-10-31": 27,
+    "2026-11-06": 375
    }
   },
   "chiarorosa/claude-codex-taskbar": {
@@ -1688,13 +1696,14 @@
     "Trending",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-06",
    "reported": {
     "2026-10-31": 22,
     "2026-11-02": 945,
     "2026-11-03": 1285,
     "2026-11-04": 1670,
-    "2026-11-05": 1919
+    "2026-11-05": 1919,
+    "2026-11-06": 2201
    }
   },
   "Hybirdss/kicad-cli-extended": {
@@ -1747,13 +1756,14 @@
     "Trending",
     "Pulse"
    ],
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-06",
    "reported": {
     "2026-11-01": 2840,
     "2026-11-02": 8079,
     "2026-11-03": 13505,
     "2026-11-04": 16974,
-    "2026-11-05": 18649
+    "2026-11-05": 18649,
+    "2026-11-06": 19560
    }
   },
   "wiva-hq/CodeRail": {
@@ -1910,13 +1920,14 @@
     "Trending",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-06",
    "reported": {
     "2026-11-01": 3574,
     "2026-11-02": 4933,
     "2026-11-03": 6339,
     "2026-11-04": 7594,
-    "2026-11-05": 8723
+    "2026-11-05": 8723,
+    "2026-11-06": 9862
    }
   },
   "ninjahawk/livenerf": {
@@ -1960,12 +1971,13 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-06",
    "reported": {
     "2026-11-02": 429,
     "2026-11-03": 1226,
     "2026-11-04": 1558,
-    "2026-11-05": 1760
+    "2026-11-05": 1760,
+    "2026-11-06": 1871
    }
   },
   "Balanov/uncut": {
@@ -1975,10 +1987,11 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-06",
    "reported": {
     "2026-11-02": 253,
-    "2026-11-05": 601
+    "2026-11-05": 601,
+    "2026-11-06": 608
    }
   },
   "mylea1/phongent": {
@@ -1998,14 +2011,16 @@
    "kind": "Skill",
    "description": "Free Claude skill that makes animated story shorts with three.js and Remotion.",
    "seen_in": [
-    "Trending"
+    "Trending",
+    "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-06",
    "reported": {
     "2026-11-02": 194,
     "2026-11-03": 659,
     "2026-11-04": 1243,
-    "2026-11-05": 1535
+    "2026-11-05": 1535,
+    "2026-11-06": 1776
    }
   },
   "elhajahmadj/offline-emergency-library": {
@@ -2100,12 +2115,13 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-06",
    "reported": {
     "2026-11-02": 3976,
     "2026-11-03": 4491,
     "2026-11-04": 4683,
-    "2026-11-05": 4780
+    "2026-11-05": 4780,
+    "2026-11-06": 4846
    }
   },
   "jarrodwatts/claude-hud": {
@@ -2160,9 +2176,10 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-06",
    "reported": {
-    "2026-11-03": 206
+    "2026-11-03": 206,
+    "2026-11-06": 463
    }
   },
   "mhfed/vn-law-check": {
@@ -2326,10 +2343,11 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-06",
    "reported": {
     "2026-11-04": 578,
-    "2026-11-05": 2611
+    "2026-11-05": 2611,
+    "2026-11-06": 3284
    }
   },
   "RUC-NLPIR/CoworkOS": {
@@ -2637,6 +2655,124 @@
     "Claude Ecosystem"
    ],
    "last_seen": "2026-11-05"
+  },
+  "majorminorlabs/hermes-voice": {
+   "first_seen": "2026-11-06",
+   "kind": "Other",
+   "description": "Talk to a Hermes Agent profile through Home Assistant Assist.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-06",
+   "reported": {
+    "2026-11-06": 244
+   }
+  },
+  "JosssphZhou/poki": {
+   "first_seen": "2026-11-06",
+   "kind": "MCP server",
+   "description": "Local MCP server and agent that lets AI agents operate a real iPhone.",
+   "seen_in": [
+    "Trending",
+    "Claude Ecosystem"
+   ],
+   "last_seen": "2026-11-06",
+   "reported": {
+    "2026-11-06": 239
+   }
+  },
+  "YT-Proteus-bot/MineAgent": {
+   "first_seen": "2026-11-06",
+   "kind": "Agent framework",
+   "description": "Visual canvas that compiles drag-and-drop agent flows into a runnable Python agent project.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-06",
+   "reported": {
+    "2026-11-06": 111
+   }
+  },
+  "imraywang/ray-sticker-shop": {
+   "first_seen": "2026-11-06",
+   "kind": "Skill",
+   "description": "Claude Code and Codex skill that makes a consistent animated sticker set from one photo.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-06",
+   "reported": {
+    "2026-11-06": 101
+   }
+  },
+  "Glen-Web-App/best-agent-memory-mcp": {
+   "first_seen": "2026-11-06",
+   "kind": "Other",
+   "description": "Ranked comparison of agent memory MCP servers for Claude Code, Codex and Cursor.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-06",
+   "reported": {
+    "2026-11-06": 89
+   }
+  },
+  "yucezerey/turkish-anti-ai-skill": {
+   "first_seen": "2026-11-06",
+   "kind": "Skill",
+   "description": "Agent skill that finds and fixes AI-style writing patterns in Turkish text.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-06",
+   "reported": {
+    "2026-11-06": 63
+   }
+  },
+  "aa1143/NamiDSH": {
+   "first_seen": "2026-11-06",
+   "kind": "Coding agent",
+   "description": "Small learning project that rebuilds a DeepSeek Harness-style agent with a web UI.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-06",
+   "reported": {
+    "2026-11-06": 60
+   }
+  },
+  "Junhan2/ztd-charts": {
+   "first_seen": "2026-11-06",
+   "kind": "MCP server",
+   "description": "33 animated React SVG charts with a CLI and an MCP server.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-06",
+   "reported": {
+    "2026-11-06": 14
+   }
+  },
+  "andrew-babo/muse4ai": {
+   "first_seen": "2026-11-06",
+   "kind": "MCP server",
+   "description": "Local Windows bridge that lets an AI agent create images and video in Muse via REST and MCP.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-06",
+   "reported": {
+    "2026-11-06": 832
+   }
+  },
+  "musicurgy/delta-inference-engine": {
+   "first_seen": "2026-11-06",
+   "kind": "Other",
+   "description": "Delta Inference Engine runs DeepSeek-V4.1-Flash on one RTX 3090",
+   "seen_in": [
+    "Pulse"
+   ],
+   "last_seen": "2026-11-06"
   }
  }
 }
