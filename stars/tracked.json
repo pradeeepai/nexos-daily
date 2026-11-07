@@ -273,7 +273,7 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-06",
+   "last_seen": "2026-11-07",
    "reported": {
     "2026-10-25": 20182,
     "2026-10-26": 20636,
@@ -286,7 +286,8 @@
     "2026-11-03": 24144,
     "2026-11-04": 24484,
     "2026-11-05": 24909,
-    "2026-11-06": 25267
+    "2026-11-06": 25267,
+    "2026-11-07": 25565
    }
   },
   "yihui-dev/awesome-opus5-5-videos": {
@@ -760,12 +761,13 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-07",
    "reported": {
     "2026-10-26": 1660,
     "2026-10-27": 2074,
     "2026-11-02": 4328,
-    "2026-11-03": 4608
+    "2026-11-03": 4608,
+    "2026-11-07": 5789
    }
   },
   "udhaykumarbala/cleanyourtv-app": {
@@ -1203,7 +1205,7 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-06",
+   "last_seen": "2026-11-07",
    "reported": {
     "2026-10-28": 4023,
     "2026-10-29": 4066,
@@ -1212,7 +1214,8 @@
     "2026-11-01": 4160,
     "2026-11-02": 4206,
     "2026-11-05": 4383,
-    "2026-11-06": 4459
+    "2026-11-06": 4459,
+    "2026-11-07": 4584
    }
   },
   "haplollc/Vesalius": {
@@ -1380,7 +1383,7 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-06",
+   "last_seen": "2026-11-07",
    "reported": {
     "2026-10-29": 3635,
     "2026-10-30": 4032,
@@ -1390,7 +1393,8 @@
     "2026-11-03": 4983,
     "2026-11-04": 5210,
     "2026-11-05": 5395,
-    "2026-11-06": 5564
+    "2026-11-06": 5564,
+    "2026-11-07": 5766
    }
   },
   "guilhermealvestech/carrossel-skill": {
@@ -1460,7 +1464,7 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-06",
+   "last_seen": "2026-11-07",
    "reported": {
     "2026-10-30": 26,
     "2026-11-01": 2802,
@@ -1468,7 +1472,8 @@
     "2026-11-03": 5386,
     "2026-11-04": 6105,
     "2026-11-05": 6679,
-    "2026-11-06": 7130
+    "2026-11-06": 7130,
+    "2026-11-07": 7409
    }
   },
   "yc-software/minecraft-agent-harness": {
@@ -1541,12 +1546,13 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-06",
+   "last_seen": "2026-11-07",
    "reported": {
     "2026-10-30": 3242,
     "2026-10-31": 3324,
     "2026-11-05": 3900,
-    "2026-11-06": 3999
+    "2026-11-06": 3999,
+    "2026-11-07": 4079
    }
   },
   "heygen-com/hyperframes": {
@@ -1583,7 +1589,7 @@
    "seen_in": [
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-02"
+   "last_seen": "2026-11-07"
   },
   "patch-gg/pixelfx": {
    "first_seen": "2026-10-31",
@@ -1593,14 +1599,15 @@
     "Trending",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-06",
+   "last_seen": "2026-11-07",
    "reported": {
     "2026-10-31": 339,
     "2026-11-02": 2682,
     "2026-11-03": 3553,
     "2026-11-04": 4172,
     "2026-11-05": 4757,
-    "2026-11-06": 5298
+    "2026-11-06": 5298,
+    "2026-11-07": 5604
    }
   },
   "Pluviobyte/douyin-comments": {
@@ -1756,14 +1763,15 @@
     "Trending",
     "Pulse"
    ],
-   "last_seen": "2026-11-06",
+   "last_seen": "2026-11-07",
    "reported": {
     "2026-11-01": 2840,
     "2026-11-02": 8079,
     "2026-11-03": 13505,
     "2026-11-04": 16974,
     "2026-11-05": 18649,
-    "2026-11-06": 19560
+    "2026-11-06": 19560,
+    "2026-11-07": 20284
    }
   },
   "wiva-hq/CodeRail": {
@@ -1920,14 +1928,15 @@
     "Trending",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-06",
+   "last_seen": "2026-11-07",
    "reported": {
     "2026-11-01": 3574,
     "2026-11-02": 4933,
     "2026-11-03": 6339,
     "2026-11-04": 7594,
     "2026-11-05": 8723,
-    "2026-11-06": 9862
+    "2026-11-06": 9862,
+    "2026-11-07": 10765
    }
   },
   "ninjahawk/livenerf": {
@@ -1971,13 +1980,14 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-06",
+   "last_seen": "2026-11-07",
    "reported": {
     "2026-11-02": 429,
     "2026-11-03": 1226,
     "2026-11-04": 1558,
     "2026-11-05": 1760,
-    "2026-11-06": 1871
+    "2026-11-06": 1871,
+    "2026-11-07": 1971
    }
   },
   "Balanov/uncut": {
@@ -2014,13 +2024,14 @@
     "Trending",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-06",
+   "last_seen": "2026-11-07",
    "reported": {
     "2026-11-02": 194,
     "2026-11-03": 659,
     "2026-11-04": 1243,
     "2026-11-05": 1535,
-    "2026-11-06": 1776
+    "2026-11-06": 1776,
+    "2026-11-07": 2037
    }
   },
   "elhajahmadj/offline-emergency-library": {
@@ -2040,11 +2051,13 @@
    "kind": "Skill",
    "description": "Six Claude Code skills that generate animations for short videos without footage.",
    "seen_in": [
-    "Trending"
+    "Trending",
+    "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-07",
    "reported": {
-    "2026-11-02": 59
+    "2026-11-02": 59,
+    "2026-11-07": 444
    }
   },
   "justhalfbit/thinksmart-ubuntu-image": {
@@ -2115,13 +2128,14 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-06",
+   "last_seen": "2026-11-07",
    "reported": {
     "2026-11-02": 3976,
     "2026-11-03": 4491,
     "2026-11-04": 4683,
     "2026-11-05": 4780,
-    "2026-11-06": 4846
+    "2026-11-06": 4846,
+    "2026-11-07": 4899
    }
   },
   "jarrodwatts/claude-hud": {
@@ -2140,7 +2154,7 @@
    "seen_in": [
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-02"
+   "last_seen": "2026-11-07"
   },
   "Dicklesworthstone/destructive_command_guard": {
    "first_seen": "2026-11-02",
@@ -2149,7 +2163,7 @@
    "seen_in": [
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-02"
+   "last_seen": "2026-11-07"
   },
   "p-e-w/heretic": {
    "first_seen": "2026-11-02",
@@ -2343,11 +2357,12 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-06",
+   "last_seen": "2026-11-07",
    "reported": {
     "2026-11-04": 578,
     "2026-11-05": 2611,
-    "2026-11-06": 3284
+    "2026-11-06": 3284,
+    "2026-11-07": 3705
    }
   },
   "RUC-NLPIR/CoworkOS": {
@@ -2658,14 +2673,15 @@
   },
   "majorminorlabs/hermes-voice": {
    "first_seen": "2026-11-06",
-   "kind": "Other",
+   "kind": "Agent framework",
    "description": "Talk to a Hermes Agent profile through Home Assistant Assist.",
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-06",
+   "last_seen": "2026-11-07",
    "reported": {
-    "2026-11-06": 244
+    "2026-11-06": 244,
+    "2026-11-07": 443
    }
   },
   "JosssphZhou/poki": {
@@ -2676,9 +2692,10 @@
     "Trending",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-06",
+   "last_seen": "2026-11-07",
    "reported": {
-    "2026-11-06": 239
+    "2026-11-06": 239,
+    "2026-11-07": 423
    }
   },
   "YT-Proteus-bot/MineAgent": {
@@ -2700,9 +2717,10 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-06",
+   "last_seen": "2026-11-07",
    "reported": {
-    "2026-11-06": 101
+    "2026-11-06": 101,
+    "2026-11-07": 313
    }
   },
   "Glen-Web-App/best-agent-memory-mcp": {
@@ -2773,6 +2791,99 @@
     "Pulse"
    ],
    "last_seen": "2026-11-06"
+  },
+  "HerdBuilderEstimate/roblox-studio-mcp": {
+   "first_seen": "2026-11-07",
+   "kind": "MCP server",
+   "description": "MCP server that lets Claude, Cursor and other assistants read and edit Roblox Studio projects.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-07",
+   "reported": {
+    "2026-11-07": 427
+   }
+  },
+  "devvmhq/devvm": {
+   "first_seen": "2026-11-07",
+   "kind": "Dev tool",
+   "description": "Gives each project an isolated VM with its toolchain, so a coding agent can work in a sandbox.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-07",
+   "reported": {
+    "2026-11-07": 177
+   }
+  },
+  "WoYun520/pixel-gif-sticker-pack": {
+   "first_seen": "2026-11-07",
+   "kind": "Skill",
+   "description": "Codex skill that makes and checks animated GIF sticker packs from character images.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-07",
+   "reported": {
+    "2026-11-07": 562
+   }
+  },
+  "voyager-so/vork": {
+   "first_seen": "2026-11-07",
+   "kind": "AI infra",
+   "description": "Headless 3D and VFX engine built for AI agents, in research preview.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-07",
+   "reported": {
+    "2026-11-07": 342
+   }
+  },
+  "zhanghao123vip/ai-manju-skills": {
+   "first_seen": "2026-11-07",
+   "kind": "Skill",
+   "description": "Skill set for end-to-end AI comic-drama production across 21 genres, for Claude Code and other agents.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-07",
+   "reported": {
+    "2026-11-07": 606
+   }
+  },
+  "Lee-xeo/Claude-Cage": {
+   "first_seen": "2026-11-07",
+   "kind": "Dev tool",
+   "description": "Lightweight VM made for Claude that blocks network leaks and supports multiple accounts.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-07",
+   "reported": {
+    "2026-11-07": 496
+   }
+  },
+  "sarpstar/cinecode": {
+   "first_seen": "2026-11-07",
+   "kind": "Coding agent",
+   "description": "Coding agent workflow that writes films, ads and explainers as code.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-07",
+   "reported": {
+    "2026-11-07": 490
+   }
+  },
+  "dsx-ai-factory/nvke": {
+   "first_seen": "2026-11-07",
+   "kind": "Other",
+   "description": "NVIDIA previews NVKE for Kubernetes on own GPU fleets",
+   "seen_in": [
+    "Chips & Research"
+   ],
+   "last_seen": "2026-11-07"
   }
  }
 }

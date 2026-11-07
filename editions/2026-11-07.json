@@ -1,0 +1,594 @@
+{
+ "date": "2026-11-07",
+ "generated": "2026-11-07T02:51:25Z",
+ "sections": {
+  "tech-news": {
+   "routine": "tech-news",
+   "status": "done",
+   "headline": "Anthropic puts Personal Finance in Claude as OpenAI ships GPT-6 Cyber, rated Critical for cybersecurity.",
+   "filed": "2026-11-07T02:19:30Z",
+   "note": "",
+   "items": [
+    {
+     "title": "Claude gets Personal Finance beta with read-only bank links",
+     "body": "Anthropic launched Personal Finance in Claude in beta for US Pro, Max and Ultra plans. Users connect bank and card accounts through Plaid and ask about spending, bills and unusual charges. Access is read-only, covers up to two years of transactions, and chats in the hub are not used for training.",
+     "why": "It shows how Anthropic scopes sensitive connectors: read-only access, no training on hub chats, and a third-party link layer.",
+     "topics": [
+      "Claude",
+      "AI tools",
+      "Security"
+     ],
+     "source": "Claude (claude.com) / TechCrunch",
+     "url": "https://claude.com/resources/articles/introducing-personal-finance-in-claude",
+     "date": "2026-11-05"
+    },
+    {
+     "title": "METR: Anthropic AI R&D pace roughly doubled",
+     "body": "METR ran a high-access evaluation at Anthropic from August 12 to October 29, 2026. It estimates that capabilities on well-specified tasks grow at about 1.9x the pre-October 2025 rate and attributes about 80% of that to AI help. METR says much of the most useful evidence was redacted.",
+     "why": "An outside audit says AI tools now speed up frontier model work, which predicts faster model and tooling release cycles.",
+     "topics": [
+      "Claude",
+      "AI research",
+      "AI policy"
+     ],
+     "source": "METR",
+     "url": "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/",
+     "date": "2026-11-05"
+    },
+    {
+     "title": "Claude Console adds IP allowlisting and global sign-out (beta)",
+     "body": "Organizations can set an IP allowlist in the Claude Console with up to 1,000 IPv4 or IPv6 addresses or CIDR ranges. Requests from other addresses are refused. The Admin API can also sign a Claude Enterprise member out everywhere while keeping them in the organization.",
+     "why": "Platform teams can now lock Claude API access to known egress IPs and revoke a member's sessions in one call.",
+     "topics": [
+      "Claude",
+      "Security",
+      "DevOps"
+     ],
+     "source": "Claude Platform release notes",
+     "url": "https://platform.claude.com/docs/en/release-notes/overview",
+     "date": "2026-11-05"
+    },
+    {
+     "title": "OpenAI releases GPT-6 Cyber, rated Critical",
+     "body": "GPT-6 Cyber is a security variant of GPT-6 Astra for vulnerability discovery, exploit development and pentesting. It scores 48.45% on ExploitGym versus 42.43% for Astra, and OpenAI rates it Critical for cybersecurity. Access is limited to vetted Daybreak Red users with SSO, MFA and API IP allowlisting on by default.",
+     "why": "A model built for exploit development changes the threat model and the defensive tooling that security teams must plan for.",
+     "topics": [
+      "OpenAI",
+      "New models",
+      "Security"
+     ],
+     "source": "OpenAI Deployment Safety",
+     "url": "https://deploymentsafety.openai.com/gpt-6-cyber",
+     "date": "2026-11-05"
+    },
+    {
+     "title": "Gemini Omni 1.2 Flash: 15-second video, 30% cheaper",
+     "body": "Google made Gemini Omni 1.2 Flash generally available on the Gemini API and Google Cloud. It generates and edits clips of 3 to 15 seconds with multi-turn editing. Price is $0.07 per second at 720p, 30% below Omni 1.1, and outputs carry a SynthID watermark.",
+     "why": "Lower per-second video cost on the Gemini API and Google Cloud makes generated video viable in more production pipelines.",
+     "topics": [
+      "Gemini",
+      "New models"
+     ],
+     "source": "Google Blog",
+     "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+     "date": "2026-11-05",
+     "also": [
+      {
+       "section": "Pulse",
+       "source": "Hacker News · 289 points · 215 comments",
+       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/"
+      }
+     ]
+    },
+    {
+     "title": "Thinking Machines launches Inkling 2 Small MoE model",
+     "body": "Inkling 2 Small is a Mixture-of-Experts model with 594B total and 17B active parameters plus a vision encoder. It scores 86.3% on SWEBench Pro v2 (Hard) and 81.6% on MMMU Pro. It is available now on Tinker; weights are planned for next week under Apache 2.0 after safety testing.",
+     "why": "A 17B-active MoE with strong coding scores and planned Apache 2.0 weights is a candidate for self-hosted agent workloads.",
+     "topics": [
+      "Open models",
+      "New models"
+     ],
+     "source": "Thinking Machines Lab",
+     "url": "https://thinkingmachines.ai/news/inkling-2-small/",
+     "date": "2026-11-05",
+     "also": [
+      {
+       "section": "Pulse",
+       "source": "Hacker News · 281 points · 90 comments; r/LocalLLaMA · 191 upvotes",
+       "url": "https://thinkingmachines.ai/news/inkling-2-small/"
+      }
+     ]
+    },
+    {
+     "title": "Baidu open-sources ERNIE 5.5 Flash Base (280B MoE)",
+     "body": "Baidu released ERNIE 5.5 Flash Base, a 280B-parameter MoE model with 14B active parameters per input, trained on 33.5 trillion tokens. Pre-training used up to 128K context, and Baidu says it supports up to 1M tokens in fine-tuning and inference. Weights are on Hugging Face in FP8 and BF16.",
+     "why": "A large open base model gives teams a new starting point for custom fine-tuning on their own infrastructure.",
+     "topics": [
+      "Open models",
+      "New models"
+     ],
+     "source": "The Decoder",
+     "url": "https://the-decoder.com/baidu-releases-ernie-5-5-flash-base-with-280-billion-parameters-as-an-open-source-foundation-model/",
+     "date": "2026-11-05"
+    },
+    {
+     "title": "Meta ships Muse Wonder specialized models to Meta AI",
+     "body": "Meta is bringing specialized models trained using Muse Wonder to the Muse app and Meta AI. These models include Muse Wonder's Active Memory capability for complex tasks. Meta also rolled out Muse Realtime Avatar in the US Muse app.",
+     "why": "Meta is moving frontier agent features such as active memory into consumer apps at scale.",
+     "topics": [
+      "New models",
+      "Agents"
+     ],
+     "source": "X · @AIatMeta",
+     "url": "https://x.com/AIatMeta/status/2118768974779634084",
+     "date": "2026-11-06",
+     "also": [
+      {
+       "section": "Trending on X",
+       "source": "X · @AIatMeta · 522 likes · 69 reposts",
+       "url": "https://x.com/AIatMeta/status/2118768974779634084"
+      }
+     ]
+    },
+    {
+     "title": "DeepMind agents find two weaknesses in legacy RSA-1024",
+     "body": "Google DeepMind said AI agents, guided by human cryptanalysts, found two weaknesses in legacy 1024-bit RSA. Reports say one makes signature forgery about 1,600 times more efficient and one cuts bulk-factoring cost about 30 times. DeepMind says modern schemes such as RSA-2048 are not affected.",
+     "why": "Systems still on 1024-bit RSA keys or signatures face a lower attack cost and should migrate now.",
+     "topics": [
+      "AI research",
+      "Security"
+     ],
+     "source": "X · @GoogleDeepMind",
+     "url": "https://x.com/GoogleDeepMind/status/2118755418675765656",
+     "date": "2026-11-06",
+     "also": [
+      {
+       "section": "Trending on X",
+       "source": "X · @GoogleDeepMind · 982 likes · 130 reposts",
+       "url": "https://x.com/GoogleDeepMind/status/2118755418675765656"
+      }
+     ]
+    }
+   ]
+  },
+  "chips": {
+   "routine": "chips",
+   "status": "done",
+   "headline": "NVIDIA says its Vera CPU runs agent workloads up to 2.2x faster than the best x86 chips.",
+   "filed": "2026-11-07T02:19:40Z",
+   "note": "",
+   "items": [
+    {
+     "title": "NVIDIA Vera CPU posts big agent-workload gains over x86",
+     "body": "NVIDIA claims Vera gives 1.6x more agents per watt than the fastest x86 CPU in a 100 MW data-center comparison. DeepInfra measured up to 2.2x the speed of the best x86 chip on agent orchestration. Daytona started 1,000 agent sandboxes in 10.8 seconds versus 88.4 seconds on x86.",
+     "why": "Agent sandboxes and orchestration are CPU-bound, so CPU choice now affects agent cost and latency.",
+     "topics": [
+      "NVIDIA",
+      "Chips",
+      "Data centers"
+     ],
+     "source": "NVIDIA Blog",
+     "url": "https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents/",
+     "date": "2026-11-05"
+    },
+    {
+     "title": "VFlash decodes robot trajectories in parallel, about 25x faster",
+     "body": "NVIDIA researchers present VFlash, which predicts visual-planning outputs as flash primitives instead of token by token. Early tests show about 25x faster 3D point-motion forecasting. A world action model using VFlash plans reached 70.2% average success on MolmoSpaces tasks versus 62.6% for the baseline.",
+     "why": "Parallel decoding of geometric outputs cuts latency for robotics and edge inference on NVIDIA hardware.",
+     "topics": [
+      "AI research",
+      "Architecture",
+      "NVIDIA"
+     ],
+     "source": "Hugging Face Papers / arXiv 2611.08449",
+     "url": "https://huggingface.co/papers/2611.08449",
+     "date": "2026-11-06"
+    },
+    {
+     "title": "Supermicro to sell SambaNova SN50 racks alongside NVIDIA GPUs",
+     "body": "Supermicro will build and sell inference systems that pair SambaNova's fifth-generation SN50 RDU with NVIDIA GPUs, starting with 10,000 SN50 chips. GPUs handle prompt processing and SN50 chips handle token generation. A SambaRack SN50 draws about 20 kW on average; first targets are neoclouds and sovereign clouds.",
+     "why": "Disaggregated inference (GPU prefill, RDU decode) at 20 kW per rack fits existing data centers without liquid-cooling rebuilds.",
+     "topics": [
+      "Chips",
+      "Data centers",
+      "NVIDIA"
+     ],
+     "source": "The Next Web",
+     "url": "https://thenextweb.com/news/supermicro-sambanova-sn50-nvidia-inference-racks",
+     "date": "2026-11-04"
+    },
+    {
+     "title": "NVIDIA previews NVKE for Kubernetes on own GPU fleets",
+     "body": "NVKE (NVIDIA Kubernetes Engine) is a preview management plane that creates isolated workload clusters, each with its own control plane, etcd and node pools. It uses NVIDIA Infra Controller for machine provisioning and TPM-based node attestation through SPIFFE/SPIRE. The project is Apache-2.0 and warns against production use in preview.",
+     "why": "It gives platform teams a managed way to run isolated GPU Kubernetes clusters on owned hardware.",
+     "topics": [
+      "NVIDIA",
+      "Data centers"
+     ],
+     "source": "GitHub / Hacker News (119 points)",
+     "url": "https://github.com/dsx-ai-factory/nvke",
+     "date": "2026-11-06",
+     "also": [
+      {
+       "section": "Pulse",
+       "source": "Hacker News · 119 points · 27 comments",
+       "url": "https://github.com/dsx-ai-factory/nvke"
+      }
+     ]
+    },
+    {
+     "title": "Google plans $17B Wyoming AI data center",
+     "body": "Google plans to invest $17 billion in a data center in Wyoming. The site will be partly powered by a planned 702-megawatt fuel-cell development.",
+     "why": "Power sourcing such as on-site fuel cells is becoming a key factor in where new AI capacity lands.",
+     "topics": [
+      "Data centers",
+      "Google TPU"
+     ],
+     "source": "Bloomberg",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-05/google-plans-to-spend-17-billion-on-wyoming-data-center",
+     "date": "2026-11-05"
+    }
+   ]
+  },
+  "ecosystem": {
+   "routine": "ecosystem",
+   "status": "done",
+   "headline": "Anthropic's official Claude Code plugin directory passes 46,000 stars and stays the main place to find vetted plugins.",
+   "filed": "2026-11-07T02:20:00Z",
+   "note": "",
+   "items": [
+    {
+     "title": "Anthropic official plugin directory passes 46k stars",
+     "body": "anthropics/claude-plugins-official is an Anthropic-managed directory with internal plugins and approved third-party plugins. Each plugin has a .claude-plugin/plugin.json manifest and can ship MCP config, commands, agents and skills. It has about 46,300 stars and new README rules on immutable plugin names and skill-bundle entries.",
+     "why": "It is the vetted source for Claude Code plugins, so teams can standardize installs from one trusted marketplace.",
+     "topics": [
+      "Plugins",
+      "Claude Code"
+     ],
+     "source": "GitHub · anthropics",
+     "url": "https://github.com/anthropics/claude-plugins-official",
+     "date": "2026-11-06"
+    },
+    {
+     "title": "Context Mode keeps tool output out of the context window",
+     "body": "Context Mode by mksglu is an MCP server and plugin that runs commands in sandboxed subprocesses so only printed results enter context. It stores session state in SQLite and retrieves it with BM25 after compaction. It has about 33,600 stars. Install: /plugin marketplace add mksglu/context-mode then /plugin install context-mode@context-mode.",
+     "why": "Cutting context use by up to 98% lowers token cost and delays compaction in long agent sessions.",
+     "topics": [
+      "MCP",
+      "Plugins",
+      "Hooks"
+     ],
+     "source": "GitHub · mksglu",
+     "url": "https://github.com/mksglu/context-mode",
+     "date": "2026-11-06"
+    },
+    {
+     "title": "Rust hook blocks destructive commands before agents run them",
+     "body": "destructive_command_guard by Dicklesworthstone is a fast Rust safety hook. It blocks destructive shell, git and filesystem commands before AI coding agents run them. The repo has about 6,300 stars and was updated in the past week.",
+     "why": "A pre-execution guard is a cheap safety layer for agents with shell access on real servers.",
+     "topics": [
+      "Hooks",
+      "Claude Code",
+      "Setups"
+     ],
+     "source": "GitHub · Dicklesworthstone",
+     "url": "https://github.com/Dicklesworthstone/destructive_command_guard",
+     "date": "2026-11-06"
+    },
+    {
+     "title": "Claude writes its own SolidWorks MCP connector",
+     "body": "A user had Claude write an MCP connector to a local SolidWorks install. They use it to create CAD parts for products that ship without CAD files, in about 7 minutes per request. The post reached 438 upvotes and 191 comments on r/ClaudeAI.",
+     "why": "It shows a practical pattern: let Claude build a custom MCP server for a desktop tool with no official connector.",
+     "topics": [
+      "MCP",
+      "Setups"
+     ],
+     "source": "Reddit · r/ClaudeAI · 438 upvotes",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1xpeg2l/claude_make_me_these_parts_in_solidworks_7/",
+     "date": "2026-11-06"
+    },
+    {
+     "title": "Unleash MCP server lets agents manage feature flags",
+     "body": "Unleash's MCP server works with the open-source version of Unleash. Claude Code or Cursor can create flags, set rollouts, toggle environments and get guidance on wrapping changes and cleanup.",
+     "why": "Agents can create flags, set rollouts and toggle environments, which ties AI coding into safe release practice.",
+     "topics": [
+      "MCP",
+      "Claude Code"
+     ],
+     "source": "X · @ivarconr · 7 likes",
+     "url": "https://x.com/ivarconr/status/2118676020773711920",
+     "date": "2026-11-06"
+    },
+    {
+     "title": "New Claude Code skills render animated reels locally",
+     "body": "claude-animation-skills by artemnovitckii adds six Claude Code skills, such as /stick-figure, /map-route and /graph, that write a spec, render the animation locally and check it against Instagram's safe area. It was created on November 1, 2026 and is also available as a plugin. Install: git clone the repo to ~/claude-animation-skills and run ./install.sh.",
+     "why": "It shows skills plus local tools (ffmpeg, Node, Python) can produce full media pipelines from one slash command.",
+     "topics": [
+      "Skills",
+      "Plugins"
+     ],
+     "source": "GitHub · artemnovitckii",
+     "url": "https://github.com/artemnovitckii/claude-animation-skills",
+     "date": "2026-11-06"
+    }
+   ]
+  },
+  "x-desk": {
+   "routine": "x-desk",
+   "status": "done",
+   "headline": "Google DeepMind's post on AI agents finding two weaknesses in legacy RSA-1024 led AI on X.",
+   "filed": "2026-11-07T02:19:50Z",
+   "note": "Read 29 posts across 3 searches; 5 passed the value and engagement filter (search 2 posts all had fewer than 20 likes).",
+   "items": [
+    {
+     "title": "Meta rolls out Muse Realtime Avatar in the US",
+     "body": "Meta previewed Muse Realtime Avatar at Connect and is now rolling it out in the Muse app in the US. It turns Muse Realtime Voice into expressive, interactive avatars.",
+     "why": "Real-time voice plus avatar embodiment sets a new bar for interactive agent interfaces.",
+     "topics": [
+      "AI tools",
+      "Agents"
+     ],
+     "source": "X · @AIatMeta · 402 likes · 43 reposts",
+     "url": "https://x.com/AIatMeta/status/2118412135340572850",
+     "date": "2026-11-05"
+    },
+    {
+     "title": "Hugging Face ML Intern now runs as a Slack bot",
+     "body": "Hugging Face made its open-source ML Intern available as a Slack bot that teams install in their own workspace. It can evaluate models, build datasets and fine-tune models on request.",
+     "why": "Teams can evaluate models, build datasets and fine-tune from chat with an open-source agent.",
+     "topics": [
+      "Agents",
+      "AI tools",
+      "Open models"
+     ],
+     "source": "X · @huggingface · 288 likes · 38 reposts",
+     "url": "https://x.com/huggingface/status/2118430862949945612",
+     "date": "2026-11-05"
+    },
+    {
+     "title": "Hugging Face lets you stream live training runs",
+     "body": "Hugging Face announced that users can stream live training runs on the Hub. The feature makes in-progress runs visible to others.",
+     "why": "Live training dashboards on the Hub make model training more open and easier to monitor.",
+     "topics": [
+      "AI tools",
+      "Open models"
+     ],
+     "source": "X · @huggingface · 165 likes · 17 reposts",
+     "url": "https://x.com/huggingface/status/2118715992343789911",
+     "date": "2026-11-06"
+    }
+   ]
+  },
+  "gadgets": {
+   "routine": "gadgets",
+   "status": "done",
+   "headline": "Apple's OLED iPad mini with A20 Pro went on sale on November 6, from $699 and Rs 82,900 in India.",
+   "filed": "2026-11-07T02:21:40Z",
+   "note": "",
+   "items": [
+    {
+     "title": "Apple's OLED iPad mini with A20 Pro goes on sale",
+     "body": "Apple's new iPad mini has an 8.5-inch OLED display, the A20 Pro chip and an IP67 rating. It starts at $699 in the US. In India the Wi-Fi model costs Rs 82,900 and the cellular model Rs 1,00,900. It went on sale on November 6, 2026.",
+     "why": "The first OLED iPad mini adds IP67 protection and a faster chip to Apple's smallest tablet.",
+     "topics": [
+      "Tablets",
+      "Apple"
+     ],
+     "source": "MacRumors; The Hans India",
+     "url": "https://www.macrumors.com/2026/11/05/apple-launching-five-new-products-tomorrow/",
+     "date": "2026-11-06"
+    },
+    {
+     "title": "M6 MacBook Pro and iMac reach stores; touchscreen OLED models follow",
+     "body": "Apple started sales of the M6 14-inch MacBook Pro from $1,999 and the M6 iMac from $1,499 on November 6. In India the M6 MacBook Pro starts at Rs 2,39,900 and the iMac at Rs 1,74,900. The 14-inch and 16-inch MacBook Pro models with OLED touchscreens start at $2,899 and $3,399. MacRumors reports some touchscreen configurations ship in 7 to 10 business days or 3 to 4 weeks.",
+     "why": "Buyers get Apple's M6 chip now, and the first touchscreen Macs ship within weeks.",
+     "topics": [
+      "Laptops",
+      "Apple"
+     ],
+     "source": "MacRumors; The Hans India",
+     "url": "https://www.macrumors.com/2026/11/05/apple-launching-five-new-products-tomorrow/",
+     "date": "2026-11-06"
+    },
+    {
+     "title": "Samsung Galaxy Buds On clip-on earbuds go on sale at $229.99",
+     "body": "Galaxy Buds On is a clip-on earbud that weighs 6.65g per bud. It gives up to 9.5 hours of playback, or 38 hours with the case, and uses three microphones plus a voice pickup unit for calls. Head Gestures and Gemini Live are supported. It costs $229.99 in black and went on sale in the US on November 6, 2026.",
+     "why": "Samsung adds an open, clip-on earbud with Gemini Live controls to its audio range.",
+     "topics": [
+      "Audio",
+      "Samsung"
+     ],
+     "source": "Samsung Newsroom US",
+     "url": "https://news.samsung.com/us/latest-samsung-devices-galaxy-buds-on-galaxy-smarttag3-available-now/",
+     "date": "2026-11-06"
+    },
+    {
+     "title": "Galaxy SmartTag3 triples Compass View range to 60 meters",
+     "body": "Galaxy SmartTag3 is thinner than earlier models and works across operating systems through the Galaxy Find Network. Compass View shows distance and direction up to 60 meters, about three times the previous range, on supported phones. It costs $29.99 for one or $99.99 for a four-pack and went on sale in the US on November 6, 2026.",
+     "why": "A thinner tracker with longer directional range competes more directly with AirTag.",
+     "topics": [
+      "Smart home",
+      "Samsung"
+     ],
+     "source": "Samsung Newsroom US",
+     "url": "https://news.samsung.com/us/latest-samsung-devices-galaxy-buds-on-galaxy-smarttag3-available-now/",
+     "date": "2026-11-06"
+    },
+    {
+     "title": "Samsung's first smart glasses open for preorder November 12",
+     "body": "Warby Parker, Samsung's design partner, says preorders for Samsung's first smart glasses open on November 12. Warby Parker will reveal styles, lenses and colors that day. Sales are expected to start in December. Samsung has not given a price.",
+     "why": "Samsung's entry sets up an Android-side rival to Meta's smart glasses for the holiday season.",
+     "topics": [
+      "Wearables",
+      "AI gadgets",
+      "Samsung"
+     ],
+     "source": "Gizmodo",
+     "url": "https://gizmodo.com/samsung-smart-glasses-preorder-2000836199",
+     "date": "2026-11-06"
+    }
+   ]
+  },
+  "tech-pulse": {
+   "routine": "tech-pulse",
+   "status": "done",
+   "headline": "Thinking Machines released Inkling 2 Small, a 594B-parameter MoE model with Apache 2.0 weights promised next week.",
+   "filed": "2026-11-07T02:21:40Z",
+   "note": "",
+   "items": [
+    {
+     "title": "Cheap decision model plus Claude Opus matches Opus accuracy at lower cost",
+     "body": "Hightouch tested LLM judges for identity resolution on a synthetic benchmark of 1,000 identities. A fast decision model called Jev scores every case and sends only mid-confidence cases to Claude Opus 5.5. On the easier test the hybrid reached 98.8% accuracy at $0.88 per 1,000 cases, against 99.0% at $3.86 for Opus alone. On the harder test it matched Opus accuracy at about 45% lower cost.",
+     "why": "The cascade pattern shows how to cut LLM-judge costs without losing accuracy.",
+     "topics": [
+      "Claude",
+      "AI tools",
+      "AI research"
+     ],
+     "source": "Hacker News · 284 points · 63 comments",
+     "url": "https://hightouch.com/blog/llm-judges-identity-resolution",
+     "date": "2026-11-06"
+    },
+    {
+     "title": "devvm gives each project an isolated VM for coding agents",
+     "body": "devvm is a free MIT-licensed tool that creates one VM per project with the detected toolchain. Claude Code, Codex and opencode run inside the VM, while folders such as ~/.ssh and ~/.aws stay outside. Network traffic goes through an allowlist proxy that injects real credentials, so tokens never enter the VM. It runs on macOS and Linux through Lima.",
+     "why": "Running Claude Code or Codex in a sandboxed VM keeps SSH keys, cloud credentials and the network out of the agent's reach.",
+     "topics": [
+      "Claude Code",
+      "Agents",
+      "Security"
+     ],
+     "source": "Hacker News · 93 points · 45 comments",
+     "url": "https://devvm.dev/",
+     "date": "2026-11-06"
+    }
+   ]
+  },
+  "aws-news": {
+   "routine": "aws-news",
+   "status": "done",
+   "headline": "Amazon Bedrock AgentCore adds Web Answer, a managed tool that returns cited web answers to agents in one MCP call.",
+   "filed": "2026-11-07T02:21:40Z",
+   "note": "",
+   "items": [
+    {
+     "title": "Bedrock AgentCore adds Web Answer for cited web-grounded answers",
+     "body": "Web Answer is a managed AgentCore tool that answers a natural-language question with a cited summary from current web sources. It plans and runs several searches in parallel, and builders can set domain allow and deny lists and date filters. It attaches to an AgentCore Gateway, is called over MCP and uses IAM auth. It is generally available in US East (N. Virginia), priced per tool call.",
+     "why": "Agents get cited answers from current web sources without a custom search and citation pipeline.",
+     "topics": [
+      "Bedrock",
+      "Agents"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/web-answer-amazon-bedrock/",
+     "date": "2026-11-05"
+    },
+    {
+     "title": "Amazon Q Developer in the console becomes the free AWS assistant",
+     "body": "Amazon Q Developer in the AWS Management Console and mobile apps is renamed the AWS assistant. It keeps the same account-aware guidance and actions. The AWS assistant is currently free, and Q Developer Pro subscribers keep Pro Tier capabilities. It is available globally.",
+     "why": "Every console user now gets the account-aware assistant at no cost, and Q Developer Pro users keep their features.",
+     "topics": [
+      "Agents",
+      "Cost"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/q-developer-renamed-aws-assistant/",
+     "date": "2026-11-05"
+    },
+    {
+     "title": "Security Hub adds organization-wide SBOM inventory at no extra cost",
+     "body": "Security Hub now shows a continuously updated software inventory built from Amazon Inspector SBOMs for EC2 instances, ECR images and Lambda functions. Teams can filter by package, account and Region and query it through the API. It is included with Security Hub Essentials at no extra cost and needs no setup where Inspector is on. It is available in all Regions with Security Hub.",
+     "why": "Security teams can find vulnerable packages across EC2, ECR images and Lambda from one place.",
+     "topics": [
+      "Security",
+      "Containers"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/security-hub-sbom-inventory/",
+     "date": "2026-11-06"
+    },
+    {
+     "title": "IAM Roles Anywhere checks certificate revocation automatically",
+     "body": "IAM Roles Anywhere now reads CRL distribution point URLs in certificates, downloads the CRLs and denies requests that use revoked certificates. It refreshes CRLs periodically, so teams no longer re-import them after CA updates. It works with AWS Private CA or your own PKI and is enabled per trust anchor. It is free and available in all commercial Regions.",
+     "why": "Revoked workload certificates now lose AWS access without manual CRL imports.",
+     "topics": [
+      "Security"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/iam-roles-anywhere-cdp/",
+     "date": "2026-11-05"
+    },
+    {
+     "title": "Lambda durable functions raise default quotas by up to 10x",
+     "body": "Running durable executions per account rise from 1 million to 5 million. The invocation rate to start durable executions rises from 300 to 3,000 requests per second, and checkpoint and state APIs rise from 1,000 to 10,000 requests per second. US East (N. Virginia), US West (Oregon) and Europe (Ireland) get twice the new quotas.",
+     "why": "Workflow-heavy serverless apps can run far more concurrent durable executions without quota requests.",
+     "topics": [
+      "Serverless"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/lambda-durable-functions-default-quotas/",
+     "date": "2026-11-05"
+    },
+    {
+     "title": "DynamoDB adds managed bulk put from S3 into existing tables",
+     "body": "DynamoDB bulk put items writes data from S3 files into existing tables as a managed feature. Each item can carry its own condition expression for insert-only or version-guarded writes. A Standard tier is available in all commercial and GovCloud (US) Regions, and an Accelerated tier serves time-sensitive loads.",
+     "why": "Teams can backfill or load existing tables from S3 without building ingestion pipelines.",
+     "topics": [
+      "Serverless",
+      "DevOps"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-dynamodb-now-supports-bulk-put-items/",
+     "date": "2026-11-05"
+    }
+   ]
+  },
+  "layoffs": {
+   "routine": "layoffs",
+   "status": "done",
+   "headline": "Meta filed three New York WARN notices covering 932 workers in New York County.",
+   "filed": "2026-11-07T02:21:40Z",
+   "note": "TrueUp did not load; GoLayoffs was last updated November 5.",
+   "items": [
+    {
+     "title": "Meta files New York WARN notices for 932 workers",
+     "body": "Meta filed three WARN notices in New York County dated November 5, 2026, for 267, 304 and 361 workers, 932 in total. All are listed as permanent layoffs. The tracker lists an effective date of August 20, 2026, earlier than the notice date, so the filings may cover earlier cuts.",
+     "why": "A large Big Tech cut in New York signals continued restructuring at Meta.",
+     "topics": [
+      "Layoffs",
+      "Big tech"
+     ],
+     "source": "GoLayoffs (New York WARN data)",
+     "url": "https://golayoffs.com/new-york-warn-notices/",
+     "date": "2026-11-05",
+     "company": "Meta",
+     "count": 932,
+     "pct": null,
+     "country": "United States",
+     "location": "New York County, New York",
+     "industry": "Big Tech",
+     "kind": "layoff"
+    },
+    {
+     "title": "ServiceNow files California WARN notices for 62 jobs",
+     "body": "ServiceNow filed two California WARN notices dated November 4, 2026. They cover 37 workers in Santa Clara County and 25 in San Diego County. Both are permanent layoffs effective January 4, 2027.",
+     "why": "Even fast-growing enterprise software vendors are trimming staff in California.",
+     "topics": [
+      "Layoffs"
+     ],
+     "source": "GoLayoffs (California EDD WARN data)",
+     "url": "https://golayoffs.com/layoffs/servicenow/",
+     "date": "2026-11-04",
+     "company": "ServiceNow",
+     "count": 62,
+     "pct": null,
+     "country": "United States",
+     "location": "Santa Clara County and San Diego County, California",
+     "industry": "Enterprise software",
+     "kind": "layoff"
+    }
+   ]
+  }
+ },
+ "briefing": "Good morning. This is The Nexos Daily for Saturday, the seventh of November.\n\nThe lead story: OpenAI released GPT six Cyber, a model built for exploit development, and its own safety review rates it Critical for cybersecurity. Access is limited to approved security teams, but it changes the threat model that defenders must plan for.\n\nMore security news. Google DeepMind agents found two weaknesses in legacy RSA one thousand twenty-four. If your systems still use one thousand twenty-four bit RSA keys or signatures, migrate now. A new tool called devvm gives each project an isolated virtual machine for coding agents, so SSH keys and cloud credentials stay out of reach. And a Rust hook blocks destructive commands before agents run them.\n\nIn the Claude world, Claude now has a Personal Finance beta with read-only bank links and no training on those chats. The Claude Console adds IP allowlisting and global sign-out in beta. METR reports that the pace of AI research and development at Anthropic has roughly doubled. Anthropic's official plugin directory passed forty-six thousand stars. And on Reddit, Claude wrote its own MCP connector for SolidWorks.\n\nModels: Thinking Machines launched Inkling two Small, a mixture-of-experts model with seventeen billion active parameters, with Apache two point zero weights promised next week. Baidu open-sourced ERNIE five point five Flash Base, a two hundred eighty billion parameter model. Google's Gemini Omni one point two Flash makes fifteen-second videos at thirty percent lower cost. And Meta brought its Muse Wonder models to Meta AI.\n\nChips: NVIDIA says its Vera CPU runs agent workloads up to two point two times faster than the best x86 chips. NVIDIA also previewed NVKE, for Kubernetes on your own GPU fleets. Supermicro will sell SambaNova racks next to NVIDIA GPUs. And Google plans a seventeen billion dollar AI data center in Wyoming.\n\nFor AWS engineers: Bedrock AgentCore adds Web Answer, a managed tool that returns cited web answers to agents in one MCP call. Amazon Q Developer in the console is now a free assistant for every user. Security Hub adds an organization-wide software bill of materials at no extra cost. And IAM Roles Anywhere now checks certificate revocation automatically.\n\nLayoffs: Meta filed New York WARN notices for nine hundred thirty-two workers, and ServiceNow filed California notices for sixty-two jobs.\n\nIn gadgets, Apple's OLED iPad mini went on sale, and Samsung's first smart glasses open for preorder on the twelfth of November.\n\nOn the trending page, the top new repo is an MCP server for Roblox Studio, with four hundred twenty-seven stars on its first day.\n\nThat is the briefing. Every story links to its source in the paper. Have a good weekend."
+}
