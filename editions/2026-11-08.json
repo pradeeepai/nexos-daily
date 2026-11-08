@@ -1,0 +1,533 @@
+{
+ "date": "2026-11-08",
+ "generated": "2026-11-08T02:51:10Z",
+ "sections": {
+  "tech-news": {
+   "routine": "tech-news",
+   "status": "done",
+   "headline": "Anthropic shows how offline \"dreaming\" lets Claude fix and organize its own memory, with large gains on agent benchmarks.",
+   "filed": "2026-11-08T02:20:05Z",
+   "note": "",
+   "items": [
+    {
+     "title": "Anthropic: \"dreaming\" makes Claude agent memory more accurate",
+     "body": "Anthropic published an engineering post on agent memory. An offline \"dreaming\" pass reviews logs, fixes wrong notes and builds wikis. With memory, Opus 5.5 rose from 0.655 to 0.838 mean reward on a CL-Bench database task. Over 128 dreaming sessions, wiki plus search reached 61% accuracy against 53% for search alone and saved about 20,000 tokens per question.",
+     "why": "Long-running agents need memory that corrects itself and stays small, and this gives a tested design.",
+     "topics": [
+      "Claude",
+      "Agents",
+      "AI research"
+     ],
+     "source": "Anthropic Research",
+     "url": "https://www.anthropic.com/research/components-of-agent-memory",
+     "date": "2026-11-06",
+     "also": [
+      {
+       "section": "Pulse",
+       "source": "Hacker News · 146 points · 73 comments",
+       "url": "https://www.anthropic.com/research/components-of-agent-memory"
+      },
+      {
+       "section": "Trending on X",
+       "source": "X · @AnthropicAI · 12391 likes · 1103 reposts",
+       "url": "https://x.com/AnthropicAI/status/2118814753154064501"
+      }
+     ]
+    },
+    {
+     "title": "Claude Code 2.1.319 adds background MCP tasks and permission fixes",
+     "body": "Claude Code 2.1.319 backgrounds MCP tool calls that run as tasks and reports the result when they finish. A new permissions.denyInsteadOfPrompting setting denies tool calls that would wait on a prompt. The release fixes a Bash permission bypass and a worktree sandbox escape. Gateway users get /usage spend reports and pooled budget rules.",
+     "why": "Teams that run Claude Code in CI or behind gateways get safer permissions and new spend controls.",
+     "topics": [
+      "Claude Code",
+      "MCP",
+      "Security"
+     ],
+     "source": "Claude Code CHANGELOG",
+     "url": "https://raw.githubusercontent.com/anthropics/claude-code/refs/heads/main/CHANGELOG.md",
+     "date": "2026-11-07"
+    },
+    {
+     "title": "Claude Enterprise gets security center and Console IP allowlisting",
+     "body": "Anthropic added a security center that compares Enterprise settings to its recommended setup, plus generally available inference hooks for DLP checks. The Claude Console has a beta IP allowlist for up to 1,000 IPv4 or IPv6 addresses or CIDR ranges per organization. An Admin API option signs Enterprise members out of all sessions.",
+     "why": "Security teams can now lock API access to known networks and audit Claude settings in one place.",
+     "topics": [
+      "Claude",
+      "Security"
+     ],
+     "source": "Claude Developer Platform release notes",
+     "url": "https://docs.claude.com/en/release-notes/overview.md",
+     "date": "2026-11-05"
+    },
+    {
+     "title": "METR: AI tools roughly double Anthropic's R&D pace",
+     "body": "METR reviewed Anthropic internal data from August 12 to October 29. It estimates Anthropic now advances AI capabilities at about twice its earlier pace. Most of the speedup came from AI helping staff with coding and experiment analysis, not from AI running full projects. Anthropic redacted much of the roughly 100-page report.",
+     "why": "It is the first external estimate of how much AI coding tools speed up a frontier lab's own work.",
+     "topics": [
+      "AI research",
+      "AI policy",
+      "Claude"
+     ],
+     "source": "METR",
+     "url": "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/",
+     "date": "2026-11-05"
+    },
+    {
+     "title": "OpenAI ships GPT-6 Cyber to vetted security teams",
+     "body": "GPT-6 Cyber is a security variant of GPT-6 Astra for vulnerability discovery, exploit development and pentesting. OpenAI rates it Critical in cybersecurity. Access goes through Daybreak Red and needs SSO, MFA and API IP allowlisting; individuals need a FIDO2 key. It scores 87.02% on SEC-Bench Pro against 85.38% for Astra.",
+     "why": "Security teams get a frontier model for exploit work, with strict identity and network controls.",
+     "topics": [
+      "OpenAI",
+      "New models",
+      "Security"
+     ],
+     "source": "OpenAI Deployment Safety",
+     "url": "https://deploymentsafety.openai.com/gpt-6-cyber",
+     "date": "2026-11-05"
+    },
+    {
+     "title": "Google releases Gemini Omni 1.2 Flash video model",
+     "body": "Gemini Omni 1.2 Flash generates and edits video. Clips can run up to 15 seconds, up from 10, and support iterative edits. The price dropped 30% to $0.07 per second for 720p.",
+     "why": "Teams that generate video through APIs get longer clips at 30% lower cost.",
+     "topics": [
+      "Gemini",
+      "New models"
+     ],
+     "source": "Google Blog",
+     "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+     "date": "2026-11-06"
+    },
+    {
+     "title": "Thinking Machines launches Inkling 2 Small, open weights promised",
+     "body": "Inkling 2 Small is a Mixture-of-Experts model with 594B total and 17B active parameters plus a vision encoder. It is available now on Tinker for sampling and fine-tuning. Thinking Machines plans Apache 2.0 weights after external safety testing. It reports 72.1% on DeepSWE v1.1 and 81.6% on MMMU Pro.",
+     "why": "A strong MoE coding model with Apache 2.0 weights would give teams a self-hosted option.",
+     "topics": [
+      "Open models",
+      "New models"
+     ],
+     "source": "Thinking Machines Lab",
+     "url": "https://thinkingmachines.ai/news/inkling-2-small/",
+     "date": "2026-11-05"
+    },
+    {
+     "title": "Mistral Studio adds managed agents and enterprise apps",
+     "body": "Mistral expanded Studio with managed AI agents and apps that connect to company systems, monitor actions and automate workflows. Apps and Managed Agents are in public preview, and Workflows runs on Mistral Cloud. Private cloud and on-premises deployment are planned for late November.",
+     "why": "Teams that need EU or on-prem agent hosting get another managed option.",
+     "topics": [
+      "Agents",
+      "AI tools"
+     ],
+     "source": "Mistral AI on X",
+     "url": "https://x.com/MistralAI/status/2118370229466153299",
+     "date": "2026-11-06"
+    },
+    {
+     "title": "OpenAI releases BioBasicsBench for wet-lab agent analysis",
+     "body": "OpenAI built BioBasicsBench with biotech company Ligo. It uses 100 tasks from real experiments. It tests whether agents can interpret raw lab data and perform routine analyses.",
+     "why": "It gives a concrete way to test whether agents can handle real lab data before you trust them.",
+     "topics": [
+      "OpenAI",
+      "AI research",
+      "Agents"
+     ],
+     "source": "OpenAI on X",
+     "url": "https://x.com/OpenAI/status/2118782708767965238",
+     "date": "2026-11-06",
+     "also": [
+      {
+       "section": "Trending on X",
+       "source": "X · @OpenAI · 3572 likes · 266 reposts",
+       "url": "https://x.com/OpenAI/status/2118782708767965238"
+      }
+     ]
+    }
+   ]
+  },
+  "chips": {
+   "routine": "chips",
+   "status": "done",
+   "headline": "NVIDIA's VFlash decodes whole visual plans in one pass, about 25x faster than token-by-token decoding.",
+   "filed": "2026-11-08T02:20:05Z",
+   "note": "Few hardware launches in the 48-hour window; three items passed the filter.",
+   "items": [
+    {
+     "title": "NVIDIA VFlash: whole-primitive decoding speeds visual planning 25x",
+     "body": "VFlash uses Flash Primitive Decoding: a light drafter predicts all coordinates of a point, box or trajectory in one forward pass. It reduces error against autoregressive decoding on 2D and 3D trajectory tasks. Early tests show about 25x faster 3D point motion forecasting. A world action model with VFlash plans reached 70.2% success against 62.6% for the baseline.",
+     "why": "Faster plan decoding cuts inference cost and latency for robot and vision-language agents.",
+     "topics": [
+      "NVIDIA",
+      "Architecture",
+      "AI research"
+     ],
+     "source": "Hugging Face Papers · Chou, Fan, Kautz, Yu et al. (NVIDIA)",
+     "url": "https://huggingface.co/papers/2611.08449",
+     "date": "2026-11-06"
+    },
+    {
+     "title": "Tesla rebrands AI chips \"SI\" and shows SI5, SI6, Dojo 3",
+     "body": "Tesla renamed its AI chips SI for \"Super Intelligence\". SI5 uses TSMC 3nm or Samsung 2nm-class, a multi-chip module, 96 GB memory and 250 to 800 W, at about 40x SI4. SI6 targets about 80x SI4 with 144 GB memory, due 2029 to 2030. Dojo 3 moves from wafer-scale to chiplets with 2.5D/3D packaging and stacked HBM.",
+     "why": "It shows another large buyer moving to custom silicon and chiplet training designs.",
+     "topics": [
+      "Chips",
+      "Data centers"
+     ],
+     "source": "Tom's Hardware",
+     "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/tesla-unveils-ai-accelerator-roadmap-adopts-new-si-branding-in-super-intelligence-push-si6-to-bring-80x-more-compute-performance-dojo-3-headed-to-space",
+     "date": "2026-11-06"
+    },
+    {
+     "title": "Nagare Labs Z2RAM targets SRAM speed at DRAM density",
+     "body": "Nagare Labs, a Georgia Tech spinout backed by Pat Gelsinger, develops Z2RAM, a capacitorless cell to stack on accelerators. A boosted 3-transistor cell held data over 300 s at 85°C. Simulations show 5.7x the bit density of 7nm SRAM with four tiers and 75 to 80% lower energy-delay-area for GPU L2. These are lab prototypes; sampling is targeted within four years.",
+     "why": "Dense on-chip memory could ease the HBM bandwidth and supply limits on AI accelerators.",
+     "topics": [
+      "Chips",
+      "Architecture"
+     ],
+     "source": "Tom's Hardware",
+     "url": "https://tomshardware.com/tech-industry/semiconductors/gelsinger-backed-nagare-labs-capacitorless-z2ram-promises-sram-speed-with-dram-density-latest-published-cell-retains-data-for-over-300-seconds-at-85-c-but-further-figures-are-projected",
+     "date": "2026-11-06"
+    }
+   ]
+  },
+  "ecosystem": {
+   "routine": "ecosystem",
+   "status": "done",
+   "headline": "Google's official agent skills repo led GitHub skill gainers with +534 stars in a day.",
+   "filed": "2026-11-08T02:20:05Z",
+   "note": "Sources: X search 3, GitHub search API, r/ClaudeAI top of day.",
+   "items": [
+    {
+     "title": "google/skills: official agent skills for Google products",
+     "body": "google/skills holds agent skills for Google products and technologies. It has 23,444 stars and led one daily GitHub gainers list with +534 stars. Google also keeps google/agents-cli, a skill set for building and deploying agents on Google Cloud.",
+     "why": "Teams on Google Cloud can give Claude Code ready skills for Google services.",
+     "topics": [
+      "Skills"
+     ],
+     "source": "GitHub · google",
+     "url": "https://github.com/google/skills",
+     "date": "2026-11-07"
+    },
+    {
+     "title": "DuckDB plugin lands in the official Claude plugin marketplace",
+     "body": "The DuckDB plugin routes data work through the DuckDB CLI. Nine skills cover read, query, convert, S3 explore and spatial data. Install: /plugin install duckdb-skills@claude-plugins-official",
+     "why": "Data jobs run through the DuckDB CLI instead of ad hoc Python, including S3 exploration.",
+     "topics": [
+      "Plugins",
+      "Skills",
+      "Claude Code"
+     ],
+     "source": "X · @MrBrainCaffeine · 0 likes · 0 reposts",
+     "url": "https://x.com/MrBrainCaffeine/status/2118866298142601342",
+     "date": "2026-11-07"
+    },
+    {
+     "title": "Poki MCP server lets agents drive a real iPhone",
+     "body": "Poki runs a local MCP server and optional agent on a Mac to operate a real iPhone. It remembers past tasks to repeat them faster and uses AGPL-3.0. It has 516 stars since November 5. Install: claude mcp add --scope user poki-mcp -- node \"$PWD/src/stdio.mjs\" after setup.",
+     "why": "Mobile app tests can run through Claude Code on real devices without a jailbreak.",
+     "topics": [
+      "MCP",
+      "Claude Code"
+     ],
+     "source": "GitHub · JosssphZhou",
+     "url": "https://github.com/JosssphZhou/poki",
+     "date": "2026-11-07"
+    },
+    {
+     "title": "Roblox Studio MCP server reads, edits and playtests games",
+     "body": "roblox-studio-mcp connects AI assistants to Roblox Studio. Agents can read object trees, edit scripts and run playtests. It gained 428 stars since it was created on November 6.",
+     "why": "It shows MCP spreading to game engines with full edit and test loops.",
+     "topics": [
+      "MCP"
+     ],
+     "source": "GitHub · HerdBuilderEstimate",
+     "url": "https://github.com/HerdBuilderEstimate/roblox-studio-mcp",
+     "date": "2026-11-07"
+    },
+    {
+     "title": "sandbox-mcp gives agents disposable Windows sandboxes",
+     "body": "Scott Hanselman's sandbox-mcp boots a fresh Windows 11 Sandbox, copies in an app, drives its UI, takes screenshots and deletes the machine. It works as an MCP server and as the sbx CLI, with an offline detonate mode for untrusted files. It needs Windows 11 24H2 Pro or higher and has 271 stars since November 6.",
+     "why": "Agents can test Windows apps and installers in throwaway VMs, a safer pattern for CI.",
+     "topics": [
+      "MCP",
+      "Setups"
+     ],
+     "source": "GitHub · shanselman",
+     "url": "https://github.com/shanselman/sandbox-mcp",
+     "date": "2026-11-07"
+    },
+    {
+     "title": "mini-harness: a small Python agent harness for learning",
+     "body": "phuryn/mini-harness is a small Python agent harness for teaching. It includes goal mode, permissions, skills, MCP and server-side compaction. It has 139 stars since November 2.",
+     "why": "Engineers can study how skills, MCP, permissions and compaction fit together in one small codebase.",
+     "topics": [
+      "Agent SDK",
+      "Skills",
+      "MCP"
+     ],
+     "source": "GitHub · phuryn",
+     "url": "https://github.com/phuryn/mini-harness",
+     "date": "2026-11-07"
+    }
+   ]
+  },
+  "x-desk": {
+   "routine": "x-desk",
+   "status": "done",
+   "headline": "Anthropic's post on Claude \"dreaming\" memory led AI posts on X with 12.4K likes.",
+   "filed": "2026-11-08T02:20:05Z",
+   "note": "Read 30 posts across three searches; 7 from searches 1 and 2 passed the filter, top 6 kept.",
+   "items": [
+    {
+     "title": "Karpathy one-shots a 47K-video site with Claude Code",
+     "body": "Andrej Karpathy turned a published list of top YouTube channels into TristanTube, a site with 47K technical videos and a TV mode. He says Claude Code built it in one shot in three minutes.",
+     "why": "It shows how fast a small full web app can now ship with an agent.",
+     "topics": [
+      "Claude Code",
+      "AI tools"
+     ],
+     "source": "X · @karpathy · 5488 likes · 405 reposts",
+     "url": "https://x.com/karpathy/status/2119114537442189652",
+     "date": "2026-11-07"
+    },
+    {
+     "title": "Anthropic Science Blog: AI is changing scientific modeling",
+     "body": "Anthropic posted on how AI starts to change scientific models, from single nerve cells to neutron star collisions. The post covers recent advances in how scientists build and test such models.",
+     "why": "It shows where Claude is used for simulation and model-building work.",
+     "topics": [
+      "Claude",
+      "AI research"
+     ],
+     "source": "X · @AnthropicAI · 3411 likes · 377 reposts",
+     "url": "https://x.com/AnthropicAI/status/2118792930211107115",
+     "date": "2026-11-06"
+    },
+    {
+     "title": "OpenAI and Frontier Model Forum publish cyber-harm framework",
+     "body": "OpenAI worked with the Frontier Model Forum and its member firms on a framework. It helps identify when bypassing an AI system's safeguards could enable serious cyber harm, so labs can prioritize stronger protections.",
+     "why": "Security teams get a shared way to judge which jailbreaks cause real cyber risk.",
+     "topics": [
+      "OpenAI",
+      "AI research"
+     ],
+     "source": "X · @OpenAI · 1561 likes · 125 reposts",
+     "url": "https://x.com/OpenAI/status/2118795218099253606",
+     "date": "2026-11-06"
+    },
+    {
+     "title": "GPT-Image-2.6 can now create GIFs",
+     "body": "OpenAI Developers announced that GPT-Image-2.6 now creates GIFs. The feature is open to everyone and to teams.",
+     "why": "Teams can make animated assets through the same image model and API.",
+     "topics": [
+      "OpenAI",
+      "AI tools"
+     ],
+     "source": "X · @OpenAIDevs · 1731 likes · 88 reposts",
+     "url": "https://x.com/OpenAIDevs/status/2118852567509909716",
+     "date": "2026-11-06"
+    }
+   ]
+  },
+  "gadgets": {
+   "routine": "gadgets",
+   "status": "done",
+   "headline": "Android XR smart glasses from Google's partners get a confirmed December 2026 release window.",
+   "filed": "2026-11-08T02:22:32Z",
+   "note": "GSMArena, Android Authority and Gadgets 360 pages did not open; weekend news was thin, so two November 5 items are included.",
+   "items": [
+    {
+     "title": "First Android XR glasses get a December release window",
+     "body": "Gentle Monster, a Google Android XR launch partner, said its first Intelligent Eyewear collection launches in December 2026. Warby Parker opens pre-orders for its Android XR glasses on November 12. No exact day or price is announced.",
+     "why": "Buyers can expect the first Google-platform smart glasses before the holidays, as rivals to Meta's glasses.",
+     "topics": [
+      "Wearables",
+      "AI gadgets",
+      "Google"
+     ],
+     "source": "9to5Google",
+     "url": "https://9to5google.com/2026/11/06/android-xr-glasses-release-date-window-confirmed/",
+     "date": "2026-11-06"
+    },
+    {
+     "title": "Motorola Signature 27 launches in US at $2,499 with 7,000mAh battery",
+     "body": "The Signature 27 has a 6.8-inch 120Hz AMOLED display with up to 12,000 nits peak, Snapdragon 8 Elite Extreme Gen 6, 12GB RAM and 512GB storage. It has 50MP main, 50MP ultra-wide and 200MP 3x telephoto cameras and a 7,000mAh battery with 90W charging. It costs $2,499 and goes on sale in the US on November 19, 2026.",
+     "why": "Motorola now sells an ultra-premium flagship with a 200MP 3x zoom camera and 90W charging in the US.",
+     "topics": [
+      "Phones"
+     ],
+     "source": "MobileSyrup",
+     "url": "https://mobilesyrup.com/2026/11/05/motorola-signature-27-reveal/",
+     "date": "2026-11-05"
+    },
+    {
+     "title": "Sony reissues 1979 Walkman MDR-3 headphones with USB-C",
+     "body": "The Sony MDR-3R recreates the 1979 MDR-3 with a USB-C plug, a retuned 23mm driver, a built-in mic and an in-line remote. It uses recycled plastic and comes with blue or orange pads. It costs $59.99 and went on sale November 5 at Sony.com, Amazon and Best Buy. A Stranger Things red and black edition costs $79.99.",
+     "why": "A low-cost wired USB-C headset with mic and remote now fits phones and laptops without a jack.",
+     "topics": [
+      "Audio"
+     ],
+     "source": "9to5Google",
+     "url": "https://9to5google.com/2026/11/05/sony-walkman-mdr-3-headphones-usb-c/",
+     "date": "2026-11-05"
+    }
+   ]
+  },
+  "tech-pulse": {
+   "routine": "tech-pulse",
+   "status": "done",
+   "headline": "Anthropic research shows how Claude agents write, check and repair their own memory across sessions.",
+   "filed": "2026-11-08T02:22:32Z",
+   "note": "",
+   "items": [
+    {
+     "title": "GitHub rebuilds Git storage for thousands of concurrent agents",
+     "body": "GitHub described Project Rubicon, a new Git storage design that keeps Git objects in Azure Blob Storage and uses a separate Ref-CAS service for reference updates. In internal tests it supported 5,000 concurrent agents on one repository and 7,200 pushes per second. Daily requests on one busy repository rose from about 44 million to 181 million between March and May 2026. It is in limited private preview, with broader rollout planned for early next year.",
+     "why": "Repositories that many coding agents push to at once need storage that scales far past human traffic.",
+     "topics": [
+      "Agents",
+      "DevOps"
+     ],
+     "source": "Hacker News · 219 points · 62 comments",
+     "url": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/",
+     "date": "2026-11-05"
+    },
+    {
+     "title": "llama.cpp PR runs missed MoE experts on CPU",
+     "body": "Pull request #30966 adds a --moe-cache-cpu-share flag that computes a share of expert-cache misses on the CPU instead of uploading experts to the GPU. It also adds a tuning script that recommends cache size and CPU share for a machine. One reviewer reported about a 10% decode gain on an R9700 with Qwen 3.8 Next. The PR is open and still needs more reviews.",
+     "why": "Local MoE models on limited VRAM can decode faster with a tuned expert cache.",
+     "topics": [
+      "Open models",
+      "AI tools"
+     ],
+     "source": "r/LocalLLaMA · 186 upvotes",
+     "url": "https://github.com/ggml-org/llama.cpp/pull/30966",
+     "date": "2026-11-07"
+    },
+    {
+     "title": "Researcher maps the hidden personal knowledge graph inside macOS",
+     "body": "Since macOS 13, the knowledgeconstructiond and intelligenceplatformd daemons build a graph from Contacts, Calendar, Photos, Messages, Mail, location and Screen Time. The graph has 181 entity classes and 278 predicates, and an XGBoost model infers some relationships. The data sits in 51 plaintext SQLite databases in ~/Library/IntelligencePlatform, protected by TCC Full Disk Access.",
+     "why": "Security teams should know that plaintext SQLite files on every Mac hold an inferred map of a user's relationships.",
+     "topics": [
+      "Security",
+      "AI tools"
+     ],
+     "source": "Hacker News · 558 points · 327 comments",
+     "url": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
+     "date": "2026-11-07"
+    },
+    {
+     "title": "Libghostty 1.0 ships a stable C library for terminal emulation",
+     "body": "Libghostty 1.0 is a portable C library for terminal emulation, extracted from the Ghostty core. The library and its C ABI are now stable, with semantic versioning and ABI compatibility checks. It is MIT licensed. CI builds and tests it on Linux, macOS, iOS, FreeBSD, Windows, Android and WebAssembly.",
+     "why": "Tool and IDE builders can embed a fast, MIT-licensed terminal core with a stable ABI.",
+     "topics": [
+      "DevOps",
+      "AI tools"
+     ],
+     "source": "Hacker News · 1,016 points · 176 comments",
+     "url": "https://mitchellh.com/writing/libghostty-1-0",
+     "date": "2026-11-06"
+    }
+   ]
+  },
+  "aws-news": {
+   "routine": "aws-news",
+   "status": "done",
+   "headline": "Moonshot AI's Kimi K3.1 Pro Highspeed, a 1M-token open-weight agentic model, is now on Amazon Bedrock.",
+   "filed": "2026-11-08T02:22:32Z",
+   "note": "The AWS News Blog had no posts after November 4.",
+   "items": [
+    {
+     "title": "Kimi K3.1 Pro Highspeed arrives on Amazon Bedrock",
+     "body": "Moonshot AI's Kimi K3.1 Pro (Highspeed) is now on Amazon Bedrock for coding, document processing and other agentic work. It is an open-weight, natively multimodal model with a 1 million token context window. It supports explicit prompt caching to cut latency and input cost. It is available in all Bedrock Regions through cross-Region inference.",
+     "why": "Teams get a fast open-weight agentic model with a 1M-token context inside the Bedrock security boundary.",
+     "topics": [
+      "Bedrock",
+      "Agents"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/moonshot-ai-kimi-k3-1-pro-on-amazon-bedrock",
+     "date": "2026-11-06"
+    },
+    {
+     "title": "OpenSearch optimized engine adds OpenTelemetry agent traces",
+     "body": "The Amazon OpenSearch Service optimized engine now stores OpenTelemetry traces and logs together. Span events, prompts and tool calls keep their nested structure for field-level queries. OpenSearch UI adds agent traces and sessions views, a service map and APM. It needs OpenSearch 3.7, costs nothing extra and is available in 13 Regions, including Mumbai.",
+     "why": "Teams can trace an agent session end to end and find the failing tool call without flattening data.",
+     "topics": [
+      "Agents",
+      "DevOps"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-opensearch-service-support-traces",
+     "date": "2026-11-05"
+    },
+    {
+     "title": "EC2 Capacity Blocks for ML costs can now be amortized",
+     "body": "CUR 2.0 and Cost Explorer now spread the upfront fee of each EC2 Capacity Block across the reservation period instead of one charge on the purchase date. Users see amortized cost per instance and for unused capacity. CUR 2.0 uses the reservation_amortized_upfront_fee_for_billing_period and reservation_effective_cost columns. It is free in all Regions except GovCloud and China.",
+     "why": "FinOps teams can spread GPU reservation fees over time and see idle capacity per team.",
+     "topics": [
+      "Cost"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-ec2-capacity-blocks-ml/",
+     "date": "2026-11-06"
+    },
+    {
+     "title": "New CloudWatch metric flags EC2 instances that still allow IMDSv1",
+     "body": "Amazon EC2 now publishes an ImdsV1Enabled metric to CloudWatch. It shows which instances still allow Instance Metadata Service Version 1. Teams can build dashboards and alarms across accounts and Regions to find gaps. It is free in all AWS Regions.",
+     "why": "Security teams can track IMDSv2 migration with alarms instead of custom scripts.",
+     "topics": [
+      "Security"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/ec2-imdsv1enabled-cloudwatch-metric/",
+     "date": "2026-11-05"
+    }
+   ]
+  },
+  "layoffs": {
+   "routine": "layoffs",
+   "status": "done",
+   "headline": "Block started a new round of Cash App and Square operations layoffs a day after its Q3 results.",
+   "filed": "2026-11-08T02:22:32Z",
+   "note": "TrueUp did not load; GoLayoffs had no entries after November 5.",
+   "items": [
+    {
+     "title": "Block cuts Cash App and Square operations roles again",
+     "body": "Block began cutting roles in Customer Ops, Risk Ops and Learning & Content Operations for Cash App and Square on November 4, the day after Q3 results. Block has not said how many jobs are affected. It raised its 2026 gross profit forecast to $12.63 billion. A February 2026 round cut more than 4,000 jobs.",
+     "why": "A second 2026 round at Block shows fintech cuts continue even after strong quarterly results.",
+     "topics": [
+      "Layoffs"
+     ],
+     "source": "Fast Company via Yahoo Finance",
+     "url": "https://finance.yahoo.com/technology/ai/articles/jack-dorsey-block-cutting-jobs-204345016.html",
+     "date": "2026-11-05",
+     "company": "Block",
+     "count": null,
+     "pct": null,
+     "country": "United States",
+     "location": "",
+     "industry": "Fintech",
+     "kind": "layoff"
+    },
+    {
+     "title": "Angi eliminates about 300 roles in restructuring",
+     "body": "Angi said in an SEC 8-K filing with its Q3 2026 results that it will eliminate about 300 roles. The cuts are mostly in middle management and support functions. Angi said the goal is more focus and organizational velocity. Q3 revenue fell 9% year over year.",
+     "why": "Online marketplaces keep trimming middle management as revenue falls.",
+     "topics": [
+      "Layoffs"
+     ],
+     "source": "Fast Company",
+     "url": "https://www.fastcompany.com/91637302/tech-layoffs-nov-2026-update-amazon-canva-block-inc-more",
+     "date": "2026-11-03",
+     "company": "Angi",
+     "count": 300,
+     "pct": null,
+     "country": "United States",
+     "location": "",
+     "industry": "Online marketplaces",
+     "kind": "layoff"
+    }
+   ]
+  }
+ },
+ "briefing": "Good morning. This is The Nexos Daily for Sunday, the eighth of November.\n\nThe lead story: Anthropic showed how offline dreaming lets Claude fix and organize its own memory between sessions. Claude agents write, check and repair their memory, and this gives large gains on agent tasks. It was the top AI post on X, with more than twelve thousand likes.\n\nSecurity next. OpenAI and the Frontier Model Forum published a framework for cyber harm. A researcher mapped a hidden personal knowledge graph inside macOS. And a new CloudWatch metric flags EC2 instances that still allow IMDS version one, so find and fix them.\n\nIn the Claude world, Claude Code version two point one point three nineteen adds background MCP tasks and permission fixes. Claude Enterprise gets a security center, and the Console adds IP allowlisting. Andrej Karpathy built a site with forty-seven thousand videos in one shot with Claude Code. Google published an official agent skills repo for its products, and a DuckDB plugin joined the official Claude plugin marketplace. A new MCP server called sandbox-mcp gives agents disposable Windows sandboxes.\n\nModels: Kimi K three point one Pro Highspeed is now on Amazon Bedrock. Mistral Studio adds managed agents. And OpenAI released BioBasicsBench, a benchmark for wet-lab agents.\n\nChips and research: NVIDIA's VFlash decodes whole visual plans in one pass, about twenty-five times faster. Tesla renamed its AI chips and showed new designs. And GitHub rebuilt its Git storage for thousands of concurrent agents.\n\nFor AWS engineers: the OpenSearch optimized engine adds OpenTelemetry agent traces. And the cost of EC2 Capacity Blocks for machine learning can now be spread over time.\n\nLayoffs: Block started a new round of Cash App and Square operations cuts, and Angi cut about three hundred roles.\n\nIn gadgets, the first Android XR smart glasses from Google's partners have a December release window.\n\nOn the trending page, the top new repo is phoneuse, which lets a Linux PC drive an unmodified iPhone.\n\nIt is Sunday, so the Week in review is out. It has the top ten stories of the week, every model launch, and the skill of the week.\n\nThat is the briefing. Every story links to its source in the paper. Have a good day."
+}

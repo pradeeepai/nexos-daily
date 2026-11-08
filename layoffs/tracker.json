@@ -15,6 +15,20 @@
    "url": "https://golayoffs.com/new-york-warn-notices/"
   },
   {
+   "date": "2026-11-05",
+   "company": "Block",
+   "count": 4000,
+   "count_text": "",
+   "pct": null,
+   "location": "",
+   "country": "United States",
+   "industry": "Fintech",
+   "kind": "layoff",
+   "confirmed": true,
+   "source": "Fast Company via Yahoo Finance",
+   "url": "https://finance.yahoo.com/technology/ai/articles/jack-dorsey-block-cutting-jobs-204345016.html"
+  },
+  {
    "date": "2026-11-04",
    "company": "ServiceNow",
    "count": 62,
@@ -83,6 +97,20 @@
    "confirmed": true,
    "source": "Trending Topics (citing Canva staff note); Bloomberg",
    "url": "https://www.trendingtopics.eu/canva-layoffs-ai/"
+  },
+  {
+   "date": "2026-11-03",
+   "company": "Angi",
+   "count": 300,
+   "count_text": "",
+   "pct": 9.0,
+   "location": "",
+   "country": "United States",
+   "industry": "Online marketplaces",
+   "kind": "layoff",
+   "confirmed": true,
+   "source": "Fast Company",
+   "url": "https://www.fastcompany.com/91637302/tech-layoffs-nov-2026-update-amazon-canva-block-inc-more"
   },
   {
    "date": "2026-11-02",
@@ -1821,5 +1849,5 @@
    "url": "https://golayoffs.com/tech-layoff-tracker/"
   }
  ],
- "updated": "2026-11-07T02:51:25Z"
+ "updated": "2026-11-08T02:51:10Z"
 }

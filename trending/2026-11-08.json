@@ -1,0 +1,299 @@
+{
+ "date": "2026-11-08",
+ "generated": "2026-11-08T02:51:10Z",
+ "headline": "lxe/phoneuse, which lets a Linux PC drive an unmodified iPhone, is the fastest-growing new agent repo today with 168 stars.",
+ "periods": {
+  "daily": {
+   "topics": [
+    "Phone-use agents",
+    "Agent skills",
+    "MCP servers",
+    "LLM gateways"
+   ],
+   "repos": [
+    {
+     "repo": "lxe/phoneuse",
+     "url": "https://github.com/lxe/phoneuse",
+     "description": "Lets a Linux PC see and control an unmodified iPhone through AirPlay mirroring and Bluetooth input, with a CLI for agents.",
+     "kind": "Coding agent",
+     "language": "Python",
+     "stars": 168,
+     "gained": 168,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "drost-ai/tinker-ai-skill",
+     "url": "https://github.com/drost-ai/tinker-ai-skill",
+     "description": "Agent skill that fine-tunes an agentic model on your own Claude Code sessions with Tinker.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 124,
+     "gained": 124,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "Saekisui/claude-p-pipeline",
+     "url": "https://github.com/Saekisui/claude-p-pipeline",
+     "description": "Tutorial and skeleton that turn claude -p into a full chat pipeline with streaming, MCP and skills.",
+     "kind": "Dev tool",
+     "language": "JavaScript",
+     "stars": 54,
+     "gained": 54,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "yanstd888/9routerx",
+     "url": "https://github.com/yanstd888/9routerx",
+     "description": "Go gateway that routes requests across LLM providers behind one unified API.",
+     "kind": "AI infra",
+     "language": "Go",
+     "stars": 23,
+     "gained": 23,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "timoncool/google-ai-mode-mcp",
+     "url": "https://github.com/timoncool/google-ai-mode-mcp",
+     "description": "MCP server that returns cited Google AI Mode answers from your own browser.",
+     "kind": "MCP server",
+     "language": "JavaScript",
+     "stars": 9,
+     "gained": 9,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "shanyup/enginewright",
+     "url": "https://github.com/shanyup/enginewright",
+     "description": "In-editor MCP server for Unreal Engine with verified, undoable tool calls for agents.",
+     "kind": "MCP server",
+     "language": "C++",
+     "stars": 8,
+     "gained": 8,
+     "source": "GitHub search"
+    }
+   ]
+  },
+  "weekly": {
+   "topics": [
+    "Background agents",
+    "Video and animation skills",
+    "Phone-use agents",
+    "MCP servers",
+    "Agent sandboxes"
+   ],
+   "repos": [
+    {
+     "repo": "KKKKhazix/agent-autoloop",
+     "url": "https://github.com/KKKKhazix/agent-autoloop",
+     "description": "Runs a command-line agent in the background to pick up and finish tasks, and asks you only when unsure.",
+     "kind": "Agent framework",
+     "language": "TypeScript",
+     "stars": 3968,
+     "gained": 3968,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "mromidev/claude-animated-shorts",
+     "url": "https://github.com/mromidev/claude-animated-shorts",
+     "description": "Claude skill that makes animated story shorts with three.js and Remotion.",
+     "kind": "Skill",
+     "language": "TypeScript",
+     "stars": 2237,
+     "gained": 2237,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "caru-ini/stack-diagram",
+     "url": "https://github.com/caru-ini/stack-diagram",
+     "description": "Agent skill that turns a one-sentence stack description into an architecture diagram with official logos.",
+     "kind": "Skill",
+     "language": "TypeScript",
+     "stars": 2076,
+     "gained": 2076,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "voyager-so/vork",
+     "url": "https://github.com/voyager-so/vork",
+     "description": "Headless 3D and VFX engine built for agents, in research preview.",
+     "kind": "AI infra",
+     "language": "Rust",
+     "stars": 893,
+     "gained": 893,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "sarpstar/cinecode",
+     "url": "https://github.com/sarpstar/cinecode",
+     "description": "Coding agent workflow that writes code to produce short films, ads and explainer videos.",
+     "kind": "Coding agent",
+     "language": "Python",
+     "stars": 855,
+     "gained": 855,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "JosssphZhou/poki",
+     "url": "https://github.com/JosssphZhou/poki",
+     "description": "Local MCP server and agent that let AI operate a real iPhone without a jailbreak.",
+     "kind": "MCP server",
+     "language": "JavaScript",
+     "stars": 516,
+     "gained": 516,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "majorminorlabs/hermes-voice",
+     "url": "https://github.com/majorminorlabs/hermes-voice",
+     "description": "Voice access to a Hermes Agent profile through Home Assistant Assist.",
+     "kind": "Agent framework",
+     "language": "Python",
+     "stars": 506,
+     "gained": 506,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "artemnovitckii/claude-animation-skills",
+     "url": "https://github.com/artemnovitckii/claude-animation-skills",
+     "description": "Six Claude Code skills that generate animations for short videos without footage.",
+     "kind": "Skill",
+     "language": "JavaScript",
+     "stars": 487,
+     "gained": 487,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "HerdBuilderEstimate/roblox-studio-mcp",
+     "url": "https://github.com/HerdBuilderEstimate/roblox-studio-mcp",
+     "description": "MCP server that lets Claude and Cursor read and edit Roblox Studio projects.",
+     "kind": "MCP server",
+     "language": "Python",
+     "stars": 428,
+     "gained": 428,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "devvmhq/devvm",
+     "url": "https://github.com/devvmhq/devvm",
+     "description": "Isolated per-project VM sandbox with the toolchain ready for you or a coding agent.",
+     "kind": "Dev tool",
+     "language": "Go",
+     "stars": 363,
+     "gained": 363,
+     "source": "GitHub search"
+    }
+   ]
+  },
+  "monthly": {
+   "topics": [
+    "Autonomous agents",
+    "Agent skills",
+    "On-device agents",
+    "Agent cost control",
+    "Phone-use agents"
+   ],
+   "repos": [
+    {
+     "repo": "deepseek-ai/dsh-superagent-prototype",
+     "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+     "description": "DeepSeek prototype of a more autonomous agent system.",
+     "kind": "Agent framework",
+     "language": "TypeScript",
+     "stars": 20845,
+     "gained": 20845,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "heydamir/unslop",
+     "url": "https://github.com/heydamir/unslop",
+     "description": "Claude skill that redesigns generic AI-looking UI into a designed interface.",
+     "kind": "Skill",
+     "language": "JavaScript",
+     "stars": 11403,
+     "gained": 11403,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "wangzan101/Mika",
+     "url": "https://github.com/wangzan101/Mika",
+     "description": "On-device Android agent that operates apps and the web for the user.",
+     "kind": "Agent framework",
+     "language": "Kotlin",
+     "stars": 7616,
+     "gained": 7616,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "amosblomqvist/learnharness",
+     "url": "https://github.com/amosblomqvist/learnharness",
+     "description": "Agent harness built to help people learn difficult topics.",
+     "kind": "Agent framework",
+     "language": "TypeScript",
+     "stars": 6213,
+     "gained": 6213,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "Jakeschincariol/day-trader-skill",
+     "url": "https://github.com/Jakeschincariol/day-trader-skill",
+     "description": "Set of 11 Claude skills for scanning charts, tracking news and replaying trades.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 6003,
+     "gained": 6003,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "patch-gg/pixelfx",
+     "url": "https://github.com/patch-gg/pixelfx",
+     "description": "244 code-based pixel art effects plus a Claude Code skill to make new ones.",
+     "kind": "Skill",
+     "language": "JavaScript",
+     "stars": 5855,
+     "gained": 5855,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "microsoft/TokenEconomizer",
+     "url": "https://github.com/microsoft/TokenEconomizer",
+     "description": "Microsoft research tool for black-box cost control of coding agents based on past runs.",
+     "kind": "AI infra",
+     "language": "Python",
+     "stars": 4955,
+     "gained": 4955,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "onehumanbeing/esp32-iphone-agent",
+     "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
+     "description": "Lets a vision model use a real iPhone through a $7 ESP32 for USB HID input and AirPlay for screen capture.",
+     "kind": "Coding agent",
+     "language": "Swift",
+     "stars": 4633,
+     "gained": 4633,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "Leonxlnx/earshot",
+     "url": "https://github.com/Leonxlnx/earshot",
+     "description": "CPU-only tool that lets coding agents hear, review and make sound.",
+     "kind": "AI infra",
+     "language": "Python",
+     "stars": 4188,
+     "gained": 4188,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "aicodeking/leanrea",
+     "url": "https://github.com/aicodeking/leanrea",
+     "description": "Small skill that replaces a reverse-engineering MCP setup with plain CLI tools.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 4080,
+     "gained": 4080,
+     "source": "GitHub search"
+    }
+   ]
+  }
+ }
+}

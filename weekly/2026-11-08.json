@@ -1,0 +1,238 @@
+{
+ "week_start": "2026-11-02",
+ "week_end": "2026-11-08",
+ "intro": "Anthropic shipped a dense week for builders: Message Threads in the Claude API, FlashProve for provable inference, read-only Personal Finance in Claude, and research on agents that repair their own memory. OpenAI answered with GPT-6 Cyber, rated Critical for cybersecurity, while Kimi K3.1 Pro landed as open weights and a silent Postman plugin install reminded teams to audit their developer tools.",
+ "top": [
+  {
+   "title": "Claude API adds Message threads beta for faster agent loops",
+   "body": "On November 2, Anthropic released Message threads in beta with the header message-threads-2026-08-12. The API keeps the conversation on the server, so each later request sends only the new messages.",
+   "section": "AI",
+   "url": "https://platform.claude.com/docs/en/release-notes/overview",
+   "date": "2026-11-03"
+  },
+  {
+   "title": "OpenAI releases GPT-6 Cyber, rated Critical",
+   "body": "GPT-6 Cyber is a security variant of GPT-6 Astra for vulnerability discovery, exploit development and pentesting. It scores 48.45% on ExploitGym versus 42.43% for Astra, and OpenAI rates it Critical for cybersecurity.",
+   "section": "AI",
+   "url": "https://deploymentsafety.openai.com/gpt-6-cyber",
+   "date": "2026-11-07"
+  },
+  {
+   "title": "Anthropic releases FlashProve for provable LLM inference",
+   "body": "FlashProve uses a zkSNARK to prove that a response came from a committed model without revealing the weights. On Llama 4 Maverick (400B MoE, 4-bit) it proves about 110 tokens/s on one H100, with 70-95x the GPU time of vLLM.",
+   "section": "AI",
+   "url": "https://www.anthropic.com/research/provable-inference",
+   "date": "2026-11-05"
+  },
+  {
+   "title": "Claude gets Personal Finance in beta for US users",
+   "body": "Anthropic introduced Personal Finance in Claude as a beta in the US. Users connect the accounts they choose, and Claude answers money questions from their own balances and transactions.",
+   "section": "AI",
+   "url": "https://x.com/claudeai/status/2118403114890137895",
+   "date": "2026-11-06"
+  },
+  {
+   "title": "Postman silently auto-installs AI plugins, users report",
+   "body": "A GitHub issue reports that the Postman app auto-installs AI plugins without consent. The report says the plugins attempt to share API data.",
+   "section": "AI",
+   "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
+   "date": "2026-11-04"
+  },
+  {
+   "title": "Claude finds two critical Xen hypervisor VM-escape flaws",
+   "body": "Xen advisory XSA-523 covers CVE-2026-102703 and CVE-2026-102704 in the grant-copy operation. A malicious guest can read and write memory of other VMs, including dom0.",
+   "section": "AI",
+   "url": "https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html",
+   "date": "2026-11-05"
+  },
+  {
+   "title": "Moonshot publishes Kimi K3.1 Pro open weights",
+   "body": "Kimi K3.1 Pro is a 2.8T-parameter MoE with 104B active parameters and a 1,048,576-token context. It takes text and image input and ships as an MXFP4-weight, MXFP8-activation checkpoint under a custom Kimi license.",
+   "section": "AI",
+   "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+   "date": "2026-11-05"
+  },
+  {
+   "title": "MIT team uses GPT-6 Astra to edit model weights directly",
+   "body": "Researchers from MIT CSAIL used GPT-6 Astra to read and write neural network weights with no gradient descent, a method they call Weight-Space Programming. Astra changed 131,072 weights (0.016%) in Qwen3.5-0.8B to remove a reasoning-loop direction.",
+   "section": "AI",
+   "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+   "date": "2026-11-03"
+  },
+  {
+   "title": "Anthropic: \"dreaming\" makes Claude agent memory more accurate",
+   "body": "Anthropic published an engineering post on agent memory. An offline \"dreaming\" pass reviews logs, fixes wrong notes and builds wikis.",
+   "section": "AI",
+   "url": "https://www.anthropic.com/research/components-of-agent-memory",
+   "date": "2026-11-08"
+  },
+  {
+   "title": "Canva cuts 1,271 roles, 22% of staff, in restructuring",
+   "body": "Canva cut 1,271 roles, 22% of its workforce, in a company-wide restructuring. The CEO said the company needs to refound itself.",
+   "section": "Layoffs",
+   "url": "https://www.trendingtopics.eu/canva-layoffs-ai/",
+   "date": "2026-11-04"
+  }
+ ],
+ "models": [
+  {
+   "name": "GPT-6 Cyber",
+   "lab": "OpenAI",
+   "date": "2026-11-07",
+   "url": "https://deploymentsafety.openai.com/gpt-6-cyber",
+   "what": "GPT-6 Cyber is a security variant of GPT-6 Astra for vulnerability discovery, exploit development and pentesting."
+  },
+  {
+   "name": "Kimi K3.1 Pro (open weights)",
+   "lab": "Moonshot AI",
+   "date": "2026-11-05",
+   "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+   "what": "Kimi K3.1 Pro is a 2.8T-parameter MoE with 104B active parameters and a 1,048,576-token context."
+  },
+  {
+   "name": "Inkling 2 Small",
+   "lab": "Thinking Machines Lab",
+   "date": "2026-11-07",
+   "url": "https://thinkingmachines.ai/news/inkling-2-small/",
+   "what": "Inkling 2 Small is a Mixture-of-Experts model with 594B total and 17B active parameters plus a vision encoder."
+  },
+  {
+   "name": "Gemini Omni 1.2 Flash",
+   "lab": "Google",
+   "date": "2026-11-06",
+   "url": "https://x.com/OfficialLoganK/status/2118390838434693281",
+   "what": "Gemini Omni 1.2 Flash is available in Google AI Studio and the Gemini API."
+  },
+  {
+   "name": "ERNIE 5.5 Flash Base",
+   "lab": "Baidu",
+   "date": "2026-11-07",
+   "url": "https://the-decoder.com/baidu-releases-ernie-5-5-flash-base-with-280-billion-parameters-as-an-open-source-foundation-model/",
+   "what": "Baidu released ERNIE 5.5 Flash Base, a 280B-parameter MoE model with 14B active parameters per input, trained on 33.5 trillion tokens."
+  },
+  {
+   "name": "Hy4",
+   "lab": "Tencent",
+   "date": "2026-11-05",
+   "url": "https://www.chaincatcher.com/en/article/2301641",
+   "what": "Tencent Hunyuan released Hy4, its latest-generation LLM, after a preview weeks earlier."
+  },
+  {
+   "name": "Hydrogen-1.0",
+   "lab": "Deep Principle",
+   "date": "2026-11-03",
+   "url": "https://www.marktechpost.com/2026/11/02/deep-principle-hydrogen-1-0-open-weight-scientific-model/",
+   "what": "Deep Principle released Hydrogen-1.0, an open-weight scientific model with 753B parameters."
+  },
+  {
+   "name": "Ripple-65B Preview",
+   "lab": "Ricursive",
+   "date": "2026-11-05",
+   "url": "https://www.ricursive.com/ripple",
+   "what": "Ricursive Intelligence released Ripple-65B Preview, a 65B dense Transformer trained on 12T tokens."
+  },
+  {
+   "name": "Images 2.6",
+   "lab": "OpenAI",
+   "date": "2026-11-06",
+   "url": "https://x.com/OpenAIDevs/status/2118124753340756055",
+   "what": "ChatGPT Images 2.6 adds GIFs and reference images."
+  }
+ ],
+ "chips": [
+  {
+   "title": "NVIDIA lowers Rubin bandwidth specs as production hardware ships",
+   "body": "Shipping Rubin GPUs keep 50 PFLOPS FP4 inference and 288GB HBM4, but memory bandwidth drops from 22 TB/s to 19.2 TB/s and NVLink from 3.6 TB/s to 3.0 TB/s.",
+   "url": "https://www.servethehome.com/nvidia-updates-rubin-gpu-specs-as-first-production-hardware-arrives/",
+   "date": "2026-11-03"
+  },
+  {
+   "title": "Qualcomm validates HBC stacked memory for Dragonfly AI250",
+   "body": "Qualcomm completed initial validation of High Bandwidth Compute (HBC) memory, which stacks DRAM layers on a small compute die.",
+   "url": "https://www.servethehome.com/qualcomm-validates-hbc-stacked-memory-ahead-of-2027-dragonfly-ai250-sampling/",
+   "date": "2026-11-04"
+  },
+  {
+   "title": "NVIDIA Vera CPU posts big agent-workload gains over x86",
+   "body": "NVIDIA claims Vera gives 1.6x more agents per watt than the fastest x86 CPU in a 100 MW data-center comparison.",
+   "url": "https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents/",
+   "date": "2026-11-07"
+  }
+ ],
+ "skills": [
+  {
+   "repo": "heydamir/unslop",
+   "url": "https://github.com/heydamir/unslop",
+   "kind": "Skill",
+   "description": "Claude skill that redesigns generic AI-looking UI into a designed interface.",
+   "stars": 11025,
+   "gained": 5594
+  },
+  {
+   "repo": "heygen-com/hyperframes",
+   "url": "https://github.com/heygen-com/hyperframes",
+   "kind": "Plugin",
+   "description": "Write HTML. Render video. Built for agents.",
+   "stars": 80278,
+   "gained": 2866
+  },
+  {
+   "repo": "patch-gg/pixelfx",
+   "url": "https://github.com/patch-gg/pixelfx",
+   "kind": "Skill",
+   "description": "244 code-based pixel art effects plus a Claude Code skill to make new ones.",
+   "stars": 5711,
+   "gained": 2540
+  },
+  {
+   "repo": "lemomo-ai/lemo-opuscar",
+   "url": "https://github.com/lemomo-ai/lemo-opuscar",
+   "kind": "Skill",
+   "description": "A toolbox of film styles made in code for Claude Code: 66 ready to use, and your own. Each style is a style prompt plus a demo film made entirely in code by Claude Opus 5.5, with no video model. By Lemomo. · 一套用代码做片的风格工具箱：66 种现成风格，也能做出你自己的",
+   "stars": 13185,
+   "gained": 2348
+  },
+  {
+   "repo": "mromidev/claude-animated-shorts",
+   "url": "https://github.com/mromidev/claude-animated-shorts",
+   "kind": "Skill",
+   "description": "Claude skill that makes animated story shorts with three.js and Remotion.",
+   "stars": 2103,
+   "gained": 1773
+  },
+  {
+   "repo": "wheresryan22/anatomy",
+   "url": "https://github.com/wheresryan22/anatomy",
+   "kind": "Skill",
+   "description": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
+   "stars": 25648,
+   "gained": 1666
+  },
+  {
+   "repo": "Jakeschincariol/day-trader-skill",
+   "url": "https://github.com/Jakeschincariol/day-trader-skill",
+   "kind": "Skill",
+   "description": "Set of 11 Claude skills for scanning charts, tracking news and replaying trades.",
+   "stars": 5851,
+   "gained": 1404
+  },
+  {
+   "repo": "elvarofficial/teardown",
+   "url": "https://github.com/elvarofficial/teardown",
+   "kind": "Skill",
+   "description": "A Claude Code skill that turns any machine into a 3D simulator you can take apart",
+   "stars": 2475,
+   "gained": 1368
+  }
+ ],
+ "skill_of_week": {
+  "name": "unslop",
+  "kind": "Skill · Claude Code and Codex",
+  "url": "https://github.com/heydamir/unslop",
+  "stars": 11025,
+  "what": "unslop turns vibecoded, AI-looking interfaces into designed ones. It audits the screen for slop signs (purple gradients, glows, emoji labels, shouty copy, uneven spacing), proposes a visual direction you can steer, then fixes the screen in passes: spacing, color, icons, copy, type, layout, details, visuals and motion. It works with Next.js, React, Vue, Svelte, Tailwind or plain HTML, and on a live site from a link. If a screen is already good, it says so.",
+  "install": "git clone https://github.com/heydamir/unslop && mkdir -p ~/.claude/skills && cp -r unslop/skills/unslop ~/.claude/skills/",
+  "verdict": "Worth a try for internal tools and dashboards",
+  "note": "Honest take: it grew by about 5,600 stars this week, the fastest skill we track, and the audit-then-direction flow is sensible. But the repo is a few weeks old, with no test results. Live-site snapshots and the story video need Playwright, Chromium and ffmpeg. Hero images use a paid image service; the skill asks before each paid call. The license is CC BY 4.0, so credit the author if you ship changes."
+ }
+}

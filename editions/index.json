@@ -1,6 +1,11 @@
 {
  "editions": [
   {
+   "date": "2026-11-08",
+   "stories": 35,
+   "headline": "Anthropic: \"dreaming\" makes Claude agent memory more accurate"
+  },
+  {
    "date": "2026-11-07",
    "stories": 38,
    "headline": "Claude gets Personal Finance beta with read-only bank links"
