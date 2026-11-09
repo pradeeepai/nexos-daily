@@ -7,8 +7,8 @@
 <link rel="alternate" type="application/json" title="Editions" href="editions/index.json">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,700..900&family=Instrument+Sans:wght@400;500;600;700&family=Geist:wght@300..700&display=swap" rel="stylesheet">
-<script>try{var s=localStorage.getItem("nx-style");document.documentElement.dataset.style=(s==="minimal")?"minimal":"magazine"}catch(e){document.documentElement.dataset.style="magazine"}</script>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,700..900&family=Instrument+Sans:wght@400;500;600;700&family=Geist:wght@300..700&family=Newsreader:opsz,wght@6..72,400;6..72,500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script>try{var s=localStorage.getItem("nx-style");document.documentElement.dataset.style=(s==="minimal"||s==="unslop")?s:"magazine"}catch(e){document.documentElement.dataset.style="magazine"}</script>
 <style>
 /* Layout: a loud tech-magazine front. Black masthead band with a huge condensed wordmark; a purple section rail; a trending-topics strip; a hero row (purple lead block + ranked top stories); then the story stream: one readable column with a purple timeline spine, and a slim side rail on wide screens. Footer band in black. */
 :root{
@@ -404,6 +404,251 @@ footer.band{margin-top:24px}
 :root[data-style="minimal"] .verdict{background:var(--ink);color:var(--bg)}
 :root[data-style="minimal"] .new{background:var(--ink);color:var(--bg)}
 :root[data-style="minimal"] .ltab th{border-bottom:1px solid var(--ink);text-transform:none;letter-spacing:0;font-weight:600;font-size:13px}
+.wire{display:none}.hash{font-style:normal}.chip .hash{margin-right:-6px}
+/* ===== Unslop design =====
+   Made with the unslop method by Damir Sokolovsky (https://github.com/heydamir/unslop), CC BY 4.0.
+   Direction: a morning paper beside a terminal. Exact, unhurried, warm.
+   Paper and ink neutrals, one ink-red accent used rarely, serif headlines, a mono wire-time stamp on every story. */
+:root[data-style="unslop"]{
+  --bg:#f7f4ee;--bg-2:#efe9df;--card:#fdfbf7;--ink:#1f1b16;--ink-2:#5e554a;--mute:#7b7266;--line:rgba(31,27,22,.12);
+  --band:#f7f4ee;--on-band:#1f1b16;
+  --purple:#b3361f;--purple-ink:#a33019;--purple-soft:#efe9df;--on-purple:#ffffff;
+  --acc:#b3361f;--acc-ink:#a33019;--up:#16794a;
+  --f-text:"Instrument Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-serif:"Newsreader",Georgia,"Times New Roman",serif;
+  --f-mono:"JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+  --f-display:var(--f-serif);
+  --ease:cubic-bezier(.22,1,.36,1);
+  --fs:17px;color-scheme:light
+}
+:root[data-style="unslop"][data-size="s"]{--fs:15px}:root[data-style="unslop"][data-size="l"]{--fs:19px}:root[data-style="unslop"][data-size="xl"]{--fs:21px}
+@media (prefers-color-scheme:dark){:root[data-style="unslop"]:not([data-theme="light"]){--bg:#161513;--bg-2:#262421;--card:#1c1a18;--ink:#efe9de;--ink-2:#aaa398;--mute:#8a847a;--line:rgba(239,233,222,.10);--band:#161513;--on-band:#efe9de;--purple:#f0866b;--purple-ink:#f0866b;--purple-soft:#262421;--on-purple:#161513;--acc:#f0866b;--acc-ink:#f0866b;--up:#4cc38a;color-scheme:dark}}
+:root[data-style="unslop"][data-theme="dark"]{--bg:#161513;--bg-2:#262421;--card:#1c1a18;--ink:#efe9de;--ink-2:#aaa398;--mute:#8a847a;--line:rgba(239,233,222,.10);--band:#161513;--on-band:#efe9de;--purple:#f0866b;--purple-ink:#f0866b;--purple-soft:#262421;--on-purple:#161513;--acc:#f0866b;--acc-ink:#f0866b;--up:#4cc38a;color-scheme:dark}
+
+/* Base */
+:root[data-style="unslop"] body{line-height:1.6;letter-spacing:0}
+:root[data-style="unslop"] :focus-visible{outline:2px solid var(--acc);outline-offset:2px;border-radius:4px}
+:root[data-style="unslop"] button,:root[data-style="unslop"] a{transition:color .16s var(--ease),background-color .16s var(--ease),border-color .16s var(--ease)}
+:root[data-style="unslop"] .wrap{max-width:1200px;padding-inline:clamp(16px,3vw,32px)}
+
+/* Masthead: quiet chrome, the name as a nameplate */
+:root[data-style="unslop"] .band{background:var(--bg);color:var(--ink)}
+:root[data-style="unslop"] header.band{border-bottom:1px solid var(--line)}
+:root[data-style="unslop"] .band__top{padding-block:20px 8px;padding-top:calc(20px + env(safe-area-inset-top,0px))}
+:root[data-style="unslop"] .word{gap:8px;color:var(--ink)}
+:root[data-style="unslop"] .word b{font-family:var(--f-serif);font-weight:500;font-stretch:100%;font-size:32px;line-height:1;letter-spacing:-.01em;text-transform:none}
+:root[data-style="unslop"] .word i{font-family:var(--f-serif);font-weight:400;font-stretch:100%;font-size:32px;line-height:1;letter-spacing:-.01em;text-transform:none;color:var(--ink-2)}
+:root[data-style="unslop"] .tools{gap:4px}
+:root[data-style="unslop"] .tb{min-width:36px;height:36px;padding:0 12px;border:1px solid var(--line);border-radius:8px;color:var(--ink);font-size:14px;font-weight:500;background:var(--card)}
+:root[data-style="unslop"] .tb:hover:not(:disabled){background:var(--bg-2);color:var(--ink)}
+:root[data-style="unslop"] .tb svg{stroke-width:1.5}
+:root[data-style="unslop"] .band__meta{padding-bottom:16px;font-size:13px;font-weight:400;letter-spacing:0;text-transform:none;color:var(--ink-2);font-variant-numeric:tabular-nums}
+:root[data-style="unslop"] .band__meta span:nth-child(3){font-family:var(--f-mono);font-size:12px;color:var(--mute)}
+
+/* Section rail */
+:root[data-style="unslop"] .rail{background:color-mix(in srgb,var(--bg) 92%,transparent);color:var(--ink);border-bottom:1px solid var(--line);backdrop-filter:saturate(1.2) blur(8px);-webkit-backdrop-filter:saturate(1.2) blur(8px)}
+:root[data-style="unslop"] .rail__in{gap:4px}
+:root[data-style="unslop"] .rt{height:44px;padding:0 12px;color:var(--ink-2);font-family:var(--f-text);font-weight:500;font-stretch:100%;font-size:14px;letter-spacing:0;text-transform:none;border-bottom:2px solid transparent}
+:root[data-style="unslop"] .rt small{font-family:var(--f-mono);font-weight:400;font-size:12px;opacity:1;color:var(--mute);margin-left:4px}
+:root[data-style="unslop"] .rt:hover{color:var(--ink);border-bottom-color:var(--line)}
+:root[data-style="unslop"] .rt[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--acc)}
+
+/* Listen and trending */
+:root[data-style="unslop"] .listen{gap:12px;padding-top:24px;font-size:14px;font-weight:400;color:var(--ink-2)}
+:root[data-style="unslop"] .listen span{font-variant-numeric:tabular-nums}
+:root[data-style="unslop"] .gl{display:none}
+:root[data-style="unslop"] .hash{display:none}
+:root[data-style="unslop"] .pill{margin-top:12px;height:36px;padding:0 16px;border:1px solid var(--line);border-radius:8px;background:var(--card);font-size:14px;font-weight:500;color:var(--ink)}
+:root[data-style="unslop"] .pill:hover{background:var(--bg-2)}
+:root[data-style="unslop"] .pill--purple{background:var(--ink);border-color:var(--ink);color:var(--bg)}
+:root[data-style="unslop"] .pill--purple:hover{background:var(--ink-2);border-color:var(--ink-2)}
+:root[data-style="unslop"] .trend{gap:8px;padding-block:16px;border-bottom:1px solid var(--line)}
+:root[data-style="unslop"] .trend__lbl{font-family:var(--f-text);font-weight:500;font-stretch:100%;font-size:13px;text-transform:none;color:var(--ink-2);margin-right:4px}
+:root[data-style="unslop"] .chip{height:28px;padding:0 10px;gap:6px;border:1px solid transparent;border-radius:6px;background:var(--bg-2);font-size:13px;font-weight:500;color:var(--ink)}
+:root[data-style="unslop"] .chip small{font-family:var(--f-mono);font-size:11px;color:var(--mute)}
+:root[data-style="unslop"] .chip:hover{border-color:var(--line);color:var(--ink)}
+:root[data-style="unslop"] .chip[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:var(--bg)}
+:root[data-style="unslop"] .chip[aria-pressed="true"] small{color:var(--bg);opacity:.7}
+
+/* Wire stamp: the signature detail */
+:root[data-style="unslop"] .kick{gap:4px 8px;font-size:13px;font-weight:500;letter-spacing:0;text-transform:none}
+:root[data-style="unslop"] .kick .sec{color:var(--acc-ink)}
+:root[data-style="unslop"] .kick .src{color:var(--ink-2);font-weight:400}
+:root[data-style="unslop"] .kick .wire{display:inline;order:-1;font-family:var(--f-mono);font-size:12px;font-weight:400;color:var(--mute);padding-right:8px;border-right:1px solid var(--line)}
+
+/* Hero: the lead story set in serif on calm paper */
+:root[data-style="unslop"] .hero{grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:48px;padding-block:40px 40px;border-bottom:1px solid var(--line)}
+:root[data-style="unslop"] .lead{background:none;color:var(--ink);padding:0;min-height:0;justify-content:flex-start;overflow:visible}
+:root[data-style="unslop"] .lead::before{display:none}
+:root[data-style="unslop"] .lead .kick .sec{color:var(--acc-ink)}
+:root[data-style="unslop"] .lead .kick .src{color:var(--ink-2)}
+:root[data-style="unslop"] .lead h1{margin:16px 0 0;font-family:var(--f-serif);font-weight:400;font-stretch:100%;font-size:clamp(36px,4.8vw,60px);line-height:1.06;letter-spacing:-.025em;max-width:16ch}
+:root[data-style="unslop"] .lead h1 a:hover{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:8px;text-decoration-color:var(--ink-2)}
+:root[data-style="unslop"] .lead .dek{margin:20px 0 0;font-size:19px;line-height:1.55;max-width:36rem;color:var(--ink-2)}
+:root[data-style="unslop"] .lead .meta{margin-top:24px;font-size:14px;font-weight:400;color:var(--mute)}
+:root[data-style="unslop"] .lead .meta a{color:var(--ink);font-weight:500;text-decoration:underline;text-decoration-color:var(--line);text-underline-offset:4px}
+:root[data-style="unslop"] .lead .meta a:hover{text-decoration-color:var(--ink)}
+:root[data-style="unslop"] .tops{border-left:1px solid var(--line);padding-left:32px}
+:root[data-style="unslop"] .tops h2{margin:0 0 8px;font-family:var(--f-text);font-weight:500;font-stretch:100%;font-size:13px;text-transform:none;color:var(--ink-2);border-bottom:0;padding-bottom:0;display:block}
+:root[data-style="unslop"] .tops li{grid-template-columns:32px minmax(0,1fr);gap:4px 12px;padding:16px 0;border-bottom:1px solid var(--line)}
+:root[data-style="unslop"] .tops li::before{font-family:var(--f-serif);font-weight:400;font-stretch:100%;font-size:28px;line-height:1;color:var(--mute);font-variant-numeric:tabular-nums}
+:root[data-style="unslop"] .tops h3{font-family:var(--f-text);font-weight:500;font-stretch:100%;font-size:17px;line-height:1.35}
+:root[data-style="unslop"] .tops h3 a:hover{color:var(--ink);text-decoration-color:var(--ink-2);text-underline-offset:3px}
+:root[data-style="unslop"] .tops .src{font-size:13px;font-weight:400;color:var(--mute)}
+@media (max-width:900px){:root[data-style="unslop"] .hero{grid-template-columns:minmax(0,1fr);gap:32px;padding-block:32px}:root[data-style="unslop"] .tops{border-left:0;padding-left:0;border-top:1px solid var(--line);padding-top:16px}}
+
+/* Stream */
+:root[data-style="unslop"] .body{grid-template-columns:minmax(0,1fr) 280px;gap:64px;padding-block:40px 48px}
+:root[data-style="unslop"] .stream h2.sh{margin:0 0 8px;font-family:var(--f-serif);font-weight:500;font-stretch:100%;font-size:28px;line-height:1.15;text-transform:none;letter-spacing:-.01em}
+:root[data-style="unslop"] .stream h2.sh span{color:inherit}
+:root[data-style="unslop"] .items{padding-left:0}
+:root[data-style="unslop"] .items::before,:root[data-style="unslop"] .story::before{display:none}
+:root[data-style="unslop"] .story{padding:28px 0 32px;max-width:680px}
+:root[data-style="unslop"] .story h3{margin:12px 0 0;font-family:var(--f-serif);font-weight:500;font-stretch:100%;font-size:clamp(24px,2.4vw,28px);line-height:1.2;letter-spacing:-.015em}
+:root[data-style="unslop"] .story h3 a:hover{color:var(--ink);text-decoration-thickness:1px;text-decoration-color:var(--ink-2)}
+:root[data-style="unslop"] .story p.txt{margin:12px 0 0;max-width:64ch}
+:root[data-style="unslop"] .story .why{margin:16px 0 0;padding:0 0 0 16px;background:none;border-left:2px solid var(--line);font-size:.94em;color:var(--ink-2);max-width:62ch}
+:root[data-style="unslop"] .story .why b{display:block;color:var(--ink);font-weight:500;font-size:13px;margin-bottom:2px}
+:root[data-style="unslop"] .also{gap:4px 12px;margin:16px 0 0;font-size:13px;color:var(--mute)}
+:root[data-style="unslop"] .also b{color:var(--ink-2);font-weight:500}
+:root[data-style="unslop"] .also a{color:var(--ink-2);font-weight:400;text-decoration:underline;text-decoration-color:var(--line);text-underline-offset:3px}
+:root[data-style="unslop"] .also a:hover{color:var(--ink);text-decoration-color:var(--ink)}
+:root[data-style="unslop"] .foot{gap:8px 12px;margin-top:16px;font-size:13px;color:var(--mute);font-variant-numeric:tabular-nums}
+:root[data-style="unslop"] .foot a{font-weight:500;color:var(--ink);border-bottom:1px solid var(--line);padding-bottom:1px}
+:root[data-style="unslop"] .foot a:hover{color:var(--ink);border-bottom-color:var(--ink)}
+:root[data-style="unslop"] .tag{height:24px;padding:0 8px;border-radius:6px;background:var(--bg-2);font-size:12px;font-weight:400;color:var(--ink-2)}
+:root[data-style="unslop"] .tag:hover{background:var(--line);color:var(--ink)}
+:root[data-style="unslop"] .side{gap:32px;top:64px}
+:root[data-style="unslop"] .box{border-top:1px solid var(--line);padding-top:16px}
+:root[data-style="unslop"] .box h4{margin:0 0 8px;font-family:var(--f-text);font-weight:500;font-stretch:100%;font-size:13px;text-transform:none;color:var(--ink-2)}
+:root[data-style="unslop"] .stat{align-items:baseline;padding:8px 0;font-size:14px;color:var(--ink-2)}
+:root[data-style="unslop"] .stat b{font-family:var(--f-text);font-weight:500;font-stretch:100%;font-size:18px;color:var(--ink)}
+:root[data-style="unslop"] .stat:first-of-type b{color:var(--acc-ink)}
+:root[data-style="unslop"] .note{font-size:13px;color:var(--mute)}
+:root[data-style="unslop"] .note b{color:var(--ink-2);font-weight:500}
+:root[data-style="unslop"] .days{gap:4px}
+:root[data-style="unslop"] .day{height:28px;padding:0 10px;border:1px solid var(--line);border-radius:6px;background:var(--card);font-family:var(--f-mono);font-size:12px;font-weight:400;color:var(--ink-2)}
+:root[data-style="unslop"] .day:hover{background:var(--bg-2);color:var(--ink)}
+:root[data-style="unslop"] .day[aria-current="true"]{background:var(--ink);border-color:var(--ink);color:var(--bg)}
+@media (max-width:980px){:root[data-style="unslop"] .body{grid-template-columns:minmax(0,1fr);gap:40px}}
+
+/* Empty states and panels */
+:root[data-style="unslop"] .empty h2,:root[data-style="unslop"] .panel h2{font-family:var(--f-serif);font-weight:400;font-stretch:100%;text-transform:none;letter-spacing:-.02em}
+:root[data-style="unslop"] .empty h2{font-size:36px}
+:root[data-style="unslop"] .panel h2{font-size:clamp(36px,5vw,52px);line-height:1.08}
+:root[data-style="unslop"] .panel h2 span{color:var(--ink-2)}
+:root[data-style="unslop"] .search{height:44px;padding:0 16px;font-size:16px;border:1px solid var(--line);border-radius:8px;background:var(--card)}
+:root[data-style="unslop"] .search:focus{border-color:var(--ink-2)}
+:root[data-style="unslop"] .hit h3,:root[data-style="unslop"] .row b{font-family:var(--f-serif);font-weight:500;font-stretch:100%;font-size:21px}
+:root[data-style="unslop"] mark{background:var(--bg-2);color:var(--ink)}
+:root[data-style="unslop"] .st{font-size:13px;font-weight:500;letter-spacing:0;text-transform:none}
+:root[data-style="unslop"] .btn{height:36px;border:1px solid var(--line);border-radius:8px;font-weight:500;background:var(--card)}
+:root[data-style="unslop"] .btn--p{background:var(--ink);border-color:var(--ink);color:var(--bg)}
+
+/* Footer */
+:root[data-style="unslop"] footer.band{margin-top:48px;border-top:1px solid var(--line)}
+:root[data-style="unslop"] .foot-in{gap:8px 32px;padding-block:32px calc(32px + env(safe-area-inset-bottom,0px));font-size:13px;color:var(--ink-2)}
+:root[data-style="unslop"] .foot-in b{font-family:var(--f-serif);font-weight:500;font-stretch:100%;font-size:20px;color:var(--ink);text-transform:none}
+:root[data-style="unslop"] .foot-in span{max-width:62ch}
+.ucredit{display:none}
+:root[data-style="unslop"] .ucredit{display:block;flex-basis:100%;font-size:12px;color:var(--mute)}
+:root[data-style="unslop"] .ucredit a{color:var(--ink-2)}
+
+/* Audio player */
+:root[data-style="unslop"] .player{background:var(--card);color:var(--ink);border-top:1px solid var(--line);box-shadow:0 -8px 24px rgba(0,0,0,.06)}
+:root[data-style="unslop"] .pl-title b{font-family:var(--f-text);font-weight:500;font-stretch:100%;font-size:15px;text-transform:none}
+:root[data-style="unslop"] .pl-title span{color:var(--mute);font-family:var(--f-mono);font-size:12px}
+:root[data-style="unslop"] .pl-btn{height:36px;min-width:36px;border:1px solid var(--line);border-radius:8px;color:var(--ink);font-weight:500;background:var(--card)}
+:root[data-style="unslop"] .pl-btn:hover{background:var(--bg-2);color:var(--ink)}
+:root[data-style="unslop"] .pl-main{height:40px;min-width:40px;background:var(--ink);border-color:var(--ink);color:var(--bg)}
+:root[data-style="unslop"] .pl-main:hover{background:var(--ink-2);color:var(--bg)}
+:root[data-style="unslop"] .pl-seek{color:var(--mute);font-family:var(--f-mono);font-size:12px}
+:root[data-style="unslop"] .pl-seek input{accent-color:var(--acc)}
+:root[data-style="unslop"] .pl-rate{border:1px solid var(--line);border-radius:8px}
+:root[data-style="unslop"] .pl-rate button{color:var(--ink-2);font-weight:500;font-family:var(--f-mono);font-size:12px;height:32px}
+:root[data-style="unslop"] .pl-rate button[aria-pressed="true"]{background:var(--bg-2);color:var(--ink)}
+
+/* Menu */
+:root[data-style="unslop"] .backdrop{background:rgba(20,18,15,.32)}
+:root[data-style="unslop"] .sheet{background:var(--bg);border-left:1px solid var(--line);gap:24px;box-shadow:-8px 0 24px rgba(0,0,0,.06)}
+:root[data-style="unslop"] .sheet__h h2{font-family:var(--f-serif);font-weight:500;font-stretch:100%;font-size:24px;text-transform:none}
+:root[data-style="unslop"] .x{border:1px solid var(--line);border-radius:8px;width:36px;height:36px;background:var(--card)}
+:root[data-style="unslop"] .links{gap:0}
+:root[data-style="unslop"] .links button{padding:10px 0;font-family:var(--f-text);font-weight:500;font-stretch:100%;font-size:16px;color:var(--ink)}
+:root[data-style="unslop"] .links button:hover{color:var(--ink-2)}
+:root[data-style="unslop"] .opt p{font-size:13px;font-weight:500;letter-spacing:0;text-transform:none}
+:root[data-style="unslop"] .seg{border:1px solid var(--line);border-radius:8px;background:var(--card);padding:2px;gap:2px}
+:root[data-style="unslop"] .seg button{height:32px;border-radius:6px;font-size:13px;font-weight:500;color:var(--ink-2)}
+:root[data-style="unslop"] .seg button[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
+:root[data-style="unslop"] .toast{background:var(--ink);color:var(--bg);border-radius:8px;font-size:14px;font-weight:500}
+
+/* In-page views */
+:root[data-style="unslop"] .xv h1.xh{margin:40px 0 8px;font-family:var(--f-serif);font-weight:400;font-stretch:100%;font-size:clamp(36px,5vw,52px);line-height:1.08;letter-spacing:-.02em;text-transform:none}
+:root[data-style="unslop"] .xv h1.xh span{color:var(--ink-2)}
+:root[data-style="unslop"] .xv .lede{color:var(--ink-2);margin-bottom:24px}
+:root[data-style="unslop"] .xbar{padding:12px 0}
+:root[data-style="unslop"] .xsel{height:32px;border:1px solid var(--line);border-radius:8px;background:var(--card);font:500 13px var(--f-text)}
+:root[data-style="unslop"] .xlbl{font-weight:400;color:var(--mute);font-variant-numeric:tabular-nums}
+:root[data-style="unslop"] .xv .topics .lbl,:root[data-style="unslop"] .lbox h3,:root[data-style="unslop"] .xv h3.sh{font-family:var(--f-text);font-stretch:100%;text-transform:none;letter-spacing:0}
+:root[data-style="unslop"] .xv .topics .lbl{font-weight:500;font-size:13px;color:var(--ink-2)}
+:root[data-style="unslop"] .xv h3.sh{margin:48px 0 8px;font-family:var(--f-serif);font-weight:500;font-size:24px;border-bottom:0;padding-bottom:0;display:block}
+:root[data-style="unslop"] .lbox h3{font-weight:500;font-size:16px}
+:root[data-style="unslop"] .lbox p.sub{font-size:13px;color:var(--mute)}
+:root[data-style="unslop"] .repo,:root[data-style="unslop"] .wstory{grid-template-columns:40px minmax(0,1fr) auto;padding:20px 0}
+:root[data-style="unslop"] .wstory{grid-template-columns:40px minmax(0,1fr)}
+:root[data-style="unslop"] .repo::before,:root[data-style="unslop"] .wstory::before{font-family:var(--f-serif);font-weight:400;font-stretch:100%;font-size:26px;line-height:1.1;color:var(--mute)}
+:root[data-style="unslop"] .repo h2{font-family:var(--f-text);font-weight:500;font-stretch:100%;font-size:18px;line-height:1.3}
+:root[data-style="unslop"] .repo h2 a:hover,:root[data-style="unslop"] .wstory h4 a:hover,:root[data-style="unslop"] .card h4 a:hover{color:var(--ink);text-decoration-color:var(--ink-2)}
+:root[data-style="unslop"] .wstory h4,:root[data-style="unslop"] .card h4{font-family:var(--f-serif);font-weight:500;font-stretch:100%;font-size:21px;line-height:1.25}
+:root[data-style="unslop"] .rtags{gap:6px;font-size:12px}
+:root[data-style="unslop"] .rtag{border-radius:6px;padding:2px 8px;font-weight:400;background:var(--bg-2);color:var(--ink-2)}
+:root[data-style="unslop"] .rtag.kind{background:var(--bg-2);color:var(--ink)}
+:root[data-style="unslop"] .gain{font-family:var(--f-text);font-weight:500;font-stretch:100%;font-size:18px}
+:root[data-style="unslop"] .stars,:root[data-style="unslop"] .repo .first{font-family:var(--f-mono);font-size:12px;color:var(--mute)}
+:root[data-style="unslop"] .spark{color:var(--ink-2)}
+:root[data-style="unslop"] .new{background:none;color:var(--acc-ink);padding:0;font-size:12px;font-weight:500;letter-spacing:0}
+:root[data-style="unslop"] .wk{font-size:13px;font-weight:500;letter-spacing:0;text-transform:none;color:var(--ink-2)}
+:root[data-style="unslop"] .card{border:1px solid var(--line);border-radius:12px;padding:20px;background:var(--card)}
+:root[data-style="unslop"] .sotw{background:var(--card);color:var(--ink);border:1px solid var(--line);border-radius:16px;padding:clamp(20px,3vw,32px)}
+:root[data-style="unslop"] .sotw h4{font-family:var(--f-serif);font-weight:400;font-stretch:100%;font-size:clamp(32px,4vw,44px);line-height:1.08;letter-spacing:-.02em}
+:root[data-style="unslop"] .sotw a{color:var(--ink);text-decoration:none}
+:root[data-style="unslop"] .sotw p{color:var(--ink-2)}
+:root[data-style="unslop"] .sotw .wk{color:var(--acc-ink)}
+:root[data-style="unslop"] .sotw code{background:var(--bg-2);color:var(--ink);border-radius:8px;font-family:var(--f-mono);font-size:13px}
+:root[data-style="unslop"] .verdict{background:var(--ink);color:var(--bg);border-radius:6px;padding:4px 12px;font-weight:500;font-size:13px}
+:root[data-style="unslop"] .kpi{border-top:1px solid var(--line);padding-top:12px}
+:root[data-style="unslop"] .kpi b{font-family:var(--f-text);font-weight:500;font-stretch:100%;font-size:clamp(28px,4vw,40px);letter-spacing:-.02em;color:var(--ink)}
+:root[data-style="unslop"] .kpi:first-child b{color:var(--acc-ink)}
+:root[data-style="unslop"] .kpi span{font-size:13px}
+:root[data-style="unslop"] .kpi small{font-family:var(--f-mono);font-size:12px;color:var(--mute)}
+:root[data-style="unslop"] .mcol i{background:color-mix(in srgb,var(--ink-2) 34%,transparent);border-radius:4px 4px 0 0}
+:root[data-style="unslop"] .mcol:hover i,:root[data-style="unslop"] .mcol:focus-visible i{background:var(--acc)}
+:root[data-style="unslop"] .mcol .mv{font-family:var(--f-mono);font-weight:400;font-size:12px}
+:root[data-style="unslop"] .mcol .mm{font-family:var(--f-mono);font-size:11px;color:var(--mute)}
+:root[data-style="unslop"] .mbars{border-bottom-color:var(--line)}
+:root[data-style="unslop"] .hb-t{background:var(--bg-2);border-radius:4px}
+:root[data-style="unslop"] .hb-t i{background:color-mix(in srgb,var(--ink-2) 55%,transparent);border-radius:4px}
+:root[data-style="unslop"] .hb[aria-pressed="true"] .hb-t i,:root[data-style="unslop"] .hb:hover .hb-t i{background:var(--acc)}
+:root[data-style="unslop"] .hb:hover .hb-n,:root[data-style="unslop"] .hb[aria-pressed="true"] .hb-n{color:var(--ink)}
+:root[data-style="unslop"] .hb-v{font-family:var(--f-mono);font-size:12px;color:var(--mute)}
+:root[data-style="unslop"] .ltab{font-size:14px}
+:root[data-style="unslop"] .ltab th{border-bottom:1px solid var(--line);text-transform:none;letter-spacing:0;font-weight:500;font-size:13px;color:var(--ink-2)}
+:root[data-style="unslop"] .ltab td{padding:12px 8px 12px 0}
+:root[data-style="unslop"] .ltab td.n{font-family:var(--f-mono);font-size:13px}
+:root[data-style="unslop"] .ltab td a{font-weight:500}
+:root[data-style="unslop"] .ltab td a:hover{color:var(--ink);text-decoration-color:var(--ink-2)}
+:root[data-style="unslop"] .badge{border-color:var(--line);color:var(--ink-2);font-weight:400;border-radius:4px}
+:root[data-style="unslop"] .tip{background:var(--ink);color:var(--bg);border-radius:8px;box-shadow:0 8px 24px rgba(0,0,0,.08)}
+:root[data-style="unslop"] .srcnote{color:var(--mute)}
+:root[data-style="unslop"] .srcnote a{color:var(--ink-2)}
+@media (max-width:560px){:root[data-style="unslop"] .word b,:root[data-style="unslop"] .word i{font-size:26px}:root[data-style="unslop"] .lead h1{font-size:36px}:root[data-style="unslop"] .lead .dek{font-size:17px}:root[data-style="unslop"] .story{padding:24px 0 28px}:root[data-style="unslop"] .repo{grid-template-columns:32px minmax(0,1fr)}}
+/* Review fixes */
+:root[data-style="unslop"] .listen .pill{margin-top:0}
+:root[data-style="unslop"] .lead{justify-content:center}
+:root[data-style="unslop"] .kick .sec{color:var(--ink)}
+:root[data-style="unslop"] .lead .kick .sec{color:var(--acc-ink)}
+:root[data-style="unslop"] .day{font-family:var(--f-text);font-size:13px}
+@media (max-width:560px){:root[data-style="unslop"] .tools{gap:4px}:root[data-style="unslop"] .tb{min-width:32px;height:32px;padding:0 8px;font-size:13px}:root[data-style="unslop"] .word b,:root[data-style="unslop"] .word i{font-size:24px}:root[data-style="unslop"] .band__top{padding-block:16px 4px}}
 </style>
 </head><body>
 
@@ -414,7 +659,7 @@ footer.band{margin-top:24px}
       <button class="tb" id="prevDay" type="button" aria-label="Previous edition">‹</button>
       <span class="tb datebtn"><span id="dateLbl">Today</span><label class="sr" for="datePick">Edition date</label><input type="date" id="datePick"></span>
       <button class="tb" id="nextDay" type="button" aria-label="Next edition">›</button>
-      <button class="tb" id="styleBtn" type="button" aria-label="Switch design" title="Switch between the Minimal and Magazine designs">Aa</button>
+      <button class="tb" id="styleBtn" type="button" aria-label="Switch design" title="Switch design: Magazine, Minimal, Unslop">Aa</button>
       <button class="tb" id="menuBtn" type="button" aria-label="Open menu" aria-haspopup="dialog"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
     </div>
   </div>
@@ -424,7 +669,7 @@ footer.band{margin-top:24px}
 
 <main id="top" class="wrap"><div id="view"></div></main>
 
-<footer class="band"><div class="wrap foot-in"><b>Nexos Daily</b><span>AI first. Printed every morning at 8:00 am IST from what trended yesterday. AI desks pick and summarise each story, so check the source before you act on it. Every story links to its source.</span></div></footer>
+<footer class="band"><div class="wrap foot-in"><b>Nexos Daily</b><span>AI first. Printed every morning at 8:00 am IST from what trended yesterday. AI desks pick and summarise each story, so check the source before you act on it. Every story links to its source.</span><span class="ucredit">Unslop design made with the <a href="https://github.com/heydamir/unslop" target="_blank" rel="noopener noreferrer">unslop</a> method by Damir Sokolovsky, CC BY 4.0</span></div></footer>
 
 <div class="backdrop" id="backdrop" hidden></div>
 <aside class="sheet" id="sheet" role="dialog" aria-modal="true" aria-labelledby="sheetTitle" hidden>
@@ -437,7 +682,7 @@ footer.band{margin-top:24px}
     <button type="button" data-view="layoffs">Layoffs tracker</button>
     <button type="button" data-view="week">Week in review</button>
   </div>
-  <div class="opt"><p id="dLbl">Design</p><div class="seg" role="group" aria-labelledby="dLbl" id="styleSeg"><button type="button" data-v="magazine">Magazine</button><button type="button" data-v="minimal">Minimal</button></div></div>
+  <div class="opt"><p id="dLbl">Design</p><div class="seg" role="group" aria-labelledby="dLbl" id="styleSeg"><button type="button" data-v="magazine">Magazine</button><button type="button" data-v="minimal">Minimal</button><button type="button" data-v="unslop">Unslop</button></div></div>
   <div class="opt"><p id="tLbl">Theme</p><div class="seg" role="group" aria-labelledby="tLbl" id="apSeg"><button type="button" data-v="system">System</button><button type="button" data-v="light">Light</button><button type="button" data-v="dark">Dark</button></div></div>
   <div class="opt"><p id="sLbl">Text size</p><div class="seg" role="group" aria-labelledby="sLbl" id="sizeSeg"><button type="button" data-v="s">S</button><button type="button" data-v="m">M</button><button type="button" data-v="l">L</button><button type="button" data-v="xl">XL</button></div></div>
   <p class="note">Keys: ← and → step between editions. / opens the search.</p>
@@ -567,14 +812,15 @@ const srcName = it => String(it.source || "").split("·")[0].trim();
 const srcMeta = it => String(it.source || "").split("·").slice(1).map(x => x.trim()).filter(Boolean).join(" · ");
 /* ---------- Reader (magazine front) ---------- */
 const link = (st, cls) => { const u = safeUrl(st.url); return u ? `<a href="${esc(u)}" target="_blank" rel="noopener noreferrer"${cls ? ` class="${cls}"` : ""}>${esc(st.title)}</a>` : esc(st.title); };
-const kick = st => `<p class="kick"><span class="sec">${esc(st.sec.name)}</span><span class="src">${esc(srcName(st))}${srcMeta(st) ? " · " + esc(srcMeta(st)) : ""}</span></p>`;
+const wireT = st => { try { return st.filed ? new Date(st.filed).toLocaleTimeString("en-GB", { hour: "2-digit", minute: "2-digit", hour12: false, timeZone: "Asia/Kolkata" }) + " IST" : ""; } catch (e) { return ""; } };
+const kick = st => `<p class="kick">${wireT(st) ? `<span class="wire">${esc(wireT(st))}</span>` : ""}<span class="sec">${esc(st.sec.name)}</span><span class="src">${esc(srcName(st))}${srcMeta(st) ? " · " + esc(srcMeta(st)) : ""}</span></p>`;
 const alsoHtml = st => Array.isArray(st.also) && st.also.length ? `<p class="also"><b>Also in</b> ${st.also.map(a => { const u = safeUrl(a.url); const t = `${esc(a.section)} · ${esc(String(a.source || "").split("·").slice(0, 2).join("·").trim())}`; return u ? `<a href="${esc(u)}" target="_blank" rel="noopener noreferrer">${t} ↗</a>` : `<span>${t}</span>`; }).join("")}</p>` : "";
 function storyHtml(st) {
   const u = safeUrl(st.url);
   return `<article class="story">${kick(st)}<h3>${link(st)}</h3>
     ${st.body ? `<p class="txt">${esc(st.body)}</p>` : st.why ? `<p class="txt">${esc(st.why)}</p>` : ""}
     ${st.body && st.why ? `<p class="why"><b>Why it matters:</b> ${esc(st.why)}</p>` : ""}
-    ${alsoHtml(st)}<div class="foot">${u ? `<a href="${esc(u)}" target="_blank" rel="noopener noreferrer">Read at source ↗</a>` : ""}${st.date ? `<span>${esc(fmt(st.date, { day: "numeric", month: "short" }))}</span>` : ""}${st.topics.map(t => `<button type="button" class="tag" data-topic="${esc(t)}">#${esc(t)}</button>`).join("")}</div></article>`;
+    ${alsoHtml(st)}<div class="foot">${u ? `<a href="${esc(u)}" target="_blank" rel="noopener noreferrer">Read at source ↗</a>` : ""}${st.date ? `<span>${esc(fmt(st.date, { day: "numeric", month: "short" }))}</span>` : ""}${st.topics.map(t => `<button type="button" class="tag" data-topic="${esc(t)}"><i class="hash">#</i>${esc(t)}</button>`).join("")}</div></article>`;
 }
 function chrome(k, all) {
   const isToday = k === dayKey(new Date()), dates = editionDates(), no = dates.indexOf(k) + 1;
@@ -593,9 +839,9 @@ function readView(k) {
   if (!all.length) { const isToday = k === dayKey(new Date()), first = editionDates()[0];
     return `<div class="empty"><h2>${!ST.ready ? "Loading" : isToday ? "Not printed yet" : "No edition"}</h2><p>${!ST.ready ? "Fetching the paper." : isToday ? "The desks print at 7:49 am. Press ‹ to read the last edition." : first ? `The first edition is ${esc(fmt(first, { day: "numeric", month: "long" }))}.` : ""}</p></div>`; }
   const brief = ST.briefs[k];
-  const listen = brief ? `<div class="listen"><button type="button" class="pill pill--purple" id="listenBtn">${AUD.on && AUD.k === k ? "Playing" : "▶ Listen"}</button><span>${AUD.on && AUD.k === k ? "Use the player at the bottom to pause, skip or change the speed" : `The briefing · about ${Math.max(1, Math.round(words(brief) / 150))} min`}</span></div>` : "";
-  const strip = listen + `<div class="trend" aria-label="Trending topics"><span class="trend__lbl">Trending</span>${topics.map(([t, n]) => `<button type="button" class="chip" data-topic="${esc(t)}" aria-pressed="${ST.topic === t}">#${esc(t)}<small>${n}</small></button>`).join("")}</div>`;
-  if (!list.length) return strip + `<div class="empty"><h2>Nothing here</h2><p>${ST.tab !== "all" && ed[ST.tab] && ed[ST.tab].status === "failed" ? esc(ed[ST.tab].error || "This desk could not file.") : "No story matches this topic in this section."}</p>${ST.topic ? `<button type="button" class="pill pill--purple" data-topic="">Clear #${esc(ST.topic)}</button>` : ""}</div>`;
+  const listen = brief ? `<div class="listen"><button type="button" class="pill pill--purple" id="listenBtn">${AUD.on && AUD.k === k ? "Playing" : `<span class="gl">▶ </span>Listen`}</button><span>${AUD.on && AUD.k === k ? "Use the player at the bottom to pause, skip or change the speed" : `The briefing · about ${Math.max(1, Math.round(words(brief) / 150))} min`}</span></div>` : "";
+  const strip = listen + `<div class="trend" aria-label="Trending topics"><span class="trend__lbl">Trending</span>${topics.map(([t, n]) => `<button type="button" class="chip" data-topic="${esc(t)}" aria-pressed="${ST.topic === t}"><i class="hash">#</i>${esc(t)}<small>${n}</small></button>`).join("")}</div>`;
+  if (!list.length) return strip + `<div class="empty"><h2>Nothing here</h2><p>${ST.tab !== "all" && ed[ST.tab] && ed[ST.tab].status === "failed" ? esc(ed[ST.tab].error || "This desk could not file.") : "No story matches this topic in this section."}</p>${ST.topic ? `<button type="button" class="pill pill--purple" data-topic="">Clear <i class="hash">#</i>${esc(ST.topic)}</button>` : ""}</div>`;
   const lead = list[0], tops = list.slice(1, 6), rest = list.slice(6);
   const hero = `<section class="hero" aria-label="Top stories">
     <article class="lead">${kick(lead)}<h1>${link(lead)}</h1>${lead.why ? `<p class="dek">${esc(lead.why)}</p>` : ""}
@@ -612,8 +858,8 @@ function readView(k) {
     <div class="box"><h4>By the numbers</h4>
       <div class="stat"><span>Stories</span><b>${all.length}</b></div>
       <div class="stat"><span>AI stories</span><b>${all.filter(s => s.sec.id === "tech-news" || s.topics.some(t => /claude|agents|mcp|openai|gemini|models|ai/i.test(t))).length}</b></div>
-      <div class="stat"><span>Top Hacker News score</span><b>${hn.length ? Math.max(...hn).toLocaleString("en-IN") : "–"}</b></div>
-      <div class="stat"><span>Top X post likes</span><b>${likes.length ? Math.max(...likes).toLocaleString("en-IN") : "–"}</b></div></div>
+      ${hn.length ? `<div class="stat"><span>Top Hacker News score</span><b>${Math.max(...hn).toLocaleString("en-IN")}</b></div>` : ""}
+      ${likes.length ? `<div class="stat"><span>Top X post likes</span><b>${Math.max(...likes).toLocaleString("en-IN")}</b></div>` : ""}</div>
     <div class="box"><h4>Back issues</h4><div class="days">${dates.map(d => `<button type="button" class="day" data-d="${d}" aria-current="${d === k}">${esc(fmt(d, { day: "numeric", month: "short" }))}</button>`).join("")}</div></div>
     ${notes ? `<div class="box"><h4>Desk notes</h4>${notes}</div>` : ""}
   </aside>`;
@@ -777,7 +1023,7 @@ function layoffsView() {
       <div class="kpi"><b>${cuts.length}</b><span>layoffs</span><small>${last30.length} in the last 30 days</small></div>
       <div class="kpi"><b>${cos}</b><span>companies</span><small>${cuts.filter(e => !e.count).length} cuts with no number given</small></div>
       <div class="kpi"><b>${big ? esc(short(big.count)) : "–"}</b><span>largest cut</span><small>${big ? `${esc(big.company)}, ${esc(sdate(big.date))}` : ""}</small></div></div>
-    ${buy.length ? `<p class="srcnote" style="margin-top:6px">${buy.map(b => `<b>${esc(b.company)}</b> offered voluntary buyouts to about ${esc(num(b.count))} staff on ${esc(sdate(b.date))}.`).join(" ")} Buyout offers are listed below but are not in the totals.</p>` : ""}
+    ${buy.length ? `<p class="srcnote" style="margin-top:6px">${buy.map(b => `<b>${esc(b.company)}</b> offered voluntary buyouts${b.count ? ` to about ${esc(num(b.count))} staff` : ""} on ${esc(sdate(b.date))}.`).join(" ")} Buyout offers are listed below but are not in the totals.</p>` : ""}
     <div class="lbox"><h3>Employees laid off by month</h3><p class="sub">Hover or tap a bar for the number of layoffs and the largest cut.</p><div class="mchart-wrap">${monthChart(byM, F.year)}</div></div>
     <div class="lgrid">
       <div class="lbox"><h3>By industry</h3><p class="sub">Select one to filter the table.</p>${hbars(group("industry").slice(0, 9), "ind")}</div>
@@ -841,7 +1087,7 @@ function readViewMin(k) {
   const brief = ST.briefs[k];
   const listen = brief ? `<div class="m-listen"><button type="button" id="listenBtn" class="m-play" aria-label="${AUD.on && AUD.k === k ? "Pause or play the briefing" : "Play the briefing"}">${AUD.on && AUD.k === k && AUD.playing ? "❚❚" : "▶"}</button><div><b>Listen to the briefing</b><span>About ${Math.max(1, Math.round(words(brief) / 150))} minutes. Speed and skip controls open at the bottom.</span></div></div>` : "";
   let mainHtml;
-  if (!list.length) mainHtml = `<div class="m-empty"><p>No story matches this filter.</p>${ST.topic ? `<button type="button" class="m-chip" data-topic="">Clear #${esc(ST.topic)}</button>` : ""}</div>`;
+  if (!list.length) mainHtml = `<div class="m-empty"><p>No story matches this filter.</p>${ST.topic ? `<button type="button" class="m-chip" data-topic="">Clear <i class="hash">#</i>${esc(ST.topic)}</button>` : ""}</div>`;
   else {
     const lead = list[0], rest = list.slice(1);
     const groups = SECTIONS.map(sec => ({ sec, items: rest.filter(x => x.sec.id === sec.id) })).filter(g => g.items.length);
@@ -920,10 +1166,10 @@ $("menuBtn").addEventListener("click", openSheet); $("sheetClose").addEventListe
   const root = document.documentElement;
   const segs = { styleSeg: ["nx-style", "magazine", v => { root.dataset.style = v; if (typeof render === "function") render(); }], apSeg: ["nx-theme", "system", v => v === "system" ? delete root.dataset.theme : root.dataset.theme = v], sizeSeg: ["np-size", "m", v => v === "m" ? delete root.dataset.size : root.dataset.size = v] };
   function apply(id, v, save) { const [key, def, fn] = segs[id]; v = v || def; fn(v); if (save) store.set(key, v === def ? null : v); $(id).querySelectorAll("button").forEach(b => b.setAttribute("aria-pressed", b.dataset.v === v)); }
-  apply("styleSeg", store.get("nx-style") === "minimal" ? "minimal" : "magazine", false);
+  apply("styleSeg", ["minimal", "unslop"].includes(store.get("nx-style")) ? store.get("nx-style") : "magazine", false);
   apply("apSeg", ["light", "dark"].includes(store.get("nx-theme")) ? store.get("nx-theme") : "system", false);
   apply("sizeSeg", ["s", "l", "xl"].includes(store.get("np-size")) ? store.get("np-size") : "m", false);
-  $("styleBtn").addEventListener("click", () => apply("styleSeg", root.dataset.style === "minimal" ? "magazine" : "minimal", true));
+  $("styleBtn").addEventListener("click", () => { const o = ["magazine", "minimal", "unslop"]; apply("styleSeg", o[(o.indexOf(root.dataset.style) + 1) % o.length], true); });
   Object.keys(segs).forEach(id => $(id).addEventListener("click", e => { const b = e.target.closest("button"); if (b) apply(id, b.dataset.v, true); }));
 })();
 
