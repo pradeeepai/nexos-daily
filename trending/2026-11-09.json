@@ -1,0 +1,340 @@
+{
+ "date": "2026-11-09",
+ "generated": "2026-11-09T02:51:04Z",
+ "headline": "danyuchn/claude-work-mode, a Claude Code work-mode plugin, is the fastest-growing new repo today with 143 stars.",
+ "periods": {
+  "daily": {
+   "topics": [
+    "Claude Code plugins",
+    "Agent skills",
+    "MCP servers",
+    "Research agents",
+    "Multi-agent orchestration"
+   ],
+   "repos": [
+    {
+     "repo": "danyuchn/claude-work-mode",
+     "url": "https://github.com/danyuchn/claude-work-mode",
+     "description": "Adds session work modes to Claude Code with a /work-mode command and optional gates.",
+     "kind": "Plugin",
+     "language": "TypeScript",
+     "stars": 143,
+     "gained": 143,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "gokayfem/image-to-sculpt",
+     "url": "https://github.com/gokayfem/image-to-sculpt",
+     "description": "A coding-agent skill that turns one image into a 3D sculpt checked against that image, with Blender replay.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 41,
+     "gained": 41,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "wanshuiyin/SuperARIS",
+     "url": "https://github.com/wanshuiyin/SuperARIS",
+     "description": "A personal research agent that runs a team of agents to do research while you sleep.",
+     "kind": "Agent framework",
+     "language": "Python",
+     "stars": 37,
+     "gained": 37,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "wrencanfly/research-loop-skills",
+     "url": "https://github.com/wrencanfly/research-loop-skills",
+     "description": "Evidence-first agent skills to frame, gather, test, verify and synthesize research.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 36,
+     "gained": 36,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "stevenmichaelthomas/numbrone",
+     "url": "https://github.com/stevenmichaelthomas/numbrone",
+     "description": "Routes requests to per-project manager agents that run parallel coding workers in git worktrees.",
+     "kind": "Coding agent",
+     "language": "Shell",
+     "stars": 34,
+     "gained": 34,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "mingzi206-gh/colab-t4-local-api",
+     "url": "https://github.com/mingzi206-gh/colab-t4-local-api",
+     "description": "Deploys a model on a Colab T4 GPU behind a local OpenAI-compatible API for agents.",
+     "kind": "AI infra",
+     "language": "Python",
+     "stars": 27,
+     "gained": 27,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "hsynozdamar-byte/cinecode-studio",
+     "url": "https://github.com/hsynozdamar-byte/cinecode-studio",
+     "description": "A desktop panel where you approve a timed script and Claude Code produces the film.",
+     "kind": "Other",
+     "language": "HTML",
+     "stars": 21,
+     "gained": 21,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "tailucanh/offload-mcp-server",
+     "url": "https://github.com/tailucanh/offload-mcp-server",
+     "description": "An MCP server that lets a main coding agent hand heavy reading to a second agent and get back only the answer.",
+     "kind": "MCP server",
+     "language": "TypeScript",
+     "stars": 15,
+     "gained": 15,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "kanaworksai-hue/sozai-search-mcp",
+     "url": "https://github.com/kanaworksai-hue/sozai-search-mcp",
+     "description": "An MCP server to search about 36,000 free 3D models, materials and HDRIs with real-world sizes.",
+     "kind": "MCP server",
+     "language": "Python",
+     "stars": 12,
+     "gained": 12,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "Garyu-tt/noosphere-lite-mcp",
+     "url": "https://github.com/Garyu-tt/noosphere-lite-mcp",
+     "description": "A local-first MCP memory server with knowledge graphs, provenance and stale-fact tracking.",
+     "kind": "MCP server",
+     "language": "Python",
+     "stars": 10,
+     "gained": 10,
+     "source": "GitHub search"
+    }
+   ]
+  },
+  "weekly": {
+   "topics": [
+    "Background coding agents",
+    "Phone-use agents",
+    "MCP servers",
+    "Agent sandboxes",
+    "Agent skills"
+   ],
+   "repos": [
+    {
+     "repo": "KKKKhazix/agent-autoloop",
+     "url": "https://github.com/KKKKhazix/agent-autoloop",
+     "description": "Lets a CLI agent take tasks and follow them through in the background, asking only on uncertain decisions.",
+     "kind": "Coding agent",
+     "language": "TypeScript",
+     "stars": 4127,
+     "gained": 4127,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "sarpstar/cinecode",
+     "url": "https://github.com/sarpstar/cinecode",
+     "description": "An AI agent writes the script, builds the frames, designs the sound and renders an MP4 from code.",
+     "kind": "Other",
+     "language": "Python",
+     "stars": 1612,
+     "gained": 1612,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "voyager-so/vork",
+     "url": "https://github.com/voyager-so/vork",
+     "description": "A headless 3D and VFX engine built for agents, in research preview.",
+     "kind": "AI infra",
+     "language": "Rust",
+     "stars": 1135,
+     "gained": 1135,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "DIYgod/pinky",
+     "url": "https://github.com/DIYgod/pinky",
+     "description": "Lets AI agents use a phone while the user stays in the loop.",
+     "kind": "Agent framework",
+     "language": "Go",
+     "stars": 870,
+     "gained": 870,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "JosssphZhou/poki",
+     "url": "https://github.com/JosssphZhou/poki",
+     "description": "A local MCP server that lets AI agents operate a real iPhone without a jailbreak or extra hardware.",
+     "kind": "MCP server",
+     "language": "JavaScript",
+     "stars": 611,
+     "gained": 611,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "mhfed/vn-law-check",
+     "url": "https://github.com/mhfed/vn-law-check",
+     "description": "An AI coding assistant tool that audits websites for compliance with Vietnamese law.",
+     "kind": "Skill",
+     "language": "Shell",
+     "stars": 483,
+     "gained": 483,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "lxe/phoneuse",
+     "url": "https://github.com/lxe/phoneuse",
+     "description": "Views and controls an unmodified iPhone from Linux through AirPlay and Bluetooth HID, with a CLI and agent skill.",
+     "kind": "Dev tool",
+     "language": "C",
+     "stars": 454,
+     "gained": 454,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "devvmhq/devvm",
+     "url": "https://github.com/devvmhq/devvm",
+     "description": "Isolated VM sandboxes with each project's toolchain for developers and coding agents.",
+     "kind": "AI infra",
+     "language": "Go",
+     "stars": 414,
+     "gained": 414,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "janestreet/agent_skills",
+     "url": "https://github.com/janestreet/agent_skills",
+     "description": "A collection of agent skills published by Jane Street.",
+     "kind": "Skill",
+     "language": null,
+     "stars": 338,
+     "gained": 338,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "shanselman/sandbox-mcp",
+     "url": "https://github.com/shanselman/sandbox-mcp",
+     "description": "An MCP server and CLI that automate disposable Windows Sandbox machines for app testing.",
+     "kind": "MCP server",
+     "language": "JavaScript",
+     "stars": 336,
+     "gained": 336,
+     "source": "GitHub search"
+    }
+   ]
+  },
+  "monthly": {
+   "topics": [
+    "Autonomous agents",
+    "Agent skills",
+    "Agent cost control",
+    "Phone-use agents",
+    "Agent harnesses"
+   ],
+   "repos": [
+    {
+     "repo": "deepseek-ai/dsh-superagent-prototype",
+     "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+     "description": "DeepSeek's prototype of a more autonomous agent system.",
+     "kind": "Agent framework",
+     "language": "TypeScript",
+     "stars": 21237,
+     "gained": 21237,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "heydamir/unslop",
+     "url": "https://github.com/heydamir/unslop",
+     "description": "A Claude skill that redesigns AI-looking vibe-coded user interfaces.",
+     "kind": "Skill",
+     "language": "JavaScript",
+     "stars": 11960,
+     "gained": 11960,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "wangzan101/Mika",
+     "url": "https://github.com/wangzan101/Mika",
+     "description": "An on-device Android AI agent that operates apps and the web.",
+     "kind": "Agent framework",
+     "language": "Kotlin",
+     "stars": 7757,
+     "gained": 7757,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "amosblomqvist/learnharness",
+     "url": "https://github.com/amosblomqvist/learnharness",
+     "description": "An agent harness that helps you learn difficult topics.",
+     "kind": "Agent framework",
+     "language": "TypeScript",
+     "stars": 6574,
+     "gained": 6574,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "patch-gg/pixelfx",
+     "url": "https://github.com/patch-gg/pixelfx",
+     "description": "244 pixel art effects plus a Claude Code skill to make more.",
+     "kind": "Skill",
+     "language": "JavaScript",
+     "stars": 6079,
+     "gained": 6079,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "microsoft/TokenEconomizer",
+     "url": "https://github.com/microsoft/TokenEconomizer",
+     "description": "Experience-driven black-box cost control for coding agents.",
+     "kind": "AI infra",
+     "language": "Python",
+     "stars": 5291,
+     "gained": 5291,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "onehumanbeing/esp32-iphone-agent",
+     "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
+     "description": "Lets AI control a real iPhone with an ESP32, AirPlay video and USB HID.",
+     "kind": "Other",
+     "language": "Swift",
+     "stars": 4702,
+     "gained": 4702,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "Leonxlnx/earshot",
+     "url": "https://github.com/Leonxlnx/earshot",
+     "description": "Gives coding agents CPU-only audio input and output.",
+     "kind": "Dev tool",
+     "language": "Python",
+     "stars": 4281,
+     "gained": 4281,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "KKKKhazix/agent-autoloop",
+     "url": "https://github.com/KKKKhazix/agent-autoloop",
+     "description": "Lets a CLI agent take tasks and follow them through in the background, asking only on uncertain decisions.",
+     "kind": "Coding agent",
+     "language": "TypeScript",
+     "stars": 4127,
+     "gained": 4127,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "aicodeking/leanrea",
+     "url": "https://github.com/aicodeking/leanrea",
+     "description": "One compact skill that replaces a reverse-engineering MCP with plain CLI tools.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 3769,
+     "gained": 3769,
+     "source": "GitHub search"
+    }
+   ]
+  }
+ }
+}
