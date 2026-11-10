@@ -1,0 +1,440 @@
+{
+ "date": "2026-11-10",
+ "generated": "2026-11-10T02:52:14Z",
+ "sections": {
+  "tech-news": {
+   "routine": "tech-news",
+   "status": "done",
+   "headline": "Anthropic released Claude Fable 5.2 and Mythos 5.2, with a 1M context window at $8/$40 per million tokens.",
+   "filed": "2026-11-10T02:23:53Z",
+   "note": "",
+   "items": [
+    {
+     "title": "Anthropic releases Claude Fable 5.2 and Mythos 5.2",
+     "body": "Anthropic released Claude Fable 5.2 (claude-fable-5-2) and Claude Mythos 5.2 on November 9. Both have a 1M-token context window, 128k max output and always-on adaptive thinking. The price is $8 input and $40 output per million tokens, down from $10/$50 for the 5.1 models. Fable 5.2 is on the Claude API, Claude Platform on AWS, Amazon Bedrock, Google Cloud and Microsoft Foundry; Mythos 5.2 needs verification.",
+     "why": "A new top-tier Claude model is now on Bedrock and other clouds at a 20% lower price than Fable 5.1.",
+     "topics": [
+      "Claude",
+      "New models",
+      "Bedrock"
+     ],
+     "source": "Anthropic",
+     "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+     "date": "2026-11-09",
+     "also": [
+      {
+       "section": "Pulse",
+       "source": "Hacker News · 548 points · 257 comments",
+       "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2"
+      },
+      {
+       "section": "Cloud",
+       "source": "AWS What's New",
+       "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/claude-fable-5-2-aws/"
+      }
+     ]
+    },
+    {
+     "title": "Fable 5.2 beats Opus 5.5 on coding and agent benchmarks",
+     "body": "Anthropic reports 69.9% on FrontierSWE v2 versus 62.3% for Opus 5.5, and 74.6% on Terminal-Bench-Science versus 58.7%. Outputs are up to 30% faster than Fable 5.1. Fable 5.2 can act as an Advisor to smaller models or as an Orchestrator that delegates simple tasks. Anthropic still recommends Opus 5.5 for most work.",
+     "why": "Teams can test Fable 5.2 for long agent runs where Opus 5.5 falls short.",
+     "topics": [
+      "Claude",
+      "Agents"
+     ],
+     "source": "Anthropic",
+     "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+     "date": "2026-11-09"
+    },
+    {
+     "title": "Fable 5.2 API brings breaking changes and a fast mode",
+     "body": "Fable 5.2 and Mythos 5.2 enforce the thinking prefix check for all accounts. Computer use needs the computer_toolset_20260801 toolset. Both models need 30-day data retention and are not available under zero data retention without approval. Fast mode gives up to 2.5x output speed at $16/$80 per million tokens with the speed: \"fast\" parameter.",
+     "why": "Existing Claude integrations can fail with HTTP 400 errors if they switch models without migration.",
+     "topics": [
+      "Claude",
+      "AI tools",
+      "DevOps"
+     ],
+     "source": "Claude Platform release notes",
+     "url": "https://platform.claude.com/docs/en/release-notes/overview",
+     "date": "2026-11-09"
+    },
+    {
+     "title": "Mythos 5.2 targets vetted cyber and life sciences teams",
+     "body": "Mythos 5.2 is the same model as Fable 5.2 with fewer safeguards, for organizations in Anthropic's Cyber and Life Sciences Verification Programs. It scores 89.6% on CVE Rediscovery. Anthropic says Fable 5.2 safeguard blocks are about 55% lower than Fable 5.1. Enterprise Frontier Safeguards, in private beta, runs safety monitoring inside customer infrastructure.",
+     "why": "Security teams get a stronger vulnerability-finding model behind a verification gate.",
+     "topics": [
+      "Claude",
+      "Security"
+     ],
+     "source": "Anthropic",
+     "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+     "date": "2026-11-09"
+    },
+    {
+     "title": "Meta launches Muse Ember with 1M context at $0.10 input",
+     "body": "Meta released Muse Ember, its smallest and most efficient Muse model, on November 9. It has a 1M-token context window, up to 512K output tokens and costs $0.10 input and $0.50 output per million tokens for prompts up to 200K. Meta reports 36 on the Artificial Analysis Intelligence Index, tied with Claude Haiku 5.5, at about $0.14 per task. It is on the Meta Model API as muse-ember-1.0 and supports the Responses API.",
+     "why": "A cheap agent model with a 1M context gives a new option for high-volume tool calls and routing.",
+     "topics": [
+      "New models",
+      "Agents"
+     ],
+     "source": "Meta AI Research",
+     "url": "https://research.meta.ai/blog/muse-ember",
+     "date": "2026-11-09",
+     "also": [
+      {
+       "section": "Trending on X",
+       "source": "X · @AIatMeta · 2618 likes · 280 reposts",
+       "url": "https://x.com/AIatMeta/status/2119853591703998787"
+      }
+     ]
+    },
+    {
+     "title": "Google AI Studio adds Google Maps Platform app building",
+     "body": "Google AI Studio now lets developers build apps with Google Maps Platform. Features include one-click setup and app creation from a text description. Gemini can use map tiles, places, weather, routing and 3D data.",
+     "why": "Developers can build map-based apps from a prompt with one-click Maps setup.",
+     "topics": [
+      "Gemini",
+      "AI tools"
+     ],
+     "source": "X · @GoogleAIStudio",
+     "url": "https://x.com/GoogleAIStudio/status/2119837788937896234",
+     "date": "2026-11-09",
+     "also": [
+      {
+       "section": "Trending on X",
+       "source": "X · @GoogleAIStudio · 2559 likes · 223 reposts",
+       "url": "https://x.com/GoogleAIStudio/status/2119837788937896234"
+      },
+      {
+       "section": "Trending on X",
+       "source": "X · @GoogleAIStudio · 505 likes · 52 reposts",
+       "url": "https://x.com/GoogleAIStudio/status/2119852805838213369"
+      }
+     ]
+    },
+    {
+     "title": "OpenAI partners with Hacktron on AI security testing",
+     "body": "OpenAI announced a security testing partnership with Hacktron. Hacktron researchers will examine vulnerabilities and risks when AI systems connect to outside services.",
+     "why": "Agents that connect to outside services add new attack paths that teams must test.",
+     "topics": [
+      "OpenAI",
+      "Security"
+     ],
+     "source": "OpenAI",
+     "url": "https://openai.com/index/partnering-with-hacktron/",
+     "date": "2026-11-09"
+    },
+    {
+     "title": "Alibaba benchmark: coding agents fully finish only 26.4% of tasks",
+     "body": "An Alibaba benchmark tests coding agents on real-world tasks. The top model completed only 26.4% of the selected tasks perfectly. Comparable models score above 99% on some older benchmarks.",
+     "why": "Real-world agent results are far below older benchmark scores, so plan for human review.",
+     "topics": [
+      "AI research",
+      "Agents"
+     ],
+     "source": "The Decoder",
+     "url": "https://the-decoder.com/ai-coding-agents-still-need-human-cleanup-on-nearly-three-out-of-four-tasks-in-a-real-world-test/",
+     "date": "2026-11-09"
+    }
+   ]
+  },
+  "chips": {
+   "routine": "chips",
+   "status": "done",
+   "headline": "Google announced TPU 8tx with AMD EPYC Turin hosts and TPU 8i Max with 384 GB HBM and 17.2 TB/s.",
+   "filed": "2026-11-10T02:23:53Z",
+   "note": "",
+   "items": [
+    {
+     "title": "Google unveils TPU 8tx and TPU 8i Max",
+     "body": "TPU 8i Max puts two TPU 8i chips in one package with 384 GB HBM, 17.2 TB/s HBM bandwidth and 768 MB SRAM, double the bandwidth and compute of one TPU 8i. TPU 8tx uses TPU 8t silicon with dual-socket 5th Gen AMD EPYC Turin hosts and 128 PCIe Gen5 lanes. Google claims up to 2x lower latency than TPU 8t. TPU 8tx targets regulated enterprises and governments with confidential computing.",
+     "why": "New TPU options target regulated workloads and very long-context inference on Google Cloud.",
+     "topics": [
+      "Google TPU",
+      "AMD",
+      "Chips"
+     ],
+     "source": "ServeTheHome",
+     "url": "https://servethehome.com/google-tpu-8tx-8i-max-amd-epyc-turin",
+     "date": "2026-11-09"
+    },
+    {
+     "title": "Next-Concept Modeling generates text coarse-to-fine, up to 31x faster",
+     "body": "Researchers including Azalia Mirhoseini and Christopher Ré propose Next-Concept Modeling (NCM). A multiscale residual VQ-VAE encodes text as a hierarchy of codes, and a transformer predicts each level in parallel. NCM beats the best diffusion LM perplexity on LM1B at 21x speed and matches XSum ROUGE-L at 31x speed. The paper reached 173 points on Hacker News on November 9.",
+     "why": "Parallel generation could cut inference latency and cost compared to diffusion language models.",
+     "topics": [
+      "Architecture",
+      "AI research"
+     ],
+     "source": "arXiv 2610.14162",
+     "url": "https://arxiv.org/abs/2610.14162",
+     "date": "2026-11-09",
+     "also": [
+      {
+       "section": "Pulse",
+       "source": "Hacker News · 173 points · 39 comments",
+       "url": "https://arxiv.org/abs/2610.14162"
+      }
+     ]
+    },
+    {
+     "title": "SemiAnalysis visits China's 800 MW Galaxy AI campus",
+     "body": "The Galaxy campus in Ulanqab, Inner Mongolia, plans up to 800 MW of IT capacity. The first 120 MW phase was delivered within a year at about a fifth of US cost. Wind farms supply over 60% of the first two phases' power, at about $0.055/kWh. A 5 MW hall pilots solid-state transformers that convert 10 kV AC directly to 800V DC for racks.",
+     "why": "It shows how fast and cheap AI data-center capacity can be built with 800V DC power.",
+     "topics": [
+      "Data centers"
+     ],
+     "source": "SemiAnalysis",
+     "url": "https://newsletter.semianalysis.com/p/we-visited-chinas-stargate-in-inner",
+     "date": "2026-11-07"
+    },
+    {
+     "title": "H100 rental price ranges from $2.69 to $12.29 per hour",
+     "body": "A Data Receipts analysis compares H100 rental prices across providers. The same H100 costs $2.69 or $12.29 an hour depending on where you rent it. The post reached 148 points on Hacker News on November 9.",
+     "why": "GPU cost for the same chip varies more than 4x by provider, so compare before you rent.",
+     "topics": [
+      "NVIDIA",
+      "Data centers"
+     ],
+     "source": "Hacker News",
+     "url": "https://news.ycombinator.com/item?id=50427085",
+     "date": "2026-11-09",
+     "also": [
+      {
+       "section": "Pulse",
+       "source": "Hacker News · 192 points · 63 comments",
+       "url": "https://news.ycombinator.com/item?id=50422628"
+      }
+     ]
+    }
+   ]
+  },
+  "ecosystem": {
+   "routine": "ecosystem",
+   "status": "done",
+   "headline": "Poki, a new MCP server that lets agents operate a real iPhone, grew fastest among new MCP repos this week.",
+   "filed": "2026-11-10T02:23:53Z",
+   "note": "r/ClaudeAI could not be read (HTTP 429).",
+   "items": [
+    {
+     "title": "Poki MCP server lets agents operate a real iPhone",
+     "body": "Poki by Joseph Zhou runs a local MCP server and agent that controls a real iPhone. It needs no jailbreak and no extra hardware, but needs macOS, Xcode and Node.js 24+. GitHub search showed 778 stars since it was created on November 5. Claude Code setup: claude mcp add --scope user poki-mcp -- node \"$PWD/src/stdio.mjs\".",
+     "why": "Mobile QA and app automation can run from Claude Code with no jailbreak.",
+     "topics": [
+      "MCP",
+      "Claude Code"
+     ],
+     "source": "GitHub · JosssphZhou/poki",
+     "url": "https://github.com/JosssphZhou/poki",
+     "date": "2026-11-05"
+    },
+    {
+     "title": "sandbox-mcp gives agents disposable Windows test machines",
+     "body": "Scott Hanselman's sandbox-mcp provides disposable Windows test machines through an MCP server and a CLI. GitHub search showed 383 stars since it was created on November 6.",
+     "why": "Agents can test installers and scripts on throwaway Windows machines.",
+     "topics": [
+      "MCP",
+      "Setups"
+     ],
+     "source": "GitHub · shanselman/sandbox-mcp",
+     "url": "https://github.com/shanselman/sandbox-mcp",
+     "date": "2026-11-06"
+    },
+    {
+     "title": "Tinker skill fine-tunes a local model on Claude Code sessions",
+     "body": "tinker-ai-skill by Migel Tissera guides an agent to collect and anonymize Claude Code transcripts, train a LoRA on Tinker, merge it and convert it to GGUF for llama.cpp. It also works with Codex and OpenCode. GitHub search showed 290 stars since November 7. Install: git clone https://github.com/drost-ai/tinker-ai-skill.git ~/.claude/skills/tinker-ai-skill",
+     "why": "Teams can turn their own agent transcripts into a private local coding model.",
+     "topics": [
+      "Skills",
+      "Claude Code"
+     ],
+     "source": "GitHub · drost-ai/tinker-ai-skill",
+     "url": "https://github.com/drost-ai/tinker-ai-skill",
+     "date": "2026-11-07"
+    },
+    {
+     "title": "kubai-icons skill draws animated icons in one style",
+     "body": "kubai-icons is an agent skill for drawing animated icons in a single style. It includes more than 2,600 open-source icons. GitHub search showed 577 stars since it was created on November 3.",
+     "why": "Agents can produce consistent UI icons without a designer.",
+     "topics": [
+      "Skills"
+     ],
+     "source": "GitHub · kubai087/kubai-icons",
+     "url": "https://github.com/kubai087/kubai-icons",
+     "date": "2026-11-03"
+    },
+    {
+     "title": "claude-work-mode adds session work modes with gates",
+     "body": "claude-work-mode adds session work modes to Claude Code, with optional gates. GitHub search showed 175 stars since it was created on November 8.",
+     "why": "Gated modes help keep Claude Code sessions on plan before they change code.",
+     "topics": [
+      "Claude Code",
+      "Hooks"
+     ],
+     "source": "GitHub · danyuchn/claude-work-mode",
+     "url": "https://github.com/danyuchn/claude-work-mode",
+     "date": "2026-11-08"
+    },
+    {
+     "title": "Hairline Claude skill draws illustrations for a Framer template",
+     "body": "A designer said Hairline is the most useful Claude skill he has tried. He used it for every illustration in a new free Framer template. The skill credit goes to @lucasmarkes__.",
+     "why": "Design skills now produce production assets, not only text.",
+     "topics": [
+      "Skills"
+     ],
+     "source": "X · @vaadika_ui · 71 likes · 0 reposts",
+     "url": "https://x.com/vaadika_ui/status/2119774520961827067",
+     "date": "2026-11-09"
+    }
+   ]
+  },
+  "x-desk": {
+   "routine": "x-desk",
+   "status": "done",
+   "headline": "Meta's Muse Ember launch post led AI posts on X, with 2,618 likes.",
+   "filed": "2026-11-10T02:23:53Z",
+   "note": "Read 40 posts in 3 searches; 5 passed the filter. Part of the search output was cut off in transit, so some posts could not be ranked.",
+   "items": [
+    {
+     "title": "Simon Willison: hide AI-written PR text in details tags",
+     "body": "Simon Willison now puts most of his AI-generated GitHub PR descriptions inside a collapsed details/summary HTML block. GitHub Markdown supports this tag. He says it makes long AI-written PR text less tiring to review.",
+     "why": "A simple pattern keeps AI-generated pull request descriptions readable for reviewers.",
+     "topics": [
+      "AI tools",
+      "Agents"
+     ],
+     "source": "X · @simonw · 1903 likes · 75 reposts",
+     "url": "https://x.com/simonw/status/2119650353142747181",
+     "date": "2026-11-09"
+    },
+    {
+     "title": "swyx shares a read on scratchpads for humans and LLMs",
+     "body": "swyx shared an article on why humans, like LLMs, become more capable when they have a scratchpad. The post drew 166 replies.",
+     "why": "Scratchpad patterns explain why agents perform better with working memory.",
+     "topics": [
+      "AI research"
+     ],
+     "source": "X · @swyx · 450 likes · 16 reposts",
+     "url": "https://x.com/swyx/status/2119711420912939220",
+     "date": "2026-11-09"
+    }
+   ]
+  },
+  "gadgets": {
+   "routine": "gadgets",
+   "status": "done",
+   "headline": "Xiaomi confirmed a November 17 global launch in Paris for the Xiaomi 18 Pro and 18 Pro Max.",
+   "filed": "2026-11-10T02:25:10Z",
+   "note": "The Verge was blocked and GSMArena could not be fetched; 9to5Google and 9to5Mac had no official launches on November 8 to 10, and no confirmed Reno 17 launch coverage was found.",
+   "items": [
+    {
+     "title": "Xiaomi sets November 17 global launch for Xiaomi 18 Pro series",
+     "body": "Xiaomi confirmed a global launch event for the Xiaomi 18 Pro and 18 Pro Max in Paris on November 17 at 14:00 GMT+1. Xiaomi highlights a rear Back Display, and the series has a 200MP Leica camera system. The phones first launched in China in September. Global specs and European prices come at the event.",
+     "why": "The global versions bring Xiaomi's rear-display flagship to markets outside China, with final prices due at the event.",
+     "topics": [
+      "Phones"
+     ],
+     "source": "Unboxholics",
+     "url": "https://unboxholics.com/en/news/tech/138608-official-xiaomi-18-pro-and-pro-max-arriving-next-week",
+     "date": "2026-11-09"
+    },
+    {
+     "title": "Sony delays $220 PlayStation Pulse Elevate speakers indefinitely",
+     "body": "Sony postponed the PlayStation Pulse Elevate wireless speakers, which were due on November 12, after it found a production issue in quality testing. The speakers cost $220 and use planar magnetic drivers with PlayStation Link and Bluetooth multipoint. They work with PS5, PlayStation Portal, PC and Mac. Sony has not announced a new date.",
+     "why": "Buyers who planned on a November 12 release must wait; Sony gave no new date.",
+     "topics": [
+      "Audio",
+      "Gaming"
+     ],
+     "source": "Engadget",
+     "url": "https://www.engadget.com/2239300/playstations-dollar220-pulse-elevate-wireless-speakers-arrive-november-12/",
+     "date": "2026-11-09"
+    }
+   ]
+  },
+  "tech-pulse": {
+   "routine": "tech-pulse",
+   "status": "done",
+   "headline": "Anthropic released Claude Fable 5.2 and Mythos 5.2, and Fable 5.2 beats Opus 5.5 on most coding and agent benchmarks.",
+   "filed": "2026-11-10T02:24:40Z",
+   "note": "",
+   "items": [
+    {
+     "title": "Researchers unlock any car of one automaker with a number plate",
+     "body": "Researchers Shubham Shah and Sam Curry describe a chain of flaws in an unnamed automaker's connected-car platform. Hardcoded admin credentials in a JavaScript bundle, an exposed admin test harness, a WAF bypass and an MFA skip gave account takeover and remote commands. In Australia they could unlock any of the automaker's vehicles with only a number plate. A companion writeup says similar control reached the US and Canada.",
+     "why": "The chain shows how hardcoded keys, exposed admin tools and WAF gaps combine into fleet-wide remote control.",
+     "topics": [
+      "Security"
+     ],
+     "source": "Hacker News · 592 points · 319 comments",
+     "url": "https://shubs.io/unlocking-any-car-from-x-brand-in-most-of-the-world/",
+     "date": "2026-11-07"
+    },
+    {
+     "title": "Meituan releases LongCat-2.5 open multimodal MoE under MIT license",
+     "body": "Meituan published LongCat-2.5 on Hugging Face under the MIT License. The model card describes a native multimodal mixture-of-experts model with about 1.6 trillion total parameters and about 48 billion active per token. It has thinking and non-thinking modes and uses W4A4 quantization for experts. Reported scores include 91.9 on BrowseComp and 88.4 on Terminal Bench v2.1.",
+     "why": "It is a new open-weight agentic model with strong browsing and terminal benchmark scores.",
+     "topics": [
+      "Open models"
+     ],
+     "source": "r/LocalLLaMA · 108 upvotes",
+     "url": "https://huggingface.co/meituan-longcat/LongCat-2.5",
+     "date": "2026-11-09"
+    }
+   ]
+  },
+  "aws-news": {
+   "routine": "aws-news",
+   "status": "done",
+   "headline": "Claude Fable 5.2 is now available on Amazon Bedrock and Claude Platform on AWS.",
+   "filed": "2026-11-10T02:25:20Z",
+   "note": "The What's New RSS feed showed no items after November 6, and the AWS News and Machine Learning blogs had no posts after November 6, so items came from What's New pages found by search.",
+   "items": [
+    {
+     "title": "AWS Nitro Sandboxes isolate EKS pods, ECS tasks and VMs",
+     "body": "AWS Nitro Sandboxes are lightweight VMs managed by the Nitro Hypervisor that host EKS pods, ECS tasks or standalone VMs, including AI agents. Each workload gets its own hardware-level boundary, and cryptographic attestation releases secrets only to verified sandboxes. On EKS and ECS it is a one-line change, and Pod Identity, VPC CNI, EBS, EFS, S3 and CloudWatch work as before. It runs on most Nitro-based instances in all commercial Regions at no additional charge.",
+     "why": "You can run untrusted code and AI agents on shared instances with a hardware VM boundary at no extra charge.",
+     "topics": [
+      "Kubernetes",
+      "Containers",
+      "Security"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/nitro-sandboxes-eks-ecs-ec2/",
+     "date": "2026-11-09"
+    }
+   ]
+  },
+  "layoffs": {
+   "routine": "layoffs",
+   "status": "done",
+   "headline": "Game studio Tripwire Interactive laid off 36 employees in its second round of cuts this year.",
+   "filed": "2026-11-10T02:25:30Z",
+   "note": "TrueUp could not be fetched; Canva, ServiceNow and the Amazon Washington WARN notice were announced before the 48-hour window, and PhysicsWallah gave no job-cut number.",
+   "items": [
+    {
+     "title": "Tripwire Interactive lays off 36 in second 2026 round",
+     "body": "Tripwire Interactive announced on November 9 that it is laying off 36 employees. With cuts in March, the studio has cut 59 roles in 2026. The studio posted the news on X in a statement titled \"An Update on Our Studio.\" The report gives no total headcount or office location.",
+     "why": "Mid-size game studios keep cutting staff, which tightens the market for game engineers.",
+     "topics": [
+      "Layoffs",
+      "Startups"
+     ],
+     "source": "Unboxholics",
+     "url": "https://unboxholics.com/en/news/gaming/138636-tripwire-interactive-announces-new-layoffs",
+     "date": "2026-11-09",
+     "company": "Tripwire Interactive",
+     "count": 36,
+     "pct": null,
+     "country": "United States",
+     "location": "",
+     "industry": "Gaming",
+     "kind": "layoff"
+    }
+   ]
+  }
+ },
+ "briefing": "Good morning. This is The Nexos Daily for Tuesday, 10 November 2026.\n\nAnthropic released two new models: Claude Fable 5.2 and Claude Mythos 5.2. Fable 5.2 has a context window of 1 million tokens. The price is 8 dollars per million input tokens and 40 dollars per million output tokens. That is 20 percent less than Fable 5.1. Anthropic reports that Fable 5.2 beats Opus 5.5 on most coding and agent benchmarks. The API has breaking changes and an optional fast mode. Teams that change the model name without migration can get HTTP 400 errors. Mythos 5.2 is for verified cyber security and life sciences teams only. Fable 5.2 is also available on Amazon Bedrock today.\n\nMeta launched Muse Ember, its smallest agent model. It has a 1 million token context and costs 10 cents per million input tokens. Its launch post led AI posts on X. Google AI Studio can now build apps with Google Maps Platform from a prompt.\n\nOpenAI started a partnership with Hacktron for AI security tests. An Alibaba benchmark found that coding agents fully finish only 26.4 percent of real tasks. Plan for human review.\n\nIn chips, Google announced TPU 8tx with AMD EPYC Turin hosts. It also announced TPU 8i Max with 384 gigabytes of HBM and 17.2 terabytes per second of bandwidth. A new research method, Next-Concept Modeling, generates text coarse to fine and is up to 31 times faster. SemiAnalysis visited an 800 megawatt AI campus in China. H100 rental prices range from 2.69 to 12.29 dollars per hour, so compare providers before you rent.\n\nOn AWS, Nitro Sandboxes isolate EKS pods, ECS tasks and virtual machines with a hardware boundary at no extra charge.\n\nIn the Claude ecosystem, the Poki MCP server lets agents operate a real iPhone. Another server, sandbox-mcp, gives agents disposable Windows test machines.\n\nOn Hacker News, researchers showed how to unlock any car of one automaker with only its number plate. Another post showed that ChatGPT Desktop forwards your SSH agent to remote machines. Meituan released LongCat 2.5, an open multimodal model under the MIT license.\n\nIn gadgets, Xiaomi will launch the Xiaomi 18 Pro series globally on 17 November in Paris. Sony delayed its PlayStation Pulse Elevate speakers with no new date.\n\nIn layoffs, game studio Tripwire Interactive cut 36 jobs. This is its second round this year.\n\nOn GitHub, a Roblox Studio MCP server gained 281 stars on its first day.\n\nThat is the news for today."
+}

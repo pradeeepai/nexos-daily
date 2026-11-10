@@ -763,14 +763,15 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-10",
    "reported": {
     "2026-10-26": 1660,
     "2026-10-27": 2074,
     "2026-11-02": 4328,
     "2026-11-03": 4608,
     "2026-11-07": 5789,
-    "2026-11-08": 6003
+    "2026-11-08": 6003,
+    "2026-11-10": 6426
    }
   },
   "udhaykumarbala/cleanyourtv-app": {
@@ -1208,7 +1209,7 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-09",
+   "last_seen": "2026-11-10",
    "reported": {
     "2026-10-28": 4023,
     "2026-10-29": 4066,
@@ -1220,7 +1221,8 @@
     "2026-11-06": 4459,
     "2026-11-07": 4584,
     "2026-11-08": 4633,
-    "2026-11-09": 4702
+    "2026-11-09": 4702,
+    "2026-11-10": 4765
    }
   },
   "haplollc/Vesalius": {
@@ -1374,11 +1376,12 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-01",
+   "last_seen": "2026-11-10",
    "reported": {
     "2026-10-29": 200,
     "2026-10-31": 1432,
-    "2026-11-01": 1715
+    "2026-11-01": 1715,
+    "2026-11-10": 4401
    }
   },
   "amosblomqvist/learnharness": {
@@ -1388,7 +1391,7 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-09",
+   "last_seen": "2026-11-10",
    "reported": {
     "2026-10-29": 3635,
     "2026-10-30": 4032,
@@ -1401,7 +1404,8 @@
     "2026-11-06": 5564,
     "2026-11-07": 5766,
     "2026-11-08": 6213,
-    "2026-11-09": 6574
+    "2026-11-09": 6574,
+    "2026-11-10": 7763
    }
   },
   "guilhermealvestech/carrossel-skill": {
@@ -1471,7 +1475,7 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-09",
+   "last_seen": "2026-11-10",
    "reported": {
     "2026-10-30": 26,
     "2026-11-01": 2802,
@@ -1482,7 +1486,8 @@
     "2026-11-06": 7130,
     "2026-11-07": 7409,
     "2026-11-08": 7616,
-    "2026-11-09": 7757
+    "2026-11-09": 7757,
+    "2026-11-10": 7918
    }
   },
   "yc-software/minecraft-agent-harness": {
@@ -1555,7 +1560,7 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-09",
+   "last_seen": "2026-11-10",
    "reported": {
     "2026-10-30": 3242,
     "2026-10-31": 3324,
@@ -1563,7 +1568,8 @@
     "2026-11-06": 3999,
     "2026-11-07": 4079,
     "2026-11-08": 4188,
-    "2026-11-09": 4281
+    "2026-11-09": 4281,
+    "2026-11-10": 4377
    }
   },
   "heygen-com/hyperframes": {
@@ -1610,7 +1616,7 @@
     "Trending",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-09",
+   "last_seen": "2026-11-10",
    "reported": {
     "2026-10-31": 339,
     "2026-11-02": 2682,
@@ -1620,7 +1626,8 @@
     "2026-11-06": 5298,
     "2026-11-07": 5604,
     "2026-11-08": 5855,
-    "2026-11-09": 6079
+    "2026-11-09": 6079,
+    "2026-11-10": 6356
    }
   },
   "Pluviobyte/douyin-comments": {
@@ -1776,7 +1783,7 @@
     "Trending",
     "Pulse"
    ],
-   "last_seen": "2026-11-09",
+   "last_seen": "2026-11-10",
    "reported": {
     "2026-11-01": 2840,
     "2026-11-02": 8079,
@@ -1786,7 +1793,8 @@
     "2026-11-06": 19560,
     "2026-11-07": 20284,
     "2026-11-08": 20845,
-    "2026-11-09": 21237
+    "2026-11-09": 21237,
+    "2026-11-10": 21779
    }
   },
   "wiva-hq/CodeRail": {
@@ -1943,7 +1951,7 @@
     "Trending",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-09",
+   "last_seen": "2026-11-10",
    "reported": {
     "2026-11-01": 3574,
     "2026-11-02": 4933,
@@ -1953,7 +1961,8 @@
     "2026-11-06": 9862,
     "2026-11-07": 10765,
     "2026-11-08": 11403,
-    "2026-11-09": 11960
+    "2026-11-09": 11960,
+    "2026-11-10": 12792
    }
   },
   "ninjahawk/livenerf": {
@@ -2148,7 +2157,7 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-09",
+   "last_seen": "2026-11-10",
    "reported": {
     "2026-11-02": 3976,
     "2026-11-03": 4491,
@@ -2157,7 +2166,8 @@
     "2026-11-06": 4846,
     "2026-11-07": 4899,
     "2026-11-08": 4955,
-    "2026-11-09": 5291
+    "2026-11-09": 5291,
+    "2026-11-10": 5536
    }
   },
   "jarrodwatts/claude-hud": {
@@ -2380,14 +2390,15 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-09",
+   "last_seen": "2026-11-10",
    "reported": {
     "2026-11-04": 578,
     "2026-11-05": 2611,
     "2026-11-06": 3284,
     "2026-11-07": 3705,
     "2026-11-08": 3968,
-    "2026-11-09": 4127
+    "2026-11-09": 4127,
+    "2026-11-10": 4296
    }
   },
   "RUC-NLPIR/CoworkOS": {
@@ -2410,9 +2421,10 @@
     "Trending",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-09",
+   "last_seen": "2026-11-10",
    "reported": {
-    "2026-11-04": 85
+    "2026-11-04": 85,
+    "2026-11-10": 577
    }
   },
   "capri-com/Capri-AI": {
@@ -2704,11 +2716,12 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-10",
    "reported": {
     "2026-11-06": 244,
     "2026-11-07": 443,
-    "2026-11-08": 506
+    "2026-11-08": 506,
+    "2026-11-10": 624
    }
   },
   "JosssphZhou/poki": {
@@ -2719,12 +2732,13 @@
     "Trending",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-09",
+   "last_seen": "2026-11-10",
    "reported": {
     "2026-11-06": 239,
     "2026-11-07": 423,
     "2026-11-08": 516,
-    "2026-11-09": 611
+    "2026-11-09": 611,
+    "2026-11-10": 778
    }
   },
   "YT-Proteus-bot/MineAgent": {
@@ -2842,11 +2856,12 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-09",
+   "last_seen": "2026-11-10",
    "reported": {
     "2026-11-07": 177,
     "2026-11-08": 363,
-    "2026-11-09": 414
+    "2026-11-09": 414,
+    "2026-11-10": 488
    }
   },
   "WoYun520/pixel-gif-sticker-pack": {
@@ -2868,11 +2883,12 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-09",
+   "last_seen": "2026-11-10",
    "reported": {
     "2026-11-07": 342,
     "2026-11-08": 893,
-    "2026-11-09": 1135
+    "2026-11-09": 1135,
+    "2026-11-10": 1294
    }
   },
   "zhanghao123vip/ai-manju-skills": {
@@ -2906,11 +2922,12 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-09",
+   "last_seen": "2026-11-10",
    "reported": {
     "2026-11-07": 490,
     "2026-11-08": 855,
-    "2026-11-09": 1612
+    "2026-11-09": 1612,
+    "2026-11-10": 1923
    }
   },
   "dsx-ai-factory/nvke": {
@@ -2929,10 +2946,11 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-09",
+   "last_seen": "2026-11-10",
    "reported": {
     "2026-11-08": 168,
-    "2026-11-09": 454
+    "2026-11-09": 454,
+    "2026-11-10": 537
    }
   },
   "drost-ai/tinker-ai-skill": {
@@ -2943,7 +2961,7 @@
     "Trending",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-09",
+   "last_seen": "2026-11-10",
    "reported": {
     "2026-11-08": 124
    }
@@ -3013,7 +3031,7 @@
     "Claude Ecosystem",
     "Trending"
    ],
-   "last_seen": "2026-11-09",
+   "last_seen": "2026-11-10",
    "reported": {
     "2026-11-09": 336
    }
@@ -3044,7 +3062,7 @@
     "Trending",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-09",
+   "last_seen": "2026-11-10",
    "reported": {
     "2026-11-09": 143
    }
@@ -3164,9 +3182,10 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-09",
+   "last_seen": "2026-11-10",
    "reported": {
-    "2026-11-09": 870
+    "2026-11-09": 870,
+    "2026-11-10": 1452
    }
   },
   "janestreet/agent_skills": {
@@ -3176,9 +3195,10 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-09",
+   "last_seen": "2026-11-10",
    "reported": {
-    "2026-11-09": 338
+    "2026-11-09": 338,
+    "2026-11-10": 2213
    }
   },
   "synchopate/llama-modchip": {
@@ -3198,6 +3218,126 @@
     "Claude Ecosystem"
    ],
    "last_seen": "2026-11-09"
+  },
+  "Nanoutrolley/roblox-studio-mcp": {
+   "first_seen": "2026-11-10",
+   "kind": "MCP server",
+   "description": "An MCP server that connects Claude, Cursor and other assistants to Roblox Studio.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-10",
+   "reported": {
+    "2026-11-10": 281
+   }
+  },
+  "Dodaios/ste80-humanizer": {
+   "first_seen": "2026-11-10",
+   "kind": "Skill",
+   "description": "An agent skill that removes AI writing tells and moves text toward ASD-STE100 Simplified Technical English.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-10",
+   "reported": {
+    "2026-11-10": 104
+   }
+  },
+  "ryanrhughes/t3code-wow": {
+   "first_seen": "2026-11-10",
+   "kind": "Other",
+   "description": "An experimental addon to watch and run T3 Code agent threads inside World of Warcraft.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-10",
+   "reported": {
+    "2026-11-10": 39
+   }
+  },
+  "Moh4696/cinematic-skill": {
+   "first_seen": "2026-11-10",
+   "kind": "Skill",
+   "description": "An agent skill that builds narrated cinematic films from photos entirely in code.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-10",
+   "reported": {
+    "2026-11-10": 38
+   }
+  },
+  "bookleme/bookleme": {
+   "first_seen": "2026-11-10",
+   "kind": "Skill",
+   "description": "A tool that compiles a book into an agent skill and checks fidelity against the source text.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-10",
+   "reported": {
+    "2026-11-10": 37
+   }
+  },
+  "yusuke-114/claude-xcode-agent": {
+   "first_seen": "2026-11-10",
+   "kind": "Coding agent",
+   "description": "Runs Claude Code as the coding agent inside Xcode 27 with your own API key or gateway.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-10",
+   "reported": {
+    "2026-11-10": 31
+   }
+  },
+  "Team-intN18-SoybeanSeclab/prtseek": {
+   "first_seen": "2026-11-10",
+   "kind": "Agent framework",
+   "description": "An AI agent for solving capture-the-flag security challenges.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-10",
+   "reported": {
+    "2026-11-10": 26
+   }
+  },
+  "assassin808/learn-from-lessons": {
+   "first_seen": "2026-11-10",
+   "kind": "Skill",
+   "description": "A skill that lets coding agents such as Claude Code, Codex and opencode learn from your corrections.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-10",
+   "reported": {
+    "2026-11-10": 23
+   }
+  },
+  "yolilin642-byte/screen-handoff": {
+   "first_seen": "2026-11-10",
+   "kind": "AI infra",
+   "description": "A self-hosted tool to watch an AI use your computer from your phone and take over at any time.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-10",
+   "reported": {
+    "2026-11-10": 14
+   }
+  },
+  "Neal006/deja": {
+   "first_seen": "2026-11-10",
+   "kind": "Dev tool",
+   "description": "A cache tool that it says cuts about 30% of input token cost in real Claude Code sessions.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-10",
+   "reported": {
+    "2026-11-10": 8
+   }
   }
  }
 }

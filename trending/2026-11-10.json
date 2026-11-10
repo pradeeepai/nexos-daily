@@ -1,0 +1,339 @@
+{
+ "date": "2026-11-10",
+ "generated": "2026-11-10T02:52:14Z",
+ "headline": "Nanoutrolley/roblox-studio-mcp, an MCP server for Roblox Studio, gained 281 stars on its first day.",
+ "periods": {
+  "daily": {
+   "topics": [
+    "MCP servers",
+    "Agent skills",
+    "Claude Code in IDEs",
+    "Agents that learn from corrections"
+   ],
+   "repos": [
+    {
+     "repo": "Nanoutrolley/roblox-studio-mcp",
+     "url": "https://github.com/Nanoutrolley/roblox-studio-mcp",
+     "description": "An MCP server that connects Claude, Cursor and other assistants to Roblox Studio.",
+     "kind": "MCP server",
+     "language": "Python",
+     "stars": 281,
+     "gained": 281,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "Dodaios/ste80-humanizer",
+     "url": "https://github.com/Dodaios/ste80-humanizer",
+     "description": "An agent skill that removes AI writing tells and moves text toward ASD-STE100 Simplified Technical English.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 104,
+     "gained": 104,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "ryanrhughes/t3code-wow",
+     "url": "https://github.com/ryanrhughes/t3code-wow",
+     "description": "An experimental addon to watch and run T3 Code agent threads inside World of Warcraft.",
+     "kind": "Other",
+     "language": "Lua",
+     "stars": 39,
+     "gained": 39,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "Moh4696/cinematic-skill",
+     "url": "https://github.com/Moh4696/cinematic-skill",
+     "description": "An agent skill that builds narrated cinematic films from photos entirely in code.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 38,
+     "gained": 38,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "bookleme/bookleme",
+     "url": "https://github.com/bookleme/bookleme",
+     "description": "A tool that compiles a book into an agent skill and checks fidelity against the source text.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 37,
+     "gained": 37,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "yusuke-114/claude-xcode-agent",
+     "url": "https://github.com/yusuke-114/claude-xcode-agent",
+     "description": "Runs Claude Code as the coding agent inside Xcode 27 with your own API key or gateway.",
+     "kind": "Coding agent",
+     "language": "Shell",
+     "stars": 31,
+     "gained": 31,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "Team-intN18-SoybeanSeclab/prtseek",
+     "url": "https://github.com/Team-intN18-SoybeanSeclab/prtseek",
+     "description": "An AI agent for solving capture-the-flag security challenges.",
+     "kind": "Agent framework",
+     "language": "Go",
+     "stars": 26,
+     "gained": 26,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "assassin808/learn-from-lessons",
+     "url": "https://github.com/assassin808/learn-from-lessons",
+     "description": "A skill that lets coding agents such as Claude Code, Codex and opencode learn from your corrections.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 23,
+     "gained": 23,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "yolilin642-byte/screen-handoff",
+     "url": "https://github.com/yolilin642-byte/screen-handoff",
+     "description": "A self-hosted tool to watch an AI use your computer from your phone and take over at any time.",
+     "kind": "AI infra",
+     "language": "JavaScript",
+     "stars": 14,
+     "gained": 14,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "Neal006/deja",
+     "url": "https://github.com/Neal006/deja",
+     "description": "A cache tool that it says cuts about 30% of input token cost in real Claude Code sessions.",
+     "kind": "Dev tool",
+     "language": "TypeScript",
+     "stars": 8,
+     "gained": 8,
+     "source": "GitHub search"
+    }
+   ]
+  },
+  "weekly": {
+   "topics": [
+    "Background coding agents",
+    "Agent skills",
+    "Phone-control agents",
+    "Agent sandboxes",
+    "MCP servers"
+   ],
+   "repos": [
+    {
+     "repo": "KKKKhazix/agent-autoloop",
+     "url": "https://github.com/KKKKhazix/agent-autoloop",
+     "description": "Lets a command-line coding agent take and follow up tasks in the background and ask you only when unsure.",
+     "kind": "Coding agent",
+     "language": "TypeScript",
+     "stars": 4296,
+     "gained": 4296,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "janestreet/agent_skills",
+     "url": "https://github.com/janestreet/agent_skills",
+     "description": "A collection of agent skills published by Jane Street.",
+     "kind": "Skill",
+     "language": null,
+     "stars": 2213,
+     "gained": 2213,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "sarpstar/cinecode",
+     "url": "https://github.com/sarpstar/cinecode",
+     "description": "An AI coding agent workflow for making short films, explainers, ads and music videos in code.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 1923,
+     "gained": 1923,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "DIYgod/pinky",
+     "url": "https://github.com/DIYgod/pinky",
+     "description": "Lets AI agents operate your phone while you stay in the loop.",
+     "kind": "Agent framework",
+     "language": "Go",
+     "stars": 1452,
+     "gained": 1452,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "voyager-so/vork",
+     "url": "https://github.com/voyager-so/vork",
+     "description": "A headless 3D and VFX engine built for agents, in research preview.",
+     "kind": "AI infra",
+     "language": "Rust",
+     "stars": 1294,
+     "gained": 1294,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "JosssphZhou/poki",
+     "url": "https://github.com/JosssphZhou/poki",
+     "description": "A local MCP server and agent that operate a real iPhone without jailbreak or extra hardware.",
+     "kind": "MCP server",
+     "language": "Swift",
+     "stars": 778,
+     "gained": 778,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "majorminorlabs/hermes-voice",
+     "url": "https://github.com/majorminorlabs/hermes-voice",
+     "description": "Talk to a Hermes Agent profile through Home Assistant Assist.",
+     "kind": "Other",
+     "language": "Python",
+     "stars": 624,
+     "gained": 624,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "kubai087/kubai-icons",
+     "url": "https://github.com/kubai087/kubai-icons",
+     "description": "An agent skill that draws animated icons in one consistent style for Claude Code, Codex and others.",
+     "kind": "Skill",
+     "language": "JavaScript",
+     "stars": 577,
+     "gained": 577,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "lxe/phoneuse",
+     "url": "https://github.com/lxe/phoneuse",
+     "description": "Sees and controls an unmodified iPhone from a Linux PC through AirPlay mirroring and Bluetooth HID.",
+     "kind": "AI infra",
+     "language": "Python",
+     "stars": 537,
+     "gained": 537,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "devvmhq/devvm",
+     "url": "https://github.com/devvmhq/devvm",
+     "description": "One isolated VM per project with its toolchain, ready for you or a coding agent.",
+     "kind": "Dev tool",
+     "language": "Go",
+     "stars": 488,
+     "gained": 488,
+     "source": "GitHub search"
+    }
+   ]
+  },
+  "monthly": {
+   "topics": [
+    "Agent harnesses",
+    "Agent skills",
+    "Phone-control agents",
+    "Agent cost control",
+    "Agent security"
+   ],
+   "repos": [
+    {
+     "repo": "deepseek-ai/dsh-superagent-prototype",
+     "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+     "description": "DeepSeek's prototype for a more autonomous agent system.",
+     "kind": "Agent framework",
+     "language": "TypeScript",
+     "stars": 21779,
+     "gained": 21779,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "heydamir/unslop",
+     "url": "https://github.com/heydamir/unslop",
+     "description": "A Claude skill that turns generic AI-looking UI into a designed interface.",
+     "kind": "Skill",
+     "language": "JavaScript",
+     "stars": 12792,
+     "gained": 12792,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "wangzan101/Mika",
+     "url": "https://github.com/wangzan101/Mika",
+     "description": "An on-device Android agent that operates apps and the web for you.",
+     "kind": "Agent framework",
+     "language": "Kotlin",
+     "stars": 7918,
+     "gained": 7918,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "amosblomqvist/learnharness",
+     "url": "https://github.com/amosblomqvist/learnharness",
+     "description": "An agent harness for learning difficult subjects.",
+     "kind": "Agent framework",
+     "language": "TypeScript",
+     "stars": 7763,
+     "gained": 7763,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "Jakeschincariol/day-trader-skill",
+     "url": "https://github.com/Jakeschincariol/day-trader-skill",
+     "description": "A set of 11 Claude skills for scanning charts and tracking news for day trading.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 6426,
+     "gained": 6426,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "patch-gg/pixelfx",
+     "url": "https://github.com/patch-gg/pixelfx",
+     "description": "244 pixel-art effects in code, plus a Claude Code skill to make new ones.",
+     "kind": "Skill",
+     "language": "JavaScript",
+     "stars": 6356,
+     "gained": 6356,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "microsoft/TokenEconomizer",
+     "url": "https://github.com/microsoft/TokenEconomizer",
+     "description": "Microsoft's experience-driven, black-box cost control for coding agents.",
+     "kind": "AI infra",
+     "language": "Python",
+     "stars": 5536,
+     "gained": 5536,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "onehumanbeing/esp32-iphone-agent",
+     "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
+     "description": "Lets an AI model use a real iPhone through a $7 ESP32 with AirPlay input and USB HID control.",
+     "kind": "Other",
+     "language": "Swift",
+     "stars": 4765,
+     "gained": 4765,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "qybaihe/bla",
+     "url": "https://github.com/qybaihe/bla",
+     "description": "A defense tool that protects binaries and apps against reverse engineering by LLM agents.",
+     "kind": "Dev tool",
+     "language": "TypeScript",
+     "stars": 4401,
+     "gained": 4401,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "Leonxlnx/earshot",
+     "url": "https://github.com/Leonxlnx/earshot",
+     "description": "Gives coding agents the ability to hear, review and make sound, CPU-only.",
+     "kind": "Dev tool",
+     "language": "Python",
+     "stars": 4377,
+     "gained": 4377,
+     "source": "GitHub search"
+    }
+   ]
+  }
+ }
+}

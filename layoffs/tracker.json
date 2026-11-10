@@ -1,6 +1,20 @@
 {
  "entries": [
   {
+   "date": "2026-11-09",
+   "company": "Tripwire Interactive",
+   "count": 36,
+   "count_text": "",
+   "pct": null,
+   "location": "",
+   "country": "United States",
+   "industry": "Gaming",
+   "kind": "layoff",
+   "confirmed": true,
+   "source": "Unboxholics",
+   "url": "https://unboxholics.com/en/news/gaming/138636-tripwire-interactive-announces-new-layoffs"
+  },
+  {
    "date": "2026-11-05",
    "company": "Meta",
    "count": 932,
@@ -1863,5 +1877,5 @@
    "url": "https://golayoffs.com/tech-layoff-tracker/"
   }
  ],
- "updated": "2026-11-09T02:51:04Z"
+ "updated": "2026-11-10T02:52:14Z"
 }
