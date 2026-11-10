@@ -1,6 +1,6 @@
 {
  "date": "2026-11-10",
- "generated": "2026-11-10T02:52:14Z",
+ "generated": "2026-11-10T02:52:29Z",
  "sections": {
   "tech-news": {
    "routine": "tech-news",
@@ -200,14 +200,7 @@
      ],
      "source": "Hacker News",
      "url": "https://news.ycombinator.com/item?id=50427085",
-     "date": "2026-11-09",
-     "also": [
-      {
-       "section": "Pulse",
-       "source": "Hacker News · 192 points · 63 comments",
-       "url": "https://news.ycombinator.com/item?id=50422628"
-      }
-     ]
+     "date": "2026-11-09"
     }
    ]
   },
@@ -371,6 +364,19 @@
      "source": "Hacker News · 592 points · 319 comments",
      "url": "https://shubs.io/unlocking-any-car-from-x-brand-in-most-of-the-world/",
      "date": "2026-11-07"
+    },
+    {
+     "title": "ChatGPT Desktop forwards your SSH agent to remote machines",
+     "body": "A Hacker News post reports that ChatGPT Desktop forwards the user's SSH agent to remote machines. An agent on the remote host can then authenticate with the user's local credentials, for example to push to private GitHub repositories. The poster links to a comment on a pull request in the openai/codex repository. Commenters suggest hardware-backed keys that need a fingerprint for each session.",
+     "why": "Coding agents on remote hosts can use your local SSH keys, for example to push to private repositories.",
+     "topics": [
+      "Security",
+      "OpenAI",
+      "AI tools"
+     ],
+     "source": "Hacker News · 192 points · 63 comments",
+     "url": "https://news.ycombinator.com/item?id=50422628",
+     "date": "2026-11-09"
     },
     {
      "title": "Meituan releases LongCat-2.5 open multimodal MoE under MIT license",

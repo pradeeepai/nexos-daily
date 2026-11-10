@@ -45,7 +45,9 @@ STOP = set("a an the and or of to in on for with by from at as is are be its it 
 def norm_url(u):
     u = str(u or "").strip().lower()
     u = re.sub(r"^https?://(www\.|m\.|mobile\.)?", "", u)
-    u = re.sub(r"[?#].*$", "", u).rstrip("/")
+    u = re.sub(r"#.*$", "", u)
+    m = re.search(r"[?&]((?:id|v|p)=[^&]+)", u)  # keep id-style queries (Hacker News items, YouTube videos)
+    u = re.sub(r"\?.*$", "", u).rstrip("/") + (f"?{m.group(1)}" if m else "")
     u = u.replace("twitter.com/", "x.com/")
     return u
 def words(t):
