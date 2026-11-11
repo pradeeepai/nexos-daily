@@ -763,7 +763,7 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-11",
    "reported": {
     "2026-10-26": 1660,
     "2026-10-27": 2074,
@@ -771,7 +771,8 @@
     "2026-11-03": 4608,
     "2026-11-07": 5789,
     "2026-11-08": 6003,
-    "2026-11-10": 6426
+    "2026-11-10": 6426,
+    "2026-11-11": 6706
    }
   },
   "udhaykumarbala/cleanyourtv-app": {
@@ -1376,12 +1377,13 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-11",
    "reported": {
     "2026-10-29": 200,
     "2026-10-31": 1432,
     "2026-11-01": 1715,
-    "2026-11-10": 4401
+    "2026-11-10": 4401,
+    "2026-11-11": 5028
    }
   },
   "amosblomqvist/learnharness": {
@@ -1391,7 +1393,7 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-11",
    "reported": {
     "2026-10-29": 3635,
     "2026-10-30": 4032,
@@ -1405,7 +1407,8 @@
     "2026-11-07": 5766,
     "2026-11-08": 6213,
     "2026-11-09": 6574,
-    "2026-11-10": 7763
+    "2026-11-10": 7763,
+    "2026-11-11": 8336
    }
   },
   "guilhermealvestech/carrossel-skill": {
@@ -1475,7 +1478,7 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-11",
    "reported": {
     "2026-10-30": 26,
     "2026-11-01": 2802,
@@ -1487,7 +1490,8 @@
     "2026-11-07": 7409,
     "2026-11-08": 7616,
     "2026-11-09": 7757,
-    "2026-11-10": 7918
+    "2026-11-10": 7918,
+    "2026-11-11": 8086
    }
   },
   "yc-software/minecraft-agent-harness": {
@@ -1560,7 +1564,7 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-11",
    "reported": {
     "2026-10-30": 3242,
     "2026-10-31": 3324,
@@ -1569,7 +1573,8 @@
     "2026-11-07": 4079,
     "2026-11-08": 4188,
     "2026-11-09": 4281,
-    "2026-11-10": 4377
+    "2026-11-10": 4377,
+    "2026-11-11": 4457
    }
   },
   "heygen-com/hyperframes": {
@@ -1616,7 +1621,7 @@
     "Trending",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-11",
    "reported": {
     "2026-10-31": 339,
     "2026-11-02": 2682,
@@ -1627,7 +1632,8 @@
     "2026-11-07": 5604,
     "2026-11-08": 5855,
     "2026-11-09": 6079,
-    "2026-11-10": 6356
+    "2026-11-10": 6356,
+    "2026-11-11": 6687
    }
   },
   "Pluviobyte/douyin-comments": {
@@ -1783,7 +1789,7 @@
     "Trending",
     "Pulse"
    ],
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-11",
    "reported": {
     "2026-11-01": 2840,
     "2026-11-02": 8079,
@@ -1794,7 +1800,8 @@
     "2026-11-07": 20284,
     "2026-11-08": 20845,
     "2026-11-09": 21237,
-    "2026-11-10": 21779
+    "2026-11-10": 21779,
+    "2026-11-11": 22210
    }
   },
   "wiva-hq/CodeRail": {
@@ -1951,7 +1958,7 @@
     "Trending",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-11",
    "reported": {
     "2026-11-01": 3574,
     "2026-11-02": 4933,
@@ -1962,7 +1969,8 @@
     "2026-11-07": 10765,
     "2026-11-08": 11403,
     "2026-11-09": 11960,
-    "2026-11-10": 12792
+    "2026-11-10": 12792,
+    "2026-11-11": 13790
    }
   },
   "ninjahawk/livenerf": {
@@ -2157,7 +2165,7 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-11",
    "reported": {
     "2026-11-02": 3976,
     "2026-11-03": 4491,
@@ -2167,7 +2175,8 @@
     "2026-11-07": 4899,
     "2026-11-08": 4955,
     "2026-11-09": 5291,
-    "2026-11-10": 5536
+    "2026-11-10": 5536,
+    "2026-11-11": 5656
    }
   },
   "jarrodwatts/claude-hud": {
@@ -2390,7 +2399,7 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-11",
    "reported": {
     "2026-11-04": 578,
     "2026-11-05": 2611,
@@ -2398,7 +2407,8 @@
     "2026-11-07": 3705,
     "2026-11-08": 3968,
     "2026-11-09": 4127,
-    "2026-11-10": 4296
+    "2026-11-10": 4296,
+    "2026-11-11": 4437
    }
   },
   "RUC-NLPIR/CoworkOS": {
@@ -2683,9 +2693,10 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-11",
    "reported": {
-    "2026-11-05": 8
+    "2026-11-05": 8,
+    "2026-11-11": 341
    }
   },
   "ccch1mneyyy/dsh-Go": {
@@ -2716,12 +2727,13 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-11",
    "reported": {
     "2026-11-06": 244,
     "2026-11-07": 443,
     "2026-11-08": 506,
-    "2026-11-10": 624
+    "2026-11-10": 624,
+    "2026-11-11": 653
    }
   },
   "JosssphZhou/poki": {
@@ -2732,13 +2744,14 @@
     "Trending",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-11",
    "reported": {
     "2026-11-06": 239,
     "2026-11-07": 423,
     "2026-11-08": 516,
     "2026-11-09": 611,
-    "2026-11-10": 778
+    "2026-11-10": 778,
+    "2026-11-11": 921
    }
   },
   "YT-Proteus-bot/MineAgent": {
@@ -2856,12 +2869,13 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-11",
    "reported": {
     "2026-11-07": 177,
     "2026-11-08": 363,
     "2026-11-09": 414,
-    "2026-11-10": 488
+    "2026-11-10": 488,
+    "2026-11-11": 539
    }
   },
   "WoYun520/pixel-gif-sticker-pack": {
@@ -2883,12 +2897,13 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-11",
    "reported": {
     "2026-11-07": 342,
     "2026-11-08": 893,
     "2026-11-09": 1135,
-    "2026-11-10": 1294
+    "2026-11-10": 1294,
+    "2026-11-11": 1357
    }
   },
   "zhanghao123vip/ai-manju-skills": {
@@ -2946,11 +2961,12 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-11",
    "reported": {
     "2026-11-08": 168,
     "2026-11-09": 454,
-    "2026-11-10": 537
+    "2026-11-10": 537,
+    "2026-11-11": 581
    }
   },
   "drost-ai/tinker-ai-skill": {
@@ -2961,9 +2977,10 @@
     "Trending",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-11",
    "reported": {
-    "2026-11-08": 124
+    "2026-11-08": 124,
+    "2026-11-11": 307
    }
   },
   "Saekisui/claude-p-pipeline": {
@@ -3031,9 +3048,10 @@
     "Claude Ecosystem",
     "Trending"
    ],
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-11",
    "reported": {
-    "2026-11-09": 336
+    "2026-11-09": 336,
+    "2026-11-11": 401
    }
   },
   "phuryn/mini-harness": {
@@ -3182,10 +3200,11 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-11",
    "reported": {
     "2026-11-09": 870,
-    "2026-11-10": 1452
+    "2026-11-10": 1452,
+    "2026-11-11": 1705
    }
   },
   "janestreet/agent_skills": {
@@ -3238,9 +3257,10 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-11",
    "reported": {
-    "2026-11-10": 104
+    "2026-11-10": 104,
+    "2026-11-11": 314
    }
   },
   "ryanrhughes/t3code-wow": {
@@ -3262,9 +3282,10 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-11",
    "reported": {
-    "2026-11-10": 38
+    "2026-11-10": 38,
+    "2026-11-11": 149
    }
   },
   "bookleme/bookleme": {
@@ -3274,9 +3295,10 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-11",
    "reported": {
-    "2026-11-10": 37
+    "2026-11-10": 37,
+    "2026-11-11": 106
    }
   },
   "yusuke-114/claude-xcode-agent": {
@@ -3286,9 +3308,10 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-11",
    "reported": {
-    "2026-11-10": 31
+    "2026-11-10": 31,
+    "2026-11-11": 44
    }
   },
   "Team-intN18-SoybeanSeclab/prtseek": {
@@ -3310,9 +3333,10 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-11",
    "reported": {
-    "2026-11-10": 23
+    "2026-11-10": 23,
+    "2026-11-11": 31
    }
   },
   "yolilin642-byte/screen-handoff": {
@@ -3338,6 +3362,76 @@
    "reported": {
     "2026-11-10": 8
    }
+  },
+  "JDhruv14/line-art-animation": {
+   "first_seen": "2026-11-11",
+   "kind": "Skill",
+   "description": "A Claude skill and TypeScript library that makes animated line-art SVG figures and scenes.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-11",
+   "reported": {
+    "2026-11-11": 180
+   }
+  },
+  "alexeyw/lot-map": {
+   "first_seen": "2026-11-11",
+   "kind": "Dev tool",
+   "description": "A live local map of Claude Code tool calls, hooks and subagents.",
+   "seen_in": [
+    "Trending",
+    "Claude Ecosystem"
+   ],
+   "last_seen": "2026-11-11",
+   "reported": {
+    "2026-11-11": 91
+   }
+  },
+  "pktq/lasik": {
+   "first_seen": "2026-11-11",
+   "kind": "MCP server",
+   "description": "A static CLI and MCP server that undoes anti-agent code hardening so agents can read real code.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-11",
+   "reported": {
+    "2026-11-11": 82
+   }
+  },
+  "link-ding/image-to-psd": {
+   "first_seen": "2026-11-11",
+   "kind": "Skill",
+   "description": "An agent skill that splits character art into a layered PSD with editable masks.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-11",
+   "reported": {
+    "2026-11-11": 60
+   }
+  },
+  "MiaAI-Lab/Claude-Fable-5.2-HTML-Files": {
+   "first_seen": "2026-11-11",
+   "kind": "Other",
+   "description": "76 HTML visual studies made with Claude Fable 5.2, with prompts and screenshots.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-11",
+   "reported": {
+    "2026-11-11": 45
+   }
+  },
+  "Nyxera0x/cutaway": {
+   "first_seen": "2026-11-11",
+   "kind": "Skill",
+   "description": "cutaway skill turns one image into a self-disassembling 3D model",
+   "seen_in": [
+    "Claude Ecosystem"
+   ],
+   "last_seen": "2026-11-11"
   }
  }
 }

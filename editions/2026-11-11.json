@@ -1,0 +1,466 @@
+{
+ "date": "2026-11-11",
+ "generated": "2026-11-11T02:51:12Z",
+ "sections": {
+  "tech-news": {
+   "routine": "tech-news",
+   "status": "done",
+   "headline": "Anthropic released Claude Fable 5.2 and Mythos 5.2 with a 1M-token context at $8/$40, and Google made Gemini 4 Carbon generally available.",
+   "filed": "2026-11-11T02:19:52Z",
+   "note": "",
+   "items": [
+    {
+     "title": "Anthropic releases Claude Fable 5.2 and Claude Mythos 5.2",
+     "body": "Anthropic released Claude Fable 5.2 for all paid users and Claude Mythos 5.2 for vetted cyber and biomedical organizations. Both have a 1M-token context window and 128k max output. API price is $8 input and $40 output per million tokens, down from $10/$50 for 5.1; fast mode costs $16/$80. Fable 5.2 scores 69.9% on FrontierSWE v2 and 89.3% on OSWorld 2.1, above Opus 5.5.",
+     "why": "A new top Claude model is on the API, Bedrock, Vertex AI and Azure, so teams can test it in agent and coding pipelines now.",
+     "topics": [
+      "Claude",
+      "New models"
+     ],
+     "source": "Anthropic",
+     "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+     "date": "2026-11-09",
+     "also": [
+      {
+       "section": "Pulse",
+       "source": "Hacker News · 862 points · 989 comments",
+       "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2"
+      },
+      {
+       "section": "Cloud",
+       "source": "AWS What's New",
+       "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/claude-fable-5-2-aws/"
+      },
+      {
+       "section": "Trending on X",
+       "source": "X · @claudeai · 12,223 likes · 846 reposts",
+       "url": "https://x.com/claudeai/status/2120174844822298730"
+      }
+     ]
+    },
+    {
+     "title": "Google makes Gemini 4 Carbon generally available",
+     "body": "Gemini 4 Carbon is now on the paid Gemini API, Gemini for business, Antigravity and for Google AI Ultra subscribers. The introductory price is $2 input and $10 output per million tokens; from November 30 it is $4/$20. Artificial Analysis lists a 1M-token context window. Google also previewed /swarm in Antigravity, which runs a coordinated team of agents from one prompt.",
+     "why": "Carbon is a lower-cost frontier option for long-horizon agent and coding work, priced below Fable 5.2.",
+     "topics": [
+      "Gemini",
+      "New models"
+     ],
+     "source": "Google",
+     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+     "date": "2026-11-10",
+     "also": [
+      {
+       "section": "Trending on X",
+       "source": "X · @OfficialLoganK · 3,729 likes · 184 reposts",
+       "url": "https://x.com/OfficialLoganK/status/2120186016254624039"
+      }
+     ]
+    },
+    {
+     "title": "Claude adds Whiteboards, Sheets and Claude Data",
+     "body": "Anthropic started the roll-out of Claude Whiteboards and Claude Sheets in beta, and renamed Dashboards to Claude Data with general availability. They work on paid plans on web, desktop and mobile. On Team plans they are on by default; on Enterprise, Whiteboards and Sheets are off by default and Claude Data turns on by default on November 19.",
+     "why": "Teams can plan, track and report on live data inside Claude without another tool.",
+     "topics": [
+      "Claude",
+      "AI tools"
+     ],
+     "source": "Unite.AI",
+     "url": "https://www.unite.ai/anthropic-launches-claude-whiteboards-and-sheets-in-beta/",
+     "date": "2026-11-10",
+     "also": [
+      {
+       "section": "Trending on X",
+       "source": "X · @claudeai · 43,012 likes · 3,053 reposts",
+       "url": "https://x.com/claudeai/status/2120206365759094857"
+      }
+     ]
+    },
+    {
+     "title": "Fable 5.2 API brings breaking changes for computer use and thinking",
+     "body": "Fable 5.2 and Mythos 5.2 need the new computer_toolset_20260801; computer_20251124 returns a 400 error except on Amazon Bedrock. A request that edits the system prompt, tools or earlier messages and then sends back a later thinking block now returns 400. Both models need 30-day data retention and are not available under zero data retention without approval. Fast mode needs no beta header: set speed to fast.",
+     "why": "Existing integrations can fail with 400 errors when they switch to Fable 5.2, so check them before migration.",
+     "topics": [
+      "Claude",
+      "DevOps"
+     ],
+     "source": "Claude Platform release notes",
+     "url": "https://platform.claude.com/docs/en/release-notes/overview",
+     "date": "2026-11-09"
+    },
+    {
+     "title": "Google DeepMind launches Gemini Robotics 2.5",
+     "body": "Gemini Robotics 2.5 is DeepMind's new vision-language-action model, tested on more than 200 tasks. Success rates are 30% to 100% above earlier baselines and tasks finish 20% to 30% faster. In a pilot, Apptronik's Apollo 2 humanoid reached 96% success when it picked and packed parts on Mercedes-Benz lines. The model goes to robotics partners first.",
+     "why": "It shows how far vision-language-action models have come in real factory work.",
+     "topics": [
+      "New models",
+      "AI research"
+     ],
+     "source": "Google DeepMind",
+     "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+     "date": "2026-11-10",
+     "also": [
+      {
+       "section": "Trending on X",
+       "source": "X · @GoogleDeepMind · 3,606 likes · 440 reposts",
+       "url": "https://x.com/GoogleDeepMind/status/2120169787896525104"
+      }
+     ]
+    },
+    {
+     "title": "DeepMind's AlphaProof Code formally verifies Signal's cryptographic code",
+     "body": "AlphaProof Code is a multi-agent framework where humans choose what to prove and agents write Lean proofs. The team verified core cryptographic code of the Signal protocol down to compiled machine code in four weeks. Reviewers checked only about 1% of the code. When the team put back two fixed bugs, the system proved that the buggy versions were insecure.",
+     "why": "AI-written, machine-checked proofs can make formal verification of security code practical.",
+     "topics": [
+      "AI research",
+      "Security"
+     ],
+     "source": "Google DeepMind",
+     "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+     "date": "2026-11-10",
+     "also": [
+      {
+       "section": "Chips & Research",
+       "source": "Google DeepMind",
+       "url": "https://deepmind.google/blog/introducing-alphaproof-code/"
+      },
+      {
+       "section": "Pulse",
+       "source": "Hacker News · 539 points · 170 comments",
+       "url": "https://deepmind.google/blog/introducing-alphaproof-code/"
+      }
+     ]
+    },
+    {
+     "title": "Amazon replaces Sonnet 4.6 with open Strands Decider for ticket labels",
+     "body": "Amazon used Strands Decider, an open-source decision model on Gemma 4 E4B, to label tickets instead of Claude Sonnet 4.6. Cost fell from about $22,200 to about $500 per million tickets, tokens per ticket fell 70%, and call latency fell 78% to 897 ms. It runs on SageMaker AI ml.g5.xlarge instances. The post was on the Hacker News front page with 676 points.",
+     "why": "A small decision model on SageMaker can cut LLM cost by about 98% for classification work.",
+     "topics": [
+      "Open models",
+      "Agents"
+     ],
+     "source": "Strands Agents blog",
+     "url": "https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider/",
+     "date": "2026-11-09",
+     "also": [
+      {
+       "section": "Pulse",
+       "source": "Hacker News · 676 points · 237 comments",
+       "url": "https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider/"
+      }
+     ]
+    },
+    {
+     "title": "NVIDIA releases Alpamayo 2 Edge for in-vehicle reasoning",
+     "body": "NVIDIA announced Alpamayo 2 Edge, which brings adaptive AI reasoning to the vehicle in real time. NVIDIA says it plans driving paths and can explain its decisions, for example when it yields to pedestrians. Developers can build on it, per NVIDIA's post.",
+     "why": "It moves reasoning models for autonomous driving onto the vehicle itself.",
+     "topics": [
+      "New models"
+     ],
+     "source": "X · @nvidia",
+     "url": "https://x.com/nvidia/status/2120186778384499073",
+     "date": "2026-11-10"
+    }
+   ]
+  },
+  "chips": {
+   "routine": "chips",
+   "status": "done",
+   "headline": "Google's TPU 8tx with AMD EPYC hosts brings hardware-enforced confidential computing to cloud TPUs.",
+   "filed": "2026-11-11T02:19:52Z",
+   "note": "Quiet hardware window; three items met the 48-hour rule.",
+   "items": [
+    {
+     "title": "Google TPU 8tx brings confidential computing to cloud TPUs",
+     "body": "Google introduced TPU 8tx, which uses the same silicon as TPU 8t, for confidential inference. 5th Gen AMD EPYC CPUs are the host and extend AMD SEV protection from the CPU to the attached TPUs. Prompts, model weights and intermediate data stay encrypted in CPU memory and in transit, and each accelerator is verified before it can access protected memory. No price or general availability date was given.",
+     "why": "Regulated workloads can now run inference on TPUs with encrypted prompts and weights.",
+     "topics": [
+      "Google TPU",
+      "AMD",
+      "Data centers"
+     ],
+     "source": "AMD via GlobeNewswire",
+     "url": "https://globenewswire.com/news-release/2026/11/09/3398340/0/en/amd-epyc-expands-its-leadership-at-the-foundation-of-ai.html",
+     "date": "2026-11-09"
+    },
+    {
+     "title": "Flide speeds agent decision inference up to 9.5x with state forking",
+     "body": "Flide is an inference engine that runs a decision request's branch tree as one flat token stream, with ForkAttention over standard attention and Gated DeltaNet layers. The authors say each branch matches an isolated forward pass exactly. It answers queries up to 9.5x faster than vLLM and SGLang. Authors are from the National University of Singapore; it trended on Hugging Face Daily Papers.",
+     "why": "Faster branch evaluation lowers serving cost for decision-model agents.",
+     "topics": [
+      "AI research",
+      "Architecture"
+     ],
+     "source": "Hugging Face Papers",
+     "url": "https://huggingface.co/papers/2610.42148",
+     "date": "2026-11-10"
+    }
+   ]
+  },
+  "ecosystem": {
+   "routine": "ecosystem",
+   "status": "done",
+   "headline": "Postman desktop silently installed a Claude Code plugin and startup hook, a reminder to audit agent configs.",
+   "filed": "2026-11-11T02:19:52Z",
+   "note": "",
+   "items": [
+    {
+     "title": "Postman desktop auto-installed a Claude Code plugin and hook",
+     "body": "Postman desktop 12.33.4 installed a plugin into Claude Code and Codex, with a startup hook, an MCP server at mcp.postman.com and a self-approved hook trust record. GitHub issue #14370 in postmanlabs/postman-app-support asks for opt-in. No data theft is confirmed. Check ~/.claude/settings.json and ~/.claude/plugins/installed_plugins.json for Postman entries.",
+     "why": "Third-party apps can change agent configs without consent, so audit settings.json and installed plugins.",
+     "topics": [
+      "Plugins",
+      "Hooks",
+      "MCP"
+     ],
+     "source": "AI Weekly",
+     "url": "https://aiweekly.co/alerts/postman-desktop-silently-installs-plugins-into-codex-claude-code",
+     "date": "2026-11-10"
+    },
+    {
+     "title": "thimble plugin explains what Claude Code agents did",
+     "body": "thimble is an open-source Claude Code plugin by X user @mjoerke. It adds explainers and interactive visualizations in the terminal so users understand what agents did. The launch post had 127 likes and 14 reposts.",
+     "why": "Reviewers get visual explainers of agent changes before they approve them.",
+     "topics": [
+      "Plugins",
+      "Claude Code"
+     ],
+     "source": "X · @mjoerke · 127 likes · 14 reposts",
+     "url": "https://x.com/mjoerke/status/2120190288648085651",
+     "date": "2026-11-10"
+    },
+    {
+     "title": "lot-map draws a live map of Claude Code activity",
+     "body": "lot-map by alexeyw is a Claude Code mod that shows a live map in a pane beside the chat. Tool calls, hooks, skills and subagents light up as they run, with markers for errors and context fill. It runs locally. Install: /plugin install lot-map --marketplace alexeyw/lot-map.",
+     "why": "It makes tool calls, hooks and subagents visible while a long task runs.",
+     "topics": [
+      "Plugins",
+      "Subagents",
+      "Setups"
+     ],
+     "source": "GitHub · alexeyw",
+     "url": "https://github.com/alexeyw/lot-map",
+     "date": "2026-11-09"
+    },
+    {
+     "title": "tinker-ai-skill fine-tunes a local model on your Claude Code sessions",
+     "body": "This Agent Skill from drost-ai turns Claude Code transcripts into a fine-tuning dataset, trains a LoRA on Tinker, merges it and exports a GGUF for llama.cpp. GitHub search showed about 300 stars within days of its November 7 creation. Install: git clone https://github.com/drost-ai/tinker-ai-skill.git ~/.claude/skills/tinker-ai-skill.",
+     "why": "Teams can turn their own agent transcripts into a private model that runs locally.",
+     "topics": [
+      "Skills",
+      "Claude Code"
+     ],
+     "source": "GitHub · drost-ai",
+     "url": "https://github.com/drost-ai/tinker-ai-skill",
+     "date": "2026-11-07"
+    },
+    {
+     "title": "Meteor ships 17 official Agent Skills",
+     "body": "Meteor released 17 Agent Skills to build, debug and ship Meteor 3 apps with Claude Code, Codex and other agents. Install: npx skills add meteor/agent-skills.",
+     "why": "Framework vendors now ship official skills, so agents follow current framework practice.",
+     "topics": [
+      "Skills"
+     ],
+     "source": "X · @meteorjs · 3 likes · 0 reposts",
+     "url": "https://x.com/meteorjs/status/2120191226829791499",
+     "date": "2026-11-10"
+    },
+    {
+     "title": "cutaway skill turns one image into a self-disassembling 3D model",
+     "body": "cutaway by Nyxera0x is a Claude Code skill that turns one image into a three.js 3D object that takes itself apart. It checks the result against the source picture. GitHub search showed 166 stars since its November 6 creation.",
+     "why": "It shows skills that verify their own output against a reference image.",
+     "topics": [
+      "Skills",
+      "Claude Code"
+     ],
+     "source": "GitHub · Nyxera0x",
+     "url": "https://github.com/Nyxera0x/cutaway",
+     "date": "2026-11-06"
+    }
+   ]
+  },
+  "x-desk": {
+   "routine": "x-desk",
+   "status": "done",
+   "headline": "Claude's roll-out of Whiteboards, Sheets and Claude Data was the top AI post on X, with over 43,000 likes.",
+   "filed": "2026-11-11T02:19:52Z",
+   "note": "Read 39 posts in 3 searches; 13 passed the filter; kept the top 6.",
+   "items": [
+    {
+     "title": "OpenAI puts Businesses in ChatGPT into beta",
+     "body": "OpenAI launched Businesses in ChatGPT in beta. Businesses can claim a profile, manage their information and see how people engage. Eligible businesses can also build a Business Agent that answers customer questions.",
+     "why": "Companies can build customer-facing agents directly inside ChatGPT.",
+     "topics": [
+      "OpenAI",
+      "Agents"
+     ],
+     "source": "X · @OpenAI · 11,827 likes · 868 reposts",
+     "url": "https://x.com/OpenAI/status/2120216592395174382",
+     "date": "2026-11-10"
+    },
+    {
+     "title": "Simon Willison flags a Fable 5.2 prompting tip",
+     "body": "Simon Willison points to Anthropic's updated prompting guide for Fable 5.2. One tip: tell the model 'This codebase is yours' so it is less cautious when it changes existing code. He advises reading the guide after each new model release.",
+     "why": "A one-line prompt change can make Fable 5.2 less cautious when it improves existing code.",
+     "topics": [
+      "Claude",
+      "AI tools"
+     ],
+     "source": "X · @simonw · 4,065 likes · 263 reposts",
+     "url": "https://x.com/simonw/status/2120029347948220500",
+     "date": "2026-11-10"
+    }
+   ]
+  },
+  "gadgets": {
+   "routine": "gadgets",
+   "status": "done",
+   "headline": "Amazon launched the $249.99 Ring Drone Cam and $999.99 Ring Rover Cam, the first Ring Robotics devices.",
+   "filed": "2026-11-11T02:22:53Z",
+   "note": "The Verge and Gadgets 360 were blocked; few new official hardware launches appeared in the 48-hour window.",
+   "items": [
+    {
+     "title": "Amazon launches Ring Drone Cam and Ring Rover Cam",
+     "body": "The Ring Drone Cam costs $249.99 and ships January 27, 2027. It weighs 165 grams, has a 2K front camera and flies about 8 to 10 minutes per charge. The Ring Rover Cam costs $999.99, is based on Amazon Astro and has a 4K camera on a periscope that extends up to 4 feet. Both use the cloud-based AI Pilot system and the Alexa Home Map.",
+     "why": "Ring moves home security from fixed cameras to autonomous mobile devices.",
+     "topics": [
+      "Smart home",
+      "Amazon",
+      "AI gadgets"
+     ],
+     "source": "Engadget",
+     "url": "https://www.engadget.com/2311630/amazon-finally-launches-the-250-ring-drone-cam-and-also-the-ring-rover-cam/",
+     "date": "2026-11-10"
+    },
+    {
+     "title": "Google's November Pixel Drop brings Gemini features to Pixel phones",
+     "body": "Google started the November 2026 Pixel Drop one month earlier than usual, with Android 17 QPR2. Pixel 10 models get Gemini Intelligence features, including Rambler and Create My Widget. Pixel 11 gets Gemini Call Screen. Some features reach the Pixel 6a and newer.",
+     "why": "Pixel 10 and 11 owners get new on-device AI features without new hardware.",
+     "topics": [
+      "Phones",
+      "Google"
+     ],
+     "source": "9to5Google",
+     "url": "https://9to5google.com/2026/11/10/november-2026-pixel-feature-drop",
+     "date": "2026-11-10"
+    },
+    {
+     "title": "OPPO confirms Reno 17 series launch in China on November 16",
+     "body": "OPPO confirmed a November 16 launch event in China for the Reno 17 series. Official teasers confirm the Watch 5 and a new Pad at the same event. Teased colours include Adventure Cat, Ice Moon White and Cocoa Brown. OPPO has not confirmed hardware specs or prices.",
+     "why": "The Reno 17 series sets OPPO's mid-premium lineup that usually reaches India later.",
+     "topics": [
+      "Phones",
+      "Wearables",
+      "Tablets"
+     ],
+     "source": "My Mobile India",
+     "url": "https://www.mymobileindia.com/oppo-reno-17-series-china-launch-confirmed-for-november-16-design-colours-and-specs-revealed/",
+     "date": "2026-11-09"
+    }
+   ]
+  },
+  "tech-pulse": {
+   "routine": "tech-pulse",
+   "status": "done",
+   "headline": "Anthropic released Claude Fable 5.2 and Mythos 5.2, the top developer topic yesterday.",
+   "filed": "2026-11-11T02:22:53Z",
+   "note": "",
+   "items": [
+    {
+     "title": "MiniMax releases open-weight H3-Image generation and editing model",
+     "body": "MiniMax-H3-Image is a 33.1B-parameter diffusion transformer that handles generation and editing in one checkpoint. It outputs about 16-megapixel images at any aspect ratio in 6 sampling steps. It supports SGLang, vLLM-Omni, diffusers and ComfyUI. It uses the MiniMax-H3-Image Community License.",
+     "why": "Teams get a large open-weight image model that generates and edits at about 16 megapixels.",
+     "topics": [
+      "Open models",
+      "AI tools"
+     ],
+     "source": "r/LocalLLaMA · 482 upvotes",
+     "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image",
+     "date": "2026-11-10"
+    },
+    {
+     "title": "Fireworks AI breach exposes some Notion AI chat transcripts",
+     "body": "Fireworks AI told Notion on November 6 that attackers may have accessed customer data, and confirmed the dataset on November 8. The data is some unattributed Notion AI chat transcripts used for the Insights feature. Notion estimates that fewer than 1% of workspaces are affected. Notion tells affected users to rotate any credentials pasted into Notion AI.",
+     "why": "Third-party AI inference vendors are now part of the data-breach attack surface.",
+     "topics": [
+      "Security",
+      "AI tools"
+     ],
+     "source": "Hacker News · 157 points · 60 comments",
+     "url": "https://www.notion.com/help/security-incident-involving-a-third-party-ai-vendor",
+     "date": "2026-11-10"
+    }
+   ]
+  },
+  "aws-news": {
+   "routine": "aws-news",
+   "status": "done",
+   "headline": "Claude Fable 5.2 is now available on Amazon Bedrock, with Mythos 5.2 for eligible GovCloud customers.",
+   "filed": "2026-11-11T02:22:53Z",
+   "note": "",
+   "items": [
+    {
+     "title": "AgentCore adds a standalone Web Search API",
+     "body": "The new InvokeWebSearch API returns ranked results from an Amazon-operated web index, with text extracts, titles, URLs and publish times. You can filter by domain and publication time. It supports PrivateLink and logs to CloudTrail. It costs $7 per 1,000 queries in six Regions, including US East (N. Virginia) and Asia Pacific (Tokyo).",
+     "why": "Agents can now search the web with one IAM-authorized call and no gateway setup.",
+     "topics": [
+      "Bedrock",
+      "Agents"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-bedrock-agentcore-web-search-api/",
+     "date": "2026-11-10"
+    },
+    {
+     "title": "AWS Nitro Sandboxes isolate EKS pods, ECS tasks and VMs",
+     "body": "Nitro Sandboxes are lightweight VMs on the Nitro Hypervisor that give each EKS pod, ECS task or VM its own hardware-isolated environment. Secrets can be released only to sandboxes that pass cryptographic attestation. Enabling it in EKS or ECS takes a one-line change. It is available in all commercial Regions at no additional charge.",
+     "why": "Hardware isolation per pod helps run untrusted code and AI agents safely on shared instances.",
+     "topics": [
+      "Containers",
+      "Kubernetes",
+      "Security"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/nitro-sandboxes-eks-ecs-ec2/",
+     "date": "2026-11-09"
+    },
+    {
+     "title": "EKS Auto Mode and Karpenter support Dynamic Resource Allocation",
+     "body": "EKS Auto Mode and Karpenter now support Kubernetes DRA for NVIDIA GPUs and EFA devices. Workloads request devices through ResourceClaim objects, and Karpenter launches the lowest-cost matching instances. Auto Mode includes the NVIDIA and EFA DRA drivers and needs Kubernetes 1.36 or newer. It is available in all Regions except GovCloud and China.",
+     "why": "GPU and EFA workloads get attribute-based device requests and GPU sharing with autoscaling.",
+     "topics": [
+      "Kubernetes",
+      "Containers"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-eks-auto-mode-karpenter-dra/",
+     "date": "2026-11-09"
+    },
+    {
+     "title": "AWS STS supports cross-partition federation",
+     "body": "A workload gets a short-lived token from STS in its own partition and exchanges it for temporary credentials in another partition. It uses the GetWebIdentityToken and AssumeRoleWithWebIdentity APIs. Token use is audited in CloudTrail in both partitions. It is available at no extra charge in commercial, GovCloud, China and European Sovereign Cloud Regions.",
+     "why": "Workloads can cross AWS partitions with temporary credentials instead of long-term access keys.",
+     "topics": [
+      "Security"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-sts-cross-partition",
+     "date": "2026-11-09"
+    },
+    {
+     "title": "CloudWatch Logs adds account-level retention policies",
+     "body": "Account-level retention policies set how long CloudWatch Logs keeps data across all log groups or a subset by name prefix. Policies can apply to existing log groups, new ones or both. When several policies match, the longest retention applies. It is free and available in most commercial Regions, including Mumbai and Hyderabad.",
+     "why": "One policy can now stop log storage costs from growing across all log groups.",
+     "topics": [
+      "Cost",
+      "DevOps"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cloudwatch-log-retention/",
+     "date": "2026-11-09"
+    }
+   ]
+  }
+ },
+ "briefing": "Good morning. This is The Nexos Daily for Wednesday, 11 November 2026.\n\nGoogle made Gemini 4 Carbon generally available. It is a frontier model for long agent and coding work, and its price is lower than Claude Fable 5.2. It is now in the Gemini API and in the Ultra plan. Anthropic released Fable 5.2 and Mythos 5.2 two days ago. Fable 5.2 is now on the Claude API, Amazon Bedrock, Vertex AI and Azure. Its API has breaking changes for computer use and thinking, so check integrations before migration.\n\nIn security, the Postman desktop app installed a Claude Code plugin and a startup hook without consent. Audit your settings file and your installed plugins. A breach at Fireworks AI exposed some Notion AI chat transcripts. AI inference vendors are now part of the attack surface. Google DeepMind's AlphaProof Code formally verified the cryptographic code of Signal with millions of lines of Lean proofs.\n\nIn the Claude ecosystem, Claude started the roll-out of Whiteboards, Sheets and Claude Data. The announcement got more than 43 thousand likes on X. The thimble plugin makes visual explainers of what Claude Code agents changed. Meteor shipped 17 official agent skills.\n\nIn models, Google DeepMind launched Gemini Robotics 2.5 for factory work. NVIDIA released Alpamayo 2 Edge for reasoning inside vehicles. MiniMax released H3-Image, an open-weight model that generates and edits images. OpenAI put Businesses in ChatGPT into beta. Amazon replaced Sonnet 4.6 with a small open model, Strands Decider, for ticket labels. This cut model cost by about 98 percent.\n\nIn chips, Google TPU 8tx uses AMD EPYC hosts for confidential computing on cloud TPUs. A new method, Flide, makes agent decision inference up to 9.5 times faster with state forking.\n\nOn AWS, AgentCore added a standalone Web Search API. EKS Auto Mode and Karpenter now support Dynamic Resource Allocation for GPUs. AWS STS supports federation across partitions. CloudWatch Logs added retention policies at the account level. Nitro Sandboxes isolate pods, tasks and virtual machines with a hardware boundary.\n\nThere were no new tech layoffs in the last 48 hours.\n\nIn gadgets, Amazon launched the Ring Drone Cam at 249 dollars and 99 cents and the Ring Rover Cam at 999 dollars and 99 cents.\n\nOn GitHub, the fastest-growing new repo is ste80-humanizer, an agent skill that rewrites text into Simplified Technical English.\n\nThat is the news for today."
+}
