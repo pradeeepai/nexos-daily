@@ -18,12 +18,9 @@ def rep(a, b):
 rep("&family=JetBrains+Mono:wght@400;500&display=swap",
     "&family=JetBrains+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&family=Figtree:wght@400;500;600&family=DM+Mono:wght@400;500&display=swap")
 # pre-paint
-rep('(s==="minimal"||s==="unslop")?s:"magazine"', '(s==="minimal"||s==="unslop"||s==="paper")?s:"magazine"')
 # settings and the Aa button
 rep('<button type="button" data-v="unslop">Unslop</button></div>', '<button type="button" data-v="unslop">Unslop</button><button type="button" data-v="paper">Paper</button></div>')
 rep('title="Switch design: Magazine, Minimal, Unslop"', 'title="Switch design: Magazine, Minimal, Unslop, Paper"')
-rep('["minimal", "unslop"].includes(store.get("nx-style"))', '["minimal", "unslop", "paper"].includes(store.get("nx-style"))')
-rep('const o = ["magazine", "minimal", "unslop"];', 'const o = ["magazine", "minimal", "unslop", "paper"];')
 # css block between markers
 block = "/*PAPER:START*/\n" + css + "/*PAPER:END*/\n"
 if "/*PAPER:START*/" in s:

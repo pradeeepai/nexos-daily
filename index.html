@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,700..900&family=Instrument+Sans:wght@400;500;600;700&family=Geist:wght@300..700&family=Newsreader:opsz,wght@6..72,400;6..72,500&family=JetBrains+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&family=Figtree:wght@400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
-<script>try{var s=localStorage.getItem("nx-style");document.documentElement.dataset.style=(s==="minimal"||s==="unslop"||s==="paper")?s:"magazine"}catch(e){document.documentElement.dataset.style="magazine"}</script>
+<script>(function(d){var s=null,t=null;try{s=localStorage.getItem("nx-style");t=localStorage.getItem("nx-theme")}catch(e){}d.dataset.style=(s==="magazine"||s==="minimal"||s==="unslop")?s:"paper";if(t!=="system")d.dataset.theme=(t==="dark")?"dark":"light"})(document.documentElement)</script>
 <style>
 /* Layout: a loud tech-magazine front. Black masthead band with a huge condensed wordmark; a purple section rail; a trending-topics strip; a hero row (purple lead block + ranked top stories); then the story stream: one readable column with a purple timeline spine, and a slim side rail on wide screens. Footer band in black. */
 :root{
@@ -1449,12 +1449,12 @@ function closeSheet() { if ($("sheet").hidden) return; $("sheet").hidden = true;
 $("menuBtn").addEventListener("click", openSheet); $("sheetClose").addEventListener("click", closeSheet); $("backdrop").addEventListener("click", closeSheet);
 (function settings() {
   const root = document.documentElement;
-  const segs = { styleSeg: ["nx-style", "magazine", v => { root.dataset.style = v; if (typeof render === "function") render(); }], apSeg: ["nx-theme", "system", v => v === "system" ? delete root.dataset.theme : root.dataset.theme = v], sizeSeg: ["np-size", "m", v => v === "m" ? delete root.dataset.size : root.dataset.size = v] };
+  const segs = { styleSeg: ["nx-style", "paper", v => { root.dataset.style = v; if (typeof render === "function") render(); }], apSeg: ["nx-theme", "light", v => v === "system" ? delete root.dataset.theme : root.dataset.theme = v], sizeSeg: ["np-size", "m", v => v === "m" ? delete root.dataset.size : root.dataset.size = v] };
   function apply(id, v, save) { const [key, def, fn] = segs[id]; v = v || def; fn(v); if (save) store.set(key, v === def ? null : v); $(id).querySelectorAll("button").forEach(b => b.setAttribute("aria-pressed", b.dataset.v === v)); }
-  apply("styleSeg", ["minimal", "unslop", "paper"].includes(store.get("nx-style")) ? store.get("nx-style") : "magazine", false);
-  apply("apSeg", ["light", "dark"].includes(store.get("nx-theme")) ? store.get("nx-theme") : "system", false);
+  apply("styleSeg", ["magazine", "minimal", "unslop"].includes(store.get("nx-style")) ? store.get("nx-style") : "paper", false);
+  apply("apSeg", ["system", "dark"].includes(store.get("nx-theme")) ? store.get("nx-theme") : "light", false);
   apply("sizeSeg", ["s", "l", "xl"].includes(store.get("np-size")) ? store.get("np-size") : "m", false);
-  $("styleBtn").addEventListener("click", () => { const o = ["magazine", "minimal", "unslop", "paper"]; apply("styleSeg", o[(o.indexOf(root.dataset.style) + 1) % o.length], true); });
+  $("styleBtn").addEventListener("click", () => { const o = ["paper", "magazine", "minimal", "unslop"]; apply("styleSeg", o[(o.indexOf(root.dataset.style) + 1) % o.length], true); });
   Object.keys(segs).forEach(id => $(id).addEventListener("click", e => { const b = e.target.closest("button"); if (b) apply(id, b.dataset.v, true); }));
 })();
 
