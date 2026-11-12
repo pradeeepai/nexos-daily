@@ -1,6 +1,11 @@
 {
  "editions": [
   {
+   "date": "2026-11-12",
+   "stories": 36,
+   "headline": "Claude Fable 5.2 and Mythos 5.2 lead agentic coding benchmarks"
+  },
+  {
    "date": "2026-11-11",
    "stories": 28,
    "headline": "Anthropic releases Claude Fable 5.2 and Claude Mythos 5.2"

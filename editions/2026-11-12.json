@@ -1,0 +1,569 @@
+{
+ "date": "2026-11-12",
+ "generated": "2026-11-12T02:51:27Z",
+ "sections": {
+  "tech-news": {
+   "routine": "tech-news",
+   "status": "done",
+   "headline": "Anthropic's Claude Fable 5.2 remains the main AI story, while Google ships Gemini 4 Carbon and the new Gemini Decision 1 model.",
+   "filed": "2026-11-12T02:19:16Z",
+   "note": "",
+   "items": [
+    {
+     "title": "Claude Fable 5.2 and Mythos 5.2 lead agentic coding benchmarks",
+     "body": "Anthropic released Claude Fable 5.2 (claude-fable-5-2) and Claude Mythos 5.2 on 9 November; both are the same model, and Mythos is for vetted cyber and life-science organizations. Price is $8 input and $40 output per 1M tokens; fast mode costs $16/$80 and generates up to 2.5x faster. Fable 5.2 scores 49.1% on FrontierCode 2.0 (Opus 5.5: 45.5%) and 89.3% on OSWorld 2.1. It is available on the Claude Platform, AWS, Google Cloud and Microsoft Azure, and it is still the top discussion on r/ClaudeAI.",
+     "why": "A new top Claude model changes cost and model-choice decisions for coding agents on AWS, Google Cloud and Azure.",
+     "topics": [
+      "Claude",
+      "New models"
+     ],
+     "source": "Anthropic",
+     "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+     "date": "2026-11-09"
+    },
+    {
+     "title": "Anthropic adds Claude Sheets, Whiteboards, Claude Data and interactive connectors",
+     "body": "Anthropic launched Claude Sheets for shared spreadsheets with formulas and tabs, and Claude Whiteboards for meetings. Claude Data (formerly Dashboards) connects to Snowflake and Salesforce to build dashboards and data stories. Interactive connectors let partners such as Adobe and Atlassian embed their apps in Claude. Claude auto-connect for organization-wide app connections is in beta on eligible Team and Enterprise plans.",
+     "why": "Interactive connectors let partner apps run inside Claude, which changes how teams build MCP-based integrations.",
+     "topics": [
+      "Claude",
+      "MCP",
+      "AI tools"
+     ],
+     "source": "Claude blog",
+     "url": "https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors",
+     "date": "2026-11-10",
+     "also": [
+      {
+       "section": "Pulse",
+       "source": "r/ClaudeAI · 225 upvotes",
+       "url": "https://www.reddit.com/r/ClaudeAI/comments/1xt7krc/claude_can_now_open_apps_like_asana_canva_and/"
+      }
+     ]
+    },
+    {
+     "title": "Claude Meetings enters beta on Google Meet",
+     "body": "Anthropic brought Claude into live meetings with Claude Meetings. It is in beta for Team and Enterprise users and starts on Google Meet. Anthropic says it takes notes during calls and updates shared documents.",
+     "why": "Claude can now act inside live calls, which adds a new agent surface for enterprise workflows.",
+     "topics": [
+      "Claude",
+      "Agents"
+     ],
+     "source": "Reuters",
+     "url": "https://www.reuters.com/technology/anthropic-brings-claude-google-meet-tackle-tasks-live-2026-11-10/",
+     "date": "2026-11-10"
+    },
+    {
+     "title": "Google launches Gemini Decision 1 at $0.10 per 1M tokens",
+     "body": "Gemini Decision 1 (gemini-decision-1) scores up to 1,000 closed-set questions in one forward pass instead of generating text. It accepts text, image, audio, video and PDF input up to 256K tokens. Input costs $0.10 per 1M tokens with no output charge, and median end-to-end latency is 150-250 ms. It is available now in the Gemini API and Google AI Studio; Google Cloud support is coming.",
+     "why": "A cheap, low-latency classifier model fits tool routing, policy checks and MCP safety layers in agent pipelines.",
+     "topics": [
+      "Gemini",
+      "New models"
+     ],
+     "source": "Google blog",
+     "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+     "date": "2026-11-11",
+     "also": [
+      {
+       "section": "Trending on X",
+       "source": "X · @OfficialLoganK · 8240 likes · 495 reposts",
+       "url": "https://x.com/OfficialLoganK/status/2120581433639198885"
+      },
+      {
+       "section": "Trending on X",
+       "source": "X · @GoogleAIStudio · 2120 likes · 206 reposts",
+       "url": "https://x.com/GoogleAIStudio/status/2120581284690801060"
+      }
+     ]
+    },
+    {
+     "title": "Gemini 4 Carbon becomes Google's strongest model",
+     "body": "Google released Gemini 4 Carbon to paid developers through the Gemini API and AI Studio, and to Google AI Ultra users. The intro price is $2 input and $10 output per 1M tokens; it rises to $4/$20 on 30 November 2026. Google reports first place on CursorBench 4.0 and AutomationBench. A /swarm preview in Google Antigravity turns one prompt into a coordinated team of agents.",
+     "why": "Carbon competes directly with Claude and GPT for agentic coding and security work at a lower intro price.",
+     "topics": [
+      "Gemini",
+      "New models",
+      "Agents"
+     ],
+     "source": "Google blog",
+     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+     "date": "2026-11-10",
+     "also": [
+      {
+       "section": "Trending on X",
+       "source": "X · @simonw · 350 likes · 10 reposts",
+       "url": "https://x.com/simonw/status/2120258951594037732"
+      }
+     ]
+    },
+    {
+     "title": "Alibaba opens Qwen4-Max preview with 1M context",
+     "body": "Alibaba opened a Qwen4-Max preview on 11 November that runs until 25 November 2026. It supports up to 1M tokens of context and 393,216 output tokens, with text, image and video input. Access is cloud-only through an Alibaba Cloud Model Studio Token Plan; no per-token price and no weights are published.",
+     "why": "Qwen4 is the first look at the next major Chinese frontier model family.",
+     "topics": [
+      "New models",
+      "Open models"
+     ],
+     "source": "ModelFit",
+     "url": "https://modelfit.io/blog/qwen4-max-preview-cloud-only-no-weights/",
+     "date": "2026-11-11"
+    },
+    {
+     "title": "DeepMind releases AlphaGenome 2 for cell-specific DNA effects",
+     "body": "Google DeepMind announced AlphaGenome 2. The model zooms in on specific cell types to predict how a single-letter DNA change affects disease in some cells but not others. DeepMind aims it at scientists who study what drives disease.",
+     "why": "It shows frontier labs pushing specialist science models alongside general LLMs.",
+     "topics": [
+      "AI research",
+      "New models"
+     ],
+     "source": "X · @GoogleDeepMind",
+     "url": "https://x.com/GoogleDeepMind/status/2120532824465805749",
+     "date": "2026-11-11",
+     "also": [
+      {
+       "section": "Trending on X",
+       "source": "X · @GoogleDeepMind · 2515 likes · 373 reposts",
+       "url": "https://x.com/GoogleDeepMind/status/2120532824465805749"
+      }
+     ]
+    },
+    {
+     "title": "MiniMax releases open-weight H3-Image model",
+     "body": "MiniMax released H3-Image with downloadable model weights. MiniMax claims it makes 4K images in under 10 seconds. It accepts up to 16 reference images.",
+     "why": "Open image weights give teams a self-hosted option for image generation workloads.",
+     "topics": [
+      "Open models",
+      "New models"
+     ],
+     "source": "MiniMax",
+     "url": "https://www.minimax.io/blog/minimax-h3-image",
+     "date": "2026-11-10"
+    },
+    {
+     "title": "DeepMind AlphaProof Code formally verifies the Signal protocol",
+     "body": "Google DeepMind used its AlphaProof Code framework to prove key security properties of the Signal messaging protocol down to the code level. The verification took four weeks. DeepMind says this is the first time AI has proven Signal's protocol secure at code level.",
+     "why": "AI-driven formal verification can harden security-critical code that DevOps teams depend on.",
+     "topics": [
+      "AI research",
+      "Security"
+     ],
+     "source": "Wired",
+     "url": "https://www.wired.com/story/a-new-ai-tool-from-google-deepmind-formally-verified-the-signal-protocol/",
+     "date": "2026-11-11",
+     "also": [
+      {
+       "section": "Trending on X",
+       "source": "X · @GoogleDeepMind · 1774 likes · 195 reposts",
+       "url": "https://x.com/GoogleDeepMind/status/2120484246401777737"
+      }
+     ]
+    }
+   ]
+  },
+  "chips": {
+   "routine": "chips",
+   "status": "done",
+   "headline": "Google adds TPU 8tx for confidential inference with AMD EPYC host CPUs.",
+   "filed": "2026-11-12T02:19:16Z",
+   "note": "",
+   "items": [
+    {
+     "title": "Google TPU 8tx targets confidential inference with AMD EPYC hosts",
+     "body": "Google introduced TPU 8tx on 9 November for confidential inference by regulated enterprises and governments. Fifth-generation AMD EPYC CPUs act as hosts and handle orchestration, data preparation and TPU communication. AMD says prompts, model weights and intermediate data stay encrypted in CPU memory and in transit. TPU 8tx uses the same silicon as TPU 8t; no performance, price or ship date is given.",
+     "why": "Encrypted inference on TPUs opens Google Cloud to regulated workloads that cannot expose prompts or weights.",
+     "topics": [
+      "Google TPU",
+      "AMD",
+      "Data centers"
+     ],
+     "source": "TheStreet",
+     "url": "https://thestreet.com/technology/amd-wins-google-confidential-ai-chip-role",
+     "date": "2026-11-10"
+    },
+    {
+     "title": "Voltage glitching turns a mining card into an 80 GB A100",
+     "body": "A researcher used voltage fault injection on NVIDIA CMP 170HX mining cards to clear floor-sweeping fuses. The 8 GB card unlocked to about 80 GB of framebuffer, about 120-126 SMs instead of 70, and PCIe Gen4 x16. FP16 FMA throughput reached 85.9 TFLOP/s, about 1.18x a retail A100, and vLLM and SGLang ran on it. The author shared the disclosure with NVIDIA product security first.",
+     "why": "It shows that floor-swept data-center GPUs keep full hardware that fuses only hide.",
+     "topics": [
+      "NVIDIA",
+      "Chips"
+     ],
+     "source": "kate.land (HN 256 points)",
+     "url": "https://blog.kate.land/posts/using-voltage-glitching-to-unlock-the-a100/",
+     "date": "2026-11-10"
+    },
+    {
+     "title": "NVIDIA donates OpenShell to CNCF and ships GPU Kubernetes tools",
+     "body": "NVIDIA donated OpenShell, its runtime for governing AI agents, to the CNCF as a Sandbox project. It released NVIDIA Kubernetes Engine and Kubernetes Recipes in public preview, and NVIDIA Snapshot to restore checkpointed inference replicas in seconds. Crusoe cut workload readiness from about 8 minutes to 31 seconds with Snapshot. Saturn Cloud cut vLLM startup from 2-8.5 minutes to 6-34 seconds.",
+     "why": "Open GPU Kubernetes recipes and fast replica restore cut inference startup time on clusters.",
+     "topics": [
+      "NVIDIA",
+      "Data centers"
+     ],
+     "source": "NVIDIA Blog",
+     "url": "https://blogs.nvidia.com/blog/open-source-openshell-infrastructure/",
+     "date": "2026-11-10"
+    },
+    {
+     "title": "Apple learned routers speed up vector search up to 8x",
+     "body": "Apple researchers train small networks offline to route queries in maximum inner product search. SupportNet reaches 95% routing recall about 1.9x faster than centroid routing (1.74 ms vs 3.36 ms). KeyNet, used in front of a FAISS IVF index, reaches 99% recall up to about 8x faster and scans up to 11x fewer keys. The work was presented at ICML 2026 and trended on Hacker News.",
+     "why": "Faster maximum inner product search lowers latency and cost for RAG retrieval layers.",
+     "topics": [
+      "AI research",
+      "Architecture"
+     ],
+     "source": "Apple Machine Learning Research",
+     "url": "https://machinelearning.apple.com/research/faster-retrieval",
+     "date": "2026-11-11"
+    },
+    {
+     "title": "Tree-Ising paper tops Hugging Face daily papers",
+     "body": "Tree-Ising: Repairing Language Models with Bit-Level Ising Edits (arXiv 2611.14210) was the top Hugging Face daily paper on 11 November with 59 upvotes. Per its title, it repairs language models by editing weights at the bit level with Ising-model methods. Another trending paper, The Surprising Effectiveness of Deleting Weights in LLM Post-Training (2611.10866), had 41 upvotes.",
+     "why": "Bit-level weight repair could give a cheap way to fix model faults without full retraining.",
+     "topics": [
+      "AI research"
+     ],
+     "source": "Hugging Face Papers",
+     "url": "https://huggingface.co/papers/2611.14210",
+     "date": "2026-11-11"
+    }
+   ]
+  },
+  "ecosystem": {
+   "routine": "ecosystem",
+   "status": "done",
+   "headline": "lot-map, a live map of Claude Code tool calls, hooks and subagents, gained 410 stars in three days.",
+   "filed": "2026-11-12T02:19:16Z",
+   "note": "",
+   "items": [
+    {
+     "title": "lot-map shows Claude Code activity on a live map",
+     "body": "lot-map shows a live map beside the chat of what Claude Code does. Tool calls, model steps, hooks, skills and subagents light up as they happen, and it runs locally. Repo alexeyw/lot-map was created on 9 November and has 410 stars.",
+     "why": "Live visibility of tool calls, hooks and subagents helps debug and audit agent runs.",
+     "topics": [
+      "Claude Code",
+      "Hooks",
+      "Subagents"
+     ],
+     "source": "GitHub · alexeyw",
+     "url": "https://github.com/alexeyw/lot-map",
+     "date": "2026-11-09"
+    },
+    {
+     "title": "line-art-animation skill makes animated SVG line art",
+     "body": "line-art-animation is a Claude skill plus a TypeScript library for animated line-art SVG components. It draws ink figures that walk and react and scenes with a day/night cycle. Repo JDhruv14/line-art-animation was created on 10 November and has 449 stars.",
+     "why": "It is the fastest-growing new Claude skill this week.",
+     "topics": [
+      "Skills"
+     ],
+     "source": "GitHub · JDhruv14",
+     "url": "https://github.com/JDhruv14/line-art-animation",
+     "date": "2026-11-10"
+    },
+    {
+     "title": "poki MCP server lets agents control a real iPhone",
+     "body": "poki is a local MCP server and agent that lets AI agents operate a real iPhone. It needs no jailbreak and no extra hardware. Repo JosssphZhou/poki was created on 5 November and has 979 stars.",
+     "why": "Agents can now test and automate iOS apps on real hardware through MCP.",
+     "topics": [
+      "MCP"
+     ],
+     "source": "GitHub · JosssphZhou",
+     "url": "https://github.com/JosssphZhou/poki",
+     "date": "2026-11-05"
+    },
+    {
+     "title": "tinker-ai-skill fine-tunes a model on your Claude Code sessions",
+     "body": "tinker-ai-skill is an Agent Skill that fine-tunes an agentic model on your own Claude Code sessions with Tinker. It works in Claude Code, Codex and OpenCode. Repo drost-ai/tinker-ai-skill was created on 7 November and has 316 stars.",
+     "why": "Teams can turn their own agent transcripts into a tuned model.",
+     "topics": [
+      "Skills",
+      "Claude Code"
+     ],
+     "source": "GitHub · drost-ai",
+     "url": "https://github.com/drost-ai/tinker-ai-skill",
+     "date": "2026-11-07"
+    },
+    {
+     "title": "maxagent hooks let agents recall what worked",
+     "body": "maxagent adds hooks that make Claude Code, Codex, Antigravity and OpenClaw record and recall what worked. It also ships maxagent-bridge for your own agents. Repo vzroslieigry/maxagent was created on 8 November and has 265 stars.",
+     "why": "Hooks that record and recall outcomes give agents memory across sessions.",
+     "topics": [
+      "Hooks",
+      "Claude Code"
+     ],
+     "source": "GitHub · vzroslieigry",
+     "url": "https://github.com/vzroslieigry/maxagent",
+     "date": "2026-11-08"
+    },
+    {
+     "title": "Redis ships official Claude Code plugin with 14 skills",
+     "body": "Redis has an official Claude Code plugin, redis-development, with 14 skills and a redis-docs MCP server. In a review of a buggy app it found seven problems, including KEYS blocking the server and no TTL on cached data.",
+     "why": "An official vendor plugin brings Redis best practices into code review by Claude.",
+     "topics": [
+      "Plugins",
+      "MCP",
+      "Skills"
+     ],
+     "source": "X · @aiparabellum",
+     "url": "https://x.com/aiparabellum/status/2120320648887013428",
+     "date": "2026-11-11"
+    }
+   ]
+  },
+  "x-desk": {
+   "routine": "x-desk",
+   "status": "done",
+   "headline": "Logan Kilpatrick's Gemini Decision 1 launch was the top AI post on X, with 8,240 likes.",
+   "filed": "2026-11-12T02:19:16Z",
+   "note": "Read 32 posts in 3 searches; 6 passed the filter (all search 2 posts had fewer than 20 likes).",
+   "items": [
+    {
+     "title": "Runway plugin brings video generation into Codex and ChatGPT",
+     "body": "OpenAI Developers showed the Runway plugin in Codex and ChatGPT. Users can preview character motion, test trailer shots, or turn a product photo into a video ad. Runway's marketing team uses it with ChatGPT Image.",
+     "why": "Plugins in coding agents extend them into media workflows.",
+     "topics": [
+      "OpenAI",
+      "AI tools"
+     ],
+     "source": "X · @OpenAIDevs · 577 likes · 45 reposts",
+     "url": "https://x.com/OpenAIDevs/status/2120258357533749755",
+     "date": "2026-11-10"
+    }
+   ]
+  },
+  "gadgets": {
+   "routine": "gadgets",
+   "status": "done",
+   "headline": "Google's Pixel Tag, its first Find Hub tracker with NFC and UWB, went on retail sale on November 11.",
+   "filed": "2026-11-12T02:22:06Z",
+   "note": "GSMArena and Gadgets 360 could not be opened; Ring Drone Cam and Rover Cam were already in yesterday's edition.",
+   "items": [
+    {
+     "title": "Google Pixel Tag tracker goes on retail sale",
+     "body": "Google's Pixel Tag reached retail on November 11. It supports UWB, Bluetooth 6.0, Channel Sounding and NFC, and it is the first Find Hub tracker with NFC. A double-click of its button rings the paired phone. Bellroy cases cost $24.99 for a silicone two-pack and $29.99 for leather; the source did not give the tag's price.",
+     "why": "Android users get a first-party Find Hub tracker with precision finding and NFC setup.",
+     "topics": [
+      "Google",
+      "Wearables"
+     ],
+     "source": "9to5Google",
+     "url": "https://9to5google.com/2026/11/10/google-pixel-tag-tidbits/",
+     "date": "2026-11-11"
+    },
+    {
+     "title": "Motorola MA2 wireless Android Auto adapter goes on sale",
+     "body": "Motorola's MA2 went on sale in the US on November 11 for $69.99 on Amazon. It has a physical on/off switch, multipoint pairing for several phones and a button to switch phones. It ships with USB-C and USB-A cables. Amazon showed mid-to-late December delivery at launch.",
+     "why": "It is a Google-engineered way to make wired Android Auto cars wireless.",
+     "topics": [
+      "Phones",
+      "Google"
+     ],
+     "source": "9to5Google",
+     "url": "https://9to5google.com/2026/11/11/motorola-ma2-wireless-android-auto-adapter-launch/",
+     "date": "2026-11-11"
+    },
+    {
+     "title": "Apple HomeView hub and new Apple TV 4K launch November 13",
+     "body": "Apple announced the HomeView smart home hub and the fourth-generation Apple TV 4K on October 13. Both are on pre-order and launch on Friday, November 13. The source gave no official prices.",
+     "why": "Apple's smart home hub and fourth-generation Apple TV 4K reach buyers this week.",
+     "topics": [
+      "Apple",
+      "Smart home"
+     ],
+     "source": "MacRumors",
+     "url": "https://macrumors.com/2026/11/06/two-more-apple-products-next-week",
+     "date": "2026-11-13"
+    },
+    {
+     "title": "Wyze Lever Lock adds fingerprint unlock for lever doors",
+     "body": "Wyze launched the Lever Lock on November 10 for $99.98 on Wyze.com and Amazon, shipping immediately. It unlocks by PIN or a fingerprint sensor in about half a second, with fingerprint data stored locally. It runs about 12 months on eight AA batteries and has a USB-C port and a physical key for backup.",
+     "why": "It fits single-bore lever latches that many smart locks do not support.",
+     "topics": [
+      "Smart home"
+     ],
+     "source": "9to5Google",
+     "url": "https://9to5google.com/2026/11/10/wyze-lever-lock-fingerprint-now-available/",
+     "date": "2026-11-10"
+    }
+   ]
+  },
+  "tech-pulse": {
+   "routine": "tech-pulse",
+   "status": "done",
+   "headline": "A developer used 48 AI agents to scan 1,200 km² of public lidar and flag a Maya site, the top tech story on Hacker News.",
+   "filed": "2026-11-12T02:22:06Z",
+   "note": "GitHub Trending pages returned stale data, so repo signals came from the GitHub search API.",
+   "items": [
+    {
+     "title": "48 AI agents scan Maya lidar and flag a hilltop site",
+     "body": "The author asked Gemini, ChatGPT, Claude and Grok for an approach, and they suggested lidar. 48 agents reviewed images made from about 1,200 km² of public lidar strips overnight. They flagged a site with a plaza, an oval pyramid and a possible reservoir. An update says the site was already mapped in Estrada-Belli et al. (2025), so the agents rediscovered it.",
+     "why": "It shows a real, repeatable pattern for running many agents in parallel on a large visual dataset.",
+     "topics": [
+      "Agents",
+      "AI research"
+     ],
+     "source": "Hacker News · 910 points · 334 comments",
+     "url": "https://pietromiotti.com/latest/maya-site",
+     "date": "2026-11-11"
+    },
+    {
+     "title": "Apple reportedly builds Harbor, a Mac app for local AI models",
+     "body": "9to5Mac reports that Harbor, in private preview under the Claris brand, turns a Mac into a private AI inference server for open-weight models. It can pool memory across several Macs over Thunderbolt 5 for larger models. Users can browse, download and load models in the app. Apple has not announced a release date.",
+     "why": "A first-party local inference server would make Apple silicon Macs an easier target for private open-weight model hosting.",
+     "topics": [
+      "Open models",
+      "AI tools"
+     ],
+     "source": "Hacker News · 513 points · 521 comments",
+     "url": "https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/",
+     "date": "2026-11-10"
+    },
+    {
+     "title": "Unsloth releases Dynamic v3.1 GGUFs for Qwen3.8-27B",
+     "body": "Unsloth updated its 2-bit to 6-bit Qwen3.8-27B quants, except 3-bit. It reports 5 to 10% better accuracy on DeepSWE, Terminal Bench and other benchmarks versus its earlier UD3 quants, GSQ-RCO and ExLlama-3. Agentic benchmarks ran at 256K context and were repeated several times.",
+     "why": "Better low-bit quants let teams run a strong 27B coding model locally with less accuracy loss.",
+     "topics": [
+      "Open models"
+     ],
+     "source": "r/LocalLLaMA · 412 upvotes",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xtlyhe/new_qwen3827b_unsloth_dynamic_v31_ggufs/",
+     "date": "2026-11-11"
+    }
+   ]
+  },
+  "aws-news": {
+   "routine": "aws-news",
+   "status": "done",
+   "headline": "Amazon Bedrock now serves OpenAI's Daybreak Blue and Daybreak Red security models through the bedrock-runtime endpoint.",
+   "filed": "2026-11-12T02:22:06Z",
+   "note": "The What's New feed showed no items after November 10, and the AWS News Blog had no new posts since the November 9 roundup.",
+   "items": [
+    {
+     "title": "Bedrock adds runtime access to OpenAI Daybreak security models",
+     "body": "Eligible customers can now use Daybreak Blue (GPT-5.6 Sol) and Daybreak Red (GPT-5.6 Cyber) through the bedrock-runtime endpoint. Daybreak Blue targets defensive work, and Daybreak Red targets authorized tasks such as vulnerability research. Access uses US and Global cross-Region inference profiles and needs approval from OpenAI and the AWS account team. AWS says inference data is not used for training.",
+     "why": "Security teams can call specialised defensive and red-team models through the standard Bedrock runtime API.",
+     "topics": [
+      "Bedrock",
+      "Security"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/openai-gpt-daybreak-on-amazon-bedrock-runtime/",
+     "date": "2026-11-10"
+    },
+    {
+     "title": "AWS Emulator runs AWS APIs locally for tests and CI",
+     "body": "AWS Emulator serves AWS API endpoints on your machine, a dev server or in CI. It runs as a Linux package, in Docker on Windows and macOS, or embedded in Rust tests. The 'aws-emulator' skill needs AWS CLI 2.35.0 or later. AWS says not to use it for production or security testing.",
+     "why": "Teams can test AWS code without an account or AWS charges, and coding agents can set it up through a skill.",
+     "topics": [
+      "DevOps",
+      "Agents"
+     ],
+     "source": "GitHub (aws/aws-emulator)",
+     "url": "https://github.com/aws/aws-emulator",
+     "date": "2026-11-11",
+     "also": [
+      {
+       "section": "Pulse",
+       "source": "Hacker News · 596 points · 202 comments",
+       "url": "https://github.com/aws/aws-emulator"
+      }
+     ]
+    },
+    {
+     "title": "Network Firewall gets next-generation firewall policy",
+     "body": "The NGFW policy separates deny-by-default firewall rules from IPS rules, and each layer has its own capacity. IPS can use AWS or Marketplace managed rule groups that update automatically. All rules are stateful, and existing policies keep working. It costs nothing extra and is available in all commercial and GovCloud (US) Regions.",
+     "why": "Separate firewall and IPS layers make VPC egress control simpler and remove rule-capacity trade-offs.",
+     "topics": [
+      "Security"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/network-firewall-launches-ngfw-policy/",
+     "date": "2026-11-10"
+    },
+    {
+     "title": "ElastiCache Serverless adds vector, full-text and hybrid search",
+     "body": "ElastiCache Serverless for Valkey version 9 adds vector, full-text and hybrid search plus server-side aggregations. Existing serverless caches can upgrade to Valkey 9. AWS claims microsecond latency and up to 99% recall for vector search. It is available in all commercial, GovCloud (US) and European Sovereign Cloud Regions.",
+     "why": "Teams can run RAG and semantic caching on a serverless Valkey cache without a separate vector database.",
+     "topics": [
+      "Serverless",
+      "Cost"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-elasticache-serverless-search-aggregations/",
+     "date": "2026-11-10"
+    },
+    {
+     "title": "EC2 G7 GPU instances arrive in Mumbai",
+     "body": "G7 instances are now available in London, Mumbai, Sydney and São Paulo. They use NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs, up to 8 per instance with 32 GB each. They offer up to 192 vCPUs, 768 GiB of memory and 700 Gbps of EFA networking.",
+     "why": "Indian teams get Blackwell GPU instances for inference and graphics in the Mumbai Region.",
+     "topics": [
+      "Cost"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-g7-additional-regions/",
+     "date": "2026-11-10"
+    },
+    {
+     "title": "OpenSearch Service adds managed cross-Region disaster recovery",
+     "body": "You pair domains in two Regions through the API or console. AWS states an RPO under one minute and an RTO under 20 minutes, with zero-loss switchover and failover. It needs OpenSearch 3.7 or later and does not support UltraWarm or OR1/OR2 instances. The feature has no extra charge beyond the secondary domain and data transfer.",
+     "why": "Teams get a sub-minute RPO for search clusters without building their own replication.",
+     "topics": [
+      "DevOps"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-opensearch-service-managed-cross-region-disaster-recovery/",
+     "date": "2026-11-10"
+    }
+   ]
+  },
+  "layoffs": {
+   "routine": "layoffs",
+   "status": "done",
+   "headline": "Qualcomm began layoffs in India that reports say affect about 1,000 employees, starting in Bengaluru.",
+   "filed": "2026-11-12T02:22:06Z",
+   "note": "TrueUp could not be opened, and the golayoffs tracker had no entries after November 5.",
+   "items": [
+    {
+     "title": "Qualcomm starts layoffs in India, about 1,000 jobs reported",
+     "body": "Indian media report that Qualcomm's cuts began in Bengaluru and Hyderabad, with about 1,000 employees affected. Estimates range from 600 to 1,200, about 5 to 6% of Qualcomm's roughly 20,000 staff in India. Teams in RF, Bluetooth, Wi-Fi and satellite navigation may be affected, and Chennai and Delhi NCR may follow. Qualcomm has not confirmed a number; its CEO called it a performance-focused reduction in an October memo.",
+     "why": "It is one of the largest semiconductor cuts in India this year and hits senior engineering roles.",
+     "topics": [
+      "Layoffs",
+      "India IT"
+     ],
+     "source": "The Week",
+     "url": "https://www.theweek.in/news/biz-tech/2026/11/11/qualcomm-layoffs-india-bengaluru.html",
+     "date": "2026-11-11",
+     "company": "Qualcomm",
+     "count": 1000,
+     "pct": null,
+     "country": "India",
+     "location": "Bengaluru, Hyderabad",
+     "industry": "Semiconductors",
+     "kind": "layoff"
+    },
+    {
+     "title": "Polymarket confirms layoffs focused on marketing",
+     "body": "Polymarket confirmed layoffs on November 11 but did not give a number. A source told Reuters that more than half of those let go were contractors. Reports say the cuts focus on marketing, and viral claims of a 30% cut were called inaccurate.",
+     "why": "A leading prediction market is cutting staff after business setbacks.",
+     "topics": [
+      "Layoffs",
+      "Startups"
+     ],
+     "source": "Crypto Economy (citing Bloomberg, Reuters)",
+     "url": "https://crypto-economy.com/polymarket-cuts-jobs-as-business-setbacks-trigger-a-major-restructuring/",
+     "date": "2026-11-11",
+     "company": "Polymarket",
+     "count": null,
+     "pct": null,
+     "country": "United States",
+     "location": "New York",
+     "industry": "Fintech",
+     "kind": "layoff"
+    }
+   ]
+  }
+ },
+ "briefing": "Good morning. This is The Nexos Daily for Thursday, 12 November 2026.\n\nClaude Fable 5.2 and Mythos 5.2 lead the main agentic coding benchmarks. Anthropic also added Claude Sheets, Whiteboards, Claude Data and interactive connectors. With interactive connectors, partner apps such as Asana, Canva and Vercel run inside Claude. Claude Meetings entered beta on Google Meet, so Claude can now act inside live calls.\n\nIn security, Google DeepMind's AlphaProof Code proved the Signal protocol secure at the code level. Amazon Bedrock now serves OpenAI's Daybreak Blue and Daybreak Red security models through the standard runtime API. A researcher used voltage glitching to turn a mining card into an 80 gigabyte A100. This shows that fuses only hide hardware that is still on the chip.\n\nIn the Claude ecosystem, lot-map draws a live map of Claude Code tool calls, hooks and subagents. It gained 410 stars in three days. Redis shipped an official Claude Code plugin with 14 skills.\n\nIn models, Google launched Gemini Decision 1 at 10 cents per million tokens. It is a fast classifier for routing and policy checks, and its API answers up to 1,000 questions in one call. Gemini 4 Carbon is now Google's strongest model. Alibaba opened a preview of Qwen 4 Max with a 1 million token context. DeepMind released AlphaGenome 2 for cell-specific DNA effects.\n\nIn chips, Google TPU 8tx uses AMD EPYC hosts for confidential inference. NVIDIA donated OpenShell to the CNCF and shipped GPU tools for Kubernetes. Apple research shows learned routers that make vector search up to 8 times faster.\n\nOn AWS, AWS published AWS Emulator. It runs AWS APIs locally for tests and CI, with no account and no charges. Network Firewall got a next-generation firewall policy. ElastiCache Serverless added vector, full-text and hybrid search. EC2 G7 GPU instances are now in the Mumbai Region. OpenSearch Service added managed cross-Region disaster recovery.\n\nIn layoffs, Qualcomm started layoffs in India. Reports say they affect about 1,000 employees, starting in Bengaluru. Polymarket confirmed layoffs that focus on marketing.\n\nOn Hacker News, a developer used 48 AI agents to scan 1,200 square kilometres of public lidar data and flagged a possible Maya site.\n\nIn gadgets, Google's Pixel Tag tracker is now on sale, with NFC and ultra-wideband.\n\nOn GitHub, the fastest-growing new repo is blender-ai-mcp-addon, an MCP server for Blender. It gained 108 stars on its first day.\n\nThat is the news for today."
+}

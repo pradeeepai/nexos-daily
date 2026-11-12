@@ -1,6 +1,34 @@
 {
  "entries": [
   {
+   "date": "2026-11-11",
+   "company": "Qualcomm",
+   "count": 1000,
+   "count_text": "",
+   "pct": 6.0,
+   "location": "Bengaluru, Hyderabad",
+   "country": "India",
+   "industry": "Semiconductors",
+   "kind": "layoff",
+   "confirmed": true,
+   "source": "The Week",
+   "url": "https://www.theweek.in/news/biz-tech/2026/11/11/qualcomm-layoffs-india-bengaluru.html"
+  },
+  {
+   "date": "2026-11-11",
+   "company": "Polymarket",
+   "count": null,
+   "count_text": "",
+   "pct": 30.0,
+   "location": "New York",
+   "country": "United States",
+   "industry": "Fintech",
+   "kind": "layoff",
+   "confirmed": true,
+   "source": "Crypto Economy (citing Bloomberg, Reuters)",
+   "url": "https://crypto-economy.com/polymarket-cuts-jobs-as-business-setbacks-trigger-a-major-restructuring/"
+  },
+  {
    "date": "2026-11-09",
    "company": "Tripwire Interactive",
    "count": 36,
@@ -1877,5 +1905,5 @@
    "url": "https://golayoffs.com/tech-layoff-tracker/"
   }
  ],
- "updated": "2026-11-10T02:52:29Z"
+ "updated": "2026-11-12T02:51:27Z"
 }
