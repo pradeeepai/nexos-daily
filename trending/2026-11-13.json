@@ -1,0 +1,339 @@
+{
+ "date": "2026-11-13",
+ "generated": "2026-11-13T02:53:34Z",
+ "headline": "DIYgod/pinky, which lets AI agents use your phone, is the fastest-growing new agent repo this week with 2,006 stars; today's top new repo is lawandrorder/mate with 138 stars.",
+ "periods": {
+  "daily": {
+   "topics": [
+    "Agent skills",
+    "MCP servers",
+    "Agent monitoring",
+    "Coding agents"
+   ],
+   "repos": [
+    {
+     "repo": "lawandrorder/mate",
+     "url": "https://github.com/lawandrorder/mate",
+     "description": "A text-first shopping agent that finds cashback, discount codes and tracks packages.",
+     "kind": "Agent framework",
+     "language": "Python",
+     "stars": 138,
+     "gained": 138,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "gitcommit90/1Helm",
+     "url": "https://github.com/gitcommit90/1Helm",
+     "description": "A personal AI workspace that runs on your own Cloudflare account with persistent memory.",
+     "kind": "AI infra",
+     "language": "JavaScript",
+     "stars": 61,
+     "gained": 61,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "siwen-121/agent-shared-facts",
+     "url": "https://github.com/siwen-121/agent-shared-facts",
+     "description": "A reference setup that shares reviewed facts between agents on several devices through Git and a read-only MCP server.",
+     "kind": "MCP server",
+     "language": "Python",
+     "stars": 60,
+     "gained": 60,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "IluvatarLabs/sitrep",
+     "url": "https://github.com/IluvatarLabs/sitrep",
+     "description": "One live console to watch Claude Code and Codex agents across machines, with context and spend tracking.",
+     "kind": "Dev tool",
+     "language": "TypeScript",
+     "stars": 47,
+     "gained": 47,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "kociden/sakurai-skill",
+     "url": "https://github.com/kociden/sakurai-skill",
+     "description": "A Japanese game-design agent skill built from the subtitles of 257 game-making videos.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 30,
+     "gained": 30,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "CrommaAI/crommacode",
+     "url": "https://github.com/CrommaAI/crommacode",
+     "description": "A gamified IDE where you watch Claude Code, Codex, Gemini CLI and other coding agents work.",
+     "kind": "Coding agent",
+     "language": "",
+     "stars": 14,
+     "gained": 14,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "gustavo-henriq/nano-banana-pro-skill",
+     "url": "https://github.com/gustavo-henriq/nano-banana-pro-skill",
+     "description": "An agent skill that generates and edits images with Nano Banana Pro through your Gemini web session.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 13,
+     "gained": 13,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "gopkg-dev/damail",
+     "url": "https://github.com/gopkg-dev/damail",
+     "description": "A self-hosted mail hub that exposes all your mailboxes to AI agents through MCP and a REST API.",
+     "kind": "MCP server",
+     "language": "TypeScript",
+     "stars": 12,
+     "gained": 12,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "RealAdii/clipper-skill",
+     "url": "https://github.com/RealAdii/clipper-skill",
+     "description": "A Claude Code skill that cuts podcasts and interviews into short clips with local Whisper transcription.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 11,
+     "gained": 11,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "sktjgudals/fable-5-2-prompting",
+     "url": "https://github.com/sktjgudals/fable-5-2-prompting",
+     "description": "An unofficial skill that audits and tunes prompts, CLAUDE.md files and skills for Claude Fable 5.2.",
+     "kind": "Skill",
+     "language": "",
+     "stars": 11,
+     "gained": 11,
+     "source": "GitHub search"
+    }
+   ]
+  },
+  "weekly": {
+   "topics": [
+    "Phone-use agents",
+    "Agent collaboration",
+    "Claude Code tooling",
+    "MCP servers",
+    "Agent sandboxes"
+   ],
+   "repos": [
+    {
+     "repo": "DIYgod/pinky",
+     "url": "https://github.com/DIYgod/pinky",
+     "description": "Lets AI agents operate your phone while you stay in the loop.",
+     "kind": "AI infra",
+     "language": "Go",
+     "stars": 2006,
+     "gained": 2006,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "agentes-chat/agentes-chat",
+     "url": "https://github.com/agentes-chat/agentes-chat",
+     "description": "A self-hosted Slack alternative where people and AI agents work together in channels and DMs.",
+     "kind": "Agent framework",
+     "language": "TypeScript",
+     "stars": 1192,
+     "gained": 1192,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "FrigadeHQ/yogurt",
+     "url": "https://github.com/FrigadeHQ/yogurt",
+     "description": "Free, open-source and private AI meeting notes.",
+     "kind": "AI infra",
+     "language": "TypeScript",
+     "stars": 967,
+     "gained": 967,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "lxe/phoneuse",
+     "url": "https://github.com/lxe/phoneuse",
+     "description": "Controls an unmodified iPhone from a Linux PC through AirPlay mirroring and Bluetooth input, for agent use.",
+     "kind": "AI infra",
+     "language": "Python",
+     "stars": 636,
+     "gained": 636,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "alexeyw/lot-map",
+     "url": "https://github.com/alexeyw/lot-map",
+     "description": "A live map next to the chat that shows Claude Code tool calls, hooks, skills and subagents.",
+     "kind": "Plugin",
+     "language": "TypeScript",
+     "stars": 614,
+     "gained": 614,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "devvmhq/devvm",
+     "url": "https://github.com/devvmhq/devvm",
+     "description": "One isolated VM per project with its toolchain ready for you or a coding agent.",
+     "kind": "Dev tool",
+     "language": "Go",
+     "stars": 599,
+     "gained": 599,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "JDhruv14/line-art-animation",
+     "url": "https://github.com/JDhruv14/line-art-animation",
+     "description": "A Claude skill and TypeScript library for animated line-art SVG components.",
+     "kind": "Skill",
+     "language": "TypeScript",
+     "stars": 593,
+     "gained": 593,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "Dodaios/ste80-humanizer",
+     "url": "https://github.com/Dodaios/ste80-humanizer",
+     "description": "An agent skill that removes AI tells and rewrites text toward ASD-STE100 Simplified Technical English.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 460,
+     "gained": 460,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "shanselman/sandbox-mcp",
+     "url": "https://github.com/shanselman/sandbox-mcp",
+     "description": "An MCP server and CLI that spins up throwaway Windows Sandbox machines for app testing.",
+     "kind": "MCP server",
+     "language": "JavaScript",
+     "stars": 421,
+     "gained": 421,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "gogoymh/auto-ontology-mcp",
+     "url": "https://github.com/gogoymh/auto-ontology-mcp",
+     "description": "Serves a semantic layer and personal knowledge base as an MCP server for Claude, ChatGPT and other clients.",
+     "kind": "MCP server",
+     "language": "Python",
+     "stars": 383,
+     "gained": 383,
+     "source": "GitHub search"
+    }
+   ]
+  },
+  "monthly": {
+   "topics": [
+    "Agent skills",
+    "Autonomous agents",
+    "On-device agents",
+    "Agent harnesses",
+    "Anti-agent defenses"
+   ],
+   "repos": [
+    {
+     "repo": "deepseek-ai/dsh-superagent-prototype",
+     "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+     "description": "DeepSeek's prototype of a more autonomous agent system.",
+     "kind": "Agent framework",
+     "language": "TypeScript",
+     "stars": 22759,
+     "gained": 22759,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "heydamir/unslop",
+     "url": "https://github.com/heydamir/unslop",
+     "description": "A Claude skill that turns generic AI-looking UI into a designed interface.",
+     "kind": "Skill",
+     "language": "JavaScript",
+     "stars": 15166,
+     "gained": 15166,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "amosblomqvist/learnharness",
+     "url": "https://github.com/amosblomqvist/learnharness",
+     "description": "An agent harness built to help people learn difficult subjects.",
+     "kind": "Agent framework",
+     "language": "TypeScript",
+     "stars": 9045,
+     "gained": 9045,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "wangzan101/Mika",
+     "url": "https://github.com/wangzan101/Mika",
+     "description": "An on-device Android agent that operates apps and the web for you.",
+     "kind": "Agent framework",
+     "language": "Kotlin",
+     "stars": 8409,
+     "gained": 8409,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "janestreet/agent_skills",
+     "url": "https://github.com/janestreet/agent_skills",
+     "description": "Jane Street's collection of agent skills, including a Socratic tutor.",
+     "kind": "Skill",
+     "language": "",
+     "stars": 7816,
+     "gained": 7816,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "Jakeschincariol/day-trader-skill",
+     "url": "https://github.com/Jakeschincariol/day-trader-skill",
+     "description": "Eleven Claude skills for day trading: chart scans, news tracking and entry and exit timing.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 7433,
+     "gained": 7433,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "patch-gg/pixelfx",
+     "url": "https://github.com/patch-gg/pixelfx",
+     "description": "244 code-based pixel-art effects plus a Claude Code skill to make new ones.",
+     "kind": "Skill",
+     "language": "JavaScript",
+     "stars": 7186,
+     "gained": 7186,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "qybaihe/bla",
+     "url": "https://github.com/qybaihe/bla",
+     "description": "A defense tool that makes binaries, Electron apps and JS bundles harder for LLM agents to reverse engineer.",
+     "kind": "Dev tool",
+     "language": "TypeScript",
+     "stars": 5468,
+     "gained": 5468,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "KKKKhazix/agent-autoloop",
+     "url": "https://github.com/KKKKhazix/agent-autoloop",
+     "description": "Lets a command-line agent pick up and finish work in the background, asking you only when unsure.",
+     "kind": "Coding agent",
+     "language": "TypeScript",
+     "stars": 4814,
+     "gained": 4814,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "Leonxlnx/earshot",
+     "url": "https://github.com/Leonxlnx/earshot",
+     "description": "CPU-only open-source tooling that lets coding agents hear, review and make sound.",
+     "kind": "AI infra",
+     "language": "Python",
+     "stars": 4665,
+     "gained": 4665,
+     "source": "GitHub search"
+    }
+   ]
+  }
+ }
+}

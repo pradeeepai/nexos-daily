@@ -1,0 +1,469 @@
+{
+ "date": "2026-11-13",
+ "generated": "2026-11-13T02:53:34Z",
+ "sections": {
+  "tech-news": {
+   "routine": "tech-news",
+   "status": "done",
+   "headline": "Google launched Gemini 4 Hydrogen, a 1M-context model at $1.50/$7.50 per million tokens, as Anthropic shipped Claude Meetings and self-hosted Managed Agents.",
+   "filed": "2026-11-13T02:19:26Z",
+   "note": "",
+   "items": [
+    {
+     "title": "Google launches Gemini 4 Hydrogen, a fast 1M-context model",
+     "body": "Google released Gemini 4 Hydrogen on November 12. It has a 1M-token input window and up to 1M output tokens, with flat pricing of $1.50 per million input and $7.50 per million output tokens. Google reports 57% on Terminal-Bench 4.1 and a score of 51 on the Artificial Analysis Intelligence Index, above Gemini 4 Argon. It is available in the Gemini API, AI Studio, Gemini for business, the Gemini app and Antigravity, with four thinking levels including a new xhigh.",
+     "why": "It is a new low-cost default for coding and agent workloads, at $1.50/$7.50 per million tokens.",
+     "topics": [
+      "Gemini",
+      "New models"
+     ],
+     "source": "Google blog",
+     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+     "date": "2026-11-12",
+     "also": [
+      {
+       "section": "Pulse",
+       "source": "Hacker News · 444 points · 287 comments",
+       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/"
+      },
+      {
+       "section": "Trending on X",
+       "source": "X · @OfficialLoganK · 9031 likes · 655 reposts",
+       "url": "https://x.com/OfficialLoganK/status/2120940951292268640"
+      },
+      {
+       "section": "Trending on X",
+       "source": "X · @GoogleDeepMind · 5893 likes · 509 reposts",
+       "url": "https://x.com/GoogleDeepMind/status/2120940338869055788"
+      }
+     ]
+    },
+    {
+     "title": "Claude Meetings beta lets Claude join Google Meet calls",
+     "body": "Claude Meetings lets Claude join a video call as a visible participant, answer questions and start work such as docs and whiteboards during the call. Claude saves a transcript, summary and screen descriptions, but not audio, on a meeting page in claude.ai. The beta is for Team and Enterprise plans and supports only Google Meet for now. It is not available to organizations with zero data retention, HIPAA-ready setups or CMEK.",
+     "why": "Teams can get notes, action items and live docs from calls without a separate meeting bot.",
+     "topics": [
+      "Claude",
+      "AI tools"
+     ],
+     "source": "Claude blog",
+     "url": "https://claude.com/resources/articles/claude-meetings",
+     "date": "2026-11-12",
+     "also": [
+      {
+       "section": "Pulse",
+       "source": "r/ClaudeAI · 444 upvotes",
+       "url": "https://www.reddit.com/r/ClaudeAI/comments/1xunrsl/introducing_claude_meetings/"
+      }
+     ]
+    },
+    {
+     "title": "Anthropic lets enterprises self-host the full Claude Managed Agents service",
+     "body": "Anthropic launched self-hosted Claude Managed Agents on November 12. Customers can run the whole Managed Agents service on their own infrastructure, not only the sandboxes, and store agents, sessions and session history there. Model requests go to a provider the customer chooses, with Anthropic as the default. Access is by request through the Anthropic account team.",
+     "why": "Platform teams can keep agents, sessions and history on their own infrastructure.",
+     "topics": [
+      "Claude",
+      "Agents",
+      "DevOps"
+     ],
+     "source": "Claude API release notes",
+     "url": "https://platform.claude.com/docs/en/release-notes/overview",
+     "date": "2026-11-12",
+     "also": [
+      {
+       "section": "Claude Ecosystem",
+       "source": "Claude API release notes",
+       "url": "https://platform.claude.com/docs/en/release-notes/overview"
+      }
+     ]
+    },
+    {
+     "title": "Claude Fable 5.2 and Mythos 5.2 cut price to $8/$40",
+     "body": "Anthropic released Claude Fable 5.2 (claude-fable-5-2) and Claude Mythos 5.2 on November 9; community demos still lead r/ClaudeAI. Both have a 1M-token context window, 128k max output and always-on adaptive thinking. Pricing is $8 per million input and $40 per million output tokens, down from $10 and $50. Fast mode for Fable 5.2 gives up to 2.5x output speed at $16/$80, and Mythos 5.2 is limited to verified organizations.",
+     "why": "The new top Claude models cost 20% less than 5.1 and add a 2.5x fast mode.",
+     "topics": [
+      "Claude",
+      "New models"
+     ],
+     "source": "Anthropic",
+     "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+     "date": "2026-11-09"
+    },
+    {
+     "title": "Alibaba opens Qwen4-Max-Preview with 1M context",
+     "body": "Alibaba released Qwen4-Max-Preview as a limited preview from November 11 to November 25, 2026. It has a 1M-token context window and up to 393,216 output tokens, with thinking on by default. It supports image and video input, tool calling and structured outputs, and works with OpenAI Chat Completions, Responses and Anthropic Messages APIs. Access is through the QwenCloud Token Plan only; pay-as-you-go is not supported.",
+     "why": "A new Chinese flagship model works with OpenAI and Anthropic API formats.",
+     "topics": [
+      "New models",
+      "Open models"
+     ],
+     "source": "QwenCloud docs",
+     "url": "https://docs.qwencloud.com/developer-guides/getting-started/latest-model",
+     "date": "2026-11-11"
+    },
+    {
+     "title": "Gemini Decisions API scores up to 1,000 questions per call",
+     "body": "Google released the Gemini Decisions API with the gemini-decision-1 model on November 11. It answers up to 1,000 yes/no, multiple-choice or rubric questions about one input of up to 256K tokens in one request. Each answer has a 0-to-1 confidence score, and latency is 150 to 250 ms. Input costs $0.10 per million tokens and output is free.",
+     "why": "Classification and moderation pipelines can get fast, cheap answers with confidence scores.",
+     "topics": [
+      "Gemini",
+      "AI tools"
+     ],
+     "source": "Google blog",
+     "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+     "date": "2026-11-11"
+    },
+    {
+     "title": "Gemini API Managed Agents now accept self-hosted sandboxes",
+     "body": "Google AI Studio announced that Managed Agents on the Gemini API can use self-hosted environments. Developers can bring their own sandbox for agent execution. The change parallels Anthropic's self-hosted options for Claude Managed Agents.",
+     "why": "Teams can run Gemini agents' code execution inside their own environments.",
+     "topics": [
+      "Gemini",
+      "Agents",
+      "DevOps"
+     ],
+     "source": "X · @GoogleAIStudio",
+     "url": "https://x.com/GoogleAIStudio/status/2120610219235660183",
+     "date": "2026-11-12",
+     "also": [
+      {
+       "section": "Trending on X",
+       "source": "X · @GoogleAIStudio · 769 likes · 65 reposts",
+       "url": "https://x.com/GoogleAIStudio/status/2120610219235660183"
+      }
+     ]
+    },
+    {
+     "title": "DeepMind's AlphaGenome 2 finds about twice as many expression variants",
+     "body": "Google DeepMind released AlphaGenome 2, which predicts how DNA changes affect gene expression in individual cell types. Google says it finds nearly twice as many expression-affecting variants as the previous model. It is available for noncommercial research and is not approved for clinical diagnosis.",
+     "why": "It shows frontier labs applying models to large-scale genomics research.",
+     "topics": [
+      "AI research"
+     ],
+     "source": "Google DeepMind blog",
+     "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+     "date": "2026-11-12",
+     "also": [
+      {
+       "section": "Trending on X",
+       "source": "X · @GoogleDeepMind · 577 likes · 67 reposts",
+       "url": "https://x.com/GoogleDeepMind/status/2120841923237683462"
+      }
+     ]
+    }
+   ]
+  },
+  "chips": {
+   "routine": "chips",
+   "status": "done",
+   "headline": "Jensen Huang resigned as NVIDIA CEO and CFO Colette Kress became interim CEO.",
+   "filed": "2026-11-13T02:19:26Z",
+   "note": "",
+   "items": [
+    {
+     "title": "Jensen Huang resigns as NVIDIA CEO; CFO Colette Kress steps in",
+     "body": "NVIDIA's board accepted Jensen Huang's resignation on November 11 and the company confirmed it on November 12. CFO Colette Kress is interim CEO and stays CFO, and Harvey Jones became NVIDIA's first board chair. The resignation came days after reports of an affair with an alleged Chinese spy. NVIDIA shares fell more than 11% in premarket trading.",
+     "why": "Leadership change at the main AI GPU supplier adds risk to roadmaps and supply plans.",
+     "topics": [
+      "NVIDIA",
+      "Chips"
+     ],
+     "source": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/12/nvidias-jensen-huang-resigns-chipmaker-names-cfo-colette-kress-as-interim-ceo/",
+     "date": "2026-11-12"
+    },
+    {
+     "title": "Evolving Infra cuts agent serving latency up to 4.1x versus Dynamo",
+     "body": "MIT HAN Lab and co-authors including Ion Stoica and Song Han propose Evolving Infra for agent-adaptive LLM serving. Nodes switch between prefill and decode, an online planner sets the split, and an agent-aware KV manager guides cache eviction. On up to 256 GB300 GPUs with GLM-5.2 and Kimi K2.6, it cut mean end-to-end latency by up to 4.1x and P95 time-to-first-token by up to 14x versus NVIDIA Dynamo.",
+     "why": "Agent workloads break prefill-decode serving; this design keeps KV caches agents reuse.",
+     "topics": [
+      "AI research",
+      "Architecture",
+      "Data centers"
+     ],
+     "source": "Hugging Face Papers (arXiv 2611.12304)",
+     "url": "https://huggingface.co/papers/2611.12304",
+     "date": "2026-11-12"
+    },
+    {
+     "title": "AMD details Zen 6 core: more VNNI units and wider loads",
+     "body": "In a Chips and Cheese interview, AMD architect Mike Clark described Zen 6. AMD added two more VNNI units for AI inference and doubled vector loads to four per cycle, and the L2 sustains 64 bytes per cycle on reads. The dense core keeps 4MB of L3 per core, for example 32 cores with 128MB of L3. Chips and Cheese reports Zen 6c matches AMD's fastest Zen 5 server CPU in SPECint 2026 at a lower clock.",
+     "why": "Server CPUs gain more on-host inference throughput for orchestration and small models.",
+     "topics": [
+      "AMD",
+      "Architecture"
+     ],
+     "source": "Chips and Cheese",
+     "url": "https://chipsandcheese.com/p/talking-zen-6-with-mike-clark-at",
+     "date": "2026-11-11"
+    },
+    {
+     "title": "Pegatron expects Vera Rubin server shipments in first half 2027",
+     "body": "Pegatron says 2026 is its first year of server shipments, at about 10% of revenue. It expects server revenue to grow several times in 2027. Its lineup covers NVIDIA GB-series, HGX and custom ASIC servers, and it expects Vera Rubin system shipments to start in the first half of 2027.",
+     "why": "It gives a supply-chain date for NVIDIA's next rack-scale systems.",
+     "topics": [
+      "NVIDIA",
+      "Data centers"
+     ],
+     "source": "DigiTimes",
+     "url": "https://digitimes.com/news/a20261112PD244/pegatron-rubin-nvidia-2026-shipments.html",
+     "date": "2026-11-12"
+    }
+   ]
+  },
+  "ecosystem": {
+   "routine": "ecosystem",
+   "status": "done",
+   "headline": "Anthropic made the full Claude Managed Agents service self-hostable, and Jane Street's Socratic Tutor skill hit the Hacker News front page.",
+   "filed": "2026-11-13T02:19:26Z",
+   "note": "",
+   "items": [
+    {
+     "title": "Jane Street publishes a Socratic Tutor agent skill",
+     "body": "Jane Street released a socratic-tutor skill in its agent_skills repo. It runs a structured tutoring session with a diagnostic, tracks subskills on a 0 to 5 scale, and uses spaced review and a final test. It reached 649 points on the Hacker News front page on November 12.",
+     "why": "A well-built SKILL.md shows how to structure multi-step teaching workflows.",
+     "topics": [
+      "Skills"
+     ],
+     "source": "GitHub · janestreet/agent_skills · Hacker News 649 points",
+     "url": "https://github.com/janestreet/agent_skills/blob/master/socratic-tutor/SKILL.md",
+     "date": "2026-11-12",
+     "also": [
+      {
+       "section": "Pulse",
+       "source": "Hacker News · 649 points · 153 comments",
+       "url": "https://github.com/janestreet/agent_skills/blob/master/socratic-tutor/SKILL.md"
+      }
+     ]
+    },
+    {
+     "title": "lot-map shows Claude Code's work as a live map",
+     "body": "lot-map by alexeyw is a Claude Code plugin that adds a live map beside the chat. Tool calls, model steps, hooks, skills and subagents light up as they run, and it works locally. The repo was created November 9 and had 614 stars in GitHub search. Install: /plugin install lot-map --marketplace alexeyw/lot-map",
+     "why": "It makes tool calls, hooks, skills and subagents visible while they run.",
+     "topics": [
+      "Plugins",
+      "Hooks",
+      "Claude Code"
+     ],
+     "source": "GitHub · alexeyw/lot-map · 614 stars",
+     "url": "https://github.com/alexeyw/lot-map",
+     "date": "2026-11-09"
+    },
+    {
+     "title": "sandbox-mcp gives agents throwaway Windows test machines",
+     "body": "sandbox-mcp by Scott Hanselman is an MCP server and CLI that automates Windows Sandbox. It gives agents fresh, disposable Windows machines to test apps. The repo was created November 6 and had 421 stars.",
+     "why": "Agents can test apps in clean Windows Sandbox VMs without touching the host.",
+     "topics": [
+      "MCP"
+     ],
+     "source": "GitHub · shanselman/sandbox-mcp · 421 stars",
+     "url": "https://github.com/shanselman/sandbox-mcp",
+     "date": "2026-11-06"
+    },
+    {
+     "title": "tinker-ai-skill fine-tunes a model on your Claude Code sessions",
+     "body": "tinker-ai-skill by drost-ai is an agent skill that fine-tunes an agentic model on your Claude Code sessions with Tinker. It works in Claude Code, Codex and OpenCode. The repo was created November 7 and had 318 stars.",
+     "why": "Teams can turn their own agent logs into a tuned agentic model.",
+     "topics": [
+      "Skills",
+      "Claude Code"
+     ],
+     "source": "GitHub · drost-ai/tinker-ai-skill · 318 stars",
+     "url": "https://github.com/drost-ai/tinker-ai-skill",
+     "date": "2026-11-07"
+    },
+    {
+     "title": "maxagent hooks let agents recall what worked before",
+     "body": "maxagent by vzroslieigry provides hooks that make Claude Code, Codex, Antigravity and OpenClaw record and recall what worked. It also ships maxagent-bridge for custom agents. The repo was created November 8 and had 265 stars.",
+     "why": "Hooks give coding agents a shared experience memory across sessions.",
+     "topics": [
+      "Hooks",
+      "Claude Code"
+     ],
+     "source": "GitHub · vzroslieigry/maxagent · 265 stars",
+     "url": "https://github.com/vzroslieigry/maxagent",
+     "date": "2026-11-08"
+    }
+   ]
+  },
+  "x-desk": {
+   "routine": "x-desk",
+   "status": "done",
+   "headline": "Gemini 4 Hydrogen's launch led AI posts on X, with 9,031 likes on Logan Kilpatrick's announcement.",
+   "filed": "2026-11-13T02:19:26Z",
+   "note": "Read 39 posts in 3 searches; 9 passed the value filter and 6 are listed.",
+   "items": [
+    {
+     "title": "Artist Mariko Mori used Claude to code a video installation",
+     "body": "Claude's account shared that artist Mariko Mori used Claude to write code for a computer-generated animation. The work is a new video installation in her retrospective \"All That Shines\". The post links to the full story.",
+     "why": "It is a public example of Claude writing generative-graphics code for a major exhibit.",
+     "topics": [
+      "Claude"
+     ],
+     "source": "X · @claudeai · 5645 likes · 350 reposts",
+     "url": "https://x.com/claudeai/status/2120669165316915259",
+     "date": "2026-11-12"
+    },
+    {
+     "title": "NVIDIA Nemotron models now power ElevenLabs voice agents",
+     "body": "NVIDIA is expanding its work with ElevenLabs on enterprise and government voice agents. NVIDIA Nemotron models are now available inside ElevenAgents. Organizations can choose and customize the model behind their voice agents.",
+     "why": "Enterprises get more model choice for building voice agents.",
+     "topics": [
+      "Agents",
+      "Open models"
+     ],
+     "source": "X · @nvidia · 1151 likes · 68 reposts",
+     "url": "https://x.com/nvidia/status/2120627069952340361",
+     "date": "2026-11-11"
+    }
+   ]
+  },
+  "gadgets": {
+   "routine": "gadgets",
+   "status": "done",
+   "headline": "Android XR smart glasses from Warby Parker and Gentle Monster opened for pre-order on November 12 at $395 and $449.",
+   "filed": "2026-11-13T02:21:00Z",
+   "note": "The Verge and GSMArena could not be opened; Pixel Tag and Apple HomeView were already in yesterday's edition.",
+   "items": [
+    {
+     "title": "First Android XR smart glasses open for pre-order",
+     "body": "Warby Parker and Gentle Monster make the glasses, with Google software and Samsung hardware. They have a 12MP camera with up to 3K video, 2GB RAM, 64GB storage and about nine hours of battery; there is no display. Prices are $395 for Warby Parker and $449 for Gentle Monster. Pre-orders began November 12 and sales start December 10.",
+     "why": "These are the first Gemini glasses on Google's Android XR platform, and they work with Android and iPhone.",
+     "topics": [
+      "AI gadgets",
+      "Wearables",
+      "Google"
+     ],
+     "source": "Engadget",
+     "url": "https://www.engadget.com/2314258/android-xr-smartglasses-hands-on/",
+     "date": "2026-11-12"
+    },
+    {
+     "title": "Apple Home Collection cameras and doorbell pre-order November 13",
+     "body": "Pre-orders open November 13 for three LG devices: a $200 indoor camera, a $300 outdoor camera ($400 with floodlight) and a $250 video doorbell. The cameras record 2.5K video, and the doorbell has a second Full HD downward camera. They store 10 days of event video in iCloud+ and ship in December.",
+     "why": "These are the first LG-made Apple Home Collection accessories, with end-to-end encrypted video.",
+     "topics": [
+      "Apple",
+      "Smart home"
+     ],
+     "source": "Engadget",
+     "url": "https://www.engadget.com/2314724/pre-orders-for-some-apple-home-collection-devices-will-open-november-13/",
+     "date": "2026-11-12"
+    },
+    {
+     "title": "Xiaomi sets November 17 Paris launch for 18 Pro series",
+     "body": "Xiaomi will launch the Xiaomi 18 Pro and 18 Pro Max globally at a Paris event on November 17. The event also covers the Watch S5 41mm, Smart Band 11 and Xiaomi Clip, its first clip-on earbuds. The source gave no prices.",
+     "why": "Xiaomi's global flagship phones and new wearables get a confirmed launch date.",
+     "topics": [
+      "Phones",
+      "Wearables",
+      "Audio"
+     ],
+     "source": "TechBriefly",
+     "url": "https://techbriefly.com/2026/11/12/xiaomi-to-unveil-new-wearables-and-earbuds-alongside-18/",
+     "date": "2026-11-12"
+    }
+   ]
+  },
+  "tech-pulse": {
+   "routine": "tech-pulse",
+   "status": "done",
+   "headline": "Google released Gemini 4 Hydrogen, a fast agentic model priced at $1.50 per million input tokens.",
+   "filed": "2026-11-13T02:21:00Z",
+   "note": "Hacker News and Reddit (via Composio) worked; GitHub Trending returned unusable data.",
+   "items": [
+    {
+     "title": "Critical RCE in Apache HTTP Server HTTP/2 module",
+     "body": "CVE-2026-119618 is a race condition in mod_http2 that can corrupt heap memory and allow remote code execution. It affects Apache HTTP Server 2.4.55 to 2.4.70, and version 2.4.71 fixes it. Wiz says 64% of cloud environments have vulnerable resources, but no exploit was public at the time of writing. If you cannot patch, restrict the server to HTTP/1.1.",
+     "why": "Many cloud web servers run affected versions, and the flaw needs no authentication.",
+     "topics": [
+      "Security",
+      "DevOps"
+     ],
+     "source": "Hacker News · 354 points · 191 comments",
+     "url": "https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability",
+     "date": "2026-11-12"
+    },
+    {
+     "title": "How to lock GitHub Actions with the new workflow lockfiles",
+     "body": "GitHub Actions now supports workflow lockfiles that record commit SHAs and repo IDs for each action. The gh-actions-lock extension generates .github/workflows/actions.lock with one command. Renovate and Dependabot can update lockfiles, and 'gh actions-lock --verify' checks them in CI. The zizmor linter supports lockfiles from version 1.32.0.",
+     "why": "Lockfiles stop mutable action tags from pulling in malicious code in CI.",
+     "topics": [
+      "DevOps",
+      "Security"
+     ],
+     "source": "Hacker News · 326 points · 64 comments",
+     "url": "https://hugovk.dev/blog/2026/lock-github-actions/",
+     "date": "2026-11-12"
+    }
+   ]
+  },
+  "aws-news": {
+   "routine": "aws-news",
+   "status": "done",
+   "headline": "DeepSeek-V4-Pro, V4-Flash and V4.1-Flash open-weight models are now on Amazon SageMaker JumpStart.",
+   "filed": "2026-11-13T02:21:00Z",
+   "note": "The What's New feed had no items dated November 12; AWS Emulator was already in yesterday's edition.",
+   "items": [
+    {
+     "title": "DeepSeek V4 models arrive on SageMaker JumpStart",
+     "body": "SageMaker JumpStart now offers DeepSeek-V4-Pro, DeepSeek-V4-Flash and DeepSeek-V4.1-Flash, all MIT-licensed MoE models with a 1M-token context. V4-Pro has 1.6T total and 49B active parameters. V4.1-Flash adds vision and targets agentic and coding work. You deploy them from the JumpStart console or the SageMaker Python SDK.",
+     "why": "Teams can self-host DeepSeek's 1M-context open-weight models in their own AWS accounts.",
+     "topics": [
+      "Agents",
+      "Cost"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/01/deepseek-v4-pro-v4-flash-v4.1-flash-on-sagemaker-jumpstart/",
+     "date": "2026-11-11"
+    },
+    {
+     "title": "EKS Auto Mode supports security groups for Pods",
+     "body": "EKS Auto Mode now applies EC2 security groups to individual Pods through a SecurityGroupPolicy resource. Pods without a policy keep the node's security groups. Clusters need Kubernetes 1.36 or later. The feature has no extra charge.",
+     "why": "Pods on a shared node can now get their own network rules for RDS and ElastiCache access.",
+     "topics": [
+      "Kubernetes",
+      "Security"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-eks-auto-mode-security-groups-for-pods/",
+     "date": "2026-11-11"
+    },
+    {
+     "title": "Lambda MicroVMs add x86 architecture support",
+     "body": "When you build a Lambda MicroVM image from a Dockerfile, you can now choose x86 or Arm. Graviton Arm stays the default. x86 is in all MicroVMs Regions except Hong Kong, Malaysia, Thailand and Spain.",
+     "why": "Existing x86 apps and tools can run on Lambda MicroVMs without a port to Arm.",
+     "topics": [
+      "Serverless"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-lambda-microvms-x86-architecture/",
+     "date": "2026-11-11"
+    },
+    {
+     "title": "Cognito user pools get session management",
+     "body": "Cognito now lets you list a user's active SSO and token sessions and revoke any of them. You can set a maximum number of token sessions per user and a per-client SSO reuse time, which was fixed at one hour. It works on the Essentials and Plus plans in all Cognito Regions.",
+     "why": "Apps can list and revoke user sessions and cap active sessions per user.",
+     "topics": [
+      "Security"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cognito-session-management/",
+     "date": "2026-11-11"
+    },
+    {
+     "title": "EKS Provisioned Control Plane etcd grows to 24 GB",
+     "body": "The 4XL and 8XL Provisioned Control Plane tiers now get a 24 GB etcd database, up from 16 GB. New clusters need EKS 1.34 or later. Existing 4XL and 8XL clusters on those versions get the change automatically.",
+     "why": "Very large clusters can store 50% more Kubernetes objects.",
+     "topics": [
+      "Kubernetes"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-eks-provisioned-control-plane-larger-etcd-database/",
+     "date": "2026-11-11"
+    }
+   ]
+  }
+ },
+ "briefing": "Good morning. This is The Nexos Daily for Friday, 13 November 2026.\n\nGoogle launched Gemini 4 Hydrogen. It is a fast model with a 1 million token context. The price is 1 dollar 50 cents per million input tokens and 7 dollars 50 cents per million output tokens. Google DeepMind says it is 2.5 times faster than Gemini 3.8 Flash. It is now in the API, the Gemini apps and Search.\n\nIn chip news, Jensen Huang resigned as the CEO of NVIDIA. The CFO, Colette Kress, is now the interim CEO. NVIDIA filed the change with the SEC. This adds risk to GPU roadmaps and supply plans.\n\nIn security, a critical remote code execution flaw affects the HTTP 2 module of Apache HTTP Server. It needs no authentication, so update affected servers now. GitHub Actions now supports workflow lockfiles. Lockfiles stop changed action tags from pulling malicious code into CI.\n\nIn the Claude ecosystem, Anthropic now lets companies self-host the full Claude Managed Agents service. Agents, sessions and history can stay in your own cloud. Claude Meetings is in beta and can join Google Meet calls. Jane Street published a Socratic Tutor agent skill. The lot-map tool, which shows Claude Code work as a live map, now has 614 stars.\n\nIn models, Claude Fable 5.2 and Mythos 5.2 cost 8 dollars and 40 dollars per million tokens, 20 percent less than version 5.1. Alibaba opened Qwen 4 Max Preview with a 1 million token context. The Gemini Decisions API scores up to 1,000 questions in one call. Gemini Managed Agents can now use your own sandbox. DeepMind's AlphaGenome 2 finds about twice as many expression variants.\n\nIn chips, a new serving design, Evolving Infra, cuts agent serving latency up to 4.1 times compared to Dynamo. AMD gave details of the Zen 6 core. Pegatron expects Vera Rubin server shipments in the first half of 2027.\n\nOn AWS, the DeepSeek V4 models are now on SageMaker JumpStart. EKS Auto Mode supports security groups for pods. Lambda MicroVMs now support x86. Cognito user pools got session management. The EKS provisioned control plane now has 24 gigabytes of etcd storage.\n\nThere were no new tech layoffs in the last 48 hours.\n\nIn gadgets, the first Android XR smart glasses from Warby Parker and Gentle Monster are open for pre-order, from 395 dollars.\n\nOn GitHub, the fastest-growing new agent repo this week is pinky, which lets AI agents use your phone. It gained 2,006 stars.\n\nThat is the news for today."
+}

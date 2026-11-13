@@ -1,6 +1,11 @@
 {
  "editions": [
   {
+   "date": "2026-11-13",
+   "stories": 29,
+   "headline": "Google launches Gemini 4 Hydrogen, a fast 1M-context model"
+  },
+  {
    "date": "2026-11-12",
    "stories": 36,
    "headline": "Claude Fable 5.2 and Mythos 5.2 lead agentic coding benchmarks"
