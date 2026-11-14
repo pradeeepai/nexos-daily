@@ -1,0 +1,557 @@
+{
+ "date": "2026-11-14",
+ "generated": "2026-11-14T02:51:28Z",
+ "sections": {
+  "tech-news": {
+   "routine": "tech-news",
+   "status": "done",
+   "headline": "Anthropic lets enterprises run Claude Managed Agents on their own infrastructure, and Google ships Gemini 4 Hydrogen as its new fast default model.",
+   "filed": "2026-11-14T02:20:35Z",
+   "note": "",
+   "items": [
+    {
+     "title": "Claude Managed Agents can now run self-hosted",
+     "body": "Anthropic launched self-hosted Claude Managed Agents on November 12. You run the whole Managed Agents service on your own infrastructure and store agents, sessions and session history there. The server sends model requests to the provider you choose, Anthropic by default. Access is through your Anthropic account team.",
+     "why": "Teams can keep agents, sessions and history inside their own cloud perimeter.",
+     "topics": [
+      "Claude",
+      "Agents",
+      "DevOps"
+     ],
+     "source": "Claude Platform release notes",
+     "url": "https://platform.claude.com/docs/en/release-notes/overview",
+     "date": "2026-11-12",
+     "also": [
+      {
+       "section": "Claude Ecosystem",
+       "source": "Claude Platform release notes",
+       "url": "https://platform.claude.com/docs/en/release-notes/overview"
+      }
+     ]
+    },
+    {
+     "title": "Claude Code 2.1.323 adds experimental Code Mode and plugin version gates",
+     "body": "Code Mode is an opt-in mode where Claude writes JavaScript to call its tools. plugin.json now accepts engines[\"claude-code\"], and claude plugin validate type-checks TypeScript hooks. The release also fixes Bash wildcard allow rules that skipped prompts and makes --permission-mode auto fall back to Manual when auto mode is unavailable.",
+     "why": "Plugin authors can now block installs on Claude Code versions they do not support.",
+     "topics": [
+      "Claude Code",
+      "Security"
+     ],
+     "source": "GitHub · anthropics/claude-code",
+     "url": "https://github.com/anthropics/claude-code/releases",
+     "date": "2026-11-12",
+     "also": [
+      {
+       "section": "Claude Ecosystem",
+       "source": "GitHub · anthropics/claude-code",
+       "url": "https://github.com/anthropics/claude-code/releases"
+      }
+     ]
+    },
+    {
+     "title": "Login errors hit claude.ai, Claude Code and the Console",
+     "body": "Anthropic posted an incident at 09:58 UTC on November 13 for elevated errors on claude.ai, platform.claude.com, Claude Code and Claude Cowork. The update named a problem with users authenticating. The Hacker News thread reached 478 points.",
+     "why": "Pipelines that depend on Claude sign-in need a fallback plan for auth outages.",
+     "topics": [
+      "Claude",
+      "DevOps"
+     ],
+     "source": "Claude Status",
+     "url": "https://status.claude.com/incidents/nn11wk485zfn",
+     "date": "2026-11-13",
+     "also": [
+      {
+       "section": "Pulse",
+       "source": "Hacker News · 478 points · 377 comments",
+       "url": "https://status.claude.com/incidents/nn11wk485zfn"
+      }
+     ]
+    },
+    {
+     "title": "Claude Meetings beta brings Claude into live video calls",
+     "body": "Claude joins a team video call and builds docs, whiteboards and other artifacts while people talk. The beta rolls out on Team and Enterprise plans and works with Google Meet at launch. Claude joins as a visible participant and leaves if an external guest joins. The launch post on X passed 72,000 likes.",
+     "why": "Meeting decisions can become docs and plans without a manual hand-off.",
+     "topics": [
+      "Claude",
+      "AI tools"
+     ],
+     "source": "X · @claudeai",
+     "url": "https://x.com/claudeai/status/2120973994191094179",
+     "date": "2026-11-12",
+     "also": [
+      {
+       "section": "Trending on X",
+       "source": "X · @claudeai · 72860 likes · 4625 reposts",
+       "url": "https://x.com/claudeai/status/2120973994191094179"
+      },
+      {
+       "section": "Trending on X",
+       "source": "X · @alexalbert__ · 446 likes · 11 reposts",
+       "url": "https://x.com/alexalbert__/status/2120983722182988206"
+      }
+     ]
+    },
+    {
+     "title": "Google releases Gemini 4 Hydrogen as its fast default model",
+     "body": "Gemini 4 Hydrogen (gemini-4-hydrogen) has a 1M-token input context and up to 1M output tokens. API price is $1.50 per million input and $7.50 per million output tokens, flat across the context. It adds an xhigh thinking level and scores 57% on Terminal-Bench 4.1, per Google. It is live in the Gemini API, AI Studio, Antigravity, the Gemini app and Search.",
+     "why": "A cheaper 1M-context model changes cost math for high-volume agent workloads.",
+     "topics": [
+      "Gemini",
+      "New models"
+     ],
+     "source": "Google blog",
+     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+     "date": "2026-11-12",
+     "also": [
+      {
+       "section": "Trending on X",
+       "source": "X · @testingcatalog · 205 likes · 11 reposts",
+       "url": "https://x.com/testingcatalog/status/2121185887337820440"
+      }
+     ]
+    },
+    {
+     "title": "Edge0-145B open MoE model targets laptops",
+     "body": "Edge0 released Edge0-145B, a sparse mixture-of-experts model with 145B total and about 10B active parameters, plus Edge0-120B. Context is 128K to 256K tokens and peak memory is about 29GB. Edge0 reports 86.5 on Terminal-Bench 2.1 and 90.4 on GPQA-Diamond in its own tests. Weights are on Hugging Face and the engine is on GitHub.",
+     "why": "Strong local models reduce cost and data-exposure risk for coding agents.",
+     "topics": [
+      "Open models",
+      "New models"
+     ],
+     "source": "Edge0 blog · HN 334 points",
+     "url": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer",
+     "date": "2026-11-12",
+     "also": [
+      {
+       "section": "Pulse",
+       "source": "Hacker News · 334 points · 102 comments",
+       "url": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer"
+      },
+      {
+       "section": "Chips & Research",
+       "source": "Edge0 blog",
+       "url": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer"
+      }
+     ]
+    },
+    {
+     "title": "ChatGPT Enterprise is now sold through AWS Marketplace",
+     "body": "OpenAI made ChatGPT Enterprise available in AWS Marketplace. Eligible spend counts toward AWS commitments. OpenAI says models, features and release timing match direct customers.",
+     "why": "AWS customers can buy ChatGPT Enterprise on existing AWS billing and commitments.",
+     "topics": [
+      "OpenAI",
+      "Bedrock"
+     ],
+     "source": "OpenAI",
+     "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+     "date": "2026-11-13"
+    },
+    {
+     "title": "IBM previews Granite 4.1 LLMON models against prompt injection",
+     "body": "IBM released experimental 3B and 8B Granite 4.1 LLMON previews. They use reserved tokenizer delimiters to separate instructions, data and requirements. IBM reports better resistance to static indirect prompt injection with performance close to Granite 4.1 Instruct. Multi-turn adaptive attacks are still unsolved.",
+     "why": "Separating instructions from data at the token level is a new defense for agents.",
+     "topics": [
+      "Open models",
+      "Security"
+     ],
+     "source": "Hugging Face blog · IBM Granite",
+     "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+     "date": "2026-11-13"
+    }
+   ]
+  },
+  "chips": {
+   "routine": "chips",
+   "status": "done",
+   "headline": "AMD details the Instinct MI430X with 432 GB of HBM4 and 288 TFLOPS of native FP64 for the next exascale systems.",
+   "filed": "2026-11-14T02:20:35Z",
+   "note": "",
+   "items": [
+    {
+     "title": "AMD Instinct MI430X: 432 GB HBM4 for exascale AI and HPC",
+     "body": "MI430X uses the CDNA 5 architecture with 432 GB of HBM4 at up to 23.3 TB/s. AMD lists up to 288 TFLOPS native FP64 and 9.2 PF FP4 peak. Nodes pair four GPUs with a 6th Gen EPYC Venice host over Infinity Fabric. It is selected for ORNL Discovery, Alice Recoque, HLRS Herder and LUMI-AI.",
+     "why": "One GPU now targets both FP64 science and FP4 AI work at large memory size.",
+     "topics": [
+      "AMD",
+      "Chips",
+      "Data centers"
+     ],
+     "source": "AMD blog",
+     "url": "https://www.amd.com/en/blogs/2026/exascale-was-the-beginning-amd-instinct--mi430x-gpus.html",
+     "date": "2026-11-12"
+    },
+    {
+     "title": "Model weights reveal the GPU family used to initialize them",
+     "body": "Will DePue recovered the random seeds in published weights and matched them to GPU thread layouts. Six Chinese models, including DeepSeek V4-Flash and V4-Pro, Kimi K3 and MiniMax M3, show Blackwell-compatible patterns. The method matched all 24 cases with disclosed hardware. The report says it does not prove where chips were or that rules were broken.",
+     "why": "Weights alone can now show hardware origin, which affects export-control audits.",
+     "topics": [
+      "NVIDIA",
+      "AI research"
+     ],
+     "source": "Unemployment Labs · HN 353 points",
+     "url": "https://unemploymentlabs.com/checkpoint-forensics",
+     "date": "2026-11-12",
+     "also": [
+      {
+       "section": "Pulse",
+       "source": "Hacker News · 353 points · 149 comments; r/OpenAI · 1,895 upvotes",
+       "url": "https://unemploymentlabs.com/checkpoint-forensics"
+      }
+     ]
+    },
+    {
+     "title": "TSMC's role grows in HBM4E base dies and stacked memory",
+     "body": "TrendForce says SK hynix and Micron will reportedly use TSMC for custom HBM4E base dies, and NVIDIA reportedly asked memory makers to use TSMC 3nm for NVHBM base dies. Qualcomm validated its first High Bandwidth Compute chips, which stack LPDDR on the compute die, for the AI250 accelerator sampling in 1H27. TSMC denied plans to make DRAM itself.",
+     "why": "Memory base dies on 3nm logic nodes set future accelerator bandwidth and supply.",
+     "topics": [
+      "Chips",
+      "Data centers"
+     ],
+     "source": "TrendForce",
+     "url": "https://www.trendforce.com/news/2026/11/13/news-tsmc-pushes-back-on-3d-dram-rumors-three-memory-plays-where-it-still-has-a-say/",
+     "date": "2026-11-13"
+    },
+    {
+     "title": "Together Compiler tunes live inference without engine restarts",
+     "body": "The preprint describes an agent-driven system that tunes inference code and configs without repeated serving-engine restarts. Together reports up to 2.6x higher tokens per second against selected open baselines. Compilation can run up to 24 hours at twice the serving replica's resources.",
+     "why": "Agent-driven tuning can raise serving throughput on the same GPUs.",
+     "topics": [
+      "AI research",
+      "Data centers"
+     ],
+     "source": "arXiv 2611.14681",
+     "url": "https://arxiv.org/abs/2611.14681",
+     "date": "2026-11-13"
+    }
+   ]
+  },
+  "ecosystem": {
+   "routine": "ecosystem",
+   "status": "done",
+   "headline": "Claude Code 2.1.323 lets plugins declare supported Claude Code versions and type-checks TypeScript hooks.",
+   "filed": "2026-11-14T02:20:35Z",
+   "note": "",
+   "items": [
+    {
+     "title": "lot-map plugin draws a live map of Claude Code activity",
+     "body": "lot-map by alexeyw shows Claude Code tool calls, model steps, hooks, skills and subagents in a live map beside the chat. It runs locally in 7 languages. It has 738 stars four days after creation, and forks and add-ons already build on it.",
+     "why": "Engineers can see tool calls, hooks and subagents as a session runs.",
+     "topics": [
+      "Plugins",
+      "Subagents",
+      "Claude Code"
+     ],
+     "source": "GitHub · alexeyw/lot-map · 738 stars",
+     "url": "https://github.com/alexeyw/lot-map",
+     "date": "2026-11-13"
+    },
+    {
+     "title": "maxagent hooks give Claude Code memory of past work",
+     "body": "maxagent is a set of hooks that help Claude Code and other agents record and recall past work. It was created on November 8 and has 265 stars.",
+     "why": "Hooks that record and recall work cut repeated context setup across sessions.",
+     "topics": [
+      "Hooks",
+      "Setups"
+     ],
+     "source": "GitHub · vzroslieigry/maxagent · 265 stars",
+     "url": "https://github.com/vzroslieigry/maxagent",
+     "date": "2026-11-13"
+    },
+    {
+     "title": "claude-memory compares ways to give Claude long-term memory",
+     "body": "The claudememory/claude-memory repo compares approaches for persistent, long-term memory in Claude. It was created on November 8 and has 125 stars.",
+     "why": "A side-by-side view helps teams choose a persistent memory setup.",
+     "topics": [
+      "Setups",
+      "Claude Code"
+     ],
+     "source": "GitHub · claudememory/claude-memory · 125 stars",
+     "url": "https://github.com/claudememory/claude-memory",
+     "date": "2026-11-13"
+    },
+    {
+     "title": "r/ClaudeAI: Fable as advisor does not use the Fable weekly limit",
+     "body": "A top r/ClaudeAI post of the day reports that calls to Fable as an advisor do not count against the Fable weekly limit. The post reached 210 upvotes. This is a user report, not an Anthropic statement.",
+     "why": "Using Fable only as an advisor can stretch plan limits for heavy coding sessions.",
+     "topics": [
+      "Claude Code",
+      "Setups"
+     ],
+     "source": "Reddit · r/ClaudeAI · 210 upvotes",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1xvnq0t/psa_using_fable_as_an_advisor_doesnt_touch_your/",
+     "date": "2026-11-13"
+    }
+   ]
+  },
+  "x-desk": {
+   "routine": "x-desk",
+   "status": "done",
+   "headline": "Claude Meetings launch post from @claudeai led X with over 72,000 likes.",
+   "filed": "2026-11-14T02:20:35Z",
+   "note": "Read 40 posts across 4 searches; 5 passed the value filter.",
+   "items": [
+    {
+     "title": "Google DeepMind releases datasets behind WeatherNext 3",
+     "body": "Google DeepMind released PARDIG and SatWeave, the base datasets for WeatherNext 3. The goal is to help researchers and developers build climate applications from clearer real-time atmospheric observation.",
+     "why": "Open training data lets teams build and check their own forecast models.",
+     "topics": [
+      "AI research"
+     ],
+     "source": "X · @GoogleDeepMind · 584 likes · 82 reposts",
+     "url": "https://x.com/GoogleDeepMind/status/2121229774865527097",
+     "date": "2026-11-13"
+    },
+    {
+     "title": "Simon Willison breaks down Gemini 4 pricing",
+     "body": "Simon Willison notes that Gemini 4 Argon and Carbon share one token price and that Hydrogen is only 25% cheaper. He also notes Carbon and Argon will double in price on December 1. His pelican drawing test rates Hydrogen notably worse.",
+     "why": "Price changes on December 1 affect cost plans for Gemini workloads.",
+     "topics": [
+      "Gemini"
+     ],
+     "source": "X · @simonw · 388 likes · 11 reposts",
+     "url": "https://x.com/simonw/status/2121039423441981444",
+     "date": "2026-11-13"
+    }
+   ]
+  },
+  "gadgets": {
+   "routine": "gadgets",
+   "status": "done",
+   "headline": "Apple's $299 HomeView smart display and new Apple TV 4K go on sale.",
+   "filed": "2026-11-14T02:23:48Z",
+   "note": "No India prices were given for these launches.",
+   "items": [
+    {
+     "title": "Apple HomeView smart display goes on sale at $299",
+     "body": "Apple HomeView went on sale on November 13 at $299 after pre-orders from mid-October. It has a 7-inch square display, an A18 chip and Siri AI, and recognizes up to six users by face. It comes in tabletop and wall-mounted models. Apple does not sell it in the EU.",
+     "why": "It is Apple's first dedicated smart home display, a new hub option for Apple homes.",
+     "topics": [
+      "Smart home",
+      "Apple"
+     ],
+     "source": "MacRumors",
+     "url": "https://www.macrumors.com/2026/11/13/apple-launches-two-products-today/",
+     "date": "2026-11-13"
+    },
+    {
+     "title": "Apple TV 4K fourth generation arrives with A19 chip",
+     "body": "The fourth-generation Apple TV 4K went on sale on November 13 at $299. It has an A19 chip, Siri AI support and 128GB storage. The Siri Remote now supports Find My, and the box supports four-speaker surround with HomePod mini 2.",
+     "why": "The new box adds Siri AI and Find My remote support for living-room setups.",
+     "topics": [
+      "Smart home",
+      "Apple"
+     ],
+     "source": "MacRumors",
+     "url": "https://www.macrumors.com/2026/11/13/apple-launches-two-products-today/",
+     "date": "2026-11-13"
+    },
+    {
+     "title": "Google opens pre-orders for first Gemini glasses",
+     "body": "Google opened pre-orders on November 12 for its first Gemini glasses, made with Samsung, Warby Parker and Gentle Monster. They have a 12MP ultra-wide camera, open-ear speakers, up to nine hours of battery and weigh about 41 grams. Warby Parker frames start at $395 and Gentle Monster frames at $449. Sales start December 10 in the US and South Korea only.",
+     "why": "Google and Samsung enter AI glasses with a ship date and firm prices.",
+     "topics": [
+      "AI gadgets",
+      "Wearables",
+      "Google"
+     ],
+     "source": "Notebookcheck",
+     "url": "https://www.notebookcheck.net/Google-s-Gemini-glasses-redact-faces-before-the-AI-sees-them.1449500.0.html",
+     "date": "2026-11-12"
+    },
+    {
+     "title": "Oppo A7 Pro 5G goes on sale in Europe",
+     "body": "The Oppo A7 Pro 5G is now on sale in Belgium, Germany and the Netherlands. It has a 6.57-inch 120Hz AMOLED display, a Dimensity 6360 Max chip, a 50MP main camera and a 7,400mAh battery with 80W charging. Oppo Belgium lists the 6GB/256GB model at €429.",
+     "why": "A mid-range phone with a 7,400mAh battery and 80W charging widens budget choices.",
+     "topics": [
+      "Phones"
+     ],
+     "source": "Notebookcheck",
+     "url": "https://www.notebookcheck.net/Oppo-releases-7-400mAh-phone-with-120Hz-AMOLED-display-in-Europe.1448976.0.html",
+     "date": "2026-11-13"
+    },
+    {
+     "title": "Lenovo V15 G7 Q7X brings Snapdragon to budget laptops",
+     "body": "Lenovo released the V15 G7 Q7X with a Snapdragon C C11-0100 chip and a 15.3-inch 1200p 400-nit display. It has a 50Wh battery rated up to 22 hours of video playback, 16GB RAM and a 512GB SSD. It starts at JPY 134,970 in Japan. Lenovo lists Europe and Southeast Asia as coming soon.",
+     "why": "An Arm laptop with 20+ hours of battery gives fleet buyers a low-cost option.",
+     "topics": [
+      "Laptops"
+     ],
+     "source": "Notebookcheck",
+     "url": "https://www.notebookcheck.net/Lenovo-releases-new-budget-15-inch-laptop-with-over-20-hours-battery-life.1449504.0.html",
+     "date": "2026-11-13"
+    }
+   ]
+  },
+  "tech-pulse": {
+   "routine": "tech-pulse",
+   "status": "done",
+   "headline": "Edge0 releases Edge0-145B, an open sparse model that targets frontier scores on a laptop.",
+   "filed": "2026-11-14T02:23:48Z",
+   "note": "",
+   "items": [
+    {
+     "title": "Brave Search API accepts per-request agent payments via x402",
+     "body": "Brave's x402 endpoints return HTTP 402 with a price, and the agent retries with a signed USDC payment on Base. Each request costs $0.005, including the LLM Context endpoint, and Brave covers Base gas fees for a limited time. Brave runs its own facilitator and suggests Stripe's Purl CLI wallet to start.",
+     "why": "Agents can now buy search results per call with no account or API key.",
+     "topics": [
+      "Agents",
+      "AI tools"
+     ],
+     "source": "Hacker News · 255 points · 143 comments",
+     "url": "https://brave.com/blog/search-api-agentic-payments/",
+     "date": "2026-11-12"
+    },
+    {
+     "title": "OpenAI launches ChatGPT Wallet so agents can buy with approval",
+     "body": "ChatGPT Wallet lets OpenAI's dots agents pay with a stored Amex, Mastercard or Visa card after the user approves with Face ID or a fingerprint. Card networks issue a payment token, so the agent and shop never see card details. Launch is limited to US ChatGPT Pro users with US cards. OpenAI asks businesses to use Web Bot Auth to recognise signed agent requests and to upload a product feed.",
+     "why": "Merchants must prepare for signed agent traffic, product feeds and tokenized agent checkouts.",
+     "topics": [
+      "OpenAI",
+      "Agents"
+     ],
+     "source": "r/OpenAI · 113 upvotes",
+     "url": "https://madrobot.blog/2026/11/13/chatgpt-wallet-openai-dots-agents-buy-things/",
+     "date": "2026-11-13"
+    }
+   ]
+  },
+  "aws-news": {
+   "routine": "aws-news",
+   "status": "done",
+   "headline": "The next-generation Bedrock AgentCore runtime is now the default, with sub-2-second starts and scale to zero.",
+   "filed": "2026-11-14T02:23:48Z",
+   "note": "The What's New feed had no items dated November 13; the GitHub repo page showed a lower star count than the GitHub API (91), which is used here.",
+   "items": [
+    {
+     "title": "Next-generation AgentCore runtime becomes the default",
+     "body": "New Amazon Bedrock AgentCore runtimes now use the next-generation runtime by default in 19 Regions, including Mumbai. Sessions restore from snapshots, scale idle agents to zero and run in their own Firecracker microVM. AWS reports P75 starts under 2 seconds on a 2GB image versus 29.7 seconds before. Set platformVersion to V2 to migrate an existing runtime.",
+     "why": "Agents start much faster and idle agents cost less, including in Mumbai.",
+     "topics": [
+      "Bedrock",
+      "Agents"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/new-agentcore-runtime-default/",
+     "date": "2026-11-12"
+    },
+    {
+     "title": "Cognito adds OAuth 2.0 token exchange for agents",
+     "body": "Amazon Cognito now supports OAuth 2.0 token exchange (RFC 8693). A service or AI agent can swap a user token for a token with narrower scope, one audience and no refresh token. An actor token adds an act claim that names the intermediary. It is available on the Essentials and Plus plans in all Cognito Regions.",
+     "why": "Agents and services can call downstream APIs with narrow, single-audience tokens.",
+     "topics": [
+      "Security",
+      "Agents"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/cognito-token-exchange/",
+     "date": "2026-11-12"
+    },
+    {
+     "title": "EC2 Image Builder console adds DevOps Agent troubleshooting",
+     "body": "The EC2 Image Builder console chat panel now uses the DevOps Agent to read build logs, workflow steps and network settings and find root causes. It can diagnose up to 50 failed pipelines at once and help create validated resources. A new Image Builder skill in the AWS Agent Toolkit gives custom agents the same functions. It is available in all commercial Regions.",
+     "why": "Platform teams can diagnose many failed image pipelines in one chat.",
+     "topics": [
+      "DevOps",
+      "Agents"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/ec2-image-builder-devops-agent-integration",
+     "date": "2026-11-12"
+    },
+    {
+     "title": "awslabs publishes UAEF, an agent evaluation framework",
+     "body": "The Universal Agent Evaluation Framework scores agents with 36 metrics across tool calling, response quality, responsible AI, performance, multi-turn, multi-agent and reasoning. Adapters cover LangGraph, LangChain, Bedrock, Langfuse, Strands and AgentCore. Install with uv sync on Python 3.10+, then call evaluate from uaef.api; results can persist to DynamoDB and S3. License is Apache-2.0.",
+     "why": "Teams get 36 ready metrics to test and regress-check AI agents on any framework.",
+     "topics": [
+      "Agents",
+      "DevOps"
+     ],
+     "source": "GitHub · awslabs/uaef · 91 stars",
+     "url": "https://github.com/awslabs/uaef",
+     "date": "2026-11-14"
+    },
+    {
+     "title": "Aurora and RDS add Graviton5-based R9g instances",
+     "body": "R9g instances are now generally available for Aurora PostgreSQL and MySQL and for RDS PostgreSQL, MySQL and MariaDB. AWS reports up to 30% better performance and 22% better price-performance than Graviton4 on Aurora. Nine sizes reach 192 vCPUs and 100 Gbps networking. Launch Regions are N. Virginia, Ohio, Oregon and Frankfurt.",
+     "why": "Database fleets can get up to 30% more performance than Graviton4.",
+     "topics": [
+      "Cost"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-aurora-rds-postgresql-mysql-mariadb-r9g-instances/",
+     "date": "2026-11-12"
+    },
+    {
+     "title": "FSx for Lustre cuts Intelligent-Tiering entry cost by 75%",
+     "body": "New FSx for Lustre Intelligent-Tiering file systems now start at 1,000 MBps throughput instead of 4,000 MBps. Minimum metadata IOPS drops from 6,000 to 1,500. The change applies in all Regions that offer the Intelligent-Tiering storage class.",
+     "why": "Smaller AI and HPC workloads can now use tiered Lustre storage.",
+     "topics": [
+      "Cost"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/fsx-lustre-intelligent-tiering-lower-throughput/",
+     "date": "2026-11-12"
+    },
+    {
+     "title": "SNS push notifications reach Hyderabad and three more Regions",
+     "body": "Amazon SNS mobile push notifications are now available in Asia Pacific (Hyderabad), Melbourne, Zurich and AWS GovCloud (US-East).",
+     "why": "Apps that serve India can send mobile push from the Hyderabad Region.",
+     "topics": [
+      "Serverless"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-sns-push-four-regions/",
+     "date": "2026-11-12"
+    }
+   ]
+  },
+  "layoffs": {
+   "routine": "layoffs",
+   "status": "done",
+   "headline": "Gainsight cuts about 270 jobs as it rebuilds around AI agents.",
+   "filed": "2026-11-14T02:23:48Z",
+   "note": "TrueUp could not be fetched; GoLayoffs had no entries after November 5.",
+   "items": [
+    {
+     "title": "Gainsight cuts about 270 jobs in AI agent pivot",
+     "body": "Investing.com reported that Gainsight cut about 270 roles, citing a person familiar with the matter. CEO Chuck Ganapathi confirmed cuts on LinkedIn but gave no number. The company is moving from seat-based to outcome-based pricing around its Atlas AI agents.",
+     "why": "Customer-success SaaS vendors are trading seat-based roles for AI agent products.",
+     "topics": [
+      "Layoffs",
+      "Startups"
+     ],
+     "source": "Investing.com",
+     "url": "https://ph.investing.com/news/stock-market-news/gainsight-cuts-jobs-as-it-refounds-business-around-ai-agents-2694604",
+     "date": "2026-11-12",
+     "company": "Gainsight",
+     "count": 270,
+     "pct": null,
+     "country": "Global",
+     "location": "",
+     "industry": "Enterprise software",
+     "kind": "layoff"
+    },
+    {
+     "title": "SpaceX AI group cuts about 60 from Grok Imagine",
+     "body": "SpaceX's AI division eliminated about 60 roles on the Grok Imagine video and image team, The Information reported. A small crew stays to maintain the product. Leadership is shifting resources to AI coding tools and the Grok Bot agent product, as video generation needs much more compute.",
+     "why": "AI labs are moving compute and staff from video generation to coding agents.",
+     "topics": [
+      "Layoffs",
+      "AI companies"
+     ],
+     "source": "Investing.com (The Information)",
+     "url": "https://za.investing.com/news/stock-market-news/musks-ai-group-lays-off-60-staffers-from-grok-video-unit-the-information-reports-4574450",
+     "date": "2026-11-13",
+     "company": "SpaceX",
+     "count": 60,
+     "pct": null,
+     "country": "United States",
+     "location": "",
+     "industry": "AI companies",
+     "kind": "layoff"
+    }
+   ]
+  }
+ },
+ "briefing": "Good morning. This is The Nexos Daily for Saturday, 14 November 2026.\n\nAnthropic now lets companies run Claude Managed Agents on their own infrastructure. The service is in private beta. Agents, sessions and history stay inside your own cloud.\n\nIn security and reliability, claude.ai, Claude Code and the Console had login errors and elevated error rates. If your pipelines depend on a Claude sign-in, plan a fallback. Researchers showed that model weights can reveal the GPU family that initialized them. They traced some Chinese frontier models to Blackwell GPUs, which matters for export-control audits. IBM previewed Granite 4.1 models that separate instructions from data to resist prompt injection.\n\nIn the Claude ecosystem, Claude Code 2.1.323 lets plugins declare the Claude Code versions that they support. It also type-checks TypeScript hooks and adds an experimental Code Mode. The lot-map plugin, which shows Claude Code activity as a live map, now has 738 stars. Claude Meetings was the top post on X, with more than 72 thousand likes.\n\nIn models, Google made Gemini 4 Hydrogen its fast default model. Gemini 4 prices change on 1 December. Edge0 released Edge0 145B, an open sparse model with 10 billion active parameters. Its engine splits the model across GPU, RAM and SSD, so it runs in about 29 gigabytes on a laptop. ChatGPT Enterprise is now sold through AWS Marketplace.\n\nIn chips, AMD gave details of the Instinct MI430X. It has 432 gigabytes of HBM4 and 288 teraflops of native FP64. TSMC has a larger role in HBM4E base dies.\n\nOn AWS, the next-generation AgentCore runtime is now the default. Agents start in less than 2 seconds and scale to zero, also in Mumbai. Cognito added OAuth 2.0 token exchange for agents. AWS Labs published UAEF, an agent evaluation framework with 36 metrics. Aurora and RDS added Graviton5 R9g instances with up to 30 percent more performance. FSx for Lustre cut the entry cost of Intelligent-Tiering by 75 percent.\n\nIn layoffs, Gainsight cut about 270 jobs as it moves to AI agents. The SpaceX AI group cut about 60 people from Grok Imagine.\n\nIn gadgets, Apple's HomeView smart display is on sale at 299 dollars, with a new Apple TV 4K.\n\nOn GitHub, the fastest-growing new repo today is a DeepSeek chat demo. It gained 825 stars in two days.\n\nThat is the news for today."
+}

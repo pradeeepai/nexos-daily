@@ -442,7 +442,7 @@
     "AI",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-09"
+   "last_seen": "2026-11-14"
   },
   "anthropics/single-agent-loop-kit": {
    "first_seen": "2026-10-25",
@@ -1395,7 +1395,7 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "reported": {
     "2026-10-29": 3635,
     "2026-10-30": 4032,
@@ -1412,7 +1412,8 @@
     "2026-11-10": 7763,
     "2026-11-11": 8336,
     "2026-11-12": 8764,
-    "2026-11-13": 9045
+    "2026-11-13": 9045,
+    "2026-11-14": 9284
    }
   },
   "guilhermealvestech/carrossel-skill": {
@@ -1482,7 +1483,7 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "reported": {
     "2026-10-30": 26,
     "2026-11-01": 2802,
@@ -1497,7 +1498,8 @@
     "2026-11-10": 7918,
     "2026-11-11": 8086,
     "2026-11-12": 8257,
-    "2026-11-13": 8409
+    "2026-11-13": 8409,
+    "2026-11-14": 8531
    }
   },
   "yc-software/minecraft-agent-harness": {
@@ -1799,7 +1801,7 @@
     "Trending",
     "Pulse"
    ],
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "reported": {
     "2026-11-01": 2840,
     "2026-11-02": 8079,
@@ -1813,7 +1815,8 @@
     "2026-11-10": 21779,
     "2026-11-11": 22210,
     "2026-11-12": 22514,
-    "2026-11-13": 22759
+    "2026-11-13": 22759,
+    "2026-11-14": 23028
    }
   },
   "wiva-hq/CodeRail": {
@@ -1970,7 +1973,7 @@
     "Trending",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "reported": {
     "2026-11-01": 3574,
     "2026-11-02": 4933,
@@ -1984,7 +1987,8 @@
     "2026-11-10": 12792,
     "2026-11-11": 13790,
     "2026-11-12": 14575,
-    "2026-11-13": 15166
+    "2026-11-13": 15166,
+    "2026-11-14": 15695
    }
   },
   "ninjahawk/livenerf": {
@@ -2380,10 +2384,11 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-14",
    "reported": {
     "2026-11-03": 50472,
-    "2026-11-04": 51415
+    "2026-11-04": 51415,
+    "2026-11-14": 57452
    }
   },
   "alchaincyf/huashu-art-motion": {
@@ -2545,9 +2550,10 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-14",
    "reported": {
-    "2026-11-04": 8601
+    "2026-11-04": 8601,
+    "2026-11-14": 31473
    }
   },
   "lexifina/global-law": {
@@ -2569,9 +2575,10 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-14",
    "reported": {
-    "2026-11-04": 25244
+    "2026-11-04": 25244,
+    "2026-11-14": 25972
    }
   },
   "Zagitta/gpu-unlock": {
@@ -2723,10 +2730,11 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-14",
    "reported": {
     "2026-11-05": 9659,
-    "2026-11-12": 19793
+    "2026-11-12": 19793,
+    "2026-11-14": 21849
    }
   },
   "BekirEfeoglu/proof-of-green": {
@@ -2984,14 +2992,15 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "reported": {
     "2026-11-08": 168,
     "2026-11-09": 454,
     "2026-11-10": 537,
     "2026-11-11": 581,
     "2026-11-12": 611,
-    "2026-11-13": 636
+    "2026-11-13": 636,
+    "2026-11-14": 649
    }
   },
   "drost-ai/tinker-ai-skill": {
@@ -3002,10 +3011,11 @@
     "Trending",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "reported": {
     "2026-11-08": 124,
-    "2026-11-11": 307
+    "2026-11-11": 307,
+    "2026-11-14": 323
    }
   },
   "Saekisui/claude-p-pipeline": {
@@ -3244,12 +3254,13 @@
     "Trending",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "reported": {
     "2026-11-09": 338,
     "2026-11-10": 2213,
     "2026-11-12": 5944,
-    "2026-11-13": 7816
+    "2026-11-13": 7816,
+    "2026-11-14": 8298
    }
   },
   "synchopate/llama-modchip": {
@@ -3289,11 +3300,12 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "reported": {
     "2026-11-10": 104,
     "2026-11-11": 314,
-    "2026-11-13": 460
+    "2026-11-13": 460,
+    "2026-11-14": 490
    }
   },
   "ryanrhughes/t3code-wow": {
@@ -3404,11 +3416,12 @@
     "Trending",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "reported": {
     "2026-11-11": 180,
     "2026-11-12": 448,
-    "2026-11-13": 593
+    "2026-11-13": 593,
+    "2026-11-14": 663
    }
   },
   "alexeyw/lot-map": {
@@ -3419,11 +3432,12 @@
     "Trending",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "reported": {
     "2026-11-11": 91,
     "2026-11-12": 410,
-    "2026-11-13": 614
+    "2026-11-13": 614,
+    "2026-11-14": 738
    }
   },
   "pktq/lasik": {
@@ -3598,10 +3612,11 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "reported": {
     "2026-11-12": 435,
-    "2026-11-13": 967
+    "2026-11-13": 967,
+    "2026-11-14": 1286
    }
   },
   "vzroslieigry/maxagent": {
@@ -3611,7 +3626,7 @@
    "seen_in": [
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-13"
+   "last_seen": "2026-11-14"
   },
   "aws/aws-emulator": {
    "first_seen": "2026-11-12",
@@ -3641,9 +3656,10 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "reported": {
-    "2026-11-13": 61
+    "2026-11-13": 61,
+    "2026-11-14": 62
    }
   },
   "siwen-121/agent-shared-facts": {
@@ -3665,9 +3681,10 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "reported": {
-    "2026-11-13": 47
+    "2026-11-13": 47,
+    "2026-11-14": 90
    }
   },
   "kociden/sakurai-skill": {
@@ -3677,9 +3694,10 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "reported": {
-    "2026-11-13": 30
+    "2026-11-13": 30,
+    "2026-11-14": 215
    }
   },
   "CrommaAI/crommacode": {
@@ -3749,9 +3767,10 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "reported": {
-    "2026-11-13": 1192
+    "2026-11-13": 1192,
+    "2026-11-14": 1345
    }
   },
   "gogoymh/auto-ontology-mcp": {
@@ -3765,6 +3784,144 @@
    "reported": {
     "2026-11-13": 383
    }
+  },
+  "deepseek-ai/chat-demo": {
+   "first_seen": "2026-11-14",
+   "kind": "Other",
+   "description": "A new chat demo app published by DeepSeek.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-14",
+   "reported": {
+    "2026-11-14": 825
+   }
+  },
+  "rivet-dev/open-orange": {
+   "first_seen": "2026-11-14",
+   "kind": "Dev tool",
+   "description": "Runs Cloudflare Workers and Durable Objects unchanged on AWS, GCP, Azure or your own servers.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-14",
+   "reported": {
+    "2026-11-14": 440
+   }
+  },
+  "higurashi-ai/Haru": {
+   "first_seen": "2026-11-14",
+   "kind": "Model",
+   "description": "A low-latency, multilingual, full-duplex spoken dialogue model.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-14",
+   "reported": {
+    "2026-11-14": 223
+   }
+  },
+  "mileson/chaojifeng-video-content-creator": {
+   "first_seen": "2026-11-14",
+   "kind": "Skill",
+   "description": "An agent skill for Chinese-language video production from script to storyboard.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-14",
+   "reported": {
+    "2026-11-14": 65
+   }
+  },
+  "filippkowalski/apple-ads-playbook-skill": {
+   "first_seen": "2026-11-14",
+   "kind": "Skill",
+   "description": "An agent skill for running and auditing Apple Search Ads campaigns.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-14",
+   "reported": {
+    "2026-11-14": 32
+   }
+  },
+  "lowdevco/Clip-Forge": {
+   "first_seen": "2026-11-14",
+   "kind": "Skill",
+   "description": "A Claude skill that finds the best moments in a video and cuts short clips.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-14",
+   "reported": {
+    "2026-11-14": 21
+   }
+  },
+  "disinfeqt/rulebook": {
+   "first_seen": "2026-11-14",
+   "kind": "Dev tool",
+   "description": "A native macOS app to find and edit CLAUDE.md and AGENTS.md files across projects.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-14",
+   "reported": {
+    "2026-11-14": 17
+   }
+  },
+  "HybridRobotics/supermimic": {
+   "first_seen": "2026-11-14",
+   "kind": "Model",
+   "description": "Humanoid whole-body motion tracking with one differentiable world model.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-14",
+   "reported": {
+    "2026-11-14": 1439
+   }
+  },
+  "dabingfy-dot/solo-to-team-skills": {
+   "first_seen": "2026-11-14",
+   "kind": "Skill",
+   "description": "Skills for human-led AI teams: delegate tasks, verify evidence and explain steps.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-14",
+   "reported": {
+    "2026-11-14": 845
+   }
+  },
+  "JuneYaooo/rea-video": {
+   "first_seen": "2026-11-14",
+   "kind": "Skill",
+   "description": "An agent tool that breaks down any video shot by shot and shows how to remake it.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-14",
+   "reported": {
+    "2026-11-14": 8001
+   }
+  },
+  "claudememory/claude-memory": {
+   "first_seen": "2026-11-14",
+   "kind": "Other",
+   "description": "claude-memory compares ways to give Claude long-term memory",
+   "seen_in": [
+    "Claude Ecosystem"
+   ],
+   "last_seen": "2026-11-14"
+  },
+  "awslabs/uaef": {
+   "first_seen": "2026-11-14",
+   "kind": "Other",
+   "description": "awslabs publishes UAEF, an agent evaluation framework",
+   "seen_in": [
+    "Cloud"
+   ],
+   "last_seen": "2026-11-14"
   }
  }
 }

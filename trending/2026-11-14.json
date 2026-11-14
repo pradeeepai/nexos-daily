@@ -1,0 +1,339 @@
+{
+ "date": "2026-11-14",
+ "generated": "2026-11-14T02:51:28Z",
+ "headline": "deepseek-ai/chat-demo is the fastest-growing new repo today with 825 stars in two days.",
+ "periods": {
+  "daily": {
+   "topics": [
+    "Agent skills",
+    "Coding agent monitors",
+    "Open models",
+    "Video skills"
+   ],
+   "repos": [
+    {
+     "repo": "deepseek-ai/chat-demo",
+     "url": "https://github.com/deepseek-ai/chat-demo",
+     "description": "A new chat demo app published by DeepSeek.",
+     "kind": "Other",
+     "language": "TypeScript",
+     "stars": 825,
+     "gained": 825,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "rivet-dev/open-orange",
+     "url": "https://github.com/rivet-dev/open-orange",
+     "description": "Runs Cloudflare Workers and Durable Objects unchanged on AWS, GCP, Azure or your own servers.",
+     "kind": "Dev tool",
+     "language": "TypeScript",
+     "stars": 440,
+     "gained": 440,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "higurashi-ai/Haru",
+     "url": "https://github.com/higurashi-ai/Haru",
+     "description": "A low-latency, multilingual, full-duplex spoken dialogue model.",
+     "kind": "Model",
+     "language": "Python",
+     "stars": 223,
+     "gained": 223,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "kociden/sakurai-skill",
+     "url": "https://github.com/kociden/sakurai-skill",
+     "description": "A Japanese agent skill for game design, built from 257 video transcripts.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 215,
+     "gained": 215,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "IluvatarLabs/sitrep",
+     "url": "https://github.com/IluvatarLabs/sitrep",
+     "description": "One live console to monitor Claude Code and Codex agents across machines, with context and spend tracking.",
+     "kind": "Dev tool",
+     "language": "TypeScript",
+     "stars": 90,
+     "gained": 90,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "mileson/chaojifeng-video-content-creator",
+     "url": "https://github.com/mileson/chaojifeng-video-content-creator",
+     "description": "An agent skill for Chinese-language video production from script to storyboard.",
+     "kind": "Skill",
+     "language": "HTML",
+     "stars": 65,
+     "gained": 65,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "gitcommit90/1Helm",
+     "url": "https://github.com/gitcommit90/1Helm",
+     "description": "A personal AI workspace on your own Cloudflare account with persistent memory.",
+     "kind": "Agent framework",
+     "language": "JavaScript",
+     "stars": 62,
+     "gained": 62,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "filippkowalski/apple-ads-playbook-skill",
+     "url": "https://github.com/filippkowalski/apple-ads-playbook-skill",
+     "description": "An agent skill for running and auditing Apple Search Ads campaigns.",
+     "kind": "Skill",
+     "language": null,
+     "stars": 32,
+     "gained": 32,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "lowdevco/Clip-Forge",
+     "url": "https://github.com/lowdevco/Clip-Forge",
+     "description": "A Claude skill that finds the best moments in a video and cuts short clips.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 21,
+     "gained": 21,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "disinfeqt/rulebook",
+     "url": "https://github.com/disinfeqt/rulebook",
+     "description": "A native macOS app to find and edit CLAUDE.md and AGENTS.md files across projects.",
+     "kind": "Dev tool",
+     "language": "Swift",
+     "stars": 17,
+     "gained": 17,
+     "source": "GitHub search"
+    }
+   ]
+  },
+  "weekly": {
+   "topics": [
+    "Agent skills",
+    "Agent workspaces",
+    "Claude Code observability",
+    "Local AI apps",
+    "Robotics models"
+   ],
+   "repos": [
+    {
+     "repo": "HybridRobotics/supermimic",
+     "url": "https://github.com/HybridRobotics/supermimic",
+     "description": "Humanoid whole-body motion tracking with one differentiable world model.",
+     "kind": "Model",
+     "language": "Python",
+     "stars": 1439,
+     "gained": 1439,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "agentes-chat/agentes-chat",
+     "url": "https://github.com/agentes-chat/agentes-chat",
+     "description": "A self-hosted Slack alternative where teams and AI agents work in channels and DMs.",
+     "kind": "Agent framework",
+     "language": "TypeScript",
+     "stars": 1345,
+     "gained": 1345,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "FrigadeHQ/yogurt",
+     "url": "https://github.com/FrigadeHQ/yogurt",
+     "description": "Private AI meeting notes that stay on your computer, an open alternative to Granola.",
+     "kind": "Other",
+     "language": "TypeScript",
+     "stars": 1286,
+     "gained": 1286,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "dabingfy-dot/solo-to-team-skills",
+     "url": "https://github.com/dabingfy-dot/solo-to-team-skills",
+     "description": "Skills for human-led AI teams: delegate tasks, verify evidence and explain steps.",
+     "kind": "Skill",
+     "language": null,
+     "stars": 845,
+     "gained": 845,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "deepseek-ai/chat-demo",
+     "url": "https://github.com/deepseek-ai/chat-demo",
+     "description": "A new chat demo app published by DeepSeek.",
+     "kind": "Other",
+     "language": "TypeScript",
+     "stars": 825,
+     "gained": 825,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "alexeyw/lot-map",
+     "url": "https://github.com/alexeyw/lot-map",
+     "description": "A live map beside the chat that shows Claude Code tool calls, hooks, skills and subagents.",
+     "kind": "Dev tool",
+     "language": "TypeScript",
+     "stars": 738,
+     "gained": 738,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "JDhruv14/line-art-animation",
+     "url": "https://github.com/JDhruv14/line-art-animation",
+     "description": "A Claude skill and TypeScript library for animated line-art SVG components.",
+     "kind": "Skill",
+     "language": "TypeScript",
+     "stars": 663,
+     "gained": 663,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "lxe/phoneuse",
+     "url": "https://github.com/lxe/phoneuse",
+     "description": "Lets an agent see and operate an unmodified iPhone from a Linux PC.",
+     "kind": "Other",
+     "language": "Python",
+     "stars": 649,
+     "gained": 649,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "Dodaios/ste80-humanizer",
+     "url": "https://github.com/Dodaios/ste80-humanizer",
+     "description": "An agent skill that removes AI tells and rewrites text toward ASD-STE100.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 490,
+     "gained": 490,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "drost-ai/tinker-ai-skill",
+     "url": "https://github.com/drost-ai/tinker-ai-skill",
+     "description": "An agent skill to fine-tune an agentic model on your own Claude Code sessions with Tinker.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 323,
+     "gained": 323,
+     "source": "GitHub search"
+    }
+   ]
+  },
+  "monthly": {
+   "topics": [
+    "DeepSeek Harness",
+    "Agent skills",
+    "Inference engines",
+    "Phone agents",
+    "Agent harnesses"
+   ],
+   "repos": [
+    {
+     "repo": "Gathin23/cleanyourtv",
+     "url": "https://github.com/Gathin23/cleanyourtv",
+     "description": "Debloats Android and Google TV over Wi-Fi and adds an Apple TV-style home.",
+     "kind": "Other",
+     "language": "Python",
+     "stars": 57452,
+     "gained": 57452,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "storytold/craft-anything",
+     "url": "https://github.com/storytold/craft-anything",
+     "description": "A Rust tool to understand how any software works and build your own version.",
+     "kind": "Dev tool",
+     "language": "Rust",
+     "stars": 31473,
+     "gained": 31473,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "deepseek-ai/DeepInfer",
+     "url": "https://github.com/deepseek-ai/DeepInfer",
+     "description": "DeepSeek's high-performance, large-scale inference framework for its models.",
+     "kind": "AI infra",
+     "language": "Python",
+     "stars": 25972,
+     "gained": 25972,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "deepseek-ai/dsh-superagent-prototype",
+     "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+     "description": "DeepSeek's prototype of a more autonomous agent system.",
+     "kind": "Agent framework",
+     "language": "TypeScript",
+     "stars": 23028,
+     "gained": 23028,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "ccch1mneyyy/dsh-Go",
+     "url": "https://github.com/ccch1mneyyy/dsh-Go",
+     "description": "Runs the DeepSeek Harness agent on a phone and controls a computer remotely.",
+     "kind": "Coding agent",
+     "language": "Dart",
+     "stars": 21849,
+     "gained": 21849,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "heydamir/unslop",
+     "url": "https://github.com/heydamir/unslop",
+     "description": "A Claude skill that turns AI-looking UI into a designed interface.",
+     "kind": "Skill",
+     "language": "JavaScript",
+     "stars": 15695,
+     "gained": 15695,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "amosblomqvist/learnharness",
+     "url": "https://github.com/amosblomqvist/learnharness",
+     "description": "An agent harness for learning difficult topics.",
+     "kind": "Agent framework",
+     "language": "TypeScript",
+     "stars": 9284,
+     "gained": 9284,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "wangzan101/Mika",
+     "url": "https://github.com/wangzan101/Mika",
+     "description": "An on-device Android agent that operates apps and the web.",
+     "kind": "Agent framework",
+     "language": "Kotlin",
+     "stars": 8531,
+     "gained": 8531,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "janestreet/agent_skills",
+     "url": "https://github.com/janestreet/agent_skills",
+     "description": "Jane Street's published collection of agent skills.",
+     "kind": "Skill",
+     "language": null,
+     "stars": 8298,
+     "gained": 8298,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "JuneYaooo/rea-video",
+     "url": "https://github.com/JuneYaooo/rea-video",
+     "description": "An agent tool that breaks down any video shot by shot and shows how to remake it.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 8001,
+     "gained": 8001,
+     "source": "GitHub search"
+    }
+   ]
+  }
+ }
+}
