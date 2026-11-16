@@ -1,0 +1,273 @@
+{
+ "week_start": "2026-11-09",
+ "week_end": "2026-11-15",
+ "intro": "Anthropic released Claude Fable 5.2 and Mythos 5.2, then added Sheets, Whiteboards, Claude Data, Claude Meetings and self-hosted Managed Agents in the same week. Google answered with Gemini 4 Carbon and Gemini 4 Hydrogen, Jensen Huang resigned as NVIDIA CEO, and AWS made its local AWS Emulator public.",
+ "top": [
+  {
+   "title": "Anthropic releases Claude Fable 5.2 and Mythos 5.2",
+   "body": "Anthropic released Claude Fable 5.2 (claude-fable-5-2) and Claude Mythos 5.2 on November 9. Both have a 1M-token context window, 128k max output and always-on adaptive thinking.",
+   "section": "AI",
+   "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+   "date": "2026-11-10"
+  },
+  {
+   "title": "Jensen Huang resigns as NVIDIA CEO; CFO Colette Kress steps in",
+   "body": "NVIDIA's board accepted Jensen Huang's resignation on November 11 and the company confirmed it on November 12. CFO Colette Kress is interim CEO and stays CFO, and Harvey Jones became NVIDIA's first board chair.",
+   "section": "Chips & Research",
+   "url": "https://techcrunch.com/2026/11/12/nvidias-jensen-huang-resigns-chipmaker-names-cfo-colette-kress-as-interim-ceo/",
+   "date": "2026-11-13"
+  },
+  {
+   "title": "Google makes Gemini 4 Carbon generally available",
+   "body": "Gemini 4 Carbon is now on the paid Gemini API, Gemini for business, Antigravity and for Google AI Ultra subscribers. The introductory price is $2 input and $10 output per million tokens; from November 30 it is $4/$20.",
+   "section": "AI",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+   "date": "2026-11-11"
+  },
+  {
+   "title": "Anthropic adds Claude Sheets, Whiteboards, Claude Data and interactive connectors",
+   "body": "Anthropic launched Claude Sheets for shared spreadsheets with formulas and tabs, and Claude Whiteboards for meetings. Claude Data (formerly Dashboards) connects to Snowflake and Salesforce to build dashboards and data stories.",
+   "section": "AI",
+   "url": "https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors",
+   "date": "2026-11-12"
+  },
+  {
+   "title": "Anthropic lets enterprises self-host the full Claude Managed Agents service",
+   "body": "Anthropic launched self-hosted Claude Managed Agents on November 12. Customers can run the whole Managed Agents service on their own infrastructure, not only the sandboxes, and store agents, sessions and session history there.",
+   "section": "AI",
+   "url": "https://platform.claude.com/docs/en/release-notes/overview",
+   "date": "2026-11-13"
+  },
+  {
+   "title": "Google launches Gemini 4 Hydrogen, a fast 1M-context model",
+   "body": "Google released Gemini 4 Hydrogen on November 12. It has a 1M-token input window and up to 1M output tokens, with flat pricing of $1.50 per million input and $7.50 per million output tokens.",
+   "section": "AI",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+   "date": "2026-11-13"
+  },
+  {
+   "title": "AWS Emulator runs AWS APIs locally for tests and CI",
+   "body": "AWS Emulator serves AWS API endpoints on your machine, a dev server or in CI. It runs as a Linux package, in Docker on Windows and macOS, or embedded in Rust tests.",
+   "section": "Cloud",
+   "url": "https://github.com/aws/aws-emulator",
+   "date": "2026-11-12"
+  },
+  {
+   "title": "DeepMind's AlphaProof Code formally verifies Signal's cryptographic code",
+   "body": "AlphaProof Code is a multi-agent framework where humans choose what to prove and agents write Lean proofs. The team verified core cryptographic code of the Signal protocol down to compiled machine code in four weeks.",
+   "section": "AI",
+   "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+   "date": "2026-11-11"
+  },
+  {
+   "title": "Cursor incident exposed tampered Claude Code extension builds",
+   "body": "Cursor published an update on its 29 October security incident, which started with a storage key exposed at Fireworks. Tampered anthropic.claude-code extension builds 2.1.312 and 2.1.313 stayed cached for about 11 hours and reached at most 5,000 users.",
+   "section": "AI",
+   "url": "https://cursor.com/blog/security-incident-update",
+   "date": "2026-11-15"
+  },
+  {
+   "title": "Claude Meetings enters beta on Google Meet",
+   "body": "Anthropic brought Claude into live meetings with Claude Meetings. It is in beta for Team and Enterprise users and starts on Google Meet.",
+   "section": "AI",
+   "url": "https://www.reuters.com/technology/anthropic-brings-claude-google-meet-tackle-tasks-live-2026-11-10/",
+   "date": "2026-11-12"
+  }
+ ],
+ "models": [
+  {
+   "name": "Claude Fable 5.2 and Mythos 5.2",
+   "lab": "Anthropic",
+   "date": "2026-11-10",
+   "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+   "what": "Anthropic released Claude Fable 5.2 (claude-fable-5-2) and Claude Mythos 5.2 on November 9."
+  },
+  {
+   "name": "Muse Ember",
+   "lab": "Meta",
+   "date": "2026-11-10",
+   "url": "https://research.meta.ai/blog/muse-ember",
+   "what": "Meta released Muse Ember, its smallest and most efficient Muse model, on November 9."
+  },
+  {
+   "name": "Gemini 4 Carbon",
+   "lab": "Google",
+   "date": "2026-11-11",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+   "what": "Gemini 4 Carbon is now on the paid Gemini API, Gemini for business, Antigravity and for Google AI Ultra subscribers."
+  },
+  {
+   "name": "Gemini Robotics 2.5",
+   "lab": "Google DeepMind",
+   "date": "2026-11-11",
+   "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+   "what": "Gemini Robotics 2.5 is DeepMind's new vision-language-action model, tested on more than 200 tasks."
+  },
+  {
+   "name": "Alpamayo 2 Edge",
+   "lab": "NVIDIA",
+   "date": "2026-11-11",
+   "url": "https://x.com/nvidia/status/2120186778384499073",
+   "what": "NVIDIA announced Alpamayo 2 Edge, which brings adaptive AI reasoning to the vehicle in real time."
+  },
+  {
+   "name": "Strands Decider",
+   "lab": "Amazon",
+   "date": "2026-11-11",
+   "url": "https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider/",
+   "what": "Amazon used Strands Decider, an open-source decision model on Gemma 4 E4B, to label tickets instead of Claude Sonnet 4.6."
+  },
+  {
+   "name": "Gemini Decision 1",
+   "lab": "Google",
+   "date": "2026-11-12",
+   "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+   "what": "Gemini Decision 1 (gemini-decision-1) scores up to 1,000 closed-set questions in one forward pass instead of generating text."
+  },
+  {
+   "name": "Qwen4-Max Preview",
+   "lab": "Alibaba",
+   "date": "2026-11-12",
+   "url": "https://modelfit.io/blog/qwen4-max-preview-cloud-only-no-weights/",
+   "what": "Alibaba opened a Qwen4-Max preview on 11 November that runs until 25 November 2026."
+  },
+  {
+   "name": "H3-Image",
+   "lab": "MiniMax",
+   "date": "2026-11-12",
+   "url": "https://www.minimax.io/blog/minimax-h3-image",
+   "what": "MiniMax released H3-Image with downloadable model weights."
+  },
+  {
+   "name": "AlphaGenome 2",
+   "lab": "Google DeepMind",
+   "date": "2026-11-12",
+   "url": "https://x.com/GoogleDeepMind/status/2120532824465805749",
+   "what": "Google DeepMind announced AlphaGenome 2."
+  },
+  {
+   "name": "Gemini 4 Hydrogen",
+   "lab": "Google",
+   "date": "2026-11-13",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+   "what": "Google released Gemini 4 Hydrogen on November 12."
+  },
+  {
+   "name": "Edge0-145B",
+   "lab": "Edge0",
+   "date": "2026-11-14",
+   "url": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer",
+   "what": "Edge0 released Edge0-145B, a sparse mixture-of-experts model with 145B total and about 10B active parameters, plus Edge0-120B."
+  },
+  {
+   "name": "Granite 4.1 LLMON",
+   "lab": "IBM",
+   "date": "2026-11-14",
+   "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+   "what": "IBM released experimental 3B and 8B Granite 4.1 LLMON previews."
+  },
+  {
+   "name": "Inkling 2 Small (open weights)",
+   "lab": "Thinking Machines Lab",
+   "date": "2026-11-15",
+   "url": "https://letsdatascience.com/news/thinking-machines-lab-releases-inkling-2-small-a-594b-moe-mo-2b2a96ce",
+   "what": "Thinking Machines Lab made the Inkling 2 Small weights downloadable on Hugging Face after safety testing."
+  }
+ ],
+ "chips": [
+  {
+   "title": "Google unveils TPU 8tx and TPU 8i Max",
+   "body": "TPU 8i Max puts two TPU 8i chips in one package with 384 GB HBM, 17.2 TB/s HBM bandwidth and 768 MB SRAM, double the bandwidth and compute of one TPU 8i.",
+   "url": "https://servethehome.com/google-tpu-8tx-8i-max-amd-epyc-turin",
+   "date": "2026-11-10"
+  },
+  {
+   "title": "AMD Instinct MI430X: 432 GB HBM4 for exascale AI and HPC",
+   "body": "MI430X uses the CDNA 5 architecture with 432 GB of HBM4 at up to 23.3 TB/s.",
+   "url": "https://www.amd.com/en/blogs/2026/exascale-was-the-beginning-amd-instinct--mi430x-gpus.html",
+   "date": "2026-11-14"
+  },
+  {
+   "title": "NVIDIA serves 753B GLM-5.3 across two DGX Stations",
+   "body": "NVIDIA served GLM-5.3 NVFP4 (753B total, 40B active parameters, about 464 GB) across two DGX Stations with GB300 GPUs linked by ConnectX-8 RDMA.",
+   "url": "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/",
+   "date": "2026-11-15"
+  }
+ ],
+ "skills": [
+  {
+   "repo": "janestreet/agent_skills",
+   "url": "https://github.com/janestreet/agent_skills",
+   "kind": "Skill",
+   "description": "Jane Street's published collection of agent skills.",
+   "stars": 8758,
+   "gained": 7736
+  },
+  {
+   "repo": "heydamir/unslop",
+   "url": "https://github.com/heydamir/unslop",
+   "kind": "Skill",
+   "description": "A Claude skill that turns generic AI-looking UI into a designed interface.",
+   "stars": 16287,
+   "gained": 3916
+  },
+  {
+   "repo": "heygen-com/hyperframes",
+   "url": "https://github.com/heygen-com/hyperframes",
+   "kind": "Plugin",
+   "description": "Write HTML. Render video. Built for agents.",
+   "stars": 84513,
+   "gained": 3135
+  },
+  {
+   "repo": "lemomo-ai/lemo-opuscar",
+   "url": "https://github.com/lemomo-ai/lemo-opuscar",
+   "kind": "Skill",
+   "description": "A toolbox of film styles made in code for Claude Code: 99 ready to use, and your own. Each style is a style prompt plus a demo film made entirely in code by Claude Opus 5.5, with no video model. By Lemomo. · 一套用代码做片的风格工具箱：99 种现成风格，也能做出你自己的",
+   "stars": 16464,
+   "gained": 2578
+  },
+  {
+   "repo": "JuliusBrussee/caveman",
+   "url": "https://github.com/JuliusBrussee/caveman",
+   "kind": "Skill",
+   "description": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
+   "stars": 120287,
+   "gained": 1787
+  },
+  {
+   "repo": "Jakeschincariol/day-trader-skill",
+   "url": "https://github.com/Jakeschincariol/day-trader-skill",
+   "kind": "Skill",
+   "description": "Eleven Claude skills for chart scanning, news tracking and trade replay.",
+   "stars": 7893,
+   "gained": 1611
+  },
+  {
+   "repo": "patch-gg/pixelfx",
+   "url": "https://github.com/patch-gg/pixelfx",
+   "kind": "Skill",
+   "description": "244 pixel art effects plus a Claude Code skill to make new ones.",
+   "stars": 7524,
+   "gained": 1300
+  },
+  {
+   "repo": "wheresryan22/anatomy",
+   "url": "https://github.com/wheresryan22/anatomy",
+   "kind": "Skill",
+   "description": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
+   "stars": 27395,
+   "gained": 1246
+  }
+ ],
+ "skill_of_week": {
+  "name": "janestreet/agent_skills: Socratic Tutor",
+  "kind": "Skill",
+  "url": "https://github.com/janestreet/agent_skills",
+  "stars": 8758,
+  "what": "Jane Street's first public agent skill turns a coding agent or chatbot into a strict personal tutor. It starts with a diagnostic, builds a skill map that rates each sub-topic from 0 to 5, asks one question at a time, schedules spaced review and ends with a final assessment. It uses the common SKILL.md format, so it works in Claude Code and other agents that load skills.",
+  "install": "git clone https://github.com/janestreet/agent_skills && mkdir -p ~/.claude/skills && cp -r agent_skills/socratic-tutor ~/.claude/skills/",
+  "verdict": "Try it",
+  "note": "It gained about 7,700 stars this week, mostly after a Hacker News post with 649 points. The repo has one skill and only two commits, with no tests or stated maintenance plan. It is a single prompt file under the MIT license, so it costs only the model tokens of each session. It teaches through questions, so it is slow by design: use it to learn a topic, not to get a fast answer."
+ }
+}

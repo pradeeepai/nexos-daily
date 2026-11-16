@@ -1,0 +1,514 @@
+{
+ "date": "2026-11-15",
+ "generated": "2026-11-16T07:56:25Z",
+ "sections": {
+  "tech-news": {
+   "routine": "tech-news",
+   "status": "done",
+   "headline": "Anthropic publishes 10 recommendations for building strong AI safety evaluations.",
+   "filed": "2026-11-15T02:23:30Z",
+   "note": "",
+   "items": [
+    {
+     "title": "Anthropic publishes 10 rules for strong safety evaluations",
+     "body": "Anthropic published a guide with 10 recommendations to design, run and report safety evaluations. It says to run evals in an offline sandbox, to measure an appropriate response rate instead of a refusal rate, and to preregister metrics. It sets floors of 100 items for multi-turn evals and 1,000 for single-turn evals. It reports a 34-point score gap between API and claude.ai configurations of the same model.",
+     "why": "Teams that ship LLM features can reuse these rules to build evals that give stable, comparable results.",
+     "topics": [
+      "Claude",
+      "AI research",
+      "Security"
+     ],
+     "source": "Anthropic",
+     "url": "https://www.anthropic.com/research/building-strong-safety-evaluations",
+     "date": "2026-11-13",
+     "also": [
+      {
+       "section": "Trending on X",
+       "source": "X · @AnthropicAI · 2115 likes · 192 reposts",
+       "url": "https://x.com/AnthropicAI/status/2121317227618340990"
+      }
+     ]
+    },
+    {
+     "title": "Claude Code adds Projects coordinator updates and theme mods",
+     "body": "The Projects coordinator in Claude Code now answers questions in the project chat. It also posts live status for running worker threads. The desktop app now supports custom theme mods that you make from a description or from the theme-examples plugin. Anthropic has not yet documented plan limits or CLI support for these features.",
+     "why": "Teams that run parallel Claude Code worker threads get live status in one place.",
+     "topics": [
+      "Claude Code",
+      "Agents"
+     ],
+     "source": "X · @ClaudeDevs",
+     "url": "https://x.com/ClaudeDevs/status/2121375309287301360",
+     "date": "2026-11-13",
+     "also": [
+      {
+       "section": "Claude Ecosystem",
+       "source": "X · @ClaudeDevs",
+       "url": "https://x.com/ClaudeDevs/status/2121392666244186327"
+      }
+     ]
+    },
+    {
+     "title": "Cursor incident exposed tampered Claude Code extension builds",
+     "body": "Cursor published an update on its 29 October security incident, which started with a storage key exposed at Fireworks. Tampered anthropic.claude-code extension builds 2.1.312 and 2.1.313 stayed cached for about 11 hours and reached at most 5,000 users. The attacker read old traces for under 0.05% of users. Cursor moved all inference off Fireworks.",
+     "why": "Teams that use the Claude Code extension in Cursor must check which build they installed in late October.",
+     "topics": [
+      "Security",
+      "Claude Code",
+      "AI tools"
+     ],
+     "source": "Cursor blog",
+     "url": "https://cursor.com/blog/security-incident-update",
+     "date": "2026-11-14"
+    },
+    {
+     "title": "Fable 5.2 and Opus 5.5 tie on new coding-agent index",
+     "body": "Artificial Analysis released Coding Agent Index v2.1 with FrontierCode-AA 2.0, Terminal-Bench 4.1 and SWE-Atlas-QnA-AA. Average scores fell by 5 points. Claude Fable 5.2 and Claude Opus 5.5 tie at 58. Cost per task for models that score above 48 ranges from $1.51 to $44.22.",
+     "why": "The tie helps teams pick a Claude model for coding agents on cost, not only on score.",
+     "topics": [
+      "Claude",
+      "New models"
+     ],
+     "source": "X · @ArtificialAnlys",
+     "url": "https://x.com/ArtificialAnlys/status/2121393821955334328",
+     "date": "2026-11-14"
+    },
+    {
+     "title": "Google ships Gemini 4 Hydrogen for fast agentic work",
+     "body": "Google released Gemini 4 Hydrogen for multi-step agentic tasks such as coding, testing and codebase navigation. It has four thinking levels. Developers can use it in the Gemini API in AI Studio, Android Studio, Gemini for business and Antigravity. Google did not give the context size or price in the post.",
+     "why": "A faster Gemini tier gives a cheaper option for multi-step coding and data agents.",
+     "topics": [
+      "Gemini",
+      "New models"
+     ],
+     "source": "Google blog",
+     "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-hydrogen/",
+     "date": "2026-11-12",
+     "also": [
+      {
+       "section": "Trending on X",
+       "source": "X · @GoogleAIStudio · 418 likes · 33 reposts",
+       "url": "https://x.com/GoogleAIStudio/status/2121348060961792251"
+      }
+     ]
+    },
+    {
+     "title": "DeepSeek exposes App tools through an Anthropic-compatible API",
+     "body": "DeepSeek made the server-side tools of its app available through the API with model ID deepseek-flash. The API offers Chat Completions, Responses and an Anthropic-compatible Messages endpoint. Built-in tools include web search, URL reading, document parsing, OCR and speech. DeepSeek published no separate price for the tools.",
+     "why": "Agents built on the Messages API format can call DeepSeek web search, OCR and document parsing with few code changes.",
+     "topics": [
+      "Open models",
+      "AI tools"
+     ],
+     "source": "DeepSeek API docs",
+     "url": "https://api-docs.deepseek.com/guides/build_a_chatbot/",
+     "date": "2026-11-13"
+    },
+    {
+     "title": "OpenAI launches ChatGPT Wallet for agent payments",
+     "body": "OpenAI started a limited US rollout of ChatGPT Wallet for ChatGPT Pro users. Agents pay with single-use network tokens, so the agent and merchant do not see the card number. The user approves each purchase with biometrics. OpenAI also published a Commerce Partner Playbook.",
+     "why": "It sets a pattern for agent checkout with tokenized cards and user approval per purchase.",
+     "topics": [
+      "OpenAI",
+      "Agents"
+     ],
+     "source": "OpenAI",
+     "url": "https://openai.com/index/introducing-chatgpt-wallet/",
+     "date": "2026-11-13"
+    },
+    {
+     "title": "Google Antigravity /teamwork solves open math and systems problems",
+     "body": "Google Research described /teamwork, a multi-agent system in Antigravity that checks each candidate with a verifier such as Lean 4 or test suites. It formalized the Weil conjectures in about 1.8 million lines of Lean. It ported libgav1 to about 170k lines of Rust that run 20 to 30% faster than the C++ code. External developers can use /teamwork with Gemini 4 models now.",
+     "why": "It shows how verifier-checked multi-agent workflows can do large code ports and kernel tuning.",
+     "topics": [
+      "Gemini",
+      "Agents",
+      "AI research"
+     ],
+     "source": "Google Research",
+     "url": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/",
+     "date": "2026-11-13",
+     "also": [
+      {
+       "section": "Pulse",
+       "source": "Hacker News · 138 points · 33 comments",
+       "url": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/"
+      },
+      {
+       "section": "Chips & Research",
+       "source": "Google Research",
+       "url": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/"
+      }
+     ]
+    },
+    {
+     "title": "Thinking Machines releases Inkling 2 Small weights",
+     "body": "Thinking Machines Lab made the Inkling 2 Small weights downloadable on Hugging Face after safety testing. The model is a 594B-parameter MoE with 17B active parameters and accepts image input. It scores 31 on the Artificial Analysis Intelligence Index and 72.1% on DeepSWE v1.1. It runs on SGLang, vLLM and Unsloth.",
+     "why": "A 17B-active open MoE model gives a new self-hosted option for coding agents.",
+     "topics": [
+      "Open models",
+      "New models"
+     ],
+     "source": "Let's Data Science",
+     "url": "https://letsdatascience.com/news/thinking-machines-lab-releases-inkling-2-small-a-594b-moe-mo-2b2a96ce",
+     "date": "2026-11-12"
+    }
+   ]
+  },
+  "chips": {
+   "routine": "chips",
+   "status": "done",
+   "headline": "NVIDIA serves the 753B GLM-5.3 at 607.8 tok/s across two DGX Stations with vLLM.",
+   "filed": "2026-11-15T02:23:30Z",
+   "note": "",
+   "items": [
+    {
+     "title": "NVIDIA serves 753B GLM-5.3 across two DGX Stations",
+     "body": "NVIDIA served GLM-5.3 NVFP4 (753B total, 40B active parameters, about 464 GB) across two DGX Stations with GB300 GPUs linked by ConnectX-8 RDMA. Each GPU has 252 GB of HBM3e. vLLM ran with tensor parallelism 2, multi-token prediction and FP8 KV cache. Peak output was 607.8 tok/s at concurrency 16.",
+     "why": "It shows a frontier-size open model can run on two desk-side machines instead of a rack.",
+     "topics": [
+      "NVIDIA",
+      "Data centers"
+     ],
+     "source": "NVIDIA Technical Blog",
+     "url": "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/",
+     "date": "2026-11-13"
+    },
+    {
+     "title": "AMD MEXT keeps server performance with half the DRAM",
+     "body": "AMD MEXT is a predictive memory engine that uses a transformer model and flash storage to stand in for part of the DRAM. AMD says servers keep 95 to 99% of performance with half the DRAM. AMD runs it on 145 servers and plans 2,000 in 2027.",
+     "why": "It can ease memory shortages and cut server cost for AI and data workloads.",
+     "topics": [
+      "AMD",
+      "Data centers"
+     ],
+     "source": "Tom's Hardware",
+     "url": "https://www.tomshardware.com/tech-industry/this-week-in-toms-hardware-premium-november-14-2026-mac-studio-versus-dgx-spark-amds-mext-cuts-dram-requirements-in-half-and-the-huang-saga-reaches-critical-mass",
+     "date": "2026-11-14"
+    },
+    {
+     "title": "llama.cpp and ggml reach v1.0.0 with stable ABI",
+     "body": "ggml and llama.cpp released v1.0.0 about 3.5 years after the first commit. Public C headers now follow strict semantic versioning, so breaking changes need a major version bump. Backends cover NVIDIA, AMD, Qualcomm, Arm, IBM and Intel. The release reached 393 points on Hacker News.",
+     "why": "A stable C API and ABI makes local inference safer to embed in products across GPU vendors.",
+     "topics": [
+      "Chips",
+      "Architecture"
+     ],
+     "source": "Hugging Face blog",
+     "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+     "date": "2026-11-13",
+     "also": [
+      {
+       "section": "Pulse",
+       "source": "Hacker News · 393 points · 67 comments",
+       "url": "https://github.com/ggml-org/ggml/releases/tag/v1.0.0"
+      }
+     ]
+    },
+    {
+     "title": "SimpleHC cuts hyper-connection overhead to 2.4%",
+     "body": "Zhang et al. studied hyper-connection designs used in frontier language models. Their SimpleHC removes residual mixing and uses shared memory access. It adds only 2.4% end-to-end training time over a plain residual baseline. It matches mHC from 15B to 30B MoE models and trains stably.",
+     "why": "Cheaper residual designs lower training cost for large MoE models.",
+     "topics": [
+      "Architecture",
+      "AI research"
+     ],
+     "source": "Hugging Face Papers",
+     "url": "https://huggingface.co/papers/2611.05984",
+     "date": "2026-11-13"
+    }
+   ]
+  },
+  "ecosystem": {
+   "routine": "ecosystem",
+   "status": "done",
+   "headline": "Claude Code desktop adds custom theme mods and a theme-examples plugin.",
+   "filed": "2026-11-15T02:23:30Z",
+   "note": "",
+   "items": [
+    {
+     "title": "Plugins can now pin supported Claude Code versions",
+     "body": "Claude Code v2.1.323 adds engines[\"claude-code\"] in plugin.json to set a supported version range. Out-of-range plugins are not installed, updated or loaded. claude plugin validate now type-checks a plugin's TypeScript hooks module. Long-running hooks now send a heartbeat every 30 seconds.",
+     "why": "Plugin authors can stop breakage when users run an unsupported Claude Code version.",
+     "topics": [
+      "Plugins",
+      "Hooks",
+      "Claude Code"
+     ],
+     "source": "GitHub · anthropics/claude-code releases",
+     "url": "https://github.com/anthropics/claude-code/releases",
+     "date": "2026-11-12"
+    },
+    {
+     "title": "Browser vendors ship Modern Web Guidance skill pack",
+     "body": "Chrome, Edge, Firefox and MDN released Modern Web Guidance 1.0, an open-source skill pack that steers coding agents toward Baseline HTML, CSS and browser APIs. It works with Claude Code and other agent CLIs. Install with: npx modern-web-guidance@latest install. Run legacy-scan to audit a project.",
+     "why": "Coding agents write current, standards-based front-end code with less legacy output.",
+     "topics": [
+      "Skills",
+      "Claude Code"
+     ],
+     "source": "Chrome for Developers",
+     "url": "https://developer.chrome.com/docs/modern-web-guidance",
+     "date": "2026-11-11"
+    },
+    {
+     "title": "Resocket plugin checks built pages against Figma",
+     "body": "claude-resocket-plugin uses Uiprobe to compare a built page with a Figma frame. Claude then fixes the mismatches it finds. The repo was created on 14 November and has 50 stars.",
+     "why": "Front-end teams can close design-to-code gaps with an automatic check-and-fix loop.",
+     "topics": [
+      "Plugins",
+      "Claude Code"
+     ],
+     "source": "GitHub · Wolflakechip39019",
+     "url": "https://github.com/Wolflakechip39019/claude-resocket-plugin",
+     "date": "2026-11-14"
+    },
+    {
+     "title": "Skill turns AI text into ASD-STE100 style",
+     "body": "A r/ClaudeAI user turned a tip from Karpathy into a Claude skill. The skill rewrites AI text toward ASD-STE100 Simplified Technical English to make it easier to read. The post got 152 upvotes in a day.",
+     "why": "Docs and runbooks become shorter and clearer for global engineering teams.",
+     "topics": [
+      "Skills"
+     ],
+     "source": "Reddit · r/ClaudeAI · 152 upvotes",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1xw2fu8/i_turned_karpathys_80_of_the_way_to_asdste100_tip/",
+     "date": "2026-11-14"
+    },
+    {
+     "title": "Real Python publishes one-page Claude Code hooks reference",
+     "body": "Real Python released a free one-page PDF on Claude Code hooks. It covers the settings layout, lifecycle events and the exit-code contract. It also gives copy-paste hook scripts.",
+     "why": "DevOps teams can add guardrail hooks faster with the exit-code contract on one page.",
+     "topics": [
+      "Hooks",
+      "Claude Code"
+     ],
+     "source": "X · @realpython · 14 likes · 1 repost",
+     "url": "https://x.com/realpython/status/2121339915090690135",
+     "date": "2026-11-13"
+    }
+   ]
+  },
+  "x-desk": {
+   "routine": "x-desk",
+   "status": "done",
+   "headline": "NVIDIA launches GR00T 2, an open world-action model for robots, with 3,008 likes.",
+   "filed": "2026-11-15T02:23:30Z",
+   "note": "Read 24 posts in 3 searches; 4 posts from searches 1 and 2 passed the filter.",
+   "items": [
+    {
+     "title": "NVIDIA launches GR00T 2 open robotics model",
+     "body": "NVIDIA introduced GR00T 2, an open model for robotics research that learns skills from human demonstrations. It predicts how its actions will change the world before it moves. Skills transfer across robot bodies, so each robot needs less training.",
+     "why": "Open robot models trained on human video lower the cost of physical-AI pilots.",
+     "topics": [
+      "Open models",
+      "AI research"
+     ],
+     "source": "X · @nvidia · 3008 likes · 325 reposts",
+     "url": "https://x.com/nvidia/status/2121319866712076769",
+     "date": "2026-11-13"
+    },
+    {
+     "title": "NetBird ships MCP server for network management",
+     "body": "NetBird released an MCP server. Claude Code, Codex, Cursor or VS Code can manage peers, groups, policies, networks and DNS with the user's permissions. It uses OAuth sign-in and is read-only by default. Self-hosted users enable it with NB_MCP_ENABLED=true.",
+     "why": "Agents can manage zero-trust network peers and policies with scoped, read-only-by-default access.",
+     "topics": [
+      "MCP",
+      "AI tools"
+     ],
+     "source": "X · @netbird · 43 likes · 5 reposts",
+     "url": "https://x.com/netbird/status/2121613510908277222",
+     "date": "2026-11-14"
+    }
+   ]
+  },
+  "gadgets": {
+   "routine": "gadgets",
+   "status": "done",
+   "headline": "Apple opened orders for its first Home Collection doorbell and cameras, priced from $199.95.",
+   "filed": "2026-11-15T02:22:50Z",
+   "note": "GSMArena, SamMobile and Android Authority pages did not load; Samsung glasses pre-orders were already reported.",
+   "items": [
+    {
+     "title": "Apple Home Collection doorbell and cameras open for orders",
+     "body": "The first three Apple Home Collection accessories went on order on November 13. The LG Video Doorbell costs $249.95, the LG Indoor Camera $199.95 and the LG Outdoor Camera $299.95. Deliveries are estimated for mid-December. Apple says nearly 10 Home Collection accessories are coming, including thermostats, sensors and a smart lock.",
+     "why": "Apple now sells its own branded smart home security hardware, made with LG, for HomeKit users.",
+     "topics": [
+      "Smart home",
+      "Apple"
+     ],
+     "source": "9to5Mac",
+     "url": "https://9to5mac.com/2026/11/13/apple-homes-new-video-doorbell-smart-cameras-now-available-to-order/",
+     "date": "2026-11-13"
+    },
+    {
+     "title": "OPPO Pad Air 6 and Watch 5 join November 16 Reno 17 launch",
+     "body": "OPPO launches the Reno 17 and Reno 17 Pro in China on November 16 at 7:00 PM local time (4:30 PM IST). Pre-orders are open. The OPPO Pad Air 6 and OPPO Watch 5 are set to be unveiled at the same event. Confirmed colours are Cocoa Brown, First Snow White and Ice Moon White.",
+     "why": "OPPO adds a tablet and a watch to its China launch, which signals its next ecosystem lineup.",
+     "topics": [
+      "Phones",
+      "Tablets",
+      "Wearables"
+     ],
+     "source": "Beebom",
+     "url": "https://gadgets.beebom.com/news/all-upcoming-phones-launching-this-week-november-16-november-22",
+     "date": "2026-11-15"
+    }
+   ]
+  },
+  "tech-pulse": {
+   "routine": "tech-pulse",
+   "status": "done",
+   "headline": "Researchers found 24,664 Lovable-built apps that expose user data through missing Supabase security rules.",
+   "filed": "2026-11-15T02:22:50Z",
+   "note": "The Crissy Field research page did not load, so its facts come from Cybernews coverage. r/MachineLearning and r/devops had no high-value posts.",
+   "items": [
+    {
+     "title": "Lovable-built apps leak passports and 200,000 chat messages",
+     "body": "Security firm Crissy Field scanned 159,041 Lovable projects found in Common Crawl. Of 34,545 projects on Supabase, 24,664 returned database records without authentication. Exposed data included passport records, payment details, more than 200,000 chat messages and 80,000+ user profiles. The researchers blame missing or unconfigured Row Level Security rules; Lovable calls it a known Supabase configuration problem.",
+     "why": "AI app builders ship databases without access rules, so teams must audit Row Level Security before launch.",
+     "topics": [
+      "Security",
+      "AI tools"
+     ],
+     "source": "Hacker News · 508 points · 184 comments",
+     "url": "https://www.crissyfield.de/research/lovable-en/",
+     "date": "2026-11-14"
+    },
+    {
+     "title": "Claude Fable 5.2 free Pro access ends November 16",
+     "body": "Anthropic released Claude Fable 5.2 on November 9. Pro subscribers can use Fable at no extra cost until 11:59 p.m. PT on November 16, for up to 50% of the weekly limit. After that, Pro users pay for Fable with usage credits. API prices drop to $8 per million input tokens and $40 per million output tokens.",
+     "why": "Pro users must plan usage credits after launch week, and API users get lower Fable prices.",
+     "topics": [
+      "Claude",
+      "Claude Code"
+     ],
+     "source": "r/ClaudeAI · 334 upvotes",
+     "url": "https://www.notebookcheck.net/Claude-Fable-5-2-is-included-with-Pro-until-November-16.1446780.0.html",
+     "date": "2026-11-14"
+    },
+    {
+     "title": "Unsloth updates Qwen3.8-27B GGUFs with Dynamic v3.1 quants",
+     "body": "Unsloth re-released most 2-bit to 6-bit Qwen3.8-27B GGUFs with its Dynamic v3.1 method, which reports 5-10% higher accuracy at similar sizes. Qwen3.8-27B is a dense model with vision, reasoning and a 256K context. The 4-bit quant needs 16-19 GB of memory. An NVFP4 version runs about 1.5x faster than BF16 on Blackwell GPUs through vLLM 0.25.0 or SGLang.",
+     "why": "A strong 27B coding and agent model now runs in 16-19 GB at 4-bit with better accuracy.",
+     "topics": [
+      "Open models",
+      "AI tools"
+     ],
+     "source": "Hacker News · 238 points · 77 comments",
+     "url": "https://unsloth.ai/docs/models/qwen3.8",
+     "date": "2026-11-14"
+    }
+   ]
+  },
+  "aws-news": {
+   "routine": "aws-news",
+   "status": "done",
+   "headline": "Amazon Bedrock AgentCore Identity now accepts OAuth 2.0 discovery URLs, not only OpenID Connect ones.",
+   "filed": "2026-11-15T02:22:50Z",
+   "note": "The AWS News Blog had no posts after November 11. No new aws, awslabs or aws-samples repo met the star thresholds.",
+   "items": [
+    {
+     "title": "AgentCore Identity accepts OAuth 2.0 discovery URLs",
+     "body": "Amazon Bedrock AgentCore Identity now supports OAuth 2.0 authorization server discovery endpoints. This applies to inbound JWT authorizers and outbound custom OAuth credential providers. Before, AgentCore accepted only OpenID Connect discovery endpoints. The feature has no extra cost in all Regions with AgentCore.",
+     "why": "Agents can now connect to OAuth 2.0 servers that do not support OpenID Connect.",
+     "topics": [
+      "Bedrock",
+      "Agents",
+      "Security"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/bedrock-agentcore-oauth2-discovery/",
+     "date": "2026-11-13"
+    },
+    {
+     "title": "Secrets Manager adds cross-account secret replication",
+     "body": "AWS Secrets Manager now replicates a primary secret to a secondary AWS account and keeps the copy in sync. Use cases include cross-account access, backup and disaster recovery. The feature is available in all Regions where Secrets Manager is available. Pricing follows the Secrets Manager pricing page.",
+     "why": "Teams can keep secret copies in a separate account for backup and disaster recovery.",
+     "topics": [
+      "Security"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/secrets-manager-cross-account/",
+     "date": "2026-11-13"
+    },
+    {
+     "title": "Security Hub CSPM uses Organizations declarative policies",
+     "body": "AWS Security Hub CSPM now supports AWS Organizations declarative policies. The policies turn on the service and select standards and controls for all accounts and Regions, or for chosen combinations. They apply automatically to new accounts. AWS now recommends them over central configuration, and you can migrate in the console.",
+     "why": "Security teams can enforce standards and controls across all accounts and Regions from one policy.",
+     "topics": [
+      "Security",
+      "DevOps"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/security-hub-cspm-org-policies/",
+     "date": "2026-11-13"
+    },
+    {
+     "title": "AWS Batch on EKS adds seccomp and Linux capabilities",
+     "body": "AWS Batch on Amazon EKS now supports Linux capabilities, seccomp profiles and pod-level security settings. You set them in RegisterJobDefinition, in a container securityContext or pod-wide in podProperties. Container-level settings override pod-level defaults. The feature is available in all Regions with AWS Batch.",
+     "why": "Batch jobs can now run on clusters that enforce the restricted Pod Security Standard.",
+     "topics": [
+      "Kubernetes",
+      "Containers",
+      "Security"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-batch-eks-security-context/",
+     "date": "2026-11-13"
+    },
+    {
+     "title": "Systems Manager onboards Google Cloud VMs without agents",
+     "body": "AWS Systems Manager Cloud Connector now onboards existing Google Cloud VMs without manual agent installs. Connected VMs appear next to EC2, on-premises and Azure resources. You can use Session Manager, Run Command and Patch Manager on them. Supported Regions include Mumbai and Hyderabad.",
+     "why": "Multicloud teams can patch and access Google Cloud VMs with the same AWS tools as EC2.",
+     "topics": [
+      "DevOps"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/systems-manager-google-cloud-support/",
+     "date": "2026-11-13"
+    },
+    {
+     "title": "CloudFormation deploys Aurora PostgreSQL express configuration",
+     "body": "CloudFormation now supports Aurora PostgreSQL clusters with express configuration. A new createOnly property, withExpressConfiguration, on AWS::RDS::DBCluster creates the cluster and its primary instance from one declaration. It works in all Regions that offer Aurora PostgreSQL express configuration.",
+     "why": "Infrastructure-as-code users can create an express Aurora cluster and instance in one resource.",
+     "topics": [
+      "DevOps",
+      "Serverless"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aurora-postgresql-cloudformation/",
+     "date": "2026-11-13"
+    }
+   ]
+  },
+  "layoffs": {
+   "routine": "layoffs",
+   "status": "done",
+   "headline": "Qualcomm's India job cuts are reported to reach about 1,500 roles in RF, Bluetooth, Wi-Fi and GNSS teams.",
+   "filed": "2026-11-15T02:22:50Z",
+   "note": "TrueUp did not load; GoLayoffs listed no new entries after November 5. Coursera's 10% cut (November 9) falls outside the 48-hour window.",
+   "items": [
+    {
+     "title": "Qualcomm India cuts reportedly widen to about 1,500 jobs",
+     "body": "CXO Digital Pulse reports that Qualcomm's restructuring in India will affect about 1,500 employees, out of an estimated 18,000 in the country. Earlier reports put the number at about 1,000. The cuts are reported to focus on RF, Bluetooth, Wi-Fi and GNSS engineering teams. The report cites unnamed sources, and Qualcomm has not confirmed the number.",
+     "why": "Chip engineering cuts in India affect a large RF and connectivity talent pool.",
+     "topics": [
+      "Layoffs",
+      "India IT"
+     ],
+     "source": "CXO Digital Pulse",
+     "url": "https://www.cxodigitalpulse.com/qualcomm-reportedly-plans-major-workforce-restructuring-in-india-affecting-around-1500-employees/",
+     "date": "2026-11-13",
+     "company": "Qualcomm",
+     "count": 1500,
+     "pct": null,
+     "country": "India",
+     "location": "India",
+     "industry": "Semiconductors",
+     "kind": "layoff"
+    }
+   ]
+  }
+ },
+ "briefing": "Good morning. This is The Nexos Daily for Sunday, 15 November 2026.\n\nAnthropic published 10 recommendations for strong AI safety evaluations. The guide says to run evals in an offline sandbox, to measure an appropriate response rate instead of a refusal rate, and to register metrics before the test. It sets a minimum of 100 items for multi-turn evals and 1,000 for single-turn evals.\n\nIn security, researchers scanned more than 34 thousand Lovable projects on Supabase. 24,664 of them returned database records without authentication, because Row Level Security rules were missing. Cursor updated its report on the late October incident. Tampered builds 2.1.312 and 2.1.313 of the Claude Code extension stayed in the cache for about 11 hours and reached at most 5,000 users. Check which build you installed.\n\nIn the Claude ecosystem, the Claude Code desktop app now supports custom theme mods. The Projects coordinator now answers in the project chat and posts live status for worker threads. Chrome, Edge, Firefox and MDN released Modern Web Guidance, a skill pack that steers coding agents toward current web standards. Free Fable 5.2 access on the Pro plan ends on 16 November.\n\nIn models, a new coding agent index puts Claude Fable 5.2 and Claude Opus 5.5 in a tie at 58 points. Thinking Machines released Inkling 2 Small, an open 594 billion parameter model with 17 billion active. DeepSeek opened its app tools through an Anthropic-compatible API. OpenAI started ChatGPT Wallet for agent payments. Google's Antigravity teamwork feature ported an AV1 decoder to Rust and tuned TPU kernels about 4 times faster.\n\nIn chips, NVIDIA served the 753 billion parameter GLM 5.3 across two DGX Stations at about 608 tokens per second. AMD MEXT keeps server performance with half the DRAM. The ggml and llama.cpp projects reached version 1.0 with a stable API.\n\nOn AWS, AgentCore Identity now accepts OAuth 2.0 discovery URLs. Secrets Manager can replicate secrets to another account. Security Hub CSPM now uses Organizations declarative policies. AWS Batch on EKS added seccomp profiles and Linux capabilities. Systems Manager now onboards Google Cloud VMs without agents.\n\nIn layoffs, reports say Qualcomm's cuts in India may reach about 1,500 jobs. Qualcomm has not confirmed the number.\n\nIn gadgets, Apple opened orders for its first Home Collection doorbell and cameras, from 199 dollars and 95 cents.\n\nOn GitHub, the fastest-growing new repo is antialgorithm, a Claude Code skill for less average creative output.\n\nThe Week in review for 9 to 15 November is now on the site.\n\nThat is the news for today."
+}

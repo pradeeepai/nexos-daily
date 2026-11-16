@@ -1,6 +1,11 @@
 {
  "editions": [
   {
+   "date": "2026-11-15",
+   "stories": 32,
+   "headline": "Anthropic publishes 10 rules for strong safety evaluations"
+  },
+  {
    "date": "2026-11-14",
    "stories": 34,
    "headline": "Claude Managed Agents can now run self-hosted"
