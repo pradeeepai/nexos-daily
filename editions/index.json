@@ -1,6 +1,11 @@
 {
  "editions": [
   {
+   "date": "2026-11-16",
+   "stories": 20,
+   "headline": "Claude Code v2.1.323 adds Code Mode and plugin version gating"
+  },
+  {
    "date": "2026-11-15",
    "stories": 32,
    "headline": "Anthropic publishes 10 rules for strong safety evaluations"

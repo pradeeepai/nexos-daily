@@ -442,7 +442,7 @@
     "AI",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-15"
+   "last_seen": "2026-11-16"
   },
   "anthropics/single-agent-loop-kit": {
    "first_seen": "2026-10-25",
@@ -763,7 +763,7 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-16",
    "reported": {
     "2026-10-26": 1660,
     "2026-10-27": 2074,
@@ -774,7 +774,8 @@
     "2026-11-10": 6426,
     "2026-11-11": 6706,
     "2026-11-13": 7433,
-    "2026-11-15": 7833
+    "2026-11-15": 7833,
+    "2026-11-16": 8063
    }
   },
   "udhaykumarbala/cleanyourtv-app": {
@@ -1379,7 +1380,7 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-16",
    "reported": {
     "2026-10-29": 200,
     "2026-10-31": 1432,
@@ -1387,7 +1388,8 @@
     "2026-11-10": 4401,
     "2026-11-11": 5028,
     "2026-11-13": 5468,
-    "2026-11-15": 5688
+    "2026-11-15": 5688,
+    "2026-11-16": 5838
    }
   },
   "amosblomqvist/learnharness": {
@@ -1486,7 +1488,7 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-16",
    "reported": {
     "2026-10-30": 26,
     "2026-11-01": 2802,
@@ -1503,7 +1505,8 @@
     "2026-11-12": 8257,
     "2026-11-13": 8409,
     "2026-11-14": 8531,
-    "2026-11-15": 8626
+    "2026-11-15": 8626,
+    "2026-11-16": 8774
    }
   },
   "yc-software/minecraft-agent-harness": {
@@ -1635,7 +1638,7 @@
     "Trending",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-16",
    "reported": {
     "2026-10-31": 339,
     "2026-11-02": 2682,
@@ -1650,7 +1653,8 @@
     "2026-11-11": 6687,
     "2026-11-12": 7002,
     "2026-11-13": 7186,
-    "2026-11-15": 7470
+    "2026-11-15": 7470,
+    "2026-11-16": 7640
    }
   },
   "Pluviobyte/douyin-comments": {
@@ -1806,7 +1810,7 @@
     "Trending",
     "Pulse"
    ],
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-16",
    "reported": {
     "2026-11-01": 2840,
     "2026-11-02": 8079,
@@ -1822,7 +1826,8 @@
     "2026-11-12": 22514,
     "2026-11-13": 22759,
     "2026-11-14": 23028,
-    "2026-11-15": 23149
+    "2026-11-15": 23149,
+    "2026-11-16": 23380
    }
   },
   "wiva-hq/CodeRail": {
@@ -1979,7 +1984,7 @@
     "Trending",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-16",
    "reported": {
     "2026-11-01": 3574,
     "2026-11-02": 4933,
@@ -1995,7 +2000,8 @@
     "2026-11-12": 14575,
     "2026-11-13": 15166,
     "2026-11-14": 15695,
-    "2026-11-15": 16048
+    "2026-11-15": 16048,
+    "2026-11-16": 16913
    }
   },
   "ninjahawk/livenerf": {
@@ -2177,10 +2183,11 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-16",
    "reported": {
     "2026-11-02": 1824,
-    "2026-11-03": 2261
+    "2026-11-03": 2261,
+    "2026-11-16": 4565
    }
   },
   "microsoft/TokenEconomizer": {
@@ -2426,7 +2433,7 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-16",
    "reported": {
     "2026-11-04": 578,
     "2026-11-05": 2611,
@@ -2438,7 +2445,8 @@
     "2026-11-11": 4437,
     "2026-11-12": 4534,
     "2026-11-13": 4814,
-    "2026-11-15": 5350
+    "2026-11-15": 5350,
+    "2026-11-16": 5576
    }
   },
   "RUC-NLPIR/CoworkOS": {
@@ -3263,14 +3271,15 @@
     "Trending",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-16",
    "reported": {
     "2026-11-09": 338,
     "2026-11-10": 2213,
     "2026-11-12": 5944,
     "2026-11-13": 7816,
     "2026-11-14": 8298,
-    "2026-11-15": 8645
+    "2026-11-15": 8645,
+    "2026-11-16": 9191
    }
   },
   "synchopate/llama-modchip": {
@@ -3310,12 +3319,13 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-14",
+   "last_seen": "2026-11-16",
    "reported": {
     "2026-11-10": 104,
     "2026-11-11": 314,
     "2026-11-13": 460,
-    "2026-11-14": 490
+    "2026-11-14": 490,
+    "2026-11-16": 707
    }
   },
   "ryanrhughes/t3code-wow": {
@@ -3337,11 +3347,12 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-16",
    "reported": {
     "2026-11-10": 38,
     "2026-11-11": 149,
-    "2026-11-15": 415
+    "2026-11-15": 415,
+    "2026-11-16": 536
    }
   },
   "bookleme/bookleme": {
@@ -3427,13 +3438,14 @@
     "Trending",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-16",
    "reported": {
     "2026-11-11": 180,
     "2026-11-12": 448,
     "2026-11-13": 593,
     "2026-11-14": 663,
-    "2026-11-15": 759
+    "2026-11-15": 759,
+    "2026-11-16": 860
    }
   },
   "alexeyw/lot-map": {
@@ -3444,13 +3456,14 @@
     "Trending",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-16",
    "reported": {
     "2026-11-11": 91,
     "2026-11-12": 410,
     "2026-11-13": 614,
     "2026-11-14": 738,
-    "2026-11-15": 836
+    "2026-11-15": 836,
+    "2026-11-16": 902
    }
   },
   "pktq/lasik": {
@@ -3577,10 +3590,11 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-16",
    "reported": {
     "2026-11-12": 23,
-    "2026-11-15": 342
+    "2026-11-15": 342,
+    "2026-11-16": 366
    }
   },
   "molly554/whiteboard-ai-tutor": {
@@ -3626,12 +3640,13 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-16",
    "reported": {
     "2026-11-12": 435,
     "2026-11-13": 967,
     "2026-11-14": 1286,
-    "2026-11-15": 1501
+    "2026-11-15": 1501,
+    "2026-11-16": 1716
    }
   },
   "vzroslieigry/maxagent": {
@@ -3786,11 +3801,12 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-16",
    "reported": {
     "2026-11-13": 1192,
     "2026-11-14": 1345,
-    "2026-11-15": 1405
+    "2026-11-15": 1405,
+    "2026-11-16": 1570
    }
   },
   "gogoymh/auto-ontology-mcp": {
@@ -4107,6 +4123,184 @@
     "Claude Ecosystem"
    ],
    "last_seen": "2026-11-15"
+  },
+  "AI4XE/Parallax": {
+   "first_seen": "2026-11-16",
+   "kind": "Plugin",
+   "description": "A plugin that lets coding agents such as Claude Code run development work hands-off.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-16",
+   "reported": {
+    "2026-11-16": 62
+   }
+  },
+  "diego3g/craft": {
+   "first_seen": "2026-11-16",
+   "kind": "Skill",
+   "description": "Design skills for AI agents that write a design brief and then design screens from it.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-16",
+   "reported": {
+    "2026-11-16": 57
+   }
+  },
+  "ineedfoundmyway/planrelay": {
+   "first_seen": "2026-11-16",
+   "kind": "Dev tool",
+   "description": "A local-first workspace to annotate and review agent plans and code, built on Plannotator.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-16",
+   "reported": {
+    "2026-11-16": 50
+   }
+  },
+  "petekp/coordinator": {
+   "first_seen": "2026-11-16",
+   "kind": "Plugin",
+   "description": "Turns one Claude Code session into a coordinator that runs, watches and cleans up a fleet of agents.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-16",
+   "reported": {
+    "2026-11-16": 37
+   }
+  },
+  "nadim-sheikh/AccountDeck": {
+   "first_seen": "2026-11-16",
+   "kind": "Dev tool",
+   "description": "A macOS menu bar app to switch between Claude, Claude Code, Codex and ChatGPT accounts.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-16",
+   "reported": {
+    "2026-11-16": 28
+   }
+  },
+  "suzhe-ai/suzhe-ui": {
+   "first_seen": "2026-11-16",
+   "kind": "Skill",
+   "description": "A Claude Skill that packages the web design method behind suzhe.ai.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-16",
+   "reported": {
+    "2026-11-16": 19
+   }
+  },
+  "samo33ddd/winmux": {
+   "first_seen": "2026-11-16",
+   "kind": "Dev tool",
+   "description": "A minimal Windows terminal multiplexer for AI coding agents, inspired by cmux.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-16",
+   "reported": {
+    "2026-11-16": 18
+   }
+  },
+  "BlackBuddle/hwpx-docs": {
+   "first_seen": "2026-11-16",
+   "kind": "Skill",
+   "description": "A Claude skill to make, read, check and preview Hancom Hangul HWPX documents.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-16",
+   "reported": {
+    "2026-11-16": 15
+   }
+  },
+  "vellwarren/the-conversation-is-yours": {
+   "first_seen": "2026-11-16",
+   "kind": "Agent framework",
+   "description": "A reference architecture for long-lived AI assistants where the application owns the state.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-16",
+   "reported": {
+    "2026-11-16": 15
+   }
+  },
+  "skanehira/claude-timeline": {
+   "first_seen": "2026-11-16",
+   "kind": "Plugin",
+   "description": "Timeline mods that add a session timeline to Claude Code.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-16",
+   "reported": {
+    "2026-11-16": 10
+   }
+  },
+  "berkantay/gpucanvas": {
+   "first_seen": "2026-11-16",
+   "kind": "Dev tool",
+   "description": "Puts thousands of live DOM nodes on an infinite canvas that the GPU draws.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-16",
+   "reported": {
+    "2026-11-16": 495
+   }
+  },
+  "Tthanh2k6/turbo-browser-mcp": {
+   "first_seen": "2026-11-16",
+   "kind": "MCP server",
+   "description": "A Playwright MCP server that cuts agent turns and tokens with one-call form filling and DOM deltas.",
+   "seen_in": [
+    "Trending",
+    "Claude Ecosystem"
+   ],
+   "last_seen": "2026-11-16",
+   "reported": {
+    "2026-11-16": 115
+   }
+  },
+  "claynicholson/copper-kicad-mcp": {
+   "first_seen": "2026-11-16",
+   "kind": "MCP server",
+   "description": "An MCP server that lets AI apps design orderable KiCad circuit boards.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-16",
+   "reported": {
+    "2026-11-16": 102
+   }
+  },
+  "vercel-labs/ui": {
+   "first_seen": "2026-11-16",
+   "kind": "Dev tool",
+   "description": "A library of UI behaviors that agents use to build interfaces.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-16",
+   "reported": {
+    "2026-11-16": 5066
+   }
+  },
+  "aws/aws-emulator-evaluation-suite": {
+   "first_seen": "2026-11-16",
+   "kind": "Other",
+   "description": "AWS publishes fidelity test suite for AWS Emulator",
+   "seen_in": [
+    "Cloud"
+   ],
+   "last_seen": "2026-11-16"
   }
  }
 }

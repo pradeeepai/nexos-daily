@@ -1,0 +1,361 @@
+{
+ "date": "2026-11-16",
+ "generated": "2026-11-16T07:57:44Z",
+ "sections": {
+  "tech-news": {
+   "routine": "tech-news",
+   "status": "done",
+   "headline": "Claude Code v2.1.323 adds experimental Code Mode, plugin version gating and Bash permission fixes.",
+   "filed": "2026-11-16T07:58:00Z",
+   "note": "Quiet Sunday window; no new major-lab model launch was confirmed in the window because web search was unavailable during this run.",
+   "items": [
+    {
+     "title": "Claude Code v2.1.323 adds Code Mode and plugin version gating",
+     "body": "Code Mode is experimental and opt-in: Claude writes JavaScript to call its tools. engines[\"claude-code\"] in plugin.json now controls which Claude Code versions can load a plugin, and claude plugin validate type-checks TypeScript hooks. The release closes several Bash permission gaps, including wildcard allow rules, sudo/env wrappers and writes to .git or .claude.",
+     "why": "Plugin authors can pin supported versions, and the Bash permission fixes close real sandbox gaps.",
+     "topics": [
+      "Claude Code",
+      "Security",
+      "Agents"
+     ],
+     "source": "GitHub · anthropics/claude-code",
+     "url": "https://github.com/anthropics/claude-code/releases",
+     "date": "2026-11-12",
+     "also": [
+      {
+       "section": "Claude Ecosystem",
+       "source": "GitHub · anthropics/claude-code",
+       "url": "https://github.com/anthropics/claude-code/releases"
+      }
+     ]
+    },
+    {
+     "title": "Claude Fable 5.2 is now the default Fable model",
+     "body": "Anthropic introduced Claude Fable 5.2 and Claude Mythos 5.2. Claude Code v2.1.321 made claude-fable-5-2 the default Fable model with 1M context. Pricing is $8 input and $40 output per million tokens, with cache reads at $0.20 per million tokens.",
+     "why": "Teams get a 1M-context default model with clear per-token pricing for agent workloads.",
+     "topics": [
+      "Claude",
+      "New models"
+     ],
+     "source": "Anthropic News; Claude Code release notes",
+     "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+     "date": "2026-11-09",
+     "also": [
+      {
+       "section": "Trending on X",
+       "source": "X · author id 1224538644247203844 · 39 likes · 4 reposts",
+       "url": "https://x.com/i/status/2121703811492491709"
+      }
+     ]
+    },
+    {
+     "title": "Claude Code fast mode now runs on Google Vertex AI",
+     "body": "Claude Code v2.1.322 enables fast mode on Vertex in the global, us and eu regions. If Vertex refuses fast mode, Claude Code falls back to standard speed.",
+     "why": "Teams that run Claude through Vertex get faster output in global, US and EU regions.",
+     "topics": [
+      "Claude Code",
+      "DevOps"
+     ],
+     "source": "GitHub · anthropics/claude-code",
+     "url": "https://github.com/anthropics/claude-code/releases",
+     "date": "2026-11-10"
+    },
+    {
+     "title": "Claude Code security fixes harden MCP OAuth and sandbox",
+     "body": "Claude Code v2.1.321 stops MCP OAuth from sending refresh tokens to a different host after a redirect. Read-only Bash commands can no longer run outside the sandbox without a prompt. Deny rules now also apply to cp and mv destinations.",
+     "why": "MCP OAuth secrets and sandbox escapes are direct risks in agent pipelines.",
+     "topics": [
+      "Claude Code",
+      "MCP",
+      "Security"
+     ],
+     "source": "GitHub · anthropics/claude-code",
+     "url": "https://github.com/anthropics/claude-code/releases",
+     "date": "2026-11-09"
+    },
+    {
+     "title": "Claude Code and Codex reverse-engineer a 1994 Jeep ECU",
+     "body": "A video shows Claude Code and Codex reverse-engineering the engine control unit of a 1994 Jeep through a $3 Arduino. The story reached the Hacker News front page with 237 points.",
+     "why": "It shows coding agents doing hardware reverse engineering with cheap tools.",
+     "topics": [
+      "Claude Code",
+      "AI tools",
+      "Agents"
+     ],
+     "source": "Hacker News · 237 points",
+     "url": "https://www.youtube.com/watch?v=WPj3aQ-xxpI",
+     "date": "2026-11-15",
+     "also": [
+      {
+       "section": "Pulse",
+       "source": "Hacker News · 237 points · 107 comments",
+       "url": "https://www.youtube.com/watch?v=WPj3aQ-xxpI"
+      }
+     ]
+    },
+    {
+     "title": "Guide explains positional embeddings in modern LLMs",
+     "body": "Sebastian Raschka published a guide to positional embeddings in modern LLMs. It reached the Hacker News front page with 172 points.",
+     "why": "Positional encoding choices drive long-context behaviour of the models engineers deploy.",
+     "topics": [
+      "AI research"
+     ],
+     "source": "Sebastian Raschka · Ahead of AI",
+     "url": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
+     "date": "2026-11-15",
+     "also": [
+      {
+       "section": "Pulse",
+       "source": "Hacker News · 172 points · 14 comments",
+       "url": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings"
+      }
+     ]
+    },
+    {
+     "title": "Field notes map conversation state space inside Qwen",
+     "body": "A post studies what thousands of conversations look like inside a Qwen language model's internal state space. It reached the Hacker News front page with 96 points.",
+     "why": "Interpretability work helps engineers understand how models track dialogue state.",
+     "topics": [
+      "AI research",
+      "Open models"
+     ],
+     "source": "operator0x · Hacker News",
+     "url": "https://operator0x.com/field-notes/qwen-conversation-state-space/",
+     "date": "2026-11-15"
+    }
+   ]
+  },
+  "chips": {
+   "routine": "chips",
+   "status": "done",
+   "headline": "AMD makes 6th Gen EPYC (Zen 6) generally available with up to 256 cores on TSMC 2 nm.",
+   "filed": "2026-11-16T07:58:00Z",
+   "note": "",
+   "items": [
+    {
+     "title": "AMD 6th Gen EPYC Zen 6 reaches general availability",
+     "body": "The flagship EPYC 9996 uses TSMC 2 nm, with 256 cores per socket, 16 DDR5-8000 channels, 128 PCIe 6.0 lanes and CXL 3.1. Default CPU Power is 600 W and the suggested price is $14,904 per socket. AMD claims 2.2x an Intel Xeon 6980P on AMD-chosen workloads. Systems ship through vendors, Microsoft Azure and Oracle Cloud Infrastructure.",
+     "why": "Host CPUs with PCIe 6.0 and CXL 3.1 feed the next round of AI servers and cloud instances.",
+     "topics": [
+      "AMD",
+      "Data centers",
+      "Chips"
+     ],
+     "source": "Rio Rundown (AI News, Nov 15, 2026)",
+     "url": "https://riorundown.substack.com/p/ai-news-nov-15-2026-ai-infrastructure",
+     "date": "2026-11-15"
+    },
+    {
+     "title": "Google confidential TPU 8tx pairs with AMD EPYC hosts",
+     "body": "Google pairs TPU 8t accelerators with fifth-generation AMD EPYC processors for confidential VMs. AMD Secure Encrypted Virtualization provides isolation. Axion-based confidential VMs cannot yet attach to TPUs.",
+     "why": "Confidential computing on TPUs lets regulated workloads run on Google accelerators.",
+     "topics": [
+      "Google TPU",
+      "AMD",
+      "Data centers"
+     ],
+     "source": "Rio Rundown (AI News, Nov 15, 2026)",
+     "url": "https://riorundown.substack.com/p/ai-news-nov-15-2026-ai-infrastructure",
+     "date": "2026-11-15"
+    },
+    {
+     "title": "Stanford Memorilla compresses documents into 16 memory tokens",
+     "body": "Memorilla is an open-source latent memory module with 194M trainable parameters for a frozen Qwen3-8B. It reached 84.33% on FactKG with 108x fewer document tokens than full-context prompting. On PubMedQA it scored 59.00%, behind LLMLingua-2 at 69.00%. Training took about 19 hours on four H100 GPUs.",
+     "why": "Latent memory can cut context cost for retrieval-heavy agents.",
+     "topics": [
+      "AI research",
+      "Architecture"
+     ],
+     "source": "MarkTechPost",
+     "url": "https://www.marktechpost.com/2026/11/14/stanford-memorilla-memory-system-16-memory-tokens",
+     "date": "2026-11-14"
+    },
+    {
+     "title": "Embodied First Exam benchmark tests coding agents on robots",
+     "body": "A multi-institution team released an open benchmark for coding agents that direct robots. It covers 1,156 tasks, 35 suites and 47 robot bodies. It has three protocols: standard, real-time with latency penalties, and privileged with ground-truth access.",
+     "why": "It gives a common test for agents that control physical systems.",
+     "topics": [
+      "AI research"
+     ],
+     "source": "Rio Rundown (AI News, Nov 15, 2026)",
+     "url": "https://riorundown.substack.com/p/ai-news-nov-15-2026-ai-infrastructure",
+     "date": "2026-11-15"
+    }
+   ]
+  },
+  "ecosystem": {
+   "routine": "ecosystem",
+   "status": "done",
+   "headline": "Claude Code v2.1.323 lets plugins declare supported Claude Code versions and type-checks hooks.",
+   "filed": "2026-11-16T07:58:00Z",
+   "note": "GitHub and Reddit sources could not be read this run because tool checks failed.",
+   "items": [
+    {
+     "title": "Turbo-Browser-MCP adds batch forms and DOM deltas",
+     "body": "Turbo-Browser-MCP is an MCP server for browser automation. It adds batch form filling, DOM deltas and submit guards. It was a Show HN with 46 points.",
+     "why": "It cuts tokens and round trips for browser-driving agents.",
+     "topics": [
+      "MCP"
+     ],
+     "source": "GitHub · Tthanh2k6 · Hacker News 46 points",
+     "url": "https://github.com/Tthanh2k6/turbo-browser-mcp",
+     "date": "2026-11-15",
+     "also": [
+      {
+       "section": "Pulse",
+       "source": "Hacker News · 46 points · 9 comments",
+       "url": "https://github.com/Tthanh2k6/turbo-browser-mcp"
+      }
+     ]
+    },
+    {
+     "title": "Blip plugin types Claude replies with game sounds",
+     "body": "Blip is a free, open-source Claude Code plugin written by Claude Code. It types Claude's replies letter by letter with a video-game blip sound. It has 9 built-in voices plus community voices.",
+     "why": "It shows how small plugins can change Claude Code output style.",
+     "topics": [
+      "Plugins",
+      "Claude Code"
+     ],
+     "source": "X · 37 likes",
+     "url": "https://x.com/i/status/2121834327977644326",
+     "date": "2026-11-15"
+    }
+   ]
+  },
+  "x-desk": {
+   "routine": "x-desk",
+   "status": "done",
+   "headline": "swyx reports the AI Engineer day 1 coding-agent livestream passed 100k views in record time.",
+   "filed": "2026-11-16T07:58:00Z",
+   "note": "Read 27 posts in 3 searches; 2 passed the filter. The parsing tool failed, so only preview posts were ranked.",
+   "items": [
+    {
+     "title": "Coding-agent livestream passes 100k views in record time",
+     "body": "swyx reports that the day 1 livestream passed 100k views faster than any before. The stream covered coding agent practices and the agent landscape. He calls this format his strongest product-market fit.",
+     "why": "It shows strong demand for practical coding-agent practices.",
+     "topics": [
+      "Agents",
+      "AI tools"
+     ],
+     "source": "X · @swyx · 249 likes · 4 reposts",
+     "url": "https://x.com/swyx/status/2121896675048587765",
+     "date": "2026-11-15"
+    }
+   ]
+  },
+  "gadgets": {
+   "routine": "gadgets",
+   "status": "done",
+   "headline": "Xiaomi confirms the global launch of the Xiaomi 18 Pro and 18 Pro Max in Paris on November 17.",
+   "filed": "2026-11-16T07:49:30Z",
+   "note": "GSMArena's news page returned only old items; a quiet weekend gave few official launches, and the Vivo X500 India date is still only tipped, so it is left out.",
+   "items": [
+    {
+     "title": "Xiaomi 18 Pro and 18 Pro Max launch globally on November 17",
+     "body": "Xiaomi will launch the 18 Pro and 18 Pro Max globally on November 17, 2026, at 2:00 PM in Paris (6:30 PM IST). Both phones have a rear display beside the cameras, LTPO OLED panels and a 200 MP main camera, a 200 MP periscope telephoto and a 50 MP ultrawide. The Pro Max uses the Snapdragon 8 Elite Extreme Gen 6. The 18 Pro is confirmed for India, but no India date is given.",
+     "why": "The 18 Pro is confirmed for India, so Indian buyers get a new flagship option soon.",
+     "topics": [
+      "Phones"
+     ],
+     "source": "Beebom",
+     "url": "https://gadgets.beebom.com/news/all-upcoming-phones-launching-this-week-november-16-november-22",
+     "date": "2026-11-16"
+    },
+    {
+     "title": "Oppo launches Reno 17 series, Pad Air 6 and Watch 5",
+     "body": "Oppo launches the Reno 17 and Reno 17 Pro in China on November 16, 2026, at 7:00 PM local time (4:30 PM IST). Both phones are already on pre-order in China in Cocoa Brown, First Snow White and Ice Moon White, plus an Adventure Cat edition with a glowing back. The Oppo Pad Air 6 and Watch 5 launch at the same event. Oppo has not confirmed an India launch.",
+     "why": "Oppo's mid-range Reno line usually reaches India later, so this sets the next India lineup.",
+     "topics": [
+      "Phones",
+      "Tablets",
+      "Wearables"
+     ],
+     "source": "Beebom",
+     "url": "https://gadgets.beebom.com/news/all-upcoming-phones-launching-this-week-november-16-november-22",
+     "date": "2026-11-16"
+    }
+   ]
+  },
+  "tech-pulse": {
+   "routine": "tech-pulse",
+   "status": "done",
+   "headline": "A video of Claude Code and Codex reverse engineering a 1994 Jeep ECU over a $3 Arduino led AI talk on Hacker News.",
+   "filed": "2026-11-16T07:55:00Z",
+   "note": "Reddit returned HTTP 429 (rate limit) through Composio, so this edition uses Hacker News only; two linked pages (YouTube and operator0x.com) did not load.",
+   "items": [
+    {
+     "title": "Researchers report memory safety bugs in Rust standard library",
+     "body": "FORGE Lab cites about 13 issues across three bug patterns in the Rust standard library. Affected APIs include Iterator::map_windows, BTreeMap::insert with custom allocators, str::replace, the Pattern APIs, process::exit and CommandExt::exec. The team found some bugs with an AI-powered scanner and manual research. Several fixes have landed, and some issues remain open.",
+     "why": "Rust users depend on std soundness, and some fixes are still open.",
+     "topics": [
+      "Security",
+      "AI tools"
+     ],
+     "source": "Hacker News · 186 points · 189 comments",
+     "url": "https://forge-blog.github.io/posts/rust-std-memory-safety/",
+     "date": "2026-11-15"
+    },
+    {
+     "title": "Kiri launches as a Rust container runtime compatible with Docker",
+     "body": "Kiri is a free, open-source container runtime for Mac, Windows and Linux, written in Rust. It works with the docker CLI, Compose, buildx, the Docker Engine API, OCI images and Dockerfiles. Its own benchmark shows docker run in 22 ms on a Mac versus 178 ms on Docker Desktop. It also adds Kubernetes and Linux machines.",
+     "why": "Developers get a faster local Docker Desktop alternative without changing commands.",
+     "topics": [
+      "DevOps"
+     ],
+     "source": "Hacker News · 86 points · 33 comments",
+     "url": "https://runkiri.com/",
+     "date": "2026-11-15"
+    }
+   ]
+  },
+  "aws-news": {
+   "routine": "aws-news",
+   "status": "done",
+   "headline": "AWS publishes a fidelity test suite that checks how closely AWS Emulator matches real AWS behavior.",
+   "filed": "2026-11-16T07:50:30Z",
+   "note": "The What's New feed, the AWS News Blog and the Machine Learning blog had no posts after November 13; the repo page showed 3 stars while the GitHub API showed 52, and the API count is used here.",
+   "items": [
+    {
+     "title": "AWS publishes fidelity test suite for AWS Emulator",
+     "body": "The aws-emulator-evaluation-suite repo holds behavioral fidelity tests for AWS Emulator and a CLI runner. Each test is a boto3 script that checks AWS behavior against a local emulator endpoint. Install with uv sync --locked --extra checks, then run uv run fidelity-tests-runner run with the endpoint; a summarize command scores results by service. AI agents maintain the repo, it takes no pull requests, and the license is CC0-1.0.",
+     "why": "Teams that test locally on AWS Emulator can measure where it differs from real AWS.",
+     "topics": [
+      "DevOps"
+     ],
+     "source": "GitHub · aws/aws-emulator-evaluation-suite · 52 stars",
+     "url": "https://github.com/aws/aws-emulator-evaluation-suite",
+     "date": "2026-11-16"
+    }
+   ]
+  },
+  "layoffs": {
+   "routine": "layoffs",
+   "status": "done",
+   "headline": "eToro is set for another layoff round that will affect dozens of employees, mainly in Israel.",
+   "filed": "2026-11-16T07:51:00Z",
+   "note": "TrueUp did not load; GoLayoffs listed no new entries after November 5.",
+   "items": [
+    {
+     "title": "eToro plans another layoff round after profit drop",
+     "body": "Calcalist reports that eToro will cut dozens of employees in the coming weeks, mainly in Israel. Q3 2026 net income fell 74% to $15 million, and Net Contribution fell 13% to $186 million on weaker crypto trading. eToro cut about 105 employees, about 7% of staff, in January 2026. eToro has not commented.",
+     "why": "Fintech trading platforms are cutting staff as crypto trading revenue falls.",
+     "topics": [
+      "Layoffs",
+      "Startups"
+     ],
+     "source": "Calcalist (CTech)",
+     "url": "https://calcalistech.com/ctechnews/article/kz5juy6e0",
+     "date": "2026-11-15",
+     "company": "eToro",
+     "count": null,
+     "pct": null,
+     "country": "Israel",
+     "location": "Israel",
+     "industry": "Fintech",
+     "kind": "layoff"
+    }
+   ]
+  }
+ },
+ "briefing": "Good morning. This is The Nexos Daily for Monday, 16 November 2026. Today's edition is late because the morning desks could not run.\n\nClaude Code version 2.1.323 adds an experimental Code Mode. In Code Mode, Claude writes JavaScript to call its tools. Plugins can now declare the Claude Code versions that they support, and the plugin validate command now type-checks TypeScript hooks. Claude Fable 5.2 is now the default Fable model in Claude Code, with a 1 million token context. Fast mode now also runs on Google Vertex AI.\n\nIn security, Claude Code version 2.1.321 stops MCP OAuth from sending refresh tokens to a different host after a redirect. Read-only Bash commands can no longer run outside the sandbox. Researchers also reported about 13 memory safety bugs in the Rust standard library.\n\nIn the Claude ecosystem, Turbo Browser MCP fills forms in one call and returns DOM changes instead of full page snapshots. This cuts the number of agent turns for browser automation. On Hacker News, a video showed Claude Code and Codex reverse engineering the engine control unit of a 1994 Jeep through a 3 dollar Arduino.\n\nIn models and research, there were no major model launches over the weekend. Sebastian Raschka published a guide to positional embeddings in modern language models. Stanford's Memorilla compresses documents into 16 memory tokens for a frozen Qwen 3 8B model.\n\nIn chips, AMD made its 6th generation EPYC processors with Zen 6 generally available. The flagship has 256 cores per socket on a TSMC 2 nanometre process, with DDR5 8000 memory and PCIe 6.0. Google pairs its confidential TPU 8tx accelerators with AMD EPYC hosts. A new benchmark, Embodied First Exam, tests coding agents that direct robots, with 1,156 tasks.\n\nOn AWS, AWS published an evaluation suite for AWS Emulator. Each test is a boto3 script that checks if the emulator behaves like real AWS. Use it before you trust the emulator in CI.\n\nIn developer tools, Kiri is a new open-source container runtime in Rust that works with the Docker CLI and Compose.\n\nIn layoffs, eToro plans another layoff round that will affect dozens of employees, mainly in Israel.\n\nIn gadgets, Xiaomi launches the Xiaomi 18 Pro and 18 Pro Max globally in Paris on 17 November.\n\nOn GitHub, the fastest-growing new repo today is Parallax, a hands-off development plugin for Claude Code and other coding agents.\n\nThe Week in review for 9 to 15 November is on the site.\n\nThat is the news for today."
+}
