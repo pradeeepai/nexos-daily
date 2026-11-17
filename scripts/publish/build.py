@@ -56,12 +56,12 @@ def key_terms(t):  # names with digits or capitals carry the story identity (Hai
     return {w.lower() for w in re.findall(r"\b[A-Za-z]*\d[\w.\-]*\b|\b[A-Z][a-zA-Z]{2,}\b", str(t))}
 def same_story(a, b):
     ua, ub = norm_url(a.get("url")), norm_url(b.get("url"))
-    if ua and ua == ub:
-        return True
     wa, wb = words(a.get("title")), words(b.get("title"))
     if not wa or not wb:
-        return False
+        return bool(ua) and ua == ub
     j = len(wa & wb) / len(wa | wb)
+    if ua and ua == ub:  # one roundup page can hold several stories, so the titles must agree too
+        return j >= 0.25 or len(wa & wb) >= 3
     ka, kb = key_terms(a.get("title")) - STOP, key_terms(b.get("title")) - STOP
     shared_keys = ka & kb
     return (j >= 0.5 and len(wa & wb) >= 3) or (j >= 0.3 and len(shared_keys) >= 2 and any(re.search(r"\d", k) for k in shared_keys))

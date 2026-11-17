@@ -1,6 +1,6 @@
 {
  "date": "2026-11-17",
- "generated": "2026-11-17T02:51:25Z",
+ "generated": "2026-11-17T02:59:18Z",
  "sections": {
   "tech-news": {
    "routine": "tech-news",
@@ -87,24 +87,7 @@
      ],
      "source": "StorageReview",
      "url": "https://www.storagereview.com/news/nvidia-sc26-rubin-hpc-gpu-vera-cpu-hpc-rack-nemotron-for-science-quantum",
-     "date": "2026-11-16",
-     "also": [
-      {
-       "section": "Chips & Research",
-       "source": "StorageReview",
-       "url": "https://www.storagereview.com/news/nvidia-sc26-rubin-hpc-gpu-vera-cpu-hpc-rack-nemotron-for-science-quantum"
-      },
-      {
-       "section": "Chips & Research",
-       "source": "StorageReview",
-       "url": "https://www.storagereview.com/news/nvidia-sc26-rubin-hpc-gpu-vera-cpu-hpc-rack-nemotron-for-science-quantum"
-      },
-      {
-       "section": "Chips & Research",
-       "source": "StorageReview",
-       "url": "https://www.storagereview.com/news/nvidia-sc26-rubin-hpc-gpu-vera-cpu-hpc-rack-nemotron-for-science-quantum"
-      }
-     ]
+     "date": "2026-11-16"
     },
     {
      "title": "OpenAI opens free frontier model access to 200,000 scientists",
@@ -174,6 +157,32 @@
    "note": "",
    "items": [
     {
+     "title": "NVIDIA unveils Rubin HPC GPU with 50,000+ CUDA cores",
+     "body": "At SC26 NVIDIA announced Rubin HPC, which puts more than 50,000 CUDA cores on one GPU, a record by NVIDIA's count. It targets simulation and data processing, with sparse data acceleration and seventh-generation NVLink. Availability is expected in 2028. NVIDIA has not published memory, FP64 throughput or power figures.",
+     "why": "NVIDIA recommits to FP64-class simulation silicon next to its AI GPUs.",
+     "topics": [
+      "NVIDIA",
+      "Chips",
+      "Architecture"
+     ],
+     "source": "StorageReview",
+     "url": "https://www.storagereview.com/news/nvidia-sc26-rubin-hpc-gpu-vera-cpu-hpc-rack-nemotron-for-science-quantum",
+     "date": "2026-11-16"
+    },
+    {
+     "title": "NVIDIA Vera CPU HPC rack packs 192 Arm CPUs",
+     "body": "The liquid-cooled MGX rack holds 192 Vera CPUs on Quantum-X800 InfiniBand, with about 300TB of memory, 1PB of storage and over 200TB/s aggregate memory bandwidth. Each CPU has 88 Olympus cores and SOCAMM2 LPDDR5X up to 1.2TB/s. NVIDIA claims 1.9x performance and 2.4x performance per watt versus unnamed x86 systems on OpenFOAM. Dell, HPE, Lenovo and Supermicro plan to ship it from early 2027.",
+     "why": "An Arm CPU rack gives a non-x86 option for CPU-bound HPC and data jobs.",
+     "topics": [
+      "NVIDIA",
+      "Data centers",
+      "Chips"
+     ],
+     "source": "StorageReview",
+     "url": "https://www.storagereview.com/news/nvidia-sc26-rubin-hpc-gpu-vera-cpu-hpc-rack-nemotron-for-science-quantum",
+     "date": "2026-11-16"
+    },
+    {
      "title": "AMD Instinct MI430X brings 432 GB HBM4 and 288 TFLOPS FP64",
      "body": "MI430X uses CDNA 5 with up to 288 TFLOPS peak FP64, 9.2 PF peak FP4, 432 GB of HBM4 and 23.3 TB/s bandwidth (AMD projections). Nodes pair four GPUs with a 6th Gen EPYC Venice host. Named systems include Discovery at Oak Ridge, Alice Recoque in France and Herder at HLRS. Only Lux at Oak Ridge is described as operational; Herder delivery is planned for the second half of 2027.",
      "why": "It sets the memory and FP64 bar for next exascale AI-for-science systems.",
@@ -185,6 +194,18 @@
      "source": "CASRAI",
      "url": "https://casrai.org/news/amd-instinct-mi430x-mi400-sc26-2026",
      "date": "2026-11-15"
+    },
+    {
+     "title": "CUDA-Q QEC decoder runs up to 13,000x faster",
+     "body": "NVIDIA added the TCBP-JOBS decoding algorithm to the CUDA-Q QEC 0.9.0 library. NVIDIA says it decodes up to 13,000x faster than leading existing algorithms. It cuts the computation for new quantum computer designs from 12 weeks to 45 minutes, by NVIDIA's figures.",
+     "why": "GPU-accelerated error correction shortens quantum hardware design loops from weeks to minutes.",
+     "topics": [
+      "NVIDIA",
+      "AI research"
+     ],
+     "source": "StorageReview",
+     "url": "https://www.storagereview.com/news/nvidia-sc26-rubin-hpc-gpu-vera-cpu-hpc-rack-nemotron-for-science-quantum",
+     "date": "2026-11-16"
     }
    ]
   },
