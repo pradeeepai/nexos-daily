@@ -1,0 +1,437 @@
+{
+ "date": "2026-11-17",
+ "generated": "2026-11-17T02:51:25Z",
+ "sections": {
+  "tech-news": {
+   "routine": "tech-news",
+   "status": "done",
+   "headline": "Alibaba opens a preview of Qwen4-Max, its next flagship model for coding agents.",
+   "filed": "2026-11-17T02:18:11Z",
+   "note": "Model launches in window: Qwen4-Max (preview) and Tencent Hy4 flash; Claude Code v2.1.325 and Claude Meetings are earlier items still in discussion.",
+   "items": [
+    {
+     "title": "Alibaba releases Qwen4-Max in managed preview",
+     "body": "Alibaba released Qwen4-Max as a managed preview on November 16. Access is through the Token Plan API for coding agents, QwenWork, Qoder, the Qwen App and QwenStudio. Qwen Code config gives Qwen4 model IDs a 1M-token allocation, but Alibaba has not confirmed the server limit. No benchmarks, model card or open weights are published yet.",
+     "why": "A new frontier option works with Claude Code, Cursor and Codex through one coding plan.",
+     "topics": [
+      "New models",
+      "AI tools"
+     ],
+     "source": "AlphaSignal; Hacker News (805 points)",
+     "url": "https://alphasignal.ai/news/alibaba-launches-qwen4-max-with-agent-first-coding-and-1m-token-support",
+     "date": "2026-11-16",
+     "also": [
+      {
+       "section": "Pulse",
+       "source": "Hacker News · 805 points · 432 comments",
+       "url": "https://qwen.ai/blog?id=qwen4-max"
+      }
+     ]
+    },
+    {
+     "title": "Anthropic extends text watermark to older Claude models",
+     "body": "From November 16, text from Claude Opus 4.6, Opus 4.5, Sonnet 4.5 and Haiku 4.5 carries Anthropic's text watermark on supported platforms. Requests that set temperature, top_p or top_k to non-default values might not get the watermark. This follows the November 3 change for Mythos 5, Opus 4.7 and Sonnet 4.6.",
+     "why": "Teams that tune sampling settings can lose the watermark on generated text.",
+     "topics": [
+      "Claude",
+      "AI policy"
+     ],
+     "source": "Claude Platform release notes",
+     "url": "https://platform.claude.com/docs/en/release-notes/overview",
+     "date": "2026-11-16"
+    },
+    {
+     "title": "Claude Meetings beta joins Google Meet calls",
+     "body": "Claude joins Google Meet calls as a visible participant, answers questions and makes documents or whiteboards from the talk. Transcripts, notes and action items go to a claude.ai page; it does not record audio. The beta is for Team and Enterprise plans and is not available with zero data retention, HIPAA-ready setups or custom keys.",
+     "why": "Meeting notes and action items can feed Claude docs and tasks without a separate tool.",
+     "topics": [
+      "Claude",
+      "AI tools"
+     ],
+     "source": "India TV News",
+     "url": "https://www.indiatvnews.com/technology/news/anthropic-launches-claude-meetings-in-beta-ai-assistant-can-join-google-meet-take-notes-and-create-documents-2026-11-16-1059582",
+     "date": "2026-11-16"
+    },
+    {
+     "title": "Claude Code v2.1.325 fixes zstd decoding and subagent models",
+     "body": "The release fixes a security issue in zstd-compressed response decoding. Subagents with their own model no longer move to the plan-mode model under opusplan or haiku. Sessions on many third-party gateways and Foundry now compact instead of failing with a context length error. Background sessions on a claude.ai login no longer use an API key from the shell.",
+     "why": "Teams on gateways, Foundry or background sessions get fixes for real failure modes.",
+     "topics": [
+      "Claude Code",
+      "Security",
+      "DevOps"
+     ],
+     "source": "GitHub anthropics/claude-code releases",
+     "url": "https://github.com/anthropics/claude-code/releases",
+     "date": "2026-11-13"
+    },
+    {
+     "title": "Tencent launches low-cost Hy4 flash model with 1M context",
+     "body": "Tencent released Hy4 flash (hy4-flash) on November 16 as a lower-cost tier of Hy4. It has a 1M-token context with up to 960K input and 64K output tokens. Price is $0.07 input, $0.281 output and $0.003 cached input per million tokens. It runs on Tencent Cloud TokenHub and supports OpenAI Chat Completions, OpenAI Responses and Anthropic Messages protocols.",
+     "why": "Very low token prices plus Anthropic Messages compatibility make it a cheap fallback model.",
+     "topics": [
+      "New models",
+      "AI tools"
+     ],
+     "source": "CASRAI",
+     "url": "https://casrai.org/news/tencent-hy4-flash-lower-cost-ai-model-launch-2026",
+     "date": "2026-11-16"
+    },
+    {
+     "title": "NVIDIA releases Nemotron for Science open model package",
+     "body": "Nemotron for Science packages the open Nemotron 3.5 Super VL model with scientific evaluations, post-training recipes and LitmusBench v0.2. LitmusBench has nearly 50,000 chemistry reasoning questions. It is available now on Hugging Face. Lila Sciences reports 61% quantum-dot synthesis accuracy after post-training.",
+     "why": "An open science model that runs locally on a 128GB DGX Spark.",
+     "topics": [
+      "Open models",
+      "AI research"
+     ],
+     "source": "StorageReview",
+     "url": "https://www.storagereview.com/news/nvidia-sc26-rubin-hpc-gpu-vera-cpu-hpc-rack-nemotron-for-science-quantum",
+     "date": "2026-11-16",
+     "also": [
+      {
+       "section": "Chips & Research",
+       "source": "StorageReview",
+       "url": "https://www.storagereview.com/news/nvidia-sc26-rubin-hpc-gpu-vera-cpu-hpc-rack-nemotron-for-science-quantum"
+      },
+      {
+       "section": "Chips & Research",
+       "source": "StorageReview",
+       "url": "https://www.storagereview.com/news/nvidia-sc26-rubin-hpc-gpu-vera-cpu-hpc-rack-nemotron-for-science-quantum"
+      },
+      {
+       "section": "Chips & Research",
+       "source": "StorageReview",
+       "url": "https://www.storagereview.com/news/nvidia-sc26-rubin-hpc-gpu-vera-cpu-hpc-rack-nemotron-for-science-quantum"
+      }
+     ]
+    },
+    {
+     "title": "OpenAI opens free frontier model access to 200,000 scientists",
+     "body": "OpenAI is expanding free access to its frontier models for up to 200,000 scientists worldwide, with training and support. Applications open November 23. By default, OpenAI does not use data shared through the program to train models.",
+     "why": "Research teams get frontier models with training, and data is not used for training by default.",
+     "topics": [
+      "OpenAI",
+      "AI research"
+     ],
+     "source": "X · @OpenAI",
+     "url": "https://x.com/OpenAI/status/2122377585523126615",
+     "date": "2026-11-16",
+     "also": [
+      {
+       "section": "Trending on X",
+       "source": "X · @OpenAI · 3399 likes · 269 reposts",
+       "url": "https://x.com/OpenAI/status/2122377585523126615"
+      }
+     ]
+    },
+    {
+     "title": "OpenAI gives outside safety labs embedded access to internal models",
+     "body": "OpenAI is working with Apollo Research, METR, Transluce and Goodfire on embedded assessments. Outside experts get deep access to internal models and systems to investigate alignment and test safeguards.",
+     "why": "Deeper third-party testing changes how frontier model safeguards get checked.",
+     "topics": [
+      "OpenAI",
+      "AI policy",
+      "Security"
+     ],
+     "source": "X · @OpenAI",
+     "url": "https://x.com/OpenAI/status/2122359930628063248",
+     "date": "2026-11-16",
+     "also": [
+      {
+       "section": "Trending on X",
+       "source": "X · @OpenAI · 2826 likes · 269 reposts",
+       "url": "https://x.com/OpenAI/status/2122359930628063248"
+      }
+     ]
+    },
+    {
+     "title": "Hugging Face integrates OpenRouter directly into the Hub",
+     "body": "Hugging Face and OpenRouter announced that OpenRouter is integrated into Hugging Face. Users keep the same token and endpoint. The Hub adds live model stats and a redesigned inference widget.",
+     "why": "One token and one endpoint now reach OpenRouter models from Hugging Face.",
+     "topics": [
+      "Open models",
+      "AI tools"
+     ],
+     "source": "X · @huggingface",
+     "url": "https://x.com/huggingface/status/2122393775314264519",
+     "date": "2026-11-16",
+     "also": [
+      {
+       "section": "Trending on X",
+       "source": "X · @huggingface · 1688 likes · 226 reposts",
+       "url": "https://x.com/huggingface/status/2122393775314264519"
+      }
+     ]
+    }
+   ]
+  },
+  "chips": {
+   "routine": "chips",
+   "status": "done",
+   "headline": "NVIDIA announces Rubin HPC, a GPU with more than 50,000 CUDA cores due in 2028.",
+   "filed": "2026-11-17T02:18:30Z",
+   "note": "",
+   "items": [
+    {
+     "title": "AMD Instinct MI430X brings 432 GB HBM4 and 288 TFLOPS FP64",
+     "body": "MI430X uses CDNA 5 with up to 288 TFLOPS peak FP64, 9.2 PF peak FP4, 432 GB of HBM4 and 23.3 TB/s bandwidth (AMD projections). Nodes pair four GPUs with a 6th Gen EPYC Venice host. Named systems include Discovery at Oak Ridge, Alice Recoque in France and Herder at HLRS. Only Lux at Oak Ridge is described as operational; Herder delivery is planned for the second half of 2027.",
+     "why": "It sets the memory and FP64 bar for next exascale AI-for-science systems.",
+     "topics": [
+      "AMD",
+      "Chips",
+      "Data centers"
+     ],
+     "source": "CASRAI",
+     "url": "https://casrai.org/news/amd-instinct-mi430x-mi400-sc26-2026",
+     "date": "2026-11-15"
+    }
+   ]
+  },
+  "ecosystem": {
+   "routine": "ecosystem",
+   "status": "done",
+   "headline": "Anthropic's guide to always-on agents (inbox, timers, memory, permissions, outbox) leads r/ClaudeAI.",
+   "filed": "2026-11-17T02:19:11Z",
+   "note": "Sources: X search 3, GitHub search (pushed or created since Nov 3-10), r/ClaudeAI top of day.",
+   "items": [
+    {
+     "title": "Anthropic guide splits always-on agents into five parts",
+     "body": "A top r/ClaudeAI post of the day covers an Anthropic guide on building always-on agents, published November 13. The guide breaks such agents into five parts: inbox, timers, memory, permissions and outbox. The post has about 539 upvotes.",
+     "why": "It gives a clear blueprint for long-running agents on Claude.",
+     "topics": [
+      "Agent SDK",
+      "Setups"
+     ],
+     "source": "Reddit r/ClaudeAI · 539 upvotes",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1xxdzcf/anthropic_published_a_guide_on_building_alwayson/",
+     "date": "2026-11-16"
+    },
+    {
+     "title": "Elephant-Goldfish plugin gains 5.1k stars in a week",
+     "body": "Elephant-Goldfish Model is a Claude Code plugin that drafts specs with project context. It then uses fresh-context reviewers to catch assumptions before coding. A post reports about 20k stars, with 5.1k gained this week.",
+     "why": "Fresh-context review catches wrong assumptions before code gets written.",
+     "topics": [
+      "Plugins",
+      "Claude Code",
+      "Subagents"
+     ],
+     "source": "X · @Raulzeo79",
+     "url": "https://x.com/Raulzeo79/status/2122316654680142116",
+     "date": "2026-11-16"
+    },
+    {
+     "title": "lot-map shows live Claude Code activity beside the chat",
+     "body": "lot-map is a live map that shows what Claude Code is doing. Tool calls, model steps, hooks, skills and subagents light up as they happen. The repo was created on November 9 and has about 940 stars.",
+     "why": "It makes tool calls, hooks and subagents visible while an agent runs.",
+     "topics": [
+      "Claude Code",
+      "Hooks",
+      "Setups"
+     ],
+     "source": "GitHub · alexeyw/lot-map · 940 stars",
+     "url": "https://github.com/alexeyw/lot-map",
+     "date": "2026-11-09"
+    },
+    {
+     "title": "destructive_command_guard hook blocks risky shell commands",
+     "body": "destructive_command_guard is a fast Rust safety hook. It blocks destructive shell, git and filesystem commands before AI coding agents run them. It ships 50+ security packs, including databases and Kubernetes. The repo has about 6,365 stars and was pushed this week.",
+     "why": "A pre-execution guard protects git, databases and Kubernetes from agent mistakes.",
+     "topics": [
+      "Hooks",
+      "Claude Code"
+     ],
+     "source": "GitHub · Dicklesworthstone/destructive_command_guard · 6,365 stars",
+     "url": "https://github.com/Dicklesworthstone/destructive_command_guard",
+     "date": "2026-11-16"
+    },
+    {
+     "title": "Official Anthropic plugin directory passes 47k stars",
+     "body": "anthropics/claude-plugins-official is the official, Anthropic-managed directory of high quality Claude Code plugins. It has about 47,482 stars and saw new commits this week.",
+     "why": "It is the vetted source for Claude Code plugins.",
+     "topics": [
+      "Plugins",
+      "Claude Code"
+     ],
+     "source": "GitHub · anthropics/claude-plugins-official · 47,482 stars",
+     "url": "https://github.com/anthropics/claude-plugins-official",
+     "date": "2026-11-16"
+    },
+    {
+     "title": "line-art-animation skill draws animated SVG ink figures",
+     "body": "line-art-animation is a Claude skill and TypeScript library for animated line-art SVG components. It makes ink figures that walk and react, and scenes with a day and night cycle. The repo was created on November 10 and has about 922 stars.",
+     "why": "A new skill shows how agents can make reusable UI art from code.",
+     "topics": [
+      "Skills"
+     ],
+     "source": "GitHub · JDhruv14/line-art-animation · 922 stars",
+     "url": "https://github.com/JDhruv14/line-art-animation",
+     "date": "2026-11-10"
+    }
+   ]
+  },
+  "x-desk": {
+   "routine": "x-desk",
+   "status": "done",
+   "headline": "OpenAI shows a physicist using GPT-6 Astra to build a candidate lattice definition of the Standard Model.",
+   "filed": "2026-11-17T02:18:53Z",
+   "note": "Read 28 posts across three searches; 6 passed the filter.",
+   "items": [
+    {
+     "title": "GPT-6 Astra helps draft a lattice definition of the Standard Model",
+     "body": "OpenAI shared how physicist Nathaniel Craig worked with GPT-6 Astra to develop a candidate lattice definition of the Standard Model. The story is the first post on OpenAI's new science blog.",
+     "why": "It shows frontier models doing real research work, not only coding.",
+     "topics": [
+      "OpenAI",
+      "AI research"
+     ],
+     "source": "X · @OpenAI · 3649 likes · 353 reposts",
+     "url": "https://x.com/OpenAI/status/2122123437141553630",
+     "date": "2026-11-16"
+    },
+    {
+     "title": "Study: scientists nearly double productivity with ChatGPT",
+     "body": "OpenAI studied more than 1,800 participants in its ChatGPT for Academic Researchers program. Scientists reported nearly doubling their productivity. OpenAI used privacy-preserving methods to see how they use ChatGPT from idea development to analysis.",
+     "why": "It gives measured data on AI gains in research work.",
+     "topics": [
+      "OpenAI",
+      "AI research"
+     ],
+     "source": "X · @OpenAI · 3146 likes · 227 reposts",
+     "url": "https://x.com/OpenAI/status/2122380010287960095",
+     "date": "2026-11-16"
+    },
+    {
+     "title": "Researchers use Gemini 4 Carbon in Antigravity for lab work",
+     "body": "Google DeepMind showed researchers using Gemini 4 Carbon inside Google Antigravity. They apply it to multi-step problems in physics, math and the life sciences.",
+     "why": "It shows Google's new model used on multi-step science problems.",
+     "topics": [
+      "Gemini",
+      "AI research"
+     ],
+     "source": "X · @GoogleDeepMind · 747 likes · 45 reposts",
+     "url": "https://x.com/GoogleDeepMind/status/2122366992376107167",
+     "date": "2026-11-16"
+    }
+   ]
+  },
+  "gadgets": {
+   "routine": "gadgets",
+   "status": "done",
+   "headline": "Xiaomi launches the Xiaomi 18 Pro and 18 Pro Max globally on November 17, together with the Watch S5, Smart Band 11 and Clip TWS earbuds.",
+   "filed": "2026-11-17T02:23:04Z",
+   "note": "Gadgets 360, GSMArena and Android Authority did not load.",
+   "items": [
+    {
+     "title": "Xiaomi 18 Pro series launches globally with Watch S5, Band 11",
+     "body": "Xiaomi confirmed a November 17 global launch in limited markets for the Xiaomi 18 Pro and 18 Pro Max. The 18 Pro Max uses the Snapdragon 8 Elite Extreme Gen 6 chip, a second rear display and a triple camera. The Watch S5 41mm has a 1.32-inch 466 x 466 AMOLED display, up to 3,000 nits and a 590mAh battery; the Smart Band 11 and Clip TWS open-ear earbuds also launch. Xiaomi has not confirmed prices or the India launch date.",
+     "why": "Xiaomi's flagship phones and new wearables reach global markets, with the India date still open.",
+     "topics": [
+      "Phones",
+      "Wearables",
+      "Audio"
+     ],
+     "source": "TradingView (Moody's)",
+     "url": "https://www.tradingview.com/news/moodys:541f1c3571e58:0-xiaomi-18-pro-series-launch-on-november-17-watch-s5-smart-band-11-clip-tws-and-4-smart-home-devices-confirmed/",
+     "date": "2026-11-17"
+    },
+    {
+     "title": "Gentle Monster Android XR glasses sell out before December sale",
+     "body": "Every Gentle Monster style of Google's Gemini-powered Intelligent Eyewear is sold out, and pre-orders are closed. The glasses start at $395. The first Android XR glasses go on sale December 10, and Warby Parker's Reid wide fit is delayed to as late as December 28. Most Warby Parker styles are still in stock.",
+     "why": "Early sell-outs show demand for Gemini smart glasses, but buyers may wait for stock.",
+     "topics": [
+      "AI gadgets",
+      "Wearables",
+      "Google"
+     ],
+     "source": "9to5Google",
+     "url": "https://9to5google.com/2026/11/16/google-intelligent-eyewear-gentle-monster-android-xr-sold-out/",
+     "date": "2026-11-16"
+    }
+   ]
+  },
+  "tech-pulse": {
+   "routine": "tech-pulse",
+   "status": "done",
+   "headline": "Alibaba's Qwen4-Max, an agent-first coding model with a 1M-token context in managed preview, led Hacker News with 805 points.",
+   "filed": "2026-11-17T02:23:04Z",
+   "note": "Reddit through Composio returned HTTP 429 (rate limit) for all five subreddits, so this digest uses Hacker News only.",
+   "items": [
+    {
+     "title": "uBlock Origin element picker allowed universal XSS",
+     "body": "A website could make uBlock Origin's element picker add an arbitrary trusted filter and run JavaScript in the context of other sites. The attack leaked the extension UUID, loaded the picker in a hidden iframe and injected a newline into its options field. The main target was the Firefox MV2 version; uBO Lite had a similar but less severe issue. The fix adds a secret that the real picker must send, under advisory GHSA-cmqw-9r2w-6wv2.",
+     "why": "Browser extensions with broad permissions can turn one click into script execution on every site.",
+     "topics": [
+      "Security"
+     ],
+     "source": "Hacker News · 565 points · 163 comments",
+     "url": "https://iter.ca/post/ubo-uxss/",
+     "date": "2026-11-16"
+    },
+    {
+     "title": "How to trust an AI-generated Lean proof",
+     "body": "The Xena Project post says a Lean check carries real weight, but AI-generated Lean code needs tests first. It lists four checks: the Lean statement matches the paper, the code compiles, the proof proves that exact statement without extra axioms (checked with lake comparator), and no kernel bug is exploited. It notes that many of OpenAI's released proof papers have not had these checks yet.",
+     "why": "Teams that use AI to write formally verified code need checks beyond 'it compiles'.",
+     "topics": [
+      "AI research"
+     ],
+     "source": "Hacker News · 231 points · 98 comments",
+     "url": "https://xenaproject.wordpress.com/2026/11/12/and-the-proof-is-checked-in-lean/",
+     "date": "2026-11-16"
+    },
+    {
+     "title": "ParadeDB adds search joins across normalized Postgres tables",
+     "body": "ParadeDB now pushes multi-table search joins to a columnar executor built on Apache DataFusion through Postgres planner hooks. A Rank Join operator, added in version 0.26.4, handles relevance-ranked Top-K queries. On a StackOverflow benchmark, a 3-table Top-K query dropped from about 118 seconds in plain Postgres to 100 to 600 ms on one core. A facet query ran in 422 ms against 35.3 s for a standard SQL join.",
+     "why": "Teams can run ranked search over joined tables without copying data into a separate search engine.",
+     "topics": [
+      "DevOps"
+     ],
+     "source": "Hacker News · 113 points · 40 comments",
+     "url": "https://www.paradedb.com/blog/joins",
+     "date": "2026-11-16"
+    },
+    {
+     "title": "FBI warns attackers use open-source AI pentest tool Artex",
+     "body": "An FBI advisory says attackers use Artex, an open-source AI penetration-testing tool, for largely autonomous attacks, in some cases reaching full compromise in under three hours. Artex was used against South Korean financial firms and IT firm ConnectWise, which gave access to the Microsoft 365 environments of at least 2,250 customers. The developer made Artex closed-source, but the older open-source version remains available.",
+     "why": "Autonomous AI attack tools shorten the time defenders have to detect and respond to a breach.",
+     "topics": [
+      "Security",
+      "AI tools"
+     ],
+     "source": "Hacker News · 15 points",
+     "url": "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/",
+     "date": "2026-11-16"
+    }
+   ]
+  },
+  "layoffs": {
+   "routine": "layoffs",
+   "status": "done",
+   "headline": "MEGA, the developer of the MegaETH layer-2 network, cut 20% of its workforce.",
+   "filed": "2026-11-17T02:23:04Z",
+   "note": "TrueUp did not load; GoLayoffs showed no entries after November 5.",
+   "items": [
+    {
+     "title": "MegaETH developer MEGA cuts 20% of staff",
+     "body": "MEGA, the company behind the MegaETH layer-2 project, laid off 20% of its workforce in a restructuring. Co-founder Shuyao Kun said the cuts hit blockchain, wallet, ecosystem support and communications roles. The company did not give a job count.",
+     "why": "Crypto infrastructure teams continue to cut staff as markets weaken.",
+     "topics": [
+      "Layoffs",
+      "Startups"
+     ],
+     "source": "ForkLog",
+     "url": "https://forklog.com/en/megaeth-developer-lays-off-20-of-workforce/",
+     "date": "2026-11-15",
+     "company": "MegaETH",
+     "count": null,
+     "pct": 20,
+     "country": "Unknown",
+     "location": "",
+     "industry": "Fintech",
+     "kind": "layoff"
+    }
+   ]
+  }
+ },
+ "briefing": "Good morning. This is The Nexos Daily for Tuesday, 17 November 2026.\n\nAlibaba opened a managed preview of Qwen 4 Max, its next flagship model for coding agents. It supports a 1 million token context. Access is through the Qwen Token Plan API, QwenWork, Qoder, the Qwen app and QwenStudio. It led Hacker News with 805 points.\n\nIn security, a flaw in the uBlock Origin element picker let a website add a trusted filter and run JavaScript on other sites. Update the extension. An FBI advisory says attackers use Artex, an open-source AI penetration testing tool, for mostly autonomous attacks. Claude Code version 2.1.325 fixes a security issue in the decoding of compressed responses. From 16 November, text from older Claude models such as Opus 4.6 and Sonnet 4.5 also carries Anthropic's text watermark.\n\nIn the Claude ecosystem, Anthropic published a guide to always-on agents. It splits them into five parts: inbox, timers, memory, permissions and outbox. The Elephant Goldfish plugin, which writes specs and then checks them with fresh-context reviewers, gained 5,100 stars in a week. The destructive command guard hook blocks risky shell and git commands before a coding agent runs them. The official Anthropic plugin directory now has more than 47 thousand stars.\n\nIn models, Tencent launched Hy4 flash, a low-cost model with a 1 million token context. NVIDIA released Nemotron for Science, an open model package for research. OpenAI will give free frontier model access to up to 200,000 scientists. It also gave four outside safety labs embedded access to its internal models. OpenRouter is now built into Hugging Face.\n\nIn chips, NVIDIA announced Rubin HPC at SC26. It puts more than 50,000 CUDA cores on one GPU and is due in 2028. NVIDIA also showed a rack with 192 Vera CPUs. AMD's Instinct MI430X brings 432 gigabytes of HBM4 and 288 teraflops of FP64.\n\nThere were no notable AWS launches in the last 48 hours.\n\nIn layoffs, MEGA, the company behind the MegaETH network, cut 20 percent of its staff.\n\nIn gadgets, Xiaomi launches the Xiaomi 18 Pro and 18 Pro Max globally today, with the Watch S5 and Band 11.\n\nOn GitHub, the fastest-growing repo today is Sherlock, a tool that finds accounts by username across social networks. It gained 2,373 stars.\n\nThat is the news for today."
+}

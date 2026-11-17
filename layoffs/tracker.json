@@ -15,6 +15,20 @@
    "url": "https://calcalistech.com/ctechnews/article/kz5juy6e0"
   },
   {
+   "date": "2026-11-15",
+   "company": "MegaETH",
+   "count": 20,
+   "count_text": "",
+   "pct": 20,
+   "location": "",
+   "country": "Unknown",
+   "industry": "Fintech",
+   "kind": "layoff",
+   "confirmed": true,
+   "source": "ForkLog",
+   "url": "https://forklog.com/en/megaeth-developer-lays-off-20-of-workforce/"
+  },
+  {
    "date": "2026-11-13",
    "company": "SpaceX",
    "count": 60,
@@ -1947,5 +1961,5 @@
    "url": "https://golayoffs.com/tech-layoff-tracker/"
   }
  ],
- "updated": "2026-11-16T08:09:17Z"
+ "updated": "2026-11-17T02:51:25Z"
 }
