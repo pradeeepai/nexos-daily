@@ -1,6 +1,48 @@
 {
  "entries": [
   {
+   "date": "2026-11-17",
+   "company": "Netflix",
+   "count": null,
+   "count_text": "",
+   "pct": null,
+   "location": "",
+   "country": "Global",
+   "industry": "Gaming",
+   "kind": "layoff",
+   "confirmed": true,
+   "source": "Kotaku",
+   "url": "https://kotaku.com/netflix-games-layoffs-cloud-gaming-streaming-mobile-oxenfree-2000757652"
+  },
+  {
+   "date": "2026-11-17",
+   "company": "Bunnings",
+   "count": 230,
+   "count_text": "",
+   "pct": null,
+   "location": "Australia",
+   "country": "Australia",
+   "industry": "Other tech",
+   "kind": "layoff",
+   "confirmed": true,
+   "source": "ABC News",
+   "url": "https://www.abc.net.au/news/2026-11-17/bunnings-layoffs-and-offshoring/107394860"
+  },
+  {
+   "date": "2026-11-16",
+   "company": "Cellebrite",
+   "count": 85,
+   "count_text": "",
+   "pct": 7,
+   "location": "",
+   "country": "Global",
+   "industry": "Cybersecurity & cloud",
+   "kind": "layoff",
+   "confirmed": true,
+   "source": "Dataquest",
+   "url": "https://www.dqindia.com/news/cellebrite-layoffs-85-jobs-ai-investment-12816362"
+  },
+  {
    "date": "2026-11-15",
    "company": "eToro",
    "count": 105,
@@ -1961,5 +2003,5 @@
    "url": "https://golayoffs.com/tech-layoff-tracker/"
   }
  ],
- "updated": "2026-11-17T02:59:18Z"
+ "updated": "2026-11-18T02:51:52Z"
 }

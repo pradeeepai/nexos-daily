@@ -94,13 +94,14 @@
     "Trending",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-10-31",
+   "last_seen": "2026-11-18",
    "reported": {
     "2026-10-25": 32,
     "2026-10-27": 1596,
     "2026-10-28": 2018,
     "2026-10-29": 2275,
-    "2026-10-31": 2472
+    "2026-10-31": 2472,
+    "2026-11-18": 4137
    }
   },
   "edigeh/broll-mcp": {
@@ -442,7 +443,7 @@
     "AI",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-17"
+   "last_seen": "2026-11-18"
   },
   "anthropics/single-agent-loop-kit": {
    "first_seen": "2026-10-25",
@@ -1381,7 +1382,7 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "reported": {
     "2026-10-29": 200,
     "2026-10-31": 1432,
@@ -1391,7 +1392,8 @@
     "2026-11-13": 5468,
     "2026-11-15": 5688,
     "2026-11-16": 5838,
-    "2026-11-17": 5938
+    "2026-11-17": 5938,
+    "2026-11-18": 6070
    }
   },
   "amosblomqvist/learnharness": {
@@ -1490,7 +1492,7 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "reported": {
     "2026-10-30": 26,
     "2026-11-01": 2802,
@@ -1509,7 +1511,8 @@
     "2026-11-14": 8531,
     "2026-11-15": 8626,
     "2026-11-16": 8774,
-    "2026-11-17": 8872
+    "2026-11-17": 8872,
+    "2026-11-18": 8977
    }
   },
   "yc-software/minecraft-agent-harness": {
@@ -1641,7 +1644,7 @@
     "Trending",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "reported": {
     "2026-10-31": 339,
     "2026-11-02": 2682,
@@ -1658,7 +1661,8 @@
     "2026-11-13": 7186,
     "2026-11-15": 7470,
     "2026-11-16": 7640,
-    "2026-11-17": 7770
+    "2026-11-17": 7770,
+    "2026-11-18": 8002
    }
   },
   "Pluviobyte/douyin-comments": {
@@ -1814,7 +1818,7 @@
     "Trending",
     "Pulse"
    ],
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "reported": {
     "2026-11-01": 2840,
     "2026-11-02": 8079,
@@ -1832,7 +1836,8 @@
     "2026-11-14": 23028,
     "2026-11-15": 23149,
     "2026-11-16": 23380,
-    "2026-11-17": 23511
+    "2026-11-17": 23511,
+    "2026-11-18": 23684
    }
   },
   "wiva-hq/CodeRail": {
@@ -1989,7 +1994,7 @@
     "Trending",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "reported": {
     "2026-11-01": 3574,
     "2026-11-02": 4933,
@@ -2007,7 +2012,8 @@
     "2026-11-14": 15695,
     "2026-11-15": 16048,
     "2026-11-16": 16913,
-    "2026-11-17": 17300
+    "2026-11-17": 17300,
+    "2026-11-18": 17812
    }
   },
   "ninjahawk/livenerf": {
@@ -2439,7 +2445,7 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "reported": {
     "2026-11-04": 578,
     "2026-11-05": 2611,
@@ -2453,7 +2459,8 @@
     "2026-11-13": 4814,
     "2026-11-15": 5350,
     "2026-11-16": 5576,
-    "2026-11-17": 5700
+    "2026-11-17": 5700,
+    "2026-11-18": 5812
    }
   },
   "RUC-NLPIR/CoworkOS": {
@@ -2753,11 +2760,12 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-14",
+   "last_seen": "2026-11-18",
    "reported": {
     "2026-11-05": 9659,
     "2026-11-12": 19793,
-    "2026-11-14": 21849
+    "2026-11-14": 21849,
+    "2026-11-18": 26105
    }
   },
   "BekirEfeoglu/proof-of-green": {
@@ -3283,7 +3291,7 @@
     "Trending",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "reported": {
     "2026-11-09": 338,
     "2026-11-10": 2213,
@@ -3292,7 +3300,8 @@
     "2026-11-14": 8298,
     "2026-11-15": 8645,
     "2026-11-16": 9191,
-    "2026-11-17": 9604
+    "2026-11-17": 9604,
+    "2026-11-18": 9896
    }
   },
   "synchopate/llama-modchip": {
@@ -3602,14 +3611,16 @@
    "kind": "Skill",
    "description": "A Claude Code and Codex skill that builds playable 3D browser action games.",
    "seen_in": [
-    "Trending"
+    "Trending",
+    "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "reported": {
     "2026-11-12": 23,
     "2026-11-15": 342,
     "2026-11-16": 366,
-    "2026-11-17": 379
+    "2026-11-17": 379,
+    "2026-11-18": 401
    }
   },
   "molly554/whiteboard-ai-tutor": {
@@ -3744,11 +3755,12 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "reported": {
     "2026-11-13": 30,
     "2026-11-14": 215,
-    "2026-11-17": 375
+    "2026-11-17": 375,
+    "2026-11-18": 427
    }
   },
   "CrommaAI/crommacode": {
@@ -3981,11 +3993,13 @@
    "kind": "Skill",
    "description": "A Claude Code skill that pushes the model away from its first, most average choice in creative work.",
    "seen_in": [
-    "Trending"
+    "Trending",
+    "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-18",
    "reported": {
-    "2026-11-15": 61
+    "2026-11-15": 61,
+    "2026-11-18": 223
    }
   },
   "allen-hsu/claude-code-sketch": {
@@ -4270,10 +4284,11 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "reported": {
     "2026-11-16": 495,
-    "2026-11-17": 508
+    "2026-11-17": 508,
+    "2026-11-18": 517
    }
   },
   "Tthanh2k6/turbo-browser-mcp": {
@@ -4309,10 +4324,11 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "reported": {
     "2026-11-16": 5066,
-    "2026-11-17": 5318
+    "2026-11-17": 5318,
+    "2026-11-18": 5570
    }
   },
   "aws/aws-emulator-evaluation-suite": {
@@ -4415,9 +4431,10 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "reported": {
-    "2026-11-17": 161
+    "2026-11-17": 161,
+    "2026-11-18": 540
    }
   },
   "sybil-solutions/inference-optimisation-skill": {
@@ -4427,9 +4444,10 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "reported": {
-    "2026-11-17": 146
+    "2026-11-17": 146,
+    "2026-11-18": 934
    }
   },
   "simplexai-labs/linger": {
@@ -4443,6 +4461,157 @@
    "reported": {
     "2026-11-17": 397
    }
+  },
+  "erkamyaman/rust-anything": {
+   "first_seen": "2026-11-18",
+   "kind": "Coding agent",
+   "description": "A CLI that rewrites an app in Rust piece by piece and checks each step against recorded behavior of the original.",
+   "seen_in": [
+    "Trending",
+    "Claude Ecosystem"
+   ],
+   "last_seen": "2026-11-18",
+   "reported": {
+    "2026-11-18": 1447
+   }
+  },
+  "staryone/motlab": {
+   "first_seen": "2026-11-18",
+   "kind": "Dev tool",
+   "description": "Video as code: canvas scenes rendered with WebCodecs in headless Chrome, plus agent skills that build them.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-18",
+   "reported": {
+    "2026-11-18": 166
+   }
+  },
+  "AnIT012/nihongo": {
+   "first_seen": "2026-11-18",
+   "kind": "Skill",
+   "description": "An agent skill that makes AI-written Japanese read more like human writing.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-18",
+   "reported": {
+    "2026-11-18": 100
+   }
+  },
+  "jackson-cmd/claude-multi-desktop": {
+   "first_seen": "2026-11-18",
+   "kind": "Dev tool",
+   "description": "Runs several Claude Desktop accounts at once on Mac with separate sign-ins.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-18",
+   "reported": {
+    "2026-11-18": 90
+   }
+  },
+  "SecFathy/otpkit": {
+   "first_seen": "2026-11-18",
+   "kind": "MCP server",
+   "description": "An MCP server that gives agents temporary email and SMS inboxes to receive OTPs and verification links.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-18",
+   "reported": {
+    "2026-11-18": 47
+   }
+  },
+  "etodanik/deslop": {
+   "first_seen": "2026-11-18",
+   "kind": "Skill",
+   "description": "A tool that uses psycholinguistics to clean up sloppy agent prose.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-18",
+   "reported": {
+    "2026-11-18": 41
+   }
+  },
+  "hackclub/orchard": {
+   "first_seen": "2026-11-18",
+   "kind": "Dev tool",
+   "description": "A self-hosted deployment platform that deploys from Git to your own server with one command.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-18",
+   "reported": {
+    "2026-11-18": 41
+   }
+  },
+  "yocontra/pulsar": {
+   "first_seen": "2026-11-18",
+   "kind": "MCP server",
+   "description": "An MCP server that lets coding agents in different harnesses find and message each other.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-18",
+   "reported": {
+    "2026-11-18": 40
+   }
+  },
+  "huggingface/pybot": {
+   "first_seen": "2026-11-18",
+   "kind": "Other",
+   "description": "A rule-based chatbot in pure Python, written by a swarm of agents with no model weights.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-18",
+   "reported": {
+    "2026-11-18": 686
+   }
+  },
+  "paul-nameless/agweb": {
+   "first_seen": "2026-11-18",
+   "kind": "AI infra",
+   "description": "A small browser built for agents that does not steal focus and shows all tabs in one view.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-18",
+   "reported": {
+    "2026-11-18": 269
+   }
+  },
+  "leostera/git-twig": {
+   "first_seen": "2026-11-18",
+   "kind": "Dev tool",
+   "description": "Lightweight git worktrees for running coding agents in parallel.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-18",
+   "reported": {
+    "2026-11-18": 250
+   }
+  },
+  "inevolin/claude-code-usage-analysis": {
+   "first_seen": "2026-11-18",
+   "kind": "Other",
+   "description": "Guide: why Claude Code can burn 2x to 10x usage",
+   "seen_in": [
+    "Claude Ecosystem"
+   ],
+   "last_seen": "2026-11-18"
+  },
+  "5m0k3/cache-maxxing": {
+   "first_seen": "2026-11-18",
+   "kind": "Plugin",
+   "description": "cache-maxxing plugin shows prompt-cache expiry and rebuild cost",
+   "seen_in": [
+    "Claude Ecosystem"
+   ],
+   "last_seen": "2026-11-18"
   }
  }
 }

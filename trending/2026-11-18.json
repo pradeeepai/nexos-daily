@@ -1,0 +1,339 @@
+{
+ "date": "2026-11-18",
+ "generated": "2026-11-18T02:51:51Z",
+ "headline": "erkamyaman/rust-anything, a CLI that rewrites apps in Rust step by step, is the fastest-growing new repo with 1,446 stars in two days.",
+ "periods": {
+  "daily": {
+   "topics": [
+    "Agent skills",
+    "MCP servers",
+    "Coding agents",
+    "LLM inference"
+   ],
+   "repos": [
+    {
+     "repo": "erkamyaman/rust-anything",
+     "url": "https://github.com/erkamyaman/rust-anything",
+     "description": "A CLI that rewrites an app in Rust piece by piece and checks each step against recorded behavior of the original.",
+     "kind": "Coding agent",
+     "language": "Rust",
+     "stars": 1446,
+     "gained": null,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "sybil-solutions/inference-optimisation-skill",
+     "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
+     "description": "An agent skill that tunes local LLM serving speed, including decode, speculative decoding, prefill and KV cache.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 934,
+     "gained": null,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "boringmarketer/boring-marketing-skills",
+     "url": "https://github.com/boringmarketer/boring-marketing-skills",
+     "description": "A set of 32 free marketing skills for AI agents, from research and copy to SEO and ads.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 540,
+     "gained": null,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "staryone/motlab",
+     "url": "https://github.com/staryone/motlab",
+     "description": "Video as code: canvas scenes rendered with WebCodecs in headless Chrome, plus agent skills that build them.",
+     "kind": "Dev tool",
+     "language": "JavaScript",
+     "stars": 166,
+     "gained": null,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "AnIT012/nihongo",
+     "url": "https://github.com/AnIT012/nihongo",
+     "description": "An agent skill that makes AI-written Japanese read more like human writing.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 100,
+     "gained": null,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "jackson-cmd/claude-multi-desktop",
+     "url": "https://github.com/jackson-cmd/claude-multi-desktop",
+     "description": "Runs several Claude Desktop accounts at once on Mac with separate sign-ins.",
+     "kind": "Dev tool",
+     "language": "HTML",
+     "stars": 90,
+     "gained": null,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "SecFathy/otpkit",
+     "url": "https://github.com/SecFathy/otpkit",
+     "description": "An MCP server that gives agents temporary email and SMS inboxes to receive OTPs and verification links.",
+     "kind": "MCP server",
+     "language": "Python",
+     "stars": 47,
+     "gained": 47,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "etodanik/deslop",
+     "url": "https://github.com/etodanik/deslop",
+     "description": "A tool that uses psycholinguistics to clean up sloppy agent prose.",
+     "kind": "Skill",
+     "language": "HTML",
+     "stars": 41,
+     "gained": null,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "hackclub/orchard",
+     "url": "https://github.com/hackclub/orchard",
+     "description": "A self-hosted deployment platform that deploys from Git to your own server with one command.",
+     "kind": "Dev tool",
+     "language": "TypeScript",
+     "stars": 41,
+     "gained": 41,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "yocontra/pulsar",
+     "url": "https://github.com/yocontra/pulsar",
+     "description": "An MCP server that lets coding agents in different harnesses find and message each other.",
+     "kind": "MCP server",
+     "language": "TypeScript",
+     "stars": 40,
+     "gained": 40,
+     "source": "GitHub search"
+    }
+   ]
+  },
+  "weekly": {
+   "topics": [
+    "Agent skills",
+    "Coding agents",
+    "Agent dev tools",
+    "Agent browsers",
+    "Game-building skills"
+   ],
+   "repos": [
+    {
+     "repo": "erkamyaman/rust-anything",
+     "url": "https://github.com/erkamyaman/rust-anything",
+     "description": "A CLI that rewrites an app in Rust piece by piece and checks each step against recorded behavior of the original.",
+     "kind": "Coding agent",
+     "language": "Rust",
+     "stars": 1447,
+     "gained": 1447,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "sybil-solutions/inference-optimisation-skill",
+     "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
+     "description": "An agent skill that tunes local LLM serving speed, including decode, speculative decoding, prefill and KV cache.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 934,
+     "gained": 934,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "huggingface/pybot",
+     "url": "https://github.com/huggingface/pybot",
+     "description": "A rule-based chatbot in pure Python, written by a swarm of agents with no model weights.",
+     "kind": "Other",
+     "language": "Python",
+     "stars": 686,
+     "gained": 686,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "boringmarketer/boring-marketing-skills",
+     "url": "https://github.com/boringmarketer/boring-marketing-skills",
+     "description": "A set of 32 free marketing skills for AI agents, from research and copy to SEO and ads.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 540,
+     "gained": 540,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "berkantay/gpucanvas",
+     "url": "https://github.com/berkantay/gpucanvas",
+     "description": "Puts thousands of live DOM nodes on a GPU-drawn infinite canvas with an editor.",
+     "kind": "Dev tool",
+     "language": "TypeScript",
+     "stars": 517,
+     "gained": 517,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "kociden/sakurai-skill",
+     "url": "https://github.com/kociden/sakurai-skill",
+     "description": "An unofficial Japanese game-design agent skill built from the subtitles of 257 Masahiro Sakurai videos.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 427,
+     "gained": 427,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "op7418/guizang-game-skill",
+     "url": "https://github.com/op7418/guizang-game-skill",
+     "description": "An agent skill for Claude Code and Codex that builds playable 3D browser action games.",
+     "kind": "Skill",
+     "language": "JavaScript",
+     "stars": 401,
+     "gained": 401,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "paul-nameless/agweb",
+     "url": "https://github.com/paul-nameless/agweb",
+     "description": "A small browser built for agents that does not steal focus and shows all tabs in one view.",
+     "kind": "AI infra",
+     "language": "Swift",
+     "stars": 269,
+     "gained": 269,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "leostera/git-twig",
+     "url": "https://github.com/leostera/git-twig",
+     "description": "Lightweight git worktrees for running coding agents in parallel.",
+     "kind": "Dev tool",
+     "language": "Rust",
+     "stars": 250,
+     "gained": 250,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "mankidev/antialgorithm",
+     "url": "https://github.com/mankidev/antialgorithm",
+     "description": "A Claude Code skill that pushes the model away from its first, most average choice in creative work.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 223,
+     "gained": 223,
+     "source": "GitHub search"
+    }
+   ]
+  },
+  "monthly": {
+   "topics": [
+    "DeepSeek Harness",
+    "Agent skills",
+    "Phone agents",
+    "MCP security",
+    "Agent UI"
+   ],
+   "repos": [
+    {
+     "repo": "deepseek-ai/dsh-superagent-prototype",
+     "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+     "description": "DeepSeek's prototype of a more autonomous agent system.",
+     "kind": "Agent framework",
+     "language": "TypeScript",
+     "stars": 23684,
+     "gained": 23684,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "ccch1mneyyy/dsh-Go",
+     "url": "https://github.com/ccch1mneyyy/dsh-Go",
+     "description": "Runs DeepSeek Harness on a phone and lets the phone control your computer.",
+     "kind": "Coding agent",
+     "language": "Dart",
+     "stars": 26105,
+     "gained": 26105,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "heydamir/unslop",
+     "url": "https://github.com/heydamir/unslop",
+     "description": "A Claude skill that turns generic AI-looking UI into a designed interface.",
+     "kind": "Skill",
+     "language": "JavaScript",
+     "stars": 17812,
+     "gained": 17812,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "janestreet/agent_skills",
+     "url": "https://github.com/janestreet/agent_skills",
+     "description": "Jane Street's public collection of agent skills.",
+     "kind": "Skill",
+     "language": null,
+     "stars": 9896,
+     "gained": 9896,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "wangzan101/Mika",
+     "url": "https://github.com/wangzan101/Mika",
+     "description": "An on-device Android agent that operates apps and the web for the user.",
+     "kind": "Agent framework",
+     "language": "Kotlin",
+     "stars": 8977,
+     "gained": 8977,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "patch-gg/pixelfx",
+     "url": "https://github.com/patch-gg/pixelfx",
+     "description": "244 code-based pixel art effects plus a Claude Code skill to make new ones.",
+     "kind": "Skill",
+     "language": "JavaScript",
+     "stars": 8002,
+     "gained": 8002,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "qybaihe/bla",
+     "url": "https://github.com/qybaihe/bla",
+     "description": "An open-source defense MCP server and CLI that protects JS/TS, Electron and WASM code from LLM agents.",
+     "kind": "MCP server",
+     "language": "TypeScript",
+     "stars": 6070,
+     "gained": 6070,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "KKKKhazix/agent-autoloop",
+     "url": "https://github.com/KKKKhazix/agent-autoloop",
+     "description": "Lets a CLI agent pick up and finish work in the background and ask the user only on unclear decisions.",
+     "kind": "Coding agent",
+     "language": "TypeScript",
+     "stars": 5812,
+     "gained": 5812,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "vercel-labs/ui",
+     "url": "https://github.com/vercel-labs/ui",
+     "description": "A library of UI behaviors that agents use to build interfaces.",
+     "kind": "Dev tool",
+     "language": "TypeScript",
+     "stars": 5570,
+     "gained": 5570,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "t3dotgg/tstack",
+     "url": "https://github.com/t3dotgg/tstack",
+     "description": "A personal set of daily agent skills for Claude Code and Codex.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 4137,
+     "gained": 4137,
+     "source": "GitHub search"
+    }
+   ]
+  }
+ }
+}

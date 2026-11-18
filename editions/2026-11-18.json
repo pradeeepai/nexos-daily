@@ -1,0 +1,563 @@
+{
+ "date": "2026-11-18",
+ "generated": "2026-11-18T02:51:51Z",
+ "sections": {
+  "tech-news": {
+   "routine": "tech-news",
+   "status": "done",
+   "headline": "OpenAI releases GPT-6.2 Astra and Sol in ChatGPT, Codex and the API, with Astra 20% cheaper than its predecessor.",
+   "filed": "2026-11-18T02:19:30Z",
+   "note": "No new Anthropic model shipped in the window; the Claude items are Claude Code updates and practices.",
+   "items": [
+    {
+     "title": "OpenAI ships GPT-6.2 Astra and GPT-6.2 Sol",
+     "body": "OpenAI released GPT-6.2 Astra for demanding professional work and GPT-6.2 Sol for fast everyday tasks. Astra costs $8 input and $40 output per million tokens, 20% below its predecessor; Sol costs $2 input and $10 output. Both are in the API, Codex and ChatGPT paid plans; Vals AI tested with a 1M-token context and 128K max output. Astra scores 62 on the Artificial Analysis Intelligence Index, second to Claude Fable 5.2 at 65.",
+     "why": "Model choice and cost per task for coding agents and API workloads change again; Astra is now cheaper for heavy work.",
+     "topics": [
+      "OpenAI",
+      "New models"
+     ],
+     "source": "OpenAI / The Decoder",
+     "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+     "date": "2026-11-17",
+     "also": [
+      {
+       "section": "Pulse",
+       "source": "Hacker News · 754 points · 463 comments",
+       "url": "https://9to5mac.com/2026/11/17/openai-upgrades-chatgpt-and-codex-with-new-gpt-6-2-astra-and-sol-models/"
+      },
+      {
+       "section": "Trending on X",
+       "source": "X · @OpenAI · 31091 likes · 3244 reposts",
+       "url": "https://x.com/OpenAI/status/2122750124543926515"
+      },
+      {
+       "section": "Trending on X",
+       "source": "X · @OpenAIDevs · 3630 likes · 225 reposts",
+       "url": "https://x.com/OpenAIDevs/status/2122752256923873753"
+      }
+     ]
+    },
+    {
+     "title": "Microsoft launches MAI Code 2 and six more MAI models at Ignite",
+     "body": "Microsoft announced a family of seven MAI models at Ignite on November 17. MAI Code 2 and MAI Code 2 Flash are generally available in GitHub Copilot; Microsoft claims Code 2 gives 96% of Claude Opus 5.5 coding quality at 5% of the price, at a 50% promotional rate. Other models include MAI Cyber 2 Flash (1M-token context), MAI Image 2.7 and 2.7 Flash in Foundry public preview, and MAI Realtime 1 from $0.01 per audio minute. All benchmarks are Microsoft's own.",
+     "why": "A cheaper first-party coding model in GitHub Copilot adds price pressure on Claude and OpenAI coding models.",
+     "topics": [
+      "New models",
+      "AI tools"
+     ],
+     "source": "Mad Robot",
+     "url": "https://madrobot.blog/2026/11/17/microsoft-mai-code-2-ignite-cheaper-openai-anthropic/",
+     "date": "2026-11-17"
+    },
+    {
+     "title": "Claude Code 2.1.326 adds Code Mode for agent teams",
+     "body": "Claude Code v2.1.326 lets Code Mode run when agent teams are enabled. It warns at startup about malformed --allowedTools, --disallowedTools or --tools entries and explains why MCP servers stop loading when an admin adds managed-mcp.json mid-session. A new OTEL_RESOURCE_INCLUDE_HOST option (off by default) adds host.name and host.id to telemetry. It also fixes /rewind, sign-in and lost turns in resumed sessions.",
+     "why": "Teams that run Claude Code agents get Code Mode with agent teams, stricter permission checks and host data in OpenTelemetry.",
+     "topics": [
+      "Claude Code",
+      "MCP",
+      "DevOps"
+     ],
+     "source": "GitHub · anthropics/claude-code",
+     "url": "https://github.com/anthropics/claude-code/releases",
+     "date": "2026-11-16",
+     "also": [
+      {
+       "section": "Claude Ecosystem",
+       "source": "GitHub · anthropics/claude-code releases",
+       "url": "https://github.com/anthropics/claude-code/releases"
+      }
+     ]
+    },
+    {
+     "title": "Claude Code team explains its verification loops for agents",
+     "body": "A post on the claude.dev blog describes how the Claude Code team makes agents check their own work with evidence. It recommends end-to-end, property and differential tests. The team uses a verify skill for smoke tests, a 39-item reliability checklist triggered by diffs, and a REVIEW.md read from the base branch so a change cannot edit its own checks. The story reached 215 points on Hacker News.",
+     "why": "The post gives a concrete test and review pattern that lets teams run many coding agents in parallel with less risk.",
+     "topics": [
+      "Claude Code",
+      "Agents",
+      "Skills"
+     ],
+     "source": "claude.dev blog",
+     "url": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/",
+     "date": "2026-11-16",
+     "also": [
+      {
+       "section": "Pulse",
+       "source": "Hacker News · 215 points · 169 comments",
+       "url": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/"
+      }
+     ]
+    },
+    {
+     "title": "External sandbox pattern for Claude Code and Codex",
+     "body": "Simon Willison described an external sandbox pattern: the agent runs on the Mac, but the code it writes executes in a WebAssembly, QEMU or Apple Container sandbox. He shows demos for Claude Code, Codex and Pi. The post got over 1,100 likes on X.",
+     "why": "Engineers can let coding agents run code without exposing the host machine.",
+     "topics": [
+      "Claude Code",
+      "Security",
+      "Agents"
+     ],
+     "source": "X · @simonw",
+     "url": "https://x.com/simonw/status/2122500307557265651",
+     "date": "2026-11-17",
+     "also": [
+      {
+       "section": "Trending on X",
+       "source": "X · @simonw · 1155 likes · 99 reposts",
+       "url": "https://x.com/simonw/status/2122500307557265651"
+      }
+     ]
+    },
+    {
+     "title": "Windows 11 telemetry records which coding agents you run",
+     "body": "An analysis found that Windows 11 records whether coding agents such as claude.exe, codex.exe and cursor.exe and tools such as python.exe ran in each reporting window. The MissionControlAggregator.dll component inside AggregatorHost.exe, under the DiagTrack service, uploads this when optional diagnostic data is on. To opt out, turn off Send optional diagnostic data in Settings. The story had 699 points on Hacker News.",
+     "why": "Security and compliance teams must know that developer-tool usage leaves the machine by default.",
+     "topics": [
+      "Security",
+      "AI policy",
+      "DevOps"
+     ],
+     "source": "xusheng.dev",
+     "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
+     "date": "2026-11-16",
+     "also": [
+      {
+       "section": "Pulse",
+       "source": "Hacker News · 699 points · 579 comments",
+       "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/"
+      }
+     ]
+    },
+    {
+     "title": "ChatGPT for Healthcare adds computer-use agents and 20+ plugins",
+     "body": "OpenAI said ChatGPT for Healthcare now has more capable computer-use agents, stronger clinical answers and more than 20 new healthcare plugins. Abridge, Ambience, Cigna and CVS Health are among the organizations that use the models.",
+     "why": "It shows how vendors package agents and plugins for regulated industries.",
+     "topics": [
+      "OpenAI",
+      "Agents"
+     ],
+     "source": "X · @OpenAI",
+     "url": "https://x.com/OpenAI/status/2122465625109090646",
+     "date": "2026-11-17",
+     "also": [
+      {
+       "section": "Trending on X",
+       "source": "X · @OpenAI · 2847 likes · 226 reposts",
+       "url": "https://x.com/OpenAI/status/2122465625109090646"
+      }
+     ]
+    }
+   ]
+  },
+  "chips": {
+   "routine": "chips",
+   "status": "done",
+   "headline": "NVIDIA Vera Rubin NVL72 debuts in MLPerf with up to 2x per-GPU training speed over GB300 and over 10x agentic inference throughput per watt.",
+   "filed": "2026-11-18T02:20:00Z",
+   "note": "",
+   "items": [
+    {
+     "title": "Vera Rubin NVL72 sweeps MLPerf Training v6.1 in its debut",
+     "body": "NVIDIA posted the top result on every MLPerf Training v6.1 benchmark and was the only platform to submit them all. Vera Rubin NVL72 gave up to 2x the performance per GPU of GB300 NVL72. On DeepSeek-V3, scaling from 256 to 1,024 GPUs kept about 97% efficiency and cut training time from 16 to about 4 minutes. In the first MLPerf Endpoints round, a provisional Kimi K3 result showed over 10x throughput per watt versus GB300 at 50 tokens/s per user.",
+     "why": "It sets the next performance and efficiency baseline for GPU capacity on AWS and other clouds.",
+     "topics": [
+      "NVIDIA",
+      "Data centers"
+     ],
+     "source": "NVIDIA Blog",
+     "url": "https://blogs.nvidia.com/blog/mlperf-training-endpoints-vera-rubin/",
+     "date": "2026-11-16"
+    },
+    {
+     "title": "NVIDIA unveils Rubin HPC GPU and Vera CPU rack at SC26",
+     "body": "The Rubin HPC GPU has more than 50,000 CUDA cores, seventh-generation NVLink, support from FP64 to FP4, and is due in 2028. The liquid-cooled Vera CPU HPC rack holds 192 Vera CPUs with about 300 TB of memory and over 200 TB/s of memory bandwidth; Dell, HPE, Lenovo and Supermicro ship it from early 2027. NVIDIA claims 1.9x x86 performance on OpenFOAM; StorageReview measured 1.44x. Memory and FP64 figures for the GPU are not yet published.",
+     "why": "It shows NVIDIA's roadmap for FP64 science workloads and CPU-only HPC racks through 2028.",
+     "topics": [
+      "NVIDIA",
+      "Architecture",
+      "Data centers"
+     ],
+     "source": "StorageReview",
+     "url": "https://www.storagereview.com/news/nvidia-sc26-rubin-hpc-gpu-vera-cpu-hpc-rack-nemotron-for-science-quantum",
+     "date": "2026-11-16"
+    },
+    {
+     "title": "OpenAI names TensorWave first AMD neocloud partner, 457 MW",
+     "body": "OpenAI named TensorWave as the first neocloud partner under its 6 GW AMD compute deal signed in October 2026. TensorWave will provide 457 MW across several US data center sites, about 7.6% of the deal. The capacity is due in the first half of 2027, with full deployment by early 2028. The article does not name the AMD GPU models.",
+     "why": "Large AMD GPU capacity outside NVIDIA widens the hardware options for model serving.",
+     "topics": [
+      "AMD",
+      "Data centers"
+     ],
+     "source": "Fortune",
+     "url": "https://fortune.com/2026/11/17/openai-reveals-first-amd-neocloud-provider-amid-nvidia-collapsejensen-huang-launching-his-comeback-campaign/",
+     "date": "2026-11-17"
+    },
+    {
+     "title": "Intel D270 and SambaNova SN50 split prefill and decode",
+     "body": "At SC26, Intel and SambaNova ran GLM-5.3 with four Intel D-Series GPUs for prefill and a SambaRack SN50 for decode, using vLLM, NVIDIA Dynamo and NIXL for KV-cache transfer. The Intel D270 (Crescent Island, Xe3P) is a 350 W air-cooled PCIe card with 160 GB LPDDR5X at 1.5 TB/s. An 80-GPU rack gives 208 PFLOPS FP4. Early-access software is planned for Q1 2027; figures are vendor claims.",
+     "why": "Disaggregated inference on air-cooled racks lets older data centers serve large models without liquid cooling.",
+     "topics": [
+      "Intel",
+      "Chips",
+      "Architecture"
+     ],
+     "source": "CASRAI",
+     "url": "https://casrai.org/news/intel-sambanova-d270-sn50-disaggregated-inference-sc26-2026",
+     "date": "2026-11-16"
+    },
+    {
+     "title": "K2-Horizon: fully open model fleet with Mixture-of-Value Attention",
+     "body": "The Institute of Foundation Models released six open models, from 0.9B dense to a 375B-A23B MoE. A new Mixture-of-Value Attention (MoVA) applies MoE to attention value projections; the 36B-A4B model nearly matches a 32B dense model with about one-seventh the active parameters. Uno lossless diffusion adapters speed decoding by up to 2.2x. The release includes checkpoints, pre-training data, logs and training code.",
+     "why": "Fully open data, checkpoints and code let teams study and reproduce frontier-style training.",
+     "topics": [
+      "AI research",
+      "Architecture"
+     ],
+     "source": "Hugging Face Papers · arXiv 2611.21003",
+     "url": "https://huggingface.co/papers/2611.21003",
+     "date": "2026-11-16"
+    }
+   ]
+  },
+  "ecosystem": {
+   "routine": "ecosystem",
+   "status": "done",
+   "headline": "rust-anything, a Claude Code skill plus MCP server that ports apps to Rust with record-and-replay checks, gained over 1,400 GitHub stars in two days.",
+   "filed": "2026-11-18T02:22:00Z",
+   "note": "Sources: GitHub search for repos created since 2026-11-11, r/ClaudeAI top posts of the day, and X search 3 (no post passed 20 likes).",
+   "items": [
+    {
+     "title": "rust-anything ports whole apps to Rust with replay checks",
+     "body": "rust-anything by erkamyaman installs an agent skill and an MCP server for Claude Code. It records how the original TypeScript, Python, C, Go, Ruby or Java app behaves, ports one piece at a time behind a Rust front door, and must replay 100% before a piece ships. Subagents research dependencies, and a MAP.md and HANDOFF.md let the port span sessions. The repo, created November 16, has about 1,444 stars and 190 upvotes on r/ClaudeAI. Install: npm i -g rust-anything, then rust-anything setup.",
+     "why": "It gives a gated, reversible path for agent-driven language migrations of services and CLIs.",
+     "topics": [
+      "Skills",
+      "MCP",
+      "Subagents"
+     ],
+     "source": "GitHub · erkamyaman/rust-anything",
+     "url": "https://github.com/erkamyaman/rust-anything",
+     "date": "2026-11-17"
+    },
+    {
+     "title": "Guide: why Claude Code can burn 2x to 10x usage",
+     "body": "A GitHub write-up by inevolin analyzes Claude Code token usage and lists anti-patterns and best practices. It was the top technical post on r/ClaudeAI for the day with 277 upvotes.",
+     "why": "Teams on usage limits can cut token cost by avoiding known anti-patterns.",
+     "topics": [
+      "Claude Code",
+      "Setups"
+     ],
+     "source": "GitHub · inevolin/claude-code-usage-analysis",
+     "url": "https://github.com/inevolin/claude-code-usage-analysis",
+     "date": "2026-11-17"
+    },
+    {
+     "title": "cache-maxxing plugin shows prompt-cache expiry and rebuild cost",
+     "body": "cache-maxxing adds a live timer above the chat box in the Desktop app, VS Code and CLI that shows when the 1-hour prompt cache expires. In the red state it shows the rebuild cost and offers /cmaxx-handoff, which uses Haiku to write a briefing and start a fresh chat. It runs locally and is MIT licensed; the post got 123 upvotes. Install: /plugin install cache-maxxing --marketplace 5m0k3/cache-maxxing.",
+     "why": "It prevents expensive full-context rebuilds after a break in long sessions.",
+     "topics": [
+      "Plugins",
+      "Claude Code"
+     ],
+     "source": "GitHub · 5m0k3/cache-maxxing",
+     "url": "https://github.com/5m0k3/cache-maxxing",
+     "date": "2026-11-17"
+    },
+    {
+     "title": "antialgorithm skill steers Claude away from average picks",
+     "body": "antialgorithm by mankidev is a Claude Code skill that makes Claude notice its first creative idea and move away from it. When a request has little context, a seed.py script rolls a random starting point. The repo has about 223 stars since November 14 and 122 upvotes on r/ClaudeAI.",
+     "why": "It improves variety in names, ideas and layouts that agents generate.",
+     "topics": [
+      "Skills",
+      "Claude Code"
+     ],
+     "source": "GitHub · mankidev/antialgorithm",
+     "url": "https://github.com/mankidev/antialgorithm",
+     "date": "2026-11-17"
+    },
+    {
+     "title": "guizang-game-skill builds playable 3D browser games",
+     "body": "op7418's Game Skill for Claude Code and Codex builds a playable 3D action game for the browser from scratch, with a demo game included. The repo, created November 11, has about 401 stars.",
+     "why": "It shows how far a single skill can take an agent on a multi-step build.",
+     "topics": [
+      "Skills",
+      "Claude Code"
+     ],
+     "source": "GitHub · op7418/guizang-game-skill",
+     "url": "https://github.com/op7418/guizang-game-skill",
+     "date": "2026-11-17"
+    }
+   ]
+  },
+  "x-desk": {
+   "routine": "x-desk",
+   "status": "done",
+   "headline": "OpenAI's GPT-6.2 Astra and Sol launch post led X with over 31,000 likes.",
+   "filed": "2026-11-18T02:21:00Z",
+   "note": "Read 30 posts across 3 searches; 8 from searches 1 and 2 passed the filter and the top 6 are listed.",
+   "items": [
+    {
+     "title": "Google AI Studio highlights its audio models with demos",
+     "body": "Google AI Studio pointed developers to its set of audio models and shared a demo of what they can build. The post links to the models and examples.",
+     "why": "Teams that build voice features get a quick view of the audio models in AI Studio.",
+     "topics": [
+      "Gemini",
+      "AI tools"
+     ],
+     "source": "X · @GoogleAIStudio · 3728 likes · 218 reposts",
+     "url": "https://x.com/GoogleAIStudio/status/2122424563619463657",
+     "date": "2026-11-16"
+    },
+    {
+     "title": "AI Studio Android app builder adds HD emulator and data sync",
+     "body": "Google AI Studio updated its in-browser Android app building. The Android emulator now supports HD resolution and audio, and apps can store and sync data across devices.",
+     "why": "Teams can prototype Android apps from prompts with more realistic testing.",
+     "topics": [
+      "Gemini",
+      "AI tools"
+     ],
+     "source": "X · @GoogleAIStudio · 958 likes · 77 reposts",
+     "url": "https://x.com/GoogleAIStudio/status/2122752241887068565",
+     "date": "2026-11-17"
+    }
+   ]
+  },
+  "gadgets": {
+   "routine": "gadgets",
+   "status": "done",
+   "headline": "Xiaomi launched the 18 Pro and 18 Pro Max globally, starting at €1,399, with smaller batteries than the China models.",
+   "filed": "2026-11-18T02:23:00Z",
+   "note": "Gadgets 360, GSMArena and Android Authority pages could not be opened this run.",
+   "items": [
+    {
+     "title": "Xiaomi 18 Pro and 18 Pro Max launch globally from €1,399",
+     "body": "The Xiaomi 18 Pro (12GB + 256GB) costs €1,399 and the 18 Pro Max (12GB + 256GB) costs €1,599; 512GB models cost €1,599 and €1,799. Both have a rear LTPO AMOLED display, a 200MP main camera, a 200MP 3.2x periscope and a 50MP ultrawide. Global batteries are 6,000mAh (Pro) and 7,050mAh (Pro Max), down from 7,000mAh and 8,500mAh in China. Xiaomi has not given regional sale dates; the 18 Pro India launch is confirmed with no date.",
+     "why": "Global buyers pay more for less battery than China buyers, and an India launch of the 18 Pro is confirmed.",
+     "topics": [
+      "Phones"
+     ],
+     "source": "Beebom",
+     "url": "https://gadgets.beebom.com/news/xiaomi-18-pro-18-pro-max-launched-globally-price-specs",
+     "date": "2026-11-17"
+    },
+    {
+     "title": "Grado GW200 wireless headphones bring 60-hour battery for $329",
+     "body": "Grado announced the GW200 at $329, open for preorder now, with shipments expected in December. It has a new 44mm driver, about 60 hours of battery per charge and Bluetooth 5.4 with aptX Lossless and multipoint. It also works over wired 3.5mm without battery power and weighs 235 grams.",
+     "why": "It gives audio buyers aptX Lossless and four times the battery life of the GW100.",
+     "topics": [
+      "Audio"
+     ],
+     "source": "Engadget",
+     "url": "https://www.engadget.com/2319483/grados-gw200-headphones-boast-fresh-drivers-and-a-longer-battery-life/",
+     "date": "2026-11-17"
+    },
+    {
+     "title": "Lava Probuds Xplore 13 earbuds launch in India at Rs 969",
+     "body": "Lava launched the Probuds Xplore 13 TWS earbuds in India at Rs 969 on Amazon India, in Black and White. They have 13mm drivers, Bluetooth 5.4, IPX5 and call noise cancellation. Battery life is up to 5 hours per bud and 30 hours with the case; 10 minutes of charge gives about 90 minutes of playback.",
+     "why": "It is a low-cost Indian TWS option with Bluetooth 5.4 and IPX5.",
+     "topics": [
+      "Audio"
+     ],
+     "source": "Beebom",
+     "url": "https://gadgets.beebom.com/news/lava-probuds-xplore-13-degree-tws-earbuds-launched-in-india",
+     "date": "2026-11-16"
+    }
+   ]
+  },
+  "tech-pulse": {
+   "routine": "tech-pulse",
+   "status": "done",
+   "headline": "OpenAI released GPT-6.2 Astra and GPT-6.2 Sol for ChatGPT, Codex and the API.",
+   "filed": "2026-11-18T02:19:30Z",
+   "note": "Reddit returned HTTP 429 (rate limit) through Composio, so this edition uses Hacker News only.",
+   "items": [
+    {
+     "title": "Optimizely snippets served malware on Zoom, GitLab and 176 other sites",
+     "body": "On 16 November an attacker wrote malicious code into the Project JavaScript field of Optimizely Web projects. Report URI found infected snippets for 178 organisations, including Zoom, BBC, Salesforce, GitLab and HSBC. The script swapped crypto addresses, skimmed card data, stole non-HttpOnly cookies and loaded iOS exploit kits. Most snippets were cleaned by about 21:10 UTC.",
+     "why": "Third-party scripts from a trusted CDN can steal cards and cookies, so CSP and vendor access reviews matter.",
+     "topics": [
+      "Security"
+     ],
+     "source": "Hacker News · 649 points · 256 comments",
+     "url": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/",
+     "date": "2026-11-17"
+    },
+    {
+     "title": "FrontierHarness Eval v1.1 ranks coding-agent harnesses per model",
+     "body": "Runta and Baseten tested 22 harness configurations with five open models on 62 terminal tasks, for 27,280 runs. The median harness moved 11 of 22 places between models; Codex CLI ranked 1st with GLM-5.3 but 16th with Kimi-K3. The model explained 92.8% of cost variance and the harness 2.3%. Of list-price cost, 64.5% went to runs that did not pass.",
+     "why": "The best agent harness changes with the model, so harness choice should be re-tested when the model changes.",
+     "topics": [
+      "Agents",
+      "AI research",
+      "Open models"
+     ],
+     "source": "Hacker News · 278 points · 99 comments",
+     "url": "https://runta.com/blog/introducing-frontierharness-eval-v1-1/",
+     "date": "2026-11-17"
+    }
+   ]
+  },
+  "aws-news": {
+   "routine": "aws-news",
+   "status": "done",
+   "headline": "AgentCore runtime instances now run in six more AWS Regions, with agent sessions of up to 14 days.",
+   "filed": "2026-11-18T02:24:00Z",
+   "note": "The What's New feed has no items after November 16; the AWS GitHub check found no new repo that met the star thresholds.",
+   "items": [
+    {
+     "title": "AgentCore runtime instances expand to six more AWS Regions",
+     "body": "Amazon Bedrock AgentCore runtime instances run agents on EC2 while AgentCore manages provisioning, patching, scaling and lifecycle. They are now in US West (N. California), Canada (Central), Europe (London, Paris, Stockholm) and Asia Pacific (Seoul). Teams can use GPU-accelerated, memory-optimized and compute-optimized instances and run sessions of up to 14 days. Charges cover managed compute on top of standard EC2 costs.",
+     "why": "Teams can run long agent sessions on EC2 closer to users and keep data in more Regions.",
+     "topics": [
+      "Bedrock",
+      "Agents"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/agentcore-aws-regions/",
+     "date": "2026-11-16"
+    },
+    {
+     "title": "Amazon WorkSpaces adds setup, sign-in and session replay for AI agents",
+     "body": "WorkSpaces can now configure agents with coding assistants such as Claude Code, Codex or Kiro, and connect agents built on AgentCore. Agents sign in through any OIDC identity provider and act under the signed-in user's permissions and Group Policies. Session replay stores video and plain-language transcripts in the customer's encrypted S3 bucket.",
+     "why": "Security teams get identity control and recorded sessions for coding agents that run on virtual desktops.",
+     "topics": [
+      "Agents",
+      "Claude",
+      "Security"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-workspaces-AI-agents-connect-govern",
+     "date": "2026-11-16"
+    },
+    {
+     "title": "SageMaker AI adds KV cache-aware routing for LLM endpoints",
+     "body": "The router sends each request to the instance that holds the longest matching cached prompt segment, using live cache reports from vLLM. It falls back to load-aware routing when no match is found. Set RoutingStrategy to KV_AWARE and use the AWS vLLM container 0.33.0 or later with at least two instances. It is available in all SageMaker AI Regions.",
+     "why": "It cuts time to first token for long or repeated prompts at no extra charge.",
+     "topics": [
+      "Cost",
+      "DevOps"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/sagemaker-kv-cache-routing/",
+     "date": "2026-11-16"
+    },
+    {
+     "title": "S3 Vectors adds hybrid vector and full-text search",
+     "body": "S3 Vectors indexes a text metadata field with BM25 scoring next to the vectors. One query carries both text and vector, and results merge with Reciprocal Rank Fusion. It is available in all commercial Regions with S3 Vectors and in the China Regions, through the CLI, SDKs and console.",
+     "why": "RAG builders get keyword and semantic ranking in one S3 query without a separate search engine.",
+     "topics": [
+      "Bedrock",
+      "Cost"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/s3-vectors-hybrid-search/",
+     "date": "2026-11-16"
+    },
+    {
+     "title": "IAM Identity Center supports VPC endpoints and network access controls",
+     "body": "IAM Identity Center now accepts PrivateLink interface VPC endpoints; before, it rejected traffic through them. Customers can attach endpoint policies, enforce access through a VPC endpoint, allow trusted IP ranges or VPCs, and restrict SCIM provisioning traffic. The controls are off by default and cost nothing extra in all commercial and GovCloud (US) Regions.",
+     "why": "Sign-in and SCIM traffic can now stay on the private AWS network and be limited to trusted networks.",
+     "topics": [
+      "Security"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/iam-identity-center-vpc-endpoints/",
+     "date": "2026-11-16"
+    },
+    {
+     "title": "AWS KMS keys can now be shared through Resource Access Manager",
+     "body": "Owners can share KMS keys with other accounts, Organizations members and specific IAM roles or users through RAM. Trusted parties can publish a customer managed permission once, which owners attach to a resource share. It is available in all Regions with KMS and RAM except Middle East (UAE) and Middle East (Bahrain).",
+     "why": "Cross-account key access no longer needs manual key policy edits.",
+     "topics": [
+      "Security"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/kms-key-sharing-resource-access-manager/",
+     "date": "2026-11-16"
+    },
+    {
+     "title": "Amazon ECR replicates image deletions across Regions and accounts",
+     "body": "ECR now sends manual and lifecycle-policy deletions and tag removals to replication destinations. Replicated deletions emit EventBridge events and appear in CloudTrail. It is free in all ECR Regions; enable it in the replication configuration.",
+     "why": "Replicated registries stay clean without custom cleanup scripts in each destination.",
+     "topics": [
+      "Containers",
+      "Cost"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/replication-deletes-amazon-ecr",
+     "date": "2026-11-16"
+    }
+   ]
+  },
+  "layoffs": {
+   "routine": "layoffs",
+   "status": "done",
+   "headline": "Bunnings will cut about 230 technology roles as TCS takes over its tech services.",
+   "filed": "2026-11-18T02:24:00Z",
+   "note": "TrueUp could not be opened; GoLayoffs had no entries after November 5.",
+   "items": [
+    {
+     "title": "Bunnings cuts about 230 tech roles, moves work to TCS",
+     "body": "Bunnings will make about 230 permanent technology roles redundant and end 120 contractor roles. Tata Consultancy Services will deliver the services from Australia, India and the Philippines under a new agreement. Bunnings keeps a core in-house tech team of about 500 people. The transition runs from December to June 2027, and job losses begin in the new year.",
+     "why": "It shows retail IT work moving to Indian IT services firms, with TCS teams in India and the Philippines.",
+     "topics": [
+      "Layoffs",
+      "India IT"
+     ],
+     "source": "ABC News",
+     "url": "https://www.abc.net.au/news/2026-11-17/bunnings-layoffs-and-offshoring/107394860",
+     "date": "2026-11-17",
+     "company": "Bunnings",
+     "count": 230,
+     "pct": null,
+     "country": "Australia",
+     "location": "Australia",
+     "industry": "Other tech",
+     "kind": "layoff"
+    },
+    {
+     "title": "Cellebrite cuts about 85 jobs to fund AI tools",
+     "body": "Cellebrite disclosed the cuts in a Form 6-K filing dated November 16. About 85 employees, or about 7% of its global workforce, are affected. The company expects annual savings of USD 15 to 17 million, mostly in 2027, and will reinvest part of it in AI-native investigative tools.",
+     "why": "Security software vendors are cutting staff to move money into AI products.",
+     "topics": [
+      "Layoffs",
+      "AI companies"
+     ],
+     "source": "Dataquest",
+     "url": "https://www.dqindia.com/news/cellebrite-layoffs-85-jobs-ai-investment-12816362",
+     "date": "2026-11-16",
+     "company": "Cellebrite",
+     "count": 85,
+     "pct": 7,
+     "country": "Global",
+     "location": "",
+     "industry": "Cybersecurity & cloud",
+     "kind": "layoff"
+    },
+    {
+     "title": "Netflix lays off more games staff in new restructuring",
+     "body": "A former Netflix game director said on LinkedIn that Netflix games went through a restructuring and that his role and many colleagues' roles were cut. The team had worked on mobile ideas such as cloud-streamed games and phones as controllers. Netflix did not give a number.",
+     "why": "Netflix keeps shrinking its games unit, which affects game developers who work with streaming platforms.",
+     "topics": [
+      "Layoffs",
+      "Big tech"
+     ],
+     "source": "Kotaku",
+     "url": "https://kotaku.com/netflix-games-layoffs-cloud-gaming-streaming-mobile-oxenfree-2000757652",
+     "date": "2026-11-17",
+     "company": "Netflix",
+     "count": null,
+     "pct": null,
+     "country": "Global",
+     "location": "",
+     "industry": "Gaming",
+     "kind": "layoff"
+    }
+   ]
+  }
+ },
+ "briefing": "Good morning. This is The Nexos Daily for Wednesday, 18 November 2026.\n\nOpenAI released GPT 6.2 Astra and GPT 6.2 Sol. Astra is for demanding professional work. Sol is for fast everyday tasks. Astra costs 8 dollars per million input tokens and 40 dollars per million output tokens, 20 percent less than the model before it. Both models are in ChatGPT, Codex and the API. The launch post had more than 31 thousand likes on X.\n\nIn security, an attacker put malicious code into Optimizely Web projects on 16 November. The snippets served malware on Zoom, GitLab and 176 other sites. A researcher found that Windows 11 telemetry records if coding agents such as Claude Code, Codex and Cursor run on a machine. Simon Willison described an external sandbox pattern, where the agent runs on the host but its code runs in a separate sandbox.\n\nIn the Claude ecosystem, Claude Code version 2.1.326 lets Code Mode run with agent teams. The Claude Code team explained its verification loops. A separate grader that checks work against a rubric improved task success by up to 10 points. A new guide explains why Claude Code can use 2 to 10 times more tokens than needed. The cache-maxxing plugin shows when the 1 hour prompt cache expires. The rust-anything skill ports whole apps to Rust and checks the result with record and replay.\n\nIn models, Microsoft launched seven MAI models at Ignite, including MAI Code 2 in GitHub Copilot. ChatGPT for Healthcare added computer-use agents and more than 20 plugins.\n\nIn chips, NVIDIA Vera Rubin NVL72 led every MLPerf Training benchmark in its debut, with up to 2 times the per-GPU speed of GB300. OpenAI named TensorWave as the first partner in its AMD compute deal, with 457 megawatts. K2 Horizon is a new fully open family of six models.\n\nOn AWS, AgentCore runtime instances now run in six more Regions, with agent sessions of up to 14 days. WorkSpaces added setup and session replay for AI agents. SageMaker added KV cache-aware routing. S3 Vectors added hybrid search. IAM Identity Center now supports VPC endpoints. KMS keys can be shared through Resource Access Manager. ECR now replicates image deletions.\n\nIn layoffs, Bunnings will cut about 230 technology roles as TCS takes over its tech services. Cellebrite cut about 85 jobs, or 7 percent. Netflix cut more games staff.\n\nIn gadgets, Xiaomi launched the 18 Pro and 18 Pro Max globally, from 1,399 euros.\n\nOn GitHub, the fastest-growing new repo is rust-anything, with 1,447 stars this week.\n\nThat is the news for today."
+}

@@ -1,6 +1,11 @@
 {
  "editions": [
   {
+   "date": "2026-11-18",
+   "stories": 34,
+   "headline": "OpenAI ships GPT-6.2 Astra and GPT-6.2 Sol"
+  },
+  {
    "date": "2026-11-17",
    "stories": 29,
    "headline": "Alibaba releases Qwen4-Max in managed preview"
