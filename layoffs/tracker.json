@@ -1,6 +1,48 @@
 {
  "entries": [
   {
+   "date": "2026-11-18",
+   "company": "Tipalti",
+   "count": null,
+   "count_text": "",
+   "pct": null,
+   "location": "Israel",
+   "country": "Israel",
+   "industry": "Fintech",
+   "kind": "layoff",
+   "confirmed": true,
+   "source": "Calcalist (CTech)",
+   "url": "https://www.calcalistech.com/ctechnews/article/3ou5lg6e7"
+  },
+  {
+   "date": "2026-11-18",
+   "company": "Salesforce",
+   "count": null,
+   "count_text": "",
+   "pct": null,
+   "location": "India",
+   "country": "Global",
+   "industry": "Enterprise software",
+   "kind": "layoff",
+   "confirmed": true,
+   "source": "CX Today",
+   "url": "https://cxtoday.com/in-brief/salesforce-begins-fresh-round-of-layoffs-reports-say-uWNoud7R5RpCLTX8PCKSyCw"
+  },
+  {
+   "date": "2026-11-18",
+   "company": "Qualcomm",
+   "count": 517,
+   "count_text": "",
+   "pct": null,
+   "location": "San Diego, California",
+   "country": "United States",
+   "industry": "Semiconductors",
+   "kind": "layoff",
+   "confirmed": true,
+   "source": "Newsweek",
+   "url": "https://newsweek.com/qualcomm-layoffs-california-12731574"
+  },
+  {
    "date": "2026-11-17",
    "company": "Netflix",
    "count": null,
@@ -13,6 +55,20 @@
    "confirmed": true,
    "source": "Kotaku",
    "url": "https://kotaku.com/netflix-games-layoffs-cloud-gaming-streaming-mobile-oxenfree-2000757652"
+  },
+  {
+   "date": "2026-11-17",
+   "company": "Firaxis Games",
+   "count": 60,
+   "count_text": "",
+   "pct": 30,
+   "location": "",
+   "country": "United States",
+   "industry": "Gaming",
+   "kind": "layoff",
+   "confirmed": true,
+   "source": "GamesRadar+",
+   "url": "https://www.gamesradar.com/games/strategy/in-the-midst-of-trying-to-make-a-new-xcom-game-thats-reportedly-struggling-studio-firaxis-lays-off-30-percent-of-staff-in-restructuring-by-owner-take-two/"
   },
   {
    "date": "2026-11-17",
@@ -2003,5 +2059,5 @@
    "url": "https://golayoffs.com/tech-layoff-tracker/"
   }
  ],
- "updated": "2026-11-18T02:51:52Z"
+ "updated": "2026-11-19T02:51:00Z"
 }

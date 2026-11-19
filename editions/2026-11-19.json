@@ -1,0 +1,596 @@
+{
+ "date": "2026-11-19",
+ "generated": "2026-11-19T02:51:00Z",
+ "sections": {
+  "tech-news": {
+   "routine": "tech-news",
+   "status": "done",
+   "headline": "OpenAI releases GPT-6.2 Astra and Sol as Claude Code 2.1.327 and Claude Platform linked billing ship.",
+   "filed": "2026-11-19T02:19:28Z",
+   "note": "",
+   "items": [
+    {
+     "title": "OpenAI releases GPT-6.2 Astra and GPT-6.2 Sol",
+     "body": "OpenAI released GPT-6.2 Astra for hard projects and GPT-6.2 Sol for everyday work and multi-step agents. Astra costs $8 input and $40 output per million tokens, 20% less than GPT-6 Astra; Sol costs $2 input and $10 output. Both are in ChatGPT Work, Codex and the API as gpt-6.2-astra and gpt-6.2-sol, with a context of about 1.1M tokens per one tracker. The system card says Astra is the first released model to reach OpenAI's High threshold for AI self-improvement.",
+     "why": "Two new frontier API models change the cost and capability baseline for agent and coding workloads.",
+     "topics": [
+      "OpenAI",
+      "New models"
+     ],
+     "source": "OpenAI",
+     "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+     "date": "2026-11-17",
+     "also": [
+      {
+       "section": "Cloud",
+       "source": "AWS What's New",
+       "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/openai-gpt-6-2-astra-sol-amazon-bedrock/"
+      }
+     ]
+    },
+    {
+     "title": "Claude Code 2.1.327 keeps MCP tokens off the command line",
+     "body": "Claude Code 2.1.327 adds 'claude mcp add-json <name> -', which reads the server JSON from stdin. It fixes 'claude mcp add' and 'remove' with project scope deleting other top-level keys in .mcp.json, such as $schema. Remote MCP servers reached over HTTPS now retry in the background for about a day after long outages. It also asks for confirmation before /install-github-app changes a repository.",
+     "why": "Teams that share .mcp.json files and add MCP servers by script get safer secret handling and no lost config keys.",
+     "topics": [
+      "Claude Code",
+      "MCP"
+     ],
+     "source": "GitHub · anthropics/claude-code",
+     "url": "https://github.com/anthropics/claude-code/releases",
+     "date": "2026-11-17",
+     "also": [
+      {
+       "section": "Claude Ecosystem",
+       "source": "GitHub · anthropics/claude-code",
+       "url": "https://github.com/anthropics/claude-code/releases"
+      }
+     ]
+    },
+    {
+     "title": "Claude Platform adds linked billing in beta",
+     "body": "Linked billing lets a platform charge Claude API usage to the end customer's own Claude organization. Customers approve each linked platform, set spend limits and can unlink at any time. Developers enable it with the user-profiles-billing-2026-10-01 beta header and set billing_policy on /v1/messages or /v1/chat/completions requests.",
+     "why": "SaaS platforms can bill Claude API usage to the customer's own organization without handling customer API keys.",
+     "topics": [
+      "Claude",
+      "AI tools"
+     ],
+     "source": "Claude",
+     "url": "https://claude.com/resources/articles/linked-billing-on-claude-platform",
+     "date": "2026-11-17"
+    },
+    {
+     "title": "Claude Desktop gets Stable and Latest release channels",
+     "body": "Claude Desktop users can now choose a release channel. Stable is the default and updates less often after more testing. Latest updates about once a day.",
+     "why": "IT teams can keep fleets on a tested Stable channel while power users take daily builds.",
+     "topics": [
+      "Claude",
+      "AI tools"
+     ],
+     "source": "Anthropic support release notes",
+     "url": "https://support.anthropic.com/en/articles/12138966-release-notes",
+     "date": "2026-11-17"
+    },
+    {
+     "title": "Microsoft launches MAI Code 2 and MAI Code 2 Flash",
+     "body": "Microsoft announced MAI Code 2 and MAI Code 2 Flash at Ignite. Microsoft says MAI Code 2 reaches 98% of GPT-6.1 Sol and 96% of Claude Opus 5.5 on an average of four coding benchmarks, at 40% of Sol's price and 5% of Opus 5.5's. Both are in GitHub Copilot; Flash is in limited preview in Microsoft Foundry. Context size is not stated.",
+     "why": "A new lower-cost coding model family is now in GitHub Copilot and coming to Foundry and other gateways.",
+     "topics": [
+      "New models",
+      "AI tools"
+     ],
+     "source": "Microsoft AI",
+     "url": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/",
+     "date": "2026-11-17",
+     "also": [
+      {
+       "section": "Pulse",
+       "source": "Hacker News · 371 points · 250 comments",
+       "url": "https://microsoft.ai/news/microsoft-ignite-2026/"
+      }
+     ]
+    },
+    {
+     "title": "OpenAI ships Astra for Law on GPT-6.2 Astra",
+     "body": "Astra for Law is a legal research configuration built on GPT-6.2 Astra. It passed every required check on 53.8% of questions, up from about 46% in September. ChatGPT Enterprise customers can request access.",
+     "why": "Shows how labs now package domain-tuned configurations of frontier models for regulated work.",
+     "topics": [
+      "OpenAI",
+      "New models"
+     ],
+     "source": "OpenAI",
+     "url": "https://openai.com/index/astra-law-6-2/",
+     "date": "2026-11-17"
+    },
+    {
+     "title": "Genie 4 world model now live in Project Genie",
+     "body": "Google DeepMind made Genie 4 available in Project Genie. It adds native audio, real-time editing and a new agent that helps users create interactive virtual worlds. Google first announced Genie 4 as a research preview in October and warned that details can drift in longer simulations.",
+     "why": "World models with native audio and live editing open new options for simulation and agent training environments.",
+     "topics": [
+      "Gemini",
+      "New models"
+     ],
+     "source": "X · @GoogleDeepMind",
+     "url": "https://x.com/GoogleDeepMind/status/2123117733709586849",
+     "date": "2026-11-18",
+     "also": [
+      {
+       "section": "Trending on X",
+       "source": "X · @GoogleDeepMind · 1896 likes · 185 reposts",
+       "url": "https://x.com/GoogleDeepMind/status/2123117733709586849"
+      }
+     ]
+    },
+    {
+     "title": "Google AI Studio adds custom domains and Android app builds",
+     "body": "Google AI Studio Build now supports custom domains, which users can buy inside AI Studio. Users can also build an Android app and install it through the Google Play Store, US only for now. AI Studio also adds a way to securely add AI to Android apps.",
+     "why": "Builders can ship branded AI apps and Android apps straight from AI Studio without separate hosting setup.",
+     "topics": [
+      "Gemini",
+      "AI tools"
+     ],
+     "source": "X · @OfficialLoganK",
+     "url": "https://x.com/OfficialLoganK/status/2122818500763009273",
+     "date": "2026-11-17",
+     "also": [
+      {
+       "section": "Trending on X",
+       "source": "X · @GoogleAIStudio · 2872 likes · 245 reposts",
+       "url": "https://x.com/GoogleAIStudio/status/2122817812200555003"
+      }
+     ]
+    }
+   ]
+  },
+  "chips": {
+   "routine": "chips",
+   "status": "done",
+   "headline": "NVIDIA announces the Rubin HPC GPU with over 50,000 CUDA cores at SC26.",
+   "filed": "2026-11-19T02:19:28Z",
+   "note": "",
+   "items": [
+    {
+     "title": "NVIDIA announces Rubin HPC GPU with over 50,000 CUDA cores",
+     "body": "At SC26 NVIDIA announced Rubin HPC, a science-focused server GPU with more than 50,000 CUDA cores, about twice its current flagship Rubin part. It supports FP64 through FP4 and seventh-generation NVLink, and NVIDIA claims 3x simulation and analytics performance without naming a baseline. Availability is 2028; memory, FP64 throughput and power are not yet published.",
+     "why": "NVIDIA returns to a dedicated HPC chip, which matters for teams that plan FP64 science and simulation capacity.",
+     "topics": [
+      "NVIDIA",
+      "Chips",
+      "Architecture"
+     ],
+     "source": "Tom's Hardware",
+     "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-announces-rubin-hpc-gpu-with-record-number-of-cuda-cores-at-supercomputing-2026-new-chip-accelerates-agentic-hpc-workloads-arrives-in-2028",
+     "date": "2026-11-17"
+    },
+    {
+     "title": "OpenAI models find up to 14% PPA gains in AMD GPU IP",
+     "body": "OpenAI says its models rewrote circuit code for AMD's flagship GPU IP and found up to 14% power, performance and area gains over heavily optimized baselines in under five months. AMD put some changes in a design sent to manufacturing. On OpenAI's first custom inference chip, Jalapeño, standard-cell area fell about 13% in the warp engine and about 10% in the matrix unit, with Synopsys tools used to verify each rewrite.",
+     "why": "AI-driven chip design can shorten accelerator cycles and improve the power and cost of future GPUs.",
+     "topics": [
+      "AMD",
+      "Chips",
+      "AI research"
+     ],
+     "source": "Inside AI News",
+     "url": "https://insideai.news/news/ai-hardware-infrastructure/openai-chip-design-models/15501/",
+     "date": "2026-11-18",
+     "also": [
+      {
+       "section": "Trending on X",
+       "source": "X · @OpenAI · 4008 likes · 361 reposts",
+       "url": "https://x.com/OpenAI/status/2123100386638877054"
+      }
+     ]
+    },
+    {
+     "title": "NVIDIA Vera CPU HPC rack packs 192 CPUs and 300TB memory",
+     "body": "The liquid-cooled MGX rack holds 192 Vera CPUs on Quantum-X800 InfiniBand, with about 300TB of memory and over 200TB/s aggregate memory bandwidth. Each CPU has 88 Olympus cores and SOCAMM2 LPDDR5X memory up to 1.2TB/s. NVIDIA claims 1.9x performance and 2.4x performance per watt over x86 on OpenFOAM; Dell, HPE, Lenovo and Supermicro plan to ship from early 2027.",
+     "why": "An Arm-based CPU rack from major OEMs gives a new option for CPU-bound HPC and data pipelines in 2027.",
+     "topics": [
+      "NVIDIA",
+      "Data centers",
+      "Chips"
+     ],
+     "source": "StorageReview",
+     "url": "https://www.storagereview.com/news/nvidia-sc26-rubin-hpc-gpu-vera-cpu-hpc-rack-nemotron-for-science-quantum",
+     "date": "2026-11-17"
+    },
+    {
+     "title": "NVIDIA ships Nemotron for Science and fast quantum decoder",
+     "body": "Nemotron for Science packages the open Nemotron 3.5 Super VL model with LitmusBench v0.2, a set of nearly 50,000 chemistry reasoning questions, now on Hugging Face. NVIDIA also released a decoder in CUDA-Q QEC 0.9.0 that it claims runs up to 13,000x faster than leading algorithms. NVIDIA says it cuts quantum computer design computation from 12 weeks to 45 minutes.",
+     "why": "Open science models that run on a 128GB DGX Spark make local domain agents practical for research teams.",
+     "topics": [
+      "NVIDIA",
+      "AI research"
+     ],
+     "source": "StorageReview",
+     "url": "https://www.storagereview.com/news/nvidia-sc26-rubin-hpc-gpu-vera-cpu-hpc-rack-nemotron-for-science-quantum",
+     "date": "2026-11-17"
+    },
+    {
+     "title": "Top Hugging Face paper: agentic models on domestic chips",
+     "body": "'TeleChat to Xing4: Advancing Frontier Agentic Models on Domestic Chips and Frameworks' from XingChen-AGI is the top trending paper on Hugging Face with 149 upvotes. The second paper, AscendGYM (91 upvotes), is a cost-aware kernel optimization benchmark for real workloads on Ascend NPUs.",
+     "why": "Shows growing work to train frontier agent models off NVIDIA hardware, a trend that affects chip supply choices.",
+     "topics": [
+      "AI research",
+      "Chips"
+     ],
+     "source": "Hugging Face Papers",
+     "url": "https://huggingface.co/papers/2611.22115",
+     "date": "2026-11-18"
+    }
+   ]
+  },
+  "ecosystem": {
+   "routine": "ecosystem",
+   "status": "done",
+   "headline": "Claude Code 2.1.327 adds 'claude mcp add-json' and stops .mcp.json key loss.",
+   "filed": "2026-11-19T02:19:28Z",
+   "note": "",
+   "items": [
+    {
+     "title": "antialgorithm skill pushes Claude past average creative picks",
+     "body": "antialgorithm is a Claude Code skill that steers the model away from its first, most average choice in creative work such as names, ideas, posters and UI. Made by mankidev, it gained 427 GitHub stars since it was created on 2026-11-14.",
+     "why": "A fast-growing skill that improves naming, UI and design output quality in agent workflows.",
+     "topics": [
+      "Skills",
+      "Claude Code"
+     ],
+     "source": "GitHub · mankidev/antialgorithm · 427 stars",
+     "url": "https://github.com/mankidev/antialgorithm",
+     "date": "2026-11-14"
+    },
+    {
+     "title": "Commonwealth Bank open-sources CodeCheck security review plugin",
+     "body": "CodeCheck is a Claude Code and Codex plugin that runs an LLM-powered static security review of source code. The Commonwealth Bank of Australia published it on GitHub, where it has 24 stars since 2026-11-13.",
+     "why": "A bank-built plugin gives teams an LLM static security review step inside Claude Code and Codex.",
+     "topics": [
+      "Plugins",
+      "Claude Code"
+     ],
+     "source": "GitHub · Commonwealth-Bank-of-Australia/CodeCheck · 24 stars",
+     "url": "https://github.com/Commonwealth-Bank-of-Australia/CodeCheck",
+     "date": "2026-11-13"
+    },
+    {
+     "title": "Parallax plugin runs hands-off coding across several agents",
+     "body": "Parallax from AI4XE is a lightweight workflow plugin for hands-off AI coding with DeepSeek Harness, Claude Code, GitHub Copilot and more. It has 136 GitHub stars since it was created on 2026-11-15.",
+     "why": "One workflow layer over Claude Code, Copilot and other agents reduces tool lock-in.",
+     "topics": [
+      "Plugins",
+      "Setups"
+     ],
+     "source": "GitHub · AI4XE/Parallax · 136 stars",
+     "url": "https://github.com/AI4XE/Parallax",
+     "date": "2026-11-15"
+    },
+    {
+     "title": "vibe-bill skill estimates app run cost at scale",
+     "body": "vibe-bill is a Claude Code skill that estimates what an app will cost to run at 100, 1k, 10k and 100k users. It also flags code patterns that inflate the bill. Made by globalmpc, it has 51 stars since 2026-11-12.",
+     "why": "Flags cost-heavy code before launch, which helps cloud and FinOps reviews.",
+     "topics": [
+      "Skills",
+      "Claude Code"
+     ],
+     "source": "GitHub · globalmpc/vibe-bill · 51 stars",
+     "url": "https://github.com/globalmpc/vibe-bill",
+     "date": "2026-11-12"
+    },
+    {
+     "title": "harness-profiler shows token cost per skill, agent and tool",
+     "body": "harness-profiler records every skill, agent and tool call in a Claude Code session. It shows which calls share a context and what each one costs in tokens. Made by afurmanov, it has 38 stars since 2026-11-15.",
+     "why": "Gives visibility into which subagents and tools burn context and tokens in a session.",
+     "topics": [
+      "Hooks",
+      "Subagents",
+      "Claude Code"
+     ],
+     "source": "GitHub · afurmanov/harness-profiler · 38 stars",
+     "url": "https://github.com/afurmanov/harness-profiler",
+     "date": "2026-11-15"
+    }
+   ]
+  },
+  "x-desk": {
+   "routine": "x-desk",
+   "status": "done",
+   "headline": "OpenAI says its models found up to 14% PPA gains in AMD's flagship GPU design.",
+   "filed": "2026-11-19T02:19:28Z",
+   "note": "Read 34 posts in 3 searches; 9 passed the filter and the top 6 are listed.",
+   "items": [
+    {
+     "title": "Gemini 4 Hydrogen turns Google Sheets into pixel art",
+     "body": "Google DeepMind shared a demo where Gemini 4 Hydrogen, used through Antigravity, shrank thousands of Sheets cells into a canvas. The model then drew animated pixel-art scenes in the spreadsheet.",
+     "why": "Shows the agent ability of Google's new fast model inside Antigravity on real productivity tools.",
+     "topics": [
+      "Gemini",
+      "Agents"
+     ],
+     "source": "X · @GoogleDeepMind · 2396 likes · 149 reposts",
+     "url": "https://x.com/GoogleDeepMind/status/2122807824531275826",
+     "date": "2026-11-17"
+    },
+    {
+     "title": "Antigravity robotics plugin drives real arms with Gemini",
+     "body": "A new robotics plugin for Google Antigravity works with Gemini 4 Hydrogen. Users connect a supported arm, practice in MuJoCo simulation, then run tasks in the real world through plain conversation.",
+     "why": "Lowers the barrier to robot task programming with plain-language agents and simulation first.",
+     "topics": [
+      "Gemini",
+      "Agents",
+      "AI tools"
+     ],
+     "source": "X · @GoogleDeepMind · 1239 likes · 122 reposts",
+     "url": "https://x.com/GoogleDeepMind/status/2122767521925230896",
+     "date": "2026-11-17"
+    },
+    {
+     "title": "OpenAI API dashboard adds rate-limit and error analytics",
+     "body": "OpenAI updated the API usage dashboard. In Analytics, users can track usage and spend, check rate limits and rate-limited requests, and explore errors by model, project or API key.",
+     "why": "Helps platform teams track spend, find rate-limited requests and debug errors per key.",
+     "topics": [
+      "OpenAI",
+      "AI tools"
+     ],
+     "source": "X · @OpenAIDevs · 867 likes · 44 reposts",
+     "url": "https://x.com/OpenAIDevs/status/2122824859491205152",
+     "date": "2026-11-17"
+    }
+   ]
+  },
+  "gadgets": {
+   "routine": "gadgets",
+   "status": "done",
+   "headline": "Motorola Signature 27 goes on sale in the US on November 19 at $1,599.",
+   "filed": "2026-11-19T02:21:45Z",
+   "note": "Few major-brand launches in the last 48 hours; GSMArena, Android Authority and DigiTimes pages did not load.",
+   "items": [
+    {
+     "title": "Motorola Signature 27 goes on US sale November 19 at $1,599",
+     "body": "The Signature 27 costs $1,599 in the US for 12GB RAM and 512GB storage. It uses the Snapdragon 8 Elite Extreme Gen 6 and a 6.8-inch 120Hz tandem OLED display. It has a 7,000mAh battery with 90W wired charging, a 200MP 3x telephoto camera and IP68/IP69 ratings. Motorola promises 7 years of Android updates; India launch has no date yet.",
+     "why": "Motorola's first ultra-premium flagship in the US prices above Samsung's top Galaxy model.",
+     "topics": [
+      "Phones"
+     ],
+     "source": "9to5Google",
+     "url": "https://www.9to5google.com/2026/11/05/motorola-signature-27-specs-price-release-date",
+     "date": "2026-11-19"
+    },
+    {
+     "title": "Insta360 launches Toast, a pocket E Ink photo frame",
+     "body": "The Insta360 Toast weighs 43 grams and has a 3.7-inch Spectra 6 color E Ink panel at 720 by 480 pixels. Insta360 rates it for up to 195 days per charge on a 400mAh battery. It stores 30 photos on board and 200 in the cloud, and gets new photos over Wi-Fi or Bluetooth. It launched in China only, at about $64 for one; there is no US price or date.",
+     "why": "Color E Ink with months of battery life shows where low-power display gadgets are going.",
+     "topics": [
+      "Smart home",
+      "AI gadgets"
+     ],
+     "source": "The Gadgeteer",
+     "url": "https://the-gadgeteer.com/2026/11/18/insta360-toast-pocket-e-ink-photo-frame/",
+     "date": "2026-11-18"
+    }
+   ]
+  },
+  "tech-pulse": {
+   "routine": "tech-pulse",
+   "status": "done",
+   "headline": "Wiz discloses two critical unauthenticated RCE flaws in NGINX HTTP/2; patch to 1.30.7 or 1.31.9 now.",
+   "filed": "2026-11-19T02:21:45Z",
+   "note": "",
+   "items": [
+    {
+     "title": "Two critical NGINX HTTP/2 flaws allow unauthenticated remote code execution",
+     "body": "Wiz reports CVE-2026-123633 (HTTP/2 use-after-free) and CVE-2026-123007 (HTTP/2 send_window integer underflow), both CVSS 4.0 score 9.2. Both need HTTP/2 enabled. Fixed releases are NGINX OSS 1.30.7 (stable) and 1.31.9 (mainline), plus new NGINX Plus builds. If you cannot upgrade, set \"http2 off;\" and remove http2 from listen directives.",
+     "why": "NGINX fronts most web stacks, so one unpatched proxy can expose many apps and APIs.",
+     "topics": [
+      "Security",
+      "DevOps"
+     ],
+     "source": "Hacker News · 915 points · 403 comments",
+     "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
+     "date": "2026-11-18"
+    },
+    {
+     "title": "Microsoft makes ONNX Runtime repo private while it investigates malicious content",
+     "body": "The microsoft/onnxruntime GitHub repository (about 22k stars) returned 404. A Microsoft spokesperson told The Register that some repositories were made private while it investigates malicious content. The onnx/onnx spec repo and the PyPI and Maven packages stayed available. Commenters suggested Intel's fork as a stopgap.",
+     "why": "Pipelines that pull ONNX Runtime source from GitHub break; teams must pin packages or use forks.",
+     "topics": [
+      "Security",
+      "AI tools"
+     ],
+     "source": "Hacker News · 448 points · 96 comments",
+     "url": "https://news.ycombinator.com/item?id=50539610",
+     "date": "2026-11-18"
+    },
+    {
+     "title": "Energy-Based Reasoners cut reasoning compute 345x on Sudoku-Extreme",
+     "body": "Researchers from Duke, UIUC and Harvard train one energy function over latent reasoning states and refine answers by gradient descent on it. The model scores 99.9% on Sudoku-Extreme and 88.3% on Maze-Hard with 5 samples. The project page reports 345x less inference compute than the next-best model, EqR, at similar accuracy. Code is on GitHub at wwillchen/ebr.",
+     "why": "It shows a small 1.8M-parameter model can verify and refine its own answers at a fraction of the inference cost.",
+     "topics": [
+      "AI research"
+     ],
+     "source": "Hacker News · 292 points · 49 comments",
+     "url": "https://energy-based-reasoners.github.io/",
+     "date": "2026-11-18"
+    },
+    {
+     "title": "Tencent releases Hy4-flash, a 220B MoE with 1M-token context",
+     "body": "Hy4-flash is an instruct Mixture-of-Experts model with 220B total and about 12B active parameters per token. It takes text and image input and supports up to 1M tokens of context. Tencent reports 42.1 on its internal WorkIndex benchmark at about 1/13 of the cost per task of Hy4 preview. The license is the Tencent Hy License.",
+     "why": "An open-weight multimodal model with about 12B active parameters is cheap to serve for long-context agent work.",
+     "topics": [
+      "Open models"
+     ],
+     "source": "r/LocalLLaMA · 342 upvotes",
+     "url": "https://huggingface.co/tencent/Hy4-flash",
+     "date": "2026-11-18"
+    }
+   ]
+  },
+  "aws-news": {
+   "routine": "aws-news",
+   "status": "done",
+   "headline": "OpenAI GPT-6.2 Astra and GPT-6.2 Sol are now generally available on Amazon Bedrock.",
+   "filed": "2026-11-19T02:21:45Z",
+   "note": "The What's New feed showed no items after November 17; the AWS News and ML blogs were not opened.",
+   "items": [
+    {
+     "title": "Coding agents can now create new AWS accounts for developers",
+     "body": "Agentic coding harnesses such as Claude Code, Codex and Cursor can open the new AWS sign-up flow for developers without an account. The harness opens a browser to finish sign-up, then gets short-lived credentials that refresh automatically. The first project gets a home Region and an IAM role manager through the AWS Agent Toolkit or the AWS CLI (aws signup or aws login).",
+     "why": "Developers can go from a coding agent session to a deployed AWS app without leaving the tool.",
+     "topics": [
+      "Agents",
+      "DevOps",
+      "Claude"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/agentic-account-creation/",
+     "date": "2026-11-17"
+    },
+    {
+     "title": "AgentCore Memory adds full session summaries",
+     "body": "Amazon Bedrock AgentCore Memory now creates a full session summary that updates as new events arrive. It is stored as a long-term memory record and you retrieve it with existing Memory operations by filtering on record type. It applies automatically to any memory with a summary strategy, including existing sessions. A separate launch extends short-term memory retention to up to 10 years.",
+     "why": "Agents get one up-to-date summary per session without extra setup or custom summarization code.",
+     "topics": [
+      "Agents",
+      "Bedrock"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-bedrock-agentcore-memory-full-session-summaries",
+     "date": "2026-11-17"
+    },
+    {
+     "title": "IAM Access Troubleshooter explains access denied errors",
+     "body": "Access denied messages from supported services now include a unique ID. The ID retrieves the policies that IAM evaluated, the request's authorization details and the result of each check. The feature became available on November 17 for the services listed in the IAM user guide.",
+     "why": "Engineers can see exactly which policy blocked a call instead of guessing.",
+     "topics": [
+      "Security",
+      "DevOps"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/iam-access-troubleshooter/",
+     "date": "2026-11-17"
+    },
+    {
+     "title": "Lambda Managed Instances can now scale to zero",
+     "body": "Event Functions on Lambda Managed Instances can now scale execution environments down to zero when idle and back up when requests arrive. Set MinExecutionEnvironments to zero in the console, CLI, SDKs, CloudFormation, SAM or CDK. It is available in all commercial Regions that support Lambda Managed Instances.",
+     "why": "Intermittent and dev/test workloads on Managed Instances no longer pay for idle environments.",
+     "topics": [
+      "Serverless",
+      "Cost"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-lambda-managed-instances-scale-to-zero/",
+     "date": "2026-11-17"
+    },
+    {
+     "title": "Amazon ECR adds global authentication tokens",
+     "body": "Amazon ECR now issues global tokens that work for all ECR private registries in the same AWS partition. You get the token from the AWS Sign-In CreateBearerToken API. It is valid for 12 hours by default, configurable down to 5 minutes, and works with the Docker CLI and the ECR credential helper. Regional tokens keep working.",
+     "why": "One token now pulls images from every Region, which simplifies multi-Region clusters and proxies.",
+     "topics": [
+      "Containers",
+      "Kubernetes"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/global-authentication-amazon-ecr",
+     "date": "2026-11-17"
+    },
+    {
+     "title": "AWS Labs publishes AI Eval Studio for LLM evaluation",
+     "body": "AI Eval Studio is an end-to-end LLM evaluation platform. You upload a dataset and describe your goal in chat; it runs evaluations across models, optimizes the prompt and returns a standalone Python eval harness. Install the backend with uv sync and the frontend with npm install, then run ./scripts/start.sh and open localhost:3100. The license is Apache-2.0.",
+     "why": "Teams get an open-source tool that compares models, tunes prompts and exports a reusable eval harness.",
+     "topics": [
+      "Bedrock",
+      "DevOps"
+     ],
+     "source": "GitHub · awslabs/ai-eval-studio · 552 stars",
+     "url": "https://github.com/awslabs/ai-eval-studio",
+     "date": "2026-11-19"
+    }
+   ]
+  },
+  "layoffs": {
+   "routine": "layoffs",
+   "status": "done",
+   "headline": "Qualcomm files a WARN notice to cut 517 jobs in California, including 442 in San Diego.",
+   "filed": "2026-11-19T02:21:45Z",
+   "note": "The TrueUp tracker did not load; the GoLayoffs tracker had no entries after November 13.",
+   "items": [
+    {
+     "title": "Qualcomm to cut 517 jobs in California, WARN notice shows",
+     "body": "Qualcomm filed a California WARN notice on Tuesday for more than 500 layoffs, including 442 at its San Diego headquarters. The cuts take effect January 12. Earlier reports covered separate Qualcomm cuts in India.",
+     "why": "Chip-industry cuts now reach Qualcomm's US headquarters after its India reductions.",
+     "topics": [
+      "Layoffs",
+      "Big tech"
+     ],
+     "source": "Newsweek",
+     "url": "https://newsweek.com/qualcomm-layoffs-california-12731574",
+     "date": "2026-11-18",
+     "company": "Qualcomm",
+     "count": 517,
+     "pct": null,
+     "country": "United States",
+     "location": "San Diego, California",
+     "industry": "Semiconductors",
+     "kind": "layoff"
+    },
+    {
+     "title": "Salesforce starts a new round of job cuts, including India",
+     "body": "Business Insider reported on November 18 that Salesforce began another round of job cuts this week across several teams and levels. Reports say affected staff in India were put on garden leave and offered severance. Salesforce has not given a number.",
+     "why": "Salesforce keeps cutting roles as it shifts work to AI agents.",
+     "topics": [
+      "Layoffs",
+      "Big tech",
+      "India IT"
+     ],
+     "source": "CX Today",
+     "url": "https://cxtoday.com/in-brief/salesforce-begins-fresh-round-of-layoffs-reports-say-uWNoud7R5RpCLTX8PCKSyCw",
+     "date": "2026-11-18",
+     "company": "Salesforce",
+     "count": null,
+     "pct": null,
+     "country": "Global",
+     "location": "India",
+     "industry": "Enterprise software",
+     "kind": "layoff"
+    },
+    {
+     "title": "Take-Two cuts about 30% of Firaxis Games staff",
+     "body": "Firaxis Games laid off about 30% of its workforce, roughly 60 staff, on November 17. Owner Take-Two confirmed the restructuring. Studio head Heather Hazen is leaving her role.",
+     "why": "Another large AAA studio cut shows continued cost pressure in games.",
+     "topics": [
+      "Layoffs"
+     ],
+     "source": "GamesRadar+",
+     "url": "https://www.gamesradar.com/games/strategy/in-the-midst-of-trying-to-make-a-new-xcom-game-thats-reportedly-struggling-studio-firaxis-lays-off-30-percent-of-staff-in-restructuring-by-owner-take-two/",
+     "date": "2026-11-17",
+     "company": "Firaxis Games",
+     "count": 60,
+     "pct": 30,
+     "country": "United States",
+     "location": "",
+     "industry": "Gaming",
+     "kind": "layoff"
+    },
+    {
+     "title": "Tipalti cuts dozens of jobs in Israel to fund AI push",
+     "body": "Tipalti announced layoffs on November 18 that affect dozens of employees in Israel. The company did not give an exact number. It said it is shifting investment toward AI and its mid-market business under its 2027 plan.",
+     "why": "Fintech firms are moving budget from headcount to AI products.",
+     "topics": [
+      "Layoffs",
+      "Startups"
+     ],
+     "source": "Calcalist (CTech)",
+     "url": "https://www.calcalistech.com/ctechnews/article/3ou5lg6e7",
+     "date": "2026-11-18",
+     "company": "Tipalti",
+     "count": null,
+     "pct": null,
+     "country": "Israel",
+     "location": "Israel",
+     "industry": "Fintech",
+     "kind": "layoff"
+    }
+   ]
+  }
+ },
+ "briefing": "Good morning. This is The Nexos Daily for Thursday, 19 November 2026.\n\nOpenAI's GPT 6.2 Astra and GPT 6.2 Sol are now generally available on Amazon Bedrock, two days after their launch. Astra is for hard projects. Sol is for everyday work and multi-step agents. OpenAI also shipped Astra for Law, a legal research setup on GPT 6.2 Astra.\n\nIn security, Wiz disclosed two critical flaws in the HTTP 2 module of NGINX. Both allow remote code execution without authentication. Patch to version 1.30.7 or 1.31.9 now. Microsoft made its ONNX Runtime repository private while it investigates malicious content. The Commonwealth Bank of Australia open-sourced CodeCheck, a security review plugin for Claude Code and Codex.\n\nIn the Claude ecosystem, Claude Code version 2.1.327 adds a command that reads MCP server settings from standard input. This keeps MCP tokens off the command line. It also fixes the loss of keys in the project MCP file. The Claude Platform added linked billing in beta, so a platform can charge Claude API usage to the customer's own Claude organization. Claude Desktop now has Stable and Latest release channels. The vibe-bill skill estimates what an app will cost to run at up to 100 thousand users.\n\nIn models, Microsoft launched MAI Code 2 and MAI Code 2 Flash at Ignite. Google DeepMind made the Genie 4 world model live in Project Genie. Google AI Studio added custom domains and Android app builds. Tencent's Hy4 flash is a 220 billion parameter mixture of experts with a 1 million token context. Energy-based reasoners cut reasoning compute by 345 times on hard Sudoku.\n\nIn chips, OpenAI says its models found up to 14 percent power, performance and area gains in AMD's flagship GPU design. NVIDIA announced the Rubin HPC GPU with more than 50,000 CUDA cores.\n\nOn AWS, coding agents such as Claude Code can now open the AWS sign-up flow for new developers. AgentCore Memory adds full session summaries. The IAM Access Troubleshooter explains access denied errors. Lambda Managed Instances can now scale to zero. ECR adds global authentication tokens. AWS Labs published AI Eval Studio, an LLM evaluation platform with 552 stars.\n\nIn layoffs, Qualcomm filed a notice to cut 517 jobs in California. Salesforce started a new round of cuts, including in India. Firaxis Games cut about 30 percent of its staff. Tipalti cut dozens of jobs in Israel.\n\nIn gadgets, the Motorola Signature 27 goes on sale in the US today at 1,599 dollars.\n\nOn GitHub, rust-anything leads the weekly list with 3,449 new stars.\n\nThat is the news for today."
+}

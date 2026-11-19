@@ -443,7 +443,7 @@
     "AI",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-18"
+   "last_seen": "2026-11-19"
   },
   "anthropics/single-agent-loop-kit": {
    "first_seen": "2026-10-25",
@@ -764,7 +764,7 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-19",
    "reported": {
     "2026-10-26": 1660,
     "2026-10-27": 2074,
@@ -777,7 +777,8 @@
     "2026-11-13": 7433,
     "2026-11-15": 7833,
     "2026-11-16": 8063,
-    "2026-11-17": 8210
+    "2026-11-17": 8210,
+    "2026-11-19": 8619
    }
   },
   "udhaykumarbala/cleanyourtv-app": {
@@ -1382,7 +1383,7 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "reported": {
     "2026-10-29": 200,
     "2026-10-31": 1432,
@@ -1393,7 +1394,8 @@
     "2026-11-15": 5688,
     "2026-11-16": 5838,
     "2026-11-17": 5938,
-    "2026-11-18": 6070
+    "2026-11-18": 6070,
+    "2026-11-19": 6143
    }
   },
   "amosblomqvist/learnharness": {
@@ -1492,7 +1494,7 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "reported": {
     "2026-10-30": 26,
     "2026-11-01": 2802,
@@ -1512,7 +1514,8 @@
     "2026-11-15": 8626,
     "2026-11-16": 8774,
     "2026-11-17": 8872,
-    "2026-11-18": 8977
+    "2026-11-18": 8977,
+    "2026-11-19": 9109
    }
   },
   "yc-software/minecraft-agent-harness": {
@@ -1644,7 +1647,7 @@
     "Trending",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "reported": {
     "2026-10-31": 339,
     "2026-11-02": 2682,
@@ -1662,7 +1665,8 @@
     "2026-11-15": 7470,
     "2026-11-16": 7640,
     "2026-11-17": 7770,
-    "2026-11-18": 8002
+    "2026-11-18": 8002,
+    "2026-11-19": 8157
    }
   },
   "Pluviobyte/douyin-comments": {
@@ -1818,7 +1822,7 @@
     "Trending",
     "Pulse"
    ],
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "reported": {
     "2026-11-01": 2840,
     "2026-11-02": 8079,
@@ -1837,7 +1841,8 @@
     "2026-11-15": 23149,
     "2026-11-16": 23380,
     "2026-11-17": 23511,
-    "2026-11-18": 23684
+    "2026-11-18": 23684,
+    "2026-11-19": 23836
    }
   },
   "wiva-hq/CodeRail": {
@@ -1994,7 +1999,7 @@
     "Trending",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "reported": {
     "2026-11-01": 3574,
     "2026-11-02": 4933,
@@ -2013,7 +2018,8 @@
     "2026-11-15": 16048,
     "2026-11-16": 16913,
     "2026-11-17": 17300,
-    "2026-11-18": 17812
+    "2026-11-18": 17812,
+    "2026-11-19": 18317
    }
   },
   "ninjahawk/livenerf": {
@@ -2445,7 +2451,7 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "reported": {
     "2026-11-04": 578,
     "2026-11-05": 2611,
@@ -2460,7 +2466,8 @@
     "2026-11-15": 5350,
     "2026-11-16": 5576,
     "2026-11-17": 5700,
-    "2026-11-18": 5812
+    "2026-11-18": 5812,
+    "2026-11-19": 5916
    }
   },
   "RUC-NLPIR/CoworkOS": {
@@ -3291,7 +3298,7 @@
     "Trending",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "reported": {
     "2026-11-09": 338,
     "2026-11-10": 2213,
@@ -3301,7 +3308,8 @@
     "2026-11-15": 8645,
     "2026-11-16": 9191,
     "2026-11-17": 9604,
-    "2026-11-18": 9896
+    "2026-11-18": 9896,
+    "2026-11-19": 10120
    }
   },
   "synchopate/llama-modchip": {
@@ -3755,12 +3763,13 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "reported": {
     "2026-11-13": 30,
     "2026-11-14": 215,
     "2026-11-17": 375,
-    "2026-11-18": 427
+    "2026-11-18": 427,
+    "2026-11-19": 460
    }
   },
   "CrommaAI/crommacode": {
@@ -3996,10 +4005,11 @@
     "Trending",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "reported": {
     "2026-11-15": 61,
-    "2026-11-18": 223
+    "2026-11-18": 223,
+    "2026-11-19": 427
    }
   },
   "allen-hsu/claude-code-sketch": {
@@ -4161,9 +4171,10 @@
    "kind": "Plugin",
    "description": "A plugin that lets coding agents such as Claude Code run development work hands-off.",
    "seen_in": [
-    "Trending"
+    "Trending",
+    "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-19",
    "reported": {
     "2026-11-16": 62,
     "2026-11-17": 129
@@ -4299,10 +4310,11 @@
     "Trending",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-19",
    "reported": {
     "2026-11-16": 115,
-    "2026-11-17": 126
+    "2026-11-17": 126,
+    "2026-11-19": 132
    }
   },
   "claynicholson/copper-kicad-mcp": {
@@ -4324,11 +4336,12 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "reported": {
     "2026-11-16": 5066,
     "2026-11-17": 5318,
-    "2026-11-18": 5570
+    "2026-11-18": 5570,
+    "2026-11-19": 5892
    }
   },
   "aws/aws-emulator-evaluation-suite": {
@@ -4431,10 +4444,11 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "reported": {
     "2026-11-17": 161,
-    "2026-11-18": 540
+    "2026-11-18": 540,
+    "2026-11-19": 665
    }
   },
   "sybil-solutions/inference-optimisation-skill": {
@@ -4444,10 +4458,11 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "reported": {
     "2026-11-17": 146,
-    "2026-11-18": 934
+    "2026-11-18": 934,
+    "2026-11-19": 1121
    }
   },
   "simplexai-labs/linger": {
@@ -4470,9 +4485,10 @@
     "Trending",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "reported": {
-    "2026-11-18": 1447
+    "2026-11-18": 1447,
+    "2026-11-19": 3449
    }
   },
   "staryone/motlab": {
@@ -4494,9 +4510,10 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "reported": {
-    "2026-11-18": 100
+    "2026-11-18": 100,
+    "2026-11-19": 235
    }
   },
   "jackson-cmd/claude-multi-desktop": {
@@ -4566,9 +4583,10 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "reported": {
-    "2026-11-18": 686
+    "2026-11-18": 686,
+    "2026-11-19": 843
    }
   },
   "paul-nameless/agweb": {
@@ -4612,6 +4630,198 @@
     "Claude Ecosystem"
    ],
    "last_seen": "2026-11-18"
+  },
+  "yibie/claude-best-practices-zh": {
+   "first_seen": "2026-11-19",
+   "kind": "Other",
+   "description": "Chinese translations of 173 official Claude best-practice articles with a linked concept wiki and knowledge graph.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-19",
+   "reported": {
+    "2026-11-19": 34
+   }
+  },
+  "JL-GUO/skill-siphon": {
+   "first_seen": "2026-11-19",
+   "kind": "Skill",
+   "description": "A tool that distills expert agent skills into lessons that people can learn and practice.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-19",
+   "reported": {
+    "2026-11-19": 23
+   }
+  },
+  "mzainulabideendev/Universal-AI-Prompt-Engineer": {
+   "first_seen": "2026-11-19",
+   "kind": "Dev tool",
+   "description": "Turns rough prompts into structured, review-ready instructions for AI coding agents.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-19",
+   "reported": {
+    "2026-11-19": 19
+   }
+  },
+  "Nyxera0x/simulator": {
+   "first_seen": "2026-11-19",
+   "kind": "Skill",
+   "description": "A Claude Code skill that rebuilds an industry as a live simulator from a reference format.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-19",
+   "reported": {
+    "2026-11-19": 13
+   }
+  },
+  "naheel0/dev-skills": {
+   "first_seen": "2026-11-19",
+   "kind": "Skill",
+   "description": "Agent skills that write dev.to posts in your voice and feed results back into drafts.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-19",
+   "reported": {
+    "2026-11-19": 10
+   }
+  },
+  "kulibinai/cadmageddon": {
+   "first_seen": "2026-11-19",
+   "kind": "Coding agent",
+   "description": "Source code for CADMAGEDDON, a CAD reverse-engineering agent.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-19",
+   "reported": {
+    "2026-11-19": 8
+   }
+  },
+  "lukendeasy/open-diagram": {
+   "first_seen": "2026-11-19",
+   "kind": "Dev tool",
+   "description": "Python building blocks for dense architecture diagrams that check their own layout.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-19",
+   "reported": {
+    "2026-11-19": 8
+   }
+  },
+  "lgarbayo/product-walkthrough-video": {
+   "first_seen": "2026-11-19",
+   "kind": "Skill",
+   "description": "A Claude Code skill that turns a product repo and running app into a 2 to 5 minute explainer video.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-19",
+   "reported": {
+    "2026-11-19": 8
+   }
+  },
+  "arhen/nodwarden": {
+   "first_seen": "2026-11-19",
+   "kind": "Dev tool",
+   "description": "Lets you approve AI agent requests for Bitwarden secrets from the MacBook notch with Touch ID.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-19",
+   "reported": {
+    "2026-11-19": 5
+   }
+  },
+  "minhpham15/cache-warm": {
+   "first_seen": "2026-11-19",
+   "kind": "Plugin",
+   "description": "A Claude Code mod that shows whether the prompt cache is warm and counts down its TTL.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-19",
+   "reported": {
+    "2026-11-19": 3
+   }
+  },
+  "ysunyang4/Nexus": {
+   "first_seen": "2026-11-19",
+   "kind": "MCP server",
+   "description": "Connects web AI assistants to local files, terminals, Git and desktop tools through MCP.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-19",
+   "reported": {
+    "2026-11-19": 406
+   }
+  },
+  "therandomsecurityguy/signet": {
+   "first_seen": "2026-11-19",
+   "kind": "AI infra",
+   "description": "A graph-based governance registry that reviews and approves agents and skills.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-19",
+   "reported": {
+    "2026-11-19": 141
+   }
+  },
+  "expo/exact": {
+   "first_seen": "2026-11-19",
+   "kind": "Dev tool",
+   "description": "Write an app once and run it natively on web, macOS, iOS and Linux, with AI agent support.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-19",
+   "reported": {
+    "2026-11-19": 4679
+   }
+  },
+  "Commonwealth-Bank-of-Australia/CodeCheck": {
+   "first_seen": "2026-11-19",
+   "kind": "Plugin",
+   "description": "Commonwealth Bank open-sources CodeCheck security review plugin",
+   "seen_in": [
+    "Claude Ecosystem"
+   ],
+   "last_seen": "2026-11-19"
+  },
+  "globalmpc/vibe-bill": {
+   "first_seen": "2026-11-19",
+   "kind": "Skill",
+   "description": "vibe-bill skill estimates app run cost at scale",
+   "seen_in": [
+    "Claude Ecosystem"
+   ],
+   "last_seen": "2026-11-19"
+  },
+  "afurmanov/harness-profiler": {
+   "first_seen": "2026-11-19",
+   "kind": "Hook",
+   "description": "harness-profiler shows token cost per skill, agent and tool",
+   "seen_in": [
+    "Claude Ecosystem"
+   ],
+   "last_seen": "2026-11-19"
+  },
+  "awslabs/ai-eval-studio": {
+   "first_seen": "2026-11-19",
+   "kind": "Other",
+   "description": "AWS Labs publishes AI Eval Studio for LLM evaluation",
+   "seen_in": [
+    "Cloud"
+   ],
+   "last_seen": "2026-11-19"
   }
  }
 }

@@ -1,6 +1,11 @@
 {
  "editions": [
   {
+   "date": "2026-11-19",
+   "stories": 37,
+   "headline": "OpenAI releases GPT-6.2 Astra and GPT-6.2 Sol"
+  },
+  {
    "date": "2026-11-18",
    "stories": 34,
    "headline": "OpenAI ships GPT-6.2 Astra and GPT-6.2 Sol"
