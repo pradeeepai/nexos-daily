@@ -1,6 +1,20 @@
 {
  "entries": [
   {
+   "date": "2026-11-19",
+   "company": "Ubisoft",
+   "count": 166,
+   "count_text": "",
+   "pct": null,
+   "location": "Montreal and Quebec City, Quebec",
+   "country": "Canada",
+   "industry": "Gaming",
+   "kind": "layoff",
+   "confirmed": true,
+   "source": "GameRant (credits IGN)",
+   "url": "https://gamerant.com/ubisoft-montreal-quebec-layoffs/"
+  },
+  {
    "date": "2026-11-18",
    "company": "Tipalti",
    "count": null,
@@ -2059,5 +2073,5 @@
    "url": "https://golayoffs.com/tech-layoff-tracker/"
   }
  ],
- "updated": "2026-11-19T02:51:00Z"
+ "updated": "2026-11-20T02:51:38Z"
 }

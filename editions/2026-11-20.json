@@ -1,0 +1,450 @@
+{
+ "date": "2026-11-20",
+ "generated": "2026-11-20T02:51:38Z",
+ "sections": {
+  "tech-news": {
+   "routine": "tech-news",
+   "status": "done",
+   "headline": "Google ships Gemini 4 Neon with a 1M-token context at $3/$15 per 1M tokens.",
+   "filed": "2026-11-20T02:18:13Z",
+   "note": "Anthropic priced its IPO on 2026-11-18; the desk skipped it as funding news. Claude Fable 5.2 (Nov 9) is outside the window. No other major-lab model launch was confirmed for Nov 18-19.",
+   "items": [
+    {
+     "title": "Google releases Gemini 4 Neon: 1M context, $3/$15 per 1M tokens",
+     "body": "Google released Gemini 4 Neon on 2026-11-18. It has a 1M-token context window. Price is $3 per 1M input tokens, $0.15 per 1M cached input tokens and $15 per 1M output tokens. It is available in AI Studio (paid tier), Antigravity and the Gemini app for Pro and Ultra. Google reports 65.2% on Terminal-Bench 4.1 and rank #1 on the Artificial Analysis Coding Agent Index.",
+     "why": "A new top-tier model for agent and coding workloads on the Gemini API, with direct price data.",
+     "topics": [
+      "New models",
+      "Gemini"
+     ],
+     "source": "Google blog",
+     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+     "date": "2026-11-18"
+    },
+    {
+     "title": "Claude Code v2.1.328 adds auto mode on Bedrock and Foundry",
+     "body": "Auto mode now works for Claude Opus 4.6 and Sonnet 4.6 on Amazon Bedrock, Google Cloud's Agent Platform, Microsoft Foundry and the Claude apps gateway. Interactive sessions with no permission mode start in auto mode. mcp_tool hooks accept onFailure: block. The release adds self-hosted runner options and many fixes.",
+     "why": "Teams that run Claude Code on Amazon Bedrock now get auto permission mode.",
+     "topics": [
+      "Claude Code",
+      "Bedrock"
+     ],
+     "source": "GitHub anthropics/claude-code",
+     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.328",
+     "date": "2026-11-19"
+    },
+    {
+     "title": "Claude solves two open black-hole physics problems",
+     "body": "Anthropic's Science team reports that Claude Fable 5.2 completed a 2003 Hawking-Page calculation in N=4 super Yang-Mills theory. It also found the exact optimal ceiling of the modular bootstrap for 3D gravity (about c/9.1266) and verified it formally in Lean. The page says the results have no direct practical use. The post reached 345 points on Hacker News on 2026-11-19.",
+     "why": "Shows Claude Fable 5.2 on long, verifiable research work; the result was checked in Lean.",
+     "topics": [
+      "Claude",
+      "AI research"
+     ],
+     "source": "Anthropic research",
+     "url": "https://www.anthropic.com/research/claude-black-hole-physics",
+     "date": "2026-11-17",
+     "also": [
+      {
+       "section": "Pulse",
+       "source": "Hacker News · 345 points · 155 comments",
+       "url": "https://www.anthropic.com/research/claude-black-hole-physics"
+      }
+     ]
+    },
+    {
+     "title": "Claude Code v2.1.327 adds MCP stdin and config checks",
+     "body": "`claude mcp add-json <name> -` now reads server JSON from stdin. /status and `claude doctor` list broken agent, skill, command and output-style files, and hook matchers that never match. A new attributionProject setting names a session's billing group. The release fixes `claude mcp add/remove` deleting other keys in .mcp.json.",
+     "why": "Gives safer MCP setup and better diagnostics for broken skills, hooks and agents.",
+     "topics": [
+      "Claude Code",
+      "MCP"
+     ],
+     "source": "GitHub anthropics/claude-code",
+     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.327",
+     "date": "2026-11-17"
+    },
+    {
+     "title": "Genie 4 world model opens in the Gemini API and AI Studio",
+     "body": "Google DeepMind says developers can use Genie 4 in the Gemini API and Google AI Studio. Users enter interactive environments and change them during a session, for example weather and characters. The model generates native audio. The announcement post received about 3,000 likes on X. Price and limits are not stated in the sources read.",
+     "why": "First world model that developers can call from an API.",
+     "topics": [
+      "New models",
+      "Gemini"
+     ],
+     "source": "X post by Google DeepMind team",
+     "url": "https://x.com/i/status/2123467449257623770",
+     "date": "2026-11-19",
+     "also": [
+      {
+       "section": "Trending on X",
+       "source": "X · Google AI team post · 2957 likes · 167 reposts",
+       "url": "https://x.com/i/status/2123467449257623770"
+      }
+     ]
+    },
+    {
+     "title": "OpenAI describes Codex-based Performance Factory for ChatGPT",
+     "body": "OpenAI says it built a Performance Factory that coordinates agents. The agents investigate regressions, propose fixes for engineers to review, and check whether the fixes work in production. OpenAI says Codex already helps build ChatGPT.",
+     "why": "Shows a production pattern for agents that find and fix performance regressions with human review.",
+     "topics": [
+      "Agents",
+      "OpenAI"
+     ],
+     "source": "X post by OpenAI",
+     "url": "https://x.com/i/status/2123471880292299171",
+     "date": "2026-11-19",
+     "also": [
+      {
+       "section": "Trending on X",
+       "source": "X · OpenAI · 1682 likes · 105 reposts",
+       "url": "https://x.com/i/status/2123471880292299171"
+      }
+     ]
+    }
+   ]
+  },
+  "chips": {
+   "routine": "chips",
+   "status": "done",
+   "headline": "NVIDIA and Microsoft run Vera Rubin NVL72 systems in Azure as a preview.",
+   "filed": "2026-11-20T02:18:13Z",
+   "note": "",
+   "items": [
+    {
+     "title": "Vera Rubin NVL72 systems run in Azure (preview)",
+     "body": "NVIDIA and Microsoft announced at Ignite that Vera Rubin NVL72 systems run in Azure data centers as a preview. In MLPerf Training v6.1, Azure scaled to 10,240 GB200 GPUs on DeepSeek-V3. In MLPerf Inference v6.1, Azure GB300 NVL72 led cloud submissions on DeepSeek-R1 interactive throughput by over 10% (per Signal65).",
+     "why": "Shows the next NVIDIA rack-scale platform reaching a major cloud, with MLPerf data on the current one.",
+     "topics": [
+      "NVIDIA",
+      "Data centers"
+     ],
+     "source": "NVIDIA blog",
+     "url": "https://blogs.nvidia.com/blog/microsoft-ignite-accelerated-computing-azure-windows-pcs/",
+     "date": "2026-11-19"
+    },
+    {
+     "title": "NVIDIA RTX Spark compact desktops ship: 1 PFLOP, 128 GB",
+     "body": "RTX Spark systems use a 20-core Grace CPU and a Blackwell GPU with 6,144 CUDA cores. They offer up to 128 GB unified memory and up to 1 petaflop of AI performance. ASUS, Dell and MSI systems are available now. Acer, GIGABYTE and HP systems come later. Power is not stated.",
+     "why": "Brings local inference of 120B-parameter models to a small desktop.",
+     "topics": [
+      "NVIDIA",
+      "Chips"
+     ],
+     "source": "NVIDIA blog",
+     "url": "https://blogs.nvidia.com/blog/rtx-spark-desktop-local-ai-available-now/",
+     "date": "2026-11-18"
+    },
+    {
+     "title": "The Resolution Hypothesis: agent evolution gains are within run noise",
+     "body": "The paper from ShanghaiTech compares 7 evolution methods on 6 models. It uses over 10M LLM calls and 1,030+ runs. Typical gaps between methods, a few percentage points, are smaller than the gap between two runs of the same method. The authors argue that the key is to identify real improvements. It ranked #2 paper of the day on Hugging Face.",
+     "why": "Warns engineers that small benchmark gains from self-improving agents may be noise.",
+     "topics": [
+      "AI research",
+      "Architecture"
+     ],
+     "source": "Hugging Face Papers / arXiv",
+     "url": "https://huggingface.co/papers/2611.23068",
+     "date": "2026-11-19"
+    },
+    {
+     "title": "Jeveration: a frozen vision-language model generates images in one pass",
+     "body": "Authors from the National University of Singapore reuse a frozen vision-language model to generate 512x512 images in a single forward pass of 78 ms. They claim up to 122x faster inference than existing unified models, with competitive image quality and dense prediction.",
+     "why": "Claims a large inference speed-up for unified image models.",
+     "topics": [
+      "AI research",
+      "Architecture"
+     ],
+     "source": "Hugging Face Papers / arXiv",
+     "url": "https://huggingface.co/papers/2611.24738",
+     "date": "2026-11-18"
+    },
+    {
+     "title": "Intel Xeon Diamond Rapids package shown at SC26",
+     "body": "Bull showed a Sequana XH31600 blade with four Intel Xeon Diamond Rapids packages (LGA9324 socket). Each dual-socket node has 16-channel memory. Bull's BXI switch has 64x 800G OSFP ports. Intel gave no official specs. ServeTheHome expects a launch around Q2 2027.",
+     "why": "Early look at Intel's next server CPU platform for AI data centers.",
+     "topics": [
+      "Intel",
+      "Data centers"
+     ],
+     "source": "ServeTheHome",
+     "url": "https://www.servethehome.com/bull-shows-intel-xeon-diamond-rapids-package-at-sc26/",
+     "date": "2026-11-18"
+    }
+   ]
+  },
+  "ecosystem": {
+   "routine": "ecosystem",
+   "status": "done",
+   "headline": "Anthropic's skills repo passes 196k stars and its official plugin directory reaches 47k.",
+   "filed": "2026-11-20T02:18:13Z",
+   "note": "Growth rates are not available; star counts are totals from the GitHub search API. Reddit read failed (HTTP 429). Many new Blender MCP repos look like copies and were skipped.",
+   "items": [
+    {
+     "title": "anthropics/skills: Anthropic's official skills repository",
+     "body": "The repo holds Anthropic's skill sets: Creative & Design, Development & Technical, Enterprise & Communication and Document Skills. It also holds a spec and a template. It has 196.6k stars and 23.1k forks.",
+     "why": "Official source for the docx, pdf, pptx and xlsx skills and the skill spec.",
+     "topics": [
+      "Skills",
+      "Claude Code"
+     ],
+     "source": "GitHub anthropics",
+     "url": "https://github.com/anthropics/skills",
+     "date": "2026-11-19"
+    },
+    {
+     "title": "anthropics/claude-plugins-official: Anthropic-managed plugin directory",
+     "body": "Anthropic manages this directory of Claude Code plugins under Apache-2.0. It has 47,735 stars and was pushed on 2026-11-20.",
+     "why": "Official list of Claude Code plugins that teams can install.",
+     "topics": [
+      "Plugins",
+      "Claude Code"
+     ],
+     "source": "GitHub anthropics",
+     "url": "https://github.com/anthropics/claude-plugins-official",
+     "date": "2026-11-20"
+    },
+    {
+     "title": "Graphify turns a codebase into a knowledge graph",
+     "body": "Graphify-Labs/graphify builds a knowledge graph from a codebase and its docs. It includes a /graphify skill. It has 150,677 stars and was created on 2026-04-03.",
+     "why": "Helps agents navigate large repos with a /graphify skill.",
+     "topics": [
+      "Skills",
+      "Setups"
+     ],
+     "source": "GitHub Graphify-Labs",
+     "url": "https://github.com/Graphify-Labs/graphify",
+     "date": "2026-11-19"
+    },
+    {
+     "title": "context-mode keeps tool output out of the context window",
+     "body": "mksglu/context-mode is a local plugin that keeps tool output out of the context window. It has 34,313 stars and was pushed on 2026-11-19.",
+     "why": "Reduces context use in long Claude Code sessions.",
+     "topics": [
+      "Plugins",
+      "Claude Code"
+     ],
+     "source": "GitHub mksglu",
+     "url": "https://github.com/mksglu/context-mode",
+     "date": "2026-11-19"
+    },
+    {
+     "title": "caveman skill and proxy shorten agent output",
+     "body": "JuliusBrussee/caveman is a skill with a local proxy that aims to shorten agent output. It has 121,581 stars and was pushed on 2026-11-20.",
+     "why": "Cuts output tokens for cost-sensitive agent runs.",
+     "topics": [
+      "Skills",
+      "Setups"
+     ],
+     "source": "GitHub JuliusBrussee",
+     "url": "https://github.com/JuliusBrussee/caveman",
+     "date": "2026-11-20"
+    },
+    {
+     "title": "Compound Engineering plugin for Claude Code and other agents",
+     "body": "EveryInc/compound-engineering-plugin supports Claude Code, Codex, Cursor and others. It has 26,162 stars and was pushed on 2026-11-20.",
+     "why": "A workflow plugin that works across Claude Code, Codex and Cursor.",
+     "topics": [
+      "Plugins",
+      "Setups"
+     ],
+     "source": "GitHub EveryInc",
+     "url": "https://github.com/EveryInc/compound-engineering-plugin",
+     "date": "2026-11-20"
+    }
+   ]
+  },
+  "x-desk": {
+   "routine": "x-desk",
+   "status": "done",
+   "headline": "Google opens its Genie 4 world model to developers in the Gemini API.",
+   "filed": "2026-11-20T02:18:13Z",
+   "note": "Read 40 posts. The tool output was cut off, so only 3 posts could be checked and filed. Anthropic CEO remarks on the IPO (9223 likes) were dropped as non-technical. Usernames for two posts were not in the visible output, so the links use x.com/i/status.",
+   "items": [
+    {
+     "title": "Pelican-on-a-bicycle test compares Gemini 4 effort levels",
+     "body": "The post compares Gemini 4 Carbon, Neon and Hydrogen at low, medium and high effort on the pelican-on-a-bicycle drawing test. The author says the test shows differences between effort levels in one family.",
+     "why": "Gives a quick visual check of how effort settings change output in one model family.",
+     "topics": [
+      "Gemini",
+      "AI research"
+     ],
+     "source": "X · pelican benchmark post · 622 likes · 24 reposts",
+     "url": "https://x.com/i/status/2123305131206967571",
+     "date": "2026-11-19"
+    }
+   ]
+  },
+  "tech-pulse": {
+   "routine": "tech-pulse",
+   "status": "done",
+   "headline": "Anthropic priced its IPO and began trading on Nasdaq, and developers discussed it more than any other tech topic.",
+   "filed": "2026-11-20T02:23:40Z",
+   "note": "Reddit was read through Composio (r/ClaudeAI, r/LocalLLaMA, r/OpenAI, r/MachineLearning, r/devops). Item bodies use only the titles and linked pages' headlines because the pages were not opened.",
+   "items": [
+    {
+     "title": "Anthropic prices IPO and starts trading on Nasdaq",
+     "body": "Anthropic published a post about the pricing of its initial public offering. Reuters covered the Nasdaq debut. Users on r/ClaudeAI discussed the stock, which trades as ANT. The Reuters headline on Hacker News cites a $2T valuation at debut.",
+     "why": "The IPO changes how engineers and buyers weigh Claude as a long-term vendor.",
+     "topics": [
+      "Claude"
+     ],
+     "source": "Hacker News · 826 points · 1,579 comments",
+     "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
+     "date": "2026-11-19"
+    },
+    {
+     "title": "Ruby2ßhell: pre-authentication RCE on stock Rails",
+     "body": "Veria Labs published a write-up of a pre-authentication remote code execution (RCE) issue in stock Rails. The Ruby project also published an advisory on 18 November about multiple vulnerabilities in Regexp and String case conversion (335 points on Hacker News).",
+     "why": "A pre-auth remote code execution bug on default Rails needs a patch check on every Rails deployment.",
+     "topics": [
+      "Security"
+     ],
+     "source": "Hacker News · 377 points · 160 comments",
+     "url": "https://verialabs.com/ruby2shell/",
+     "date": "2026-11-19"
+    },
+    {
+     "title": "Kitten-TTS-2: Apache 2.0 text-to-speech models, Pico is 4 MB",
+     "body": "Kitten-TTS-2 ships in three sizes: Pico, Nano and Mini. The license is Apache 2.0. The models support up to 16 languages. The Pico model is 4 MB.",
+     "why": "Very small open TTS models can run on edge devices and CPUs without a cloud API.",
+     "topics": [
+      "Open models"
+     ],
+     "source": "r/LocalLLaMA · 267 upvotes",
+     "url": "https://reddit.com/r/LocalLLaMA/comments/1y0e59m/kittentts2_pico_nano_mini_sota_supertiny_apache/",
+     "date": "2026-11-19"
+    },
+    {
+     "title": "rust-anything 2.0: Claude Code ports Prettier to Rust",
+     "body": "rust-anything rewrites an app in Rust one piece at a time and checks each piece against the original. The author reports that Claude Code used it to port Prettier to Rust. The author reports a 19x speed gain and 17,224 of 17,224 test runs that match byte for byte. The repo has 5,285 stars on GitHub.",
+     "why": "It shows a repeatable way to use a coding agent for a large rewrite that is checked against the original behavior.",
+     "topics": [
+      "Claude Code",
+      "Agents"
+     ],
+     "source": "r/ClaudeAI · 131 upvotes",
+     "url": "https://reddit.com/r/ClaudeAI/comments/1y06sk0/rustanything_20_is_out_two_days_ago_i_posted_this/",
+     "date": "2026-11-19"
+    }
+   ]
+  },
+  "aws-news": {
+   "routine": "aws-news",
+   "status": "done",
+   "headline": "AWS Lambda adds GPU instances for event functions on Lambda Managed Instances.",
+   "filed": "2026-11-20T02:23:40Z",
+   "note": "The What's New feed had no items dated 19 or 20 November. The AWS GitHub check found no new repo that meets the star limits; earlier repos (aws-emulator, ai-eval-studio, uaef) are already reported.",
+   "items": [
+    {
+     "title": "Lambda adds GPU instances on Lambda Managed Instances",
+     "body": "Lambda event functions can now run on EC2 G-series GPU instances through Lambda Managed Instances. Billing is EC2 pricing plus a management fee. The feature is available in commercial Regions.",
+     "why": "Teams can run GPU inference and media jobs as event functions without managing servers.",
+     "topics": [
+      "Serverless"
+     ],
+     "source": "AWS News Blog",
+     "url": "https://aws.amazon.com/blogs/aws/aws-lambda-now-supports-gpu-instances-for-event-functions-on-lambda-managed-instances/",
+     "date": "2026-11-18"
+    },
+    {
+     "title": "Amazon OpenSearch Memory is generally available",
+     "body": "OpenSearch Memory is a serverless service that stores agent interactions, derives memories from them and retrieves them across sessions.",
+     "why": "Agent builders get managed persistent memory without a custom store.",
+     "topics": [
+      "Agents"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-opensearch-memory-generally-available/",
+     "date": "2026-11-18"
+    },
+    {
+     "title": "SageMaker AI adds cross-Region inference routing",
+     "body": "An inference router in SageMaker AI shifts requests to endpoints in other Regions when local capacity is low. The ML blog describes how Salesforce uses it for global model serving.",
+     "why": "Inference traffic can move to healthy endpoints in other Regions when local capacity runs short.",
+     "topics": [
+      "DevOps"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/sagemaker-cross-region-routing/",
+     "date": "2026-11-18"
+    },
+    {
+     "title": "Lambda supports customer-managed runtimes",
+     "body": "Runtimes are standalone resources based on ECR. They update functions without a redeploy. The feature is generally available at no extra charge.",
+     "why": "Platform teams control runtime contents and updates for all functions in one place.",
+     "topics": [
+      "Serverless",
+      "Security"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-lambda-customer-managed-runtimes/",
+     "date": "2026-11-18"
+    },
+    {
+     "title": "EKS Hybrid Nodes lowers price for large hosts",
+     "body": "The billed vCPU count per hybrid node is now capped at 32. Existing nodes must be deleted and reattached to get the new price.",
+     "why": "Large on-premises nodes cost less to run in EKS.",
+     "topics": [
+      "Kubernetes",
+      "Cost"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-eks-hybrid-nodes-pricing-change/",
+     "date": "2026-11-18"
+    },
+    {
+     "title": "AWS releases ExtendDB 1.0, an open-source DynamoDB-compatible adapter",
+     "body": "ExtendDB 1.0 is open source under Apache 2.0. It offers a DynamoDB-compatible API with PostgreSQL, SQLite, Cassandra and MongoDB backends.",
+     "why": "Teams can run DynamoDB-style APIs on other databases.",
+     "topics": [
+      "DevOps"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-extenddb-1-0/",
+     "date": "2026-11-18"
+    },
+    {
+     "title": "Apache Spark Optimization Agent for AWS Glue ETL",
+     "body": "The agent analyzes completed Glue Spark runs and recommends configuration changes. It has no extra charge for Glue 4.0 and later.",
+     "why": "It recommends cost and performance changes from real Glue job runs.",
+     "topics": [
+      "Agents",
+      "Cost"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/apache-spark-aws-glue-etl/",
+     "date": "2026-11-18"
+    }
+   ]
+  },
+  "layoffs": {
+   "routine": "layoffs",
+   "status": "done",
+   "headline": "Ubisoft cuts 166 jobs at its Montreal and Quebec City studios.",
+   "filed": "2026-11-20T02:23:40Z",
+   "note": "TrueUp could not be opened. GoLayoffs had no entries for 17 to 20 November. Intel IT cuts were reported but not confirmed and have no confirmed count, so they are not filed.",
+   "items": [
+    {
+     "title": "Ubisoft cuts 166 jobs in Montreal and Quebec City",
+     "body": "Ubisoft confirmed 166 job cuts on 19 November 2026 at Ubisoft Montreal and Ubisoft Quebec. The cuts affect staff whose projects were canceled and staff who could not move to an active project. Ubisoft did not say how the cuts split between the two cities. The company offers severance, extended healthcare and career transition support.",
+     "why": "Game studios keep cutting staff after project cancellations.",
+     "topics": [
+      "Layoffs"
+     ],
+     "source": "GameRant (credits IGN)",
+     "url": "https://gamerant.com/ubisoft-montreal-quebec-layoffs/",
+     "date": "2026-11-19",
+     "company": "Ubisoft",
+     "count": 166,
+     "pct": null,
+     "country": "Canada",
+     "location": "Montreal and Quebec City, Quebec",
+     "industry": "Gaming",
+     "kind": "layoff"
+    }
+   ]
+  }
+ },
+ "briefing": "Good morning. This is The Nexos Daily for Friday, 20 November 2026.\n\nGoogle released Gemini 4 Neon. It has a 1 million token context. The price is 3 dollars per million input tokens and 15 dollars per million output tokens. Neon sits between Gemini 4 Hydrogen and Gemini 4 Carbon. A drawing test online compared all three models at low, medium and high effort.\n\nOn Hacker News, the top topic was Anthropic's initial public offering. Anthropic priced its shares and started trading on Nasdaq. The thread had more than 1,500 comments.\n\nIn security, Veria Labs published a pre-authentication remote code execution flaw in stock Ruby on Rails. The Ruby project published an advisory. Update Rails applications now.\n\nIn the Claude ecosystem, Claude Code version 2.1.328 adds auto mode for Opus 4.6 and Sonnet 4.6 on Amazon Bedrock, Google Cloud and Microsoft Foundry. Version 2.1.327 added the command that reads MCP settings from standard input, and the doctor command now lists broken agents and skills. Anthropic's official skills repository passed 196 thousand stars. The context-mode plugin keeps tool output out of the context window. The rust-anything project used Claude Code to port Prettier to Rust.\n\nIn research, Anthropic's science team reports that Claude Fable 5.2 solved two open problems in black hole physics.\n\nIn models, Google DeepMind opened the Genie 4 world model in the Gemini API and AI Studio. OpenAI described a Performance Factory, where Codex agents find and fix slowdowns in ChatGPT. Kitten TTS 2 released open text-to-speech models. The smallest is only 4 megabytes.\n\nIn chips, NVIDIA and Microsoft run Vera Rubin NVL72 systems in Azure as a preview. NVIDIA RTX Spark desktops shipped, with up to 128 gigabytes of unified memory and 1 petaflop of AI compute. A new paper says most gains from agent evolution methods are within run noise.\n\nOn AWS, Lambda event functions can now run on GPU instances through Lambda Managed Instances. Amazon OpenSearch Memory is generally available for agent memory. SageMaker AI adds cross-Region inference routing. Lambda supports customer-managed runtimes. EKS Hybrid Nodes caps the billed vCPU count at 32 per node. AWS released ExtendDB 1.0, an open-source adapter with a DynamoDB-compatible API. A new agent tunes Spark jobs in AWS Glue.\n\nIn layoffs, Ubisoft cut 166 jobs at its Montreal and Quebec City studios.\n\nThere were no verified gadget launches in the last 48 hours.\n\nOn GitHub, rust-anything leads the weekly list with 5,285 stars.\n\nThat is the news for today."
+}

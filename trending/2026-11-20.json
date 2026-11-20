@@ -1,0 +1,339 @@
+{
+ "date": "2026-11-20",
+ "generated": "2026-11-20T02:51:38Z",
+ "headline": "setyamickala/airdrop-agent is the fastest riser today with 81 stars in its first day.",
+ "periods": {
+  "daily": {
+   "topics": [
+    "Agent skills",
+    "MCP servers",
+    "Agent runtimes",
+    "Coding-agent tooling"
+   ],
+   "repos": [
+    {
+     "repo": "setyamickala/airdrop-agent",
+     "url": "https://github.com/setyamickala/airdrop-agent",
+     "description": "Operator agent for crypto airdrops with a guarded CLI and an MCP interface.",
+     "kind": "MCP server",
+     "language": "Python",
+     "stars": 81,
+     "gained": 81,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "nickvasilescu/openman",
+     "url": "https://github.com/nickvasilescu/openman",
+     "description": "Autonomous agent workspace that runs on a cloud computer.",
+     "kind": "Coding agent",
+     "language": "TypeScript",
+     "stars": 40,
+     "gained": 40,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "ntu0831/RAG-MCP-Server",
+     "url": "https://github.com/ntu0831/RAG-MCP-Server",
+     "description": "Modular and observable RAG framework with an MCP server.",
+     "kind": "MCP server",
+     "language": "Python",
+     "stars": 31,
+     "gained": 31,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "INK-Q/agy-fast",
+     "url": "https://github.com/INK-Q/agy-fast",
+     "description": "Plugin that cuts latency and tool-call cost for the Antigravity agent.",
+     "kind": "Plugin",
+     "language": "TypeScript",
+     "stars": 30,
+     "gained": 30,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "tracebit-com/turingpot",
+     "url": "https://github.com/tracebit-com/turingpot",
+     "description": "Proof of concept for an honeypot that catches AI agents.",
+     "kind": "AI infra",
+     "language": "JavaScript",
+     "stars": 30,
+     "gained": 30,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "fitzyracing1/system-on-an-agent",
+     "url": "https://github.com/fitzyracing1/system-on-an-agent",
+     "description": "Single agent with planner, memory, skills and connectors.",
+     "kind": "Agent framework",
+     "language": "Python",
+     "stars": 25,
+     "gained": 25,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "replit/amuse",
+     "url": "https://github.com/replit/amuse",
+     "description": "Self-hosted personal agent with an approval step.",
+     "kind": "Agent framework",
+     "language": "TypeScript",
+     "stars": 24,
+     "gained": 24,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "icons8/hub",
+     "url": "https://github.com/icons8/hub",
+     "description": "Tool that runs many Claude Code or Codex sessions together.",
+     "kind": "Dev tool",
+     "language": "Python",
+     "stars": 23,
+     "gained": 23,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "aiwithremy/podcast-clipping",
+     "url": "https://github.com/aiwithremy/podcast-clipping",
+     "description": "Claude skill that turns a long podcast into short clips.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 14,
+     "gained": 14,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "ronyfadel/lochness",
+     "url": "https://github.com/ronyfadel/lochness",
+     "description": "Claude Code skill and CLI for Apple-style app localization.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 10,
+     "gained": 10,
+     "source": "GitHub search"
+    }
+   ]
+  },
+  "weekly": {
+   "topics": [
+    "Agent skills",
+    "Claude Code plugins",
+    "MCP servers",
+    "Agent security",
+    "Code migration"
+   ],
+   "repos": [
+    {
+     "repo": "erkamyaman/rust-anything",
+     "url": "https://github.com/erkamyaman/rust-anything",
+     "description": "Rewrites an app in Rust one piece at a time and checks it against the original behavior.",
+     "kind": "Dev tool",
+     "language": "Rust",
+     "stars": 5285,
+     "gained": 5285,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "sybil-solutions/inference-optimisation-skill",
+     "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
+     "description": "Agent skill that speeds up local LLM serving.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 1265,
+     "gained": 1265,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "Bodila51/gtavi-claudecode",
+     "url": "https://github.com/Bodila51/gtavi-claudecode",
+     "description": "Claude Code plugin that turns game streams into short clips.",
+     "kind": "Plugin",
+     "language": "Python",
+     "stars": 911,
+     "gained": 911,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "boringmarketer/boring-marketing-skills",
+     "url": "https://github.com/boringmarketer/boring-marketing-skills",
+     "description": "Set of 32 free marketing skills for AI agents.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 719,
+     "gained": 719,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "mankidev/antialgorithm",
+     "url": "https://github.com/mankidev/antialgorithm",
+     "description": "Claude Code skill that avoids the average creative choice.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 500,
+     "gained": 500,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "ysunyang4/Nexus",
+     "url": "https://github.com/ysunyang4/Nexus",
+     "description": "Connects web AI assistants to local files and tools through MCP.",
+     "kind": "MCP server",
+     "language": "TypeScript",
+     "stars": 433,
+     "gained": 433,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "AnIT012/nihongo",
+     "url": "https://github.com/AnIT012/nihongo",
+     "description": "Agent skill that makes AI-written Japanese read more like human text.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 265,
+     "gained": 265,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "jackson-cmd/claude-multi-desktop",
+     "url": "https://github.com/jackson-cmd/claude-multi-desktop",
+     "description": "Runs several Claude Desktop accounts on one Mac.",
+     "kind": "Dev tool",
+     "language": "HTML",
+     "stars": 160,
+     "gained": 160,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "Tthanh2k6/turbo-browser-mcp",
+     "url": "https://github.com/Tthanh2k6/turbo-browser-mcp",
+     "description": "Playwright MCP server built to reduce agent token use.",
+     "kind": "MCP server",
+     "language": "JavaScript",
+     "stars": 132,
+     "gained": 132,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "therandomsecurityguy/signet",
+     "url": "https://github.com/therandomsecurityguy/signet",
+     "description": "Signed registry with a transparency log for agents and skills.",
+     "kind": "AI infra",
+     "language": "TypeScript",
+     "stars": 132,
+     "gained": 132,
+     "source": "GitHub search"
+    }
+   ]
+  },
+  "monthly": {
+   "topics": [
+    "Agent skills",
+    "Autonomous agents",
+    "MCP servers",
+    "Claude sandboxing",
+    "Agent UI tooling"
+   ],
+   "repos": [
+    {
+     "repo": "deepseek-ai/dsh-superagent-prototype",
+     "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+     "description": "Prototype of a more autonomous agent system.",
+     "kind": "Agent framework",
+     "language": "TypeScript",
+     "stars": 23962,
+     "gained": 23962,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "heydamir/unslop",
+     "url": "https://github.com/heydamir/unslop",
+     "description": "Claude skill that turns AI-looking UI into a designed UI.",
+     "kind": "Skill",
+     "language": "JavaScript",
+     "stars": 18664,
+     "gained": 18664,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "janestreet/agent_skills",
+     "url": "https://github.com/janestreet/agent_skills",
+     "description": "Collection of agent skills from Jane Street.",
+     "kind": "Skill",
+     "language": null,
+     "stars": 10299,
+     "gained": 10299,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "wangzan101/Mika",
+     "url": "https://github.com/wangzan101/Mika",
+     "description": "On-device Android agent that operates apps and the web.",
+     "kind": "Coding agent",
+     "language": "Kotlin",
+     "stars": 9196,
+     "gained": 9196,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "patch-gg/pixelfx",
+     "url": "https://github.com/patch-gg/pixelfx",
+     "description": "244 pixel-art effects with a Claude Code skill.",
+     "kind": "Skill",
+     "language": "JavaScript",
+     "stars": 8307,
+     "gained": 8307,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "Lee-xeo/Claude-Cage",
+     "url": "https://github.com/Lee-xeo/Claude-Cage",
+     "description": "Lightweight VM for Claude that blocks network leaks.",
+     "kind": "AI infra",
+     "language": "Go",
+     "stars": 6866,
+     "gained": 6866,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "qybaihe/bla",
+     "url": "https://github.com/qybaihe/bla",
+     "description": "MCP server and CLI that obfuscate code against AI reverse engineering.",
+     "kind": "MCP server",
+     "language": "TypeScript",
+     "stars": 6219,
+     "gained": 6219,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "vercel-labs/ui",
+     "url": "https://github.com/vercel-labs/ui",
+     "description": "Library of behaviors for agents that build user interfaces.",
+     "kind": "Dev tool",
+     "language": "TypeScript",
+     "stars": 6138,
+     "gained": 6138,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "KKKKhazix/agent-autoloop",
+     "url": "https://github.com/KKKKhazix/agent-autoloop",
+     "description": "Background CLI agent that asks the user only on unclear decisions.",
+     "kind": "Coding agent",
+     "language": "TypeScript",
+     "stars": 6034,
+     "gained": 6034,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "erkamyaman/rust-anything",
+     "url": "https://github.com/erkamyaman/rust-anything",
+     "description": "Rewrites an app in Rust one piece at a time and checks it against the original behavior.",
+     "kind": "Dev tool",
+     "language": "Rust",
+     "stars": 5285,
+     "gained": 5285,
+     "source": "GitHub search"
+    }
+   ]
+  }
+ }
+}

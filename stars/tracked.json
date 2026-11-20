@@ -443,7 +443,7 @@
     "AI",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-19"
+   "last_seen": "2026-11-20"
   },
   "anthropics/single-agent-loop-kit": {
    "first_seen": "2026-10-25",
@@ -1383,7 +1383,7 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "reported": {
     "2026-10-29": 200,
     "2026-10-31": 1432,
@@ -1395,7 +1395,8 @@
     "2026-11-16": 5838,
     "2026-11-17": 5938,
     "2026-11-18": 6070,
-    "2026-11-19": 6143
+    "2026-11-19": 6143,
+    "2026-11-20": 6219
    }
   },
   "amosblomqvist/learnharness": {
@@ -1494,7 +1495,7 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "reported": {
     "2026-10-30": 26,
     "2026-11-01": 2802,
@@ -1515,7 +1516,8 @@
     "2026-11-16": 8774,
     "2026-11-17": 8872,
     "2026-11-18": 8977,
-    "2026-11-19": 9109
+    "2026-11-19": 9109,
+    "2026-11-20": 9196
    }
   },
   "yc-software/minecraft-agent-harness": {
@@ -1628,7 +1630,7 @@
    "seen_in": [
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-10-30"
+   "last_seen": "2026-11-20"
   },
   "anthropics/claude-plugins-official": {
    "first_seen": "2026-10-30",
@@ -1637,7 +1639,7 @@
    "seen_in": [
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-17"
+   "last_seen": "2026-11-20"
   },
   "patch-gg/pixelfx": {
    "first_seen": "2026-10-31",
@@ -1647,7 +1649,7 @@
     "Trending",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "reported": {
     "2026-10-31": 339,
     "2026-11-02": 2682,
@@ -1666,7 +1668,8 @@
     "2026-11-16": 7640,
     "2026-11-17": 7770,
     "2026-11-18": 8002,
-    "2026-11-19": 8157
+    "2026-11-19": 8157,
+    "2026-11-20": 8307
    }
   },
   "Pluviobyte/douyin-comments": {
@@ -1822,7 +1825,7 @@
     "Trending",
     "Pulse"
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "reported": {
     "2026-11-01": 2840,
     "2026-11-02": 8079,
@@ -1842,7 +1845,8 @@
     "2026-11-16": 23380,
     "2026-11-17": 23511,
     "2026-11-18": 23684,
-    "2026-11-19": 23836
+    "2026-11-19": 23836,
+    "2026-11-20": 23962
    }
   },
   "wiva-hq/CodeRail": {
@@ -1999,7 +2003,7 @@
     "Trending",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "reported": {
     "2026-11-01": 3574,
     "2026-11-02": 4933,
@@ -2019,7 +2023,8 @@
     "2026-11-16": 16913,
     "2026-11-17": 17300,
     "2026-11-18": 17812,
-    "2026-11-19": 18317
+    "2026-11-19": 18317,
+    "2026-11-20": 18664
    }
   },
   "ninjahawk/livenerf": {
@@ -2246,7 +2251,7 @@
    "seen_in": [
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-20"
   },
   "Dicklesworthstone/destructive_command_guard": {
    "first_seen": "2026-11-02",
@@ -2451,7 +2456,7 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "reported": {
     "2026-11-04": 578,
     "2026-11-05": 2611,
@@ -2467,7 +2472,8 @@
     "2026-11-16": 5576,
     "2026-11-17": 5700,
     "2026-11-18": 5812,
-    "2026-11-19": 5916
+    "2026-11-19": 5916,
+    "2026-11-20": 6034
    }
   },
   "RUC-NLPIR/CoworkOS": {
@@ -2994,11 +3000,12 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-20",
    "reported": {
     "2026-11-07": 496,
     "2026-11-15": 5488,
-    "2026-11-17": 6094
+    "2026-11-17": 6094,
+    "2026-11-20": 6866
    }
   },
   "sarpstar/cinecode": {
@@ -3298,7 +3305,7 @@
     "Trending",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "reported": {
     "2026-11-09": 338,
     "2026-11-10": 2213,
@@ -3309,7 +3316,8 @@
     "2026-11-16": 9191,
     "2026-11-17": 9604,
     "2026-11-18": 9896,
-    "2026-11-19": 10120
+    "2026-11-19": 10120,
+    "2026-11-20": 10299
    }
   },
   "synchopate/llama-modchip": {
@@ -4005,11 +4013,12 @@
     "Trending",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "reported": {
     "2026-11-15": 61,
     "2026-11-18": 223,
-    "2026-11-19": 427
+    "2026-11-19": 427,
+    "2026-11-20": 500
    }
   },
   "allen-hsu/claude-code-sketch": {
@@ -4310,11 +4319,12 @@
     "Trending",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "reported": {
     "2026-11-16": 115,
     "2026-11-17": 126,
-    "2026-11-19": 132
+    "2026-11-19": 132,
+    "2026-11-20": 132
    }
   },
   "claynicholson/copper-kicad-mcp": {
@@ -4336,12 +4346,13 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "reported": {
     "2026-11-16": 5066,
     "2026-11-17": 5318,
     "2026-11-18": 5570,
-    "2026-11-19": 5892
+    "2026-11-19": 5892,
+    "2026-11-20": 6138
    }
   },
   "aws/aws-emulator-evaluation-suite": {
@@ -4406,9 +4417,10 @@
    "kind": "Skill",
    "description": "Anthropic's public repository of Agent Skills.",
    "seen_in": [
-    "Trending"
+    "Trending",
+    "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-20",
    "reported": {
     "2026-11-17": 196091
    }
@@ -4444,11 +4456,12 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "reported": {
     "2026-11-17": 161,
     "2026-11-18": 540,
-    "2026-11-19": 665
+    "2026-11-19": 665,
+    "2026-11-20": 719
    }
   },
   "sybil-solutions/inference-optimisation-skill": {
@@ -4458,11 +4471,12 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "reported": {
     "2026-11-17": 146,
     "2026-11-18": 934,
-    "2026-11-19": 1121
+    "2026-11-19": 1121,
+    "2026-11-20": 1265
    }
   },
   "simplexai-labs/linger": {
@@ -4485,10 +4499,11 @@
     "Trending",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "reported": {
     "2026-11-18": 1447,
-    "2026-11-19": 3449
+    "2026-11-19": 3449,
+    "2026-11-20": 5285
    }
   },
   "staryone/motlab": {
@@ -4510,10 +4525,11 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "reported": {
     "2026-11-18": 100,
-    "2026-11-19": 235
+    "2026-11-19": 235,
+    "2026-11-20": 265
    }
   },
   "jackson-cmd/claude-multi-desktop": {
@@ -4523,9 +4539,10 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-20",
    "reported": {
-    "2026-11-18": 90
+    "2026-11-18": 90,
+    "2026-11-20": 160
    }
   },
   "SecFathy/otpkit": {
@@ -4758,9 +4775,10 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "reported": {
-    "2026-11-19": 406
+    "2026-11-19": 406,
+    "2026-11-20": 433
    }
   },
   "therandomsecurityguy/signet": {
@@ -4770,9 +4788,10 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "reported": {
-    "2026-11-19": 141
+    "2026-11-19": 141,
+    "2026-11-20": 132
    }
   },
   "expo/exact": {
@@ -4822,6 +4841,156 @@
     "Cloud"
    ],
    "last_seen": "2026-11-19"
+  },
+  "setyamickala/airdrop-agent": {
+   "first_seen": "2026-11-20",
+   "kind": "MCP server",
+   "description": "Operator agent for crypto airdrops with a guarded CLI and an MCP interface.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-20",
+   "reported": {
+    "2026-11-20": 81
+   }
+  },
+  "nickvasilescu/openman": {
+   "first_seen": "2026-11-20",
+   "kind": "Coding agent",
+   "description": "Autonomous agent workspace that runs on a cloud computer.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-20",
+   "reported": {
+    "2026-11-20": 40
+   }
+  },
+  "ntu0831/RAG-MCP-Server": {
+   "first_seen": "2026-11-20",
+   "kind": "MCP server",
+   "description": "Modular and observable RAG framework with an MCP server.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-20",
+   "reported": {
+    "2026-11-20": 31
+   }
+  },
+  "INK-Q/agy-fast": {
+   "first_seen": "2026-11-20",
+   "kind": "Plugin",
+   "description": "Plugin that cuts latency and tool-call cost for the Antigravity agent.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-20",
+   "reported": {
+    "2026-11-20": 30
+   }
+  },
+  "tracebit-com/turingpot": {
+   "first_seen": "2026-11-20",
+   "kind": "AI infra",
+   "description": "Proof of concept for an honeypot that catches AI agents.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-20",
+   "reported": {
+    "2026-11-20": 30
+   }
+  },
+  "fitzyracing1/system-on-an-agent": {
+   "first_seen": "2026-11-20",
+   "kind": "Agent framework",
+   "description": "Single agent with planner, memory, skills and connectors.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-20",
+   "reported": {
+    "2026-11-20": 25
+   }
+  },
+  "replit/amuse": {
+   "first_seen": "2026-11-20",
+   "kind": "Agent framework",
+   "description": "Self-hosted personal agent with an approval step.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-20",
+   "reported": {
+    "2026-11-20": 24
+   }
+  },
+  "icons8/hub": {
+   "first_seen": "2026-11-20",
+   "kind": "Dev tool",
+   "description": "Tool that runs many Claude Code or Codex sessions together.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-20",
+   "reported": {
+    "2026-11-20": 23
+   }
+  },
+  "aiwithremy/podcast-clipping": {
+   "first_seen": "2026-11-20",
+   "kind": "Skill",
+   "description": "Claude skill that turns a long podcast into short clips.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-20",
+   "reported": {
+    "2026-11-20": 14
+   }
+  },
+  "ronyfadel/lochness": {
+   "first_seen": "2026-11-20",
+   "kind": "Skill",
+   "description": "Claude Code skill and CLI for Apple-style app localization.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-20",
+   "reported": {
+    "2026-11-20": 10
+   }
+  },
+  "Bodila51/gtavi-claudecode": {
+   "first_seen": "2026-11-20",
+   "kind": "Plugin",
+   "description": "Claude Code plugin that turns game streams into short clips.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-20",
+   "reported": {
+    "2026-11-20": 911
+   }
+  },
+  "Graphify-Labs/graphify": {
+   "first_seen": "2026-11-20",
+   "kind": "Skill",
+   "description": "Graphify turns a codebase into a knowledge graph",
+   "seen_in": [
+    "Claude Ecosystem"
+   ],
+   "last_seen": "2026-11-20"
+  },
+  "EveryInc/compound-engineering-plugin": {
+   "first_seen": "2026-11-20",
+   "kind": "Plugin",
+   "description": "Compound Engineering plugin for Claude Code and other agents",
+   "seen_in": [
+    "Claude Ecosystem"
+   ],
+   "last_seen": "2026-11-20"
   }
  }
 }
