@@ -443,7 +443,7 @@
     "AI",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-20"
+   "last_seen": "2026-11-21"
   },
   "anthropics/single-agent-loop-kit": {
    "first_seen": "2026-10-25",
@@ -1383,7 +1383,7 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "reported": {
     "2026-10-29": 200,
     "2026-10-31": 1432,
@@ -1396,7 +1396,8 @@
     "2026-11-17": 5938,
     "2026-11-18": 6070,
     "2026-11-19": 6143,
-    "2026-11-20": 6219
+    "2026-11-20": 6219,
+    "2026-11-21": 6331
    }
   },
   "amosblomqvist/learnharness": {
@@ -1495,7 +1496,7 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "reported": {
     "2026-10-30": 26,
     "2026-11-01": 2802,
@@ -1517,7 +1518,8 @@
     "2026-11-17": 8872,
     "2026-11-18": 8977,
     "2026-11-19": 9109,
-    "2026-11-20": 9196
+    "2026-11-20": 9196,
+    "2026-11-21": 9308
    }
   },
   "yc-software/minecraft-agent-harness": {
@@ -1639,7 +1641,7 @@
    "seen_in": [
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-20"
+   "last_seen": "2026-11-21"
   },
   "patch-gg/pixelfx": {
    "first_seen": "2026-10-31",
@@ -1649,7 +1651,7 @@
     "Trending",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "reported": {
     "2026-10-31": 339,
     "2026-11-02": 2682,
@@ -1669,7 +1671,8 @@
     "2026-11-17": 7770,
     "2026-11-18": 8002,
     "2026-11-19": 8157,
-    "2026-11-20": 8307
+    "2026-11-20": 8307,
+    "2026-11-21": 8512
    }
   },
   "Pluviobyte/douyin-comments": {
@@ -1825,7 +1828,7 @@
     "Trending",
     "Pulse"
    ],
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "reported": {
     "2026-11-01": 2840,
     "2026-11-02": 8079,
@@ -1846,7 +1849,8 @@
     "2026-11-17": 23511,
     "2026-11-18": 23684,
     "2026-11-19": 23836,
-    "2026-11-20": 23962
+    "2026-11-20": 23962,
+    "2026-11-21": 24082
    }
   },
   "wiva-hq/CodeRail": {
@@ -2003,7 +2007,7 @@
     "Trending",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "reported": {
     "2026-11-01": 3574,
     "2026-11-02": 4933,
@@ -2024,7 +2028,8 @@
     "2026-11-17": 17300,
     "2026-11-18": 17812,
     "2026-11-19": 18317,
-    "2026-11-20": 18664
+    "2026-11-20": 18664,
+    "2026-11-21": 19277
    }
   },
   "ninjahawk/livenerf": {
@@ -2251,7 +2256,7 @@
    "seen_in": [
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-20"
+   "last_seen": "2026-11-21"
   },
   "Dicklesworthstone/destructive_command_guard": {
    "first_seen": "2026-11-02",
@@ -2260,7 +2265,7 @@
    "seen_in": [
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-17"
+   "last_seen": "2026-11-21"
   },
   "p-e-w/heretic": {
    "first_seen": "2026-11-02",
@@ -2456,7 +2461,7 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "reported": {
     "2026-11-04": 578,
     "2026-11-05": 2611,
@@ -2473,7 +2478,8 @@
     "2026-11-17": 5700,
     "2026-11-18": 5812,
     "2026-11-19": 5916,
-    "2026-11-20": 6034
+    "2026-11-20": 6034,
+    "2026-11-21": 6129
    }
   },
   "RUC-NLPIR/CoworkOS": {
@@ -3000,12 +3006,13 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "reported": {
     "2026-11-07": 496,
     "2026-11-15": 5488,
     "2026-11-17": 6094,
-    "2026-11-20": 6866
+    "2026-11-20": 6866,
+    "2026-11-21": 7095
    }
   },
   "sarpstar/cinecode": {
@@ -3305,7 +3312,7 @@
     "Trending",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "reported": {
     "2026-11-09": 338,
     "2026-11-10": 2213,
@@ -3317,7 +3324,8 @@
     "2026-11-17": 9604,
     "2026-11-18": 9896,
     "2026-11-19": 10120,
-    "2026-11-20": 10299
+    "2026-11-20": 10299,
+    "2026-11-21": 10434
    }
   },
   "synchopate/llama-modchip": {
@@ -4013,12 +4021,13 @@
     "Trending",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "reported": {
     "2026-11-15": 61,
     "2026-11-18": 223,
     "2026-11-19": 427,
-    "2026-11-20": 500
+    "2026-11-20": 500,
+    "2026-11-21": 572
    }
   },
   "allen-hsu/claude-code-sketch": {
@@ -4346,13 +4355,14 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "reported": {
     "2026-11-16": 5066,
     "2026-11-17": 5318,
     "2026-11-18": 5570,
     "2026-11-19": 5892,
-    "2026-11-20": 6138
+    "2026-11-20": 6138,
+    "2026-11-21": 6291
    }
   },
   "aws/aws-emulator-evaluation-suite": {
@@ -4420,7 +4430,7 @@
     "Trending",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "reported": {
     "2026-11-17": 196091
    }
@@ -4456,12 +4466,13 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "reported": {
     "2026-11-17": 161,
     "2026-11-18": 540,
     "2026-11-19": 665,
-    "2026-11-20": 719
+    "2026-11-20": 719,
+    "2026-11-21": 745
    }
   },
   "sybil-solutions/inference-optimisation-skill": {
@@ -4471,12 +4482,13 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "reported": {
     "2026-11-17": 146,
     "2026-11-18": 934,
     "2026-11-19": 1121,
-    "2026-11-20": 1265
+    "2026-11-20": 1265,
+    "2026-11-21": 1345
    }
   },
   "simplexai-labs/linger": {
@@ -4499,11 +4511,12 @@
     "Trending",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "reported": {
     "2026-11-18": 1447,
     "2026-11-19": 3449,
-    "2026-11-20": 5285
+    "2026-11-20": 5285,
+    "2026-11-21": 6688
    }
   },
   "staryone/motlab": {
@@ -4525,11 +4538,12 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "reported": {
     "2026-11-18": 100,
     "2026-11-19": 235,
-    "2026-11-20": 265
+    "2026-11-20": 265,
+    "2026-11-21": 270
    }
   },
   "jackson-cmd/claude-multi-desktop": {
@@ -4539,10 +4553,11 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "reported": {
     "2026-11-18": 90,
-    "2026-11-20": 160
+    "2026-11-20": 160,
+    "2026-11-21": 217
    }
   },
   "SecFathy/otpkit": {
@@ -4885,9 +4900,10 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "reported": {
-    "2026-11-20": 30
+    "2026-11-20": 30,
+    "2026-11-21": 180
    }
   },
   "tracebit-com/turingpot": {
@@ -4981,7 +4997,7 @@
    "seen_in": [
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-20"
+   "last_seen": "2026-11-21"
   },
   "EveryInc/compound-engineering-plugin": {
    "first_seen": "2026-11-20",
@@ -4991,6 +5007,168 @@
     "Claude Ecosystem"
    ],
    "last_seen": "2026-11-20"
+  },
+  "CocoSgt/riemann-hypothesis-lean": {
+   "first_seen": "2026-11-21",
+   "kind": "Other",
+   "description": "Mirror of a Lean proof of the Riemann Hypothesis that was written with Claude.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-21",
+   "reported": {
+    "2026-11-21": 293
+   }
+  },
+  "zavi2997-droid/claude-code-agent-workspace": {
+   "first_seen": "2026-11-21",
+   "kind": "Agent framework",
+   "description": "Runs composable Claude Code agent workflows in separate workspace contexts.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-21",
+   "reported": {
+    "2026-11-21": 152
+   }
+  },
+  "danielwh2/sprite-stacking": {
+   "first_seen": "2026-11-21",
+   "kind": "Skill",
+   "description": "Agent skill that turns four pixel-art views into a spinnable fake-3D sprite.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-21",
+   "reported": {
+    "2026-11-21": 115
+   }
+  },
+  "nestjs/agent-skills": {
+   "first_seen": "2026-11-21",
+   "kind": "Skill",
+   "description": "Agent skills for the Nest framework on Node.js.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-21",
+   "reported": {
+    "2026-11-21": 96
+   }
+  },
+  "jweihe/Awesome-3D-Coding": {
+   "first_seen": "2026-11-21",
+   "kind": "Other",
+   "description": "List of benchmarks, datasets, models and agents that create and edit 3D content with code.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-21",
+   "reported": {
+    "2026-11-21": 57
+   }
+  },
+  "plannotator/talkto": {
+   "first_seen": "2026-11-21",
+   "kind": "AI infra",
+   "description": "Message boards that let distributed AI agents, or a team's agents, talk to each other.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-21",
+   "reported": {
+    "2026-11-21": 42
+   }
+  },
+  "hey-pu/Willow": {
+   "first_seen": "2026-11-21",
+   "kind": "Dev tool",
+   "description": "Windows desktop tool that shows AI coding token use and cost estimates.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-21",
+   "reported": {
+    "2026-11-21": 34
+   }
+  },
+  "krispuckett/rounds": {
+   "first_seen": "2026-11-21",
+   "kind": "Dev tool",
+   "description": "Local canvas that collects everything your Claude Code sessions make.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-21",
+   "reported": {
+    "2026-11-21": 27
+   }
+  },
+  "jasonmello/pocket-design-mcp": {
+   "first_seen": "2026-11-21",
+   "kind": "MCP server",
+   "description": "Free MCP server with icons, fonts, images, components, easings and contrast checks.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-21",
+   "reported": {
+    "2026-11-21": 19
+   }
+  },
+  "Artesiana/bridge-anything": {
+   "first_seen": "2026-11-21",
+   "kind": "Skill",
+   "description": "Agent skill that builds a bridge to software that has no API.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-21",
+   "reported": {
+    "2026-11-21": 18
+   }
+  },
+  "bookwjitchieni1986/blender-ai-mcp-addon": {
+   "first_seen": "2026-11-21",
+   "kind": "MCP server",
+   "description": "MCP server and add-on for Blender with chat, scene tools and multi-agent workflows.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-21",
+   "reported": {
+    "2026-11-21": 1796
+   }
+  },
+  "oriliz/agent-crop": {
+   "first_seen": "2026-11-21",
+   "kind": "Dev tool",
+   "description": "Local time tracker that writes review results back into coding-agent instructions and skills.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-21",
+   "reported": {
+    "2026-11-21": 173
+   }
+  },
+  "affaan-m/ECC": {
+   "first_seen": "2026-11-21",
+   "kind": "Skill",
+   "description": "ECC: agent harness system with skills, memory and security",
+   "seen_in": [
+    "Claude Ecosystem"
+   ],
+   "last_seen": "2026-11-21"
+  },
+  "openssl/openssl": {
+   "first_seen": "2026-11-21",
+   "kind": "Other",
+   "description": "OpenSSL fixes critical buffer overflow in EVP_EncodeBlock (CVE-2026-121481)",
+   "seen_in": [
+    "Pulse"
+   ],
+   "last_seen": "2026-11-21"
   }
  }
 }

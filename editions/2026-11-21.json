@@ -1,0 +1,570 @@
+{
+ "date": "2026-11-21",
+ "generated": "2026-11-21T02:51:50Z",
+ "sections": {
+  "tech-news": {
+   "routine": "tech-news",
+   "status": "done",
+   "headline": "Google released Gemini 4 Neon with a 1M-token window at $3 input and $15 output per 1M tokens.",
+   "filed": "2026-11-21T02:19:00Z",
+   "note": "No model launch from Anthropic, OpenAI, Meta, xAI, Mistral or other listed labs was found dated 2026-11-20. Anthropic IPO news was skipped as funding news. The Linked billing item is from 2026-11-17 and is kept to meet the Claude and Anthropic minimum.",
+   "items": [
+    {
+     "title": "Google releases Gemini 4 Neon with 1M-token context",
+     "body": "Google released Gemini 4 Neon on 2026-11-18. The context window is 1,048,576 tokens. Price is $3.00 input, $0.15 cached input and $15.00 output per 1M tokens, with no long-context surcharge. It is on the paid Gemini API tier only and also in Google AI Studio, Antigravity and the Gemini app for paid plans. Figures come from the aireleasetracker.com model page, not from Google.",
+     "why": "A new frontier model with public pricing gives AI engineers a fresh option for coding and agent workloads.",
+     "topics": [
+      "Gemini",
+      "New models"
+     ],
+     "source": "aireleasetracker.com (third-party tracker)",
+     "url": "https://aireleasetracker.com/model/google/gemini-4-neon",
+     "date": "2026-11-18",
+     "also": [
+      {
+       "section": "Trending on X",
+       "source": "X · @GoogleDeepMind · 2094 likes · 104 reposts",
+       "url": "https://x.com/GoogleDeepMind/status/2123826572385833119"
+      }
+     ]
+    },
+    {
+     "title": "Claude Code v2.1.329 adds /tasks view and hook trust warning",
+     "body": "Claude Code v2.1.329 was released on 2026-11-19. The trust dialog now shows where a folder's hooks are declared. The /tasks command now lists scheduled tasks, /loop wakeups, goals and forks. The /teleport command now starts a new session instead of replacing the open one. The release also fixes a Code Mode memory runaway.",
+     "why": "Teams that run Claude Code in shared repos get a clearer view of hooks, scheduled tasks and sessions.",
+     "topics": [
+      "Claude Code",
+      "Security"
+     ],
+     "source": "GitHub anthropics/claude-code releases",
+     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.329",
+     "date": "2026-11-19"
+    },
+    {
+     "title": "Claude Code v2.1.328 lets MCP tool hooks block on failure",
+     "body": "Claude Code v2.1.328 was released on 2026-11-19. It adds the setting \"onFailure\": \"block\" for mcp_tool hooks. It adds auto mode for Claude Opus 4.6 and Sonnet 4.6 on Amazon Bedrock, Google Cloud's Agent Platform, Microsoft Foundry and the Claude apps gateway. It adds the --repository-folder flag for the self-hosted runner.",
+     "why": "Hooks can now stop an agent action when an MCP check fails, which helps enforce policy in CI and cloud setups.",
+     "topics": [
+      "Claude Code",
+      "MCP",
+      "Bedrock"
+     ],
+     "source": "GitHub anthropics/claude-code releases",
+     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.328",
+     "date": "2026-11-19"
+    },
+    {
+     "title": "Claude API adds Linked billing in beta",
+     "body": "Anthropic announced Linked billing in beta on 2026-11-17. Send the beta header user-profiles-billing-2026-10-01 and set billing_policy on /v1/messages or /v1/chat/completions. Customers can pay for Claude usage in your app through their own organization. They can set app spend caps in the Console. The release notes give no price.",
+     "why": "Teams that resell Claude in their own apps can bill usage and set spend caps per app.",
+     "topics": [
+      "Claude",
+      "AI tools"
+     ],
+     "source": "Claude Platform release notes",
+     "url": "https://platform.claude.com/docs/en/release-notes/overview",
+     "date": "2026-11-17"
+    },
+    {
+     "title": "OpenAI ships GPT-Live-1.1 in the API",
+     "body": "OpenAI Developers announced on 2026-11-19 that GPT-Live-1.1 is available in the API. The post says it speaks with more natural and consistent accents across languages. A new standby option lowers idle costs. The post also says it completes tasks more reliably. No price is given in the post.",
+     "why": "Voice agent builders get better accents and a cheaper idle mode.",
+     "topics": [
+      "OpenAI",
+      "New models"
+     ],
+     "source": "X @OpenAIDevs",
+     "url": "https://x.com/OpenAIDevs/status/2123506733524136446",
+     "date": "2026-11-19",
+     "also": [
+      {
+       "section": "Trending on X",
+       "source": "X · @OpenAIDevs · 5256 likes · 399 reposts",
+       "url": "https://x.com/OpenAIDevs/status/2123506733524136446"
+      }
+     ]
+    },
+    {
+     "title": "Responses API ties reasoning items to prior history for GPT-6.2",
+     "body": "OpenAI Developers posted on 2026-11-19 that agents using GPT-6.2 in the Responses API can build on earlier reasoning with fewer tokens and more cache hits. Starting with the newest frontier models, each reasoning item is tied to the conversation history before it. The post is cut off at the point where it discusses editing history.",
+     "why": "Agent code that edits history must account for the new rule, which also affects cache hits and token use.",
+     "topics": [
+      "OpenAI",
+      "Agents"
+     ],
+     "source": "X @OpenAIDevs",
+     "url": "https://x.com/OpenAIDevs/status/2123566018866151579",
+     "date": "2026-11-19",
+     "also": [
+      {
+       "section": "Trending on X",
+       "source": "X · @OpenAIDevs · 1163 likes · 54 reposts",
+       "url": "https://x.com/OpenAIDevs/status/2123566018866151579"
+      }
+     ]
+    },
+    {
+     "title": "Gemini API adds Tool Retrieval",
+     "body": "Google AI Studio posted on 2026-11-19 an article titled \"Introducing Tool Retrieval in the Gemini API\". The post text is only a link. The article body was not read, so details such as price and limits are not confirmed.",
+     "why": "Agents with many tools may load only the tools they need, which can cut context use.",
+     "topics": [
+      "Gemini",
+      "Agents"
+     ],
+     "source": "X @GoogleAIStudio",
+     "url": "https://x.com/GoogleAIStudio/status/2123489911684866251",
+     "date": "2026-11-19",
+     "also": [
+      {
+       "section": "Trending on X",
+       "source": "X · @GoogleAIStudio · 718 likes · 54 reposts",
+       "url": "https://x.com/GoogleAIStudio/status/2123489911684866251"
+      }
+     ]
+    },
+    {
+     "title": "Paper: language models can rewrite their own weights",
+     "body": "An arXiv preprint (2611.21885) by Jiajun Fan and colleagues reports that an open 27B model's own weight edit makes it 6.6 points more accurate on unseen problems. Over eight sessions, accuracy only rises. A damaged copy regains over 80% of original accuracy on held-out image tasks. Only the largest model in one family improves. The paper is not peer reviewed. It reached 293 points on Hacker News on 2026-11-20.",
+     "why": "If the result holds, models could improve without gradient training, which affects future agent and fine-tuning design.",
+     "topics": [
+      "AI research",
+      "Open models"
+     ],
+     "source": "arXiv / Hacker News",
+     "url": "https://arxiv.org/abs/2611.21885",
+     "date": "2026-11-20"
+    },
+    {
+     "title": "Google AI Studio improves full-stack Android app building",
+     "body": "Google AI Studio posted on 2026-11-20 that it shipped several improvements to building Android apps. The linked article is titled \"Build full-stack Android apps with Gemini in Google AI Studio\". The post gives no further detail.",
+     "why": "Developers get a faster path from prompt to Android app inside Google AI Studio.",
+     "topics": [
+      "Gemini",
+      "AI tools"
+     ],
+     "source": "X @GoogleAIStudio",
+     "url": "https://x.com/GoogleAIStudio/status/2123840416277512391",
+     "date": "2026-11-20",
+     "also": [
+      {
+       "section": "Trending on X",
+       "source": "X · @GoogleAIStudio · 425 likes · 38 reposts",
+       "url": "https://x.com/GoogleAIStudio/status/2123840416277512391"
+      }
+     ]
+    }
+   ]
+  },
+  "chips": {
+   "routine": "chips",
+   "status": "done",
+   "headline": "NVIDIA says Vera Rubin NVL72 delivers up to 2x more performance per GPU than GB300 NVL72 in MLPerf Training v6.1.",
+   "filed": "2026-11-21T02:19:00Z",
+   "note": "Few chip items were dated inside 48 hours, so four items are dated 2026-11-16 to 2026-11-18. Dates are shown on each item.",
+   "items": [
+    {
+     "title": "Vera Rubin debuts in MLPerf Training v6.1 with 2x per-GPU gain",
+     "body": "NVIDIA says Vera Rubin NVL72 delivers up to 2x more performance per GPU than GB300 NVL72. DeepSeek-V3 training scaled from 256 to 1,024 GPUs at about 97% efficiency, cutting time from 16 to about 4 minutes. In the first MLPerf Endpoints round, a provisional Kimi K3 result gives 41,414 tokens/s at 100.89 kW on Vera Rubin, against 2,210 tokens/s at 60 kW on GB300. The result awaits MLCommons verification. Numbers are NVIDIA-reported.",
+     "why": "First public benchmark of Vera Rubin shows the generation gap for training and agent inference cost.",
+     "topics": [
+      "NVIDIA",
+      "Data centers"
+     ],
+     "source": "NVIDIA Blog",
+     "url": "https://blogs.nvidia.com/blog/mlperf-training-endpoints-vera-rubin/",
+     "date": "2026-11-16"
+    },
+    {
+     "title": "NVIDIA announces Rubin HPC server GPU for 2028",
+     "body": "NVIDIA announced Rubin HPC at SC26. It has more than 50,000 CUDA cores, about twice the current flagship Rubin chip according to the article author. It is due in 2028. NVIDIA did not disclose performance, memory or power. FP64 throughput has stayed a little under 40 TFLOPS since Hopper.",
+     "why": "A science-focused GPU with more FP64 capacity may change HPC cluster plans on cloud and on-premises systems.",
+     "topics": [
+      "NVIDIA",
+      "Chips"
+     ],
+     "source": "ServeTheHome",
+     "url": "https://www.servethehome.com/nvidia-announces-rubin-hpc-science-focused-server-gpu-to-arrive-in-2028/",
+     "date": "2026-11-17"
+    },
+    {
+     "title": "NVIDIA and Lambda disclose first production co-packaged optics cluster",
+     "body": "Lambda runs a cluster of over 10,000 GPUs with CPO networking in production. The Quantum-X CPO switch has 144 ports at 800 Gbps each, fed by 18 pluggable light sources. The article gives no measured power figure. It says CPO can significantly lower power use.",
+     "why": "Co-packaged optics (CPO) moves optical parts into the switch package, which can lower network power in large GPU clusters.",
+     "topics": [
+      "NVIDIA",
+      "Data centers"
+     ],
+     "source": "ServeTheHome",
+     "url": "https://www.servethehome.com/nvidia-and-lambda-disclose-first-production-co-packaged-optics-cluster-it-is-finally-real/",
+     "date": "2026-11-16"
+    },
+    {
+     "title": "November 2026 TOP500 has fewest new systems since 2018",
+     "body": "The list has 28 new systems by ServeTheHome's count, the lowest since June 2018. LineShine stays at #1 with 2.198 EF/s. Total Rmax rose from about 18.7 to about 19.7 EF/s. Accelerated systems are 58.6% of the list and 78.8% of Rmax. The top newcomer is KISTI HANGANG at #12 with 342.6 PF/s (GH200). Fourteen new systems use Blackwell.",
+     "why": "The list shows how fast accelerated systems grow and how slowly new supercomputers arrive.",
+     "topics": [
+      "Data centers",
+      "NVIDIA",
+      "AMD"
+     ],
+     "source": "ServeTheHome",
+     "url": "https://www.servethehome.com/november-2026-top500-new-systems-analysis/",
+     "date": "2026-11-19"
+    },
+    {
+     "title": "Frostbite: Architect Labs reports an AI-designed CPU with new ISA",
+     "body": "Architect Labs says its AI systems designed and verified Frostbite, a CPU with a new instruction set based on interaction nets. It reports a 4.59x geometric mean gain in performance per watt over one core of an unnamed dual-issue in-order CPU across 25 workloads. Process is 7 nm, final clock 500 MHz. The data is company-reported. No absolute performance figures or released design files are given.",
+     "why": "If confirmed, it shows AI doing end-to-end chip design with large performance-per-watt gains.",
+     "topics": [
+      "Architecture",
+      "AI research"
+     ],
+     "source": "Architect Labs blog",
+     "url": "https://architectlabs.com/blog/frostbite",
+     "date": "2026-11-18",
+     "also": [
+      {
+       "section": "Pulse",
+       "source": "Hacker News · 578 points · 307 comments",
+       "url": "https://architectlabs.com/blog/frostbite"
+      }
+     ]
+    }
+   ]
+  },
+  "ecosystem": {
+   "routine": "ecosystem",
+   "status": "done",
+   "headline": "affaan-m/ECC leads Claude skill repos on GitHub with about 308,000 stars, and anthropics/skills has about 198,000.",
+   "filed": "2026-11-21T02:19:00Z",
+   "note": "Star counts are totals from the GitHub search API on 2026-11-21. Growth per day was not measured. Install commands are given only where the README showed them. The r/ClaudeAI top posts and X search 3 held no tool or plugin item with real traction.",
+   "items": [
+    {
+     "title": "anthropics/skills: Anthropic's public Agent Skills repository",
+     "body": "Anthropic's public repository for Agent Skills has about 198,000 stars and 23,200 forks. It holds example skills, a template and a link to the agentskills.io spec. The README says the example skills are for demonstration only. Install in Claude Code with: /plugin marketplace add anthropics/skills, then /plugin install document-skills@anthropic-agent-skills or /plugin install example-skills@anthropic-agent-skills.",
+     "why": "The official source for example skills and the Agent Skills spec that teams copy for their own skill libraries.",
+     "topics": [
+      "Skills",
+      "Claude Code"
+     ],
+     "source": "GitHub · anthropics · ~198k stars",
+     "url": "https://github.com/anthropics/skills",
+     "date": "2026-11-21"
+    },
+    {
+     "title": "anthropics/claude-plugins-official: Anthropic-managed plugin directory",
+     "body": "This is the Anthropic-managed directory of Claude Code plugins. It has 47,838 stars and was updated on 2026-11-21. The API result gave no install command and the README was not read.",
+     "why": "Plugins listed here come from Anthropic's own directory, which is a lower-risk source than random repositories.",
+     "topics": [
+      "Plugins",
+      "Claude Code"
+     ],
+     "source": "GitHub · anthropics · 47,838 stars",
+     "url": "https://github.com/anthropics/claude-plugins-official",
+     "date": "2026-11-21"
+    },
+    {
+     "title": "ECC: agent harness system with skills, memory and security",
+     "body": "affaan-m/ECC describes itself as a performance system for agent harnesses, with skills, memory and security rules for Claude Code and other tools. It has 307,880 stars. It was created 2026-01-18 and last pushed 2026-11-20. The README was not read, so no install command is given.",
+     "why": "It is the most-starred Claude skill repository in the search, so many teams are likely to evaluate it.",
+     "topics": [
+      "Skills",
+      "Setups"
+     ],
+     "source": "GitHub · affaan-m · 307,880 stars",
+     "url": "https://github.com/affaan-m/ECC",
+     "date": "2026-11-20"
+    },
+    {
+     "title": "Graphify turns a codebase into a queryable knowledge graph",
+     "body": "Graphify-Labs/graphify provides a /graphify skill that builds a queryable knowledge graph from a codebase. It has 151,203 stars. It was created 2026-04-03 and last pushed 2026-11-20. The README was not read, so no install command is given.",
+     "why": "A /graphify skill can give agents a structured view of large repositories, which helps with infrastructure and legacy code.",
+     "topics": [
+      "Skills",
+      "Claude Code"
+     ],
+     "source": "GitHub · Graphify-Labs · 151,203 stars",
+     "url": "https://github.com/Graphify-Labs/graphify",
+     "date": "2026-11-20"
+    },
+    {
+     "title": "context-mode keeps tool output out of the context window",
+     "body": "mksglu/context-mode is a local plugin that keeps tool output out of the Claude Code context window. It has 34,343 stars. It was created 2026-02-23 and last pushed 2026-11-20. The README was not read, so no install command is given.",
+     "why": "Long agent sessions with large logs and command output use less context, which lowers token cost.",
+     "topics": [
+      "Plugins",
+      "Claude Code"
+     ],
+     "source": "GitHub · mksglu · 34,343 stars",
+     "url": "https://github.com/mksglu/context-mode",
+     "date": "2026-11-20"
+    },
+    {
+     "title": "destructive_command_guard blocks destructive shell, git and file commands",
+     "body": "Dicklesworthstone/destructive_command_guard is a Rust safety hook that blocks destructive shell, git and file system commands. It has 6,371 stars. It was created 2026-01-07 and last pushed 2026-11-17. The README was not read, so no install command is given.",
+     "why": "A hook that stops commands such as forced deletes protects shared servers and repositories from agent mistakes.",
+     "topics": [
+      "Hooks",
+      "Claude Code"
+     ],
+     "source": "GitHub · Dicklesworthstone · 6,371 stars",
+     "url": "https://github.com/Dicklesworthstone/destructive_command_guard",
+     "date": "2026-11-17"
+    }
+   ]
+  },
+  "x-desk": {
+   "routine": "x-desk",
+   "status": "done",
+   "headline": "OpenAI made GPT-Live-1.1 available in the API, the top AI post on X for 2026-11-20 IST.",
+   "filed": "2026-11-21T02:19:00Z",
+   "note": "Read 34 posts from searches 1 and 2 and 3 (14, 10 and 10). 6 passed the filter. Search 2 had no post with 20 or more likes.",
+   "items": [
+    {
+     "title": "Meta Muse Wonder tops Legora's November BAR legal benchmark",
+     "body": "AI at Meta says Muse Wonder earned the highest overall quality score in Legora's November BAR benchmark for legal work. The post calls it a strong showing on complex business tasks. The post gives no scores.",
+     "why": "A third-party benchmark result for a Meta model on complex business tasks.",
+     "topics": [
+      "AI research",
+      "AI tools"
+     ],
+     "source": "X · @AIatMeta · 210 likes · 27 reposts",
+     "url": "https://x.com/AIatMeta/status/2123484005089558692",
+     "date": "2026-11-19"
+    }
+   ]
+  },
+  "gadgets": {
+   "routine": "gadgets",
+   "status": "done",
+   "headline": "Dell launched the XPS 16 Creator Edition in India from Rs 4,49,990, with an NVIDIA RTX Spark N1X chip.",
+   "filed": "2026-11-21T02:22:19Z",
+   "note": "Only FoneArena opened reliably, so coverage is thin. GSMArena, The Verge and Engadget gave no usable pages.",
+   "items": [
+    {
+     "title": "Dell launches XPS 16 Creator Edition in India from Rs 4,49,990",
+     "body": "Dell XPS 16 Creator Edition has an NVIDIA RTX Spark N1X processor (up to 20 cores, 6,144-core Blackwell GPU). It has 32, 64 or 128GB of LPDDR5x memory, 512GB to 2TB of SSD storage, a 16-inch 3.2K tandem OLED touchscreen (20–120Hz), Wi-Fi 7 and a 99Wh battery. Indian prices run from Rs 4,49,990 (32GB+512GB) to Rs 9,49,990 (128GB+2TB). It is on sale at Dell's online store from 20 Nov 2026. Retail and e-commerce sales start by mid-December.",
+     "why": "The laptop uses an NVIDIA RTX Spark N1X chip with up to 128GB unified memory, a spec that targets local AI and creator work.",
+     "topics": [
+      "Laptops",
+      "AI gadgets"
+     ],
+     "source": "FoneArena",
+     "url": "https://www.fonearena.com/blog/497372/dell-xps-16-creator-edition-price-india-features.html",
+     "date": "2026-11-20"
+    },
+    {
+     "title": "Honor Watch 6 Pro opens pre-orders in Europe and the UK",
+     "body": "Honor Watch 6 Pro has a 1.5-inch LTPO AMOLED display (466×466, 5,500 nits peak), a 515mAh battery and 4GB of storage. It has dual-frequency GPS, Bluetooth 5.4, 5ATM and IP68/IP69K ratings. Honor lists up to 18 days of battery life in Ultra-Long mode. Launch prices in Europe are €279 (black) and €329 (silver). UK prices are £229 and £279. Pre-orders run from 19 Nov to 31 Dec 2026. No India price is given.",
+     "why": "The watch claims up to 18 days of battery life with dual-frequency GPS.",
+     "topics": [
+      "Wearables"
+     ],
+     "source": "FoneArena",
+     "url": "https://www.fonearena.com/blog/497327/honor-watch-6-pro-price-features-global.html",
+     "date": "2026-11-19"
+    },
+    {
+     "title": "Sony brings WH-CH730N and WH-CH530 headphones to India",
+     "body": "Sony launched the WH-CH730N and WH-CH530 headphones in India. Both have 30mm drivers, Bluetooth 6.0, multipoint and Auracast. The WH-CH730N has Dual Noise Sensor active noise cancellation and costs Rs 12,990. The WH-CH530 costs Rs 4,490. The WH-CH730N is on sale from 19 Nov 2026. The WH-CH530 is on sale from 20 Nov 2026. The source does not say whether these models are new outside India.",
+     "why": "Both models support Bluetooth 6.0, Auracast and multipoint at Indian prices from Rs 4,490.",
+     "topics": [
+      "Audio"
+     ],
+     "source": "FoneArena",
+     "url": "https://www.fonearena.com/blog/497315/sony-wh-ch730n-wh-ch530-price-india-features.html",
+     "date": "2026-11-19"
+    }
+   ]
+  },
+  "tech-pulse": {
+   "routine": "tech-pulse",
+   "status": "done",
+   "headline": "Thinking Machines released the open Inkling-2-Mini model (26B MoE, 3B active), the top developer topic on r/LocalLLaMA.",
+   "filed": "2026-11-21T02:22:19Z",
+   "note": "Reddit was read through Composio. r/devops and r/MachineLearning had no high-value technical posts.",
+   "items": [
+    {
+     "title": "Thinking Machines releases Inkling-2-Mini, a 26B open MoE model",
+     "body": "Thinking Machines published Inkling-2-Mini on Hugging Face. It is a mixture-of-experts model with 26B total parameters and about 3B active parameters. Unsloth released GGUF files, and a llama.cpp pull request adds support. A Vals AI chart posted to r/LocalLLaMA reports a tie with Opus 5.5 on CyberBench. The chart is a community claim.",
+     "why": "A small open model with 3B active parameters runs on local hardware, and llama.cpp and GGUF support arrived on day one.",
+     "topics": [
+      "Open models"
+     ],
+     "source": "r/LocalLLaMA · 991 upvotes · 285 comments",
+     "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
+     "date": "2026-11-20"
+    },
+    {
+     "title": "Levent Alpöge posts a claimed proof of the Generalized Riemann Hypothesis",
+     "body": "Levent Alpöge published a PDF that claims a proof of the Generalized Riemann Hypothesis. The Hacker News thread is the top story of the day. A GitHub repository titled as a mirror of the Lean proof (with Claude) gained 293 stars in one day. Experts have not confirmed the proof. Treat it as a claim until the community checks it.",
+     "why": "The proof is claimed to use Claude and a Lean formalization, so it tests AI-assisted mathematics; no independent check is confirmed.",
+     "topics": [
+      "AI research",
+      "Claude"
+     ],
+     "source": "Hacker News · 2,142 points · 1,462 comments",
+     "url": "https://alpo.ge/remark.pdf",
+     "date": "2026-11-20"
+    },
+    {
+     "title": "OpenSSL fixes critical buffer overflow in EVP_EncodeBlock (CVE-2026-121481)",
+     "body": "OpenSSL published a fix for a buffer overflow in EVP_EncodeBlock(). The CVE is CVE-2026-121481 and the CVSS score is 9.8. The fix is in an OpenSSL pull request on GitHub. Check which OpenSSL version your images and hosts use.",
+     "why": "The flaw has a CVSS score of 9.8, so teams that ship or build OpenSSL need to patch.",
+     "topics": [
+      "Security"
+     ],
+     "source": "Hacker News · 359 points · 325 comments",
+     "url": "https://github.com/openssl/openssl/pull/33652",
+     "date": "2026-11-20"
+    },
+    {
+     "title": "PostgreSQL 19 ships with built-in table bloat cleanup (REPACK)",
+     "body": "The PostgreSQL project released version 19. Snowflake engineering published a post on the new built-in REPACK feature for table bloat cleanup. The release notes list the full change set. Review the notes before you plan an upgrade.",
+     "why": "Built-in repack lets operators remove table bloat without an external extension.",
+     "topics": [
+      "DevOps"
+     ],
+     "source": "Hacker News · 368 points · 26 comments",
+     "url": "https://www.postgresql.org/docs/release/19.0/",
+     "date": "2026-11-20"
+    }
+   ]
+  },
+  "aws-news": {
+   "routine": "aws-news",
+   "status": "done",
+   "headline": "AWS Marketplace now supports agentic payments through AgentCore, so agents can buy products within set spending limits.",
+   "filed": "2026-11-21T02:22:19Z",
+   "note": "Feed read to about 80K of 242K characters. No new aws, awslabs or aws-samples repo met the star threshold or was new to the paper.",
+   "items": [
+    {
+     "title": "AWS Marketplace adds agentic payments with AgentCore",
+     "body": "Agents can buy AWS Marketplace products per request over the x402 protocol through AgentCore payments. Charges appear on the AWS bill. You can set spending limits and approved sellers. Activity appears in CloudTrail and Cost Explorer. The feature is available where AgentCore payments is available.",
+     "why": "Agents can now buy Marketplace products on their own, within spending limits that you set.",
+     "topics": [
+      "Agents",
+      "Cost"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/marketplace-agentic-payments-agentcore/",
+     "date": "2026-11-19"
+    },
+    {
+     "title": "Amazon Cognito supports client ID metadata documents for MCP clients",
+     "body": "Cognito now supports client ID metadata documents (CIMD). An MCP client or AI agent can use an HTTPS client ID to sign in. The feature needs no per-client app client. It is available on the Essentials and Plus plans in all Cognito Regions.",
+     "why": "MCP clients and AI agents can sign in without a separate app client for each client.",
+     "topics": [
+      "Agents",
+      "Security"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/cognito-client-id-metadata-documents/",
+     "date": "2026-11-19"
+    },
+    {
+     "title": "AgentCore runtime instances support nested virtualization",
+     "body": "AgentCore runtime instances now support nested virtualization. You set it on a Linux capacity provider. It works on Intel C7i, C8i, M7i, M8i, R7i and R8i instance families. It is available in all Regions where runtime instances are available.",
+     "why": "Agents can run KVM virtual machines or emulators inside a session.",
+     "topics": [
+      "Agents"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/agentcore-nested-virtualization/",
+     "date": "2026-11-19"
+    },
+    {
+     "title": "Lambda raises the on-demand Event Function timeout to 30 minutes",
+     "body": "On-demand Lambda Event Functions now have a 30-minute timeout. The old limit was 15 minutes. The change covers durable functions and Step Functions Standard invocations. It also applies to synchronous invocations on Lambda Managed Instances. Standard Lambda pricing applies.",
+     "why": "Longer jobs run without a move to another compute service.",
+     "topics": [
+      "Serverless"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-lambda-30-minute-ondemand-event-functions/",
+     "date": "2026-11-19"
+    },
+    {
+     "title": "Lambda durable functions add OpenTelemetry tracing",
+     "body": "An OpenTelemetry plugin for the TypeScript, Python and Java SDKs emits a single trace across a durable execution. The feature is available in all Regions that support durable functions.",
+     "why": "One trace now covers a whole durable execution.",
+     "topics": [
+      "Serverless",
+      "DevOps"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/lambda-durable-otel/",
+     "date": "2026-11-19"
+    },
+    {
+     "title": "Amazon Connect launches Resolutions for high-volume operational work",
+     "body": "Amazon Connect Resolutions is now generally available. It combines AI agents with deterministic workflows and human approvals. It targets work such as refunds, disputes, fraud cases and claims.",
+     "why": "Teams can automate refunds, disputes, fraud and claims with human approval steps.",
+     "topics": [
+      "Agents"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-connect-resolutions/",
+     "date": "2026-11-19"
+    },
+    {
+     "title": "Aurora DSQL delivers up to 50% higher write throughput",
+     "body": "A storage-layer upgrade raises Aurora DSQL write throughput by up to 50%. The upgrade applies to new and existing clusters. It has no extra cost. It is available in all DSQL Regions.",
+     "why": "Write-heavy workloads get more throughput at no extra cost.",
+     "topics": [
+      "Cost"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aurora-dsql-higher-write-throughput/",
+     "date": "2026-11-19"
+    }
+   ]
+  },
+  "layoffs": {
+   "routine": "layoffs",
+   "status": "done",
+   "headline": "Crunchbase and Intel filed California WARN notices for 67 and 57 jobs.",
+   "filed": "2026-11-21T02:22:19Z",
+   "note": "TrueUp could not be opened. Intel IT-unit cuts are press reports without a confirmed count, so they are not filed.",
+   "items": [
+    {
+     "title": "Crunchbase files WARN notice for 67 workers in California",
+     "body": "Crunchbase filed one WARN notice in California on 18 Nov 2026. The notice covers 67 workers. The company has not given a share of its workforce.",
+     "why": "A WARN notice is a legal filing, so the cut is confirmed.",
+     "topics": [
+      "Layoffs"
+     ],
+     "source": "GoLayoffs tracker · California EDD WARN",
+     "url": "https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN",
+     "date": "2026-11-18",
+     "company": "Crunchbase",
+     "count": 67,
+     "pct": null,
+     "country": "United States",
+     "location": "California",
+     "industry": "Other tech",
+     "kind": "layoff"
+    },
+    {
+     "title": "Intel files California WARN notice for 57 jobs at four sites",
+     "body": "A California WARN filing covers 57 Intel jobs at four sites in Santa Clara County. The cuts are effective 15 Nov 2026. The source is an aggregator that cites the SF Chronicle. It is not clear if these jobs overlap with reported cuts in Intel's IT unit.",
+     "why": "The filing shows continued cuts at a large chip maker.",
+     "topics": [
+      "Layoffs"
+     ],
+     "source": "OpenTools · cites SF Chronicle",
+     "url": "https://opentools.ai/news/crunchbase-intel-bay-area-tech-layoffs-nov-2026",
+     "date": "2026-11-20",
+     "company": "Intel",
+     "count": 57,
+     "pct": null,
+     "country": "United States",
+     "location": "Santa Clara County, California",
+     "industry": "Semiconductors",
+     "kind": "layoff"
+    }
+   ]
+  }
+ },
+ "briefing": "Good morning. This is The Nexos Daily for Saturday, 21 November 2026.\n\nGoogle's Gemini 4 Neon remains the main model story. It has a 1 million token context and costs 3 dollars per million input tokens and 15 dollars per million output tokens. Google DeepMind showed Neon coding a ski simulator based on real Mont Blanc terrain.\n\nIn security, OpenSSL fixed a critical buffer overflow in the EVP Encode Block function. The CVSS score is 9.8, so update OpenSSL now. Claude Code version 2.1.329 now shows where a folder's hooks are declared in the trust dialog. Version 2.1.328 lets MCP tool hooks block a call when the hook fails. The destructive command guard hook, which blocks risky shell and git commands, has more than 6 thousand stars.\n\nIn the Claude ecosystem, the Claude Code tasks command now lists background work. The Claude API added linked billing in beta. Anthropic's skills repository has about 198 thousand stars, and the official plugin directory has almost 48 thousand. The context-mode plugin keeps tool output out of the context window.\n\nIn models, OpenAI made GPT Live 1.1 available in the API, with more natural accents across languages. In the Responses API, GPT 6.2 agents can now build on earlier reasoning with fewer tokens. The Gemini API added Tool Retrieval. Thinking Machines released Inkling 2 Mini, an open mixture of experts with 26 billion parameters and about 3 billion active. A new paper reports that a 27 billion parameter model can edit its own weights and become 6.6 points more accurate. Meta's Muse Wonder topped a legal benchmark.\n\nOn Hacker News, the top story was a claimed proof of the Generalized Riemann Hypothesis by Levent Alpöge. Experts have not checked it yet.\n\nIn chips, Architect Labs says its AI designed and verified Frostbite, a CPU with a new instruction set. NVIDIA and Lambda run the first production cluster with co-packaged optics, with more than 10,000 GPUs. The November TOP500 list has the fewest new systems since 2018.\n\nOn AWS, AWS Marketplace now supports agent payments through AgentCore, with spending limits. Cognito supports client ID metadata documents for MCP clients. AgentCore runtime instances support nested virtualization. On-demand Lambda event functions can now run for 30 minutes. Aurora DSQL has up to 50 percent more write throughput. PostgreSQL 19 adds built-in REPACK for table bloat.\n\nIn layoffs, Crunchbase filed a notice for 67 jobs and Intel for 57 jobs in California.\n\nIn gadgets, Dell launched the XPS 16 Creator Edition in India from 4 lakh 49 thousand 990 rupees.\n\nOn GitHub, the fastest-growing new repo is a Lean project for the Riemann Hypothesis, with 293 stars on its first day.\n\nThat is the news for today."
+}
