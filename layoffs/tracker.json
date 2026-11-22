@@ -15,6 +15,20 @@
    "url": "https://opentools.ai/news/crunchbase-intel-bay-area-tech-layoffs-nov-2026"
   },
   {
+   "date": "2026-11-20",
+   "company": "Enphase Energy",
+   "count": 320,
+   "count_text": "",
+   "pct": 12,
+   "location": "",
+   "country": "Global",
+   "industry": "Hardware & networking",
+   "kind": "layoff",
+   "confirmed": true,
+   "source": "SEC 8-K",
+   "url": "https://www.sec.gov/Archives/edgar/data/1463101/000146310126000112/enph-20261120.htm"
+  },
+  {
    "date": "2026-11-19",
    "company": "Ubisoft",
    "count": 166,
@@ -2101,5 +2115,5 @@
    "url": "https://golayoffs.com/tech-layoff-tracker/"
   }
  ],
- "updated": "2026-11-21T02:51:50Z"
+ "updated": "2026-11-22T02:57:24Z"
 }

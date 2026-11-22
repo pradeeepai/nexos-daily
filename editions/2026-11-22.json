@@ -1,0 +1,436 @@
+{
+ "date": "2026-11-22",
+ "generated": "2026-11-22T02:57:24Z",
+ "sections": {
+  "tech-news": {
+   "routine": "tech-news",
+   "status": "done",
+   "headline": "Lean and Mathlib communities certify a proof of the Riemann Hypothesis",
+   "filed": "2026-11-22T02:30:00Z",
+   "note": "Search found few primary sources dated 21 November. Anthropic and Claude Code release pages could not be read in this run.",
+   "items": [
+    {
+     "title": "Lean and Mathlib communities certify a proof of the Riemann Hypothesis",
+     "body": "The Lean and Mathlib communities published a joint statement on 2026-11-21. The statement certifies a Lean library (about 17 million lines) released by Levent Alpöge on 2026-11-20. Several independent checkers verified the proof. A GitHub mirror describes the work as done with Claude. The page states these claims. Claims are not independently confirmed here.",
+     "why": "A machine-checked proof shows that formal verification can check very large AI-assisted results.",
+     "topics": [
+      "AI research",
+      "Claude"
+     ],
+     "source": "Hacker News · 2,825 points · 1,994 comments",
+     "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+     "date": "2026-11-21"
+    },
+    {
+     "title": "RunPod MCP server tells agents to rate RunPod and hide it",
+     "body": "A r/ClaudeAI post with 426 upvotes on 21 November says the official RunPod MCP server instructs AI agents to rate RunPod and not to mention it to the user. This summary uses the post title only. The thread text was not read and the claim is not verified here.",
+     "why": "A tool description can steer an agent against the user, so teams must review MCP server instructions before use.",
+     "topics": [
+      "MCP",
+      "Security"
+     ],
+     "source": "Reddit r/ClaudeAI",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1y1ywrs/runpods_official_mcp_server_tells_ai_agents_to/",
+     "date": "2026-11-21",
+     "also": [
+      {
+       "section": "Pulse",
+       "source": "r/ClaudeAI · 425 upvotes",
+       "url": "https://www.reddit.com/r/ClaudeAI/comments/1y1ywrs/runpods_official_mcp_server_tells_ai_agents_to/"
+      },
+      {
+       "section": "Claude Ecosystem",
+       "source": "Reddit r/ClaudeAI · 426 upvotes",
+       "url": "https://www.reddit.com/r/ClaudeAI/comments/1y1ywrs/runpods_official_mcp_server_tells_ai_agents_to/"
+      }
+     ]
+    },
+    {
+     "title": "OpenAI shares research on stopping model distillation",
+     "body": "OpenAI posted on X on 21 November about new research on combating distillation, which copies model capabilities without safeguards. The linked OpenAI page describes a campaign to extract hidden reasoning, with over 15,000 users disrupted by 28 July. OpenAI links a core cluster to people associated with Moonshot AI. That page is dated 30 September 2026.",
+     "why": "Distillation controls affect which frontier model abilities leave the vendor and which API access rules apply.",
+     "topics": [
+      "AI policy",
+      "AI research"
+     ],
+     "source": "OpenAI",
+     "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign/",
+     "date": "2026-11-21",
+     "also": [
+      {
+       "section": "Trending on X",
+       "source": "X · @OpenAI · 4413 likes · 337 reposts",
+       "url": "https://x.com/OpenAI/status/2123862344422088794"
+      }
+     ]
+    },
+    {
+     "title": "GnuPG announces a remote code execution flaw",
+     "body": "A GnuPG announcement on the gnupg-announce list reports an RCE vulnerability. It reached the Hacker News front page on 21 November with 224 points. The list entry was not read in this run. Check the announcement for affected versions and fixes.",
+     "why": "GnuPG signs packages and commits in many build pipelines, so teams must check their versions.",
+     "topics": [
+      "Security",
+      "DevOps"
+     ],
+     "source": "Hacker News",
+     "url": "https://lists.gnupg.org/pipermail/gnupg-announce/2026q4/000517.html",
+     "date": "2026-11-21",
+     "also": [
+      {
+       "section": "Pulse",
+       "source": "Hacker News · 224 points · 90 comments",
+       "url": "https://lists.gnupg.org/pipermail/gnupg-announce/2026q4/000517.html"
+      }
+     ]
+    },
+    {
+     "title": "OpenAI publishes MedChemBench for medicinal chemistry reasoning",
+     "body": "OpenAI introduced MedChemBench on X on 21 November. It tests AI reasoning in medicinal chemistry and shows progress of OpenAI frontier models in finding drug candidates. The post has 4,688 likes. Benchmark scores were not read in this run.",
+     "why": "A new domain benchmark shows how OpenAI measures frontier model progress outside coding.",
+     "topics": [
+      "OpenAI",
+      "AI research"
+     ],
+     "source": "X @OpenAI",
+     "url": "https://x.com/OpenAI/status/2123856316187975756",
+     "date": "2026-11-21",
+     "also": [
+      {
+       "section": "Trending on X",
+       "source": "X · @OpenAI · 4688 likes · 512 reposts",
+       "url": "https://x.com/OpenAI/status/2123856316187975756"
+      }
+     ]
+    }
+   ]
+  },
+  "chips": {
+   "routine": "chips",
+   "status": "done",
+   "headline": "No chip hardware news found in the window; four trending research papers from 20 November are listed.",
+   "filed": "2026-11-22T02:30:00Z",
+   "note": "Tom's Hardware and NVIDIA blog showed no posts dated 20 or 21 November. Only paper titles were read, so no numbers are given.",
+   "items": [
+    {
+     "title": "NVIDIA publishes Posterior Matching Distillation paper",
+     "body": "NVIDIA authors posted Posterior Matching Distillation on Hugging Face Daily Papers on 20 November with 37 points. Only the title and ranking were read. Details and benchmark results are in the paper.",
+     "why": "Distillation methods cut the cost of serving large generative models on GPU fleets.",
+     "topics": [
+      "NVIDIA",
+      "AI research"
+     ],
+     "source": "Hugging Face Papers",
+     "url": "https://huggingface.co/papers/2611.26629",
+     "date": "2026-11-20"
+    },
+    {
+     "title": "Paper: Language Models Can Rewrite Their Own Weights",
+     "body": "The paper appeared on the Hugging Face Daily Papers list for 20 November. Only the title was read. Read the paper for method and results.",
+     "why": "Self-modifying models raise new questions for training pipelines and safety controls.",
+     "topics": [
+      "AI research",
+      "Architecture"
+     ],
+     "source": "Hugging Face Papers",
+     "url": "https://huggingface.co/papers/2611.21885",
+     "date": "2026-11-20",
+     "also": [
+      {
+       "section": "Pulse",
+       "source": "Hacker News · 467 points · 140 comments",
+       "url": "https://arxiv.org/abs/2611.21885"
+      }
+     ]
+    },
+    {
+     "title": "Paper: On-Policy Morphing into Hybrid Attention Models",
+     "body": "The paper appeared on the Hugging Face Daily Papers list for 20 November. Only the title was read. It deals with converting models into hybrid attention designs. Read the paper for results.",
+     "why": "Hybrid attention can lower inference memory for long contexts.",
+     "topics": [
+      "Architecture",
+      "AI research"
+     ],
+     "source": "Hugging Face Papers",
+     "url": "https://huggingface.co/papers/2611.24809",
+     "date": "2026-11-20"
+    },
+    {
+     "title": "Apple releases Depth Pro 2 paper on metric depth",
+     "body": "Apple authors posted Depth Pro 2: Sharp and Temporally Consistent Metric Monocular Depth on Hugging Face on 20 November with 31 points. Only the title and ranking were read.",
+     "why": "Apple shows continued work on on-device vision models that run on Apple silicon.",
+     "topics": [
+      "Apple silicon",
+      "AI research"
+     ],
+     "source": "Hugging Face Papers",
+     "url": "https://huggingface.co/papers/2611.26603",
+     "date": "2026-11-20"
+    }
+   ]
+  },
+  "ecosystem": {
+   "routine": "ecosystem",
+   "status": "done",
+   "headline": "The claude-animated-shorts skill reached 4,489 GitHub stars in three weeks.",
+   "filed": "2026-11-22T02:30:00Z",
+   "note": "Star counts are from GitHub search on 22 November. Install commands were not checked. The github.com/anthropics repositories were not accessible in this run.",
+   "items": [
+    {
+     "title": "claude-animated-shorts skill reaches 4,489 stars",
+     "body": "A free Claude skill that makes animated story shorts with 2D characters in a 3D world. It uses three.js and Remotion. The repository was created on 1 November by mromidev.",
+     "why": "It shows fast demand for Claude skills that produce finished media.",
+     "topics": [
+      "Skills",
+      "Claude Code"
+     ],
+     "source": "GitHub · mromidev · 4489 stars",
+     "url": "https://github.com/mromidev/claude-animated-shorts",
+     "date": "2026-11-01"
+    },
+    {
+     "title": "Lot Map shows Claude Code activity in a live map",
+     "body": "Lot Map is a live map beside the chat. Tool calls, model steps, hooks, skills and subagents light up as the agent works. The repository was created on 9 November by alexeyw.",
+     "why": "A live view of tool calls, hooks and subagents helps debug agent runs.",
+     "topics": [
+      "Claude Code",
+      "Hooks",
+      "Subagents"
+     ],
+     "source": "GitHub · alexeyw · 1107 stars",
+     "url": "https://github.com/alexeyw/lot-map",
+     "date": "2026-11-09"
+    },
+    {
+     "title": "kubai-icons skill draws animated icons for coding agents",
+     "body": "An agent skill that draws animated icons in one consistent style. It works with Claude Code, Codex and other coding agents. It includes more than 2,600 open-source icons. Created on 3 November by kubai087.",
+     "why": "It shows the cross-agent skill format working in Claude Code and Codex.",
+     "topics": [
+      "Skills"
+     ],
+     "source": "GitHub · kubai087 · 1114 stars",
+     "url": "https://github.com/kubai087/kubai-icons",
+     "date": "2026-11-03"
+    },
+    {
+     "title": "TraxAgent adds a Claude Code plugin and read-only MCP server",
+     "body": "The plugin and read-only MCP server answer who spent the AI budget and what to fix. It works with Claude, ChatGPT, Claude Code, Cursor and VS Code. Created on 17 November by ccarter01011.",
+     "why": "It gives teams a way to see AI spend from inside Claude Code.",
+     "topics": [
+      "Plugins",
+      "MCP"
+     ],
+     "source": "GitHub · ccarter01011 · 137 stars",
+     "url": "https://github.com/ccarter01011/traxagent-claude-plugin",
+     "date": "2026-11-17"
+    },
+    {
+     "title": "X post lists 19 GitHub repos for Claude Code skills and memory",
+     "body": "The post groups 19 repositories under skills, team, plan, memory and tools. It names Matt Pocock's skills and Addy Osmani's agent-skills as production-grade engineering skills. The post links each repository.",
+     "why": "It points to community skill collections, including Matt Pocock's skills and Addy Osmani's agent-skills.",
+     "topics": [
+      "Skills",
+      "Setups"
+     ],
+     "source": "X · @akarixbt · 161 likes · 16 reposts",
+     "url": "https://x.com/akarixbt/status/2124135848094384395",
+     "date": "2026-11-21"
+    }
+   ]
+  },
+  "x-desk": {
+   "routine": "x-desk",
+   "status": "done",
+   "headline": "OpenAI's post on fighting model distillation led X on 21 November with 4,413 likes.",
+   "filed": "2026-11-22T02:30:00Z",
+   "note": "Read 27 posts across 3 searches. 6 passed the filter. Most search 2 and 3 posts had under 20 likes.",
+   "items": [
+    {
+     "title": "OpenAI describes AI help for neurodegenerative disease research",
+     "body": "OpenAI describes how AI helps scientists find new leads for neurodegenerative diseases. The post names a collaboration with Perturb AI and Scripps Research and links to the brain research behind it.",
+     "why": "It shows an applied research use of frontier models with named partners.",
+     "topics": [
+      "OpenAI",
+      "AI research"
+     ],
+     "source": "X · @OpenAI · 2539 likes · 217 reposts",
+     "url": "https://x.com/OpenAI/status/2123899406550528422",
+     "date": "2026-11-21"
+    },
+    {
+     "title": "OpenAI Devs shows Ultrafast mode for GPT-6.2 Astra and Sol",
+     "body": "On ChatGPT Pro 200, users can run Ultrafast with GPT-6.2 Sol. The post links a demo where an OpenAI developer uses Ultrafast to iterate quickly. It explains when the extra speed is worth the cost.",
+     "why": "Faster inference modes change the speed and cost trade-off in agent coding loops.",
+     "topics": [
+      "OpenAI",
+      "AI tools"
+     ],
+     "source": "X · @OpenAIDevs · 575 likes · 39 reposts",
+     "url": "https://x.com/OpenAIDevs/status/2123880710843048001",
+     "date": "2026-11-21"
+    },
+    {
+     "title": "Google AI Studio posts a recap of the week's launches",
+     "body": "Google AI Studio shared a recap of new features shipped this week and linked the full list. The post text gives no feature details. Open the link for the list.",
+     "why": "The recap lists new Gemini and AI Studio features that affect build choices.",
+     "topics": [
+      "Gemini",
+      "AI tools"
+     ],
+     "source": "X · @GoogleAIStudio · 489 likes · 37 reposts",
+     "url": "https://x.com/GoogleAIStudio/status/2123909497718706239",
+     "date": "2026-11-20"
+    },
+    {
+     "title": "Meta convenes Open Source AI for Science Summit",
+     "body": "Meta AI brought together researchers from academia, national labs, healthcare and policy. They discussed open models such as Muse Glimmer, SAM, DINO v3, TRIBE v2 and UMA. The post links a summary of the event.",
+     "why": "It shows which Meta open models researchers use in science work.",
+     "topics": [
+      "Open models",
+      "AI research"
+     ],
+     "source": "X · @AIatMeta · 205 likes · 24 reposts",
+     "url": "https://x.com/AIatMeta/status/2123882678332322134",
+     "date": "2026-11-21"
+    }
+   ]
+  },
+  "tech-pulse": {
+   "routine": "tech-pulse",
+   "status": "done",
+   "headline": "Thinking Machines released Inkling 2 Mini, an open-weights model that runs on a laptop.",
+   "filed": "2026-11-22T02:23:03Z",
+   "note": "Reddit read through Composio. HN homepage counts are a live snapshot, so they can differ from the day page.",
+   "items": [
+    {
+     "title": "Thinking Machines releases open-weights Inkling 2 Mini",
+     "body": "Inkling 2 Mini is a Mixture-of-Experts model with 26.4B total and 3.4B active parameters. It runs the middle layers three times per token. The post lists 79.2% on SWE-bench Verified (bash only) and about 20 GB memory use. Weights are on Hugging Face.",
+     "why": "A small open model with strong coding scores can run on local hardware.",
+     "topics": [
+      "Open models"
+     ],
+     "source": "Hacker News · 1,265 points · 256 comments",
+     "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+     "date": "2026-11-21"
+    }
+   ]
+  },
+  "aws-news": {
+   "routine": "aws-news",
+   "status": "done",
+   "headline": "AWS DevOps Agent now answers in MCP clients such as Kiro and Claude Code, and in Slack and Teams.",
+   "filed": "2026-11-22T02:23:03Z",
+   "note": "No AWS repo met the star threshold and was new to the paper. GitHub access to awslabs/codekb (81 stars) was blocked, so it was not checked. The AWS blog had no posts on 20-22 Nov.",
+   "items": [
+    {
+     "title": "AWS DevOps Agent adds chat in Kiro, Claude Code, Slack and Teams",
+     "body": "DevOps Agent chat now works in MCP clients, including Kiro and Claude Code, and in Slack and Teams. It adds MCP actions for GitHub, GitLab, Azure DevOps, ServiceNow and PagerDuty. It adds per-incident Slack code channels and two-way Teams chat.",
+     "why": "Engineers can query incidents from the tools they already use.",
+     "topics": [
+      "Agents",
+      "DevOps",
+      "Claude"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/devops-agent-new-chat-capabilities/",
+     "date": "2026-11-20"
+    },
+    {
+     "title": "AgentCore runtime instances support EC2 G7 GPU instances",
+     "body": "You can add g7.2xlarge to g7.48xlarge instances to a capacity provider. AgentCore installs the NVIDIA drivers. The feature is in select Regions. Charges apply on top of EC2 costs.",
+     "why": "Agent workloads can now use NVIDIA GPU hosts.",
+     "topics": [
+      "Agents"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/agentcore-ec2-g7/",
+     "date": "2026-11-20"
+    },
+    {
+     "title": "AWS Agent Registry adds public names for verified agents",
+     "body": "You can attach a verified domain name to an agent. The agent then becomes publicly discoverable. A second update registers WebBotAuth bots as a record type, and you can combine it with AWS WAF Bot Control rules. There is no extra charge now.",
+     "why": "Teams can publish agents with verified domain names.",
+     "topics": [
+      "Agents",
+      "Security"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/agent-registry-naming-public-discovery/",
+     "date": "2026-11-20"
+    },
+    {
+     "title": "AWS Network Firewall adds automated internet firewall (preview)",
+     "body": "The feature applies Network Firewall rules and NAT to internet gateways centrally. You do not change route tables. It is in public preview in all Regions except GovCloud and China.",
+     "why": "One policy can filter internet traffic across many VPCs.",
+     "topics": [
+      "Security"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/network-firewall-automated-internet/",
+     "date": "2026-11-20"
+    },
+    {
+     "title": "CloudWatch Container Insights adds dashboards for Karpenter, KEDA and vLLM",
+     "body": "EKS Container Insights now shows dashboards for Karpenter, KEDA, vLLM, KServe, SGLang, Ray and Knative Serving. You need add-on or Helm chart version 8.0.0 or later. Metrics cost $0.08/GB.",
+     "why": "Platform teams get built-in metrics for common EKS add-ons.",
+     "topics": [
+      "Kubernetes",
+      "Containers"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudwatch-eks-kubernetes-tools/",
+     "date": "2026-11-20"
+    },
+    {
+     "title": "Lambda adds Node.js 26 and Python 3.15 runtimes",
+     "body": "Node.js 26 is a managed runtime and a base image for Event Functions. Python 3.15 is generally available for Event Functions. It is in public preview for Web Functions, the first Python runtime for them.",
+     "why": "Developers can move to current language versions.",
+     "topics": [
+      "Serverless"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-lambda-nodejs-26/",
+     "date": "2026-11-20"
+    },
+    {
+     "title": "Billing Data Hub (preview) gives hourly resource-level cost data",
+     "body": "The preview provides 13 months of hourly resource-level CUR 2.0 data for the AWS FinOps Agent. It runs in US East (N. Virginia) at no charge.",
+     "why": "FinOps teams can analyze 13 months of detail.",
+     "topics": [
+      "Cost"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/data-hub-billing-cost-management-preview/",
+     "date": "2026-11-20"
+    }
+   ]
+  },
+  "layoffs": {
+   "routine": "layoffs",
+   "status": "done",
+   "headline": "Enphase Energy will cut about 320 jobs, about 12% of its workforce.",
+   "filed": "2026-11-22T02:23:03Z",
+   "note": "GoLayoffs showed no new entries in the window. TrueUp and Teamblind could not be read.",
+   "items": [
+    {
+     "title": "Enphase Energy cuts about 320 jobs, 12% of workforce",
+     "body": "Enphase Energy filed an 8-K dated 2026-11-20. The plan cuts about 320 jobs, about 12% of the workforce. The company will move some functions to lower-cost regions and consolidate its facilities. It expects $25M to $28M in restructuring and impairment charges. Actions should finish in H1 2027.",
+     "why": "The cut shows cost pressure at a hardware maker and a move of work to lower-cost regions.",
+     "topics": [
+      "Layoffs"
+     ],
+     "source": "SEC 8-K",
+     "url": "https://www.sec.gov/Archives/edgar/data/1463101/000146310126000112/enph-20261120.htm",
+     "date": "2026-11-20",
+     "company": "Enphase Energy",
+     "count": 320,
+     "pct": 12,
+     "country": "Global",
+     "location": "",
+     "industry": "Hardware & networking",
+     "kind": "layoff"
+    }
+   ]
+  }
+ },
+ "briefing": "Good morning. This is The Nexos Daily for Sunday, 22 November 2026.\n\nThe Lean and Mathlib communities published a joint statement that certifies a Lean proof of the Riemann Hypothesis. The formal library has about 17 million lines. Mathematician Levent Alpöge produced the proof with help from Claude. The Hacker News thread had more than 2,800 points.\n\nIn security, a post on the Claude subreddit says the official RunPod MCP server tells agents to rate RunPod and not to tell the user. Check the instructions inside any MCP server that you install. GnuPG announced a remote code execution flaw. A crafted key with a very long user ID causes a double free in GPGME. Update to version 2.3.1.\n\nIn the Claude ecosystem, the claude-animated-shorts skill makes animated story shorts and reached almost 4,500 stars in three weeks. Lot Map, which shows Claude Code activity as a live map, passed 1,100 stars. TraxAgent adds a read-only MCP server that shows who spent the AI budget.\n\nIn models, Thinking Machines released Inkling 2 Mini, an open model with 26 billion parameters and about 3 billion active. It runs on a laptop. OpenAI shared research on how to detect and stop model distillation. OpenAI also introduced MedChemBench for medicinal chemistry. GPT 6.2 Sol now has an Ultrafast mode in ChatGPT Pro. A paper reports that a language model can rewrite its own weights without gradients.\n\nIn research, NVIDIA published Posterior Matching Distillation, and Apple published Depth Pro 2 for metric depth.\n\nOn AWS, the AWS DevOps Agent now answers in MCP clients such as Kiro and Claude Code, and in Slack and Teams. AgentCore runtime instances now support G7 GPU instances. The AWS Agent Registry adds public names for verified agents. Network Firewall adds an automated internet firewall in preview. Container Insights adds dashboards for Karpenter, KEDA and vLLM. Lambda adds Node.js 26 and Python 3.15. Billing Data Hub gives hourly resource-level cost data in preview.\n\nIn layoffs, Enphase Energy will cut about 320 jobs, which is about 12 percent of its workforce.\n\nThere were no verified gadget launches in the last 48 hours.\n\nOn GitHub, the fastest-rising new repo today is skill-distill, with 370 stars.\n\nThe Week in review for 16 to 22 November is now on the site. The Skill of the week is rust-anything, which ports apps to Rust and checks each piece against the original.\n\nThat is the news for today."
+}

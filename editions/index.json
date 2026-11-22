@@ -1,6 +1,11 @@
 {
  "editions": [
   {
+   "date": "2026-11-22",
+   "stories": 27,
+   "headline": "Lean and Mathlib communities certify a proof of the Riemann Hypothesis"
+  },
+  {
    "date": "2026-11-21",
    "stories": 37,
    "headline": "Google releases Gemini 4 Neon with 1M-token context"

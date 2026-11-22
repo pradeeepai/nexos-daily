@@ -1383,7 +1383,7 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "reported": {
     "2026-10-29": 200,
     "2026-10-31": 1432,
@@ -1397,7 +1397,8 @@
     "2026-11-18": 6070,
     "2026-11-19": 6143,
     "2026-11-20": 6219,
-    "2026-11-21": 6331
+    "2026-11-21": 6331,
+    "2026-11-22": 6382
    }
   },
   "amosblomqvist/learnharness": {
@@ -1496,7 +1497,7 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "reported": {
     "2026-10-30": 26,
     "2026-11-01": 2802,
@@ -1519,7 +1520,8 @@
     "2026-11-18": 8977,
     "2026-11-19": 9109,
     "2026-11-20": 9196,
-    "2026-11-21": 9308
+    "2026-11-21": 9308,
+    "2026-11-22": 9478
    }
   },
   "yc-software/minecraft-agent-harness": {
@@ -1651,7 +1653,7 @@
     "Trending",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "reported": {
     "2026-10-31": 339,
     "2026-11-02": 2682,
@@ -1672,7 +1674,8 @@
     "2026-11-18": 8002,
     "2026-11-19": 8157,
     "2026-11-20": 8307,
-    "2026-11-21": 8512
+    "2026-11-21": 8512,
+    "2026-11-22": 8624
    }
   },
   "Pluviobyte/douyin-comments": {
@@ -1828,7 +1831,7 @@
     "Trending",
     "Pulse"
    ],
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "reported": {
     "2026-11-01": 2840,
     "2026-11-02": 8079,
@@ -1850,7 +1853,8 @@
     "2026-11-18": 23684,
     "2026-11-19": 23836,
     "2026-11-20": 23962,
-    "2026-11-21": 24082
+    "2026-11-21": 24082,
+    "2026-11-22": 24162
    }
   },
   "wiva-hq/CodeRail": {
@@ -2007,7 +2011,7 @@
     "Trending",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "reported": {
     "2026-11-01": 3574,
     "2026-11-02": 4933,
@@ -2029,7 +2033,8 @@
     "2026-11-18": 17812,
     "2026-11-19": 18317,
     "2026-11-20": 18664,
-    "2026-11-21": 19277
+    "2026-11-21": 19277,
+    "2026-11-22": 19798
    }
   },
   "ninjahawk/livenerf": {
@@ -2118,7 +2123,7 @@
     "Trending",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-22",
    "reported": {
     "2026-11-02": 194,
     "2026-11-03": 659,
@@ -2502,7 +2507,7 @@
     "Trending",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-22",
    "reported": {
     "2026-11-04": 85,
     "2026-11-10": 577
@@ -3006,13 +3011,14 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "reported": {
     "2026-11-07": 496,
     "2026-11-15": 5488,
     "2026-11-17": 6094,
     "2026-11-20": 6866,
-    "2026-11-21": 7095
+    "2026-11-21": 7095,
+    "2026-11-22": 7382
    }
   },
   "sarpstar/cinecode": {
@@ -3312,7 +3318,7 @@
     "Trending",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "reported": {
     "2026-11-09": 338,
     "2026-11-10": 2213,
@@ -3325,7 +3331,8 @@
     "2026-11-18": 9896,
     "2026-11-19": 10120,
     "2026-11-20": 10299,
-    "2026-11-21": 10434
+    "2026-11-21": 10434,
+    "2026-11-22": 10561
    }
   },
   "synchopate/llama-modchip": {
@@ -3503,7 +3510,7 @@
     "Trending",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-22",
    "reported": {
     "2026-11-11": 91,
     "2026-11-12": 410,
@@ -4205,9 +4212,10 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-22",
    "reported": {
-    "2026-11-16": 57
+    "2026-11-16": 57,
+    "2026-11-22": 392
    }
   },
   "ineedfoundmyway/planrelay": {
@@ -4355,14 +4363,15 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "reported": {
     "2026-11-16": 5066,
     "2026-11-17": 5318,
     "2026-11-18": 5570,
     "2026-11-19": 5892,
     "2026-11-20": 6138,
-    "2026-11-21": 6291
+    "2026-11-21": 6291,
+    "2026-11-22": 6457
    }
   },
   "aws/aws-emulator-evaluation-suite": {
@@ -4466,13 +4475,14 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "reported": {
     "2026-11-17": 161,
     "2026-11-18": 540,
     "2026-11-19": 665,
     "2026-11-20": 719,
-    "2026-11-21": 745
+    "2026-11-21": 745,
+    "2026-11-22": 777
    }
   },
   "sybil-solutions/inference-optimisation-skill": {
@@ -4482,13 +4492,14 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "reported": {
     "2026-11-17": 146,
     "2026-11-18": 934,
     "2026-11-19": 1121,
     "2026-11-20": 1265,
-    "2026-11-21": 1345
+    "2026-11-21": 1345,
+    "2026-11-22": 1693
    }
   },
   "simplexai-labs/linger": {
@@ -4511,12 +4522,13 @@
     "Trending",
     "Claude Ecosystem"
    ],
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "reported": {
     "2026-11-18": 1447,
     "2026-11-19": 3449,
     "2026-11-20": 5285,
-    "2026-11-21": 6688
+    "2026-11-21": 6688,
+    "2026-11-22": 7463
    }
   },
   "staryone/motlab": {
@@ -4526,9 +4538,10 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-22",
    "reported": {
-    "2026-11-18": 166
+    "2026-11-18": 166,
+    "2026-11-22": 353
    }
   },
   "AnIT012/nihongo": {
@@ -4553,11 +4566,12 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "reported": {
     "2026-11-18": 90,
     "2026-11-20": 160,
-    "2026-11-21": 217
+    "2026-11-21": 217,
+    "2026-11-22": 274
    }
   },
   "SecFathy/otpkit": {
@@ -4640,9 +4654,10 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-22",
    "reported": {
-    "2026-11-18": 250
+    "2026-11-18": 250,
+    "2026-11-22": 276
    }
   },
   "inevolin/claude-code-usage-analysis": {
@@ -4900,10 +4915,11 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "reported": {
     "2026-11-20": 30,
-    "2026-11-21": 180
+    "2026-11-21": 180,
+    "2026-11-22": 255
    }
   },
   "tracebit-com/turingpot": {
@@ -5039,9 +5055,10 @@
    "seen_in": [
     "Trending"
    ],
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "reported": {
-    "2026-11-21": 115
+    "2026-11-21": 115,
+    "2026-11-22": 377
    }
   },
   "nestjs/agent-skills": {
@@ -5169,6 +5186,111 @@
     "Pulse"
    ],
    "last_seen": "2026-11-21"
+  },
+  "sybil-solutions/skill-distill": {
+   "first_seen": "2026-11-22",
+   "kind": "Skill",
+   "description": "Turns a good Claude Code or Codex session into a skill that an open-weight model can follow.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-22",
+   "reported": {
+    "2026-11-22": 370
+   }
+  },
+  "w01fb0ss/PiBot": {
+   "first_seen": "2026-11-22",
+   "kind": "Agent framework",
+   "description": "Local-first desktop app for a team of AI agents, with group chats, browser, computer use and MCP.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-22",
+   "reported": {
+    "2026-11-22": 186
+   }
+  },
+  "EL4CTEO/fast-anything": {
+   "first_seen": "2026-11-22",
+   "kind": "Dev tool",
+   "description": "Profiles slow Python, Node or Ruby apps and ports hot functions to Rust with a coding agent.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-22",
+   "reported": {
+    "2026-11-22": 127
+   }
+  },
+  "xikhar/papercraft": {
+   "first_seen": "2026-11-22",
+   "kind": "Skill",
+   "description": "Agent skill that builds games, scenes and web pages in a pop-up papercraft style.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-22",
+   "reported": {
+    "2026-11-22": 101
+   }
+  },
+  "pritamux/gridlines": {
+   "first_seen": "2026-11-22",
+   "kind": "Skill",
+   "description": "Agent skill that draws guide lines on an interface, finds misaligned items and fixes padding.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-22",
+   "reported": {
+    "2026-11-22": 93
+   }
+  },
+  "Noniv/atlantis": {
+   "first_seen": "2026-11-22",
+   "kind": "Other",
+   "description": "Browser scene of a flyable Atlantis in one 95 KB HTML file, rendered with WebGPU. Built with Claude Code.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-22",
+   "reported": {
+    "2026-11-22": 59
+   }
+  },
+  "nxbridge/nxbridge": {
+   "first_seen": "2026-11-22",
+   "kind": "Dev tool",
+   "description": "Local link that lets Claude Code and Codex CLI exchange messages as peers.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-22",
+   "reported": {
+    "2026-11-22": 18
+   }
+  },
+  "mdiri-ai/SoduWork": {
+   "first_seen": "2026-11-22",
+   "kind": "Agent framework",
+   "description": "Self-hosted engine for teams and their agents, with multi-agent and multi-harness support.",
+   "seen_in": [
+    "Trending"
+   ],
+   "last_seen": "2026-11-22",
+   "reported": {
+    "2026-11-22": 6456
+   }
+  },
+  "ccarter01011/traxagent-claude-plugin": {
+   "first_seen": "2026-11-22",
+   "kind": "Plugin",
+   "description": "TraxAgent adds a Claude Code plugin and read-only MCP server",
+   "seen_in": [
+    "Claude Ecosystem"
+   ],
+   "last_seen": "2026-11-22"
   }
  }
 }

@@ -1,0 +1,252 @@
+{
+ "week_start": "2026-11-16",
+ "week_end": "2026-11-22",
+ "intro": "OpenAI shipped GPT-6.2 Astra and Sol, Google added Gemini 4 Neon, and Anthropic began trading on Nasdaq in the same week. The Lean and Mathlib communities certified a Claude-assisted proof of the Riemann Hypothesis, while critical flaws in NGINX, OpenSSL and Rails kept security teams busy.",
+ "top": [
+  {
+   "title": "OpenAI ships GPT-6.2 Astra and GPT-6.2 Sol",
+   "body": "OpenAI released GPT-6.2 Astra for demanding professional work and GPT-6.2 Sol for fast everyday tasks. Astra costs $8 input and $40 output per million tokens, 20% below its predecessor; Sol costs $2 input and $10 output.",
+   "section": "AI",
+   "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+   "date": "2026-11-18"
+  },
+  {
+   "title": "Anthropic prices IPO and starts trading on Nasdaq",
+   "body": "Anthropic published a post about the pricing of its initial public offering. Reuters covered the Nasdaq debut.",
+   "section": "Pulse",
+   "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
+   "date": "2026-11-20"
+  },
+  {
+   "title": "Lean and Mathlib communities certify a proof of the Riemann Hypothesis",
+   "body": "The Lean and Mathlib communities published a joint statement on 2026-11-21. The statement certifies a Lean library (about 17 million lines) released by Levent Alpöge on 2026-11-20.",
+   "section": "AI",
+   "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+   "date": "2026-11-22"
+  },
+  {
+   "title": "Google releases Gemini 4 Neon: 1M context, $3/$15 per 1M tokens",
+   "body": "Google released Gemini 4 Neon on 2026-11-18. It has a 1M-token context window.",
+   "section": "AI",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+   "date": "2026-11-20"
+  },
+  {
+   "title": "Two critical NGINX HTTP/2 flaws allow unauthenticated remote code execution",
+   "body": "Wiz reports CVE-2026-123633 (HTTP/2 use-after-free) and CVE-2026-123007 (HTTP/2 send_window integer underflow), both CVSS 4.0 score 9.2. Both need HTTP/2 enabled.",
+   "section": "Pulse",
+   "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
+   "date": "2026-11-19"
+  },
+  {
+   "title": "OpenSSL fixes critical buffer overflow in EVP_EncodeBlock (CVE-2026-121481)",
+   "body": "OpenSSL published a fix for a buffer overflow in EVP_EncodeBlock(). The CVE is CVE-2026-121481 and the CVSS score is 9.8.",
+   "section": "Pulse",
+   "url": "https://github.com/openssl/openssl/pull/33652",
+   "date": "2026-11-21"
+  },
+  {
+   "title": "Vera Rubin NVL72 sweeps MLPerf Training v6.1 in its debut",
+   "body": "NVIDIA posted the top result on every MLPerf Training v6.1 benchmark and was the only platform to submit them all. Vera Rubin NVL72 gave up to 2x the performance per GPU of GB300 NVL72.",
+   "section": "Chips & Research",
+   "url": "https://blogs.nvidia.com/blog/mlperf-training-endpoints-vera-rubin/",
+   "date": "2026-11-18"
+  },
+  {
+   "title": "Alibaba releases Qwen4-Max in managed preview",
+   "body": "Alibaba released Qwen4-Max as a managed preview on November 16. Access is through the Token Plan API for coding agents, QwenWork, Qoder, the Qwen App and QwenStudio.",
+   "section": "AI",
+   "url": "https://alphasignal.ai/news/alibaba-launches-qwen4-max-with-agent-first-coding-and-1m-token-support",
+   "date": "2026-11-17"
+  },
+  {
+   "title": "Claude solves two open black-hole physics problems",
+   "body": "Anthropic's Science team reports that Claude Fable 5.2 completed a 2003 Hawking-Page calculation in N=4 super Yang-Mills theory. It also found the exact optimal ceiling of the modular bootstrap for 3D gravity (about c/9.1266) and verified it formally in Lean.",
+   "section": "AI",
+   "url": "https://www.anthropic.com/research/claude-black-hole-physics",
+   "date": "2026-11-20"
+  },
+  {
+   "title": "Optimizely snippets served malware on Zoom, GitLab and 176 other sites",
+   "body": "On 16 November an attacker wrote malicious code into the Project JavaScript field of Optimizely Web projects. Report URI found infected snippets for 178 organisations, including Zoom, BBC, Salesforce, GitLab and HSBC.",
+   "section": "Pulse",
+   "url": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/",
+   "date": "2026-11-18"
+  }
+ ],
+ "models": [
+  {
+   "name": "Qwen4-Max (preview)",
+   "lab": "Alibaba",
+   "date": "2026-11-17",
+   "url": "https://alphasignal.ai/news/alibaba-launches-qwen4-max-with-agent-first-coding-and-1m-token-support",
+   "what": "Alibaba released Qwen4-Max as a managed preview on November 16."
+  },
+  {
+   "name": "Hy4 flash",
+   "lab": "Tencent",
+   "date": "2026-11-17",
+   "url": "https://casrai.org/news/tencent-hy4-flash-lower-cost-ai-model-launch-2026",
+   "what": "Tencent released Hy4 flash (hy4-flash) on November 16 as a lower-cost tier of Hy4."
+  },
+  {
+   "name": "Nemotron for Science",
+   "lab": "NVIDIA",
+   "date": "2026-11-17",
+   "url": "https://www.storagereview.com/news/nvidia-sc26-rubin-hpc-gpu-vera-cpu-hpc-rack-nemotron-for-science-quantum",
+   "what": "Nemotron for Science packages the open Nemotron 3.5 Super VL model with scientific evaluations, post-training recipes and LitmusBench v0.2."
+  },
+  {
+   "name": "GPT-6.2 Astra and GPT-6.2 Sol",
+   "lab": "OpenAI",
+   "date": "2026-11-18",
+   "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+   "what": "OpenAI released GPT-6.2 Astra for demanding professional work and GPT-6.2 Sol for fast everyday tasks."
+  },
+  {
+   "name": "MAI Code 2 and six more MAI models",
+   "lab": "Microsoft",
+   "date": "2026-11-18",
+   "url": "https://madrobot.blog/2026/11/17/microsoft-mai-code-2-ignite-cheaper-openai-anthropic/",
+   "what": "Microsoft announced a family of seven MAI models at Ignite on November 17."
+  },
+  {
+   "name": "K2-Horizon open model fleet",
+   "lab": "Institute of Foundation Models",
+   "date": "2026-11-18",
+   "url": "https://huggingface.co/papers/2611.21003",
+   "what": "The Institute of Foundation Models released six open models, from 0.9B dense to a 375B-A23B MoE."
+  },
+  {
+   "name": "Genie 4",
+   "lab": "Google DeepMind",
+   "date": "2026-11-19",
+   "url": "https://x.com/GoogleDeepMind/status/2123117733709586849",
+   "what": "Google DeepMind made Genie 4 available in Project Genie."
+  },
+  {
+   "name": "Gemini 4 Neon",
+   "lab": "Google",
+   "date": "2026-11-20",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+   "what": "Google released Gemini 4 Neon on 2026-11-18."
+  },
+  {
+   "name": "Kitten-TTS-2",
+   "lab": "KittenML",
+   "date": "2026-11-20",
+   "url": "https://reddit.com/r/LocalLLaMA/comments/1y0e59m/kittentts2_pico_nano_mini_sota_supertiny_apache/",
+   "what": "Kitten-TTS-2 ships in three sizes: Pico, Nano and Mini."
+  },
+  {
+   "name": "GPT-Live-1.1",
+   "lab": "OpenAI",
+   "date": "2026-11-21",
+   "url": "https://x.com/OpenAIDevs/status/2123506733524136446",
+   "what": "OpenAI Developers announced on 2026-11-19 that GPT-Live-1.1 is available in the API."
+  },
+  {
+   "name": "Inkling-2-Mini (open weights)",
+   "lab": "Thinking Machines Lab",
+   "date": "2026-11-21",
+   "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
+   "what": "Thinking Machines published Inkling-2-Mini on Hugging Face."
+  }
+ ],
+ "chips": [
+  {
+   "title": "NVIDIA unveils Rubin HPC GPU with 50,000+ CUDA cores",
+   "body": "At SC26 NVIDIA announced Rubin HPC, which puts more than 50,000 CUDA cores on one GPU, a record by NVIDIA's count.",
+   "url": "https://www.storagereview.com/news/nvidia-sc26-rubin-hpc-gpu-vera-cpu-hpc-rack-nemotron-for-science-quantum",
+   "date": "2026-11-17"
+  },
+  {
+   "title": "OpenAI models find up to 14% PPA gains in AMD GPU IP",
+   "body": "OpenAI says its models rewrote circuit code for AMD's flagship GPU IP and found up to 14% power, performance and area gains over heavily optimized baselines in under five months.",
+   "url": "https://insideai.news/news/ai-hardware-infrastructure/openai-chip-design-models/15501/",
+   "date": "2026-11-19"
+  },
+  {
+   "title": "Frostbite: Architect Labs reports an AI-designed CPU with new ISA",
+   "body": "Architect Labs says its AI systems designed and verified Frostbite, a CPU with a new instruction set based on interaction nets.",
+   "url": "https://architectlabs.com/blog/frostbite",
+   "date": "2026-11-21"
+  }
+ ],
+ "skills": [
+  {
+   "repo": "erkamyaman/rust-anything",
+   "url": "https://github.com/erkamyaman/rust-anything",
+   "kind": "Dev tool",
+   "description": "Rewrites an app in Rust one piece at a time and checks each piece against recorded behavior.",
+   "stars": 7012,
+   "gained": 4593
+  },
+  {
+   "repo": "heygen-com/hyperframes",
+   "url": "https://github.com/heygen-com/hyperframes",
+   "kind": "Plugin",
+   "description": "AI video you can actually edit. HyperFrames is a free, open-source AI video editor. Describe any video and get a real project you can change down to the frame.",
+   "stars": 87647,
+   "gained": 2668
+  },
+  {
+   "repo": "heydamir/unslop",
+   "url": "https://github.com/heydamir/unslop",
+   "kind": "Skill",
+   "description": "Claude skill that turns AI-looking UI code into a designed interface.",
+   "stars": 19497,
+   "gained": 2480
+  },
+  {
+   "repo": "lemomo-ai/lemo-opuscar",
+   "url": "https://github.com/lemomo-ai/lemo-opuscar",
+   "kind": "Skill",
+   "description": "A toolbox of film styles made in code for Claude Code: 99 ready to use, and your own. Each style is a style prompt plus a demo film made entirely in code by Claude Opus 5.5, with no video model. By Lemomo. · 一套用代码做片的风格工具箱：99 种现成风格，也能做出你自己的",
+   "stars": 19289,
+   "gained": 2242
+  },
+  {
+   "repo": "JuneYaooo/rea-video",
+   "url": "https://github.com/JuneYaooo/rea-video",
+   "kind": "Skill",
+   "description": "Reverse-engineer any video, shot by shot: filmed, AI-generated or coded, and how to remake it. Breakdowns in the open VIDEO.md format. 逆向一切视频，逐个镜头看是拍的、AI 生成的还是代码做的，再告诉你怎么复刻；拆解结果按 VIDEO.md 格式输出。",
+   "stars": 11555,
+   "gained": 2084
+  },
+  {
+   "repo": "anthropics/skills",
+   "url": "https://github.com/anthropics/skills",
+   "kind": "Skill",
+   "description": "Public repository for Agent Skills",
+   "stars": 198241,
+   "gained": 1828
+  },
+  {
+   "repo": "JuliusBrussee/caveman",
+   "url": "https://github.com/JuliusBrussee/caveman",
+   "kind": "Skill",
+   "description": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter answers, smaller tool output, every original recoverable.",
+   "stars": 121870,
+   "gained": 1254
+  },
+  {
+   "repo": "janestreet/agent_skills",
+   "url": "https://github.com/janestreet/agent_skills",
+   "kind": "Skill",
+   "description": "Collection of agent skills from Jane Street.",
+   "stars": 10494,
+   "gained": 1185
+  }
+ ],
+ "skill_of_week": {
+  "name": "rust-anything",
+  "kind": "Skill + MCP server",
+  "url": "https://github.com/erkamyaman/rust-anything",
+  "stars": 7012,
+  "what": "rust-anything helps a coding agent rewrite an app in Rust and proves that the rewrite behaves like the original. It records the original app's outputs, errors and side effects on generated edge cases, generates a Rust crate with a wrapper that keeps the original API, and replays every recorded case against the Rust code. Nothing ships until all cases match. It supports TypeScript, JavaScript, Python, C, Go, Ruby, Java and Kotlin, with whole-app record and replay for PHP and C#.",
+  "install": "cargo install rust-anything && rust-anything setup",
+  "verdict": "Worth a try for hot paths",
+  "note": "It gained about 4,600 stars this week, and version 2.0 ported Prettier to Rust with Claude Code. It is MIT licensed and has test fixtures, but it is a one-person project. It catches only the behavior that the recording covers, and per-call overhead can make small Rust functions slower than a JIT, so target hot loops. The record and replay commands run your code many times: use a copy of the project, a test database and no production credentials. Agent token cost grows with the number of units you port."
+ }
+}
