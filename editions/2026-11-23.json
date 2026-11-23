@@ -1,0 +1,286 @@
+{
+ "date": "2026-11-23",
+ "generated": "2026-11-23T02:51:26Z",
+ "sections": {
+  "tech-news": {
+   "routine": "tech-news",
+   "status": "done",
+   "headline": "OpenAI publishes its perplexity numbers and proposes shared perplexity limits for model developers.",
+   "filed": "2026-11-23T02:18:30Z",
+   "note": "No new model from a major lab was found in the window. Only 2 items relate to Claude or Anthropic; the Claude release notes and Anthropic news page showed nothing else dated 2026-11-20 to 2026-11-22.",
+   "items": [
+    {
+     "title": "OpenAI publishes perplexity values and proposes shared capability limits",
+     "body": "Jakub Pachocki, OpenAI Chief Scientist, published the post on 22 November 2026. OpenAI reports log-perplexity on a held-out set from its internal codebase: about 0.99 for GPT-3.5, about 0.91 for GPT-4. It says cybersecurity and mathematics capabilities emerged below 0.8. It proposes common limits that developers agree not to cross until a monitoring milestone is reached.",
+     "why": "Labs may soon commit to perplexity-based limits, which could affect how fast frontier models ship to your stack.",
+     "topics": [
+      "OpenAI",
+      "AI research",
+      "AI policy"
+     ],
+     "source": "OpenAI",
+     "url": "https://openai.com/index/perplexity-and-intelligence/",
+     "date": "2026-11-22",
+     "also": [
+      {
+       "section": "Pulse",
+       "source": "Hacker News · 398 points · 270 comments",
+       "url": "https://news.ycombinator.com/item?id=50601525"
+      }
+     ]
+    },
+    {
+     "title": "OpenRouter removes three providers after data processing incidents",
+     "body": "OpenRouter posted on 22 November 2026. It off-boarded three providers and removed 125 endpoints from ZDR eligibility. It notified all potentially affected customers. The action followed a Dragos report on canary-token research into inference providers. OpenRouter states the findings showed no breach of OpenRouter itself.",
+     "why": "Teams that route LLM traffic through third-party providers must check Zero Data Retention (ZDR) claims.",
+     "topics": [
+      "Security",
+      "AI tools"
+     ],
+     "source": "OpenRouter blog",
+     "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
+     "date": "2026-11-22",
+     "also": [
+      {
+       "section": "Pulse",
+       "source": "Hacker News · 275 points · 91 comments",
+       "url": "https://news.ycombinator.com/item?id=50595554"
+      }
+     ]
+    },
+    {
+     "title": "Claude Code v2.1.330 adds Enterprise Admin Console sign-in and easel charts",
+     "body": "A release tracker lists v2.1.330 on 20 November 2026. The listing mentions sign-in to the org Enterprise Admin Console, automatic charts through a new easel tool, and support for self-hosted runners. The official changelog page was not confirmed for this version, so check the changelog before you rely on the details.",
+     "why": "Claude Code admins get org sign-in and a charting tool in the latest release.",
+     "topics": [
+      "Claude Code",
+      "DevOps"
+     ],
+     "source": "Havoptic release tracker",
+     "url": "https://www.havoptic.com/r/claude-code-2.1.330",
+     "date": "2026-11-20"
+    },
+    {
+     "title": "HN debates Anthropic power plan: 87% gas, 11% coal by 2028",
+     "body": "A Better Data Center Project analysis dated 16 November 2026 reached the Hacker News front page on 22 November with 804 points and 831 comments. The title states 87% of Anthropic power will come from gas and 11% from coal in 2028. Readers discuss behind-the-meter power and grid supply. We did not verify the underlying estimate.",
+     "why": "Data-center power sources for Anthropic capacity affect long-term cloud AI cost and policy.",
+     "topics": [
+      "AI policy",
+      "Claude"
+     ],
+     "source": "Hacker News",
+     "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
+     "date": "2026-11-22"
+    },
+    {
+     "title": "Gemini 4 Neon stays in focus: $3/$15 per 1M tokens, 1M context",
+     "body": "Google released Gemini 4 Neon on 18 November 2026. It has a 1M-token context window and four thinking levels. Price is $3 input and $15 output per 1M tokens. It ranks #3 on the Artificial Analysis Intelligence Index (61) at xhigh. It is available to AI Pro and Ultra subscribers in the Gemini app and in Google Antigravity. Simon Willison and Google AI Studio posted about Gemini 4 on 21 November.",
+     "why": "Neon is a new price and quality point for agent workloads on Gemini.",
+     "topics": [
+      "Gemini",
+      "New models"
+     ],
+     "source": "9to5Google",
+     "url": "https://9to5google.com/2026/11/18/gemini-4-neon-announcement/",
+     "date": "2026-11-18"
+    },
+    {
+     "title": "Muru: AI-assisted Rust server for Python ASGI and WSGI apps",
+     "body": "Graham Dumpleton, who started mod_wsgi, is building Muru. It is a Rust server for ASGI and WSGI Python apps in development and production. Simon Willison linked it on 21 November 2026 and lists 17 posts in the series. The series includes a post on what AI does and what still needs human judgment.",
+     "why": "A mod_wsgi author builds a Python app server with AI help and documents the method in public.",
+     "topics": [
+      "AI tools",
+      "Agents"
+     ],
+     "source": "Simon Willison's Weblog",
+     "url": "https://simonwillison.net/2026/Nov/21/muru/",
+     "date": "2026-11-21"
+    }
+   ]
+  },
+  "ecosystem": {
+   "routine": "ecosystem",
+   "status": "done",
+   "headline": "Blender AI MCP add-on reached 2,749 GitHub stars within days of its creation on 19 November.",
+   "filed": "2026-11-23T02:18:30Z",
+   "note": "Reddit returned HTTP 429, so r/ClaudeAI was not read. GitHub Trending showed no Claude-related repos. The Anthropic skills and plugins repos showed no dated new items.",
+   "items": [
+    {
+     "title": "Blender AI MCP add-on gains 2,749 stars in days",
+     "body": "The repo bookwjitchieni1986/blender-ai-mcp-addon was created on 19 November 2026. It provides an AI assistant and an MCP server for Blender with visual chat, scene tools and multi-agent workflows. It had 2,749 stars at search time. Check the README for the install steps.",
+     "why": "It shows fast MCP adoption outside coding: agents drive Blender scenes through tools.",
+     "topics": [
+      "MCP",
+      "Setups"
+     ],
+     "source": "GitHub · 2,749 stars",
+     "url": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon",
+     "date": "2026-11-19"
+    },
+    {
+     "title": "Pandex: European law for AI agents over MCP",
+     "body": "Pandex presents official European law as an MCP service for AI agents. The Hacker News post reached 137 points and 33 comments on 22 November 2026. The page gives details of the service.",
+     "why": "Agents can query legal text through MCP, which is useful for compliance workflows.",
+     "topics": [
+      "MCP",
+      "Agents"
+     ],
+     "source": "Hacker News · 137 points",
+     "url": "https://pandex.io",
+     "date": "2026-11-22",
+     "also": [
+      {
+       "section": "Pulse",
+       "source": "Hacker News · 137 points · 33 comments",
+       "url": "https://news.ycombinator.com/item?id=50593481"
+      }
+     ]
+    },
+    {
+     "title": "TraxAgent plugin reports who spent your AI budget",
+     "body": "The repo ccarter01011/traxagent-claude-plugin was created on 17 November 2026. Per its description, you can ask Claude, ChatGPT, Claude Code, Cursor or VS Code who spent your AI budget and what to fix. It had 137 stars at search time.",
+     "why": "It helps DevOps teams find AI cost sources across Claude Code, Cursor and VS Code.",
+     "topics": [
+      "Plugins",
+      "Claude Code"
+     ],
+     "source": "GitHub · 137 stars",
+     "url": "https://github.com/ccarter01011/traxagent-claude-plugin",
+     "date": "2026-11-17"
+    },
+    {
+     "title": "Official Claude Code plugin directory passes 45k stars",
+     "body": "The anthropics/claude-plugins-official repo is the official directory of Claude Code plugins. It shows 45.3k stars, 4.7k forks and 4,656 commits. Folders are plugins and external_plugins. The page showed no dated new plugin.",
+     "why": "It is the main Anthropic-managed place to find vetted Claude Code plugins.",
+     "topics": [
+      "Plugins",
+      "Claude Code"
+     ],
+     "source": "GitHub · 45.3k stars",
+     "url": "https://github.com/anthropics/claude-plugins-official",
+     "date": "2026-11-22"
+    },
+    {
+     "title": "Anthropic skills repo reaches 198k stars",
+     "body": "The anthropics/skills repo is the public repository for Agent Skills. It shows 198.1k stars, 23.2k forks and 64 commits. It holds skills, a spec and a template. The page showed no dated new skill.",
+     "why": "It is the reference source for Agent Skills format and example skills.",
+     "topics": [
+      "Skills",
+      "Claude Code"
+     ],
+     "source": "GitHub · 198.1k stars",
+     "url": "https://github.com/anthropics/skills",
+     "date": "2026-11-22"
+    }
+   ]
+  },
+  "x-desk": {
+   "routine": "x-desk",
+   "status": "done",
+   "headline": "Simon Willison shows that Gemini 4 Hydrogen at xhigh thinking costs about six times more than at high.",
+   "filed": "2026-11-23T02:18:30Z",
+   "note": "Read 23 posts across 3 searches. 1 post passed the filter. The other posts were engagement questions or had fewer than 20 likes.",
+   "items": [
+    {
+     "title": "Gemini 4 Hydrogen: xhigh thinking costs 6x more than high",
+     "body": "Simon Willison compared Gemini 4 Hydrogen at high and xhigh thinking effort on a pelican drawing task. High cost 3.99 cents and used 5,311 output tokens. Xhigh cost 23.61 cents and used 31,477 output tokens. He calls the quality difference very significant.",
+     "why": "The numbers help you choose a thinking level for cost control in Gemini-based agents.",
+     "topics": [
+      "Gemini",
+      "AI research"
+     ],
+     "source": "X · @simonw · 418 likes · 18 reposts",
+     "url": "https://x.com/simonw/status/2124217876777464269",
+     "date": "2026-11-21"
+    }
+   ]
+  },
+  "tech-pulse": {
+   "routine": "tech-pulse",
+   "status": "done",
+   "headline": "OpenAI proposes perplexity as a shared metric for comparing AI model progress.",
+   "filed": "2026-11-23T02:19:19Z",
+   "note": "Reddit returned HTTP 429 on every request, so this Pulse uses Hacker News only.",
+   "items": [
+    {
+     "title": "Fast-Anything ports only hot code paths to Rust",
+     "body": "Fast-Anything profiles apps in Python, Node/TypeScript, Ruby, Java, Go, PHP, C and C++. It ports only the slow functions to Rust. Install with `npm i -g @el4cteo/fast-anything` or `cargo install fast-anything`. The licence is MIT. The README reports speedups of 2.7x to 116x on its example workloads.",
+     "why": "It cuts the cost of a Rust rewrite and ships a Claude Code plugin, MCP server and skill.",
+     "topics": [
+      "Claude Code",
+      "MCP"
+     ],
+     "source": "Hacker News · 172 points · 141 comments",
+     "url": "https://news.ycombinator.com/item?id=50596155",
+     "date": "2026-11-22"
+    },
+    {
+     "title": "Upload2Shell: Ghostscript use-after-free escapes the SAFER sandbox",
+     "body": "CVE-2026-125396 is a use-after-free in the Ghostscript Type 1 font loader. A crafted document escapes the -dSAFER sandbox and runs commands as the rendering process. Affected software includes Debian 13 CUPS, Roundcube, Forminator, MediaWiki PdfHandler and WordPress Core. Ghostscript 10.08.0 (8 Sep 2026) fixes it. Debian and Ubuntu ship backported packages.",
+     "why": "Many document pipelines call Ghostscript, so unpatched servers can run attacker commands.",
+     "topics": [
+      "Security"
+     ],
+     "source": "Hacker News · 150 points · 77 comments",
+     "url": "https://news.ycombinator.com/item?id=50592097",
+     "date": "2026-11-22"
+    }
+   ]
+  },
+  "aws-news": {
+   "routine": "aws-news",
+   "status": "done",
+   "headline": "Web Search on Amazon Bedrock now supports five more languages and a country field for agents.",
+   "filed": "2026-11-23T02:19:19Z",
+   "note": "The What's New feed had only four entries dated 2026-11-21 and none for 11-22 or 11-23, the AWS News Blog front page had no posts after 2026-11-18, and the last 36,770 characters of the feed were not read; no GitHub repo met the rules because all qualifying repos were already reported.",
+   "items": [
+    {
+     "title": "Web Search on Bedrock adds five languages and country targeting",
+     "body": "Web Search on Amazon Bedrock AgentCore and Amazon Bedrock now supports Spanish, French, German, Italian and Japanese, plus non-US English. A new optional country field takes an ISO 3166-1 alpha-2 code, such as JP or DE, to favor sources from that country. Pricing is the same for all languages. Queries are processed in the Region you call. AgentCore Regions are N. Virginia, Ohio, Oregon, Sydney, Tokyo and Ireland; Bedrock is in US Regions.",
+     "why": "Agents that answer local questions, such as rules or prices, can now get cited results from local-language sources with no code change.",
+     "topics": [
+      "Bedrock",
+      "Agents"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/web-search-amazon-bedrock/",
+     "date": "2026-11-21"
+    },
+    {
+     "title": "AWS Quick adds plugins that bundle agents, skills, connectors and flows",
+     "body": "A Quick plugin bundles the agents, skills, connectors and flows for one task, role or use case. Official examples are Calendar and Meetings Assistant and Sales Development. The catalog has more than 100 skills and plugins. Builders can describe a job in chat, and Quick assembles a custom plugin to share with teammates. It is available in all Regions where AWS Quick is available.",
+     "why": "Teams can install a full role-based AI toolkit in one step and share custom ones, which lowers the cost of rolling out agents.",
+     "topics": [
+      "Agents"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-quick-plugins-bundle-agents-skills-connectors-flows/",
+     "date": "2026-11-21"
+    },
+    {
+     "title": "CloudWatch Omni collects Azure logs, metrics and traces",
+     "body": "Amazon CloudWatch Omni now collects Azure resource logs, Azure Monitor platform metrics, VNet flow logs and Application Insights traces. You connect a Microsoft Entra ID tenant to your AWS account and Region, then pick telemetry types, subscriptions, Azure regions, resource types and tags. Setup is in the console or with the AWS CLI. It works in all Azure Public Regions and can ingest into any AWS Region where CloudWatch Omni is available.",
+     "why": "Multi-cloud teams can watch Azure and AWS in one place and trace an incident across both without extra pipelines.",
+     "topics": [
+      "DevOps"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cloudwatch-omni-microsoft-azure",
+     "date": "2026-11-21"
+    },
+    {
+     "title": "AWS Quick launches new web app, browser extension and Microsoft 365 add-ins",
+     "body": "The Quick web app now offers the desktop experience in the browser, with a daily briefing and a prioritized feed of email and messages. Agents started or scheduled on the web keep running after you close it, and Mission Control shows which agents are done or need input. Conversations, agents and files sync across web, desktop and mobile. The browser extension and Word, Excel, PowerPoint and Outlook add-ins are updated. It is available in seven Regions, including N. Virginia, Oregon, Frankfurt, Ireland, London, Sydney and Tokyo.",
+     "why": "Agents that keep running after the browser closes make Quick more useful for daily office work.",
+     "topics": [
+      "Agents"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-quick-launches-new-web-experience-updated-browser-extension-microsoft-365-add-ins/",
+     "date": "2026-11-21"
+    }
+   ]
+  }
+ },
+ "briefing": "Good morning. This is The Nexos Daily for Monday, 23 November 2026. It was a quiet weekend, with no new models from the major labs.\n\nOpenAI published the perplexity values of its models and proposed perplexity as a shared metric to compare AI progress. Chief Scientist Jakub Pachocki wrote the post. He also proposed that model developers agree on shared limits for capability, based on this metric. The Hacker News thread had about 400 points.\n\nIn security, OpenRouter removed three providers after incidents in how they processed data. It also removed 125 endpoints from its zero data retention list. OpenRouter says its own systems were not affected. Check which providers serve your requests. A use-after-free flaw in the Ghostscript font loader lets a crafted document escape the SAFER sandbox and run code. Update Ghostscript on servers that process uploaded documents.\n\nIn the Claude ecosystem, a release tracker lists Claude Code version 2.1.330 with sign-in to the Enterprise Admin Console. The Blender AI MCP add-on gained more than 2,700 stars in a few days. Pandex offers European law to AI agents through an MCP server. The TraxAgent plugin shows who spent your AI budget. Anthropic's skills repository has about 198 thousand stars.\n\nOn Hacker News, an analysis of Anthropic's power plan for 2028 drew more than 800 points. It says the plan relies on about 87 percent gas and 11 percent coal.\n\nIn models, Gemini 4 Neon remains in focus, at 3 dollars per million input tokens and 15 dollars per million output tokens. Simon Willison showed that Gemini 4 Hydrogen at the extra high thinking level costs about 6 times more than at the high level. Fast-Anything profiles an app and ports only the slow functions to Rust. Muru is a new Rust server for Python web apps from the creator of mod_wsgi.\n\nThere was no confirmed chip news in the last 48 hours.\n\nOn AWS, Web Search on Amazon Bedrock now supports Spanish, French, German, Italian and Japanese, and a country field. AWS Quick adds plugins that bundle agents, skills, connectors and flows. Quick also has a new web app, a browser extension and Microsoft 365 add-ins. CloudWatch Omni now collects logs, metrics and traces from Azure.\n\nThere were no new tech layoffs and no verified gadget launches in the last 48 hours.\n\nOn GitHub, the top new repo today is a Claude skill for research in Turkish state archives.\n\nThat is the news for today."
+}

@@ -1,0 +1,339 @@
+{
+ "date": "2026-11-23",
+ "generated": "2026-11-23T02:51:26Z",
+ "headline": "shnfatih-hash/devlet-arsivleri-soykutugu is the top new repo today: a Claude skill for Turkish archive research with 118 stars.",
+ "periods": {
+  "daily": {
+   "topics": [
+    "Agent skills",
+    "MCP servers",
+    "Rust rewrites",
+    "Agent security"
+   ],
+   "repos": [
+    {
+     "repo": "shnfatih-hash/devlet-arsivleri-soykutugu",
+     "url": "https://github.com/shnfatih-hash/devlet-arsivleri-soykutugu",
+     "description": "A skill for family-history research in Turkish state archives.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 118,
+     "gained": null,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "memoryoffish/film-director-skill-plugin",
+     "url": "https://github.com/memoryoffish/film-director-skill-plugin",
+     "description": "An agent skill that helps plan and make films.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 82,
+     "gained": null,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "erkamyaman/safe-anything",
+     "url": "https://github.com/erkamyaman/safe-anything",
+     "description": "A Rust scanner that finds web flaws, leaked secrets, and risky AI agent setups.",
+     "kind": "Dev tool",
+     "language": "Rust",
+     "stars": 53,
+     "gained": null,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "fazxes/questionnaire",
+     "url": "https://github.com/fazxes/questionnaire",
+     "description": "An agent skill that asks questions about a task, then loads matching rules.",
+     "kind": "Skill",
+     "language": "JavaScript",
+     "stars": 18,
+     "gained": null,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "owoevan-dev/sfx-skill",
+     "url": "https://github.com/owoevan-dev/sfx-skill",
+     "description": "An agent skill that designs sound effects for games.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 17,
+     "gained": null,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "miya-tonya/night-ferry",
+     "url": "https://github.com/miya-tonya/night-ferry",
+     "description": "A tool to write and read short bedtime articles. It includes an MCP server.",
+     "kind": "MCP server",
+     "language": "JavaScript",
+     "stars": 15,
+     "gained": null,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "sharifli4/org-wiki",
+     "url": "https://github.com/sharifli4/org-wiki",
+     "description": "It turns a GitHub organization into a wiki that updates itself. It has MCP support.",
+     "kind": "MCP server",
+     "language": "Python",
+     "stars": 15,
+     "gained": null,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "mq-yuan/project-docs",
+     "url": "https://github.com/mq-yuan/project-docs",
+     "description": "Project memory docs for coding agents.",
+     "kind": "Other",
+     "language": "Python",
+     "stars": 15,
+     "gained": null,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "yulongwu-x/BriefCheck",
+     "url": "https://github.com/yulongwu-x/BriefCheck",
+     "description": "It checks AI pull request reviews for false citations.",
+     "kind": "Dev tool",
+     "language": "Python",
+     "stars": 10,
+     "gained": null,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "olgaysezgin/autologin-mcp",
+     "url": "https://github.com/olgaysezgin/autologin-mcp",
+     "description": "An MCP server that logs coding agents into apps under test. Credentials stay local.",
+     "kind": "MCP server",
+     "language": "TypeScript",
+     "stars": 5,
+     "gained": null,
+     "source": "GitHub search"
+    }
+   ]
+  },
+  "weekly": {
+   "topics": [
+    "Rust rewrite tools",
+    "Agent skills",
+    "MCP for creative apps",
+    "Agent testing",
+    "Local agent desktops"
+   ],
+   "repos": [
+    {
+     "repo": "erkamyaman/rust-anything",
+     "url": "https://github.com/erkamyaman/rust-anything",
+     "description": "It rewrites an app in Rust step by step. It checks each step against recorded behavior.",
+     "kind": "Dev tool",
+     "language": "Rust",
+     "stars": 8039,
+     "gained": null,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "bookwjitchieni1986/blender-ai-mcp-addon",
+     "url": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon",
+     "description": "A Blender add-on with an AI assistant and an MCP server.",
+     "kind": "MCP server",
+     "language": "Unknown",
+     "stars": 2749,
+     "gained": null,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "EL4CTEO/fast-anything",
+     "url": "https://github.com/EL4CTEO/fast-anything",
+     "description": "It profiles an app and moves only the slow functions to Rust.",
+     "kind": "Dev tool",
+     "language": "Rust",
+     "stars": 1987,
+     "gained": null,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "pierridotite/mobile-agent-testers",
+     "url": "https://github.com/pierridotite/mobile-agent-testers",
+     "description": "Claude Code agents that test mobile apps on iOS and Android emulators.",
+     "kind": "Coding agent",
+     "language": "Python",
+     "stars": 592,
+     "gained": null,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "INK-Q/agy-fast",
+     "url": "https://github.com/INK-Q/agy-fast",
+     "description": "An MCP plugin for Google Antigravity. It cuts LLM turns and token use.",
+     "kind": "Plugin",
+     "language": "TypeScript",
+     "stars": 555,
+     "gained": null,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "danielwh2/sprite-stacking",
+     "url": "https://github.com/danielwh2/sprite-stacking",
+     "description": "An agent skill that turns pixel art views into spinning fake-3D sprites.",
+     "kind": "Skill",
+     "language": "HTML",
+     "stars": 470,
+     "gained": null,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "sybil-solutions/skill-distill",
+     "url": "https://github.com/sybil-solutions/skill-distill",
+     "description": "It turns a Claude Code or Codex session into a skill that open-weight models can follow.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 459,
+     "gained": null,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "w01fb0ss/PiBot",
+     "url": "https://github.com/w01fb0ss/PiBot",
+     "description": "A local desktop team of AI agents. It has group chat, browser use, and MCP support.",
+     "kind": "Agent framework",
+     "language": "TypeScript",
+     "stars": 402,
+     "gained": null,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "JimLiu/open-artifact",
+     "url": "https://github.com/JimLiu/open-artifact",
+     "description": "Agent-neutral artifacts, such as slides and dashboards, saved as local files.",
+     "kind": "Other",
+     "language": "TypeScript",
+     "stars": 361,
+     "gained": null,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "AnIT012/nihongo",
+     "url": "https://github.com/AnIT012/nihongo",
+     "description": "A skill that guards Japanese text during AI-assisted editing.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 277,
+     "gained": null,
+     "source": "GitHub search"
+    }
+   ]
+  },
+  "monthly": {
+   "topics": [
+    "Rust rewrite tools",
+    "Agent skills",
+    "MCP for creative apps",
+    "LLM inference tuning",
+    "Agent security"
+   ],
+   "repos": [
+    {
+     "repo": "erkamyaman/rust-anything",
+     "url": "https://github.com/erkamyaman/rust-anything",
+     "description": "It rewrites an app in Rust step by step. It checks each step against recorded behavior.",
+     "kind": "Dev tool",
+     "language": "Rust",
+     "stars": 8039,
+     "gained": null,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "bookwjitchieni1986/blender-ai-mcp-addon",
+     "url": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon",
+     "description": "A Blender add-on with an AI assistant and an MCP server.",
+     "kind": "MCP server",
+     "language": "Unknown",
+     "stars": 2749,
+     "gained": null,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "EL4CTEO/fast-anything",
+     "url": "https://github.com/EL4CTEO/fast-anything",
+     "description": "It profiles an app and moves only the slow functions to Rust.",
+     "kind": "Dev tool",
+     "language": "Rust",
+     "stars": 1987,
+     "gained": null,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "sybil-solutions/inference-optimisation-skill",
+     "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
+     "description": "An agent skill that tunes the speed of local LLM serving.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 1966,
+     "gained": null,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "boringmarketer/boring-marketing-skills",
+     "url": "https://github.com/boringmarketer/boring-marketing-skills",
+     "description": "Free marketing skills for AI agents: copy, SEO, ads, and more.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 796,
+     "gained": null,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "pierridotite/mobile-agent-testers",
+     "url": "https://github.com/pierridotite/mobile-agent-testers",
+     "description": "Claude Code agents that test mobile apps on iOS and Android emulators.",
+     "kind": "Coding agent",
+     "language": "Python",
+     "stars": 592,
+     "gained": null,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "danielwh2/sprite-stacking",
+     "url": "https://github.com/danielwh2/sprite-stacking",
+     "description": "An agent skill that turns pixel art views into spinning fake-3D sprites.",
+     "kind": "Skill",
+     "language": "HTML",
+     "stars": 470,
+     "gained": null,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "ThreatDefence/agentic-attack-detections",
+     "url": "https://github.com/ThreatDefence/agentic-attack-detections",
+     "description": "Detection rules and indicators for AI agent attack tools.",
+     "kind": "Dev tool",
+     "language": "Python",
+     "stars": 409,
+     "gained": null,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "w01fb0ss/PiBot",
+     "url": "https://github.com/w01fb0ss/PiBot",
+     "description": "A local desktop team of AI agents. It has group chat, browser use, and MCP support.",
+     "kind": "Agent framework",
+     "language": "TypeScript",
+     "stars": 402,
+     "gained": null,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "JimLiu/open-artifact",
+     "url": "https://github.com/JimLiu/open-artifact",
+     "description": "Agent-neutral artifacts, such as slides and dashboards, saved as local files.",
+     "kind": "Other",
+     "language": "TypeScript",
+     "stars": 361,
+     "gained": null,
+     "source": "GitHub search"
+    }
+   ]
+  }
+ }
+}

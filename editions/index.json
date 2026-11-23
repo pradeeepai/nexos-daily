@@ -1,6 +1,11 @@
 {
  "editions": [
   {
+   "date": "2026-11-23",
+   "stories": 18,
+   "headline": "OpenAI publishes perplexity values and proposes shared capability limits"
+  },
+  {
    "date": "2026-11-22",
    "stories": 27,
    "headline": "Lean and Mathlib communities certify a proof of the Riemann Hypothesis"
