@@ -1,6 +1,11 @@
 {
  "editions": [
   {
+   "date": "2026-11-24",
+   "stories": 22,
+   "headline": "Anthropic launches Claude Ship to review, fix and approve PRs"
+  },
+  {
    "date": "2026-11-23",
    "stories": 18,
    "headline": "OpenAI publishes perplexity values and proposes shared capability limits"

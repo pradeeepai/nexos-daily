@@ -1,0 +1,360 @@
+{
+ "date": "2026-11-24",
+ "generated": "2026-11-24T02:51:25Z",
+ "sections": {
+  "tech-news": {
+   "routine": "tech-news",
+   "status": "done",
+   "headline": "Anthropic launches Claude Ship in beta to review, fix and approve GitHub pull requests.",
+   "filed": "2026-11-24T02:17:29Z",
+   "note": "Only one new model (GLM-5.4) was found in the window. No Claude Code release fell in the window (latest v2.1.329 on Nov 19).",
+   "items": [
+    {
+     "title": "Anthropic launches Claude Ship to review, fix and approve PRs",
+     "body": "Claude Ship started in beta on Nov 23 for Claude Team and Enterprise organizations on GitHub. It combines Code Review (generally available) with two public-beta agents. PR Steward pushes fix commits and cannot merge or approve. Claude Approvals checks a PR against a team policy file. Billing is by tokens, separate from plan usage. /ship is rolling out in Claude Code and the desktop app. Orgs with ZDR, HIPAA configuration or customer-managed keys cannot use it.",
+     "why": "Teams on GitHub can automate pull request review and fixes, with token billing and spend limits.",
+     "topics": [
+      "Claude",
+      "Claude Code",
+      "DevOps"
+     ],
+     "source": "Unite.AI",
+     "url": "https://www.unite.ai/anthropic-launches-claude-ship-to-review-fix-and-approve-prs/",
+     "date": "2026-11-23"
+    },
+    {
+     "title": "Claude zero data retention gets Enterprise Frontier Safeguards in public beta",
+     "body": "Anthropic moved Enterprise Frontier Safeguards (EFS) to public beta on Nov 23. EFS checks for misuse across many requests and works with zero data retention (ZDR). Anthropic built it with more than 100 customers. It is available on Claude Platform, Claude Platform on AWS, Amazon Bedrock and Claude on Google Cloud. Microsoft Foundry support is listed as coming soon. Eligible customers get a notice. No price is given.",
+     "why": "Security teams can get misuse monitoring while keeping zero data retention on Bedrock and other clouds.",
+     "topics": [
+      "Claude",
+      "Bedrock",
+      "Security"
+     ],
+     "source": "X · @claudeai · 4558 likes · 245 reposts",
+     "url": "https://x.com/claudeai/status/2124929944530587712",
+     "date": "2026-11-23",
+     "also": [
+      {
+       "section": "Trending on X",
+       "source": "X · @claudeai · 4558 likes · 245 reposts",
+       "url": "https://x.com/claudeai/status/2124929944530587712"
+      }
+     ]
+    },
+    {
+     "title": "Z.AI releases GLM-5.4, its first loop transformer for coding",
+     "body": "Z.AI published GLM-5.4 on Nov 23. The post describes it as work toward generalized coding and as the lab's first loop transformer. Hacker News ranked it fifth on Nov 23 with 954 points. The sources checked do not give context size, price or availability. Read the Z.AI post for those details.",
+     "why": "A new open-lab coding model with a loop transformer design drew 954 points on Hacker News.",
+     "topics": [
+      "New models",
+      "Open models",
+      "AI research"
+     ],
+     "source": "Hacker News · z.ai blog",
+     "url": "https://news.ycombinator.com/item?id=50609685",
+     "date": "2026-11-23",
+     "also": [
+      {
+       "section": "Pulse",
+       "source": "Hacker News · 954 points · 321 comments",
+       "url": "https://z.ai/blog/glm-5.4"
+      }
+     ]
+    },
+    {
+     "title": "Gemini API adds file slicing controls",
+     "body": "Google AI Studio announced file slicing controls in the Gemini API on Nov 23. The post links to an article with the details. The post had 759 likes. The tweet text does not give limits, price or availability.",
+     "why": "Developers can send part of a large file to Gemini and cut input size.",
+     "topics": [
+      "Gemini",
+      "AI tools"
+     ],
+     "source": "X · @GoogleAIStudio · 759 likes · 46 reposts",
+     "url": "https://x.com/GoogleAIStudio/status/2124928707529674979",
+     "date": "2026-11-23",
+     "also": [
+      {
+       "section": "Trending on X",
+       "source": "X · @GoogleAIStudio · 759 likes · 46 reposts",
+       "url": "https://x.com/GoogleAIStudio/status/2124928707529674979"
+      }
+     ]
+    },
+    {
+     "title": "DeepMind uses Gemini 4 agent teams to cut quantum simulation cost 10x",
+     "body": "Google DeepMind reported on Nov 23 that teams of Gemini 4 agents built new quantum circuits. The circuits cut future simulation costs by up to 10 times. The goal is to run useful algorithms on early quantum hardware, for fusion energy, chemistry and drug discovery.",
+     "why": "Shows multi-agent Gemini systems producing research results, not only code.",
+     "topics": [
+      "Gemini",
+      "Agents",
+      "AI research"
+     ],
+     "source": "X · @GoogleDeepMind · 3590 likes · 396 reposts",
+     "url": "https://x.com/GoogleDeepMind/status/2124911073266413634",
+     "date": "2026-11-23",
+     "also": [
+      {
+       "section": "Trending on X",
+       "source": "X · @GoogleDeepMind · 3590 likes · 396 reposts",
+       "url": "https://x.com/GoogleDeepMind/status/2124911073266413634"
+      }
+     ]
+    }
+   ]
+  },
+  "chips": {
+   "routine": "chips",
+   "status": "done",
+   "headline": "Amazon buys Decart's optimization stack for Trainium and Inferentia, reportedly for $7.5B.",
+   "filed": "2026-11-24T02:17:29Z",
+   "note": "Sources showed no major vendor chip launch in the window.",
+   "items": [
+    {
+     "title": "Amazon buys Decart optimization stack to speed Trainium and Inferentia",
+     "body": "Amazon confirmed on Nov 23 that it will acquire the Decart Optimization Stack and hire the founders and team. Amazon gave no terms. Bloomberg reported about $7.5B. The work goes through Annapurna Labs to improve Trainium and Inferentia performance. Amazon is preparing to sell Trainium chips externally. The deal needs regulatory clearance.",
+     "why": "Better software for Trainium could make AWS chips easier to adopt as Amazon starts to sell them to outside customers.",
+     "topics": [
+      "Trainium",
+      "Chips",
+      "Data centers"
+     ],
+     "source": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
+     "date": "2026-11-23"
+    },
+    {
+     "title": "Clover-35B-A3B diffusion language model reports 680 tokens/s on one GB300",
+     "body": "DiffuSpace Technical Team released the Clover-35B-A3B-Preview report. It is a mixture-of-experts diffusion language model with 35B total and 3B active parameters. The report gives 73.6 on SWE-bench Verified. It also gives 680 tokens/s on one NVIDIA GB300 at BF16 and batch size one. These numbers come from the authors' internal workloads.",
+     "why": "A diffusion LLM with 3B active parameters targets fast single-stream inference on NVIDIA GB300.",
+     "topics": [
+      "Architecture",
+      "NVIDIA",
+      "AI research"
+     ],
+     "source": "Hugging Face Papers",
+     "url": "https://huggingface.co/papers/2611.24636",
+     "date": "2026-11-23"
+    },
+    {
+     "title": "cmHC stabilizes hyper-connections and cuts latency 44.8% on Ascend NPUs",
+     "body": "Haowei He and co-authors constrain residual stream mixing to the Birkhoff polytope through geometric contraction. This improves stability and scalability of hyper-connections in large-scale pretraining. Fused Ascend NPU operators cut hyper-connection latency by up to 44.8%. The paper had 36 upvotes on Hugging Face.",
+     "why": "A residual-stream method that scales in large pretraining and ships with fused kernels for Ascend NPUs.",
+     "topics": [
+      "Architecture",
+      "AI research"
+     ],
+     "source": "Hugging Face Papers",
+     "url": "https://huggingface.co/papers/2611.27193",
+     "date": "2026-11-23"
+    },
+    {
+     "title": "NoPeWorld cuts physics violations in video world models from 74% to 16%",
+     "body": "Yuhang Dai and co-authors add a lightweight head to frozen diffusion-transformer hidden states. Across six video world models, the physical violation rate fell from 74% to 16%. The paper also introduces the NoPeBench benchmark.",
+     "why": "A small head on frozen diffusion transformers improves physical consistency without retraining the model.",
+     "topics": [
+      "AI research",
+      "Architecture"
+     ],
+     "source": "Hugging Face Papers",
+     "url": "https://huggingface.co/papers/2611.27963",
+     "date": "2026-11-23"
+    }
+   ]
+  },
+  "ecosystem": {
+   "routine": "ecosystem",
+   "status": "done",
+   "headline": "Anthropic's official plugin repository leads active Claude Code ecosystem repos at 48,067 stars.",
+   "filed": "2026-11-24T02:17:29Z",
+   "note": "Star counts are a snapshot from Nov 24. Growth rates were not available.",
+   "items": [
+    {
+     "title": "anthropics/claude-plugins-official: Anthropic-managed plugin directory",
+     "body": "This is the Anthropic-managed plugin repository. It had 48,067 stars and a push on Nov 24. It was created Nov 20, 2025.",
+     "why": "Official source for Claude Code plugins, with active pushes.",
+     "topics": [
+      "Plugins",
+      "Claude Code"
+     ],
+     "source": "GitHub · 48,067 stars",
+     "url": "https://github.com/anthropics/claude-plugins-official",
+     "date": "2026-11-23"
+    },
+    {
+     "title": "context-mode keeps tool output out of the Claude Code context window",
+     "body": "Plugin by mksglu that stops large tool output from filling the context window. It had 34,424 stars. Last push: Nov 23. Created Feb 23, 2026.",
+     "why": "Cuts context use in long agent sessions.",
+     "topics": [
+      "Plugins",
+      "Claude Code"
+     ],
+     "source": "GitHub · 34,424 stars",
+     "url": "https://github.com/mksglu/context-mode",
+     "date": "2026-11-23"
+    },
+    {
+     "title": "claude-hud shows context use, tools, agents and todos",
+     "body": "Plugin by jarrodwatts that displays context usage, running tools, subagents and todo items. It had about 29,291 stars. Last push: Nov 23.",
+     "why": "A statusline-style view of what Claude Code is doing.",
+     "topics": [
+      "Plugins",
+      "Claude Code",
+      "Setups"
+     ],
+     "source": "GitHub · ~29,291 stars",
+     "url": "https://github.com/jarrodwatts/claude-hud",
+     "date": "2026-11-23"
+    },
+    {
+     "title": "destructive_command_guard blocks destructive shell and git commands",
+     "body": "Hook by Dicklesworthstone that blocks destructive shell and git commands before they run. It had 6,378 stars. Last push: Nov 23. Created Jan 7, 2026.",
+     "why": "A Rust hook that stops dangerous commands before the agent runs them.",
+     "topics": [
+      "Hooks",
+      "Claude Code"
+     ],
+     "source": "GitHub · 6,378 stars",
+     "url": "https://github.com/Dicklesworthstone/destructive_command_guard",
+     "date": "2026-11-23"
+    },
+    {
+     "title": "failproofai adds observability and policy enforcement for agent harnesses",
+     "body": "FailproofAI built failproofai for observability and policy enforcement around agent harnesses such as Claude Code. It had 10,136 stars. Last push: Nov 23. Created Apr 6, 2026.",
+     "why": "Gives teams policy checks and traces for coding agents.",
+     "topics": [
+      "Hooks",
+      "Claude Code",
+      "Agent SDK"
+     ],
+     "source": "GitHub · 10,136 stars",
+     "url": "https://github.com/FailproofAI/failproofai",
+     "date": "2026-11-23"
+    },
+    {
+     "title": "MROffice: open-source office suite with an MCP server",
+     "body": "XinaTian's MROffice is an AGPL-3.0 office suite with an MCP server for Claude and other clients. It was created Nov 10, 2026 and had 2,876 stars in two weeks. Last push: Nov 23.",
+     "why": "Lets Claude and other agents work with office documents through MCP.",
+     "topics": [
+      "MCP"
+     ],
+     "source": "GitHub · 2,876 stars",
+     "url": "https://github.com/XinaTian/MROffice",
+     "date": "2026-11-23"
+    }
+   ]
+  },
+  "x-desk": {
+   "routine": "x-desk",
+   "status": "done",
+   "headline": "Anthropic puts zero data retention with Enterprise Frontier Safeguards into public beta.",
+   "filed": "2026-11-24T02:17:29Z",
+   "note": "Read 26 posts across 3 searches; 4 passed the filter. OpenAI OpenWorks post (6,835 score) was dropped as a program notice.",
+   "items": [
+    {
+     "title": "OpenAI proposes perplexity as a shared metric for pacing AI progress",
+     "body": "swyx relayed an OpenAI proposal to use perplexity as the universal metric for industry self-regulation and pacing, in place of FLOPS. The quoted reasoning says new capabilities mainly emerge from progress in compression. This is a proposal, not a finished standard.",
+     "why": "A policy-style proposal to measure capability growth by compression, not by FLOPS.",
+     "topics": [
+      "OpenAI",
+      "AI research"
+     ],
+     "source": "X · @swyx · 160 likes · 4 reposts",
+     "url": "https://x.com/swyx/status/2124583459356373052",
+     "date": "2026-11-23"
+    }
+   ]
+  },
+  "gadgets": {
+   "routine": "gadgets",
+   "status": "done",
+   "headline": "Honor launches the Honor 700 and 700 Pro in China with 9,000 mAh batteries from CNY 3,999.",
+   "filed": "2026-11-24T02:20:23Z",
+   "note": "Gizmochina and TrueUp could not be fetched. No Apple, Google, Samsung or Amazon launch was found for 22-24 November.",
+   "items": [
+    {
+     "title": "Honor 700 and 700 Pro launch in China with 9,000mAh batteries",
+     "body": "Honor launched the Honor 700 (Snapdragon 8s Gen 4) and Honor 700 Pro (Snapdragon 8 Gen 5) in China. Both have a 6.57-inch 120Hz AMOLED, a 1.59-inch rear display, a 200MP main camera, a 50MP 3.5x periscope, 80W wired charging and MagicOS 11 on Android 17. The Pro adds 50W wireless charging. Price with 12GB and 256GB: CNY 3,999 and CNY 4,599. Sale date, global and India availability: not stated.",
+     "why": "They pair a 9,000 mAh battery with IP69K ratings and a rear status display.",
+     "topics": [
+      "Phones"
+     ],
+     "source": "Notebookcheck",
+     "url": "https://www.notebookcheck.net/Honor-officially-launches-9-000mAh-phones-with-dual-displays-and-Snapdragon-8-series-chipsets.1457668.0.html",
+     "date": "2026-11-23"
+    },
+    {
+     "title": "Nothing previews Ear (note) earbuds with AI recording, launch set for Dec 8",
+     "body": "Bloomberg reported that Carl Pei demonstrated Nothing Ear (note) before a planned launch on 8 December 2026. The case has a microphone and a Talk button. Recordings, transcripts and AI summaries are managed in an app, and the earbuds support several AI agents. Nothing has set no price. This is a preview, not a sale.",
+     "why": "The case holds a microphone for recording and AI transcription, which is new for earbuds.",
+     "topics": [
+      "Audio",
+      "AI gadgets"
+     ],
+     "source": "Unite.AI, citing Bloomberg",
+     "url": "https://www.unite.ai/nothing-previews-ear-note-earbuds-with-ai-recording-and-transcription/",
+     "date": "2026-11-23"
+    }
+   ]
+  },
+  "tech-pulse": {
+   "routine": "tech-pulse",
+   "status": "done",
+   "headline": "Z.ai releases GLM-5.4, its first loop transformer for coding, and 954 Hacker News points follow.",
+   "filed": "2026-11-24T02:20:23Z",
+   "note": "Reddit top posts were read through Composio. r/devops had no technical launch. WebFetch could not read the GLM-5.4 article body.",
+   "items": [
+    {
+     "title": "Guide runs Inkling 2 Mini and Qwen3.8-27B locally with Unsloth Desktop",
+     "body": "The guide uses an RTX 5090 with 32 GB VRAM and Unsloth Desktop, a free open-source app for GGUF and MLX models. It runs Qwen3.8-27B at UD-Q4_K_XL, about 18 GB. It states that Thinking Machines Lab released Inkling 2 Mini on 17 November: 26.4B parameters, 5.4B active (MoE), Apache 2.0, vision, 1M-token context, 17.6 GB file. LAN sharing is set in Settings, Remote & LAN.",
+     "why": "The guide gives exact sizes and steps for a private LLM server on one consumer GPU.",
+     "topics": [
+      "Open models",
+      "AI tools"
+     ],
+     "source": "Hacker News · 724 points · 291 comments",
+     "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
+     "date": "2026-11-23"
+    },
+    {
+     "title": "NariQ shrinks Qwen3.8-27B to 10 GB with near-BF16 scores",
+     "body": "Nari Labs released NariQ v1 GGUF files of Qwen3.8-27B at 3, 2.5 and 2 bits per weight. The 3-bit file is 10.12 GB, against 53.8 GB for BF16. The model card reports DeepSWE 41.0 for 3-bit and 39.8 for BF16. The files need the Nari Labs llama.cpp fork. Stock llama.cpp, Ollama and LM Studio cannot load them yet. Licence: Apache-2.0.",
+     "why": "Smaller files let a 27B coding model run on one consumer GPU.",
+     "topics": [
+      "Open models",
+      "AI tools"
+     ],
+     "source": "r/LocalLLaMA · 161 upvotes",
+     "url": "https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF",
+     "date": "2026-11-23"
+    },
+    {
+     "title": "Paper: an open 27B model rewrites its own weights without training",
+     "body": "The arXiv paper says an open 27B model rewrites its own weights with no gradients. It gains 6.6 points on unseen problems and improves over eight consecutive sessions. It also repairs a damaged copy to over 80% of original accuracy on unseen image tasks. Smaller models in the same family do not improve. The abstract names no benchmark.",
+     "why": "If the result holds, a model could improve itself between sessions without gradient training.",
+     "topics": [
+      "AI research",
+      "Open models"
+     ],
+     "source": "r/LocalLLaMA · 185 upvotes",
+     "url": "https://arxiv.org/abs/2611.21885",
+     "date": "2026-11-23"
+    },
+    {
+     "title": "Docker rebrands around trust and isolation for AI agents",
+     "body": "Docker's CMO announced a new brand on 19 November. The post says agents are actors, not workloads, so they need dedicated isolation and governance. It names Docker Sandboxes for coding agents, Docker AI Governance, MCP Enterprise Gateway and Hardened Images. The post gives no pricing.",
+     "why": "It lists Docker products for sandboxing and governing coding agents.",
+     "topics": [
+      "DevOps",
+      "Agents",
+      "Security"
+     ],
+     "source": "Hacker News · 117 points · 197 comments",
+     "url": "https://www.docker.com/blog/meet-the-new-docker-built-to-run-on-trust/",
+     "date": "2026-11-23"
+    }
+   ]
+  }
+ },
+ "briefing": "Good morning. This is The Nexos Daily for Tuesday, 24 November 2026.\n\nAnthropic launched Claude Ship in beta. Claude Ship reviews GitHub pull requests, fixes the problems that it finds and can approve the change. It is for Claude Team and Enterprise organizations on GitHub. It combines Code Review with automatic fixes.\n\nIn security, Anthropic moved Enterprise Frontier Safeguards to public beta. The safeguards look for misuse across many requests, and they still work with zero data retention. Teams that need zero data retention can now use them. Docker also changed its brand to focus on trust and isolation for AI agents. Docker says agents are actors, not workloads, so each agent needs its own isolation.\n\nIn the Claude ecosystem, Anthropic's official plugin directory has about 48 thousand stars. The claude-hud plugin shows context use, running tools, subagents and todo items. The failproofai project adds observability and policy enforcement around agent harnesses. MROffice is an open-source office suite with an MCP server for Claude.\n\nIn models, Z.AI released GLM 5.4, its first loop transformer for coding. It drew more than 950 points on Hacker News. Google DeepMind used teams of Gemini 4 agents to design quantum circuits that cut simulation cost by up to 10 times. The Gemini API added file slicing controls. A guide shows how to run Inkling 2 Mini and Qwen 3.8 27B on one RTX 5090 with Unsloth Desktop. Nari Labs shrank Qwen 3.8 27B to about 10 gigabytes with scores close to full precision.\n\nIn chips, Amazon will acquire the Decart optimization stack and its team to speed up Trainium and Inferentia. Reports put the price at about 7.5 billion dollars. Amazon did not confirm the terms. A new diffusion language model, Clover 35B, reports 680 tokens per second on one GB300. A paper on hyper-connections cuts latency by 44.8 percent on Ascend NPUs. Another method cuts physics errors in video world models from 74 to 16 percent.\n\nThere were no new AWS launches in the last 48 hours.\n\nThere were no new tech layoffs in the last 48 hours.\n\nIn gadgets, Honor launched the Honor 700 and 700 Pro in China with 9,000 milliamp-hour batteries.\n\nOn GitHub, the fastest new repo today is a user interview skill, with 119 stars in less than one day.\n\nThat is the news for today."
+}

@@ -1,0 +1,309 @@
+{
+ "date": "2026-11-24",
+ "generated": "2026-11-24T02:51:25Z",
+ "headline": "uxpilot-ai/user-interview-skill is the fastest new repo today with 119 stars in under one day.",
+ "periods": {
+  "daily": {
+   "topics": [
+    "Agent skills",
+    "Coding agents in sandboxes",
+    "Agent-driven code rewrite",
+    "Security scanning"
+   ],
+   "repos": [
+    {
+     "repo": "uxpilot-ai/user-interview-skill",
+     "url": "https://github.com/uxpilot-ai/user-interview-skill",
+     "description": "Agent skill that writes neutral user interview guides for Claude Code, Codex and Cursor.",
+     "kind": "Skill",
+     "language": "",
+     "stars": 119,
+     "gained": null,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "MaryCache/tsuzuri",
+     "url": "https://github.com/MaryCache/tsuzuri",
+     "description": "Agent skill and viewer app to write and review Japanese prose sentence by sentence.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 89,
+     "gained": null,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "EL4CTEO/shrink-anything",
+     "url": "https://github.com/EL4CTEO/shrink-anything",
+     "description": "Deletes dead code, files, dependencies and assets, and keeps each cut only if tests pass.",
+     "kind": "Dev tool",
+     "language": "Rust",
+     "stars": 43,
+     "gained": null,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "mbzuai-oryx/LoopedWSP",
+     "url": "https://github.com/mbzuai-oryx/LoopedWSP",
+     "description": "Research code where an LLM writes transformer weights for long algorithmic reasoning.",
+     "kind": "Other",
+     "language": "Python",
+     "stars": 22,
+     "gained": null,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "fazxes/fxs",
+     "url": "https://github.com/fazxes/fxs",
+     "description": "Runs persistent coding agents (claude, codex, opencode) in Vercel Sandboxes.",
+     "kind": "Coding agent",
+     "language": "Python",
+     "stars": 21,
+     "gained": null,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "CybeDefend/cybedefend",
+     "url": "https://github.com/CybeDefend/cybedefend",
+     "description": "Open-source agentic security scanner with a full audit in one command.",
+     "kind": "Dev tool",
+     "language": "TypeScript",
+     "stars": 12,
+     "gained": null,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "uxpilot-ai/agent-skills",
+     "url": "https://github.com/uxpilot-ai/agent-skills",
+     "description": "Free agent skills by UX Pilot for Claude Code, Codex and Cursor.",
+     "kind": "Skill",
+     "language": "",
+     "stars": 9,
+     "gained": null,
+     "source": "GitHub search"
+    }
+   ]
+  },
+  "weekly": {
+   "topics": [
+    "Agent skills",
+    "Agent-driven rewrite tools",
+    "Agent security",
+    "MCP plugins",
+    "Local agent teams"
+   ],
+   "repos": [
+    {
+     "repo": "EL4CTEO/fast-anything",
+     "url": "https://github.com/EL4CTEO/fast-anything",
+     "description": "Profiles Python, Node or Ruby apps and ports the slow 5% to Rust with a coding agent.",
+     "kind": "Dev tool",
+     "language": "Rust",
+     "stars": 3169,
+     "gained": null,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "INK-Q/agy-fast",
+     "url": "https://github.com/INK-Q/agy-fast",
+     "description": "MCP plugin for Google Antigravity that cuts LLM turns and token use.",
+     "kind": "Plugin",
+     "language": "TypeScript",
+     "stars": 795,
+     "gained": null,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "danielwh2/sprite-stacking",
+     "url": "https://github.com/danielwh2/sprite-stacking",
+     "description": "Agent skill that turns four pixel art views into a spinning fake-3D sprite.",
+     "kind": "Skill",
+     "language": "HTML",
+     "stars": 667,
+     "gained": null,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "ThreatDefence/agentic-attack-detections",
+     "url": "https://github.com/ThreatDefence/agentic-attack-detections",
+     "description": "Detection rules and IOCs for AI agent attack frameworks.",
+     "kind": "Other",
+     "language": "Python",
+     "stars": 566,
+     "gained": null,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "sybil-solutions/skill-distill",
+     "url": "https://github.com/sybil-solutions/skill-distill",
+     "description": "Turns a good Claude Code or Codex session into a skill an open-weight model can follow.",
+     "kind": "Skill",
+     "language": "Python",
+     "stars": 521,
+     "gained": null,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "w01fb0ss/PiBot",
+     "url": "https://github.com/w01fb0ss/PiBot",
+     "description": "Local-first AI agent team for desktop with group chats, browser, MCP and approvals.",
+     "kind": "Agent framework",
+     "language": "TypeScript",
+     "stars": 507,
+     "gained": null,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "erkamyaman/safe-anything",
+     "url": "https://github.com/erkamyaman/safe-anything",
+     "description": "Rust vulnerability scanner for XSS, SQL injection, secrets, CVEs and AI agent setups.",
+     "kind": "Dev tool",
+     "language": "Rust",
+     "stars": 505,
+     "gained": null,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "xikhar/papercraft",
+     "url": "https://github.com/xikhar/papercraft",
+     "description": "Agent skill to build games and web pages in a pop-up papercraft style.",
+     "kind": "Skill",
+     "language": "JavaScript",
+     "stars": 462,
+     "gained": null,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "JimLiu/open-artifact",
+     "url": "https://github.com/JimLiu/open-artifact",
+     "description": "Open artifacts for slides, designs, sheets and docs, saved as local files.",
+     "kind": "Dev tool",
+     "language": "TypeScript",
+     "stars": 438,
+     "gained": null,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "lukendeasy/open-diagram",
+     "url": "https://github.com/lukendeasy/open-diagram",
+     "description": "Python building blocks for dense architecture diagrams that check their own layout.",
+     "kind": "Dev tool",
+     "language": "Python",
+     "stars": 355,
+     "gained": null,
+     "source": "GitHub search"
+    }
+   ]
+  },
+  "monthly": {
+   "topics": [
+    "Agent skills",
+    "Coding agents",
+    "Agent frameworks",
+    "MCP servers",
+    "AI infrastructure"
+   ],
+   "repos": [
+    {
+     "repo": "deepseek-ai/dsh-superagent-prototype",
+     "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+     "description": "DeepSeek research prototype of a proactive coding agent that works from GitHub requests.",
+     "kind": "Coding agent",
+     "language": "TypeScript",
+     "stars": 24374,
+     "gained": null,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "heydamir/unslop",
+     "url": "https://github.com/heydamir/unslop",
+     "description": "Claude skill that turns AI-looking UI into a designed interface.",
+     "kind": "Skill",
+     "language": "JavaScript",
+     "stars": 20871,
+     "gained": null,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "janestreet/agent_skills",
+     "url": "https://github.com/janestreet/agent_skills",
+     "description": "Collection of agent skills from Jane Street.",
+     "kind": "Skill",
+     "language": "",
+     "stars": 11395,
+     "gained": null,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "wangzan101/Mika",
+     "url": "https://github.com/wangzan101/Mika",
+     "description": "On-device AI agent for Android that operates apps and the web.",
+     "kind": "Agent framework",
+     "language": "Kotlin",
+     "stars": 9781,
+     "gained": null,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "patch-gg/pixelfx",
+     "url": "https://github.com/patch-gg/pixelfx",
+     "description": "244 pixel art effects plus a Claude Code skill to make more.",
+     "kind": "Skill",
+     "language": "JavaScript",
+     "stars": 8902,
+     "gained": null,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "erkamyaman/rust-anything",
+     "url": "https://github.com/erkamyaman/rust-anything",
+     "description": "Rewrites an app in Rust piece by piece, checked against recorded behavior.",
+     "kind": "Dev tool",
+     "language": "Rust",
+     "stars": 8765,
+     "gained": null,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "Lee-xeo/Claude-Cage",
+     "url": "https://github.com/Lee-xeo/Claude-Cage",
+     "description": "Lightweight virtual machine for Claude that blocks network leaks.",
+     "kind": "AI infra",
+     "language": "Go",
+     "stars": 8067,
+     "gained": null,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "mdiri-ai/SoduWork",
+     "url": "https://github.com/mdiri-ai/SoduWork",
+     "description": "Self-hosted multi-agent engine for teams and their agents.",
+     "kind": "Agent framework",
+     "language": "JavaScript",
+     "stars": 7062,
+     "gained": null,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "vercel-labs/ui",
+     "url": "https://github.com/vercel-labs/ui",
+     "description": "Library of behaviors for agents to build user interfaces.",
+     "kind": "Agent framework",
+     "language": "TypeScript",
+     "stars": 6841,
+     "gained": null,
+     "source": "GitHub search"
+    },
+    {
+     "repo": "qybaihe/bla",
+     "url": "https://github.com/qybaihe/bla",
+     "description": "MCP server and CLI that protects code and binaries from blind LLM agents.",
+     "kind": "MCP server",
+     "language": "TypeScript",
+     "stars": 6591,
+     "gained": null,
+     "source": "GitHub search"
+    }
+   ]
+  }
+ }
+}
