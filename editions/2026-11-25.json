@@ -1,0 +1,425 @@
+{
+ "date": "2026-11-25",
+ "generated": "2026-11-25T02:51:04Z",
+ "sections": {
+  "tech-news": {
+   "routine": "tech-news",
+   "status": "done",
+   "headline": "Anthropic merges connectors and skills into plugins, with 10,000+ plugins live on Free, Pro, Max and Ultra.",
+   "filed": "2026-11-25T02:35:00Z",
+   "note": "No new model from a major lab was found in the window. Google and Qwen pages showed no dated items, so this is not proof of none.",
+   "items": [
+    {
+     "title": "Anthropic merges Claude connectors and skills into plugins",
+     "body": "Claude connectors and skills now come together as plugins. Plugins are live on Free, Pro, Max and Ultra plans. Team and Enterprise plans follow soon. Anthropic lists more than 10,000 plugins in its directory.",
+     "why": "Teams now install tools and the skills that teach Claude to use them in one step.",
+     "topics": [
+      "Claude",
+      "Skills",
+      "MCP"
+     ],
+     "source": "X · @claudeai",
+     "url": "https://x.com/claudeai/status/2124970294523945328",
+     "date": "2026-11-23",
+     "also": [
+      {
+       "section": "Claude Ecosystem",
+       "source": "X · @claudeai · 9372 likes",
+       "url": "https://x.com/claudeai/status/2124970294523945328"
+      },
+      {
+       "section": "Trending on X",
+       "source": "X · @claudeai · 9372 likes · 568 reposts",
+       "url": "https://x.com/claudeai/status/2124970294523945328"
+      }
+     ]
+    },
+    {
+     "title": "Anthropic launches Claude Ship in beta for Team and Enterprise",
+     "body": "Claude Ship is in beta for Team and Enterprise plans. Boris Cherny of the Claude Code team says Opus 4.5 launched a year ago as the first model to write 100% of his code, but shipping PRs has not kept pace. A Reddit thread describes Claude Ship as code review, PR handling and approvals built into Claude Code.",
+     "why": "It targets the gap between AI-written code and shipped pull requests.",
+     "topics": [
+      "Claude Code",
+      "Claude"
+     ],
+     "source": "X · @bcherny",
+     "url": "https://x.com/bcherny/status/2124961485801836573",
+     "date": "2026-11-23",
+     "also": [
+      {
+       "section": "Trending on X",
+       "source": "X · @bcherny · 7676 likes · 245 reposts",
+       "url": "https://x.com/bcherny/status/2124961485801836573"
+      },
+      {
+       "section": "Pulse",
+       "source": "r/ClaudeAI · 361 upvotes · 56 comments",
+       "url": "https://www.reddit.com/r/ClaudeAI/comments/1y44lsn/claude_ai_introduced_claude_ship_code_review_the/"
+      }
+     ]
+    },
+    {
+     "title": "Claude Code v2.1.331 adds Code Mode on Bedrock and other clouds",
+     "body": "Claude Code v2.1.331 adds Code Mode in terminal sessions on Amazon Bedrock, Google Cloud's Agent Platform, Microsoft Foundry and Claude Platform on AWS. It adds the CLAUDE_CODE_DISABLE_RESPONSE_COMPRESSION setting and an API connectivity section in claude doctor. The changelog says a release on or after Nov 30, 2026 will auto-update plugin marketplaces in managed extraKnownMarketplaces by default.",
+     "why": "AWS teams on Bedrock get Code Mode in terminal sessions.",
+     "topics": [
+      "Claude Code",
+      "Bedrock",
+      "DevOps"
+     ],
+     "source": "GitHub · anthropics/claude-code releases",
+     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.331",
+     "date": "2026-11-23"
+    },
+    {
+     "title": "MCP servers can now ship their own skills to Claude Code",
+     "body": "Boris Cherny announced that MCP servers can ship with their own skills. Claude Code then knows how to use the server out of the box. The post had about 4,500 likes within hours.",
+     "why": "An MCP server can now carry usage instructions, so agents call its tools correctly without manual setup.",
+     "topics": [
+      "MCP",
+      "Skills",
+      "Claude Code"
+     ],
+     "source": "X · @bcherny",
+     "url": "https://x.com/bcherny/status/2125292098165612585",
+     "date": "2026-11-24",
+     "also": [
+      {
+       "section": "Claude Ecosystem",
+       "source": "X · @bcherny · 4491 likes",
+       "url": "https://x.com/bcherny/status/2125292098165612585"
+      },
+      {
+       "section": "Trending on X",
+       "source": "X · @bcherny · 4491 likes · 184 reposts",
+       "url": "https://x.com/bcherny/status/2125292098165612585"
+      }
+     ]
+    },
+    {
+     "title": "Claude Opus 4.5 deprecated; API retirement set for Jan 22, 2027",
+     "body": "The Claude Platform release notes deprecate Claude Opus 4.5 (claude-opus-4-5-20251101 and the claude-opus-4-5 alias). API retirement is Jan 22, 2027. Anthropic recommends migration to Claude Opus 5.5. The same notes launch Enterprise Frontier Safeguards in beta and fix Analytics API undercounts for web search and connector usage.",
+     "why": "Teams that call claude-opus-4-5 must plan a move to Opus 5.5 before the retirement date.",
+     "topics": [
+      "Claude",
+      "Security"
+     ],
+     "source": "Claude Platform release notes",
+     "url": "https://platform.claude.com/docs/en/release-notes/overview",
+     "date": "2026-11-23"
+    },
+    {
+     "title": "OpenAI and Cisco release Shirudo, an open-source Linux runtime for agent defense",
+     "body": "Shirudo is an open-source Linux runtime built by Cisco with OpenAI. Agents write dynamic eBPF controls that shield systems from exploits without downtime. This gives defenders more time to test and deploy patches. The announcement drew about 20,600 likes on X.",
+     "why": "Agents write eBPF controls to shield hosts from exploits while teams test and roll out patches.",
+     "topics": [
+      "Security",
+      "OpenAI",
+      "DevOps"
+     ],
+     "source": "OpenAI",
+     "url": "https://openai.com/index/introducing-shirudo/",
+     "date": "2026-11-23",
+     "also": [
+      {
+       "section": "Trending on X",
+       "source": "X · @OpenAI · 20648 likes · 2596 reposts",
+       "url": "https://x.com/OpenAI/status/2124980590717911527"
+      }
+     ]
+    },
+    {
+     "title": "OpenAI: GPT-6 Cyber validated 948 Linux kernel local-root bugs in one run",
+     "body": "OpenAI says one GPT-6 Cyber run helped validate 948 Linux kernel bugs that could grant local root access. The run also generated patches for review. Researchers Clint Gibler and Kyle (@ky1ebot) worked with maintainers to get fixes upstream.",
+     "why": "It shows agent-driven vulnerability triage at kernel scale, with patches sent upstream.",
+     "topics": [
+      "Security",
+      "OpenAI",
+      "AI research"
+     ],
+     "source": "X · @OpenAI",
+     "url": "https://x.com/OpenAI/status/2125007927098699827",
+     "date": "2026-11-23",
+     "also": [
+      {
+       "section": "Trending on X",
+       "source": "X · @OpenAI · 3400 likes · 264 reposts",
+       "url": "https://x.com/OpenAI/status/2125007927098699827"
+      }
+     ]
+    }
+   ]
+  },
+  "chips": {
+   "routine": "chips",
+   "status": "done",
+   "headline": "JEDEC previews DDR6 with 2.35x the bandwidth of top-speed DDR5 per DIMM.",
+   "filed": "2026-11-25T02:35:00Z",
+   "note": "Few primary chip sources showed dated items in the window. The DDR6 preview is from Nov 20, slightly older than 48 hours.",
+   "items": [
+    {
+     "title": "JEDEC previews DDR6: 14.4 GT/s per pin, 96-bit DIMMs",
+     "body": "JEDEC released a preview of the in-development DDR6 standard. Data rate starts at 12.8 GT/s and rises to 14.4 GT/s and higher, against 9.2 GT/s for DDR5. The DIMM widens from 64 to 96 bits, so a DDR6-14400 DIMM gives 172.8 GB/s, 2.35x a DDR5-9200 DIMM. DIMMs are about 44% narrower, and maximum die density rises from 64 Gbit to 128 Gbit. No final spec or ship date exists yet.",
+     "why": "Memory bandwidth limits many AI servers, and DDR6 sets the next host-memory step.",
+     "topics": [
+      "Chips",
+      "Data centers",
+      "Architecture"
+     ],
+     "source": "ServeTheHome · Ryan Smith",
+     "url": "https://www.servethehome.com/jedec-previews-ddr6-memory-standard-2-35x-more-bandwidth-44-narrower-dimms/",
+     "date": "2026-11-20"
+    },
+    {
+     "title": "WeightCode installs new skills into trained networks without gradient training",
+     "body": "Peking University researchers (Bo Li, Ling Yang and others) propose Weight-Space Programming. A frozen language model writes weight programs that install new computations into a trained network. Command composition exact match rises from 0% to 99.8%. On ImageNet, four weight programs add 8.84 to 17.62 points and beat the best of eight fine-tuning methods under matched constraints. Code is on GitHub at Gen-Verse/WeightCode.",
+     "why": "It offers an alternative to fine-tuning that adds a capability and keeps older ones.",
+     "topics": [
+      "AI research",
+      "Architecture"
+     ],
+     "source": "Hugging Face Papers · arXiv 2611.25476",
+     "url": "https://arxiv.org/abs/2611.25476",
+     "date": "2026-11-24"
+    },
+    {
+     "title": "Phoronix: AMD EPYC Zen 6 reaches 12.1x Zen 1 geometric-mean performance",
+     "body": "Phoronix compares an AMD EPYC 9006 (Zen 6) system with an EPYC 7601 (Zen 1). The review title reports a 12.1x geometric mean uplift in less than ten years. It ranked on the Hacker News front page with 215 points. The review page could not be opened in this run, so only the headline figure is confirmed.",
+     "why": "It quantifies a decade of AMD server CPU gains, relevant to AI host-CPU sizing.",
+     "topics": [
+      "AMD",
+      "Chips",
+      "Data centers"
+     ],
+     "source": "Phoronix via Hacker News",
+     "url": "https://www.phoronix.com/review/amd-epyc-9006-7601",
+     "date": "2026-11-24"
+    }
+   ]
+  },
+  "ecosystem": {
+   "routine": "ecosystem",
+   "status": "done",
+   "headline": "Anthropic unifies Claude connectors and skills as plugins, and MCP servers can now ship skills.",
+   "filed": "2026-11-25T02:35:00Z",
+   "note": "GitHub star counts are totals as of this run. Day-over-day growth was not measured.",
+   "items": [
+    {
+     "title": "anthropics/claude-plugins-official: Anthropic's plugin directory passes 48,000 stars",
+     "body": "The repository is the official, Anthropic-managed directory of Claude Code plugins. GitHub shows 48,128 stars and recent pushes within the last week. It was created Nov 20, 2025.",
+     "why": "It is the official source for vetted Claude Code plugins.",
+     "topics": [
+      "Plugins",
+      "Claude Code"
+     ],
+     "source": "GitHub · anthropics · 48,128 stars",
+     "url": "https://github.com/anthropics/claude-plugins-official",
+     "date": "2026-11-24"
+    },
+    {
+     "title": "destructive_command_guard: Rust hook blocks destructive shell and git commands",
+     "body": "Dicklesworthstone's destructive_command_guard is a fast Rust safety hook. It blocks destructive shell, git and filesystem commands before an AI coding agent runs them. The repository has 6,379 stars and was updated this week.",
+     "why": "A pre-tool hook stops an agent from running rm -rf or force-push by mistake.",
+     "topics": [
+      "Hooks",
+      "Claude Code"
+     ],
+     "source": "GitHub · Dicklesworthstone · 6,379 stars",
+     "url": "https://github.com/Dicklesworthstone/destructive_command_guard",
+     "date": "2026-11-24"
+    },
+    {
+     "title": "Steelthread: Claude Code plugin builds one feature at a time, end to end",
+     "body": "Steelthread is a free, MIT-licensed Claude Code plugin. It makes Claude build one feature at a time from schema through permissions, UI and tests. Each feature is reviewed and verified before the next starts. The author posted it on X on Nov 23.",
+     "why": "It enforces review and verification per feature in the order schema, permissions, UI, tests.",
+     "topics": [
+      "Plugins",
+      "Claude Code"
+     ],
+     "source": "X · @snehaltaydeonx · 13 likes",
+     "url": "https://x.com/snehaltaydeonx/status/2124981984116310285",
+     "date": "2026-11-23"
+    },
+    {
+     "title": "r/ClaudeAI: Notion's official MCP still injects Business upsells into output",
+     "body": "A top-day r/ClaudeAI post (295 score, 27 comments) says Notion's official MCP still injects hidden Business-plan upsells into responses. The poster says this continues three months after the issue was first raised. This is a user report and Notion has not confirmed it in the sources read.",
+     "why": "MCP tool output can carry hidden promotional text, which reaches the model as context.",
+     "topics": [
+      "MCP",
+      "Claude Code"
+     ],
+     "source": "Reddit · r/ClaudeAI · 295 upvotes",
+     "url": "https://reddit.com/r/ClaudeAI/comments/1y4pxfl/",
+     "date": "2026-11-24"
+    }
+   ]
+  },
+  "x-desk": {
+   "routine": "x-desk",
+   "status": "done",
+   "headline": "OpenAI and Cisco's open-source Shirudo runtime led X with about 20,600 likes.",
+   "filed": "2026-11-25T02:35:00Z",
+   "note": "Read 40 posts in three public searches; 6 passed the filter.",
+   "items": [
+    {
+     "title": "Gemini 4 Neon rolls out to Google Workspace in the Gemini app",
+     "body": "Logan Kilpatrick says Gemini 4 Neon now reaches Google Workspace customers through the Gemini app. Google DeepMind also showed the model rebuilding Alan Turing's Cambridge study room in interactive 3D.",
+     "why": "Workspace customers get Google's new model inside daily tools.",
+     "topics": [
+      "Gemini",
+      "AI tools"
+     ],
+     "source": "X · @OfficialLoganK · 3270 likes · 96 reposts",
+     "url": "https://x.com/OfficialLoganK/status/2125018427790344654",
+     "date": "2026-11-24"
+    }
+   ]
+  },
+  "tech-pulse": {
+   "routine": "tech-pulse",
+   "status": "done",
+   "headline": "Claude Ship adds code review, PR and approvals inside Claude Code, and a LocalLLaMA post shows 1M-token memory cut from 130 TB to 890 MB.",
+   "filed": "2026-11-25T02:20:26Z",
+   "note": "Hacker News and Reddit were read through listings only. Bodies state what the post titles and counts show. GitHub Trending had no usable owner and repo names, so it was not used.",
+   "items": [
+    {
+     "title": "LocalLLaMA: memory for 1M tokens shrinks from 130 TB to 890 MB",
+     "body": "A r/LocalLLaMA post shows a chart of 1M-token memory use falling from 130 TB to 890 MB. It was the top post of the day in that subreddit. The post gives the figures as an image. Check the original paper or code before you use the numbers.",
+     "why": "Lower memory for long context makes large context windows possible on smaller hardware.",
+     "topics": [
+      "AI research",
+      "Open models"
+     ],
+     "source": "r/LocalLLaMA · 600 upvotes · 64 comments",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1y4kikk/how_the_memory_for_1m_tokens_shrank_from_130tb_to/",
+     "date": "2026-11-24"
+    },
+    {
+     "title": "Claude turns generated artifacts into standalone desktop apps",
+     "body": "A r/ClaudeAI post reports a new Claude feature. It lets users turn AI-generated artifacts into standalone desktop apps on Mac and Windows. The post is a screenshot of a news item.",
+     "why": "Users can run Claude-made tools as local apps on Mac and Windows.",
+     "topics": [
+      "Claude",
+      "AI tools"
+     ],
+     "source": "r/ClaudeAI · 266 upvotes · 60 comments",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1y4s3m3/",
+     "date": "2026-11-24"
+    },
+    {
+     "title": "Active intrusion campaign targets Check Point security management servers",
+     "body": "GreyNoise published a report on an active intrusion campaign against Check Point security management servers. The post reached the Hacker News front page. Read the GreyNoise report for indicators and affected versions.",
+     "why": "Teams that run Check Point management servers must check for compromise.",
+     "topics": [
+      "Security"
+     ],
+     "source": "Hacker News · 236 points · 96 comments",
+     "url": "https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign",
+     "date": "2026-11-24"
+    },
+    {
+     "title": "Baidu publishes ERNIE-5.5-Flash-Preview on Hugging Face",
+     "body": "Baidu released ERNIE-5.5-Flash-Preview on Hugging Face. Two r/LocalLLaMA threads discuss it. The listing gives no benchmark detail. Read the model card for size, license and context length.",
+     "why": "It is a new model preview that local-model users can test.",
+     "topics": [
+      "Open models"
+     ],
+     "source": "r/LocalLLaMA · 176 upvotes · 73 comments",
+     "url": "https://huggingface.co/baidu/ERNIE-5.5-Flash-Preview",
+     "date": "2026-11-24"
+    }
+   ]
+  },
+  "aws-news": {
+   "routine": "aws-news",
+   "status": "done",
+   "headline": "AWS WAF now finds and protects LLM, MCP and A2A endpoints with Bedrock Guardrails.",
+   "filed": "2026-11-25T02:20:26Z",
+   "note": "Nov 24 items were not seen in the feed. The AWS GitHub check found no new repo above the star limits.",
+   "items": [
+    {
+     "title": "AWS WAF finds and protects LLM, MCP and A2A endpoints",
+     "body": "AWS WAF now discovers LLM, MCP and A2A endpoints through the API Gateway API Portal. A new AI Security managed rule group inspects content with Amazon Bedrock Guardrails. It detects prompt injection, jailbreak attempts, harmful content and sensitive information. AI Security runs in seven Regions, including US East (N. Virginia) and Asia Pacific (Tokyo). Bedrock charges separately.",
+     "why": "It adds a managed rule group against prompt injection on agent endpoints.",
+     "topics": [
+      "Security",
+      "Agents"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/waf-ai-endpoint-discovery-protection/",
+     "date": "2026-11-23"
+    },
+    {
+     "title": "AgentCore runtime instances reach GovCloud (US-West)",
+     "body": "AgentCore runtime instances are generally available in AWS GovCloud (US-West). Instance types are GPU, memory-optimized and compute-optimized. Sessions last up to 14 days. Data stays in the Region. Customers pay for managed compute plus EC2 cost.",
+     "why": "Regulated teams can run agents with data kept in GovCloud.",
+     "topics": [
+      "Agents",
+      "Bedrock"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/agentcore-runtime-instances-govcloud",
+     "date": "2026-11-23"
+    },
+    {
+     "title": "AWS WAF moves to simpler pricing",
+     "body": "AWS WAF bills on three dimensions: resources protected, requests inspected and protection level. Included web ACL capacity rises from 1,500 to 2,500 WCU. The page states the new pricing starts 1 Feb 2027. The feed text says available today. The page gives no dollar amounts.",
+     "why": "Cost models for WAF change, so budgets need a check.",
+     "topics": [
+      "Cost",
+      "Security"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-waf-introduces-simplified-pricing/",
+     "date": "2026-11-23"
+    },
+    {
+     "title": "AWS Sign-In allows OAuth sessions of up to 90 days",
+     "body": "Admins can set the OAuth sign-in duration up to 90 days for each IAM user and role. It works with aws login, the AWS MCP Server and other OAuth apps. It does not change Management Console sessions. The setting is in all commercial Regions.",
+     "why": "Long CLI and MCP sessions need fewer logins, but the risk window grows.",
+     "topics": [
+      "Security",
+      "DevOps"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/configurable-aws-sign-in-duration/",
+     "date": "2026-11-23"
+    },
+    {
+     "title": "EC2 G7 metal size is generally available",
+     "body": "The G7 metal size has 8 NVIDIA RTX PRO 4500 Blackwell GPUs, 192 vCPU and 768 GiB memory. It is available only in US East (N. Virginia). Buy it On-Demand, as Spot or with Savings Plans.",
+     "why": "It gives direct access to 8 Blackwell GPUs for graphics and AI work.",
+     "topics": [
+      "Cost"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-g7-metal-size/",
+     "date": "2026-11-23"
+    },
+    {
+     "title": "SageMaker HyperPod adds observability and user extensions for Slurm",
+     "body": "Managed extensions send node, GPU, EFA, Slurm job and cluster metrics to CloudWatch or Amazon Managed Service for Prometheus. A second extension creates matching users and groups on all nodes and controls SSH and sudo access. There is no extra charge.",
+     "why": "Slurm clusters get metrics and user control without custom setup.",
+     "topics": [
+      "Agents"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/sagemaker-hyperpod-extensions/",
+     "date": "2026-11-23"
+    },
+    {
+     "title": "CloudFront is available in the AWS European Sovereign Cloud",
+     "body": "Teams can create CloudFront distributions in the AWS European Sovereign Cloud. TLS termination and logs stay inside the sovereign boundary.",
+     "why": "EU workloads can use a CDN with TLS and logs kept in the boundary.",
+     "topics": [
+      "Security"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudfront-european-sovereign-cloud",
+     "date": "2026-11-23"
+    }
+   ]
+  }
+ },
+ "briefing": "Good morning. This is The Nexos Daily for Wednesday, 25 November 2026.\n\nAnthropic merged Claude connectors and skills into plugins. More than 10,000 plugins are listed. Plugins are live on the Free, Pro, Max and Ultra plans, and Team and Enterprise will follow. MCP servers can now also ship their own skills, so Claude Code knows how to use a server as soon as you add it.\n\nIn security, OpenAI and Cisco released Shirudo, an open-source Linux runtime. In Shirudo, agents write eBPF controls that block exploits. It was the top AI post on X, with about 20,600 likes. OpenAI also says one GPT 6 Cyber run helped validate 948 Linux kernel bugs that give local root access. GreyNoise reports an active intrusion campaign against Check Point security management servers. A post on the Claude subreddit says Notion's official MCP server still adds hidden upsell text to its output.\n\nIn the Claude ecosystem, Claude Ship is in beta for Team and Enterprise plans. It reviews, fixes and approves pull requests. Claude Code version 2.1.331 adds Code Mode on Amazon Bedrock and other clouds. Claude can now turn artifacts into standalone desktop apps. Anthropic deprecated Claude Opus 4.5. The API retires it on 22 January 2027, so plan your migration.\n\nIn models, Gemini 4 Neon now reaches Google Workspace customers in the Gemini app. Baidu published ERNIE 5.5 Flash Preview on Hugging Face. A Peking University paper shows how a frozen model can write new skills into a network without gradient training.\n\nIn chips, JEDEC previewed DDR6. It reaches 14.4 gigatransfers per second per pin, about 2.35 times the bandwidth of the fastest DDR5 per module. Phoronix measured AMD EPYC Zen 6 at about 12 times the performance of Zen 1.\n\nOn AWS, AWS WAF now finds LLM, MCP and agent-to-agent endpoints and protects them with Bedrock Guardrails. WAF also moves to simpler pricing. AWS Sign-In allows OAuth sessions of up to 90 days for the AWS MCP Server and the CLI. AgentCore runtime instances reached GovCloud. The EC2 G7 metal size is available with 8 Blackwell GPUs. SageMaker HyperPod adds observability for Slurm clusters. CloudFront is now in the AWS European Sovereign Cloud.\n\nThere were no new tech layoffs and no verified gadget launches in the last 48 hours.\n\nOn GitHub, the fastest new Claude repo today is a trading skill, with 105 stars.\n\nThat is the news for today."
+}
