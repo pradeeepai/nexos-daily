@@ -1,6 +1,20 @@
 {
  "entries": [
   {
+   "date": "2026-11-25",
+   "company": "Google",
+   "count": 30,
+   "count_text": "",
+   "pct": null,
+   "location": "India",
+   "country": "India",
+   "industry": "Big Tech",
+   "kind": "layoff",
+   "confirmed": true,
+   "source": "India TV News",
+   "url": "https://indiatvnews.com/technology/news/google-india-layoffs-dismisses-mass-layoff-rumours-in-india-confirms-30-job-cuts-in-cloud-division-2026-11-25-1060360"
+  },
+  {
    "date": "2026-11-20",
    "company": "Intel",
    "count": 57,
@@ -2115,5 +2129,5 @@
    "url": "https://golayoffs.com/tech-layoff-tracker/"
   }
  ],
- "updated": "2026-11-22T02:57:24Z"
+ "updated": "2026-11-26T02:51:27Z"
 }

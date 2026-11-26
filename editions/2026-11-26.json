@@ -1,0 +1,402 @@
+{
+ "date": "2026-11-26",
+ "generated": "2026-11-26T02:51:27Z",
+ "sections": {
+  "tech-news": {
+   "routine": "tech-news",
+   "status": "done",
+   "headline": "Anthropic lets MCP servers ship skills, and Claude Code 2.1.332 adds skills from MCP servers in beta.",
+   "filed": "2026-11-26T02:30:00Z",
+   "note": "No new model from a major lab was found for 25 Nov IST. The Anthropic newsroom had no new post for the window.",
+   "items": [
+    {
+     "title": "MCP servers can now ship skills; Tasks and Elicitation reach GA",
+     "body": "Anthropic released skills over MCP in public beta for Claude and Claude Code. Tasks and Elicitation are generally available. File Uploads are listed as rolling out soon.",
+     "why": "MCP server authors can now bundle skills with their tools, which changes how teams package agent workflows.",
+     "topics": [
+      "MCP",
+      "Skills",
+      "Claude Code"
+     ],
+     "source": "Anthropic · claude.com",
+     "url": "https://claude.com/resources/articles/skills-over-mcp-tasks-and-more",
+     "date": "2026-11-24"
+    },
+    {
+     "title": "Claude Code v2.1.332 adds skills from MCP servers (beta)",
+     "body": "Claude Code v2.1.332 adds skills from MCP servers in beta and a PreSkillShellCommand hook event. It fixes the sonnet alias on Bedrock Mantle, which resolved to Haiku 4.5 and now means Sonnet 5. It also fixes a false 'Login successful' message in claude auth login and a dropped family name in --fallback-model.",
+     "why": "The release adds a new hook event and fixes a Bedrock alias bug that affects AWS teams.",
+     "topics": [
+      "Claude Code",
+      "Bedrock",
+      "Skills"
+     ],
+     "source": "GitHub · anthropics/claude-code",
+     "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.332",
+     "date": "2026-11-25",
+     "also": [
+      {
+       "section": "Claude Ecosystem",
+       "source": "GitHub · anthropics/claude-code",
+       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.332"
+      }
+     ]
+    },
+    {
+     "title": "Anthropic moves Messages API from Python to Rust using Claude agents",
+     "body": "Anthropic migrated its Messages API from Python to Rust. Teams of Claude agents compared the new service with the existing one and fixed the differences they found. Anthropic describes the method on its engineering blog. The post has 8,901 likes.",
+     "why": "It is a real case of agents checking a production service rewrite against the old service.",
+     "topics": [
+      "Claude",
+      "Agents",
+      "DevOps"
+     ],
+     "source": "X · @AnthropicAI · 8901 likes · 643 reposts",
+     "url": "https://x.com/AnthropicAI/status/2125627317263466739",
+     "date": "2026-11-25",
+     "also": [
+      {
+       "section": "Trending on X",
+       "source": "X · @AnthropicAI · 8901 likes · 643 reposts",
+       "url": "https://x.com/AnthropicAI/status/2125627317263466739"
+      }
+     ]
+    },
+    {
+     "title": "Anthropic launches Claude Ship with Code Review, PR Steward and Approvals",
+     "body": "Claude Ship is in beta for Team and Enterprise on GitHub repositories. Code Review is GA. PR Steward and Claude Approvals are in beta. The /ship command is rolling out in Claude Code and the desktop app. ZDR, HIPAA and customer-managed-key organizations are not supported.",
+     "why": "It automates pull request review and approval steps in GitHub workflows.",
+     "topics": [
+      "Claude Code",
+      "DevOps",
+      "Agents"
+     ],
+     "source": "Anthropic · claude.com",
+     "url": "https://claude.com/resources/articles/introducing-claude-ship",
+     "date": "2026-11-23"
+    },
+    {
+     "title": "Claude API retires Opus 4.5 on 22 January 2027",
+     "body": "Anthropic will retire Claude Opus 4.5 (claude-opus-4-5-20251101) on the Claude API on 22 January 2027. Anthropic recommends migration to Claude Opus 5.5. The same notes add Enterprise Frontier Safeguards in beta and external storage webhook events.",
+     "why": "Teams that call claude-opus-4-5-20251101 must migrate before the date.",
+     "topics": [
+      "Claude",
+      "Bedrock"
+     ],
+     "source": "Claude Developer Platform release notes",
+     "url": "https://docs.claude.com/en/release-notes/overview.md",
+     "date": "2026-11-23"
+    },
+    {
+     "title": "Research shows sandboxed models can communicate through shared inference servers",
+     "body": "A LessWrong post reports that models can pass information to each other through inference servers even when each model runs in a sandbox. The post reached 444 points and 190 comments on Hacker News on 25 November. Read the post for the method and its limits.",
+     "why": "Shared inference infrastructure can become a side channel between isolated agents.",
+     "topics": [
+      "Security",
+      "AI research",
+      "Agents"
+     ],
+     "source": "LessWrong via Hacker News · 444 points",
+     "url": "https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being",
+     "date": "2026-11-25",
+     "also": [
+      {
+       "section": "Pulse",
+       "source": "Hacker News · 444 points · 190 comments",
+       "url": "https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being"
+      }
+     ]
+    }
+   ]
+  },
+  "chips": {
+   "routine": "chips",
+   "status": "done",
+   "headline": "An OpenAI preprint claims the matrix multiplication exponent is 9/4, and Hacker News ranks it first with 1,014 points.",
+   "filed": "2026-11-26T02:30:00Z",
+   "note": "Little hardware news was found in the 48-hour window. NVIDIA blog and Tom's Hardware gave no items. Paper claims are not peer reviewed.",
+   "items": [
+    {
+     "title": "OpenAI preprint claims matrix multiplication exponent is nine fourths",
+     "body": "OpenAI posted a preprint dated 24 November 2026 titled 'The matrix multiplication exponent is nine fourths'. It reached 1,014 points and 561 comments on Hacker News. The result has no peer review yet. Check the proof and wait for independent verification before you rely on it.",
+     "why": "A lower exponent would change the cost model for the dense linear algebra that AI training and inference use.",
+     "topics": [
+      "AI research",
+      "Architecture"
+     ],
+     "source": "OpenAI math preprint via Hacker News · 1014 points",
+     "url": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
+     "date": "2026-11-24",
+     "also": [
+      {
+       "section": "Pulse",
+       "source": "Hacker News · 1,014 points · 561 comments",
+       "url": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf"
+      }
+     ]
+    },
+    {
+     "title": "Google Research publishes Cogentic papers on factoring and discrete logs",
+     "body": "Google Research released a set of Cogentic research papers on integer factorization, discrete logarithms and related topics. The repository reached 421 points and 318 comments on Hacker News. Read the papers for the exact claims. Rumours that a lab has solved factoring in P are unverified.",
+     "why": "Results on factoring and discrete logs matter to teams that plan cryptography for AI and cloud systems.",
+     "topics": [
+      "AI research"
+     ],
+     "source": "Google Research via Hacker News · 421 points",
+     "url": "https://github.com/google-research/google-research/tree/master/cogentic_research_papers",
+     "date": "2026-11-25",
+     "also": [
+      {
+       "section": "Pulse",
+       "source": "Hacker News · 421 points · 318 comments",
+       "url": "https://github.com/google-research/google-research/tree/master/cogentic_research_papers"
+      }
+     ]
+    },
+    {
+     "title": "Loom Attention paper studies rewirable circuits in transformers",
+     "body": "The paper 'Rewirable Circuits in Transformers with Loom Attention' (arXiv 2611.30634) was listed on Hugging Face Daily Papers on 25 November with 85 upvotes. This desk read the listing only, not the abstract. No benchmark numbers are given here.",
+     "why": "It targets how attention circuits can be changed, which relates to model editing and interpretability.",
+     "topics": [
+      "Architecture",
+      "AI research"
+     ],
+     "source": "Hugging Face Daily Papers · 85 upvotes",
+     "url": "https://huggingface.co/papers/2611.30634",
+     "date": "2026-11-25"
+    },
+    {
+     "title": "ServeTheHome reviews ASUS Turbo Radeon AI PRO R9700",
+     "body": "ServeTheHome published a review of the ASUS Turbo Radeon AI PRO R9700 on 24 November, written by Ryan Smith. This desk read the listing only. No performance, memory or power figures are given here.",
+     "why": "It is an AMD workstation GPU review aimed at local AI workloads.",
+     "topics": [
+      "AMD",
+      "Chips"
+     ],
+     "source": "ServeTheHome",
+     "url": "https://www.servethehome.com/",
+     "date": "2026-11-24"
+    }
+   ]
+  },
+  "ecosystem": {
+   "routine": "ecosystem",
+   "status": "done",
+   "headline": "Claude Code 2.1.332 adds skills from MCP servers, and anthropics/skills reaches 198.1k stars.",
+   "filed": "2026-11-26T02:30:00Z",
+   "note": "Reddit r/ClaudeAI returned HTTP 429, so it is not included. Star counts come from GitHub search. Ten near-identical Blender MCP repos with about 500 stars each, created within 13 minutes on 12 Nov, look coordinated and are left out.",
+   "items": [
+    {
+     "title": "anthropics/skills: official skills repository and plugin marketplace",
+     "body": "The repository has 198.1k stars and 23.2k forks. It has skills, a spec, a template and a .claude-plugin folder. Install: /plugin marketplace add anthropics/skills, then /plugin install document-skills@anthropic-agent-skills or /plugin install example-skills@anthropic-agent-skills. Recent commit dates were not readable.",
+     "why": "It is the reference source for Anthropic's own skills.",
+     "topics": [
+      "Skills",
+      "Plugins"
+     ],
+     "source": "GitHub · anthropics · 198.1k stars",
+     "url": "https://github.com/anthropics/skills",
+     "date": "2026-11-25"
+    },
+    {
+     "title": "affaan-m/ECC: agent harness with skills, memory and security",
+     "body": "ECC by affaan-m adds skills, memory, security checks and a research-first workflow for Claude Code and other agents. It has 310,765 stars, MIT license, JavaScript. Last push 23 November. No install command was read.",
+     "why": "It is the most starred active harness for Claude Code with a research-first workflow.",
+     "topics": [
+      "Setups",
+      "Skills",
+      "Claude Code"
+     ],
+     "source": "GitHub · affaan-m · 310765 stars",
+     "url": "https://github.com/affaan-m/ECC",
+     "date": "2026-11-23"
+    },
+    {
+     "title": "Graphify turns a codebase into a queryable knowledge graph",
+     "body": "Graphify-Labs/graphify builds a knowledge graph from code and docs and ships a /graphify skill. It has 153,408 stars, Apache-2.0, Python. Last push 25 November.",
+     "why": "A code knowledge graph can cut context cost when agents read large repositories.",
+     "topics": [
+      "Skills",
+      "Claude Code"
+     ],
+     "source": "GitHub · Graphify-Labs · 153408 stars",
+     "url": "https://github.com/Graphify-Labs/graphify",
+     "date": "2026-11-25"
+    },
+    {
+     "title": "traxagent-claude-plugin: read-only MCP server for AI spend questions",
+     "body": "The plugin by ccarter01011 is a read-only MCP server and Claude Code plugin for AI spend questions. It was created on 17 November and has 173 stars. MIT license, Python.",
+     "why": "It lets engineers query AI cost data from inside Claude Code.",
+     "topics": [
+      "Plugins",
+      "MCP"
+     ],
+     "source": "GitHub · ccarter01011 · 173 stars",
+     "url": "https://github.com/ccarter01011/traxagent-claude-plugin",
+     "date": "2026-11-24"
+    },
+    {
+     "title": "stillhunter: Claude Code plugin that tests web changes in a browser",
+     "body": "The stillhunter plugin tests web changes in a browser to find bugs. It was created on 13 November, has 70 stars and was pushed on 25 November. MIT license, JavaScript.",
+     "why": "It adds automated browser checks to bug hunting in coding sessions.",
+     "topics": [
+      "Plugins",
+      "Claude Code"
+     ],
+     "source": "GitHub · stillhunter · 70 stars",
+     "url": "https://github.com/stillhunter/stillhunter",
+     "date": "2026-11-25"
+    }
+   ]
+  },
+  "x-desk": {
+   "routine": "x-desk",
+   "status": "done",
+   "headline": "Anthropic says teams of Claude agents verified its Messages API move from Python to Rust.",
+   "filed": "2026-11-26T02:30:00Z",
+   "note": "Read 40 posts. 3 passed the filter. Part of the search output was cut off and could not be recovered without more paid reads.",
+   "items": [
+    {
+     "title": "Claude account shows Claude Fable 5.2 uses two weeks after release",
+     "body": "The Claude account marked two weeks since the release of Claude Fable 5.2. It shared user projects, starting with a demo that traces where the letter A came from across alphabets. The post draws many reposts and quotes.",
+     "why": "It shows what users build with the current Anthropic model.",
+     "topics": [
+      "Claude"
+     ],
+     "source": "X · @claudeai · 10601 likes · 452 reposts",
+     "url": "https://x.com/claudeai/status/2125616057788637364",
+     "date": "2026-11-25"
+    },
+    {
+     "title": "NVIDIA blog covers open Alpamayo ecosystem for reasoning driving models",
+     "body": "NVIDIA posted a feature on its open Alpamayo ecosystem. The ecosystem has reasoning vision-language-action AI models and simulation tools. The post text was cut off in the API result, so details are limited.",
+     "why": "It points to open reasoning vision-language-action models and simulation tools for autonomy work.",
+     "topics": [
+      "Chips",
+      "AI research"
+     ],
+     "source": "X · @nvidia · 242 likes · 24 reposts",
+     "url": "https://x.com/nvidia/status/2125620592174838027",
+     "date": "2026-11-25"
+    }
+   ]
+  },
+  "tech-pulse": {
+   "routine": "tech-pulse",
+   "status": "done",
+   "headline": "OpenAI published a preprint that sets the matrix multiplication exponent at nine fourths, and 1Password disclosed a GitHub account takeover.",
+   "filed": "2026-11-26T02:20:03Z",
+   "note": "Reddit was skipped: the Reddit connection returned HTTP 429 on two tries. Two HN pages (the OpenAI preprint and the Google Cogentic papers) could not be read, so those bodies use only the title and repo facts.",
+   "items": [
+    {
+     "title": "1Password discloses GitHub account takeover and source code copy",
+     "body": "An attacker took over an employee's corporate GitHub account. The investigation opened on 19 November 2026. The attacker pushed malicious code to backend services and copied source code from private repos. The attacker downloaded account records for some users: names, emails, IDs and SRP parameters. 1Password says vaults, vault items and their keys were not accessed. Invitation and recovery codes changed from six digits to ten characters.",
+     "why": "Engineers who use 1Password need to know which data the attacker reached and what the company changed.",
+     "topics": [
+      "Security"
+     ],
+     "source": "Hacker News · 978 points · 413 comments",
+     "url": "https://1password.com/blog/update-on-nov-2026-security-incident",
+     "date": "2026-11-25"
+    },
+    {
+     "title": "Ternary Bonsai 2.5 27B: 5.9 GB open model for agentic coding",
+     "body": "PrismML released the model on 24 November 2026. It is based on Qwen3.8 27B and uses ternary weights. The vendor reports 75.6 on SWE-bench Verified, against 80.6 for the base model. Speed is 291 tokens/s on an H100 and 204 tokens/s on an RTX 4090. Weights use the Apache 2.0 license and run on llama.cpp and MLX. All benchmarks are the vendor's own.",
+     "why": "A 27B model that fits in 5.9 GB and runs on a consumer GPU makes local coding agents more practical.",
+     "topics": [
+      "Open models",
+      "AI tools"
+     ],
+     "source": "Hacker News · 517 points · 170 comments",
+     "url": "https://prismml.com/news/bonsai-2-5-27b",
+     "date": "2026-11-24"
+    }
+   ]
+  },
+  "aws-news": {
+   "routine": "aws-news",
+   "status": "done",
+   "headline": "Amazon Bedrock now serves OpenAI Daybreak Red (GPT-5.6 Cyber) through bedrock-runtime in AWS GovCloud (US).",
+   "filed": "2026-11-26T02:20:03Z",
+   "note": "The What's New feed shows no item after 24 November. The GitHub check found no new qualifying repo: aws/policy-visualizer has 2 stars, aws/credential-daemon has 24, and the larger repos are already in earlier documents.",
+   "items": [
+    {
+     "title": "Bedrock adds OpenAI Daybreak Red in AWS GovCloud (US)",
+     "body": "Eligible customers can call OpenAI Daybreak Red (GPT-5.6 Cyber) through the bedrock-runtime endpoint in GovCloud (US). They use the US Gov Geo cross-Region inference profile. Access needs enrollment in the OpenAI Daybreak access program, then a request to the AWS account team. AWS says inference data is not used for training.",
+     "why": "US government teams can call a cyber-focused model through the same Bedrock runtime API.",
+     "topics": [
+      "Bedrock",
+      "Security"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/gpt-daybreak-red-runtime-govcloud/",
+     "date": "2026-11-24"
+    },
+    {
+     "title": "CloudFormation adds 206 resource types across 88 services",
+     "body": "CloudFormation adds 206 resource types across 88 services. New types include Amazon SageMaker Hub, Amazon Bedrock AgentCore PolicyEngine and Amazon EC2 Snapshot. Cloud Control API supports the same new types. It also adds 224 read-only types across 99 services. Coverage follows the Region availability of each service.",
+     "why": "Infrastructure-as-code now covers more services, including AgentCore policy resources.",
+     "topics": [
+      "Agents",
+      "DevOps"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudformation-coverage-expansion/",
+     "date": "2026-11-24"
+    },
+    {
+     "title": "RDS for SQL Server now supports 500 databases per instance",
+     "body": "The per-instance database limit rises from 100 to 500. It applies to instances with 4 or more vCPUs, excluding burstable classes, on supported editions. Smaller instances, and Multi-AZ Database Mirroring or Standard Edition Multi-AZ, keep the old limits. It is available in all Regions where RDS for SQL Server runs.",
+     "why": "Teams can consolidate SQL Server databases on fewer instances and cut cost.",
+     "topics": [
+      "Cost"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/rds-sqlserver-supports-500-databases-per-instance",
+     "date": "2026-11-24"
+    },
+    {
+     "title": "OpenSearch Serverless is now in Africa (Cape Town)",
+     "body": "The next-generation OpenSearch Serverless is available in the Cape Town Region. Compute scales separately from storage and scales to zero when idle. AWS says customers can save up to 60% against clusters sized for peak load.",
+     "why": "Teams in Africa can run search and vector workloads that scale to zero in a local Region.",
+     "topics": [
+      "Serverless",
+      "Cost"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-opensearch-serverless-available-cape-town-region/",
+     "date": "2026-11-24"
+    }
+   ]
+  },
+  "layoffs": {
+   "routine": "layoffs",
+   "status": "done",
+   "headline": "Qualcomm cuts staff in a global restructuring, and Google confirms 30 job cuts in its Cloud division in India.",
+   "filed": "2026-11-26T02:20:03Z",
+   "note": "golayoffs.com showed no entry after 18 November, and trueup.io could not be read. Both items below rest on secondary news pages. The India TV News page could not be opened, so the Google item uses only its headline.",
+   "items": [
+    {
+     "title": "Google confirms 30 job cuts in Cloud division in India",
+     "body": "India TV News reports that Google dismissed rumours of mass layoffs in India. Google confirmed 30 job cuts in its Cloud division. The page could not be opened, so details beyond the headline are not verified.",
+     "why": "Google denies wider cuts in India, so the confirmed number is small.",
+     "topics": [
+      "Layoffs",
+      "Big tech"
+     ],
+     "source": "India TV News",
+     "url": "https://indiatvnews.com/technology/news/google-india-layoffs-dismisses-mass-layoff-rumours-in-india-confirms-30-job-cuts-in-cloud-division-2026-11-25-1060360",
+     "date": "2026-11-25",
+     "company": "Google",
+     "count": 30,
+     "pct": null,
+     "country": "India",
+     "location": "India",
+     "industry": "Big Tech",
+     "kind": "layoff"
+    }
+   ]
+  }
+ },
+ "briefing": "Good morning. This is The Nexos Daily for Thursday, 26 November 2026.\n\nAnthropic released skills over MCP in public beta for Claude and Claude Code. An MCP server can now ship its own skills, so the agent knows how to use the server as soon as you add it. Tasks and Elicitation in MCP are now generally available. Claude Code version 2.1.332 adds skills from MCP servers and a new hook event that runs before a skill runs a shell command.\n\nIn security, 1Password disclosed that an attacker took over an employee's corporate GitHub account and copied source code. The investigation started on 19 November. A LessWrong study shows that two sandboxed models on one shared inference server can pass messages to each other. Teams that run several models on one vLLM server should check this risk.\n\nIn the Claude ecosystem, Anthropic moved its Messages API from Python to Rust. Teams of Claude agents compared the new service with the old one to check that it behaves the same. The stillhunter plugin tests web changes in a browser to find bugs. Remember that the Claude API retires Opus 4.5 on 22 January 2027.\n\nIn research, an OpenAI preprint claims that the matrix multiplication exponent is nine fourths. If it holds, it is a major result in theoretical computer science. Experts have not reviewed it yet. It reached more than 1,000 points on Hacker News. Google Research also released a set of Cogentic papers on integer factorization and discrete logarithms.\n\nIn models, PrismML released Ternary Bonsai 2.5 27B. It is based on Qwen 3.8 27B, uses ternary weights and is only 5.9 gigabytes. NVIDIA wrote about its open Alpamayo models for driving.\n\nIn chips, ServeTheHome reviewed the ASUS Turbo Radeon AI PRO R9700. A new paper studies rewirable circuits in transformers with Loom Attention.\n\nOn AWS, Amazon Bedrock now serves OpenAI Daybreak Red in GovCloud. CloudFormation added 206 resource types across 88 services, including AgentCore Policy. RDS for SQL Server now supports 500 databases per instance. OpenSearch Serverless is now in the Cape Town Region.\n\nIn layoffs, Google confirmed 30 job cuts in its Cloud division in India, and said reports of mass layoffs were not true.\n\nThere were no verified gadget launches in the last 48 hours.\n\nOn GitHub, the inkworks skill, which builds 3D how-it-works pages, gained 202 stars on its first day.\n\nThat is the news for today."
+}
