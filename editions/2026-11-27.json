@@ -1,0 +1,446 @@
+{
+ "date": "2026-11-27",
+ "generated": "2026-11-27T02:51:59Z",
+ "sections": {
+  "tech-news": {
+   "routine": "tech-news",
+   "status": "done",
+   "headline": "Karpathy: Opus 5.5 built a US data game map in 7 hours",
+   "filed": "2026-11-27T02:18:30Z",
+   "note": "No new major-lab model launch found for 2026-11-26. Sources for model launch pages showed no entries in the window.",
+   "items": [
+    {
+     "title": "Karpathy: Opus 5.5 built a US data game map in 7 hours",
+     "body": "Andrej Karpathy asked Claude to fill a Civilization-style game map with real US data. Opus 5.5 downloaded and parsed data from 31 sources, including Census, BEA, BLS, EIA, NOAA, USGS, FAA and FEMA. The run took 7 hours and produced 45,000 lines of code. He reports that the result works.",
+     "why": "It shows a long-running agent task that pulls many public data APIs and writes a large code base alone.",
+     "topics": [
+      "Claude",
+      "Agents"
+     ],
+     "source": "X · @karpathy · 24472 likes · 2016 reposts",
+     "url": "https://x.com/karpathy/status/2125779541952246039",
+     "date": "2026-11-26",
+     "also": [
+      {
+       "section": "Trending on X",
+       "source": "X · @karpathy · 24472 likes · 2016 reposts",
+       "url": "https://x.com/karpathy/status/2125779541952246039"
+      }
+     ]
+    },
+    {
+     "title": "Google makes Workspace MCP servers mandatory for AI agents from Feb 2027",
+     "body": "On 24 Nov Google made eight Workspace MCP servers generally available. From 1 Feb 2027 the API terms require tools that are or are driven by an AI agent to use these servers. The Gmail server cannot send, reply, forward or edit drafts. Those tools are partner-only. The free tier allows 5,000 requests per project per product per day. A Gmail search_threads call counts as 10. Paid tier billing starts 1 Apr 2027. Training on Workspace data is banned.",
+     "why": "Agent builders must move Gmail, Calendar and Drive access to Google MCP servers and plan for quotas.",
+     "topics": [
+      "MCP",
+      "Agents",
+      "AI policy"
+     ],
+     "source": "TechStackups (Hacker News, 205 points)",
+     "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
+     "date": "2026-11-26",
+     "also": [
+      {
+       "section": "Pulse",
+       "source": "Hacker News · 205 points · 185 comments",
+       "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/"
+      }
+     ]
+    },
+    {
+     "title": "OpenAI cuts GPT-6.2 usage limits for Astra and Sol",
+     "body": "A post by an OpenAI engineer says Astra reaches limits 40% faster and Sol 25% faster. The post led Hacker News with 460 points. A separate blog says GPT-6.2 uses fewer output and reasoning tokens per task than earlier models. That blog is one independent analysis. GPT-6.2 API prices per 1M tokens: Astra $8 input and $40 output, Sol $2 input and $10 output. OpenAI rolled out GPT-6.2 on 17 Nov.",
+     "why": "Codex and ChatGPT Work users reach limits sooner, so teams must plan capacity and API cost.",
+     "topics": [
+      "OpenAI",
+      "New models"
+     ],
+     "source": "Hacker News · X · @thsottiaux · micjm.com",
+     "url": "https://micjm.com/blog/openai-is-in-cost-control-mode/",
+     "date": "2026-11-26"
+    },
+    {
+     "title": "Google ships open-source Gemini API CLI for coding agents",
+     "body": "Logan Kilpatrick says the Gemini API CLI shipped a few weeks ago. It is open source and needs only an API key. Google wants coding agents of any brand to use Gemini Neon and its other models through it. Gemini 4 Neon is also shown in Antigravity with a Rube Goldberg machine demo.",
+     "why": "Any coding agent can call Gemini 4 Neon and other Gemini models from the command line with an API key.",
+     "topics": [
+      "Gemini",
+      "Agents",
+      "AI tools"
+     ],
+     "source": "X · @OfficialLoganK · 3458 likes · 169 reposts",
+     "url": "https://x.com/OfficialLoganK/status/2125681386388422775",
+     "date": "2026-11-25",
+     "also": [
+      {
+       "section": "Trending on X",
+       "source": "X · @OfficialLoganK · 3458 likes · 169 reposts",
+       "url": "https://x.com/OfficialLoganK/status/2125681386388422775"
+      }
+     ]
+    },
+    {
+     "title": "Reddit post: Sonnet 4.6 leaves Claude chat on 8 December",
+     "body": "A post in r/ClaudeAI shows a screenshot that says Sonnet 4.6 in Claude chat ends on 8 December. The post has 86 points. This run did not find an Anthropic page that confirms the date. Check the Anthropic deprecation page before you act.",
+     "why": "Teams that rely on Sonnet 4.6 in chat must move to a newer model before that date.",
+     "topics": [
+      "Claude",
+      "New models"
+     ],
+     "source": "Reddit · r/ClaudeAI · 86 points",
+     "url": "https://www.reddit.com/r/ClaudeAI/comments/1y5s4ll/sonnet_46_in_claude_chat_is_going_away_on_8th_of/",
+     "date": "2026-11-26"
+    }
+   ]
+  },
+  "chips": {
+   "routine": "chips",
+   "status": "done",
+   "headline": "Nvidia parts accept 45°C liquid inlet temperature, which can remove chillers from AI data centers.",
+   "filed": "2026-11-27T02:18:30Z",
+   "note": "The NVIDIA newsroom showed no dated hardware launch in the last 48 hours.",
+   "items": [
+    {
+     "title": "45°C liquid inlets can remove chillers from AI data centers",
+     "body": "The Register reports that Nvidia parts accept 45°C liquid inlet temperature. Typical liquid-cooled systems use 30-35°C. The article estimates cooling energy falls 50-70% against a chiller-plus-tower plant. That is a 10-20% cut in total data-center power. It estimates water use falls 80-95%. AMD, Intel and Arm had made no public 45°C commitment. These figures are the author's estimates.",
+     "why": "Warmer coolant cuts cooling power and water use in AI clusters, which lowers data-center running cost.",
+     "topics": [
+      "NVIDIA",
+      "Data centers"
+     ],
+     "source": "The Register · Dan Olds (SC26 coverage)",
+     "url": "https://www.theregister.com/hpc/2026/11/26/45c-inlets-just-killed-the-chiller-most-people-havent-noticed-yet/5311831",
+     "date": "2026-11-26"
+    },
+    {
+     "title": "Qualcomm Oryon 3 P-cores reach 5 GHz with 9-wide decode",
+     "body": "Chips and Cheese analysed the Snapdragon X2 Elite Extreme. Oryon 3 P-cores run at 5 GHz, up 16% from 4.3 GHz on Oryon 1. Decode width is 9 micro-ops, up from 8. L1D is 96 KB. L2 is 16 MB per six-core cluster, up from 12 MB. The reorder buffer holds about 675 micro-ops. SPEC CPU2026 integer scores are desktop-level. FP is slightly behind Zen 5 and ahead of Intel. No power figures are given.",
+     "why": "It shows how Arm laptop and edge CPUs close the gap to x86 for local AI and developer workloads.",
+     "topics": [
+      "Chips",
+      "Architecture"
+     ],
+     "source": "Chips and Cheese · Chester Lam",
+     "url": "https://chipsandcheese.com/p/qualcomms-oryon-3-reaches-the-top",
+     "date": "2026-11-26"
+    },
+    {
+     "title": "AMD RDNA patches for llama.cpp raise local LLM speed",
+     "body": "The llama-cpp-rdna-boosts project applies patches to a pinned llama.cpp commit. One user ran a 27B Qwen-based model at Q6_K_L with multi-token prediction on an AMD R9700 in an eGPU. Prefill rose from about 700 to about 1300 tokens/s. Generation rose from about 35 to about 55 tokens/s. The author says results vary by setup. The post led to 264 Hacker News points.",
+     "why": "AMD GPUs give usable local inference for engineers who avoid NVIDIA hardware.",
+     "topics": [
+      "AMD",
+      "Chips"
+     ],
+     "source": "devnull.land (Hacker News, 264 points)",
+     "url": "https://devnull.land/amd-specific-llama-cpp",
+     "date": "2026-11-26",
+     "also": [
+      {
+       "section": "Pulse",
+       "source": "Hacker News · 264 points · 64 comments",
+       "url": "https://devnull.land/amd-specific-llama-cpp"
+      }
+     ]
+    },
+    {
+     "title": "Mixture-of-Loops Transformer tops Hugging Face daily papers",
+     "body": "ByteDance Seed published Mixture-of-Loops Transformer (arXiv 2611.34923). It ranks third on Hugging Face Daily Papers for 26 Nov. A related paper, DyLoMo-DiT, applies dynamic looped mixture-of-experts to diffusion transformers (2611.30844). This run read only the listing, not the papers. Read the paper for benchmark results.",
+     "why": "Looped transformers reuse layers, which can cut parameter count at the same depth of compute.",
+     "topics": [
+      "Architecture",
+      "AI research"
+     ],
+     "source": "Hugging Face Daily Papers · ByteDance Seed",
+     "url": "https://huggingface.co/papers",
+     "date": "2026-11-26"
+    }
+   ]
+  },
+  "ecosystem": {
+   "routine": "ecosystem",
+   "status": "done",
+   "headline": "Claude Code v2.1.332 lets MCP servers ship skills, while anthropics/skills holds 198.1k stars.",
+   "filed": "2026-11-27T02:18:30Z",
+   "note": "Star growth is not known. This run took one snapshot of GitHub star counts.",
+   "items": [
+    {
+     "title": "anthropics/skills: official public Agent Skills repository",
+     "body": "Anthropic's repository holds 198.1k stars and 23.2k forks. Folders cover Creative and Design, Development and Technical, Enterprise and Communication, and Document skills. It also holds the spec and a template. Install: /plugin marketplace add anthropics/skills",
+     "why": "It is the reference set of skills and the spec for Skills across Claude products.",
+     "topics": [
+      "Skills",
+      "Plugins"
+     ],
+     "source": "GitHub · anthropics · 198.1k stars",
+     "url": "https://github.com/anthropics/skills",
+     "date": "2026-11-26"
+    },
+    {
+     "title": "anthropics/claude-plugins-official lists Anthropic-managed plugins",
+     "body": "Anthropic manages this directory of Claude Code plugins. It has 48,359 stars. The last push was 26 Nov.",
+     "why": "It is the trusted source for Claude Code plugins in team setups.",
+     "topics": [
+      "Plugins",
+      "Claude Code"
+     ],
+     "source": "GitHub · anthropics · 48,359 stars",
+     "url": "https://github.com/anthropics/claude-plugins-official",
+     "date": "2026-11-26"
+    },
+    {
+     "title": "destructive_command_guard blocks dangerous shell commands",
+     "body": "Dicklesworthstone wrote this Rust safety hook. It blocks destructive shell, git and filesystem commands. It has 6,380 stars. The last push was 26 Nov. The source gave no install command.",
+     "why": "A hook-based guard reduces the risk of agents deleting files or rewriting git history.",
+     "topics": [
+      "Hooks",
+      "Claude Code"
+     ],
+     "source": "GitHub · Dicklesworthstone · 6,380 stars",
+     "url": "https://github.com/Dicklesworthstone/destructive_command_guard",
+     "date": "2026-11-26"
+    },
+    {
+     "title": "context-mode keeps tool output out of the context window",
+     "body": "mksglu wrote this local plugin. It keeps tool output out of the agent context window. It has 34,526 stars. The last push was 26 Nov.",
+     "why": "It lowers token use in long agent sessions that read large logs and files.",
+     "topics": [
+      "Plugins",
+      "Claude Code"
+     ],
+     "source": "GitHub · mksglu · 34,526 stars",
+     "url": "https://github.com/mksglu/context-mode",
+     "date": "2026-11-26"
+    },
+    {
+     "title": "Graphify turns a code base into a queryable knowledge graph",
+     "body": "Graphify-Labs publishes graphify, with a /graphify skill for Claude Code, Cursor, Codex and Gemini CLI. It builds a knowledge graph from a code base and its docs. It has 153,878 stars. The last push was 26 Nov.",
+     "why": "A graph of code and docs helps agents navigate large repositories.",
+     "topics": [
+      "Skills",
+      "Claude Code"
+     ],
+     "source": "GitHub · Graphify-Labs · 153,878 stars",
+     "url": "https://github.com/Graphify-Labs/graphify",
+     "date": "2026-11-26"
+    }
+   ]
+  },
+  "x-desk": {
+   "routine": "x-desk",
+   "status": "done",
+   "headline": "Karpathy says Claude Opus 5.5 built a Civilization-style US data map in 7 hours with 45,000 lines of code.",
+   "filed": "2026-11-27T02:18:30Z",
+   "note": "Read 28 posts across 3 searches. 4 posts passed the filter. Search 2 results had fewer than 20 likes each.",
+   "items": [
+    {
+     "title": "Gemini 4 Neon builds a pinball Rube Goldberg demo in Antigravity",
+     "body": "Google DeepMind shows Gemini 4 Neon coding a Rube Goldberg machine inside a 1980s arcade. The build uses simulated physics and a Lyria 3.5 synth track. The chain runs through pinball bumpers and lights glass tubes. It was made in Antigravity.",
+     "why": "It shows Gemini 4 Neon on a multi-part code task with physics and audio.",
+     "topics": [
+      "Gemini",
+      "AI tools"
+     ],
+     "source": "X · @GoogleDeepMind · 1544 likes · 111 reposts",
+     "url": "https://x.com/GoogleDeepMind/status/2125694207197110560",
+     "date": "2026-11-25"
+    },
+    {
+     "title": "Google AI Studio posts Gemini 4 best-practices guide",
+     "body": "Google AI Studio links a best-practices guide for building with Gemini 4. Two Google engineers, Genevieve H. and Patrick Loeber, wrote it. The post targets builders who work over the holiday.",
+     "why": "The guide gives prompt and API practices from the Gemini team for builders.",
+     "topics": [
+      "Gemini",
+      "AI tools"
+     ],
+     "source": "X · @GoogleAIStudio · 684 likes · 46 reposts",
+     "url": "https://x.com/GoogleAIStudio/status/2125665558372732942",
+     "date": "2026-11-25"
+    }
+   ]
+  },
+  "gadgets": {
+   "routine": "gadgets",
+   "status": "done",
+   "headline": "Vivo launches the Watch GT 2 in India at Rs 14,999.",
+   "filed": "2026-11-27T02:20:22Z",
+   "note": "Gadgets360 and GSMArena listing pages could not be read, so coverage is limited to one confirmed launch. Vivo X500 India prices were only leaks and were skipped.",
+   "items": [
+    {
+     "title": "Vivo Watch GT 2 launches in India at Rs 14,999",
+     "body": "Vivo Watch GT 2 has a 2.07-inch AMOLED display (432 x 514, 2,400 nits peak), an aluminium frame and 5ATM water resistance. Vivo claims up to 25 days of battery in maximum Bluetooth use, 17 days in standard use and 14 days with always-on display. It runs BlueOS 3.0, has NFC and over 100 sports modes. Pre-orders are open on the Vivo India store and Flipkart. First sale is on 3 December.",
+     "why": "Vivo enters the Indian smartwatch market with a 25-day battery claim.",
+     "topics": [
+      "Wearables"
+     ],
+     "source": "Business Today",
+     "url": "https://www.businesstoday.in/technology/news/story/vivo-enters-indias-smartwatch-market-with-watch-gt-2-amoled-display-25-day-battery-life-and-more-569693-2026-11-26",
+     "date": "2026-11-26"
+    }
+   ]
+  },
+  "tech-pulse": {
+   "routine": "tech-pulse",
+   "status": "done",
+   "headline": "Scott Aaronson reports claimed AI-made math results, with 1,970 points on Hacker News.",
+   "filed": "2026-11-27T02:20:22Z",
+   "note": "Reddit read through Composio. HN data came from the 2026-11-26 front page; counts are fetch-time snapshots.",
+   "items": [
+    {
+     "title": "Scott Aaronson reports claimed AI-made math proofs",
+     "body": "Aaronson's post of 25 Nov says OpenAI proved a lower bound of 9/4 for the matrix multiplication exponent. It also mentions a claimed VP ≠ VNP proof and a Riemann Hypothesis proof with Anthropic involvement. He treats these as claims and notes that rumors of a classical factoring result are circulating. The results are not independently confirmed.",
+     "why": "Claimed AI results in complexity theory may change how researchers use AI models.",
+     "topics": [
+      "AI research",
+      "OpenAI"
+     ],
+     "source": "Hacker News · 1,970 points · 1,797 comments",
+     "url": "https://news.ycombinator.com/item?id=50646108",
+     "date": "2026-11-26"
+    },
+    {
+     "title": "GigaChat 4 open models released by Sber",
+     "body": "Sber released GigaChat 4 in two sizes: 708B-A41B and 37B-A4B. Two posts in r/LocalLLaMA discuss the release. Details on license and benchmarks were not checked in this run.",
+     "why": "Two large open models, 708B and 37B, are new options for local and self-hosted use.",
+     "topics": [
+      "Open models"
+     ],
+     "source": "r/LocalLLaMA · 330 upvotes · 279 comments",
+     "url": "https://www.reddit.com/r/LocalLLaMA/comments/1y5xdc3/sber_russias_largest_bank_has_released_gigachat_4/",
+     "date": "2026-11-26"
+    },
+    {
+     "title": "minipg packages PostgreSQL 18 as one executable",
+     "body": "minipg runs the postgres:18-alpine image through the h9 runtime and manages a .pgdb directory. It supports Linux x86_64 and arm64 and macOS on Apple silicon. It uses the MIT license and builds with Zig 0.16. The author says it is early and about 2x slower than native for one client on the native backend.",
+     "why": "Developers can run Postgres for tests and tools without Docker or a VM image.",
+     "topics": [
+      "DevOps",
+      "AI tools"
+     ],
+     "source": "Hacker News · 288 points · 44 comments",
+     "url": "https://progrium.github.io/minipg/",
+     "date": "2026-11-26"
+    }
+   ]
+  },
+  "aws-news": {
+   "routine": "aws-news",
+   "status": "done",
+   "headline": "AWS Lambda durable functions can now orchestrate MicroVMs in developer preview.",
+   "filed": "2026-11-27T02:20:22Z",
+   "note": "AWS GitHub check found no new qualifying repos: aws-emulator, ai-eval-studio, uaef, codekb and aws-emulator-evaluation-suite were already reported, and repo READMEs could not be opened in this run. Feed showed no items dated 26 or 27 Nov.",
+   "items": [
+    {
+     "title": "Lambda durable functions can orchestrate Lambda MicroVMs",
+     "body": "A developer preview extension lets Lambda durable functions manage Lambda MicroVMs and run each task as a durable operation. It works with the AWS Durable Execution SDK for TypeScript and Python. AWS says preview features may change and should not go into production.",
+     "why": "Agent-generated or untrusted code can run in isolated VMs with checkpoints and retries.",
+     "topics": [
+      "Serverless",
+      "Agents"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/lambda-durable-microvm/",
+     "date": "2026-11-25"
+    },
+    {
+     "title": "Elastic Load Balancing for Envoy is generally available",
+     "body": "The new load balancer type runs open-source Envoy on dedicated, Nitro-isolated EC2 instances. AWS handles CVE monitoring and patching of Envoy and the OS. It supports existing Envoy configs, WebAssembly, Lua, ACM and AWS WAF. It is GA in 14 Regions, including Asia Pacific (Mumbai). Hyderabad is not listed.",
+     "why": "Teams can run managed Envoy proxies in their VPC, including in Mumbai.",
+     "topics": [
+      "Containers",
+      "Kubernetes"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/elastic-load-balancing-for-envoy-generally-available",
+     "date": "2026-11-25"
+    },
+    {
+     "title": "IAM extends trusted identity propagation to federation",
+     "body": "Trusted identity propagation now covers IAM federation and IAM Roles Anywhere. IAM Identity Center adds the username next to the generated user ID. AWS also introduces IAM outbound identity federation, which issues AWS-signed JWTs with the identity. It is available in all commercial Regions, GovCloud (US) and the AWS European Sovereign Cloud (Germany).",
+     "why": "Identity from SAML, OIDC and X.509 now carries into role sessions.",
+     "topics": [
+      "Security"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-iam/",
+     "date": "2026-11-25"
+    },
+    {
+     "title": "Amazon Transcribe Turbo enters public preview",
+     "body": "Transcribe Turbo is in public preview in US East (Ohio) for batch and streaming. Streaming covers English, Portuguese, French, Italian, German and Spanish. Semantic turn-taking and runtime ASR hints have no additional charge, English first, other languages by end of December 2026. AWS states a response time of about 615 ms.",
+     "why": "Voice agents get more accurate transcripts and turn-taking at no extra charge.",
+     "topics": [
+      "Agents"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/transcribe-turbo-preview/",
+     "date": "2026-11-25"
+    },
+    {
+     "title": "Graviton5 instances M9g, C9g, C9gd and M9gd reach more Regions",
+     "body": "M9g is now in US West (N. California), Canada (Central), São Paulo and Seoul. C9g is in Sydney, Ireland, Spain and São Paulo. C9gd is in Ireland and Spain. M9gd is in Seoul and is the first instance type with the Nitro Isolation Engine. AWS claims up to 25% better performance than the previous generation.",
+     "why": "Graviton5 capacity is now in more Regions for compute and memory workloads.",
+     "topics": [
+      "Cost",
+      "Containers"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-ec2-m9g-instances-additional-regions/",
+     "date": "2026-11-25"
+    },
+    {
+     "title": "AWS Device Farm adds Android emulators and iOS simulators",
+     "body": "Device Farm now runs virtual Android emulators and iOS simulators next to real devices in all Regions where it is offered. Virtual devices use existing metered pricing. Existing unmetered Android slots can run a real or virtual device at no additional charge.",
+     "why": "Mobile test teams can mix virtual and real devices in one service.",
+     "topics": [
+      "DevOps"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/device-farm-virtual-devices/",
+     "date": "2026-11-25"
+    },
+    {
+     "title": "CloudWatch Omni integrates with PagerDuty",
+     "body": "CloudWatch Omni alerts can create PagerDuty incidents that follow existing schedules and escalation policies. Alerts carry severity, the affected service and a link to the Omni data. Regional availability is in the Omni supported Regions doc.",
+     "why": "Omni alerts can open PagerDuty incidents that follow on-call rules.",
+     "topics": [
+      "DevOps"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cloudwatch-omni-pagerduty/",
+     "date": "2026-11-25"
+    }
+   ]
+  },
+  "layoffs": {
+   "routine": "layoffs",
+   "status": "done",
+   "headline": "SAP reportedly plans to cut at least 10,000 jobs, more than 9% of staff.",
+   "filed": "2026-11-27T02:20:22Z",
+   "note": "TrueUp could not be read and GoLayoffs showed no new entries. SAP count is a report, not a company confirmation. Country is set to Germany for the HQ; the cut split is not published.",
+   "items": [
+    {
+     "title": "SAP reportedly plans at least 10,000 job cuts",
+     "body": "Bloomberg, citing sources, reports SAP weighs cutting at least 10,000 positions, over 9% of staff. SAP has not confirmed a plan. It said only that it continuously reviews its organization. Product, engineering and sales units are expected to see the largest cuts. Timing and country split are not known.",
+     "why": "A large enterprise-software cut tied to AI restructuring may change product and sales capacity.",
+     "topics": [
+      "Layoffs",
+      "Big tech"
+     ],
+     "source": "Bloomberg via SiliconANGLE",
+     "url": "https://siliconangle.com/2026/11/26/sap-reportedly-plans-to-lay-off-10000-employees-amid-ai-push/",
+     "date": "2026-11-26",
+     "company": "SAP",
+     "count": 10000,
+     "pct": 9,
+     "country": "Germany",
+     "location": "",
+     "industry": "Enterprise software",
+     "kind": "layoff"
+    }
+   ]
+  }
+ },
+ "briefing": "Good morning. This is The Nexos Daily for Friday, 27 November 2026.\n\nAndrej Karpathy asked Claude Opus 5.5 to fill a game map in the style of Civilization with real United States data. In about 7 hours and 45 minutes, the model downloaded and parsed 31 public data sources and wrote about 45 thousand lines of code. His post had more than 24 thousand likes on X.\n\nOn Hacker News, the top post was by Scott Aaronson about math results that AI systems claim to have made. It includes OpenAI's matrix multiplication result from earlier this week. The thread had almost 2,000 points. Experts still have to check these claims.\n\nIn platform news, Google made eight Workspace MCP servers generally available. From 1 February 2027, tools that agents drive must reach Workspace data through these servers. Teams that build agents on Gmail, Drive or Calendar data must plan the change.\n\nIn the Claude ecosystem, Anthropic's skills repository has about 198 thousand stars, and its plugin directory has more than 48 thousand. A post on the Claude subreddit shows that Sonnet 4.6 will leave Claude chat on 8 December. Anthropic has not confirmed this in the post.\n\nIn models, an OpenAI engineer says GPT 6.2 Astra now reaches usage limits 40 percent faster and Sol 25 percent faster. Google's open-source Gemini API CLI lets any coding agent use Gemini 4 Neon. Sber released GigaChat 4 open models in two sizes, the larger with 708 billion parameters.\n\nIn chips, NVIDIA parts accept liquid cooling at 45 degrees Celsius at the inlet. This can remove chillers from AI data centers. Qualcomm's Oryon 3 cores reach 5 gigahertz with a 9-wide decoder. New patches for llama.cpp make local models run faster on AMD RDNA GPUs. ByteDance published a Mixture of Loops Transformer.\n\nOn AWS, Lambda durable functions can now orchestrate Lambda MicroVMs in preview. Elastic Load Balancing for Envoy is generally available, and AWS patches it for you. IAM extends trusted identity propagation to federation. Transcribe Turbo is in preview. Graviton5 instances reach more Regions. Device Farm adds Android emulators and iOS simulators. CloudWatch Omni integrates with PagerDuty.\n\nIn layoffs, Bloomberg reports that SAP plans to cut at least 10 thousand jobs, more than 9 percent of its staff. SAP has not confirmed the plan.\n\nIn gadgets, Vivo launched the Watch GT 2 in India at 14,999 rupees.\n\nOn GitHub, the fastest new repo today is a script that sends opt-out requests to data brokers, with 406 stars.\n\nThat is the news for today."
+}

@@ -1,6 +1,11 @@
 {
  "editions": [
   {
+   "date": "2026-11-27",
+   "stories": 28,
+   "headline": "Karpathy: Opus 5.5 built a US data game map in 7 hours"
+  },
+  {
    "date": "2026-11-26",
    "stories": 24,
    "headline": "MCP servers can now ship skills; Tasks and Elicitation reach GA"

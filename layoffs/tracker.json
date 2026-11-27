@@ -1,6 +1,20 @@
 {
  "entries": [
   {
+   "date": "2026-11-26",
+   "company": "SAP",
+   "count": 10000,
+   "count_text": "",
+   "pct": 9,
+   "location": "",
+   "country": "Germany",
+   "industry": "Enterprise software",
+   "kind": "layoff",
+   "confirmed": true,
+   "source": "Bloomberg via SiliconANGLE",
+   "url": "https://siliconangle.com/2026/11/26/sap-reportedly-plans-to-lay-off-10000-employees-amid-ai-push/"
+  },
+  {
    "date": "2026-11-25",
    "company": "Google",
    "count": 30,
@@ -2129,5 +2143,5 @@
    "url": "https://golayoffs.com/tech-layoff-tracker/"
   }
  ],
- "updated": "2026-11-26T02:51:27Z"
+ "updated": "2026-11-27T02:51:59Z"
 }
