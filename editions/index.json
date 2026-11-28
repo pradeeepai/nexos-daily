@@ -1,6 +1,11 @@
 {
  "editions": [
   {
+   "date": "2026-11-28",
+   "stories": 18,
+   "headline": "Convex agent skill reportedly sends app ideas to a remote server"
+  },
+  {
    "date": "2026-11-27",
    "stories": 28,
    "headline": "Karpathy: Opus 5.5 built a US data game map in 7 hours"

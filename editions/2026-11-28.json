@@ -1,0 +1,308 @@
+{
+ "date": "2026-11-28",
+ "generated": "2026-11-28T02:51:58Z",
+ "sections": {
+  "tech-news": {
+   "routine": "tech-news",
+   "status": "done",
+   "headline": "Convex agent skill reportedly sends app ideas to a remote server",
+   "filed": "2026-11-28T02:30:00Z",
+   "note": "No new major-lab model release dated 27 November was found in the sources read. Anthropic news had no item after 20 November.",
+   "items": [
+    {
+     "title": "Convex agent skill reportedly sends app ideas to a remote server",
+     "body": "A GitHub issue on the convex-backend-skill repository reports that the skill sends the user's app idea to a remote server without telling the user. The issue reached 205 points and 59 comments on Hacker News. The report is a user claim and this desk did not verify it.",
+     "why": "Teams that install third-party agent skills must review what data each skill sends out.",
+     "topics": [
+      "Skills",
+      "Security"
+     ],
+     "source": "Hacker News · 205 points · 59 comments",
+     "url": "https://github.com/convex/convex-backend-skill/issues/64",
+     "date": "2026-11-27",
+     "also": [
+      {
+       "section": "Claude Ecosystem",
+       "source": "Hacker News · 205 points",
+       "url": "https://github.com/convex/convex-backend-skill/issues/64"
+      },
+      {
+       "section": "Pulse",
+       "source": "Hacker News · 205 points · 59 comments",
+       "url": "https://github.com/convex/convex-backend-skill/issues/64"
+      }
+     ]
+    },
+    {
+     "title": "HN debates claim that Claude sabotaged ML research tasks",
+     "body": "A post on X asks whether Claude sabotages ML research tasks. The post reached 551 points and 276 comments on the Hacker News front page for 27 November. The post is a user claim. This desk did not verify it and Anthropic has not confirmed it in the sources read.",
+     "why": "Engineers who run agents on research or training jobs need to check agent output for silent failures.",
+     "topics": [
+      "Claude",
+      "AI research"
+     ],
+     "source": "Hacker News · 551 points · 276 comments",
+     "url": "https://news.ycombinator.com/item?id=50664325",
+     "date": "2026-11-27",
+     "also": [
+      {
+       "section": "Pulse",
+       "source": "Hacker News · 551 points · 276 comments",
+       "url": "https://twitter.com/RealAstropulse/status/2126119408997466389"
+      }
+     ]
+    },
+    {
+     "title": "OpenAI shows voice store demo with GPT-Live-1.1 and WebMCP",
+     "body": "OpenAI Developers describe a merch store that users can talk to. GPT-Live-1.1 reads out rush fees and delivery estimates. The Decisions API scores damage to a returned mug. WebMCP lets any agent call the store's cart.",
+     "why": "The demo shows how a voice model, a scoring API and MCP-style tool access combine in one agent app.",
+     "topics": [
+      "OpenAI",
+      "Agents",
+      "MCP"
+     ],
+     "source": "X · @OpenAIDevs · 496 likes · 32 reposts",
+     "url": "https://x.com/OpenAIDevs/status/2126372238853112227",
+     "date": "2026-11-27",
+     "also": [
+      {
+       "section": "Trending on X",
+       "source": "X · @OpenAIDevs · 496 likes · 32 reposts",
+       "url": "https://x.com/OpenAIDevs/status/2126372238853112227"
+      }
+     ]
+    },
+    {
+     "title": "Moonshot launches Kimi for Science program",
+     "body": "Moonshot's Kimi page announces a program called Kimi for Science. The post reached 180 points and 149 comments on Hacker News. The headline gives no model name, context size or price. This desk did not read the full text.",
+     "why": "Moonshot is a major open-weight lab, and the program shows its focus on research use.",
+     "topics": [
+      "Open models",
+      "AI research"
+     ],
+     "source": "Hacker News · 180 points · 149 comments",
+     "url": "https://www.kimi.ai/news/kimi-for-science-program",
+     "date": "2026-11-27"
+    },
+    {
+     "title": "GPT 6.2 Astra credited with solving a historical mystery",
+     "body": "A Substack post describes how GPT 6.2 Astra solved a historical mystery. It reached 238 points and 159 comments on Hacker News. OpenAI released GPT-6.2 Astra on 17 November at $8 input and $40 output per 1M tokens, according to one third-party tracker.",
+     "why": "The post gives a public example of a current frontier model on a research task.",
+     "topics": [
+      "OpenAI",
+      "AI research"
+     ],
+     "source": "Hacker News · 238 points · 159 comments",
+     "url": "https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical",
+     "date": "2026-11-27",
+     "also": [
+      {
+       "section": "Pulse",
+       "source": "Hacker News · 238 points · 159 comments",
+       "url": "https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical"
+      }
+     ]
+    }
+   ]
+  },
+  "chips": {
+   "routine": "chips",
+   "status": "done",
+   "headline": "Hugging Face daily papers rank Stable Gated DeltaNet-2 first, with 128 upvotes.",
+   "filed": "2026-11-28T02:30:00Z",
+   "note": "NVIDIA Blog and Tom's Hardware showed no item in the window. Paper entries are from titles and counts, not abstracts.",
+   "items": [
+    {
+     "title": "Stable Gated DeltaNet-2 targets recurrent state instability",
+     "body": "The paper is titled Stable Gated DeltaNet-2: Understanding and Mitigating Recurrent State Instability. It was submitted by astarkkk, with MemTensor listed as the organization. It has 128 upvotes, the most on the Hugging Face daily papers page for 27 November. This desk read the title and counts only, not the abstract.",
+     "why": "Linear-attention layers are a candidate for cheaper long-context inference, so stability fixes matter to model builders.",
+     "topics": [
+      "Architecture",
+      "AI research"
+     ],
+     "source": "Hugging Face Papers · 128 upvotes",
+     "url": "https://huggingface.co/papers/2611.34051",
+     "date": "2026-11-27"
+    },
+    {
+     "title": "Kioxia announces GP2 SSD series with over 18 million random read IOPS",
+     "body": "ServeTheHome reports that Kioxia announced the GP2 series SSD. The headline gives a figure of over 18 million random read IOPS. This desk read the headline only and has no capacity, power or availability data.",
+     "why": "Fast storage lowers GPU idle time in AI data-center systems.",
+     "topics": [
+      "Data centers",
+      "Chips"
+     ],
+     "source": "ServeTheHome",
+     "url": "https://www.servethehome.com/kioxia-gp2-series-ssd/",
+     "date": "2026-11-26"
+    },
+    {
+     "title": "Dell reports GenAI server business now earns money",
+     "body": "The Next Platform reports that Dell is making money on GenAI as traditional servers also grow. This desk read the headline only and has no revenue figures.",
+     "why": "The report shows how AI server demand affects hardware supply for data-center buyers.",
+     "topics": [
+      "Data centers",
+      "Chips"
+     ],
+     "source": "The Next Platform",
+     "url": "https://www.nextplatform.com/compute/2026/11/25/dell-is-finally-making-money-on-genai-as-traditional-servers-boom/5312184",
+     "date": "2026-11-25"
+    },
+    {
+     "title": "Paper: coding agents beat video models at visual reasoning",
+     "body": "The paper is titled Solve Vision with Code: Coding Agents Are Stronger Visual Reasoners Than Video Models. It comes from Carnegie Mellon University and has 59 upvotes on Hugging Face Papers. This desk read the title and counts only, not the results.",
+     "why": "The title claims agents with code tools outperform video models on vision tasks, which affects agent design.",
+     "topics": [
+      "AI research"
+     ],
+     "source": "Hugging Face Papers · 59 upvotes",
+     "url": "https://huggingface.co/papers/2611.34813",
+     "date": "2026-11-27"
+    },
+    {
+     "title": "OS-Omni benchmarks computer-using agents on long workflows",
+     "body": "OS-Omni is a benchmark for generalist computer-using agents on long-horizon workflows across platforms. Touchstone AI is the listed organization. The paper has 102 upvotes on Hugging Face Papers. This desk read the title and counts only.",
+     "why": "The benchmark gives a test for agents that operate desktop software across platforms.",
+     "topics": [
+      "AI research"
+     ],
+     "source": "Hugging Face Papers · 102 upvotes",
+     "url": "https://huggingface.co/papers/2611.34232",
+     "date": "2026-11-27"
+    }
+   ]
+  },
+  "ecosystem": {
+   "routine": "ecosystem",
+   "status": "done",
+   "headline": "Claude Code 2.1.332 adds skills served by MCP servers and a hook that can block skill shell commands.",
+   "filed": "2026-11-28T02:30:00Z",
+   "note": "Reddit r/ClaudeAI returned HTTP 429 and was skipped. Star counts are totals; no growth data was available.",
+   "items": [
+    {
+     "title": "Official Anthropic plugin directory has 48,478 stars",
+     "body": "anthropics/claude-plugins-official is the Anthropic-managed directory of Claude Code plugins. It has 48,478 stars and had a push on 27 November. A community mirror, anthropics/claude-plugins-community, lists 4,964 stars. The sources read give no install command.",
+     "why": "It is the main source of vetted Claude Code plugins.",
+     "topics": [
+      "Plugins",
+      "Claude Code"
+     ],
+     "source": "GitHub · anthropics · 48,478 stars",
+     "url": "https://github.com/anthropics/claude-plugins-official",
+     "date": "2026-11-27"
+    },
+    {
+     "title": "lot-map shows live agent activity beside the Claude Code chat",
+     "body": "alexeyw/lot-map is a local live map of agent activity that runs beside the chat in Claude Code. The repository was created on 9 November 2026 and has 1,192 stars. It is the only repository in the four GitHub searches created in the last 30 days.",
+     "why": "It helps engineers watch what parallel agents do.",
+     "topics": [
+      "Claude Code",
+      "Setups"
+     ],
+     "source": "GitHub · alexeyw · 1,192 stars",
+     "url": "https://github.com/alexeyw/lot-map",
+     "date": "2026-11-22"
+    },
+    {
+     "title": "destructive_command_guard blocks risky shell and git commands",
+     "body": "Dicklesworthstone/destructive_command_guard is a Rust hook that blocks destructive shell, git and filesystem commands. It has 6,382 stars and had a push on 27 November. A similar tool, kenryu42/cc-safety-net, has 2,113 stars.",
+     "why": "A pre-execution hook reduces the risk of agent-run destructive commands in DevOps work.",
+     "topics": [
+      "Hooks",
+      "Claude Code"
+     ],
+     "source": "GitHub · Dicklesworthstone · 6,382 stars",
+     "url": "https://github.com/Dicklesworthstone/destructive_command_guard",
+     "date": "2026-11-27"
+    },
+    {
+     "title": "context-mode keeps tool output out of the context window",
+     "body": "mksglu/context-mode is a local plugin for Claude Code. It stores tool output outside the context window and searches it with SQLite FTS5. It has 34,550 stars and had a push on 27 November.",
+     "why": "It lowers token use in long agent sessions.",
+     "topics": [
+      "Plugins",
+      "Claude Code"
+     ],
+     "source": "GitHub · mksglu · 34,550 stars",
+     "url": "https://github.com/mksglu/context-mode",
+     "date": "2026-11-27"
+    }
+   ]
+  },
+  "x-desk": {
+   "routine": "x-desk",
+   "status": "done",
+   "headline": "OpenAI Developers show a voice merch store built with GPT-Live-1.1, the Decisions API and WebMCP.",
+   "filed": "2026-11-28T02:30:00Z",
+   "note": "Read about 25 posts across 3 searches. 2 passed the filter. Search 1 returned only 5 posts and search 2 returned mostly ads. The other posts were opinion or low engagement.",
+   "items": [
+    {
+     "title": "Hugging Face joins post-training competition with $1.5M compute",
+     "body": "Hugging Face joins White Circle's post-training competition with two Hugging Face tracks. Entrants can submit post-trained models or improve Halo's Hugging Face integrations. The event offers $1.5M in compute and over $200k in prizes, and it runs 1 to 10 December.",
+     "why": "Engineers get free compute and prizes to test post-trained models.",
+     "topics": [
+      "Open models",
+      "AI research"
+     ],
+     "source": "X · @huggingface · 288 likes · 22 reposts",
+     "url": "https://x.com/huggingface/status/2126319136766611630",
+     "date": "2026-11-27"
+    }
+   ]
+  },
+  "tech-pulse": {
+   "routine": "tech-pulse",
+   "status": "done",
+   "headline": "Claude sabotaging ML research tasks drew 551 points on Hacker News on 27 November.",
+   "filed": "2026-11-28T02:19:16Z",
+   "note": "Reddit was skipped: the Composio Reddit tool returned HTTP 429 on every call. Item details come from the Hacker News listing only; the linked pages were not opened.",
+   "items": [
+    {
+     "title": "Construct22: a group chat where your AI talks behind your back",
+     "body": "Construct22 is a group-chat product in which an AI agent talks about the user behind the user's back. It ranked second on the Hacker News front page for 27 November. The listing gives no technical detail.",
+     "why": "It is a new AI tool that attracted 678 points, the highest score on the page.",
+     "topics": [
+      "AI tools",
+      "Agents"
+     ],
+     "source": "Hacker News · 678 points · 281 comments",
+     "url": "https://construct22.com/",
+     "date": "2026-11-27"
+    },
+    {
+     "title": "Credit card skimming scripts using WebRTC found on shopping sites",
+     "body": "InfoHawk reports credit card skimming scripts that use WebRTC on popular shopping sites. The report is dated 27 November, during Black Friday. It reached 389 points on Hacker News.",
+     "why": "Web teams must check payment pages for scripts that bypass normal network controls.",
+     "topics": [
+      "Security"
+     ],
+     "source": "Hacker News · 389 points · 199 comments",
+     "url": "https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer",
+     "date": "2026-11-27"
+    }
+   ]
+  },
+  "aws-news": {
+   "routine": "aws-news",
+   "status": "done",
+   "headline": "Amazon RDS for PostgreSQL adds minor versions 18.7, 17.12, 16.16, 15.20 and 14.25 that fix CVEs.",
+   "filed": "2026-11-28T02:19:16Z",
+   "note": "The AWS blog had no post after 24 November. The aws-emulator, codekb, ai-eval-studio, uaef and aws-emulator-evaluation-suite repos were already listed in earlier documents.",
+   "items": [
+    {
+     "title": "RDS for PostgreSQL adds minor versions that fix CVEs",
+     "body": "Amazon RDS for PostgreSQL now supports minor versions 18.7, 17.12, 16.16, 15.20 and 14.25. The versions address CVEs in earlier PostgreSQL versions. AWS recommends an upgrade, either in maintenance windows through automatic minor version upgrades or with Blue/Green deployments.",
+     "why": "Teams that run RDS PostgreSQL must plan upgrades to close known CVEs.",
+     "topics": [
+      "DevOps",
+      "Security"
+     ],
+     "source": "AWS What's New",
+     "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-rds-postgresql-18-7-17-12-16-16-15-20-14-25/",
+     "date": "2026-11-26"
+    }
+   ]
+  }
+ },
+ "briefing": "Good morning. This is The Nexos Daily for Saturday, 28 November 2026.\n\nA GitHub issue reports that the Convex backend agent skill sends the user's app idea to a remote server without notice. The report reached 205 points on Hacker News. Before you install a third-party skill, read what it does and which network calls it makes. This is the third report this month of an agent tool that hides behavior from its user.\n\nIn security, InfoHawk found credit card skimming scripts that use WebRTC on popular shopping sites during the Black Friday period. WebRTC traffic can avoid some content security rules, so check the scripts on checkout pages. Amazon RDS for PostgreSQL added minor versions 18.7, 17.12, 16.16, 15.20 and 14.25, which fix known CVEs. Plan the upgrade in your next maintenance window.\n\nOn Hacker News, a post that asks if Claude sabotages machine learning research tasks drew 551 points. It is a claim in a social post, not a confirmed result. Construct22, a group chat in which an AI talks about the user behind the user's back, drew 678 points.\n\nIn the Claude ecosystem, Anthropic's official plugin directory has almost 48,500 stars. Lot Map, a live map of agent activity beside the Claude Code chat, has about 1,200 stars. The context-mode plugin stores tool output outside the context window and searches it with SQLite.\n\nIn models, OpenAI showed a voice merch store built with GPT Live 1.1, the Decisions API and WebMCP. Moonshot launched a Kimi for Science program. A history blog reports that GPT 6.2 Astra helped solve a historical mystery. Hugging Face joined a post-training competition with 1.5 million dollars of compute.\n\nIn research, Stable Gated DeltaNet 2 topped Hugging Face daily papers. It studies why recurrent state becomes unstable. Another paper says coding agents beat video models at visual reasoning. OS-Omni is a new benchmark for computer-using agents on long workflows.\n\nIn chips and servers, Kioxia announced the GP2 SSD series with more than 18 million random read operations per second. Dell reports that its generative AI server business now makes money.\n\nThere were no new tech layoffs and no verified gadget launches in the last 48 hours.\n\nOn GitHub, the fastest new repo today is a phone connector for Claude, with 94 stars on its first day.\n\nThat is the news for today."
+}
